@@ -1,0 +1,37 @@
+---
+# === Wyświetlane na stronie ===
+title: "Sentyment giełdowy - Świat"
+subtitle: "Analiza nastrojów na globalnych rynkach kapitałowych"
+date: today
+
+# === SEO - Meta tagi w <head> ===
+pagetitle: "Sentyment giełdowy - Świat | Analiza globalnych rynków kapitałowych"
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Sentyment giełdowy na światowych rynkach. Analiza nastrojów inwestorów na NYSE, NASDAQ, giełdach europejskich i azjatyckich. Wskaźnik VIX i przepływy kapitału.">
+      <meta name="keywords" content="sentyment giełdowy świat, NYSE, NASDAQ, VIX, indeks strachu, rynki globalne, giełdy światowe">
+      <link rel="canonical" href="https://domenarynku.pl/sentyment-gieldowy/swiat.html">
+---
+
+## Wprowadzenie
+
+Sentyment giełdowy na światowych rynkach - analiza nastrojów inwestorów na głównych giełdach świata.
+
+## Główne rynki
+
+### Stany Zjednoczone
+Analiza sentymentu na NYSE i NASDAQ.
+
+### Europa
+Nastroje inwestorów na głównych giełdach europejskich.
+
+### Azja
+Sentyment na rynkach azjatyckich.
+
+## Wskaźniki globalne
+
+- VIX (indeks strachu)
+- Przepływy kapitału
+- Poziom ryzyka
+

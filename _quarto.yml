@@ -2,20 +2,53 @@ project:
   type: website
 
 website:
-  title: "domenarynku"
+  title: "DomenaRynku.pl"
+  site-url: "https://domenarynku.pl"
+  favicon: images/domenarynku-logo.svg
+  open-graph: true
+  twitter-card: true
   navbar:
+    logo: images/domenarynku-logo.svg
+    title: false
+    left:
+      - href: index.qmd
+        text: Strona główna
+      - text: "Sentyment giełdowy"
+        menu:
+          - href: sentyment-gieldowy/polska.qmd
+            text: Polska
+          - href: sentyment-gieldowy/swiat.qmd
+            text: Świat
+      - text: "Indeksy"
+        menu:
+          - href: indeksy/indeks-trendow-gpw.qmd
+            text: Indeks trendów GPW
+          - href: indeksy/indeks-cenowy-top100.qmd
+            text: Indeks cenowy top 100 GPW
+      - href: spolki-gpw.qmd
+        text: Spółki GPW
     right:
-      - about.qmd
+      - href: about.qmd
+        text: O nas
       - icon: github
         href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+
+lang: pl
+      
 format:
   html:
     theme:
       - cosmo
-      - brand
     css: styles.css
+    toc: true
+    toc-depth: 3
+    language: _language-pl.yml
+    # === SEO - Meta tagi globalne ===
+    header-includes: |
+      <meta name="author" content="DomenaRynku.pl">
+      <meta name="robots" content="index, follow">
+      <meta name="googlebot" content="index, follow">
+      <link rel="canonical" href="https://domenarynku.pl">
 
 editor: visual
 

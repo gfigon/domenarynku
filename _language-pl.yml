@@ -1,0 +1,13 @@
+language:
+  title-block-categories: "Kategorie"
+  section-title-categories: "Kategorie"
+  category-all: "Wszystkie"
+  title-block-published: "Opublikowano"
+  title-block-modified: "Zmodyfikowano"
+  description: "Opis"
+  author: "Autor"
+  date: "Data"
+  search-text-placeholder: "Szukaj..."
+  search-button-title: "Szukaj"
+  search-clear-button-title: "Wyczyść"
+

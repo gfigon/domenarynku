@@ -1,12 +1,34 @@
 ---
-title: "About"
-image: profile.jpg
-about:
-  template: jolla
-  links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
+# === Wyświetlane na stronie ===
+title: "O nas"
+subtitle: "Portal świadomego inwestora"
+
+# === SEO - Meta tagi w <head> ===
+pagetitle: "O nas - DomenaRynku.pl | Portal świadomego inwestora"
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="DomenaRynku.pl to portal dla świadomych inwestorów. Profesjonalne analizy GPW, indeksy giełdowe, sentyment rynkowy i narzędzia inwestycyjne.">
+      <meta name="keywords" content="o nas, DomenaRynku.pl, portal inwestycyjny, analiza GPW, edukacja giełdowa">
+      <link rel="canonical" href="https://domenarynku.pl/about.html">
 ---
 
-About this blog
+## Kim jesteśmy
+
+DomenaRynku.pl to portal stworzony dla świadomych inwestorów, którzy chcą podejmować decyzje inwestycyjne w oparciu o rzetelne dane i analizy.
+
+## Nasza misja
+
+Dostarczamy kompleksowe narzędzia i analizy rynku kapitałowego, ze szczególnym uwzględnieniem Giełdy Papierów Wartościowych w Warszawie.
+
+## Co oferujemy
+
+-   Analiza sentymentu giełdowego (Polska i świat)
+-   Autorskie indeksy giełdowe
+-   Baza danych spółek GPW
+-   Aktualne dane rynkowe
+-   Edukacja inwestorska
+
+## Kontakt
+
+Jeśli masz pytania lub sugestie, skontaktuj się z nami.

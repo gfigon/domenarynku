@@ -1,0 +1,38 @@
+---
+# === Wyświetlane na stronie ===
+title: "Indeks trendów GPW"
+subtitle: "Analiza kierunków rynkowych na Giełdzie Papierów Wartościowych w Warszawie"
+date: today
+
+# === SEO - Meta tagi w <head> ===
+pagetitle: "Indeks trendów GPW | Analiza kierunków rynkowych na giełdzie"
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Indeks trendów GPW - kompleksowa analiza kierunków zmian na polskim rynku akcji. Metodologia, komponenty indeksu i dane historyczne.">
+      <meta name="keywords" content="indeks trendów GPW, kierunki rynkowe, analiza trendów, giełda warszawska, WIG, trendy giełdowe">
+      <link rel="canonical" href="https://domenarynku.pl/indeksy/indeks-trendow-gpw.html">
+---
+
+## O indeksie
+
+Indeks trendów GPW obrazuje kierunki zmian na polskim rynku akcji.
+
+## Metodologia
+
+Opis metodologii obliczania indeksu trendów.
+
+### Komponenty indeksu
+
+- Spółki wchodzące w skład indeksu
+- Wagi poszczególnych składników
+- Kryteria doboru
+
+## Aktualna wartość
+
+Tutaj miejsce na wykres i aktualną wartość indeksu.
+
+## Analiza historyczna
+
+Trendy długoterminowe i sezonowość.
+

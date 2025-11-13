@@ -1,0 +1,50 @@
+---
+# === Wyświetlane na stronie ===
+title: "Spółki GPW"
+subtitle: "Baza spółek notowanych na Giełdzie Papierów Wartościowych w Warszawie"
+date: today
+
+# === SEO - Meta tagi w <head> ===
+pagetitle: "Spółki GPW | Baza danych spółek giełdowych - Notowania i Analiza"
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Kompletna baza spółek notowanych na GPW. Wyszukiwarka spółek giełdowych, podziały sektorowe, indeksy WIG20, mWIG40, sWIG80. Notowania i statystyki.">
+      <meta name="keywords" content="spółki GPW, lista spółek giełdowych, WIG20, mWIG40, sWIG80, notowania GPW, baza spółek, giełda warszawska">
+      <link rel="canonical" href="https://domenarynku.pl/spolki-gpw.html">
+---
+
+## Przegląd spółek
+
+Kompletna baza informacji o spółkach notowanych na GPW.
+
+## Wyszukiwarka spółek
+
+Tutaj miejsce na interaktywną wyszukiwarkę spółek.
+
+## Kategorie
+
+### Według sektora
+- Banki
+- Energetyka
+- Technologie
+- Budownictwo
+- Handel
+- Inne
+
+### Według indeksu
+- WIG20
+- mWIG40
+- sWIG80
+
+## Najpopularniejsze spółki
+
+Lista najczęściej analizowanych spółek.
+
+## Statystyki rynku
+
+Ogólne statystyki dotyczące spółek na GPW:
+- Liczba spółek
+- Kapitalizacja rynku
+- Obroty
+

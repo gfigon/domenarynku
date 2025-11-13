@@ -1,0 +1,45 @@
+---
+# === Wyświetlane na stronie ===
+title: "Indeks cenowy top 100 GPW"
+subtitle: "Ranking 100 największych spółek na GPW"
+date: today
+
+# === SEO - Meta tagi w <head> ===
+pagetitle: "Indeks cenowy top 100 GPW | Ranking największych spółek giełdowych"
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Indeks cenowy top 100 GPW - ranking największych spółek notowanych na warszawskiej giełdzie. Kapitalizacja, sektory, statystyki rynkowe.">
+      <meta name="keywords" content="indeks cenowy GPW, top 100 spółek, największe spółki GPW, kapitalizacja giełdowa, WIG20, ranking spółek">
+      <link rel="canonical" href="https://domenarynku.pl/indeksy/indeks-cenowy-top100.html">
+---
+
+## O indeksie
+
+Indeks cenowy top 100 GPW przedstawia zbiorcze wyniki największych spółek notowanych na warszawskiej giełdzie.
+
+## Skład indeksu
+
+### Top 10 spółek
+
+Lista największych spółek wchodzących w skład indeksu.
+
+### Sektory
+
+Podział według sektorów gospodarki:
+- Finanse
+- Energia
+- Technologia
+- Surowce
+- Pozostałe
+
+## Wykres historyczny
+
+Analiza zmian wartości indeksu w czasie.
+
+## Statystyki
+
+- Kapitalizacja całkowita
+- Średnia zmiana cen
+- Najlepsze/najgorsze spółki
+

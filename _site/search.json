@@ -2,9 +2,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "O nas",
     "section": "",
-    "text": "About this blog"
+    "text": "DomenaRynku.pl to portal stworzony dla świadomych inwestorów, którzy chcą podejmować decyzje inwestycyjne w oparciu o rzetelne dane i analizy."
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -23,8 +23,204 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "domenarynku",
+    "title": "Aktualności z rynku",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMay 19, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 16, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\n19 maj 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n16 maj 2025\n\n\nTristan O’Malley\n\n\n\n\n\nBrak pasujących"
+  },
+  {
+    "objectID": "spolki-gpw.html",
+    "href": "spolki-gpw.html",
+    "title": "Spółki GPW",
+    "section": "",
+    "text": "Kompletna baza informacji o spółkach notowanych na GPW."
+  },
+  {
+    "objectID": "spolki-gpw.html#przegląd-spółek",
+    "href": "spolki-gpw.html#przegląd-spółek",
+    "title": "Spółki GPW",
+    "section": "",
+    "text": "Kompletna baza informacji o spółkach notowanych na GPW."
+  },
+  {
+    "objectID": "spolki-gpw.html#wyszukiwarka-spółek",
+    "href": "spolki-gpw.html#wyszukiwarka-spółek",
+    "title": "Spółki GPW",
+    "section": "Wyszukiwarka spółek",
+    "text": "Wyszukiwarka spółek\nTutaj miejsce na interaktywną wyszukiwarkę spółek."
+  },
+  {
+    "objectID": "spolki-gpw.html#kategorie",
+    "href": "spolki-gpw.html#kategorie",
+    "title": "Spółki GPW",
+    "section": "Kategorie",
+    "text": "Kategorie\n\nWedług sektora\n\nBanki\nEnergetyka\nTechnologie\nBudownictwo\nHandel\nInne\n\n\n\nWedług indeksu\n\nWIG20\nmWIG40\nsWIG80"
+  },
+  {
+    "objectID": "spolki-gpw.html#najpopularniejsze-spółki",
+    "href": "spolki-gpw.html#najpopularniejsze-spółki",
+    "title": "Spółki GPW",
+    "section": "Najpopularniejsze spółki",
+    "text": "Najpopularniejsze spółki\nLista najczęściej analizowanych spółek."
+  },
+  {
+    "objectID": "spolki-gpw.html#statystyki-rynku",
+    "href": "spolki-gpw.html#statystyki-rynku",
+    "title": "Spółki GPW",
+    "section": "Statystyki rynku",
+    "text": "Statystyki rynku\nOgólne statystyki dotyczące spółek na GPW: - Liczba spółek - Kapitalizacja rynku - Obroty"
+  },
+  {
+    "objectID": "sentyment-gieldowy/swiat.html",
+    "href": "sentyment-gieldowy/swiat.html",
+    "title": "Sentyment giełdowy - Świat",
+    "section": "",
+    "text": "Sentyment giełdowy na światowych rynkach - analiza nastrojów inwestorów na głównych giełdach świata."
+  },
+  {
+    "objectID": "sentyment-gieldowy/swiat.html#wprowadzenie",
+    "href": "sentyment-gieldowy/swiat.html#wprowadzenie",
+    "title": "Sentyment giełdowy - Świat",
+    "section": "",
+    "text": "Sentyment giełdowy na światowych rynkach - analiza nastrojów inwestorów na głównych giełdach świata."
+  },
+  {
+    "objectID": "sentyment-gieldowy/swiat.html#główne-rynki",
+    "href": "sentyment-gieldowy/swiat.html#główne-rynki",
+    "title": "Sentyment giełdowy - Świat",
+    "section": "Główne rynki",
+    "text": "Główne rynki\n\nStany Zjednoczone\nAnaliza sentymentu na NYSE i NASDAQ.\n\n\nEuropa\nNastroje inwestorów na głównych giełdach europejskich.\n\n\nAzja\nSentyment na rynkach azjatyckich."
+  },
+  {
+    "objectID": "sentyment-gieldowy/swiat.html#wskaźniki-globalne",
+    "href": "sentyment-gieldowy/swiat.html#wskaźniki-globalne",
+    "title": "Sentyment giełdowy - Świat",
+    "section": "Wskaźniki globalne",
+    "text": "Wskaźniki globalne\n\nVIX (indeks strachu)\nPrzepływy kapitału\nPoziom ryzyka"
+  },
+  {
+    "objectID": "sentyment-gieldowy/polska.html",
+    "href": "sentyment-gieldowy/polska.html",
+    "title": "Sentyment giełdowy - Polska",
+    "section": "",
+    "text": "Sentyment giełdowy w Polsce - analiza nastrojów inwestorów na Giełdzie Papierów Wartościowych w Warszawie."
+  },
+  {
+    "objectID": "sentyment-gieldowy/polska.html#wprowadzenie",
+    "href": "sentyment-gieldowy/polska.html#wprowadzenie",
+    "title": "Sentyment giełdowy - Polska",
+    "section": "",
+    "text": "Sentyment giełdowy w Polsce - analiza nastrojów inwestorów na Giełdzie Papierów Wartościowych w Warszawie."
+  },
+  {
+    "objectID": "sentyment-gieldowy/polska.html#aktualny-sentyment",
+    "href": "sentyment-gieldowy/polska.html#aktualny-sentyment",
+    "title": "Sentyment giełdowy - Polska",
+    "section": "Aktualny sentyment",
+    "text": "Aktualny sentyment\nTutaj miejsce na analizę aktualnego sentymentu rynkowego.\n\nWskaźniki nastrojów\n\nIndeks nastrojów inwestorów\nPoziom optymizmu/pesymizmu\nAktywność inwestorów detalicznych"
+  },
+  {
+    "objectID": "sentyment-gieldowy/polska.html#dane-historyczne",
+    "href": "sentyment-gieldowy/polska.html#dane-historyczne",
+    "title": "Sentyment giełdowy - Polska",
+    "section": "Dane historyczne",
+    "text": "Dane historyczne\nAnaliza trendów sentymentu w czasie."
+  },
+  {
+    "objectID": "indeksy/indeks-cenowy-top100.html",
+    "href": "indeksy/indeks-cenowy-top100.html",
+    "title": "Indeks cenowy top 100 GPW",
+    "section": "",
+    "text": "Indeks cenowy top 100 GPW przedstawia zbiorcze wyniki największych spółek notowanych na warszawskiej giełdzie."
+  },
+  {
+    "objectID": "indeksy/indeks-cenowy-top100.html#o-indeksie",
+    "href": "indeksy/indeks-cenowy-top100.html#o-indeksie",
+    "title": "Indeks cenowy top 100 GPW",
+    "section": "",
+    "text": "Indeks cenowy top 100 GPW przedstawia zbiorcze wyniki największych spółek notowanych na warszawskiej giełdzie."
+  },
+  {
+    "objectID": "indeksy/indeks-cenowy-top100.html#skład-indeksu",
+    "href": "indeksy/indeks-cenowy-top100.html#skład-indeksu",
+    "title": "Indeks cenowy top 100 GPW",
+    "section": "Skład indeksu",
+    "text": "Skład indeksu\n\nTop 10 spółek\nLista największych spółek wchodzących w skład indeksu.\n\n\nSektory\nPodział według sektorów gospodarki: - Finanse - Energia - Technologia - Surowce - Pozostałe"
+  },
+  {
+    "objectID": "indeksy/indeks-cenowy-top100.html#wykres-historyczny",
+    "href": "indeksy/indeks-cenowy-top100.html#wykres-historyczny",
+    "title": "Indeks cenowy top 100 GPW",
+    "section": "Wykres historyczny",
+    "text": "Wykres historyczny\nAnaliza zmian wartości indeksu w czasie."
+  },
+  {
+    "objectID": "indeksy/indeks-cenowy-top100.html#statystyki",
+    "href": "indeksy/indeks-cenowy-top100.html#statystyki",
+    "title": "Indeks cenowy top 100 GPW",
+    "section": "Statystyki",
+    "text": "Statystyki\n\nKapitalizacja całkowita\nŚrednia zmiana cen\nNajlepsze/najgorsze spółki"
+  },
+  {
+    "objectID": "indeksy/indeks-trendow-gpw.html",
+    "href": "indeksy/indeks-trendow-gpw.html",
+    "title": "Indeks trendów GPW",
+    "section": "",
+    "text": "Indeks trendów GPW obrazuje kierunki zmian na polskim rynku akcji."
+  },
+  {
+    "objectID": "indeksy/indeks-trendow-gpw.html#o-indeksie",
+    "href": "indeksy/indeks-trendow-gpw.html#o-indeksie",
+    "title": "Indeks trendów GPW",
+    "section": "",
+    "text": "Indeks trendów GPW obrazuje kierunki zmian na polskim rynku akcji."
+  },
+  {
+    "objectID": "indeksy/indeks-trendow-gpw.html#metodologia",
+    "href": "indeksy/indeks-trendow-gpw.html#metodologia",
+    "title": "Indeks trendów GPW",
+    "section": "Metodologia",
+    "text": "Metodologia\nOpis metodologii obliczania indeksu trendów.\n\nKomponenty indeksu\n\nSpółki wchodzące w skład indeksu\nWagi poszczególnych składników\nKryteria doboru"
+  },
+  {
+    "objectID": "indeksy/indeks-trendow-gpw.html#aktualna-wartość",
+    "href": "indeksy/indeks-trendow-gpw.html#aktualna-wartość",
+    "title": "Indeks trendów GPW",
+    "section": "Aktualna wartość",
+    "text": "Aktualna wartość\nTutaj miejsce na wykres i aktualną wartość indeksu."
+  },
+  {
+    "objectID": "indeksy/indeks-trendow-gpw.html#analiza-historyczna",
+    "href": "indeksy/indeks-trendow-gpw.html#analiza-historyczna",
+    "title": "Indeks trendów GPW",
+    "section": "Analiza historyczna",
+    "text": "Analiza historyczna\nTrendy długoterminowe i sezonowość."
+  },
+  {
+    "objectID": "about.html#kim-jesteśmy",
+    "href": "about.html#kim-jesteśmy",
+    "title": "O nas",
+    "section": "",
+    "text": "DomenaRynku.pl to portal stworzony dla świadomych inwestorów, którzy chcą podejmować decyzje inwestycyjne w oparciu o rzetelne dane i analizy."
+  },
+  {
+    "objectID": "about.html#nasza-misja",
+    "href": "about.html#nasza-misja",
+    "title": "O nas",
+    "section": "Nasza misja",
+    "text": "Nasza misja\nDostarczamy kompleksowe narzędzia i analizy rynku kapitałowego, ze szczególnym uwzględnieniem Giełdy Papierów Wartościowych w Warszawie."
+  },
+  {
+    "objectID": "about.html#co-oferujemy",
+    "href": "about.html#co-oferujemy",
+    "title": "O nas",
+    "section": "Co oferujemy",
+    "text": "Co oferujemy\n\nAnaliza sentymentu giełdowego (Polska i świat)\nAutorskie indeksy giełdowe\nBaza danych spółek GPW\nAktualne dane rynkowe\nEdukacja inwestorska"
+  },
+  {
+    "objectID": "about.html#kontakt",
+    "href": "about.html#kontakt",
+    "title": "O nas",
+    "section": "Kontakt",
+    "text": "Kontakt\nJeśli masz pytania lub sugestie, skontaktuj się z nami."
   }
 ]
