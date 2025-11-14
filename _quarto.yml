@@ -4,11 +4,11 @@ project:
 website:
   title: "DomenaRynku.pl"
   site-url: "https://domenarynku.pl"
-  favicon: images/domenarynku-logo.svg
+  favicon: images/domenarynku-logo-v2.svg
   open-graph: true
   twitter-card: true
   navbar:
-    logo: images/domenarynku-logo.svg
+    logo: images/domenarynku-logo-v2.svg
     title: false
     left:
       - href: index.qmd
