@@ -1,6 +1,69 @@
+# ============================================
+# WRAŻLIWE - Skrypty i dane (NIE wrzucaj)
+# ============================================
+
+# Skrypty scrapujące i przetwarzające
+R/
+scripts/
+mod/
+
+# Dane (pliki .RDS, CSV, itp.)
+data/
+*.RDS
+*.rds
+
+# ============================================
+# QUARTO - Pliki generowane
+# ============================================
+
+# Wygenerowana strona (będzie commitowana osobno)
+# Odkomentuj poniższą linię jeśli NIE chcesz commitować _site/
+# _site/
+
+# Cache i pliki tymczasowe Quarto
+_freeze/
+.quarto/
+
+# ============================================
+# R - Pliki systemowe i tymczasowe
+# ============================================
+
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+.Rapp.history
 
-/.quarto/
+# ============================================
+# SYSTEM - Pliki OS
+# ============================================
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ============================================
+# IDE - Pliki edytorów
+# ============================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================
+# GIT
+# ============================================
+
+*.orig
+
