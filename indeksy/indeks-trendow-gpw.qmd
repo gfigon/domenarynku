@@ -24,9 +24,9 @@ Opis metodologii obliczania indeksu trendów.
 
 ### Komponenty indeksu
 
-- Spółki wchodzące w skład indeksu
-- Wagi poszczególnych składników
-- Kryteria doboru
+-   Spółki wchodzące w skład indeksu
+-   Wagi poszczególnych składników
+-   Kryteria doboru
 
 ## Aktualna wartość
 
@@ -35,4 +35,3 @@ Tutaj miejsce na wykres i aktualną wartość indeksu.
 ## Analiza historyczna
 
 Trendy długoterminowe i sezonowość.
-

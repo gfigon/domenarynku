@@ -222,5 +222,40 @@
     "title": "O nas",
     "section": "Kontakt",
     "text": "Kontakt\nJeśli masz pytania lub sugestie, skontaktuj się z nami."
+  },
+  {
+    "objectID": "README_STRUKTURA.html",
+    "href": "README_STRUKTURA.html",
+    "title": "DomenaRynku.pl - Struktura projektu",
+    "section": "",
+    "text": "/\n├── data/                          # Dane projektu\n│   ├── raw/                       # Surowe dane z API/źródeł\n│   └── processed/                 # Przetworzone dane (.RDS)\n│       └── indeks_trendow.RDS    # Dane dla indeksu trendów\n│\n├── mod/                           # Moduły box\n│   └── gpw.R                     # Moduł do pracy z danymi GPW\n│\n├── R/                             # Skrypty pomocnicze R\n│   └── funkcje_pomocnicze.R      # Funkcje używane w projekcie\n│\n├── scripts/                       # Skrypty aktualizacji\n│   └── update_indeks_trendow.R   # Skrypt aktualizujący dane indeksu\n│\n├── indeksy/                       # Strony z indeksami\n│   ├── indeks-trendow-gpw.qmd    # Strona indeksu trendów\n│   └── indeks-cenowy-top100.qmd  # Strona indeksu cenowego\n│\n├── sentyment-gieldowy/            # Strony sentymentu\n│   ├── polska.qmd\n│   └── swiat.qmd\n│\n└── images/                        # Grafiki i logo\n\n\n\n\n\n# Uruchom skrypt aktualizacji\nsource(\"scripts/update_indeks_trendow.R\")\n\n# Lub bezpośrednio z box\nbox::use(mod/gpw)\n# ... pobierz dane\nsaveRDS(dane, \"data/processed/indeks_trendow.RDS\")\n\n\n\n# Renderuj pojedynczą stronę\nquarto::quarto_render(\"indeksy/indeks-trendow-gpw.qmd\")\n\n# Lub całą stronę\nquarto::quarto_render()\n\n\n\n\nW pliku .qmd zaciągasz dane:\n# Wczytaj dane\ndane_indeksu &lt;- readRDS(\"../data/processed/indeks_trendow.RDS\")\n\n# Oblicz indeks\nindeks &lt;- oblicz_indeks_trendow(dane_indeksu)\n\n# Wyświetl wykres\nplot_indeks(indeks)\n\n\n\n\ndplyr - przetwarzanie danych\nggplot2 - wykresy\nbox - moduły\nlubridate - daty\nknitr - tabele"
+  },
+  {
+    "objectID": "README_STRUKTURA.html#struktura-katalogów",
+    "href": "README_STRUKTURA.html#struktura-katalogów",
+    "title": "DomenaRynku.pl - Struktura projektu",
+    "section": "",
+    "text": "/\n├── data/                          # Dane projektu\n│   ├── raw/                       # Surowe dane z API/źródeł\n│   └── processed/                 # Przetworzone dane (.RDS)\n│       └── indeks_trendow.RDS    # Dane dla indeksu trendów\n│\n├── mod/                           # Moduły box\n│   └── gpw.R                     # Moduł do pracy z danymi GPW\n│\n├── R/                             # Skrypty pomocnicze R\n│   └── funkcje_pomocnicze.R      # Funkcje używane w projekcie\n│\n├── scripts/                       # Skrypty aktualizacji\n│   └── update_indeks_trendow.R   # Skrypt aktualizujący dane indeksu\n│\n├── indeksy/                       # Strony z indeksami\n│   ├── indeks-trendow-gpw.qmd    # Strona indeksu trendów\n│   └── indeks-cenowy-top100.qmd  # Strona indeksu cenowego\n│\n├── sentyment-gieldowy/            # Strony sentymentu\n│   ├── polska.qmd\n│   └── swiat.qmd\n│\n└── images/                        # Grafiki i logo"
+  },
+  {
+    "objectID": "README_STRUKTURA.html#workflow",
+    "href": "README_STRUKTURA.html#workflow",
+    "title": "DomenaRynku.pl - Struktura projektu",
+    "section": "",
+    "text": "# Uruchom skrypt aktualizacji\nsource(\"scripts/update_indeks_trendow.R\")\n\n# Lub bezpośrednio z box\nbox::use(mod/gpw)\n# ... pobierz dane\nsaveRDS(dane, \"data/processed/indeks_trendow.RDS\")\n\n\n\n# Renderuj pojedynczą stronę\nquarto::quarto_render(\"indeksy/indeks-trendow-gpw.qmd\")\n\n# Lub całą stronę\nquarto::quarto_render()"
+  },
+  {
+    "objectID": "README_STRUKTURA.html#użycie-w-.qmd",
+    "href": "README_STRUKTURA.html#użycie-w-.qmd",
+    "title": "DomenaRynku.pl - Struktura projektu",
+    "section": "",
+    "text": "W pliku .qmd zaciągasz dane:\n# Wczytaj dane\ndane_indeksu &lt;- readRDS(\"../data/processed/indeks_trendow.RDS\")\n\n# Oblicz indeks\nindeks &lt;- oblicz_indeks_trendow(dane_indeksu)\n\n# Wyświetl wykres\nplot_indeks(indeks)"
+  },
+  {
+    "objectID": "README_STRUKTURA.html#pakiety-wymagane",
+    "href": "README_STRUKTURA.html#pakiety-wymagane",
+    "title": "DomenaRynku.pl - Struktura projektu",
+    "section": "",
+    "text": "dplyr - przetwarzanie danych\nggplot2 - wykresy\nbox - moduły\nlubridate - daty\nknitr - tabele"
   }
 ]
