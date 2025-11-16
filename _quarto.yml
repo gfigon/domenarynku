@@ -30,8 +30,7 @@ website:
     right:
       - href: about.qmd
         text: O nas
-      - icon: github
-        href: https://github.com/
+    
 
 lang: pl
       
