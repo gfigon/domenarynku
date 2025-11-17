@@ -11,7 +11,6 @@ format:
     header-includes: |
       <meta name="description" content="Indeks równoważony TOP100 GPW (equal-weight index) - alternatywa dla kapitalizacyjnych WIG i WIG20. Inspirowany ZUPI Martina Zweiga, każda spółka ma równą wagę w indeksie.">
       <meta name="keywords" content="indeks równoważony GPW, equal-weight index, unweighted price index, ZUPI, Martin Zweig, TOP100 GPW, WIG20, kapitalizacja, analiza techniczna GPW">
-      <link rel="canonical" href="https://domenarynku.pl/indeksy/indeks-cenowy-top100.html">
 ---
 
 ## O indeksie
@@ -278,3 +277,4 @@ Koncepcja tego indeksu jest zainspirowana **ZUPI** (Zweig Unweighted Price Index
 Zweig stworzył ZUPI jako odpowiedź na pytanie: *"Jak radzi sobie przeciętna spółka?"* zamiast *"Jak radzi sobie przeciętny dolar zainwestowany na giełdzie?"* (co mierzą indeksy kapitalizacyjne). W swojej praktyce inwestycyjnej używał ZUPI jako jednego z kluczowych wskaźników do oceny szerokości rynku i wczesnego wykrywania zmian trendu.
 
 Indeks równoważony TOP100 GPW adaptuje tę filozofię do polskiego rynku akcji.
+

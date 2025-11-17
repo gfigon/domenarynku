@@ -1,0 +1,32 @@
+# Konfiguracja Netlify dla domenarynku.pl
+
+# Katalog z wygenerowaną stroną
+[build]
+  publish = "_site"
+
+# Wyłączenie automatycznego usuwania .html z URL-ów (pretty URLs)
+# Dzięki temu URL-e będą spójne lokalnie i na produkcji
+[[redirects]]
+  from = "/*"
+  to = "/:splat"
+  status = 200
+  force = false
+  
+# Ustawienia dla lepszej wydajności
+[build.processing]
+  skip_processing = false
+
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true
+
+[build.processing.html]
+  pretty_urls = false
+
+[build.processing.images]
+  compress = true
+

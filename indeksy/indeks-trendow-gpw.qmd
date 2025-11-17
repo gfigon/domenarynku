@@ -11,7 +11,6 @@ format:
     header-includes: |
       <meta name="description" content="Indeks trendów GPW - market breadth indicator mierzący procent spółek w trendzie wzrostowym. Analiza szerokości rynku, sygnały hossy i bessy, dywergencje WIG i WIG20.">
       <meta name="keywords" content="indeks trendów GPW, market breadth indicator, szerokość rynku, rynek byka, rynek niedźwiedzia, WIG, WIG20, hossa, bessa, dywergencje rynkowe, analiza techniczna GPW">
-      <link rel="canonical" href="https://domenarynku.pl/indeksy/indeks-trendow-gpw.html">
 ---
 
 ## O indeksie
@@ -140,13 +139,13 @@ fig <- plot_ly() %>%
 fig
 ```
 
-::: {.callout-note}
+::: callout-note
 ## Jak czytać wykres?
 
-- **Indeks Trendów (niebieski):** pokazuje procent spółek w trendzie wzrostowym (0-100%)
-- **WIG20 i WIG (pomarańczowy/zielony):** znormalizowane do skali 0-100 dla porównywalności
-- Wartości > 50% w indeksie trendów sugerują przewagę trendów wzrostowych (rynek byka)
-- Wartości < 50% sugerują przewagę trendów spadkowych (rynek niedźwiedzia)
+-   **Indeks Trendów (niebieski):** pokazuje procent spółek w trendzie wzrostowym (0-100%)
+-   **WIG20 i WIG (pomarańczowy/zielony):** znormalizowane do skali 0-100 dla porównywalności
+-   Wartości \> 50% w indeksie trendów sugerują przewagę trendów wzrostowych (rynek byka)
+-   Wartości \< 50% sugerują przewagę trendów spadkowych (rynek niedźwiedzia)
 :::
 
 ## Ostatnie 60 sesji
@@ -223,37 +222,36 @@ Indeks trendów pozwala odróżnić **prawdziwą hossę** (szeroki udział więk
 
 **Dywergencje** między indeksem trendów a głównymi indeksami mogą sygnalizować nadchodzące zmiany kierunku rynku:
 
-- **Pozytywna dywergencja (potencjalnie bullish):** Indeks trendów rośnie, podczas gdy WIG/WIG20 spadają. Sugeruje to, że szeroki rynek zaczyna się umacniać, mimo że główne indeksy jeszcze tego nie pokazują – może zapowiadać przyszły wzrost.
+-   **Pozytywna dywergencja (potencjalnie bullish):** Indeks trendów rośnie, podczas gdy WIG/WIG20 spadają. Sugeruje to, że szeroki rynek zaczyna się umacniać, mimo że główne indeksy jeszcze tego nie pokazują – może zapowiadać przyszły wzrost.
 
-- **Negatywna dywergencja (potencjalnie bearish):** Indeks trendów spada, podczas gdy WIG/WIG20 rosną. Oznacza to, że wzrost głównych indeksów jest napędzany przez coraz mniejszą grupę spółek – niezdrowa sytuacja mogąca poprzedzać korektę lub bessę.
+-   **Negatywna dywergencja (potencjalnie bearish):** Indeks trendów spada, podczas gdy WIG/WIG20 rosną. Oznacza to, że wzrost głównych indeksów jest napędzany przez coraz mniejszą grupę spółek – niezdrowa sytuacja mogąca poprzedzać korektę lub bessę.
 
 ### 3. Potwierdzenie trendów
 
 Silne trendy rynkowe (zarówno wzrostowe, jak i spadkowe) są bardziej wiarygodne, gdy towarzyszą im odpowiednie wartości indeksu trendów:
 
-- **Potwierdzenie hossy:** WIG rośnie + indeks trendów > 60-70%
-- **Potwierdzenie bessy:** WIG spada + indeks trendów < 30-40%
+-   **Potwierdzenie hossy:** WIG rośnie + indeks trendów \> 60-70%
+-   **Potwierdzenie bessy:** WIG spada + indeks trendów \< 30-40%
 
 ### 4. Timing wejść i wyjść
 
 Ekstrema w indeksie trendów mogą wskazywać na:
 
-- **Wyprzedanie rynku:** Indeks trendów < 20% – potencjalna okazja do zakupów (wyprzedanie)
-- **Wykupienie rynku:** Indeks trendów > 80% – potencjalne ostrzeżenie przed korektą (wykupienie)
+-   **Wyprzedanie rynku:** Indeks trendów \< 20% – potencjalna okazja do zakupów (wyprzedanie)
+-   **Wykupienie rynku:** Indeks trendów \> 80% – potencjalne ostrzeżenie przed korektą (wykupienie)
 
-::: {.callout-warning}
+::: callout-warning
 ## Ważne zastrzeżenie
 
 Indeks trendów GPW jest narzędziem analitycznym wspomagającym podejmowanie decyzji inwestycyjnych, a nie systemem generującym jednoznaczne sygnały kupna lub sprzedaży. Powinien być używany w połączeniu z innymi metodami analizy i zawsze z uwzględnieniem indywidualnej tolerancji ryzyka oraz celów inwestycyjnych.
 :::
 
----
+------------------------------------------------------------------------
 
-::: {.callout-tip}
+::: callout-tip
 ## Aktualizacje
 
 Indeks trendów GPW jest aktualizowany codziennie. Strona jest odświeżana automatycznie przed rozpoczęciem każdej nowej sesji giełdowej.
 
 Ostatnia aktualizacja: `{r} format(Sys.Date(), "%Y-%m-%d")`
 :::
-

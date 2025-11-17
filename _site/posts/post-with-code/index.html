@@ -66,6 +66,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<link href="../../images/domenarynku-logo-v2.svg" rel="icon" type="image/svg+xml">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -103,9 +104,28 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Szukaj"
   }
 }</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NXN55TCK');</script>
+<!-- End Google Tag Manager -->
+<meta name="author" content="DomenaRynku.pl">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow">
 
 
 <link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Post With Code – DomenaRynku.pl">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://domenarynku.pl/posts/post-with-code/image.jpg">
+<meta property="og:site_name" content="DomenaRynku.pl">
+<meta name="twitter:title" content="Post With Code – DomenaRynku.pl">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://domenarynku.pl/posts/post-with-code/image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://domenarynku.pl/posts/post-with-code/">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -116,7 +136,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/domenarynku-logo.svg" alt="" class="navbar-logo">
+    <img src="../../images/domenarynku-logo-v2.svg" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Szukaj"></div>
@@ -124,23 +144,50 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Strona główna</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-sentyment-giełdowy" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Sentyment giełdowy</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-sentyment-giełdowy">    
+        <li>
+    <a class="dropdown-item" href="../../sentyment-gieldowy/polska.html">
+ <span class="dropdown-text">Polska</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../sentyment-gieldowy/swiat.html">
+ <span class="dropdown-text">Świat</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-indeksy" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Indeksy</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-indeksy">    
+        <li>
+    <a class="dropdown-item" href="../../indeksy/indeks-trendow-gpw.html">
+ <span class="dropdown-text">Indeks trendów GPW</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../indeksy/indeks-cenowy-top100.html">
+ <span class="dropdown-text">Indeks cenowy top 100 GPW</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../spolki-gpw.html"> 
+<span class="menu-text">Spółki GPW</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">O nas</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../test.html"> 
-<span class="menu-text">Testowa</span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -279,7 +326,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/domenarynku\.pl");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

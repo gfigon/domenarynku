@@ -1,35 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://domenarynku.pl/index.html</loc>
-    <lastmod>2025-11-16T06:55:33.338Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/sentyment-gieldowy/polska.html</loc>
-    <lastmod>2025-11-13T13:23:40.854Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/sentyment-gieldowy/swiat.html</loc>
-    <lastmod>2025-11-13T13:24:52.883Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/indeksy/indeks-cenowy-top100.html</loc>
-    <lastmod>2025-11-17T13:16:36.926Z</lastmod>
+    <loc>https://domenarynku.pl/spolki-gpw.html</loc>
+    <lastmod>2025-11-17T15:24:59.701Z</lastmod>
   </url>
   <url>
     <loc>https://domenarynku.pl/indeksy/indeks-trendow-gpw.html</loc>
-    <lastmod>2025-11-17T06:59:04.372Z</lastmod>
+    <lastmod>2025-11-17T15:30:04.515Z</lastmod>
   </url>
   <url>
-    <loc>https://domenarynku.pl/about.html</loc>
-    <lastmod>2025-11-15T09:32:14.231Z</lastmod>
+    <loc>https://domenarynku.pl/test-variables.html</loc>
+    <lastmod>2025-11-17T15:15:06.995Z</lastmod>
   </url>
   <url>
-    <loc>https://domenarynku.pl/spolki-gpw.html</loc>
-    <lastmod>2025-11-13T13:25:27.967Z</lastmod>
+    <loc>https://domenarynku.pl/sentyment-gieldowy/swiat.html</loc>
+    <lastmod>2025-11-17T15:32:14.417Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/index.html</loc>
+    <lastmod>2025-11-17T15:29:13.381Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/posts/welcome/index.html</loc>
+    <lastmod>2025-05-19T08:30:06.338Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/posts/post-with-code/index.html</loc>
+    <lastmod>2025-11-13T12:54:04.420Z</lastmod>
   </url>
   <url>
     <loc>https://domenarynku.pl/README_STRUKTURA.html</loc>
     <lastmod>2025-11-14T11:39:18.329Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/sentyment-gieldowy/polska.html</loc>
+    <lastmod>2025-11-17T15:25:42.679Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/about.html</loc>
+    <lastmod>2025-11-17T15:29:44.219Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/indeksy/indeks-cenowy-top100.html</loc>
+    <lastmod>2025-11-17T15:29:53.073Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/test.html</loc>
+    <lastmod>2025-08-23T04:49:24.687Z</lastmod>
   </url>
 </urlset>

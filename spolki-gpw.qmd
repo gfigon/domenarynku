@@ -11,7 +11,6 @@ format:
     header-includes: |
       <meta name="description" content="Kompletna baza spółek notowanych na GPW. Wyszukiwarka spółek giełdowych, podziały sektorowe, indeksy WIG20, mWIG40, sWIG80. Notowania i statystyki.">
       <meta name="keywords" content="spółki GPW, lista spółek giełdowych, WIG20, mWIG40, sWIG80, notowania GPW, baza spółek, giełda warszawska">
-      <link rel="canonical" href="https://domenarynku.pl/spolki-gpw.html">
 ---
 
 ## Przegląd spółek

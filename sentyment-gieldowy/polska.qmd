@@ -11,7 +11,6 @@ format:
     header-includes: |
       <meta name="description" content="Aktualny sentyment giełdowy na GPW. Analiza nastrojów inwestorów, wskaźniki optymizmu i pesymizmu na polskim rynku kapitałowym.">
       <meta name="keywords" content="sentyment giełdowy, GPW, nastroje inwestorów, pesymizm, optymizm, polska giełda">
-      <link rel="canonical" href="https://domenarynku.pl/sentyment-gieldowy/polska.html">
 ---
 
 ## Wprowadzenie

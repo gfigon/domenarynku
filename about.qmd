@@ -10,7 +10,6 @@ format:
     header-includes: |
       <meta name="description" content="DomenaRynku.pl to portal dla świadomych inwestorów. Profesjonalne analizy GPW, indeksy giełdowe, sentyment rynkowy i narzędzia inwestycyjne.">
       <meta name="keywords" content="o nas, DomenaRynku.pl, portal inwestycyjny, analiza GPW, edukacja giełdowa">
-      <link rel="canonical" href="https://domenarynku.pl/about.html">
 ---
 
 ## Kim jesteśmy
