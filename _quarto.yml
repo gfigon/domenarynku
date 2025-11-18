@@ -55,7 +55,7 @@ format:
       <meta name="author" content="DomenaRynku.pl">
       <meta name="robots" content="index, follow">
       <meta name="googlebot" content="index, follow">
-    include-before-body: |
+    include-before-body-text: |
       <!-- Google Tag Manager (noscript) -->
       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NXN55TCK"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
