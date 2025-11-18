@@ -280,3 +280,42 @@ hr {
   background: linear-gradient(90deg, transparent, var(--accent-blue), transparent);
   margin: 2rem 0;
 }
+
+/* ===== KLARO COOKIE CONSENT - BIAŁY TEKST NA CIEMNYM TLE ===== */
+
+/* Wszystkie teksty w Klaro - BIAŁY KOLOR */
+.klaro .cookie-notice,
+.klaro .cookie-notice *,
+.klaro .cookie-modal,
+.klaro .cookie-modal * {
+  color: #ffffff !important;
+}
+
+/* Body modala - biały tekst */
+.klaro .cookie-modal .cm-body,
+.klaro .cookie-modal .cm-body * {
+  color: #ffffff !important;
+}
+
+/* Banner - biały tekst */
+.klaro .cookie-notice .cn-body,
+.klaro .cookie-notice .cn-body * {
+  color: #ffffff !important;
+}
+
+/* Linki - jasnoniebieskie aby były widoczne na ciemnym tle */
+.klaro a,
+.klaro .cm-link {
+  color: #93c5fd !important;
+  text-decoration: underline !important;
+}
+
+.klaro a:hover,
+.klaro .cm-link:hover {
+  color: #dbeafe !important;
+}
+
+/* Przyciski - zachowaj ich własne kolory */
+.klaro button {
+  color: inherit !important;
+}
