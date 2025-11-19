@@ -13,11 +13,11 @@ website:
     left:
       - href: index.qmd
         text: Strona główna
-      - text: "Sentyment giełdowy"
+      - text: "Sentyment rynku"
         menu:
-          - href: sentyment-gieldowy/polska.qmd
+          - href: sentyment-rynku/polska.qmd
             text: Polska
-          - href: sentyment-gieldowy/swiat.qmd
+          - href: sentyment-rynku/swiat.qmd
             text: Świat
       - text: "Indeksy"
         menu:
