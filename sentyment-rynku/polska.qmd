@@ -2,7 +2,7 @@
 # === Wyświetlane na stronie ===
 title: "Sentyment rynku - Polska"
 subtitle: "Analiza nastrojów na polskim rynku kapitałowym"
-date: today
+date: last-modified
 
 # === SEO - Meta tagi w <head> ===
 pagetitle: "Sentyment rynku GPW - Polska | Analiza nastrojów inwestorów"

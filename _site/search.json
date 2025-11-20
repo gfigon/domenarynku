@@ -42,195 +42,6 @@
     "text": "Statystyki rynku\nOgólne statystyki dotyczące spółek na GPW: - Liczba spółek - Kapitalizacja rynku - Obroty"
   },
   {
-    "objectID": "indeksy/indeks-trendow-gpw.html",
-    "href": "indeksy/indeks-trendow-gpw.html",
-    "title": "Indeks trendów GPW",
-    "section": "",
-    "text": "Indeks trendów GPW to wskaźnik szerokości rynku (market breadth indicator), który pokazuje, jaki procent spółek z najważniejszych firm notowanych na warszawskiej giełdzie znajduje się aktualnie w trendzie wzrostowym. Jest to kluczowe narzędzie do oceny rzeczywistej siły rynku – pozwala odróżnić prawdziwy rynek byka, w którym uczestniczy większość spółek, od sytuacji, gdy wzrost WIG czy WIG20 jest napędzany jedynie przez kilka dużych spółek.\nW odróżnieniu od klasycznych indeksów giełdowych ważonych kapitalizacją (jak WIG czy WIG20), gdzie większe spółki mają dominujący wpływ, indeks trendów traktuje każdą spółkę równo. Dzięki temu lepiej odzwierciedla kondycję całego rynku akcji i może sygnalizować nadchodzące zmiany trendu poprzez wykrywanie dywergencji między zachowaniem szerokiego rynku a głównymi indeksami."
-  },
-  {
-    "objectID": "indeksy/indeks-trendow-gpw.html#o-indeksie",
-    "href": "indeksy/indeks-trendow-gpw.html#o-indeksie",
-    "title": "Indeks trendów GPW",
-    "section": "",
-    "text": "Indeks trendów GPW to wskaźnik szerokości rynku (market breadth indicator), który pokazuje, jaki procent spółek z najważniejszych firm notowanych na warszawskiej giełdzie znajduje się aktualnie w trendzie wzrostowym. Jest to kluczowe narzędzie do oceny rzeczywistej siły rynku – pozwala odróżnić prawdziwy rynek byka, w którym uczestniczy większość spółek, od sytuacji, gdy wzrost WIG czy WIG20 jest napędzany jedynie przez kilka dużych spółek.\nW odróżnieniu od klasycznych indeksów giełdowych ważonych kapitalizacją (jak WIG czy WIG20), gdzie większe spółki mają dominujący wpływ, indeks trendów traktuje każdą spółkę równo. Dzięki temu lepiej odzwierciedla kondycję całego rynku akcji i może sygnalizować nadchodzące zmiany trendu poprzez wykrywanie dywergencji między zachowaniem szerokiego rynku a głównymi indeksami."
-  },
-  {
-    "objectID": "indeksy/indeks-trendow-gpw.html#wykres-indeksu-trendów",
-    "href": "indeksy/indeks-trendow-gpw.html#wykres-indeksu-trendów",
-    "title": "Indeks trendów GPW",
-    "section": "Wykres indeksu trendów",
-    "text": "Wykres indeksu trendów\nPoniższy wykres przedstawia indeks trendów GPW na tle indeksów WIG20 i WIG z ostatnich 250 sesji giełdowych. Możesz go przybliżać i sprawdzać wartości dla konkretnych dat.\n\n\n\n\n\n\n\n\n\n\n\n\nJak czytać wykres?\n\n\n\n\nIndeks Trendów (niebieski): pokazuje procent spółek w trendzie wzrostowym (0-100%)\nWIG20 i WIG (pomarańczowy/zielony): znormalizowane do skali 0-100 dla porównywalności\nWartości &gt; 50% w indeksie trendów sugerują przewagę trendów wzrostowych (rynek byka)\nWartości &lt; 50% sugerują przewagę trendów spadkowych (rynek niedźwiedzia)"
-  },
-  {
-    "objectID": "indeksy/indeks-trendow-gpw.html#ostatnie-60-sesji",
-    "href": "indeksy/indeks-trendow-gpw.html#ostatnie-60-sesji",
-    "title": "Indeks trendów GPW",
-    "section": "Ostatnie 60 sesji",
-    "text": "Ostatnie 60 sesji\nTabela przedstawia szczegółowe wartości indeksu trendów oraz głównych indeksów GPW z ostatnich 60 sesji giełdowych (kwartał).\n\n\n\n\nWartości indeksu trendów i głównych indeksów GPW (ostatnie 60 sesji)\n\n\nData\nIndeks Trendów\nWIG20\nWIG\n\n\n\n\n2025-11-14\n64.9%\n2990.37\n111687.24\n\n\n2025-11-13\n63.8%\n3016.16\n112532.48\n\n\n2025-11-12\n64.9%\n3023.24\n112760.18\n\n\n2025-11-10\n62.8%\n3019.29\n112668.07\n\n\n2025-11-07\n64.9%\n2970.61\n110985.15\n\n\n2025-11-06\n62.8%\n3006.58\n112192.96\n\n\n2025-11-05\n61.7%\n2977.25\n111559.98\n\n\n2025-11-04\n62.8%\n2978.38\n111372.83\n\n\n2025-11-03\n63.8%\n3005.61\n112058.99\n\n\n2025-10-31\n61.7%\n2987.33\n111487.05\n\n\n2025-10-30\n63.8%\n3029.29\n112708.11\n\n\n2025-10-29\n64.9%\n3038.56\n113294.48\n\n\n2025-10-28\n63.8%\n3041.52\n113459.04\n\n\n2025-10-27\n63.8%\n2980.91\n111612.44\n\n\n2025-10-24\n64.9%\n2981.19\n111427.76\n\n\n2025-10-23\n68.1%\n2984.67\n111568.93\n\n\n2025-10-22\n66.0%\n2958.78\n110937.56\n\n\n2025-10-21\n66.0%\n2912.05\n109511.51\n\n\n2025-10-20\n63.8%\n2916.61\n109618.82\n\n\n2025-10-17\n63.8%\n2872.02\n107764.77\n\n\n2025-10-16\n64.9%\n2887.16\n108214.71\n\n\n2025-10-15\n64.9%\n2901.08\n108729.37\n\n\n2025-10-14\n64.9%\n2844.05\n106653.38\n\n\n2025-10-13\n63.8%\n2875.17\n107846.06\n\n\n2025-10-10\n64.9%\n2873.04\n107951.51\n\n\n2025-10-09\n66.0%\n2874.30\n108019.25\n\n\n2025-10-08\n66.0%\n2877.99\n108295.93\n\n\n2025-10-07\n68.1%\n2868.67\n107937.15\n\n\n2025-10-06\n62.8%\n2838.10\n107133.09\n\n\n2025-10-03\n69.1%\n2862.96\n108016.79\n\n\n2025-10-02\n70.2%\n2861.62\n107695.90\n\n\n2025-10-01\n69.1%\n2850.42\n107121.50\n\n\n2025-09-30\n70.2%\n2827.17\n106363.86\n\n\n2025-09-29\n71.3%\n2832.01\n106524.71\n\n\n2025-09-26\n69.1%\n2832.26\n106570.62\n\n\n2025-09-25\n69.1%\n2797.79\n105561.78\n\n\n2025-09-24\n71.3%\n2828.82\n106520.90\n\n\n2025-09-23\n72.3%\n2819.10\n105866.67\n\n\n2025-09-22\n71.3%\n2802.03\n105324.97\n\n\n2025-09-19\n72.3%\n2802.69\n105380.97\n\n\n2025-09-18\n68.1%\n2809.46\n105564.90\n\n\n2025-09-17\n70.2%\n2813.42\n105617.25\n\n\n2025-09-16\n70.2%\n2819.54\n105950.79\n\n\n2025-09-15\n68.1%\n2866.16\n107484.11\n\n\n2025-09-12\n70.2%\n2836.58\n106413.18\n\n\n2025-09-11\n72.3%\n2855.75\n107084.89\n\n\n2025-09-10\n72.3%\n2811.48\n105682.90\n\n\n2025-09-09\n72.3%\n2836.41\n106641.59\n\n\n2025-09-08\n72.3%\n2862.51\n107523.29\n\n\n2025-09-05\n72.3%\n2805.02\n105563.27\n\n\n2025-09-04\n72.3%\n2828.22\n105999.04\n\n\n2025-09-03\n72.3%\n2786.15\n104458.97\n\n\n2025-09-02\n72.3%\n2774.05\n103935.91\n\n\n2025-09-01\n72.3%\n2770.36\n103939.74\n\n\n2025-08-29\n73.4%\n2793.76\n104775.45\n\n\n2025-08-28\n74.5%\n2828.32\n106030.68\n\n\n2025-08-27\n74.5%\n2856.56\n106857.65\n\n\n2025-08-26\n74.5%\n2907.53\n108534.08\n\n\n2025-08-25\n74.5%\n2905.64\n108528.44\n\n\n2025-08-22\n75.5%\n2880.55\n107648.46"
-  },
-  {
-    "objectID": "indeksy/indeks-trendow-gpw.html#metodologia",
-    "href": "indeksy/indeks-trendow-gpw.html#metodologia",
-    "title": "Indeks trendów GPW",
-    "section": "Metodologia",
-    "text": "Metodologia\n\nUniwersum spółek\nIndeks trendów GPW jest budowany na podstawie 100 spółek o najwyższym średnim dziennym obrocie na Giełdzie Papierów Wartościowych w Warszawie. Dobór spółek na podstawie płynności zapewnia, że indeks odzwierciedla rzeczywiste możliwości inwestycyjne dostępne dla uczestników rynku.\nAby spółka została uwzględniona w kalkulacji, musi spełniać dodatkowy warunek: posiadać historię notowań obejmującą minimum 250 sesji giełdowych (około 1 rok). Ten wymóg pozwala uwzględnić w indeksie debiuty gigantów rynkowych z ostatnich lat (takich jak Allegro, Żabka czy Pepco), jednocześnie eliminując spółki o zbyt krótkiej historii, dla których analiza trendów byłaby niewystarczająco wiarygodna.\n\n\nDefinicja trendu\nDla każdej spółki z uniwersum analiza trendu opiera się na porównaniu bieżącej ceny z długoterminową średnią kroczącą obejmującą 200 sesji giełdowych. Średnia 200-sesyjna jest szeroko uznanym w analizie technicznej narzędziem do określania długoterminowego kierunku ruchu ceny.\nSpółka uznawana jest za będącą w trendzie wzrostowym, gdy jej cena przebywa powyżej długoterminowej średniej kroczącej. Odwrotnie – gdy cena znajduje się poniżej średniej, spółka nie jest zaliczana do grupy będących w trendzie wzrostowym.\n\n\nObliczanie indeksu\nWartość indeksu trendów to procent spółek z uniwersum, które znajdują się w trendzie wzrostowym w danym dniu. Każda spółka ma równy wkład w wartość indeksu (1/N, gdzie N to liczba spółek), niezależnie od jej kapitalizacji czy wartości obrotu.\nMatematycznie:\n\\[\n\\text{Indeks Trendów}_t = \\frac{\\text{Liczba spółek w trendzie wzrostowym}_t}{\\text{Całkowita liczba spółek z danymi}_t} \\times 100\\%\n\\]\n\n\nAktualizacja\nIndeks jest aktualizowany codziennie przed rozpoczęciem nowej sesji GPW, wykorzystując ceny zamknięcia z poprzedniej sesji. Dzięki temu inwestorzy rozpoczynają każdy dzień handlowy z aktualnym obrazem szerokości rynku."
-  },
-  {
-    "objectID": "indeksy/indeks-trendow-gpw.html#potencjalne-zastosowania",
-    "href": "indeksy/indeks-trendow-gpw.html#potencjalne-zastosowania",
-    "title": "Indeks trendów GPW",
-    "section": "Potencjalne zastosowania",
-    "text": "Potencjalne zastosowania\n\n1. Ocena rzeczywistej siły rynku\nIndeks trendów pozwala odróżnić prawdziwą hossę (szeroki udział większości spółek we wzrostach) od pozornej hossy (wzrost napędzany tylko przez kilka dużych spółek). Gdy indeks WIG lub WIG20 rośnie, ale indeks trendów jest niski (np. poniżej 30-40%), może to świadczyć o słabości fundamentalnej ruchu i zwiększonym ryzyku odwrócenia trendu.\n\n\n2. Identyfikacja dywergencji\nDywergencje między indeksem trendów a głównymi indeksami mogą sygnalizować nadchodzące zmiany kierunku rynku:\n\nPozytywna dywergencja (potencjalnie bullish): Indeks trendów rośnie, podczas gdy WIG/WIG20 spadają. Sugeruje to, że szeroki rynek zaczyna się umacniać, mimo że główne indeksy jeszcze tego nie pokazują – może zapowiadać przyszły wzrost.\nNegatywna dywergencja (potencjalnie bearish): Indeks trendów spada, podczas gdy WIG/WIG20 rosną. Oznacza to, że wzrost głównych indeksów jest napędzany przez coraz mniejszą grupę spółek – niezdrowa sytuacja mogąca poprzedzać korektę lub bessę.\n\n\n\n3. Potwierdzenie trendów\nSilne trendy rynkowe (zarówno wzrostowe, jak i spadkowe) są bardziej wiarygodne, gdy towarzyszą im odpowiednie wartości indeksu trendów:\n\nPotwierdzenie hossy: WIG rośnie + indeks trendów &gt; 60-70%\nPotwierdzenie bessy: WIG spada + indeks trendów &lt; 30-40%\n\n\n\n4. Timing wejść i wyjść\nEkstrema w indeksie trendów mogą wskazywać na:\n\nWyprzedanie rynku: Indeks trendów &lt; 20% – potencjalna okazja do zakupów (wyprzedanie)\nWykupienie rynku: Indeks trendów &gt; 80% – potencjalne ostrzeżenie przed korektą (wykupienie)\n\n\n\n\n\n\n\nWażne zastrzeżenie\n\n\n\nIndeks trendów GPW jest narzędziem analitycznym wspomagającym podejmowanie decyzji inwestycyjnych, a nie systemem generującym jednoznaczne sygnały kupna lub sprzedaży. Powinien być używany w połączeniu z innymi metodami analizy i zawsze z uwzględnieniem indywidualnej tolerancji ryzyka oraz celów inwestycyjnych.\n\n\n\n\n\n\n\n\n\nAktualizacje\n\n\n\nIndeks trendów GPW jest aktualizowany codziennie. Strona jest odświeżana automatycznie przed rozpoczęciem każdej nowej sesji giełdowej.\nOstatnia aktualizacja: 2025-11-20"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "O nas",
-    "section": "",
-    "text": "DomenaRynku.pl to portal stworzony dla świadomych inwestorów, którzy chcą podejmować decyzje inwestycyjne w oparciu o rzetelne dane i analizy."
-  },
-  {
-    "objectID": "about.html#kim-jesteśmy",
-    "href": "about.html#kim-jesteśmy",
-    "title": "O nas",
-    "section": "",
-    "text": "DomenaRynku.pl to portal stworzony dla świadomych inwestorów, którzy chcą podejmować decyzje inwestycyjne w oparciu o rzetelne dane i analizy."
-  },
-  {
-    "objectID": "about.html#nasza-misja",
-    "href": "about.html#nasza-misja",
-    "title": "O nas",
-    "section": "Nasza misja",
-    "text": "Nasza misja\nDostarczamy kompleksowe narzędzia i analizy rynku kapitałowego, ze szczególnym uwzględnieniem Giełdy Papierów Wartościowych w Warszawie."
-  },
-  {
-    "objectID": "about.html#co-oferujemy",
-    "href": "about.html#co-oferujemy",
-    "title": "O nas",
-    "section": "Co oferujemy",
-    "text": "Co oferujemy\n\nAnaliza sentymentu giełdowego (Polska i świat)\nAutorskie indeksy giełdowe\nBaza danych spółek GPW\nAktualne dane rynkowe\nEdukacja inwestorska"
-  },
-  {
-    "objectID": "about.html#kontakt",
-    "href": "about.html#kontakt",
-    "title": "O nas",
-    "section": "Kontakt",
-    "text": "Kontakt\nJeśli masz pytania lub sugestie, skontaktuj się z nami."
-  },
-  {
-    "objectID": "README_STRUKTURA.html",
-    "href": "README_STRUKTURA.html",
-    "title": "DomenaRynku.pl - Struktura projektu",
-    "section": "",
-    "text": "/\n├── data/                          # Dane projektu\n│   ├── raw/                       # Surowe dane z API/źródeł\n│   └── processed/                 # Przetworzone dane (.RDS)\n│       └── indeks_trendow.RDS    # Dane dla indeksu trendów\n│\n├── mod/                           # Moduły box\n│   └── gpw.R                     # Moduł do pracy z danymi GPW\n│\n├── R/                             # Skrypty pomocnicze R\n│   └── funkcje_pomocnicze.R      # Funkcje używane w projekcie\n│\n├── scripts/                       # Skrypty aktualizacji\n│   └── update_indeks_trendow.R   # Skrypt aktualizujący dane indeksu\n│\n├── indeksy/                       # Strony z indeksami\n│   ├── indeks-trendow-gpw.qmd    # Strona indeksu trendów\n│   └── indeks-cenowy-top100.qmd  # Strona indeksu cenowego\n│\n├── sentyment-gieldowy/            # Strony sentymentu\n│   ├── polska.qmd\n│   └── swiat.qmd\n│\n└── images/                        # Grafiki i logo\n\n\n\n\n\n# Uruchom skrypt aktualizacji\nsource(\"scripts/update_indeks_trendow.R\")\n\n# Lub bezpośrednio z box\nbox::use(mod/gpw)\n# ... pobierz dane\nsaveRDS(dane, \"data/processed/indeks_trendow.RDS\")\n\n\n\n# Renderuj pojedynczą stronę\nquarto::quarto_render(\"indeksy/indeks-trendow-gpw.qmd\")\n\n# Lub całą stronę\nquarto::quarto_render()\n\n\n\n\nW pliku .qmd zaciągasz dane:\n# Wczytaj dane\ndane_indeksu &lt;- readRDS(\"../data/processed/indeks_trendow.RDS\")\n\n# Oblicz indeks\nindeks &lt;- oblicz_indeks_trendow(dane_indeksu)\n\n# Wyświetl wykres\nplot_indeks(indeks)\n\n\n\n\ndplyr - przetwarzanie danych\nggplot2 - wykresy\nbox - moduły\nlubridate - daty\nknitr - tabele"
-  },
-  {
-    "objectID": "README_STRUKTURA.html#struktura-katalogów",
-    "href": "README_STRUKTURA.html#struktura-katalogów",
-    "title": "DomenaRynku.pl - Struktura projektu",
-    "section": "",
-    "text": "/\n├── data/                          # Dane projektu\n│   ├── raw/                       # Surowe dane z API/źródeł\n│   └── processed/                 # Przetworzone dane (.RDS)\n│       └── indeks_trendow.RDS    # Dane dla indeksu trendów\n│\n├── mod/                           # Moduły box\n│   └── gpw.R                     # Moduł do pracy z danymi GPW\n│\n├── R/                             # Skrypty pomocnicze R\n│   └── funkcje_pomocnicze.R      # Funkcje używane w projekcie\n│\n├── scripts/                       # Skrypty aktualizacji\n│   └── update_indeks_trendow.R   # Skrypt aktualizujący dane indeksu\n│\n├── indeksy/                       # Strony z indeksami\n│   ├── indeks-trendow-gpw.qmd    # Strona indeksu trendów\n│   └── indeks-cenowy-top100.qmd  # Strona indeksu cenowego\n│\n├── sentyment-gieldowy/            # Strony sentymentu\n│   ├── polska.qmd\n│   └── swiat.qmd\n│\n└── images/                        # Grafiki i logo"
-  },
-  {
-    "objectID": "README_STRUKTURA.html#workflow",
-    "href": "README_STRUKTURA.html#workflow",
-    "title": "DomenaRynku.pl - Struktura projektu",
-    "section": "",
-    "text": "# Uruchom skrypt aktualizacji\nsource(\"scripts/update_indeks_trendow.R\")\n\n# Lub bezpośrednio z box\nbox::use(mod/gpw)\n# ... pobierz dane\nsaveRDS(dane, \"data/processed/indeks_trendow.RDS\")\n\n\n\n# Renderuj pojedynczą stronę\nquarto::quarto_render(\"indeksy/indeks-trendow-gpw.qmd\")\n\n# Lub całą stronę\nquarto::quarto_render()"
-  },
-  {
-    "objectID": "README_STRUKTURA.html#użycie-w-.qmd",
-    "href": "README_STRUKTURA.html#użycie-w-.qmd",
-    "title": "DomenaRynku.pl - Struktura projektu",
-    "section": "",
-    "text": "W pliku .qmd zaciągasz dane:\n# Wczytaj dane\ndane_indeksu &lt;- readRDS(\"../data/processed/indeks_trendow.RDS\")\n\n# Oblicz indeks\nindeks &lt;- oblicz_indeks_trendow(dane_indeksu)\n\n# Wyświetl wykres\nplot_indeks(indeks)"
-  },
-  {
-    "objectID": "README_STRUKTURA.html#pakiety-wymagane",
-    "href": "README_STRUKTURA.html#pakiety-wymagane",
-    "title": "DomenaRynku.pl - Struktura projektu",
-    "section": "",
-    "text": "dplyr - przetwarzanie danych\nggplot2 - wykresy\nbox - moduły\nlubridate - daty\nknitr - tabele"
-  },
-  {
-    "objectID": "sentyment-rynku/polska.html",
-    "href": "sentyment-rynku/polska.html",
-    "title": "Sentyment rynku - Polska",
-    "section": "",
-    "text": "Sentyment rynku to wskaźnik nastrojów inwestorów na Giełdzie Papierów Wartościowych w Warszawie. Mierzy on emocjonalny stosunek uczestników rynku do sytuacji na giełdzie, pokazując czy przeważają postawy optymistyczne czy pesymistyczne. Wskaźnik ten może sygnalizować potencjalne punkty zwrotne na rynku, gdy nastroje osiągają ekstremalne poziomy.\nSentyment rynku często wyprzedza ruchy cenowe indeksów giełdowych. Skrajny pesymizm może wskazywać na wyprzedanie rynku i potencjalne dno, podczas gdy ekstremalne nastroje euforyczne mogą poprzedzać korekty spadkowe. Warto jednak pamiętać, że sentyment to tylko jedno z narzędzi analitycznych i powinien być stosowany w połączeniu z innymi metodami analizy rynku."
-  },
-  {
-    "objectID": "sentyment-rynku/polska.html#o-wskaźniku",
-    "href": "sentyment-rynku/polska.html#o-wskaźniku",
-    "title": "Sentyment rynku - Polska",
-    "section": "",
-    "text": "Sentyment rynku to wskaźnik nastrojów inwestorów na Giełdzie Papierów Wartościowych w Warszawie. Mierzy on emocjonalny stosunek uczestników rynku do sytuacji na giełdzie, pokazując czy przeważają postawy optymistyczne czy pesymistyczne. Wskaźnik ten może sygnalizować potencjalne punkty zwrotne na rynku, gdy nastroje osiągają ekstremalne poziomy.\nSentyment rynku często wyprzedza ruchy cenowe indeksów giełdowych. Skrajny pesymizm może wskazywać na wyprzedanie rynku i potencjalne dno, podczas gdy ekstremalne nastroje euforyczne mogą poprzedzać korekty spadkowe. Warto jednak pamiętać, że sentyment to tylko jedno z narzędzi analitycznych i powinien być stosowany w połączeniu z innymi metodami analizy rynku."
-  },
-  {
-    "objectID": "sentyment-rynku/polska.html#wykres-sentymentu-rynku",
-    "href": "sentyment-rynku/polska.html#wykres-sentymentu-rynku",
-    "title": "Sentyment rynku - Polska",
-    "section": "Wykres sentymentu rynku",
-    "text": "Wykres sentymentu rynku\nPoniższy wykres przedstawia znormalizowany wskaźnik sentymentu rynku (0-100) na tle znormalizowanych indeksów WIG20 i WIG z ostatnich 250 sesji giełdowych. Możesz go przybliżać i sprawdzać wartości dla konkretnych dat.\n\n\n\n\n\n\n\n\n\n\n\n\nJak czytać wykres?\n\n\n\n\nSentyment rynku (niebieski): znormalizowany wskaźnik nastrojów (0-100)\nWIG20 i WIG (pomarańczowy/zielony): znormalizowane do skali 0-100 dla porównywalności\nWartości &gt; 70 sugerują bardzo optymistyczne nastroje (potencjalne wykupienie)\nWartości &lt; 30 sugerują pesymistyczne nastroje (potencjalne wyprzedanie)\nWartości 40-60 wskazują na neutralny sentyment rynku"
-  },
-  {
-    "objectID": "sentyment-rynku/polska.html#ostatnie-60-sesji",
-    "href": "sentyment-rynku/polska.html#ostatnie-60-sesji",
-    "title": "Sentyment rynku - Polska",
-    "section": "Ostatnie 60 sesji",
-    "text": "Ostatnie 60 sesji\nTabela przedstawia szczegółowe wartości sentymentu rynku oraz głównych indeksów GPW z ostatnich 60 sesji giełdowych (kwartał).\n\n\n\n\nWartości sentymentu rynku i głównych indeksów GPW (ostatnie 60 sesji)\n\n\nData\nSentyment\nWIG20\nWIG\n\n\n\n\n2025-11-18\n79.4\n2903.10\n108437.93\n\n\n2025-11-17\n87.0\n2956.16\n110616.15\n\n\n2025-11-16\n91.5\n2990.37\n111687.24\n\n\n2025-11-15\n93.5\n2990.37\n111687.24\n\n\n2025-11-14\n93.5\n2990.37\n111687.24\n\n\n2025-11-13\n93.9\n3016.16\n112532.48\n\n\n2025-11-12\n93.9\n3023.24\n112760.18\n\n\n2025-11-11\n93.1\n3019.29\n112668.07\n\n\n2025-11-10\n90.7\n3019.29\n112668.07\n\n\n2025-11-09\n86.2\n2970.61\n110985.15\n\n\n2025-11-08\n90.7\n2970.61\n110985.15\n\n\n2025-11-07\n91.5\n2970.61\n110985.15\n\n\n2025-11-06\n89.9\n3006.58\n112192.96\n\n\n2025-11-05\n92.7\n2977.25\n111559.98\n\n\n2025-11-04\n100.0\n2978.38\n111372.83\n\n\n2025-11-03\n97.6\n3005.61\n112058.99\n\n\n2025-11-02\n97.2\n2987.33\n111487.05\n\n\n2025-11-01\n98.8\n2987.33\n111487.05\n\n\n2025-10-31\n95.5\n2987.33\n111487.05\n\n\n2025-10-30\n98.8\n3029.29\n112708.11\n\n\n2025-10-29\n93.1\n3038.56\n113294.48\n\n\n2025-10-28\n91.1\n3041.52\n113459.04\n\n\n2025-10-27\n90.7\n2980.91\n111612.44\n\n\n2025-10-26\n82.2\n2981.19\n111427.76\n\n\n2025-10-25\n70.9\n2981.19\n111427.76\n\n\n2025-10-24\n67.6\n2981.19\n111427.76\n\n\n2025-10-23\n66.0\n2984.67\n111568.93\n\n\n2025-10-22\n67.6\n2958.78\n110937.56\n\n\n2025-10-21\n61.1\n2912.05\n109511.51\n\n\n2025-10-20\n51.0\n2916.61\n109618.82\n\n\n2025-10-19\n55.1\n2872.02\n107764.77\n\n\n2025-10-18\n44.5\n2872.02\n107764.77\n\n\n2025-10-17\n42.1\n2872.02\n107764.77\n\n\n2025-10-16\n47.4\n2887.16\n108214.71\n\n\n2025-10-15\n47.8\n2901.08\n108729.37\n\n\n2025-10-14\n48.2\n2844.05\n106653.38\n\n\n2025-10-13\n52.6\n2875.17\n107846.06\n\n\n2025-10-12\n46.6\n2873.04\n107951.51\n\n\n2025-10-11\n52.6\n2873.04\n107951.51\n\n\n2025-10-10\n57.9\n2873.04\n107951.51\n\n\n2025-10-09\n53.0\n2874.30\n108019.25\n\n\n2025-10-08\n60.7\n2877.99\n108295.93\n\n\n2025-10-07\n59.9\n2868.67\n107937.15\n\n\n2025-10-06\n55.1\n2838.10\n107133.09\n\n\n2025-10-05\n57.1\n2862.96\n108016.79\n\n\n2025-10-04\n59.9\n2862.96\n108016.79\n\n\n2025-10-03\n58.7\n2862.96\n108016.79\n\n\n2025-10-02\n58.7\n2861.62\n107695.90\n\n\n2025-10-01\n58.3\n2850.42\n107121.50\n\n\n2025-09-30\n64.0\n2827.17\n106363.86\n\n\n2025-09-29\n72.1\n2832.01\n106524.71\n\n\n2025-09-28\n74.5\n2832.26\n106570.62\n\n\n2025-09-27\n74.5\n2832.26\n106570.62\n\n\n2025-09-26\n74.9\n2832.26\n106570.62\n\n\n2025-09-25\n76.1\n2797.79\n105561.78\n\n\n2025-09-24\n75.3\n2828.82\n106520.90\n\n\n2025-09-23\n75.3\n2819.10\n105866.67\n\n\n2025-09-22\n81.8\n2802.03\n105324.97\n\n\n2025-09-21\n83.4\n2802.69\n105380.97\n\n\n2025-09-20\n80.2\n2802.69\n105380.97"
-  },
-  {
-    "objectID": "sentyment-rynku/polska.html#metodologia",
-    "href": "sentyment-rynku/polska.html#metodologia",
-    "title": "Sentyment rynku - Polska",
-    "section": "Metodologia",
-    "text": "Metodologia\n\nŹródło danych\nWskaźnik sentymentu rynku jest budowany na podstawie codziennej analizy nagłówków publikowanych na stronach głównych największych polskich serwisów zajmujących się tematyką giełdy, rynków finansowych i ekonomii. Dane są zbierane od września 2023 roku.\n\n\nProces zbierania i obliczania wskaźnika\nProces przebiega w następujących krokach:\n\nZbieranie danych: Codziennie przed rozpoczęciem sesji GPW analizowane są strony główne serwisów informacyjnych z dziedziny giełdy i finansów.\nKlasyfikacja nagłówków: Wszystkie zidentyfikowane nagłówki newsów otrzymują klasyfikację sentymentu:\n\n+1 - sentyment pozytywny (nagłówki optymistyczne, wskazujące na dobre wiadomości dla rynku)\n0 - sentyment neutralny (nagłówki informacyjne bez wyraźnego wydźwięku emocjonalnego)\n-1 - sentyment negatywny (nagłówki pesymistyczne, wskazujące na niepokojące informacje)\n\nAgregacja dzienna: Dla każdego serwisu obliczana jest suma sentymentu z danego dnia, następnie sumowane są wartości ze wszystkich analizowanych serwisów, tworząc dzienny wskaźnik sentymentu dla całego rynku.\nNormalizacja: Dzienny sentyment jest normalizowany do skali 0-100, gdzie:\n\n0 oznacza najbardziej pesymistyczne nastroje w historii pomiaru\n100 oznacza najbardziej optymistyczne nastroje w historii pomiaru\n50 reprezentuje neutralny punkt w historycznym rozkładzie nastrojów\n\n\nWskaźnik jest aktualizowany codziennie przed rozpoczęciem sesji GPW."
-  },
-  {
-    "objectID": "sentyment-rynku/polska.html#potencjalne-zastosowania",
-    "href": "sentyment-rynku/polska.html#potencjalne-zastosowania",
-    "title": "Sentyment rynku - Polska",
-    "section": "Potencjalne zastosowania",
-    "text": "Potencjalne zastosowania\n\n1. Identyfikacja ekstremów rynkowych\nWskaźnik sentymentu może sygnalizować ekstrema rynkowe, które często poprzedzają punkty zwrotne:\n\nSkrajny pesymizm (sentyment &lt; 20-30): Może wskazywać na wyprzedanie rynku i potencjalne dno. Gdy większość nagłówków jest negatywna, często oznacza to, że negatywne informacje są już w cenach.\nSkrajna euforia (sentyment &gt; 70-80): Może sygnalizować wykupienie rynku i zwiększone ryzyko korekty. Gdy dominują wyłącznie pozytywne nagłówki, może brakować nowych katalizatorów do dalszego napędzania wzrostów.\n\n\n\n2. Dywergencje z indeksami\nDywergencje między sentymentem a zachowaniem głównych indeksów mogą być szczególnie informacyjne:\n\nPozytywna dywergencja: Sentyment poprawia się, podczas gdy WIG/WIG20 nadal spadają – może zapowiadać zbliżające się odbicie.\nNegatywna dywergencja: Sentyment pogarsza się, mimo że indeksy rosną – ostrzeżenie przed możliwą korektą spadkową.\n\n\n\n3. Potwierdzenie trendów\nSilne trendy są bardziej wiarygodne, gdy sentyment je wspiera:\n\nTrend wzrostowy + rosnący sentyment: Potwierdza siłę hossy\nTrend spadkowy + spadający sentyment: Potwierdza siłę bessy\n\n\n\n4. Wsparcie w analizie rynku\nSentyment może stanowić dodatkowe narzędzie w analizie sytuacji rynkowej:\n\nNiski sentyment (&lt; 30) z oznakami poprawy: Można rozważyć zwiększenie ekspozycji na rynek\nWysoki sentyment (&gt; 70) z oznakami pogorszenia: Można rozważyć redukcję pozycji lub zabezpieczenie portfela\nSentyment w okolicy 40-60: Rynek może być w fazie konsolidacji\n\n\n\n\n\n\n\nWażne zastrzeżenie\n\n\n\nWskaźnik sentymentu rynku jest narzędziem analitycznym służącym do lepszego zrozumienia nastrojów na rynku. Nie stanowi on rekomendacji inwestycyjnej ani porady, jak należy postępować z kapitałem. Sentyment może pozostawać na ekstremalnych poziomach przez dłuższy czas, zanim nastąpi odwrócenie trendu. Powinien być używany w połączeniu z innymi metodami analizy technicznej i fundamentalnej, zawsze z uwzględnieniem indywidualnej tolerancji ryzyka oraz celów inwestycyjnych.\n\n\n\n\n\n\n\n\n\nAktualizacje\n\n\n\nWskaźnik sentymentu rynku jest aktualizowany codziennie przed rozpoczęciem sesji GPW.\nOstatnia aktualizacja: 2025-11-20\n\n\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią one porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży jakichkolwiek instrumentów finansowych. Decyzje inwestycyjne powinny być podejmowane na podstawie własnej analizy i po konsultacji z licencjonowanym doradcą finansowym."
-  },
-  {
-    "objectID": "sentyment-rynku/swiat.html",
-    "href": "sentyment-rynku/swiat.html",
-    "title": "Sentyment rynku - Świat",
-    "section": "",
-    "text": "Sentyment rynku na światowych rynkach - analiza nastrojów inwestorów na głównych giełdach świata."
-  },
-  {
-    "objectID": "sentyment-rynku/swiat.html#wprowadzenie",
-    "href": "sentyment-rynku/swiat.html#wprowadzenie",
-    "title": "Sentyment rynku - Świat",
-    "section": "",
-    "text": "Sentyment rynku na światowych rynkach - analiza nastrojów inwestorów na głównych giełdach świata."
-  },
-  {
-    "objectID": "sentyment-rynku/swiat.html#główne-rynki",
-    "href": "sentyment-rynku/swiat.html#główne-rynki",
-    "title": "Sentyment rynku - Świat",
-    "section": "Główne rynki",
-    "text": "Główne rynki\n\nStany Zjednoczone\nAnaliza sentymentu na NYSE i NASDAQ.\n\n\nEuropa\nNastroje inwestorów na głównych giełdach europejskich.\n\n\nAzja\nSentyment na rynkach azjatyckich."
-  },
-  {
-    "objectID": "sentyment-rynku/swiat.html#wskaźniki-globalne",
-    "href": "sentyment-rynku/swiat.html#wskaźniki-globalne",
-    "title": "Sentyment rynku - Świat",
-    "section": "Wskaźniki globalne",
-    "text": "Wskaźniki globalne\n\nVIX (indeks strachu)\nPrzepływy kapitału\nPoziom ryzyka"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Aktualności z rynku",
-    "section": "",
-    "text": "Brak pasujących"
-  },
-  {
     "objectID": "indeksy/indeks-cenowy-top100.html",
     "href": "indeksy/indeks-cenowy-top100.html",
     "title": "Indeks równoważony TOP100 GPW",
@@ -278,5 +89,194 @@
     "title": "Indeks równoważony TOP100 GPW",
     "section": "Inspiracja: ZUPI Martina Zweiga",
     "text": "Inspiracja: ZUPI Martina Zweiga\nKoncepcja tego indeksu jest zainspirowana ZUPI (Zweig Unweighted Price Index) opisanym przez Martina Zweiga w książce Winning on Wall Street (1986). Zweig, legendarny inwestor i analityk techniczny, zauważył, że tradycyjne indeksy ważone kapitalizacją mogą dawać zniekształcony obraz kondycji rynku.\nZweig stworzył ZUPI jako odpowiedź na pytanie: “Jak radzi sobie przeciętna spółka?” zamiast “Jak radzi sobie przeciętny dolar zainwestowany na giełdzie?” (co mierzą indeksy kapitalizacyjne). W swojej praktyce inwestycyjnej używał ZUPI jako jednego z kluczowych wskaźników do oceny szerokości rynku i wczesnego wykrywania zmian trendu.\nIndeks równoważony TOP100 GPW adaptuje tę filozofię do polskiego rynku akcji."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Aktualności z rynku",
+    "section": "",
+    "text": "Brak pasujących"
+  },
+  {
+    "objectID": "sentyment-rynku/swiat.html",
+    "href": "sentyment-rynku/swiat.html",
+    "title": "Sentyment rynku - Świat",
+    "section": "",
+    "text": "Sentyment rynku na światowych rynkach - analiza nastrojów inwestorów na głównych giełdach świata."
+  },
+  {
+    "objectID": "sentyment-rynku/swiat.html#wprowadzenie",
+    "href": "sentyment-rynku/swiat.html#wprowadzenie",
+    "title": "Sentyment rynku - Świat",
+    "section": "",
+    "text": "Sentyment rynku na światowych rynkach - analiza nastrojów inwestorów na głównych giełdach świata."
+  },
+  {
+    "objectID": "sentyment-rynku/swiat.html#główne-rynki",
+    "href": "sentyment-rynku/swiat.html#główne-rynki",
+    "title": "Sentyment rynku - Świat",
+    "section": "Główne rynki",
+    "text": "Główne rynki\n\nStany Zjednoczone\nAnaliza sentymentu na NYSE i NASDAQ.\n\n\nEuropa\nNastroje inwestorów na głównych giełdach europejskich.\n\n\nAzja\nSentyment na rynkach azjatyckich."
+  },
+  {
+    "objectID": "sentyment-rynku/swiat.html#wskaźniki-globalne",
+    "href": "sentyment-rynku/swiat.html#wskaźniki-globalne",
+    "title": "Sentyment rynku - Świat",
+    "section": "Wskaźniki globalne",
+    "text": "Wskaźniki globalne\n\nVIX (indeks strachu)\nPrzepływy kapitału\nPoziom ryzyka"
+  },
+  {
+    "objectID": "sentyment-rynku/polska.html",
+    "href": "sentyment-rynku/polska.html",
+    "title": "Sentyment rynku - Polska",
+    "section": "",
+    "text": "Sentyment rynku to wskaźnik nastrojów inwestorów na Giełdzie Papierów Wartościowych w Warszawie. Mierzy on emocjonalny stosunek uczestników rynku do sytuacji na giełdzie, pokazując czy przeważają postawy optymistyczne czy pesymistyczne. Wskaźnik ten może sygnalizować potencjalne punkty zwrotne na rynku, gdy nastroje osiągają ekstremalne poziomy.\nSentyment rynku często wyprzedza ruchy cenowe indeksów giełdowych. Skrajny pesymizm może wskazywać na wyprzedanie rynku i potencjalne dno, podczas gdy ekstremalne nastroje euforyczne mogą poprzedzać korekty spadkowe. Warto jednak pamiętać, że sentyment to tylko jedno z narzędzi analitycznych i powinien być stosowany w połączeniu z innymi metodami analizy rynku."
+  },
+  {
+    "objectID": "sentyment-rynku/polska.html#o-wskaźniku",
+    "href": "sentyment-rynku/polska.html#o-wskaźniku",
+    "title": "Sentyment rynku - Polska",
+    "section": "",
+    "text": "Sentyment rynku to wskaźnik nastrojów inwestorów na Giełdzie Papierów Wartościowych w Warszawie. Mierzy on emocjonalny stosunek uczestników rynku do sytuacji na giełdzie, pokazując czy przeważają postawy optymistyczne czy pesymistyczne. Wskaźnik ten może sygnalizować potencjalne punkty zwrotne na rynku, gdy nastroje osiągają ekstremalne poziomy.\nSentyment rynku często wyprzedza ruchy cenowe indeksów giełdowych. Skrajny pesymizm może wskazywać na wyprzedanie rynku i potencjalne dno, podczas gdy ekstremalne nastroje euforyczne mogą poprzedzać korekty spadkowe. Warto jednak pamiętać, że sentyment to tylko jedno z narzędzi analitycznych i powinien być stosowany w połączeniu z innymi metodami analizy rynku."
+  },
+  {
+    "objectID": "sentyment-rynku/polska.html#wykres-sentymentu-rynku",
+    "href": "sentyment-rynku/polska.html#wykres-sentymentu-rynku",
+    "title": "Sentyment rynku - Polska",
+    "section": "Wykres sentymentu rynku",
+    "text": "Wykres sentymentu rynku\nPoniższy wykres przedstawia znormalizowany wskaźnik sentymentu rynku (0-100) na tle znormalizowanych indeksów WIG20 i WIG z ostatnich 250 sesji giełdowych. Możesz go przybliżać i sprawdzać wartości dla konkretnych dat.\n\n\n\n\n\n\n\n\n\n\n\n\nJak czytać wykres?\n\n\n\n\nSentyment rynku (niebieski): znormalizowany wskaźnik nastrojów (0-100)\nWIG20 i WIG (pomarańczowy/zielony): znormalizowane do skali 0-100 dla porównywalności\nWartości &gt; 70 sugerują bardzo optymistyczne nastroje (potencjalne wykupienie)\nWartości &lt; 30 sugerują pesymistyczne nastroje (potencjalne wyprzedanie)\nWartości 40-60 wskazują na neutralny sentyment rynku"
+  },
+  {
+    "objectID": "sentyment-rynku/polska.html#ostatnie-60-sesji",
+    "href": "sentyment-rynku/polska.html#ostatnie-60-sesji",
+    "title": "Sentyment rynku - Polska",
+    "section": "Ostatnie 60 sesji",
+    "text": "Ostatnie 60 sesji\nTabela przedstawia szczegółowe wartości sentymentu rynku oraz głównych indeksów GPW z ostatnich 60 sesji giełdowych (kwartał).\n\n\n\n\nWartości sentymentu rynku i głównych indeksów GPW (ostatnie 60 sesji)\n\n\nData\nSentyment\nWIG20\nWIG\n\n\n\n\n2025-11-18\n79.4\n2903.10\n108437.93\n\n\n2025-11-17\n87.0\n2956.16\n110616.15\n\n\n2025-11-16\n91.5\n2990.37\n111687.24\n\n\n2025-11-15\n93.5\n2990.37\n111687.24\n\n\n2025-11-14\n93.5\n2990.37\n111687.24\n\n\n2025-11-13\n93.9\n3016.16\n112532.48\n\n\n2025-11-12\n93.9\n3023.24\n112760.18\n\n\n2025-11-11\n93.1\n3019.29\n112668.07\n\n\n2025-11-10\n90.7\n3019.29\n112668.07\n\n\n2025-11-09\n86.2\n2970.61\n110985.15\n\n\n2025-11-08\n90.7\n2970.61\n110985.15\n\n\n2025-11-07\n91.5\n2970.61\n110985.15\n\n\n2025-11-06\n89.9\n3006.58\n112192.96\n\n\n2025-11-05\n92.7\n2977.25\n111559.98\n\n\n2025-11-04\n100.0\n2978.38\n111372.83\n\n\n2025-11-03\n97.6\n3005.61\n112058.99\n\n\n2025-11-02\n97.2\n2987.33\n111487.05\n\n\n2025-11-01\n98.8\n2987.33\n111487.05\n\n\n2025-10-31\n95.5\n2987.33\n111487.05\n\n\n2025-10-30\n98.8\n3029.29\n112708.11\n\n\n2025-10-29\n93.1\n3038.56\n113294.48\n\n\n2025-10-28\n91.1\n3041.52\n113459.04\n\n\n2025-10-27\n90.7\n2980.91\n111612.44\n\n\n2025-10-26\n82.2\n2981.19\n111427.76\n\n\n2025-10-25\n70.9\n2981.19\n111427.76\n\n\n2025-10-24\n67.6\n2981.19\n111427.76\n\n\n2025-10-23\n66.0\n2984.67\n111568.93\n\n\n2025-10-22\n67.6\n2958.78\n110937.56\n\n\n2025-10-21\n61.1\n2912.05\n109511.51\n\n\n2025-10-20\n51.0\n2916.61\n109618.82\n\n\n2025-10-19\n55.1\n2872.02\n107764.77\n\n\n2025-10-18\n44.5\n2872.02\n107764.77\n\n\n2025-10-17\n42.1\n2872.02\n107764.77\n\n\n2025-10-16\n47.4\n2887.16\n108214.71\n\n\n2025-10-15\n47.8\n2901.08\n108729.37\n\n\n2025-10-14\n48.2\n2844.05\n106653.38\n\n\n2025-10-13\n52.6\n2875.17\n107846.06\n\n\n2025-10-12\n46.6\n2873.04\n107951.51\n\n\n2025-10-11\n52.6\n2873.04\n107951.51\n\n\n2025-10-10\n57.9\n2873.04\n107951.51\n\n\n2025-10-09\n53.0\n2874.30\n108019.25\n\n\n2025-10-08\n60.7\n2877.99\n108295.93\n\n\n2025-10-07\n59.9\n2868.67\n107937.15\n\n\n2025-10-06\n55.1\n2838.10\n107133.09\n\n\n2025-10-05\n57.1\n2862.96\n108016.79\n\n\n2025-10-04\n59.9\n2862.96\n108016.79\n\n\n2025-10-03\n58.7\n2862.96\n108016.79\n\n\n2025-10-02\n58.7\n2861.62\n107695.90\n\n\n2025-10-01\n58.3\n2850.42\n107121.50\n\n\n2025-09-30\n64.0\n2827.17\n106363.86\n\n\n2025-09-29\n72.1\n2832.01\n106524.71\n\n\n2025-09-28\n74.5\n2832.26\n106570.62\n\n\n2025-09-27\n74.5\n2832.26\n106570.62\n\n\n2025-09-26\n74.9\n2832.26\n106570.62\n\n\n2025-09-25\n76.1\n2797.79\n105561.78\n\n\n2025-09-24\n75.3\n2828.82\n106520.90\n\n\n2025-09-23\n75.3\n2819.10\n105866.67\n\n\n2025-09-22\n81.8\n2802.03\n105324.97\n\n\n2025-09-21\n83.4\n2802.69\n105380.97\n\n\n2025-09-20\n80.2\n2802.69\n105380.97"
+  },
+  {
+    "objectID": "sentyment-rynku/polska.html#metodologia",
+    "href": "sentyment-rynku/polska.html#metodologia",
+    "title": "Sentyment rynku - Polska",
+    "section": "Metodologia",
+    "text": "Metodologia\n\nŹródło danych\nWskaźnik sentymentu rynku jest budowany na podstawie codziennej analizy nagłówków publikowanych na stronach głównych największych polskich serwisów zajmujących się tematyką giełdy, rynków finansowych i ekonomii. Dane są zbierane od września 2023 roku.\n\n\nProces zbierania i obliczania wskaźnika\nProces przebiega w następujących krokach:\n\nZbieranie danych: Codziennie przed rozpoczęciem sesji GPW analizowane są strony główne serwisów informacyjnych z dziedziny giełdy i finansów.\nKlasyfikacja nagłówków: Wszystkie zidentyfikowane nagłówki newsów otrzymują klasyfikację sentymentu:\n\n+1 - sentyment pozytywny (nagłówki optymistyczne, wskazujące na dobre wiadomości dla rynku)\n0 - sentyment neutralny (nagłówki informacyjne bez wyraźnego wydźwięku emocjonalnego)\n-1 - sentyment negatywny (nagłówki pesymistyczne, wskazujące na niepokojące informacje)\n\nAgregacja dzienna: Dla każdego serwisu obliczana jest suma sentymentu z danego dnia, następnie sumowane są wartości ze wszystkich analizowanych serwisów, tworząc dzienny wskaźnik sentymentu dla całego rynku.\nNormalizacja: Dzienny sentyment jest normalizowany do skali 0-100, gdzie:\n\n0 oznacza najbardziej pesymistyczne nastroje w historii pomiaru\n100 oznacza najbardziej optymistyczne nastroje w historii pomiaru\n50 reprezentuje neutralny punkt w historycznym rozkładzie nastrojów\n\n\nWskaźnik jest aktualizowany codziennie przed rozpoczęciem sesji GPW."
+  },
+  {
+    "objectID": "sentyment-rynku/polska.html#potencjalne-zastosowania",
+    "href": "sentyment-rynku/polska.html#potencjalne-zastosowania",
+    "title": "Sentyment rynku - Polska",
+    "section": "Potencjalne zastosowania",
+    "text": "Potencjalne zastosowania\n\n1. Identyfikacja ekstremów rynkowych\nWskaźnik sentymentu może sygnalizować ekstrema rynkowe, które często poprzedzają punkty zwrotne:\n\nSkrajny pesymizm (sentyment &lt; 20-30): Może wskazywać na wyprzedanie rynku i potencjalne dno. Gdy większość nagłówków jest negatywna, często oznacza to, że negatywne informacje są już w cenach.\nSkrajna euforia (sentyment &gt; 70-80): Może sygnalizować wykupienie rynku i zwiększone ryzyko korekty. Gdy dominują wyłącznie pozytywne nagłówki, może brakować nowych katalizatorów do dalszego napędzania wzrostów.\n\n\n\n2. Dywergencje z indeksami\nDywergencje między sentymentem a zachowaniem głównych indeksów mogą być szczególnie informacyjne:\n\nPozytywna dywergencja: Sentyment poprawia się, podczas gdy WIG/WIG20 nadal spadają – może zapowiadać zbliżające się odbicie.\nNegatywna dywergencja: Sentyment pogarsza się, mimo że indeksy rosną – ostrzeżenie przed możliwą korektą spadkową.\n\n\n\n3. Potwierdzenie trendów\nSilne trendy są bardziej wiarygodne, gdy sentyment je wspiera:\n\nTrend wzrostowy + rosnący sentyment: Potwierdza siłę hossy\nTrend spadkowy + spadający sentyment: Potwierdza siłę bessy\n\n\n\n4. Wsparcie w analizie rynku\nSentyment może stanowić dodatkowe narzędzie w analizie sytuacji rynkowej:\n\nNiski sentyment (&lt; 30) z oznakami poprawy: Można rozważyć zwiększenie ekspozycji na rynek\nWysoki sentyment (&gt; 70) z oznakami pogorszenia: Można rozważyć redukcję pozycji lub zabezpieczenie portfela\nSentyment w okolicy 40-60: Rynek może być w fazie konsolidacji\n\n\n\n\n\n\n\nWażne zastrzeżenie\n\n\n\nWskaźnik sentymentu rynku jest narzędziem analitycznym służącym do lepszego zrozumienia nastrojów na rynku. Nie stanowi on rekomendacji inwestycyjnej ani porady, jak należy postępować z kapitałem. Sentyment może pozostawać na ekstremalnych poziomach przez dłuższy czas, zanim nastąpi odwrócenie trendu. Powinien być używany w połączeniu z innymi metodami analizy technicznej i fundamentalnej, zawsze z uwzględnieniem indywidualnej tolerancji ryzyka oraz celów inwestycyjnych.\n\n\n\n\n\n\n\n\n\nAktualizacje\n\n\n\nWskaźnik sentymentu rynku jest aktualizowany codziennie przed rozpoczęciem sesji GPW.\nOstatnia aktualizacja: 2025-11-20\n\n\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią one porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży jakichkolwiek instrumentów finansowych. Decyzje inwestycyjne powinny być podejmowane na podstawie własnej analizy i po konsultacji z licencjonowanym doradcą finansowym."
+  },
+  {
+    "objectID": "README_STRUKTURA.html",
+    "href": "README_STRUKTURA.html",
+    "title": "DomenaRynku.pl - Struktura projektu",
+    "section": "",
+    "text": "/\n├── data/                          # Dane projektu\n│   ├── raw/                       # Surowe dane z API/źródeł\n│   └── processed/                 # Przetworzone dane (.RDS)\n│       └── indeks_trendow.RDS    # Dane dla indeksu trendów\n│\n├── mod/                           # Moduły box\n│   └── gpw.R                     # Moduł do pracy z danymi GPW\n│\n├── R/                             # Skrypty pomocnicze R\n│   └── funkcje_pomocnicze.R      # Funkcje używane w projekcie\n│\n├── scripts/                       # Skrypty aktualizacji\n│   └── update_indeks_trendow.R   # Skrypt aktualizujący dane indeksu\n│\n├── indeksy/                       # Strony z indeksami\n│   ├── indeks-trendow-gpw.qmd    # Strona indeksu trendów\n│   └── indeks-cenowy-top100.qmd  # Strona indeksu cenowego\n│\n├── sentyment-gieldowy/            # Strony sentymentu\n│   ├── polska.qmd\n│   └── swiat.qmd\n│\n└── images/                        # Grafiki i logo\n\n\n\n\n\n# Uruchom skrypt aktualizacji\nsource(\"scripts/update_indeks_trendow.R\")\n\n# Lub bezpośrednio z box\nbox::use(mod/gpw)\n# ... pobierz dane\nsaveRDS(dane, \"data/processed/indeks_trendow.RDS\")\n\n\n\n# Renderuj pojedynczą stronę\nquarto::quarto_render(\"indeksy/indeks-trendow-gpw.qmd\")\n\n# Lub całą stronę\nquarto::quarto_render()\n\n\n\n\nW pliku .qmd zaciągasz dane:\n# Wczytaj dane\ndane_indeksu &lt;- readRDS(\"../data/processed/indeks_trendow.RDS\")\n\n# Oblicz indeks\nindeks &lt;- oblicz_indeks_trendow(dane_indeksu)\n\n# Wyświetl wykres\nplot_indeks(indeks)\n\n\n\n\ndplyr - przetwarzanie danych\nggplot2 - wykresy\nbox - moduły\nlubridate - daty\nknitr - tabele"
+  },
+  {
+    "objectID": "README_STRUKTURA.html#struktura-katalogów",
+    "href": "README_STRUKTURA.html#struktura-katalogów",
+    "title": "DomenaRynku.pl - Struktura projektu",
+    "section": "",
+    "text": "/\n├── data/                          # Dane projektu\n│   ├── raw/                       # Surowe dane z API/źródeł\n│   └── processed/                 # Przetworzone dane (.RDS)\n│       └── indeks_trendow.RDS    # Dane dla indeksu trendów\n│\n├── mod/                           # Moduły box\n│   └── gpw.R                     # Moduł do pracy z danymi GPW\n│\n├── R/                             # Skrypty pomocnicze R\n│   └── funkcje_pomocnicze.R      # Funkcje używane w projekcie\n│\n├── scripts/                       # Skrypty aktualizacji\n│   └── update_indeks_trendow.R   # Skrypt aktualizujący dane indeksu\n│\n├── indeksy/                       # Strony z indeksami\n│   ├── indeks-trendow-gpw.qmd    # Strona indeksu trendów\n│   └── indeks-cenowy-top100.qmd  # Strona indeksu cenowego\n│\n├── sentyment-gieldowy/            # Strony sentymentu\n│   ├── polska.qmd\n│   └── swiat.qmd\n│\n└── images/                        # Grafiki i logo"
+  },
+  {
+    "objectID": "README_STRUKTURA.html#workflow",
+    "href": "README_STRUKTURA.html#workflow",
+    "title": "DomenaRynku.pl - Struktura projektu",
+    "section": "",
+    "text": "# Uruchom skrypt aktualizacji\nsource(\"scripts/update_indeks_trendow.R\")\n\n# Lub bezpośrednio z box\nbox::use(mod/gpw)\n# ... pobierz dane\nsaveRDS(dane, \"data/processed/indeks_trendow.RDS\")\n\n\n\n# Renderuj pojedynczą stronę\nquarto::quarto_render(\"indeksy/indeks-trendow-gpw.qmd\")\n\n# Lub całą stronę\nquarto::quarto_render()"
+  },
+  {
+    "objectID": "README_STRUKTURA.html#użycie-w-.qmd",
+    "href": "README_STRUKTURA.html#użycie-w-.qmd",
+    "title": "DomenaRynku.pl - Struktura projektu",
+    "section": "",
+    "text": "W pliku .qmd zaciągasz dane:\n# Wczytaj dane\ndane_indeksu &lt;- readRDS(\"../data/processed/indeks_trendow.RDS\")\n\n# Oblicz indeks\nindeks &lt;- oblicz_indeks_trendow(dane_indeksu)\n\n# Wyświetl wykres\nplot_indeks(indeks)"
+  },
+  {
+    "objectID": "README_STRUKTURA.html#pakiety-wymagane",
+    "href": "README_STRUKTURA.html#pakiety-wymagane",
+    "title": "DomenaRynku.pl - Struktura projektu",
+    "section": "",
+    "text": "dplyr - przetwarzanie danych\nggplot2 - wykresy\nbox - moduły\nlubridate - daty\nknitr - tabele"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "O nas",
+    "section": "",
+    "text": "DomenaRynku.pl to portal stworzony dla świadomych inwestorów, którzy chcą podejmować decyzje inwestycyjne w oparciu o rzetelne dane i analizy."
+  },
+  {
+    "objectID": "about.html#kim-jesteśmy",
+    "href": "about.html#kim-jesteśmy",
+    "title": "O nas",
+    "section": "",
+    "text": "DomenaRynku.pl to portal stworzony dla świadomych inwestorów, którzy chcą podejmować decyzje inwestycyjne w oparciu o rzetelne dane i analizy."
+  },
+  {
+    "objectID": "about.html#nasza-misja",
+    "href": "about.html#nasza-misja",
+    "title": "O nas",
+    "section": "Nasza misja",
+    "text": "Nasza misja\nDostarczamy kompleksowe narzędzia i analizy rynku kapitałowego, ze szczególnym uwzględnieniem Giełdy Papierów Wartościowych w Warszawie."
+  },
+  {
+    "objectID": "about.html#co-oferujemy",
+    "href": "about.html#co-oferujemy",
+    "title": "O nas",
+    "section": "Co oferujemy",
+    "text": "Co oferujemy\n\nAnaliza sentymentu giełdowego (Polska i świat)\nAutorskie indeksy giełdowe\nBaza danych spółek GPW\nAktualne dane rynkowe\nEdukacja inwestorska"
+  },
+  {
+    "objectID": "about.html#kontakt",
+    "href": "about.html#kontakt",
+    "title": "O nas",
+    "section": "Kontakt",
+    "text": "Kontakt\nJeśli masz pytania lub sugestie, skontaktuj się z nami."
+  },
+  {
+    "objectID": "indeksy/indeks-trendow-gpw.html",
+    "href": "indeksy/indeks-trendow-gpw.html",
+    "title": "Indeks trendów GPW",
+    "section": "",
+    "text": "Indeks trendów GPW to wskaźnik szerokości rynku (market breadth indicator), który pokazuje, jaki procent spółek z najważniejszych firm notowanych na warszawskiej giełdzie znajduje się aktualnie w trendzie wzrostowym. Jest to kluczowe narzędzie do oceny rzeczywistej siły rynku – pozwala odróżnić prawdziwy rynek byka, w którym uczestniczy większość spółek, od sytuacji, gdy wzrost WIG czy WIG20 jest napędzany jedynie przez kilka dużych spółek.\nW odróżnieniu od klasycznych indeksów giełdowych ważonych kapitalizacją (jak WIG czy WIG20), gdzie większe spółki mają dominujący wpływ, indeks trendów traktuje każdą spółkę równo. Dzięki temu lepiej odzwierciedla kondycję całego rynku akcji i może sygnalizować nadchodzące zmiany trendu poprzez wykrywanie dywergencji między zachowaniem szerokiego rynku a głównymi indeksami."
+  },
+  {
+    "objectID": "indeksy/indeks-trendow-gpw.html#o-indeksie",
+    "href": "indeksy/indeks-trendow-gpw.html#o-indeksie",
+    "title": "Indeks trendów GPW",
+    "section": "",
+    "text": "Indeks trendów GPW to wskaźnik szerokości rynku (market breadth indicator), który pokazuje, jaki procent spółek z najważniejszych firm notowanych na warszawskiej giełdzie znajduje się aktualnie w trendzie wzrostowym. Jest to kluczowe narzędzie do oceny rzeczywistej siły rynku – pozwala odróżnić prawdziwy rynek byka, w którym uczestniczy większość spółek, od sytuacji, gdy wzrost WIG czy WIG20 jest napędzany jedynie przez kilka dużych spółek.\nW odróżnieniu od klasycznych indeksów giełdowych ważonych kapitalizacją (jak WIG czy WIG20), gdzie większe spółki mają dominujący wpływ, indeks trendów traktuje każdą spółkę równo. Dzięki temu lepiej odzwierciedla kondycję całego rynku akcji i może sygnalizować nadchodzące zmiany trendu poprzez wykrywanie dywergencji między zachowaniem szerokiego rynku a głównymi indeksami."
+  },
+  {
+    "objectID": "indeksy/indeks-trendow-gpw.html#wykres-indeksu-trendów",
+    "href": "indeksy/indeks-trendow-gpw.html#wykres-indeksu-trendów",
+    "title": "Indeks trendów GPW",
+    "section": "Wykres indeksu trendów",
+    "text": "Wykres indeksu trendów\nPoniższy wykres przedstawia indeks trendów GPW na tle indeksów WIG20 i WIG z ostatnich 250 sesji giełdowych. Możesz go przybliżać i sprawdzać wartości dla konkretnych dat.\n\n\n\n\n\n\n\n\n\n\n\n\nJak czytać wykres?\n\n\n\n\nIndeks Trendów (niebieski): pokazuje procent spółek w trendzie wzrostowym (0-100%)\nWIG20 i WIG (pomarańczowy/zielony): znormalizowane do skali 0-100 dla porównywalności\nWartości &gt; 50% w indeksie trendów sugerują przewagę trendów wzrostowych (rynek byka)\nWartości &lt; 50% sugerują przewagę trendów spadkowych (rynek niedźwiedzia)"
+  },
+  {
+    "objectID": "indeksy/indeks-trendow-gpw.html#ostatnie-60-sesji",
+    "href": "indeksy/indeks-trendow-gpw.html#ostatnie-60-sesji",
+    "title": "Indeks trendów GPW",
+    "section": "Ostatnie 60 sesji",
+    "text": "Ostatnie 60 sesji\nTabela przedstawia szczegółowe wartości indeksu trendów oraz głównych indeksów GPW z ostatnich 60 sesji giełdowych (kwartał).\n\n\n\n\nWartości indeksu trendów i głównych indeksów GPW (ostatnie 60 sesji)\n\n\nData\nIndeks Trendów\nWIG20\nWIG\n\n\n\n\n2025-11-14\n64.9%\n2990.37\n111687.24\n\n\n2025-11-13\n63.8%\n3016.16\n112532.48\n\n\n2025-11-12\n64.9%\n3023.24\n112760.18\n\n\n2025-11-10\n62.8%\n3019.29\n112668.07\n\n\n2025-11-07\n64.9%\n2970.61\n110985.15\n\n\n2025-11-06\n62.8%\n3006.58\n112192.96\n\n\n2025-11-05\n61.7%\n2977.25\n111559.98\n\n\n2025-11-04\n62.8%\n2978.38\n111372.83\n\n\n2025-11-03\n63.8%\n3005.61\n112058.99\n\n\n2025-10-31\n61.7%\n2987.33\n111487.05\n\n\n2025-10-30\n63.8%\n3029.29\n112708.11\n\n\n2025-10-29\n64.9%\n3038.56\n113294.48\n\n\n2025-10-28\n63.8%\n3041.52\n113459.04\n\n\n2025-10-27\n63.8%\n2980.91\n111612.44\n\n\n2025-10-24\n64.9%\n2981.19\n111427.76\n\n\n2025-10-23\n68.1%\n2984.67\n111568.93\n\n\n2025-10-22\n66.0%\n2958.78\n110937.56\n\n\n2025-10-21\n66.0%\n2912.05\n109511.51\n\n\n2025-10-20\n63.8%\n2916.61\n109618.82\n\n\n2025-10-17\n63.8%\n2872.02\n107764.77\n\n\n2025-10-16\n64.9%\n2887.16\n108214.71\n\n\n2025-10-15\n64.9%\n2901.08\n108729.37\n\n\n2025-10-14\n64.9%\n2844.05\n106653.38\n\n\n2025-10-13\n63.8%\n2875.17\n107846.06\n\n\n2025-10-10\n64.9%\n2873.04\n107951.51\n\n\n2025-10-09\n66.0%\n2874.30\n108019.25\n\n\n2025-10-08\n66.0%\n2877.99\n108295.93\n\n\n2025-10-07\n68.1%\n2868.67\n107937.15\n\n\n2025-10-06\n62.8%\n2838.10\n107133.09\n\n\n2025-10-03\n69.1%\n2862.96\n108016.79\n\n\n2025-10-02\n70.2%\n2861.62\n107695.90\n\n\n2025-10-01\n69.1%\n2850.42\n107121.50\n\n\n2025-09-30\n70.2%\n2827.17\n106363.86\n\n\n2025-09-29\n71.3%\n2832.01\n106524.71\n\n\n2025-09-26\n69.1%\n2832.26\n106570.62\n\n\n2025-09-25\n69.1%\n2797.79\n105561.78\n\n\n2025-09-24\n71.3%\n2828.82\n106520.90\n\n\n2025-09-23\n72.3%\n2819.10\n105866.67\n\n\n2025-09-22\n71.3%\n2802.03\n105324.97\n\n\n2025-09-19\n72.3%\n2802.69\n105380.97\n\n\n2025-09-18\n68.1%\n2809.46\n105564.90\n\n\n2025-09-17\n70.2%\n2813.42\n105617.25\n\n\n2025-09-16\n70.2%\n2819.54\n105950.79\n\n\n2025-09-15\n68.1%\n2866.16\n107484.11\n\n\n2025-09-12\n70.2%\n2836.58\n106413.18\n\n\n2025-09-11\n72.3%\n2855.75\n107084.89\n\n\n2025-09-10\n72.3%\n2811.48\n105682.90\n\n\n2025-09-09\n72.3%\n2836.41\n106641.59\n\n\n2025-09-08\n72.3%\n2862.51\n107523.29\n\n\n2025-09-05\n72.3%\n2805.02\n105563.27\n\n\n2025-09-04\n72.3%\n2828.22\n105999.04\n\n\n2025-09-03\n72.3%\n2786.15\n104458.97\n\n\n2025-09-02\n72.3%\n2774.05\n103935.91\n\n\n2025-09-01\n72.3%\n2770.36\n103939.74\n\n\n2025-08-29\n73.4%\n2793.76\n104775.45\n\n\n2025-08-28\n74.5%\n2828.32\n106030.68\n\n\n2025-08-27\n74.5%\n2856.56\n106857.65\n\n\n2025-08-26\n74.5%\n2907.53\n108534.08\n\n\n2025-08-25\n74.5%\n2905.64\n108528.44\n\n\n2025-08-22\n75.5%\n2880.55\n107648.46"
+  },
+  {
+    "objectID": "indeksy/indeks-trendow-gpw.html#metodologia",
+    "href": "indeksy/indeks-trendow-gpw.html#metodologia",
+    "title": "Indeks trendów GPW",
+    "section": "Metodologia",
+    "text": "Metodologia\n\nUniwersum spółek\nIndeks trendów GPW jest budowany na podstawie 100 spółek o najwyższym średnim dziennym obrocie na Giełdzie Papierów Wartościowych w Warszawie. Dobór spółek na podstawie płynności zapewnia, że indeks odzwierciedla rzeczywiste możliwości inwestycyjne dostępne dla uczestników rynku.\nAby spółka została uwzględniona w kalkulacji, musi spełniać dodatkowy warunek: posiadać historię notowań obejmującą minimum 250 sesji giełdowych (około 1 rok). Ten wymóg pozwala uwzględnić w indeksie debiuty gigantów rynkowych z ostatnich lat (takich jak Allegro, Żabka czy Pepco), jednocześnie eliminując spółki o zbyt krótkiej historii, dla których analiza trendów byłaby niewystarczająco wiarygodna.\n\n\nDefinicja trendu\nDla każdej spółki z uniwersum analiza trendu opiera się na porównaniu bieżącej ceny z długoterminową średnią kroczącą obejmującą 200 sesji giełdowych. Średnia 200-sesyjna jest szeroko uznanym w analizie technicznej narzędziem do określania długoterminowego kierunku ruchu ceny.\nSpółka uznawana jest za będącą w trendzie wzrostowym, gdy jej cena przebywa powyżej długoterminowej średniej kroczącej. Odwrotnie – gdy cena znajduje się poniżej średniej, spółka nie jest zaliczana do grupy będących w trendzie wzrostowym.\n\n\nObliczanie indeksu\nWartość indeksu trendów to procent spółek z uniwersum, które znajdują się w trendzie wzrostowym w danym dniu. Każda spółka ma równy wkład w wartość indeksu (1/N, gdzie N to liczba spółek), niezależnie od jej kapitalizacji czy wartości obrotu.\nMatematycznie:\n\\[\n\\text{Indeks Trendów}_t = \\frac{\\text{Liczba spółek w trendzie wzrostowym}_t}{\\text{Całkowita liczba spółek z danymi}_t} \\times 100\\%\n\\]\n\n\nAktualizacja\nIndeks jest aktualizowany codziennie przed rozpoczęciem nowej sesji GPW, wykorzystując ceny zamknięcia z poprzedniej sesji. Dzięki temu inwestorzy rozpoczynają każdy dzień handlowy z aktualnym obrazem szerokości rynku."
+  },
+  {
+    "objectID": "indeksy/indeks-trendow-gpw.html#potencjalne-zastosowania",
+    "href": "indeksy/indeks-trendow-gpw.html#potencjalne-zastosowania",
+    "title": "Indeks trendów GPW",
+    "section": "Potencjalne zastosowania",
+    "text": "Potencjalne zastosowania\n\n1. Ocena rzeczywistej siły rynku\nIndeks trendów pozwala odróżnić prawdziwą hossę (szeroki udział większości spółek we wzrostach) od pozornej hossy (wzrost napędzany tylko przez kilka dużych spółek). Gdy indeks WIG lub WIG20 rośnie, ale indeks trendów jest niski (np. poniżej 30-40%), może to świadczyć o słabości fundamentalnej ruchu i zwiększonym ryzyku odwrócenia trendu.\n\n\n2. Identyfikacja dywergencji\nDywergencje między indeksem trendów a głównymi indeksami mogą sygnalizować nadchodzące zmiany kierunku rynku:\n\nPozytywna dywergencja (potencjalnie bullish): Indeks trendów rośnie, podczas gdy WIG/WIG20 spadają. Sugeruje to, że szeroki rynek zaczyna się umacniać, mimo że główne indeksy jeszcze tego nie pokazują – może zapowiadać przyszły wzrost.\nNegatywna dywergencja (potencjalnie bearish): Indeks trendów spada, podczas gdy WIG/WIG20 rosną. Oznacza to, że wzrost głównych indeksów jest napędzany przez coraz mniejszą grupę spółek – niezdrowa sytuacja mogąca poprzedzać korektę lub bessę.\n\n\n\n3. Potwierdzenie trendów\nSilne trendy rynkowe (zarówno wzrostowe, jak i spadkowe) są bardziej wiarygodne, gdy towarzyszą im odpowiednie wartości indeksu trendów:\n\nPotwierdzenie hossy: WIG rośnie + indeks trendów &gt; 60-70%\nPotwierdzenie bessy: WIG spada + indeks trendów &lt; 30-40%\n\n\n\n4. Timing wejść i wyjść\nEkstrema w indeksie trendów mogą wskazywać na:\n\nWyprzedanie rynku: Indeks trendów &lt; 20% – potencjalna okazja do zakupów (wyprzedanie)\nWykupienie rynku: Indeks trendów &gt; 80% – potencjalne ostrzeżenie przed korektą (wykupienie)\n\n\n\n\n\n\n\nWażne zastrzeżenie\n\n\n\nIndeks trendów GPW jest narzędziem analitycznym wspomagającym podejmowanie decyzji inwestycyjnych, a nie systemem generującym jednoznaczne sygnały kupna lub sprzedaży. Powinien być używany w połączeniu z innymi metodami analizy i zawsze z uwzględnieniem indywidualnej tolerancji ryzyka oraz celów inwestycyjnych.\n\n\n\n\n\n\n\n\n\nAktualizacje\n\n\n\nIndeks trendów GPW jest aktualizowany codziennie. Strona jest odświeżana automatycznie przed rozpoczęciem każdej nowej sesji giełdowej.\nOstatnia aktualizacja: 2025-11-20"
   }
 ]
