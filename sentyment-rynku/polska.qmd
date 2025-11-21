@@ -258,9 +258,9 @@ Wskaźnik sentymentu rynku jest narzędziem analitycznym służącym do lepszego
 ::: callout-tip
 ## Aktualizacje
 
-Wskaźnik sentymentu rynku jest aktualizowany codziennie przed rozpoczęciem sesji GPW.
+Wskaźnik sentymentu rynku jest aktualizowany codziennie przed rozpoczęciem sesji GPW, ale na tej stronie wyświetlamy aktualizacje raz na jakiś czas.
 
-Ostatnia aktualizacja: `{r} format(Sys.Date(), "%Y-%m-%d")`
+Ostatnia aktualizacja danych: `{r} df_table$data[1] `
 :::
 
 ------------------------------------------------------------------------

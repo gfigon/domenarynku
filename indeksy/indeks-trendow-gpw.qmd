@@ -253,5 +253,5 @@ Indeks trendów GPW jest narzędziem analitycznym wspomagającym podejmowanie de
 
 Indeks trendów GPW jest aktualizowany codziennie. Strona jest odświeżana automatycznie przed rozpoczęciem każdej nowej sesji giełdowej.
 
-Ostatnia aktualizacja: `{r} format(Sys.Date(), "%Y-%m-%d")`
+Ostatnia aktualizacja danych: `{r} df_table$data[1] `
 :::

@@ -267,7 +267,7 @@ Należy pamiętać, że **rzeczywiste portfele równoważone wymagają regularne
 
 Indeks równoważony TOP100 GPW jest aktualizowany codziennie. Strona jest odświeżana automatycznie przed rozpoczęciem każdej nowej sesji giełdowej.
 
-Ostatnia aktualizacja: `r format(Sys.Date(), "%Y-%m-%d")`
+Ostatnia aktualizacja danych: `{r} df_table$data[1] `
 :::
 
 ## Inspiracja: ZUPI Martina Zweiga
