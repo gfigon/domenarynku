@@ -2,7 +2,7 @@
 # === Wyświetlane na stronie ===
 title: "Sentyment rynku - Świat"
 subtitle: "Analiza nastrojów na globalnych rynkach kapitałowych"
-date: today
+date-modified: last-modified
 
 # === SEO - Meta tagi w <head> ===
 pagetitle: "Sentyment rynku - Świat | Analiza globalnych rynków kapitałowych"

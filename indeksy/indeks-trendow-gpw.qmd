@@ -2,7 +2,7 @@
 # === Wyświetlane na stronie ===
 title: "Indeks trendów GPW"
 subtitle: "Analiza szerokości rynku akcji na Giełdzie Papierów Wartościowych w Warszawie"
-date: today
+date-modified: last-modified
 
 # === SEO - Meta tagi w <head> ===
 pagetitle: "Indeks trendów GPW | Market breadth indicator - szerokość rynku"

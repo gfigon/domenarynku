@@ -2,7 +2,7 @@
 # === Wyświetlane na stronie ===
 title: "Indeks równoważony TOP100 GPW"
 subtitle: "Equal-weight price index - alternatywa dla indeksów kapitalizacyjnych"
-date: today
+date-modified: last-modified
 
 # === SEO - Meta tagi w <head> ===
 pagetitle: "Indeks równoważony TOP100 GPW | Equal-weight index - unweighted price index"

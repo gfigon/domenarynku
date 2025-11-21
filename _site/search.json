@@ -168,41 +168,6 @@
     "text": "Potencjalne zastosowania\n\n1. Identyfikacja ekstremów rynkowych\nWskaźnik sentymentu może sygnalizować ekstrema rynkowe, które często poprzedzają punkty zwrotne:\n\nSkrajny pesymizm (sentyment &lt; 20-30): Może wskazywać na wyprzedanie rynku i potencjalne dno. Gdy większość nagłówków jest negatywna, często oznacza to, że negatywne informacje są już w cenach.\nSkrajna euforia (sentyment &gt; 70-80): Może sygnalizować wykupienie rynku i zwiększone ryzyko korekty. Gdy dominują wyłącznie pozytywne nagłówki, może brakować nowych katalizatorów do dalszego napędzania wzrostów.\n\n\n\n2. Dywergencje z indeksami\nDywergencje między sentymentem a zachowaniem głównych indeksów mogą być szczególnie informacyjne:\n\nPozytywna dywergencja: Sentyment poprawia się, podczas gdy WIG/WIG20 nadal spadają – może zapowiadać zbliżające się odbicie.\nNegatywna dywergencja: Sentyment pogarsza się, mimo że indeksy rosną – ostrzeżenie przed możliwą korektą spadkową.\n\n\n\n3. Potwierdzenie trendów\nSilne trendy są bardziej wiarygodne, gdy sentyment je wspiera:\n\nTrend wzrostowy + rosnący sentyment: Potwierdza siłę hossy\nTrend spadkowy + spadający sentyment: Potwierdza siłę bessy\n\n\n\n4. Wsparcie w analizie rynku\nSentyment może stanowić dodatkowe narzędzie w analizie sytuacji rynkowej:\n\nNiski sentyment (&lt; 30) z oznakami poprawy: Można rozważyć zwiększenie ekspozycji na rynek\nWysoki sentyment (&gt; 70) z oznakami pogorszenia: Można rozważyć redukcję pozycji lub zabezpieczenie portfela\nSentyment w okolicy 40-60: Rynek może być w fazie konsolidacji\n\n\n\n\n\n\n\nWażne zastrzeżenie\n\n\n\nWskaźnik sentymentu rynku jest narzędziem analitycznym służącym do lepszego zrozumienia nastrojów na rynku. Nie stanowi on rekomendacji inwestycyjnej ani porady, jak należy postępować z kapitałem. Sentyment może pozostawać na ekstremalnych poziomach przez dłuższy czas, zanim nastąpi odwrócenie trendu. Powinien być używany w połączeniu z innymi metodami analizy technicznej i fundamentalnej, zawsze z uwzględnieniem indywidualnej tolerancji ryzyka oraz celów inwestycyjnych.\n\n\n\n\n\n\n\n\n\nAktualizacje\n\n\n\nWskaźnik sentymentu rynku jest aktualizowany codziennie przed rozpoczęciem sesji GPW.\nOstatnia aktualizacja: 2025-11-21\n\n\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią one porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży jakichkolwiek instrumentów finansowych. Decyzje inwestycyjne powinny być podejmowane na podstawie własnej analizy i po konsultacji z licencjonowanym doradcą finansowym."
   },
   {
-    "objectID": "README_STRUKTURA.html",
-    "href": "README_STRUKTURA.html",
-    "title": "DomenaRynku.pl - Struktura projektu",
-    "section": "",
-    "text": "/\n├── data/                          # Dane projektu\n│   ├── raw/                       # Surowe dane z API/źródeł\n│   └── processed/                 # Przetworzone dane (.RDS)\n│       └── indeks_trendow.RDS    # Dane dla indeksu trendów\n│\n├── mod/                           # Moduły box\n│   └── gpw.R                     # Moduł do pracy z danymi GPW\n│\n├── R/                             # Skrypty pomocnicze R\n│   └── funkcje_pomocnicze.R      # Funkcje używane w projekcie\n│\n├── scripts/                       # Skrypty aktualizacji\n│   └── update_indeks_trendow.R   # Skrypt aktualizujący dane indeksu\n│\n├── indeksy/                       # Strony z indeksami\n│   ├── indeks-trendow-gpw.qmd    # Strona indeksu trendów\n│   └── indeks-cenowy-top100.qmd  # Strona indeksu cenowego\n│\n├── sentyment-gieldowy/            # Strony sentymentu\n│   ├── polska.qmd\n│   └── swiat.qmd\n│\n└── images/                        # Grafiki i logo\n\n\n\n\n\n# Uruchom skrypt aktualizacji\nsource(\"scripts/update_indeks_trendow.R\")\n\n# Lub bezpośrednio z box\nbox::use(mod/gpw)\n# ... pobierz dane\nsaveRDS(dane, \"data/processed/indeks_trendow.RDS\")\n\n\n\n# Renderuj pojedynczą stronę\nquarto::quarto_render(\"indeksy/indeks-trendow-gpw.qmd\")\n\n# Lub całą stronę\nquarto::quarto_render()\n\n\n\n\nW pliku .qmd zaciągasz dane:\n# Wczytaj dane\ndane_indeksu &lt;- readRDS(\"../data/processed/indeks_trendow.RDS\")\n\n# Oblicz indeks\nindeks &lt;- oblicz_indeks_trendow(dane_indeksu)\n\n# Wyświetl wykres\nplot_indeks(indeks)\n\n\n\n\ndplyr - przetwarzanie danych\nggplot2 - wykresy\nbox - moduły\nlubridate - daty\nknitr - tabele"
-  },
-  {
-    "objectID": "README_STRUKTURA.html#struktura-katalogów",
-    "href": "README_STRUKTURA.html#struktura-katalogów",
-    "title": "DomenaRynku.pl - Struktura projektu",
-    "section": "",
-    "text": "/\n├── data/                          # Dane projektu\n│   ├── raw/                       # Surowe dane z API/źródeł\n│   └── processed/                 # Przetworzone dane (.RDS)\n│       └── indeks_trendow.RDS    # Dane dla indeksu trendów\n│\n├── mod/                           # Moduły box\n│   └── gpw.R                     # Moduł do pracy z danymi GPW\n│\n├── R/                             # Skrypty pomocnicze R\n│   └── funkcje_pomocnicze.R      # Funkcje używane w projekcie\n│\n├── scripts/                       # Skrypty aktualizacji\n│   └── update_indeks_trendow.R   # Skrypt aktualizujący dane indeksu\n│\n├── indeksy/                       # Strony z indeksami\n│   ├── indeks-trendow-gpw.qmd    # Strona indeksu trendów\n│   └── indeks-cenowy-top100.qmd  # Strona indeksu cenowego\n│\n├── sentyment-gieldowy/            # Strony sentymentu\n│   ├── polska.qmd\n│   └── swiat.qmd\n│\n└── images/                        # Grafiki i logo"
-  },
-  {
-    "objectID": "README_STRUKTURA.html#workflow",
-    "href": "README_STRUKTURA.html#workflow",
-    "title": "DomenaRynku.pl - Struktura projektu",
-    "section": "",
-    "text": "# Uruchom skrypt aktualizacji\nsource(\"scripts/update_indeks_trendow.R\")\n\n# Lub bezpośrednio z box\nbox::use(mod/gpw)\n# ... pobierz dane\nsaveRDS(dane, \"data/processed/indeks_trendow.RDS\")\n\n\n\n# Renderuj pojedynczą stronę\nquarto::quarto_render(\"indeksy/indeks-trendow-gpw.qmd\")\n\n# Lub całą stronę\nquarto::quarto_render()"
-  },
-  {
-    "objectID": "README_STRUKTURA.html#użycie-w-.qmd",
-    "href": "README_STRUKTURA.html#użycie-w-.qmd",
-    "title": "DomenaRynku.pl - Struktura projektu",
-    "section": "",
-    "text": "W pliku .qmd zaciągasz dane:\n# Wczytaj dane\ndane_indeksu &lt;- readRDS(\"../data/processed/indeks_trendow.RDS\")\n\n# Oblicz indeks\nindeks &lt;- oblicz_indeks_trendow(dane_indeksu)\n\n# Wyświetl wykres\nplot_indeks(indeks)"
-  },
-  {
-    "objectID": "README_STRUKTURA.html#pakiety-wymagane",
-    "href": "README_STRUKTURA.html#pakiety-wymagane",
-    "title": "DomenaRynku.pl - Struktura projektu",
-    "section": "",
-    "text": "dplyr - przetwarzanie danych\nggplot2 - wykresy\nbox - moduły\nlubridate - daty\nknitr - tabele"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "O nas",
