@@ -20,8 +20,8 @@ website:
         menu:
           - href: sentyment-rynku/polska.qmd
             text: Polska
-          - href: sentyment-rynku/swiat.qmd
-            text: Świat
+          - href: sentyment-rynku/usa.qmd
+            text: USA
       - text: "Indeksy"
         menu:
           - href: indeksy/indeks-trendow-gpw.qmd
