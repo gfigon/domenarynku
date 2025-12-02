@@ -37,10 +37,22 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-dashboard/quarto-dashboard.js"></script>
+<script src="site_libs/quarto-dashboard/stickythead.js"></script>
+
+
+
+<script src="site_libs/quarto-dashboard/web-components.js" type="module"></script>
+<script src="site_libs/quarto-dashboard/components.js"></script>
+
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,56 +80,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Szukaj"
   }
 }</script>
-<!-- Google Consent Mode v2 - musi być PRZED GTM -->
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  
-  // Domyślnie wszystko na "denied" (zgodnie z GDPR)
-  gtag('consent', 'default', {
-    'ad_storage': 'denied',
-    'ad_user_data': 'denied',
-    'ad_personalization': 'denied',
-    'analytics_storage': 'denied',
-    'wait_for_update': 500
-  });
-</script>
-
-<!-- Klaro Cookie Consent - CSS -->
-<link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.css">
-
-<!-- Klaro Cookie Consent - Konfiguracja -->
-<script defer="" type="text/javascript" src="klaro-config.js"></script>
-
-<!-- Klaro Cookie Consent - Biblioteka -->
-<script defer="" data-config="klaroConfig" type="text/javascript" src="https://cdn.kiprotect.com/klaro/v0.7/klaro.js"></script>
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NXN55TCK');</script>
-<!-- End Google Tag Manager -->
-
-<meta name="author" content="DomenaRynku.pl">
-<meta name="robots" content="index, follow">
-<meta name="googlebot" content="index, follow">
 <meta name="description" content="Kompletna baza spółek notowanych na GPW. Wyszukiwarka spółek giełdowych, podziały sektorowe, indeksy WIG20, mWIG40, sWIG80. Notowania i statystyki.">
 <meta name="keywords" content="spółki GPW, lista spółek giełdowych, WIG20, mWIG40, sWIG80, notowania GPW, baza spółek, giełda warszawska">
 
 
-<link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Spółki GPW | Baza danych spółek giełdowych - Notowania i Analiza">
-<meta property="og:description" content="Baza spółek notowanych na Giełdzie Papierów Wartościowych w Warszawie">
 <meta property="og:site_name" content="DomenaRynku.pl">
 <meta name="twitter:title" content="Spółki GPW | Baza danych spółek giełdowych - Notowania i Analiza">
-<meta name="twitter:description" content="Baza spółek notowanych na Giełdzie Papierów Wartościowych w Warszawie">
 <meta name="twitter:card" content="summary">
-<link rel="canonical" href="https://domenarynku.pl/spolki-gpw.html">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="quarto-dashboard nav-fixed dashboard-fill fullcontent quarto-light">
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -169,7 +143,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./spolki-gpw.html" aria-current="page"> 
+    <a class="nav-link" href="./spolki-gpw.html"> 
 <span class="menu-text">Spółki GPW</span></a>
   </li>  
 </ul>
@@ -184,99 +158,77 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-</header>
+<header id="quarto-dashboard-header">
+<nav class="navbar navbar-expand-md slim" data-bs-theme="dark">
+  <div class="navbar-container container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-controls="dashboard-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>    
+
+
+    <div class="navbar-brand-container">       
+
+      <div class="navbar-title">
+        <div class="navbar-title-text"><a href="#">dash_test</a></div>
+        
+        
+      </div>
+    </div>
+<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-row" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#row" data-scrolling="false" href="#row" aria-controls="row" aria-selected="true"><span class="nav-link-text">Row</span></a></li></ul></div></div>
+</nav>
+</header></header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar quarto-dashboard-content bslib-gap-spacing html-fill-container bslib-page-fill quarto-dashboard-pages">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Na tej stronie</h2>
-   
-  <ul>
-  <li><a href="#przegląd-spółek" id="toc-przegląd-spółek" class="nav-link active" data-scroll-target="#przegląd-spółek">Przegląd spółek</a></li>
-  <li><a href="#wyszukiwarka-spółek" id="toc-wyszukiwarka-spółek" class="nav-link" data-scroll-target="#wyszukiwarka-spółek">Wyszukiwarka spółek</a></li>
-  <li><a href="#kategorie" id="toc-kategorie" class="nav-link" data-scroll-target="#kategorie">Kategorie</a>
-  <ul class="collapse">
-  <li><a href="#według-sektora" id="toc-według-sektora" class="nav-link" data-scroll-target="#według-sektora">Według sektora</a></li>
-  <li><a href="#według-indeksu" id="toc-według-indeksu" class="nav-link" data-scroll-target="#według-indeksu">Według indeksu</a></li>
-  </ul></li>
-  <li><a href="#najpopularniejsze-spółki" id="toc-najpopularniejsze-spółki" class="nav-link" data-scroll-target="#najpopularniejsze-spółki">Najpopularniejsze spółki</a></li>
-  <li><a href="#statystyki-rynku" id="toc-statystyki-rynku" class="nav-link" data-scroll-target="#statystyki-rynku">Statystyki rynku</a></li>
-  </ul>
-</nav>
-    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Spółki GPW</h1>
-<p class="subtitle lead">Baza spółek notowanych na Giełdzie Papierów Wartościowych w Warszawie</p>
+<div class="bslib-grid-item html-fill-item tab-content bslib-grid" data-layout="fill" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div id="row" class="dashboard-page tab-pane show active html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-row">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr) minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-title="testowa" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-header"><div class="card-title"><span style="display: inline">
+testowa
+</span></div></div>
+<div class="card-body html-fill-item html-fill-container">
+<p>This text will be displayed within a card</p>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+<div class="card tabset html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-header dashboard-card-no-title bslib-navs-card-title">
+
+<ul class="nav nav-tabs card-header-tabs" role="tablist" data-tabsetid="card-tabset-2"><li class="nav-item" role="presentation"><a href="#card-tabset-2-1" role="tab" data-toggle="tab" data-bs-toggle="tab" data-value="one" aria-selected="true" class="nav-link active">one</a></li><li class="nav-item" role="presentation"><a href="#card-tabset-2-2" role="tab" data-toggle="tab" data-bs-toggle="tab" data-value="two" aria-selected="false" class="nav-link">two</a></li></ul></div>
+
+
+
+
+<div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden html-fill-item html-fill-container">
+
+</div>
+<div class="tab-content html-fill-item html-fill-container" data-tabset-id="card-tabset-2"><div class="tab-pane active show html-fill-item html-fill-container" role="tabpanel" id="card-tabset-2-1"><div class="card-body html-fill-item html-fill-container" data-title="one">
+<div class="cell-output cell-output-stdout html-fill-item html-fill-container">
+<pre><code>dupa</code></pre>
+</div>
+</div></div><div class="tab-pane html-fill-item html-fill-container" role="tabpanel" id="card-tabset-2-2"><div class="card-body html-fill-item html-fill-container" data-title="two">
+<div class="cell-output cell-output-stdout html-fill-item html-fill-container">
+<pre><code>dupa2</code></pre>
+</div>
+</div></div></div><bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
 </div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-    <div>
-    <div class="quarto-title-meta-heading">Opublikowano</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">2 grudnia 2025</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="przegląd-spółek" class="level2">
-<h2 class="anchored" data-anchor-id="przegląd-spółek">Przegląd spółek</h2>
-<p>Kompletna baza informacji o spółkach notowanych na GPW.</p>
-</section>
-<section id="wyszukiwarka-spółek" class="level2">
-<h2 class="anchored" data-anchor-id="wyszukiwarka-spółek">Wyszukiwarka spółek</h2>
-<p>Tutaj miejsce na interaktywną wyszukiwarkę spółek.</p>
-</section>
-<section id="kategorie" class="level2">
-<h2 class="anchored" data-anchor-id="kategorie">Kategorie</h2>
-<section id="według-sektora" class="level3">
-<h3 class="anchored" data-anchor-id="według-sektora">Według sektora</h3>
-<ul>
-<li>Banki</li>
-<li>Energetyka</li>
-<li>Technologie</li>
-<li>Budownictwo</li>
-<li>Handel</li>
-<li>Inne</li>
-</ul>
-</section>
-<section id="według-indeksu" class="level3">
-<h3 class="anchored" data-anchor-id="według-indeksu">Według indeksu</h3>
-<ul>
-<li>WIG20</li>
-<li>mWIG40</li>
-<li>sWIG80</li>
-</ul>
-</section>
-</section>
-<section id="najpopularniejsze-spółki" class="level2">
-<h2 class="anchored" data-anchor-id="najpopularniejsze-spółki">Najpopularniejsze spółki</h2>
-<p>Lista najczęściej analizowanych spółek.</p>
-</section>
-<section id="statystyki-rynku" class="level2">
-<h2 class="anchored" data-anchor-id="statystyki-rynku">Statystyki rynku</h2>
-<p>Ogólne statystyki dotyczące spółek na GPW: - Liczba spółek - Kapitalizacja rynku - Obroty</p>
-
-
-</section>
-
-</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -678,6 +630,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </script>
 </div> <!-- /content -->
 
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (_event) {
+  if (window.bslib.Card) {
+    window.bslib.Card.initializeAllCards();
+  }
+}); 
+</script>
+  
 
 
 
