@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pl" xml:lang="pl"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,14 +33,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../images/domenarynku-logo-v2.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -136,7 +137,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/domenarynku-logo-v2.svg" alt="" class="navbar-logo">
+    <img src="../images/domenarynku-logo-v2.svg" alt="" class="navbar-logo light-content">
+    <img src="../images/domenarynku-logo-v2.svg" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Szukaj"></div>
@@ -272,7 +274,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Jak czytać wykres?
+<span class="screen-reader-only">Adnotacja</span>Jak czytać wykres?
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -292,7 +294,7 @@ Jak czytać wykres?
 <div class="cell">
 <div class="cell-output-display">
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:500px; ">
-<table class="table table-striped table-hover table-condensed caption-top table-sm small" data-quarto-postprocess="true">
+<table class="table table-striped table-hover table-condensed caption-top table-sm small">
 <caption>Wartości sentymentu rynku i głównych indeksów GPW (ostatnie 60 sesji)</caption>
 <thead>
 <tr class="header">
@@ -737,7 +739,7 @@ Jak czytać wykres?
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Ważne zastrzeżenie
+<span class="screen-reader-only">Ostrzeżenie</span>Ważne zastrzeżenie
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -751,7 +753,7 @@ Ważne zastrzeżenie
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Aktualizacje
+<span class="screen-reader-only">Wskazówka</span>Aktualizacje
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -766,7 +768,7 @@ Aktualizacje
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Informacja prawna
+<span class="screen-reader-only">Ważne</span>Informacja prawna
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -830,13 +832,14 @@ Informacja prawna
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
