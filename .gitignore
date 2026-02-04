@@ -69,3 +69,5 @@ Desktop.ini
 
 
 /.quarto/
+
+**/*.quarto_ipynb
