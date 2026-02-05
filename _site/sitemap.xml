@@ -1,55 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://domenarynku.pl/spolki-gpw.html</loc>
-    <lastmod>2025-11-17T15:24:59.701Z</lastmod>
-  </url>
-  <url>
     <loc>https://domenarynku.pl/indeksy/indeks-cenowy-top100.html</loc>
-    <lastmod>2026-02-04T04:17:15.769Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/PODSUMOWANIE_PROJEKTU.html</loc>
-    <lastmod>2026-02-03T11:22:24.621Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/README_STRUKTURA.html</loc>
-    <lastmod>2025-11-21T08:10:33.956Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/sentyment-rynku/swiat.html</loc>
-    <lastmod>2025-11-21T08:07:13.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/sentyment-rynku/usa.html</loc>
-    <lastmod>2025-11-26T11:17:52.341Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/dash_test.html</loc>
-    <lastmod>2025-11-30T05:50:17.341Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/posts/2024-11-21-indeks-trendow-analiza/index.html</loc>
-    <lastmod>2025-11-21T10:00:00.821Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/sentyment-rynku/polska.html</loc>
-    <lastmod>2025-11-21T08:42:18.165Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/R/testy.html</loc>
-    <lastmod>2025-11-23T13:19:30.204Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/index.html</loc>
-    <lastmod>2025-11-21T08:08:03.785Z</lastmod>
+    <lastmod>2026-02-02T04:52:48.000Z</lastmod>
   </url>
   <url>
     <loc>https://domenarynku.pl/about.html</loc>
-    <lastmod>2025-11-17T15:29:44.219Z</lastmod>
+    <lastmod>2025-11-17T15:29:44.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/index.html</loc>
+    <lastmod>2025-11-21T08:08:03.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/sentyment-rynku/usa.html</loc>
+    <lastmod>2025-11-26T11:17:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/posts/2024-11-21-indeks-trendow-analiza/index.html</loc>
+    <lastmod>2025-11-21T10:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/R/testy.html</loc>
+    <lastmod>2025-11-23T13:19:30.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/README_STRUKTURA.html</loc>
+    <lastmod>2025-11-21T08:10:33.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/dash_test.html</loc>
+    <lastmod>2025-11-30T05:50:17.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/sentyment-rynku/swiat.html</loc>
+    <lastmod>2025-11-21T08:07:13.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/sentyment-rynku/polska.html</loc>
+    <lastmod>2025-11-21T08:42:18.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/spolki-gpw.html</loc>
+    <lastmod>2025-11-17T15:24:59.000Z</lastmod>
   </url>
   <url>
     <loc>https://domenarynku.pl/indeksy/indeks-trendow-gpw.html</loc>
-    <lastmod>2026-02-04T04:17:23.730Z</lastmod>
+    <lastmod>2026-02-02T04:52:34.000Z</lastmod>
   </url>
 </urlset>
