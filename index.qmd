@@ -20,9 +20,10 @@ listing:
   contents: posts
   sort: "date desc"
   type: default
-  categories: true
+  categories: cloud
   sort-ui: false
   filter-ui: false
+  page-size: 10
 ---
 
 
