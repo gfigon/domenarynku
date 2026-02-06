@@ -1,0 +1,1554 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl" xml:lang="pl"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.550">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>DomenaRynku.pl</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/domenarynku-logo-v2.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Brak wyników",
+    "search-matching-documents-text": "dopasowane dokumenty",
+    "search-copy-link-title": "Kopiuj link do wyszukiwania",
+    "search-hide-matches-text": "Ukryj dodatkowe dopasowania",
+    "search-more-match-text": "więcej dopasowań w tym dokumencie",
+    "search-more-matches-text": "więcej dopasowań w tym dokumencie",
+    "search-clear-button-title": "Wyczyść",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Anuluj",
+    "search-submit-button-title": "Zatwierdź",
+    "search-label": "Szukaj"
+  }
+}</script>
+<!-- Google Consent Mode v2 - musi być PRZED GTM -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  
+  // Domyślnie wszystko na "denied" (zgodnie z GDPR)
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied',
+    'wait_for_update': 500
+  });
+</script>
+
+<!-- Klaro Cookie Consent - CSS -->
+<link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.css">
+
+<!-- Klaro Cookie Consent - Konfiguracja -->
+<script defer="" type="text/javascript" src="klaro-config.js"></script>
+
+<!-- Klaro Cookie Consent - Biblioteka -->
+<script defer="" data-config="klaroConfig" type="text/javascript" src="https://cdn.kiprotect.com/klaro/v0.7/klaro.js"></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NXN55TCK');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="author" content="DomenaRynku.pl">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow">
+
+
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="DomenaRynku.pl">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="DomenaRynku.pl">
+<meta name="twitter:title" content="DomenaRynku.pl">
+<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://domenarynku.pl/DOKUMENTACJA_PROJEKTU_DOMENARYNKU.html">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/domenarynku-logo-v2.svg" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Szukaj"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Przełącz nawigację" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Strona główna</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-sentyment-rynku" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Sentyment rynku</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-sentyment-rynku">    
+        <li>
+    <a class="dropdown-item" href="./sentyment-rynku/polska.html">
+ <span class="dropdown-text">Polska</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sentyment-rynku/usa.html">
+ <span class="dropdown-text">USA</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-indeksy" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Indeksy</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-indeksy">    
+        <li>
+    <a class="dropdown-item" href="./indeksy/indeks-trendow-gpw.html">
+ <span class="dropdown-text">Indeks trendów GPW</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./indeksy/indeks-cenowy-top100.html">
+ <span class="dropdown-text">Indeks cenowy top 100 GPW</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./spolki-gpw.html"> 
+<span class="menu-text">Spółki GPW</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">O nas</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Na tej stronie</h2>
+   
+  <ul>
+  <li><a href="#dokumentacja-projektu-domenarynku.pl" id="toc-dokumentacja-projektu-domenarynku.pl" class="nav-link active" data-scroll-target="#dokumentacja-projektu-domenarynku.pl">Dokumentacja projektu DomenaRynku.pl</a>
+  <ul class="collapse">
+  <li><a href="#cel-projektu" id="toc-cel-projektu" class="nav-link" data-scroll-target="#cel-projektu">1. Cel projektu</a></li>
+  <li><a href="#architektura-techniczna" id="toc-architektura-techniczna" class="nav-link" data-scroll-target="#architektura-techniczna">2. Architektura techniczna</a>
+  <ul class="collapse">
+  <li><a href="#stack-technologiczny" id="toc-stack-technologiczny" class="nav-link" data-scroll-target="#stack-technologiczny">Stack technologiczny</a></li>
+  <li><a href="#workflow-pracy" id="toc-workflow-pracy" class="nav-link" data-scroll-target="#workflow-pracy">Workflow pracy</a></li>
+  </ul></li>
+  <li><a href="#struktura-katalogów-projektu" id="toc-struktura-katalogów-projektu" class="nav-link" data-scroll-target="#struktura-katalogów-projektu">3. Struktura katalogów projektu</a></li>
+  <li><a href="#kluczowe-pliki-konfiguracyjne" id="toc-kluczowe-pliki-konfiguracyjne" class="nav-link" data-scroll-target="#kluczowe-pliki-konfiguracyjne">4. Kluczowe pliki konfiguracyjne</a>
+  <ul class="collapse">
+  <li><a href="#quarto.yml-konfiguracja-quarto" id="toc-quarto.yml-konfiguracja-quarto" class="nav-link" data-scroll-target="#quarto.yml-konfiguracja-quarto">_quarto.yml — konfiguracja Quarto</a></li>
+  <li><a href="#gitignore-co-nie-trafia-na-github" id="toc-gitignore-co-nie-trafia-na-github" class="nav-link" data-scroll-target="#gitignore-co-nie-trafia-na-github">.gitignore — co NIE trafia na GitHub</a></li>
+  </ul></li>
+  <li><a href="#metodologia-wskaźników" id="toc-metodologia-wskaźników" class="nav-link" data-scroll-target="#metodologia-wskaźników">5. Metodologia wskaźników</a>
+  <ul class="collapse">
+  <li><a href="#indeks-trendów-gpw-market-breadth" id="toc-indeks-trendów-gpw-market-breadth" class="nav-link" data-scroll-target="#indeks-trendów-gpw-market-breadth">5.1 Indeks Trendów GPW (Market Breadth)</a></li>
+  <li><a href="#indeks-cenowy-równoważony-equal-weighted-price-index" id="toc-indeks-cenowy-równoważony-equal-weighted-price-index" class="nav-link" data-scroll-target="#indeks-cenowy-równoważony-equal-weighted-price-index">5.2 Indeks Cenowy Równoważony (Equal-Weighted Price Index)</a></li>
+  <li><a href="#sentyment-rynku" id="toc-sentyment-rynku" class="nav-link" data-scroll-target="#sentyment-rynku">5.3 Sentyment Rynku</a></li>
+  </ul></li>
+  <li><a href="#pakiety-r-używane-w-projekcie" id="toc-pakiety-r-używane-w-projekcie" class="nav-link" data-scroll-target="#pakiety-r-używane-w-projekcie">6. Pakiety R używane w projekcie</a>
+  <ul class="collapse">
+  <li><a href="#analiza-danych-i-serie-czasowe" id="toc-analiza-danych-i-serie-czasowe" class="nav-link" data-scroll-target="#analiza-danych-i-serie-czasowe">Analiza danych i serie czasowe</a></li>
+  <li><a href="#web-scraping" id="toc-web-scraping" class="nav-link" data-scroll-target="#web-scraping">Web scraping</a></li>
+  <li><a href="#wizualizacja-i-prezentacja" id="toc-wizualizacja-i-prezentacja" class="nav-link" data-scroll-target="#wizualizacja-i-prezentacja">Wizualizacja i prezentacja</a></li>
+  <li><a href="#modularyzacja-i-narzędzia" id="toc-modularyzacja-i-narzędzia" class="nav-link" data-scroll-target="#modularyzacja-i-narzędzia">Modularyzacja i narzędzia</a></li>
+  <li><a href="#kluczowe-komendy" id="toc-kluczowe-komendy" class="nav-link" data-scroll-target="#kluczowe-komendy">Kluczowe komendy</a></li>
+  </ul></li>
+  <li><a href="#komendy-codzienna-obsługa" id="toc-komendy-codzienna-obsługa" class="nav-link" data-scroll-target="#komendy-codzienna-obsługa">7. Komendy — codzienna obsługa</a>
+  <ul class="collapse">
+  <li><a href="#aktualizacja-danych-przed-sesją-gpw" id="toc-aktualizacja-danych-przed-sesją-gpw" class="nav-link" data-scroll-target="#aktualizacja-danych-przed-sesją-gpw">Aktualizacja danych (przed sesją GPW)</a></li>
+  <li><a href="#rendering-i-deploy" id="toc-rendering-i-deploy" class="nav-link" data-scroll-target="#rendering-i-deploy">Rendering i deploy</a></li>
+  <li><a href="#podgląd-lokalny" id="toc-podgląd-lokalny" class="nav-link" data-scroll-target="#podgląd-lokalny">Podgląd lokalny</a></li>
+  <li><a href="#renderowanie-pojedynczego-pliku" id="toc-renderowanie-pojedynczego-pliku" class="nav-link" data-scroll-target="#renderowanie-pojedynczego-pliku">Renderowanie pojedynczego pliku</a></li>
+  </ul></li>
+  <li><a href="#konfiguracja-netlify" id="toc-konfiguracja-netlify" class="nav-link" data-scroll-target="#konfiguracja-netlify">8. Konfiguracja Netlify</a>
+  <ul class="collapse">
+  <li><a href="#parametry-projektu" id="toc-parametry-projektu" class="nav-link" data-scroll-target="#parametry-projektu">Parametry projektu</a></li>
+  <li><a href="#jak-działa-deployment" id="toc-jak-działa-deployment" class="nav-link" data-scroll-target="#jak-działa-deployment">Jak działa deployment</a></li>
+  <li><a href="#domeny-w-netlify" id="toc-domeny-w-netlify" class="nav-link" data-scroll-target="#domeny-w-netlify">Domeny w Netlify</a></li>
+  <li><a href="#netlify.toml-jeśli-istnieje" id="toc-netlify.toml-jeśli-istnieje" class="nav-link" data-scroll-target="#netlify.toml-jeśli-istnieje">netlify.toml (jeśli istnieje)</a></li>
+  </ul></li>
+  <li><a href="#seo-i-tracking" id="toc-seo-i-tracking" class="nav-link" data-scroll-target="#seo-i-tracking">9. SEO i tracking</a>
+  <ul class="collapse">
+  <li><a href="#google-tag-manager" id="toc-google-tag-manager" class="nav-link" data-scroll-target="#google-tag-manager">Google Tag Manager</a></li>
+  <li><a href="#google-analytics-4" id="toc-google-analytics-4" class="nav-link" data-scroll-target="#google-analytics-4">Google Analytics 4</a></li>
+  <li><a href="#consent-mode-v2-gdpr" id="toc-consent-mode-v2-gdpr" class="nav-link" data-scroll-target="#consent-mode-v2-gdpr">Consent Mode v2 (GDPR)</a></li>
+  <li><a href="#klaro-cookie-consent" id="toc-klaro-cookie-consent" class="nav-link" data-scroll-target="#klaro-cookie-consent">Klaro Cookie Consent</a></li>
+  <li><a href="#seo-na-poziomie-stron-.qmd" id="toc-seo-na-poziomie-stron-.qmd" class="nav-link" data-scroll-target="#seo-na-poziomie-stron-.qmd">SEO na poziomie stron .qmd</a></li>
+  <li><a href="#inne-elementy-seo" id="toc-inne-elementy-seo" class="nav-link" data-scroll-target="#inne-elementy-seo">Inne elementy SEO</a></li>
+  </ul></li>
+  <li><a href="#design-i-branding" id="toc-design-i-branding" class="nav-link" data-scroll-target="#design-i-branding">10. Design i branding</a>
+  <ul class="collapse">
+  <li><a href="#kolorystyka-zmienne-css-w-styles.css" id="toc-kolorystyka-zmienne-css-w-styles.css" class="nav-link" data-scroll-target="#kolorystyka-zmienne-css-w-styles.css">Kolorystyka (zmienne CSS w styles.css)</a></li>
+  <li><a href="#kluczowe-elementy-wizualne" id="toc-kluczowe-elementy-wizualne" class="nav-link" data-scroll-target="#kluczowe-elementy-wizualne">Kluczowe elementy wizualne</a></li>
+  </ul></li>
+  <li><a href="#konwencje-i-zasady" id="toc-konwencje-i-zasady" class="nav-link" data-scroll-target="#konwencje-i-zasady">11. Konwencje i zasady</a>
+  <ul class="collapse">
+  <li><a href="#nazewnictwo-plików" id="toc-nazewnictwo-plików" class="nav-link" data-scroll-target="#nazewnictwo-plików">Nazewnictwo plików</a></li>
+  <li><a href="#język-w-analizach" id="toc-język-w-analizach" class="nav-link" data-scroll-target="#język-w-analizach">Język w analizach</a></li>
+  <li><a href="#struktura-postów-blogowych" id="toc-struktura-postów-blogowych" class="nav-link" data-scroll-target="#struktura-postów-blogowych">Struktura postów blogowych</a></li>
+  </ul></li>
+  <li><a href="#znane-problemy-i-troubleshooting" id="toc-znane-problemy-i-troubleshooting" class="nav-link" data-scroll-target="#znane-problemy-i-troubleshooting">12. Znane problemy i troubleshooting</a>
+  <ul class="collapse">
+  <li><a href="#problem-quarto-renderuje-wszystkie-pliki-mimo-freeze-auto" id="toc-problem-quarto-renderuje-wszystkie-pliki-mimo-freeze-auto" class="nav-link" data-scroll-target="#problem-quarto-renderuje-wszystkie-pliki-mimo-freeze-auto">Problem: Quarto renderuje wszystkie pliki mimo <code>freeze: auto</code></a></li>
+  <li><a href="#problem-timeout-przy-scrapingu-stron-spółek" id="toc-problem-timeout-przy-scrapingu-stron-spółek" class="nav-link" data-scroll-target="#problem-timeout-przy-scrapingu-stron-spółek">Problem: Timeout przy scrapingu stron spółek</a></li>
+  <li><a href="#problem-google-analytics-nie-widzi-instalacji" id="toc-problem-google-analytics-nie-widzi-instalacji" class="nav-link" data-scroll-target="#problem-google-analytics-nie-widzi-instalacji">Problem: Google Analytics nie widzi instalacji</a></li>
+  <li><a href="#problem-nieczytelnyna-czcionka-w-banerze-klaro" id="toc-problem-nieczytelnyna-czcionka-w-banerze-klaro" class="nav-link" data-scroll-target="#problem-nieczytelnyna-czcionka-w-banerze-klaro">Problem: Nieczytelnyna czcionka w banerze Klaro</a></li>
+  <li><a href="#problem-pliki-wrażliwe-widoczne-na-github" id="toc-problem-pliki-wrażliwe-widoczne-na-github" class="nav-link" data-scroll-target="#problem-pliki-wrażliwe-widoczne-na-github">Problem: Pliki wrażliwe widoczne na GitHub</a></li>
+  <li><a href="#problem-reticulatepython-procesy-blokują-render" id="toc-problem-reticulatepython-procesy-blokują-render" class="nav-link" data-scroll-target="#problem-reticulatepython-procesy-blokują-render">Problem: Reticulate/Python procesy blokują render</a></li>
+  </ul></li>
+  <li><a href="#źródła-danych" id="toc-źródła-danych" class="nav-link" data-scroll-target="#źródła-danych">13. Źródła danych</a></li>
+  <li><a href="#rozwój-i-plany" id="toc-rozwój-i-plany" class="nav-link" data-scroll-target="#rozwój-i-plany">14. Rozwój i plany</a>
+  <ul class="collapse">
+  <li><a href="#w-toku" id="toc-w-toku" class="nav-link" data-scroll-target="#w-toku">W toku</a></li>
+  <li><a href="#planowane" id="toc-planowane" class="nav-link" data-scroll-target="#planowane">Planowane</a></li>
+  </ul></li>
+  <li><a href="#kontakty-i-narzędzia" id="toc-kontakty-i-narzędzia" class="nav-link" data-scroll-target="#kontakty-i-narzędzia">15. Kontakty i narzędzia</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="dokumentacja-projektu-domenarynku.pl" class="level1">
+<h1>Dokumentacja projektu DomenaRynku.pl</h1>
+<p><strong>Portal dla świadomego inwestora — analiza GPW</strong><br>
+<strong>Adres:</strong> https://domenarynku.pl<br>
+<strong>Status:</strong> LIVE<br>
+<strong>Data dokumentu:</strong> 2026-02-06</p>
+<hr>
+<section id="cel-projektu" class="level2">
+<h2 class="anchored" data-anchor-id="cel-projektu">1. Cel projektu</h2>
+<p>DomenaRynku.pl to portal finansowy poświęcony analizie Giełdy Papierów Wartościowych w Warszawie. Wyróżnia się autorskimi wskaźnikami analitycznymi, których nie znajdziesz w typowych serwisach giełdowych. Projekt łączy analizę ilościową (quantitative analysis) z przystępną edukacją inwestorską.</p>
+<p>Główne wartości:</p>
+<ul>
+<li>Autorski <strong>Indeks Trendów GPW</strong> — wskaźnik szerokości rynku (market breadth indicator) pokazujący, jaki procent spółek znajduje się w trendzie wzrostowym.</li>
+<li><strong>Indeks cenowy równoważony</strong> — inspirowany metodyką Martina Zweiga (ZUPI z książki “Winning on Wall Street”), gdzie każda spółka ma równą wagę niezależnie od kapitalizacji.</li>
+<li><strong>Analiza sentymentu</strong> rynku polskiego i amerykańskiego na bazie analizy nagłówków prasowych.</li>
+<li><strong>Analiza dywergencji</strong> między wskaźnikami breadth a głównymi indeksami (WIG, WIG20) jako sygnały wyprzedzające zmiany trendów.</li>
+<li>Neutralny język inwestycyjny (“można rozważyć”, “dane sugerują” zamiast “kup/sprzedaj”).</li>
+</ul>
+<hr>
+</section>
+<section id="architektura-techniczna" class="level2">
+<h2 class="anchored" data-anchor-id="architektura-techniczna">2. Architektura techniczna</h2>
+<section id="stack-technologiczny" class="level3">
+<h3 class="anchored" data-anchor-id="stack-technologiczny">Stack technologiczny</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Warstwa</th>
+<th>Technologia</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Generowanie strony</td>
+<td><strong>Quarto 1.4+</strong> (static site generator z R)</td>
+</tr>
+<tr class="even">
+<td>Język analiz</td>
+<td><strong>R 4.5.2</strong></td>
+</tr>
+<tr class="odd">
+<td>IDE</td>
+<td><strong>RStudio</strong></td>
+</tr>
+<tr class="even">
+<td>Hosting</td>
+<td><strong>Netlify</strong> (automatyczny deploy z GitHub)</td>
+</tr>
+<tr class="odd">
+<td>Domena</td>
+<td><strong>domenarynku.pl</strong> (zarejestrowana w Netlify)</td>
+</tr>
+<tr class="even">
+<td>Repo kodu</td>
+<td><strong>GitHub</strong> (publiczne repozytorium)</td>
+</tr>
+<tr class="odd">
+<td>Analytics</td>
+<td><strong>Google Analytics 4</strong> via <strong>Google Tag Manager</strong></td>
+</tr>
+<tr class="even">
+<td>Cookie consent</td>
+<td><strong>Klaro</strong> (open source, GDPR-compliant)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="workflow-pracy" class="level3">
+<h3 class="anchored" data-anchor-id="workflow-pracy">Workflow pracy</h3>
+<pre><code>1. Pobieranie danych    → Skrypty R (web scraping Stooq, Biznesradar)
+2. Przetwarzanie        → Obliczanie wskaźników (SMA, indeksy, sentyment)
+3. Zapis danych         → Pliki .RDS w katalogu data/
+4. Rendering strony     → quarto render (lokalnie)
+5. Commit + Push        → git add . &amp;&amp; git commit &amp;&amp; git push
+6. Deploy               → Netlify automatycznie buduje z _site/</code></pre>
+<p><strong>Ważne:</strong> Strona jest renderowana <strong>lokalnie</strong> (nie na serwerze Netlify). Netlify pobiera gotowy folder <code>_site/</code> z GitHub.</p>
+<hr>
+</section>
+</section>
+<section id="struktura-katalogów-projektu" class="level2">
+<h2 class="anchored" data-anchor-id="struktura-katalogów-projektu">3. Struktura katalogów projektu</h2>
+<pre><code>domenarynku/
+├── _quarto.yml                  # Główna konfiguracja Quarto
+├── _language-pl.yml             # Tłumaczenia interfejsu na polski
+├── domenarynku.Rproj            # Plik projektu RStudio
+├── index.qmd                    # Strona główna
+├── about.qmd                    # Strona "O nas"
+├── styles.css                   # Style CSS (custom design)
+├── klaro-config.js              # Konfiguracja cookie consent
+├── .gitignore                   # Kontrola wersjonowania
+│
+├── sentyment-rynku/             # Sekcja: Sentyment rynku
+│   ├── polska.qmd               # Sentyment PL (FW20)
+│   └── usa.qmd                  # Sentyment USA (S&amp;P500)
+│
+├── indeksy/                     # Sekcja: Indeksy autorskie
+│   ├── indeks-trendow-gpw.qmd   # Indeks trendów (market breadth)
+│   └── indeks-cenowy-top100.qmd # Indeks cenowy równoważony
+│
+├── spolki-gpw.qmd               # Strona zbiorcza spółek GPW
+│
+├── posts/                       # Blog — posty analityczne
+│   ├── _metadata.yml             # Domyślne ustawienia postów
+│   └── YYYY-MM-DD-tytul/        # Posty w folderach z datą
+│       └── index.qmd
+│
+├── data/                        # Dane przetworzone (.RDS)
+│   ├── index_trend.RDS           # Indeks trendów + WIG/WIG20
+│   ├── index_price.RDS           # Indeks cenowy równoważony
+│   ├── index_unweighted.RDS      # Indeks niezważony
+│   ├── sentiment.RDS             # Sentyment PL
+│   ├── sentimentEN.RDS           # Sentyment USA
+│   ├── prices100.RDS             # Notowania historyczne top 100
+│   ├── tickers_100_selected.RDS  # Lista 100 tickerów w składzie indeksów
+│   ├── stock_list.RDS            # Pełna lista spółek GPW
+│   ├── gpw_companies.RDS         # Metadane spółek
+│   ├── www_data2.RDS             # Dane ze scrapingu stron spółek
+│   ├── table_hrefs.RDS           # Linki do stron spółek
+│   └── branze_podbranze.csv      # Klasyfikacja sektorowa
+│
+├── R/                           # Skrypty R (PRYWATNE — nie pushuj!)
+│   ├── calc_trend_index.R        # Obliczanie indeksu trendów
+│   ├── calc_price_index.R        # Obliczanie indeksu cenowego
+│   ├── data_sentiment_prep.R     # Przetwarzanie sentymentu PL
+│   ├── data_sentiment_prepEN.R   # Przetwarzanie sentymentu USA
+│   ├── get_prices2.R             # Pobieranie notowań ze Stooq
+│   ├── get_statica.R             # Pobieranie danych statycznych FW20
+│   ├── read_companies_websites.R # Scraping stron spółek
+│   └── collect_company_data.R    # Zbieranie metadanych spółek
+│
+├── mod/                         # Moduły box (PRYWATNE)
+│   └── gpw.R                    # Moduł funkcji pomocniczych GPW
+│
+├── images/                      # Grafiki
+│   └── domenarynku-logo-v2.svg  # Logo serwisu (białe SVG)
+│
+├── _site/                       # Wygenerowana strona (do deployu)
+├── _freeze/                     # Cache Quarto (freeze: auto)
+└── .quarto/                     # Pliki tymczasowe Quarto</code></pre>
+<hr>
+</section>
+<section id="kluczowe-pliki-konfiguracyjne" class="level2">
+<h2 class="anchored" data-anchor-id="kluczowe-pliki-konfiguracyjne">4. Kluczowe pliki konfiguracyjne</h2>
+<section id="quarto.yml-konfiguracja-quarto" class="level3">
+<h3 class="anchored" data-anchor-id="quarto.yml-konfiguracja-quarto">_quarto.yml — konfiguracja Quarto</h3>
+<div class="sourceCode" id="cb3"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">project</span><span class="kw">:</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">type</span><span class="kw">:</span><span class="at"> website</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">execute</span><span class="kw">:</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">freeze</span><span class="kw">:</span><span class="at"> auto</span><span class="co">                    # Cache — renderuje ponownie tylko zmienione pliki</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">website</span><span class="kw">:</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"DomenaRynku.pl"</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">site-url</span><span class="kw">:</span><span class="at"> </span><span class="st">"https://domenarynku.pl"</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">favicon</span><span class="kw">:</span><span class="at"> images/domenarynku-logo-v2.svg</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">open-graph</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span><span class="co">                # Karty społecznościowe (Facebook, LinkedIn)</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">twitter-card</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span><span class="co">              # Karty Twittera</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">navbar</span><span class="kw">:</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">logo</span><span class="kw">:</span><span class="at"> images/domenarynku-logo-v2.svg</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">left</span><span class="kw">:</span><span class="co">                         # Menu nawigacyjne</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">href</span><span class="kw">:</span><span class="at"> index.qmd / text: Strona główna</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">text</span><span class="kw">:</span><span class="at"> </span><span class="st">"Sentyment rynku"</span><span class="co">   # Dropdown</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">menu</span><span class="kw">:</span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="kw">-</span><span class="at"> </span><span class="fu">href</span><span class="kw">:</span><span class="at"> sentyment-rynku/polska.qmd / text: Polska</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="kw">-</span><span class="at"> </span><span class="fu">href</span><span class="kw">:</span><span class="at"> sentyment-rynku/usa.qmd   / text: USA</span></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">text</span><span class="kw">:</span><span class="at"> </span><span class="st">"Indeksy"</span><span class="co">           # Dropdown</span></span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">menu</span><span class="kw">:</span></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="kw">-</span><span class="at"> </span><span class="fu">href</span><span class="kw">:</span><span class="at"> indeksy/indeks-trendow-gpw.qmd / text: Indeks trendów GPW</span></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="kw">-</span><span class="at"> </span><span class="fu">href</span><span class="kw">:</span><span class="at"> indeksy/indeks-cenowy-top100.qmd / text: Indeks cenowy top 100 GPW</span></span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">href</span><span class="kw">:</span><span class="at"> spolki-gpw.qmd / text: Spółki GPW</span></span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">right</span><span class="kw">:</span></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">href</span><span class="kw">:</span><span class="at"> about.qmd / text: O nas</span></span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a><span class="fu">lang</span><span class="kw">:</span><span class="at"> pl</span></span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">theme</span><span class="kw">:</span><span class="at"> cosmo</span></span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">css</span><span class="kw">:</span><span class="at"> styles.css</span></span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">toc-depth</span><span class="kw">:</span><span class="at"> </span><span class="dv">3</span></span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">language</span><span class="kw">:</span><span class="at"> _language-pl.yml</span></span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">canonical-url</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span><span class="co">           # Automatyczne URL-e kanoniczne</span></span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a><span class="fu">    header-includes</span><span class="kw">: </span><span class="ch">|</span><span class="co">            # Tu jest GTM, Klaro, Consent Mode v2</span></span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a>      (...)</span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a><span class="fu">    include-before-body-text</span><span class="kw">: </span><span class="ch">|</span><span class="co">   # Tu jest GTM noscript</span></span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>      (...)</span></code><button title="Kopiuj do schowka" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Ważne elementy <code>header-includes</code> (kolejność ma znaczenie!):</strong></p>
+<ol type="1">
+<li>Google Consent Mode v2 — domyślnie <code>denied</code> na wszystko (GDPR)</li>
+<li>Klaro CSS</li>
+<li>Klaro Config (<code>klaro-config.js</code>)</li>
+<li>Klaro JS</li>
+<li>Google Tag Manager (<code>GTM-NXN55TCK</code>)</li>
+<li>Meta tagi: <code>author</code>, <code>robots</code>, <code>googlebot</code></li>
+</ol>
+</section>
+<section id="gitignore-co-nie-trafia-na-github" class="level3">
+<h3 class="anchored" data-anchor-id="gitignore-co-nie-trafia-na-github">.gitignore — co NIE trafia na GitHub</h3>
+<pre class="gitignore"><code># Wrażliwe skrypty scrapujące
+R/
+scripts/
+mod/
+
+# Dane surowe
+data/
+
+# Quarto cache
+_freeze/
+.quarto/
+
+# System R
+.Rproj.user
+.Rhistory
+.RData
+
+# System OS
+.DS_Store
+Thumbs.db</code></pre>
+<p><strong>Uwaga:</strong> Folder <code>_site/</code> NIE jest w .gitignore — musi trafić na GitHub, bo Netlify z niego serwuje stronę.</p>
+<hr>
+</section>
+</section>
+<section id="metodologia-wskaźników" class="level2">
+<h2 class="anchored" data-anchor-id="metodologia-wskaźników">5. Metodologia wskaźników</h2>
+<section id="indeks-trendów-gpw-market-breadth" class="level3">
+<h3 class="anchored" data-anchor-id="indeks-trendów-gpw-market-breadth">5.1 Indeks Trendów GPW (Market Breadth)</h3>
+<p><strong>Plik obliczeniowy:</strong> <code>R/calc_trend_index.R</code><br>
+<strong>Dane wyjściowe:</strong> <code>data/index_trend.RDS</code><br>
+<strong>Strona:</strong> <code>indeksy/indeks-trendow-gpw.qmd</code></p>
+<p><strong>Co mierzy:</strong> Procent spółek z top 100 GPW, które znajdują się w trendzie wzrostowym.</p>
+<p><strong>Algorytm:</strong></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Dla każdej spółki:</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>sma_short <span class="ot">&lt;-</span> <span class="fu">SMA</span>(price, <span class="at">n =</span> <span class="dv">2</span>)    <span class="co"># Krótkoterminowa (celowo 2 — przetestowane)</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>sma_long  <span class="ot">&lt;-</span> <span class="fu">SMA</span>(price, <span class="at">n =</span> <span class="dv">200</span>)  <span class="co"># Długoterminowa</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Spółka jest w trendzie wzrostowym gdy:</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>is_uptrend <span class="ot">&lt;-</span> <span class="fu">lag</span>(sma_short, <span class="dv">1</span>) <span class="sc">&gt;</span> <span class="fu">lag</span>(sma_long, <span class="dv">1</span>)  <span class="co"># lag unika look-ahead bias</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Indeks = suma spółek w trendzie / liczba dostępnych spółek × 100</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>index_trend_perc <span class="ot">&lt;-</span> <span class="fu">sum</span>(is_uptrend) <span class="sc">/</span> available_companies <span class="sc">*</span> <span class="dv">100</span></span></code><button title="Kopiuj do schowka" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Filtrowanie:</strong> Spółki muszą mieć minimum 250 dni historii notowań.</p>
+<p><strong>Interpretacja:</strong></p>
+<ul>
+<li><blockquote class="blockquote">
+<p>70% — silny rynek byka (broad rally)</p>
+</blockquote></li>
+<li>50–70% — umiarkowana hossa</li>
+<li>30–50% — neutralny/mieszany</li>
+<li>&lt; 30% — rynek niedźwiedzia</li>
+</ul>
+<p><strong>Analiza dywergencji (kluczowa wartość):</strong></p>
+<ul>
+<li>WIG rośnie + indeks trendów spada → ostrzeżenie przed korektą (negatywna dywergencja)</li>
+<li>WIG spada + indeks trendów rośnie → potencjalne dno rynku (pozytywna dywergencja)</li>
+</ul>
+<p>Korelacja z WIG/WIG20 wynosi 0.25–0.28 w normalnych warunkach, ale rośnie do 0.66–0.73 podczas silnych trendów.</p>
+</section>
+<section id="indeks-cenowy-równoważony-equal-weighted-price-index" class="level3">
+<h3 class="anchored" data-anchor-id="indeks-cenowy-równoważony-equal-weighted-price-index">5.2 Indeks Cenowy Równoważony (Equal-Weighted Price Index)</h3>
+<p><strong>Plik obliczeniowy:</strong> <code>R/calc_price_index.R</code><br>
+<strong>Dane wyjściowe:</strong> <code>data/index_price.RDS</code><br>
+<strong>Strona:</strong> <code>indeksy/indeks-cenowy-top100.qmd</code></p>
+<p><strong>Inspiracja:</strong> Zweig Unweighted Price Index (ZUPI) z “Winning on Wall Street”.</p>
+<p><strong>Algorytm (po refaktoringu na logarytmiczne zwroty):</strong></p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Logarytmiczne zwroty dla każdej spółki</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>log_returns <span class="ot">&lt;-</span> <span class="fu">diff</span>(<span class="fu">log</span>(prices))</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Średnia zwrotów (równe wagi — każda spółka = 1 udział)</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>avg_return <span class="ot">&lt;-</span> <span class="fu">rowMeans</span>(log_returns, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Kumulatywny indeks</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>index <span class="ot">&lt;-</span> <span class="fu">exp</span>(<span class="fu">cumsum</span>(avg_return)) <span class="sc">*</span> <span class="dv">100</span></span></code><button title="Kopiuj do schowka" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Dlaczego równe wagi:</strong> WIG/WIG20 są ważone kapitalizacją — kilka dużych spółek (PKO, PKN Orlen, KGHM) dominuje wartość indeksu. Indeks równoważony daje “demokratyczny” obraz rynku i lepiej wykrywa, czy wzrost jest szerokim trendem, czy jest napędzany przez kilka spółek.</p>
+</section>
+<section id="sentyment-rynku" class="level3">
+<h3 class="anchored" data-anchor-id="sentyment-rynku">5.3 Sentyment Rynku</h3>
+<p><strong>Pliki obliczeniowe:</strong> <code>R/data_sentiment_prep.R</code> (PL), <code>R/data_sentiment_prepEN.R</code> (USA)<br>
+<strong>Dane wyjściowe:</strong> <code>data/sentiment.RDS</code>, <code>data/sentimentEN.RDS</code><br>
+<strong>Strony:</strong> <code>sentyment-rynku/polska.qmd</code>, <code>sentyment-rynku/usa.qmd</code></p>
+<p><strong>Metodologia sentymentu polskiego:</strong></p>
+<ul>
+<li>Zbieranie nagłówków z głównych serwisów giełdowych/finansowych codziennie przed sesją GPW</li>
+<li>Klasyfikacja każdego nagłówka: +1 (pozytywny), 0 (neutralny), -1 (negatywny)</li>
+<li>Suma dzienna → normalizacja do skali 0–100</li>
+<li>Dane zbierane od września 2023</li>
+</ul>
+<p><strong>Sentyment USA:</strong> Analogicznie, na bazie danych z rynku opcji S&amp;P500 i VIX. Uwaga: dane mają przerwę — seria 1: 2023-09-17 do 2024-11-03, seria 2: od 2025-03-28. Na stronie wyświetlane są dwa osobne wykresy historyczne.</p>
+<p><strong>Interpretacja:</strong></p>
+<ul>
+<li><blockquote class="blockquote">
+<p>80 — ekstremalna euforia (potencjalny szczyt)</p>
+</blockquote></li>
+<li>50–80 — optymizm</li>
+<li>20–50 — pesymizm</li>
+<li>&lt; 20 — panika (potencjalne dno)</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="pakiety-r-używane-w-projekcie" class="level2">
+<h2 class="anchored" data-anchor-id="pakiety-r-używane-w-projekcie">6. Pakiety R używane w projekcie</h2>
+<section id="analiza-danych-i-serie-czasowe" class="level3">
+<h3 class="anchored" data-anchor-id="analiza-danych-i-serie-czasowe">Analiza danych i serie czasowe</h3>
+<table class="table">
+<colgroup>
+<col style="width: 38%">
+<col style="width: 61%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pakiet</th>
+<th>Zastosowanie</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>tidyverse</code> (dplyr, tidyr, purrr, stringr, ggplot2)</td>
+<td>Przetwarzanie danych</td>
+</tr>
+<tr class="even">
+<td><code>xts</code>, <code>zoo</code></td>
+<td>Serie czasowe, indeksowanie po datach</td>
+</tr>
+<tr class="odd">
+<td><code>quantmod</code></td>
+<td>Pobieranie danych giełdowych</td>
+</tr>
+<tr class="even">
+<td><code>TTR</code></td>
+<td>Wskaźniki techniczne (SMA, EMA)</td>
+</tr>
+<tr class="odd">
+<td><code>PerformanceAnalytics</code></td>
+<td>Metryki performance</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="web-scraping" class="level3">
+<h3 class="anchored" data-anchor-id="web-scraping">Web scraping</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Pakiet</th>
+<th>Zastosowanie</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>rvest</code></td>
+<td>Parsowanie HTML</td>
+</tr>
+<tr class="even">
+<td><code>httr</code></td>
+<td>Zapytania HTTP</td>
+</tr>
+<tr class="odd">
+<td><code>jsonlite</code></td>
+<td>Parsowanie JSON</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="wizualizacja-i-prezentacja" class="level3">
+<h3 class="anchored" data-anchor-id="wizualizacja-i-prezentacja">Wizualizacja i prezentacja</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Pakiet</th>
+<th>Zastosowanie</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>plotly</code></td>
+<td>Interaktywne wykresy (główna biblioteka)</td>
+</tr>
+<tr class="even">
+<td><code>kableExtra</code></td>
+<td>Tabele HTML</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="modularyzacja-i-narzędzia" class="level3">
+<h3 class="anchored" data-anchor-id="modularyzacja-i-narzędzia">Modularyzacja i narzędzia</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Pakiet</th>
+<th>Zastosowanie</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>box</code></td>
+<td>System modułowy (<code>box::use(mod/gpw)</code>)</td>
+</tr>
+<tr class="even">
+<td><code>purrr::possibly()</code></td>
+<td>Obsługa błędów przy scrapingu</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="kluczowe-komendy" class="level3">
+<h3 class="anchored" data-anchor-id="kluczowe-komendy">Kluczowe komendy</h3>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Importowanie modułu GPW:</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>box<span class="sc">::</span><span class="fu">use</span>(mod<span class="sc">/</span>gpw)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Pobieranie danych z stooq:</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>gpw<span class="sc">$</span><span class="fu">stooq_dw</span>(ticker)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Rendering strony:</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>quarto<span class="sc">::</span><span class="fu">quarto_render</span>()              <span class="co"># Cały projekt</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>quarto<span class="sc">::</span><span class="fu">quarto_render</span>(<span class="st">"plik.qmd"</span>)   <span class="co"># Jeden plik</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>quarto<span class="sc">::</span><span class="fu">quarto_preview</span>()            <span class="co"># Podgląd na żywo</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Obsługa błędów przy scrapingu:</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>safe_read <span class="ot">&lt;-</span> purrr<span class="sc">::</span><span class="fu">possibly</span>(rvest<span class="sc">::</span>read_html, <span class="at">otherwise =</span> <span class="cn">NA</span>)</span></code><button title="Kopiuj do schowka" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+</section>
+<section id="komendy-codzienna-obsługa" class="level2">
+<h2 class="anchored" data-anchor-id="komendy-codzienna-obsługa">7. Komendy — codzienna obsługa</h2>
+<section id="aktualizacja-danych-przed-sesją-gpw" class="level3">
+<h3 class="anchored" data-anchor-id="aktualizacja-danych-przed-sesją-gpw">Aktualizacja danych (przed sesją GPW)</h3>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Pobierz nowe notowania</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"R/get_prices2.R"</span>)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Przelicz indeksy</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"R/calc_trend_index.R"</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"R/calc_price_index.R"</span>)</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Aktualizuj sentyment</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"R/data_sentiment_prep.R"</span>)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"R/data_sentiment_prepEN.R"</span>)</span></code><button title="Kopiuj do schowka" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="rendering-i-deploy" class="level3">
+<h3 class="anchored" data-anchor-id="rendering-i-deploy">Rendering i deploy</h3>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># W RStudio lub terminalu:</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Lub w konsoli R:</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="fu">quarto::quarto_render()</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Deploy:</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Aktualizacja danych YYYY-MM-DD"</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="co"># → Netlify automatycznie wdroży nową wersję</span></span></code><button title="Kopiuj do schowka" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="podgląd-lokalny" class="level3">
+<h3 class="anchored" data-anchor-id="podgląd-lokalny">Podgląd lokalny</h3>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>quarto<span class="sc">::</span><span class="fu">quarto_preview</span>()</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Otwiera stronę na localhost z hot-reload</span></span></code><button title="Kopiuj do schowka" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="renderowanie-pojedynczego-pliku" class="level3">
+<h3 class="anchored" data-anchor-id="renderowanie-pojedynczego-pliku">Renderowanie pojedynczego pliku</h3>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>quarto<span class="sc">::</span><span class="fu">quarto_render</span>(<span class="st">"indeksy/indeks-trendow-gpw.qmd"</span>)</span></code><button title="Kopiuj do schowka" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Uwaga:</strong> Po zmianach w <code>_quarto.yml</code> (menu, style, meta tagi) renderuj cały projekt, nie pojedyncze pliki.</p>
+<hr>
+</section>
+</section>
+<section id="konfiguracja-netlify" class="level2">
+<h2 class="anchored" data-anchor-id="konfiguracja-netlify">8. Konfiguracja Netlify</h2>
+<section id="parametry-projektu" class="level3">
+<h3 class="anchored" data-anchor-id="parametry-projektu">Parametry projektu</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Ustawienie</th>
+<th>Wartość</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Build command</td>
+<td><em>(puste — build lokalny)</em></td>
+</tr>
+<tr class="even">
+<td>Publish directory</td>
+<td><code>_site</code></td>
+</tr>
+<tr class="odd">
+<td>Branch</td>
+<td><code>main</code></td>
+</tr>
+<tr class="even">
+<td>Domena</td>
+<td><code>domenarynku.pl</code></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="jak-działa-deployment" class="level3">
+<h3 class="anchored" data-anchor-id="jak-działa-deployment">Jak działa deployment</h3>
+<ol type="1">
+<li>Renderujesz stronę <strong>lokalnie</strong> komendą <code>quarto render</code></li>
+<li>Quarto generuje folder <code>_site/</code> z plikami HTML</li>
+<li>Commitujesz <code>_site/</code> do Git i pushujesz na GitHub</li>
+<li>Netlify wykrywa push i automatycznie publikuje zawartość <code>_site/</code></li>
+<li>Strona jest dostępna pod domenarynku.pl</li>
+</ol>
+</section>
+<section id="domeny-w-netlify" class="level3">
+<h3 class="anchored" data-anchor-id="domeny-w-netlify">Domeny w Netlify</h3>
+<ul>
+<li><code>domenarynku.netlify.app</code> — subdomena Netlify</li>
+<li><code>domenarynku.pl</code> — domena główna (primary domain, Netlify DNS)</li>
+<li><code>www.domenarynku.pl</code> — automatyczne przekierowanie do domeny głównej</li>
+<li>HTTPS — automatyczny certyfikat Let’s Encrypt</li>
+</ul>
+</section>
+<section id="netlify.toml-jeśli-istnieje" class="level3">
+<h3 class="anchored" data-anchor-id="netlify.toml-jeśli-istnieje">netlify.toml (jeśli istnieje)</h3>
+<div class="sourceCode" id="cb12"><pre class="sourceCode toml code-with-copy"><code class="sourceCode toml"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">[build]</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publish</span> <span class="op">=</span> <span class="st">"_site"</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="kw">[[redirects]]</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">from</span> <span class="op">=</span> <span class="st">"/*"</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">to</span> <span class="op">=</span> <span class="st">"/index.html"</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">status</span> <span class="op">=</span> <span class="dv">200</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a><span class="kw">[build.processing.css]</span></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">bundle</span> <span class="op">=</span> <span class="cn">true</span></span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>  <span class="dt">minify</span> <span class="op">=</span> <span class="cn">true</span></span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a><span class="kw">[build.processing.js]</span></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>  <span class="dt">bundle</span> <span class="op">=</span> <span class="cn">true</span></span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>  <span class="dt">minify</span> <span class="op">=</span> <span class="cn">true</span></span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a><span class="kw">[build.processing.images]</span></span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>  <span class="dt">compress</span> <span class="op">=</span> <span class="cn">true</span></span></code><button title="Kopiuj do schowka" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+</section>
+<section id="seo-i-tracking" class="level2">
+<h2 class="anchored" data-anchor-id="seo-i-tracking">9. SEO i tracking</h2>
+<section id="google-tag-manager" class="level3">
+<h3 class="anchored" data-anchor-id="google-tag-manager">Google Tag Manager</h3>
+<ul>
+<li>ID kontenera: <code>GTM-NXN55TCK</code></li>
+<li>Skrypt GTM w <code>&lt;head&gt;</code> (header-includes w _quarto.yml)</li>
+<li>Noscript GTM w <code>&lt;body&gt;</code> (include-before-body-text w _quarto.yml)</li>
+</ul>
+</section>
+<section id="google-analytics-4" class="level3">
+<h3 class="anchored" data-anchor-id="google-analytics-4">Google Analytics 4</h3>
+<ul>
+<li>Konfiguracja przez GTM (nie bezpośrednio)</li>
+<li>Tag Google w GTM z identyfikatorem GA4</li>
+</ul>
+</section>
+<section id="consent-mode-v2-gdpr" class="level3">
+<h3 class="anchored" data-anchor-id="consent-mode-v2-gdpr">Consent Mode v2 (GDPR)</h3>
+<p>Przed załadowaniem GTM, <code>_quarto.yml</code> ustawia domyślne zgody na <code>denied</code>:</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">gtag</span>(<span class="st">'consent'</span><span class="op">,</span> <span class="st">'default'</span><span class="op">,</span> {</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">'ad_storage'</span><span class="op">:</span> <span class="st">'denied'</span><span class="op">,</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">'ad_user_data'</span><span class="op">:</span> <span class="st">'denied'</span><span class="op">,</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">'ad_personalization'</span><span class="op">:</span> <span class="st">'denied'</span><span class="op">,</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>  <span class="st">'analytics_storage'</span><span class="op">:</span> <span class="st">'denied'</span><span class="op">,</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>  <span class="st">'wait_for_update'</span><span class="op">:</span> <span class="dv">500</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code><button title="Kopiuj do schowka" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="klaro-cookie-consent" class="level3">
+<h3 class="anchored" data-anchor-id="klaro-cookie-consent">Klaro Cookie Consent</h3>
+<p><strong>Plik:</strong> <code>klaro-config.js</code></p>
+<p>Kategorie cookies:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Kategoria</th>
+<th>Opis</th>
+<th>Domyślnie</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Niezbędne</td>
+<td>Wymagane do działania strony</td>
+<td>Zawsze ON</td>
+</tr>
+<tr class="even">
+<td>Analytics</td>
+<td>Google Analytics</td>
+<td>OFF (wymaga zgody)</td>
+</tr>
+<tr class="odd">
+<td>Marketing</td>
+<td>Google Ads (przygotowane na przyszłość)</td>
+<td>OFF</td>
+</tr>
+<tr class="even">
+<td>Personalizacja</td>
+<td>Preferencje użytkownika</td>
+<td>OFF</td>
+</tr>
+<tr class="odd">
+<td>Social Media</td>
+<td>Przyciski udostępniania</td>
+<td>OFF</td>
+</tr>
+</tbody>
+</table>
+<p>Klaro jest ostylowane w <code>styles.css</code> z kolorystyką strony (białe tło, niebieskie przyciski, gradient).</p>
+</section>
+<section id="seo-na-poziomie-stron-.qmd" class="level3">
+<h3 class="anchored" data-anchor-id="seo-na-poziomie-stron-.qmd">SEO na poziomie stron .qmd</h3>
+<p>Każdy plik .qmd powinien mieć w nagłówku YAML:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Tytuł widoczny na stronie"</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="fu">pagetitle</span><span class="kw">:</span><span class="at"> </span><span class="st">"Tytuł SEO | DomenaRynku.pl"</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="fu">date</span><span class="kw">:</span><span class="at"> </span><span class="st">"2024-11-21"</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="fu">date-modified</span><span class="kw">:</span><span class="at"> last-modified</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="fu">    header-includes</span><span class="kw">: </span><span class="ch">|</span></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>      &lt;meta name="description" content="Opis 150-160 znaków dla Google"&gt;</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>      &lt;meta name="keywords" content="słowa, kluczowe, rozdzielone, przecinkami"&gt;</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code><button title="Kopiuj do schowka" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="inne-elementy-seo" class="level3">
+<h3 class="anchored" data-anchor-id="inne-elementy-seo">Inne elementy SEO</h3>
+<ul>
+<li><code>canonical-url: true</code> w _quarto.yml — automatyczne kanoniczne URL</li>
+<li><code>open-graph: true</code> — karty Facebook/LinkedIn</li>
+<li><code>twitter-card: true</code> — karty Twitter</li>
+<li><code>sitemap.xml</code> — generowany automatycznie przez Quarto</li>
+<li>Meta <code>robots: index, follow</code> — globalnie w header-includes</li>
+<li>Responsywny design (mobile-friendly)</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="design-i-branding" class="level2">
+<h2 class="anchored" data-anchor-id="design-i-branding">10. Design i branding</h2>
+<section id="kolorystyka-zmienne-css-w-styles.css" class="level3">
+<h3 class="anchored" data-anchor-id="kolorystyka-zmienne-css-w-styles.css">Kolorystyka (zmienne CSS w styles.css)</h3>
+<div class="sourceCode" id="cb15"><pre class="sourceCode css code-with-copy"><code class="sourceCode css"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>--primary-blue<span class="in">:</span> <span class="pp">#1e3a8a</span>;     <span class="co">/* Główny niebieski (ciemny) */</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>--accent-blue<span class="in">:</span> <span class="pp">#3b82f6</span>;      <span class="co">/* Akcent (jasny niebieski) */</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>--light-blue<span class="in">:</span> <span class="pp">#93c5fd</span>;       <span class="co">/* Hover states */</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>--gray-text<span class="in">:</span> <span class="pp">#64748b</span>;        <span class="co">/* Tekst pomocniczy */</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>--dark-text<span class="in">:</span> <span class="pp">#1e293b</span>;        <span class="co">/* Tekst główny */</span></span></code><button title="Kopiuj do schowka" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="kluczowe-elementy-wizualne" class="level3">
+<h3 class="anchored" data-anchor-id="kluczowe-elementy-wizualne">Kluczowe elementy wizualne</h3>
+<ul>
+<li>Navbar: gradient <code>linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)</code></li>
+<li>Logo: białe SVG na ciemnym tle nawigacji</li>
+<li>Karty: cień + hover effect (<code>transform: translateY(-4px)</code>)</li>
+<li>Posty: <code>border-left: 4px solid blue</code> na kartach</li>
+<li>Font: Segoe UI (system fonts)</li>
+<li>Motyw Quarto: cosmo</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="konwencje-i-zasady" class="level2">
+<h2 class="anchored" data-anchor-id="konwencje-i-zasady">11. Konwencje i zasady</h2>
+<section id="nazewnictwo-plików" class="level3">
+<h3 class="anchored" data-anchor-id="nazewnictwo-plików">Nazewnictwo plików</h3>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 44%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Typ</th>
+<th>Konwencja</th>
+<th>Przykład</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Strony Quarto</td>
+<td>kebab-case</td>
+<td><code>indeks-trendow-gpw.qmd</code></td>
+</tr>
+<tr class="even">
+<td>Posty blogowe</td>
+<td><code>YYYY-MM-DD-tytul/index.qmd</code></td>
+<td><code>2024-11-21-analiza-trendow/index.qmd</code></td>
+</tr>
+<tr class="odd">
+<td>Skrypty R</td>
+<td>snake_case</td>
+<td><code>calc_trend_index.R</code></td>
+</tr>
+<tr class="even">
+<td>Dane</td>
+<td>snake_case</td>
+<td><code>index_trend.RDS</code></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="język-w-analizach" class="level3">
+<h3 class="anchored" data-anchor-id="język-w-analizach">Język w analizach</h3>
+<p>Zawsze używaj neutralnych sformułowań:</p>
+<ul>
+<li>✅ “Dane sugerują…”, “Można rozważyć…”, “Warto zwrócić uwagę na…”</li>
+<li>❌ “Kup teraz!”, “To jest świetna okazja!”, “Gwarantowany zysk”</li>
+</ul>
+<p>Każda strona analityczna powinna kończyć się callout-em z informacją prawną:</p>
+<pre><code>::: {.callout-important}
+## Informacja prawna
+Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny
+i edukacyjny. Nie stanowią porady inwestycyjnej, rekomendacji, ani oferty
+kupna lub sprzedaży instrumentów finansowych.
+:::</code></pre>
+</section>
+<section id="struktura-postów-blogowych" class="level3">
+<h3 class="anchored" data-anchor-id="struktura-postów-blogowych">Struktura postów blogowych</h3>
+<pre><code>1. Lead — jedno zdanie podsumowujące
+2. Kluczowe statystyki — liczby, zmiany, zakresy
+3. Wykres interaktywny (plotly)
+4. Analiza opisowa
+5. Implikacje / co monitorować
+6. Disclaimer prawny</code></pre>
+<hr>
+</section>
+</section>
+<section id="znane-problemy-i-troubleshooting" class="level2">
+<h2 class="anchored" data-anchor-id="znane-problemy-i-troubleshooting">12. Znane problemy i troubleshooting</h2>
+<section id="problem-quarto-renderuje-wszystkie-pliki-mimo-freeze-auto" class="level3">
+<h3 class="anchored" data-anchor-id="problem-quarto-renderuje-wszystkie-pliki-mimo-freeze-auto">Problem: Quarto renderuje wszystkie pliki mimo <code>freeze: auto</code></h3>
+<p><strong>Przyczyna:</strong> <code>freeze</code> działa tylko dla plików z kodem R. Pliki bez bloków kodu R zawsze się re-renderują.</p>
+<p><strong>Rozwiązanie:</strong> To normalne zachowanie. Dla plików z kodem R, <code>_freeze/</code> przechowuje cache wyników.</p>
+</section>
+<section id="problem-timeout-przy-scrapingu-stron-spółek" class="level3">
+<h3 class="anchored" data-anchor-id="problem-timeout-przy-scrapingu-stron-spółek">Problem: Timeout przy scrapingu stron spółek</h3>
+<p><strong>Przyczyna:</strong> Niektóre strony WWW nie odpowiadają lub blokują scraping.</p>
+<p><strong>Rozwiązanie:</strong> Używaj <code>purrr::possibly()</code> z prawidłową składnią:</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>safe_read <span class="ot">&lt;-</span> <span class="fu">possibly</span>(read_html, <span class="at">otherwise =</span> <span class="cn">NA</span>)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="co"># NIE: possibly(~read_html(.x), otherwise = NA)</span></span></code><button title="Kopiuj do schowka" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="problem-google-analytics-nie-widzi-instalacji" class="level3">
+<h3 class="anchored" data-anchor-id="problem-google-analytics-nie-widzi-instalacji">Problem: Google Analytics nie widzi instalacji</h3>
+<p><strong>Przyczyna:</strong> Klaro blokuje cookies analityczne domyślnie (GDPR). GA4 działa dopiero po akceptacji cookies przez użytkownika.</p>
+<p><strong>Weryfikacja:</strong> Otwórz stronę, zaakceptuj cookies analityczne w banerze Klaro, sprawdź w GA4 → Realtime.</p>
+</section>
+<section id="problem-nieczytelnyna-czcionka-w-banerze-klaro" class="level3">
+<h3 class="anchored" data-anchor-id="problem-nieczytelnyna-czcionka-w-banerze-klaro">Problem: Nieczytelnyna czcionka w banerze Klaro</h3>
+<p><strong>Przyczyna:</strong> Konflikt stylów Klaro z motywem strony.</p>
+<p><strong>Rozwiązanie:</strong> Agresywne nadpisanie w <code>styles.css</code> z <code>!important</code> na selektorach <code>.klaro .cookie-notice *</code>.</p>
+</section>
+<section id="problem-pliki-wrażliwe-widoczne-na-github" class="level3">
+<h3 class="anchored" data-anchor-id="problem-pliki-wrażliwe-widoczne-na-github">Problem: Pliki wrażliwe widoczne na GitHub</h3>
+<p><strong>Przyczyna:</strong> Pliki zostały dodane do Git PRZED utworzeniem .gitignore.</p>
+<p><strong>Rozwiązanie:</strong></p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> rm <span class="at">-r</span> <span class="at">--cached</span> R/ mod/ scripts/ data/</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Usuń wrażliwe pliki z trackingu"</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code><button title="Kopiuj do schowka" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="problem-reticulatepython-procesy-blokują-render" class="level3">
+<h3 class="anchored" data-anchor-id="problem-reticulatepython-procesy-blokują-render">Problem: Reticulate/Python procesy blokują render</h3>
+<p><strong>Przyczyna:</strong> Python processes spawned by reticulate hang indefinitely.</p>
+<p><strong>Rozwiązanie:</strong> Unikaj <code>reticulate</code> w plikach .qmd. Jeśli konieczne, dodaj timeout.</p>
+<hr>
+</section>
+</section>
+<section id="źródła-danych" class="level2">
+<h2 class="anchored" data-anchor-id="źródła-danych">13. Źródła danych</h2>
+<table class="table">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 20%">
+<col style="width: 51%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Źródło</th>
+<th>Dane</th>
+<th>Częstotliwość</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Stooq (stooq.pl)</td>
+<td>Notowania historyczne OHLC, wolumen</td>
+<td>Codziennie</td>
+</tr>
+<tr class="even">
+<td>Biznesradar (biznesradar.pl)</td>
+<td>Profile spółek, sektory, opisy</td>
+<td>Jednorazowo / ad hoc</td>
+</tr>
+<tr class="odd">
+<td>Google Finance</td>
+<td>Dodatkowe dane o spółkach</td>
+<td>Ad hoc</td>
+</tr>
+<tr class="even">
+<td>Serwisy finansowe PL</td>
+<td>Nagłówki do analizy sentymentu</td>
+<td>Codziennie</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Funkcja pobierania notowań:</strong> <code>gpw$stooq_dw(ticker)</code> w module <code>mod/gpw.R</code>.</p>
+<hr>
+</section>
+<section id="rozwój-i-plany" class="level2">
+<h2 class="anchored" data-anchor-id="rozwój-i-plany">14. Rozwój i plany</h2>
+<section id="w-toku" class="level3">
+<h3 class="anchored" data-anchor-id="w-toku">W toku</h3>
+<ul>
+<li>Kompletowanie profili 100 spółek GPW (część opisów gotowa, reszta do uzupełnienia)</li>
+<li>Regularne posty blogowe z analizami sesji FW20</li>
+<li>Rozbudowa szablonów postów (tygodniowe, miesięczne, kwartalne review)</li>
+</ul>
+</section>
+<section id="planowane" class="level3">
+<h3 class="anchored" data-anchor-id="planowane">Planowane</h3>
+<ul>
+<li>USA market sentiment — rozszerzenie o dodatkowe źródła</li>
+<li>Mapa cieplna sektorów GPW</li>
+<li>Interaktywna tabela spółek z filtrami</li>
+<li>Podstrony indywidualne dla każdej spółki (<code>/spolki-gpw/pko/</code>, <code>/spolki-gpw/kghm/</code> itd.)</li>
+<li>Google Ads — infrastruktura cookie consent jest już gotowa</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="kontakty-i-narzędzia" class="level2">
+<h2 class="anchored" data-anchor-id="kontakty-i-narzędzia">15. Kontakty i narzędzia</h2>
+<ul>
+<li><strong>GitHub repo:</strong> (nazwa repozytorium: domenarynku)</li>
+<li><strong>Netlify panel:</strong> app.netlify.com → projekt domenarynku</li>
+<li><strong>Google Tag Manager:</strong> tagmanager.google.com → kontener GTM-NXN55TCK</li>
+<li><strong>Google Analytics:</strong> analytics.google.com → property domenarynku.pl</li>
+<li><strong>Google Search Console:</strong> search.google.com/search-console → domenarynku.pl</li>
+</ul>
+<hr>
+<p><em>Dokument wygenerowany na podstawie historii pracy nad projektem (listopad 2024 – luty 2026).</em></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Skopiowano!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Skopiowano!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
