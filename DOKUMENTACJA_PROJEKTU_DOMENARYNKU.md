@@ -73,6 +73,8 @@ domenarynku/
 │   └── indeks-cenowy-top100.qmd # Indeks cenowy równoważony
 │
 ├── spolki-gpw.qmd               # Strona zbiorcza spółek GPW
+├── spolki/                      # Indywidualne profile spółek (dashboards)
+│   └── lbw.qmd                  # Beispiel: Lubawa S.A.
 │
 ├── posts/                       # Blog — posty analityczne
 │   ├── _metadata.yml             # Domyślne ustawienia postów
@@ -660,7 +662,7 @@ git push
 - USA market sentiment — rozszerzenie o dodatkowe źródła
 - Mapa cieplna sektorów GPW
 - Interaktywna tabela spółek z filtrami
-- Podstrony indywidualne dla każdej spółki (`/spolki-gpw/pko/`, `/spolki-gpw/kghm/` itd.)
+- Podstrony indywidualne dla każdej spółki — **Zrealizowane jako Quarto Dashboards w folderze `spolki/`**
 - Google Ads — infrastruktura cookie consent jest już gotowa
 
 ---
@@ -675,4 +677,14 @@ git push
 
 ---
 
-*Dokument wygenerowany na podstawie historii pracy nad projektem (listopad 2024 – luty 2026).*
+## 16. Log zmian (od lutego 2026)
+
+### 2026-02-07
+- **Profile Spółek (Phase 1)**: Wdrożono format Quarto Dashboards dla podstron spółek. Pierwszy profil: Lubawa S.A. (`lbw.qmd`). Dashboard łączy dane finansowe z autorskimi opisami biznesowymi i interaktywnymi wykresami plotly (z SMA200).
+- **Klasyfikacja Branżowa**: Zintegrowano plik `branze_podbranze.csv` do kategoryzacji spółek na profilach.
+
+### 2026-02-06
+- **Automatyzacja Prasówek**: Wdrożono system codziennych prasówek (GPW 08:25, Świat 11:00) oparty na `cron` i `agent-browser`.
+- **Źródła danych**: Rozszerzono listę źródeł o PAP Biznes, Money.pl oraz breakingthenews.net (dedykowane dla wiadomości ze świata).
+- **SEO & UX**: Zmieniono sposób wyświetlania kategorii na `cloud` w `index.qmd`, co poprawiło interaktywność filtrów i strukturę pod SEO.
+- **Standardy treści**: Ustalono format linkowania (tylko nazwy portali podlinkowane `nofollow`) oraz strukturę postów digest.

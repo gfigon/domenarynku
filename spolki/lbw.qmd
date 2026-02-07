@@ -1,0 +1,115 @@
+---
+title: "Lubawa S.A. (LBW)"
+format: 
+  dashboard:
+    orientation: columns
+    nav-buttons: [github]
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(plotly)
+library(xts)
+library(TTR)
+
+# Funkcja pomocnicza do ładowania danych
+get_stock_data <- function(ticker) {
+  prices_all <- readRDS("../data/prices100.RDS")
+  col_idx <- which(names(prices_all) == ticker)
+  
+  if(length(col_idx) == 0) return(NULL)
+  
+  df <- prices_all[, c(1, col_idx)]
+  names(df) <- c("date", "price")
+  df <- df %>% filter(!is.na(price))
+  return(df)
+}
+
+lbw_data <- get_stock_data("LBW")
+last_price <- tail(lbw_data$price, 1)
+prev_price <- tail(lbw_data$price, 2)[1]
+change_pct <- round((last_price - prev_price) / prev_price * 100, 2)
+```
+
+## Column {width=30%}
+
+### Informacje podstawowe
+
+**Ticker:** LBW  
+**Pełna nazwa:** Lubawa Spółka Akcyjna  
+**Branża:** Przemysł i produkcja  
+**Podbranża:** Lotnictwo i obronność  
+**Strona WWW:** [lubawagroup.com](https://lubawagroup.com/)  
+**Siedziba:** Ostrów Wielkopolski
+
+---
+
+```{r}
+#| content: valuebox
+#| title: "Ostatnia cena"
+list(
+  icon = "currency-exchange",
+  color = "primary",
+  value = paste0(round(last_price, 3), " PLN")
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Zmiana d/d"
+list(
+  icon = "graph-up",
+  color = if(change_pct >= 0) "success" else "danger",
+  value = paste0(change_pct, "%")
+)
+```
+
+### O spółce
+
+Lubawa S.A. to jeden z kluczowych w Polsce producentów sprzętu specjalistycznego dla służb mundurowych (Wojsko, Policja, Straż Pożarna i Graniczna). Jest liderem w segmencie osłon balistycznych i konfekcji technicznej.
+
+W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia sprzętowego armii NATO, koncentrując się na długoterminowych kontraktach rządowych.
+
+## Column {width=70% .tabset}
+
+### Analiza Notowań
+
+```{r}
+#| title: Wykres historyczny z SMA200
+lbw_xts <- xts(lbw_data$price, order.by = as.Date(lbw_data$date))
+sma200 <- SMA(lbw_xts, n = 200)
+
+plot_ly(x = index(lbw_xts), y = as.numeric(lbw_xts), type = 'scatter', mode = 'lines', name = 'Cena LBW') %>%
+  add_lines(x = index(lbw_xts), y = as.numeric(sma200), name = 'SMA 200', line = list(color = 'orange')) %>%
+  layout(
+    title = "Notowania Lubawa S.A.",
+    xaxis = list(title = "Data", rangeslider = list(visible = TRUE)),
+    yaxis = list(title = "Cena (PLN)"),
+    legend = list(orientation = 'h', x = 0.1, y = 1.1)
+  )
+```
+
+### Produkty i Surowce
+
+**Główne linie produktowe:**
+
+*   **Bezpieczeństwo i Obrona:** Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego.
+*   **Ratownictwo:** Zapory przeciwpowodziowe, namioty pneumatyczne, łodzie ratownicze, skokochrony.
+*   **Turystyka i BHP:** Odzież specjalistyczna, sprzęt do prac na wysokościach.
+
+**Zasoby i Surowce:**
+
+W działalności wykorzystywane są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości, guma oraz tkaniny gumowane. Spółka posiada własną powlekarnię tkanin, co zapewnia jej niezależność produkcyjną.
+
+### Wizja i Strategia
+
+**Kierunki rozwoju:**
+
+1.  **Ekspansja zagraniczna:** Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.
+2.  **Innowacje:** Prace badawczo-rozwojowe we własnym Centrum B+R nad nowoczesnymi osłonami balistycznymi.
+3.  **Dywersyfikacja:** Balansowanie między zamówieniami wojskowymi a rynkiem cywilnym (ratownictwo, BHP).
+
+::: {.callout-important}
+## Informacja prawna
+Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży instrumentów finansowych.
+:::
