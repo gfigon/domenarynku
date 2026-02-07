@@ -101,8 +101,10 @@ list(
 )
 ```
 
-### O spółce
-n(Treść sekcji O spółce została przeniesiona do odpowiedniej zakładki w prawej kolumnie dashboardu.)
+#### O spółce
+
+KGHM Polska Miedź S.A. to jeden z czołowych światowych producentów miedzi i srebra rafinowanego. Spółka posiada ogromne zasoby złóż miedzi w Polsce oraz aktywa wydobywcze w Kanadzie, USA i Chile. Jest jednym z filarów polskiej gospodarki i największych pracodawców.
+
 ## Column {width=70% .tabset}
 
 ### Notowania

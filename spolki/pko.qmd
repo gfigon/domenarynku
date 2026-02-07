@@ -101,8 +101,10 @@ list(
 )
 ```
 
-### O spółce
-n(Treść sekcji O spółce została przeniesiona do odpowiedniej zakładki w prawej kolumnie dashboardu.)
+#### O spółce
+
+PKO Bank Polski to niekwestionowany lider polskiego sektora bankowego. Jako największy bank uniwersalny w kraju, obsługuje miliony klientów indywidualnych oraz tysiące firm. Jest kluczową instytucją finansową w tej części Europy, notowaną w prestiżowych indeksach giełdowych.
+
 ## Column {width=70% .tabset}
 
 ### Notowania

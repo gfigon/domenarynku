@@ -101,8 +101,10 @@ list(
 )
 ```
 
-### O spółce
-n(Treść sekcji O spółce została przeniesiona do odpowiedniej zakładki w prawej kolumnie dashboardu.)
+#### O spółce
+
+Żabka Group to lider polskiego rynku modern convenience. Grupa zarządza siecią ponad 11 000 sklepów działających w modelu franczyzowym. Spółka zadebiutowała na GPW w Warszawie w październiku 2024 roku, stając się jedną z największych spółek w indeksie WIG20.
+
 ## Column {width=70% .tabset}
 
 ### Notowania

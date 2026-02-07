@@ -61,8 +61,9 @@ list(icon = "graph-up", color = if(change_pct >= 0) "success" else "danger", val
 list(icon = "calendar-check", color = if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary", value = if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy)
 ```
 
-### O spółce
-n(Treść sekcji O spółce została przeniesiona do odpowiedniej zakładki w prawej kolumnie dashboardu.)
+#### O spółce
+Pepco Group N.V. to dynamicznie rozwijający się europejski detalista wielobranżowy, będący właścicielem marek Pepco, Poundland oraz Dealz. Spółka jest liderem w segmencie dyskontów niespożywczych, oferującym szeroki asortyment produktów w niskich cenach.
+
 ## Column {width=70% .tabset}
 
 ### Notowania
