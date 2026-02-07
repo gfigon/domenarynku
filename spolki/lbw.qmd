@@ -42,33 +42,48 @@ if(y_ago_idx > 0) {
 } else {
   change_yy <- "N/A"
 }
+
+# Tytuły boxów - skrócone dla lepszej czytelności
+title_lp <- paste0("Cena (", last_date, ")")
 ```
 
-## Column {width=30%}
+## Column {width=100%}
 
-### Informacje o spółce
+### Row {height=8%}
 
-**Ticker:** LBW  
-**Siedziba:** Ostrów Wielkopolski  
-**WWWW:** [lubawagroup.com](https://lubawagroup.com/)
+::: {.card}
+<div style="font-size: 0.85em; display: flex; justify-content: space-around; align-items: center; padding: 5px;">
+  <span>**Ticker:** LBW</span>
+  <span>**Lubawa S.A.**</span>
+  <span>**Siedziba:** Ostrów Wielkopolski</span>
+  <span>**WWW:** [lubawagroup.com](https://lubawagroup.com/)</span>
+  <span>**Branża:** [Przemysł i produkcja](../spolki-gpw.qmd?branza=Przemysł+i+produkcja)</span>
+  <span>**Podbranża:** [Lotnictwo i obronność](../spolki-gpw.qmd?podbranza=Lotnictwo+i+obronność)</span>
+</div>
+:::
 
-**Branża:**  
-[Przemysł i produkcja](../spolki-gpw.qmd?branza=Przemysł+i+produkcja)
+### Row {height=92%}
 
-**Podbranża:**  
-[Lotnictwo i obronność](../spolki-gpw.qmd?podbranza=Lotnictwo+i+obronność)
-
----
+#### Column {width=22%}
 
 ```{r}
 #| content: valuebox
-#| title: "Ostatnia cena"
+#| title: !expr title_lp
 list(
   icon = "currency-exchange",
   color = "primary",
   value = paste0(round(last_price, 2), " PLN")
 )
 ```
+
+<style>
+.value-box .value-box-value {
+  font-size: 1.8em !important;
+}
+.value-box .value-box-title {
+  font-size: 0.8em !important;
+}
+</style>
 
 ```{r}
 #| content: valuebox
@@ -90,31 +105,10 @@ list(
 )
 ```
 
-<style>
-/* Optymalizacja boxów dla stabilności pionowej */
-.value-box .value-box-area {
-  padding-top: 5px !important;
-  padding-bottom: 5px !important;
-}
-.value-box .value-box-value {
-  font-size: clamp(1.4rem, 2.5vw, 2.2rem) !important;
-}
-.value-box .value-box-title {
-  margin-top: 0 !important;
-  opacity: 0.8 !important;
-}
-</style>
+#### Column {width=78% .tabset}
 
-### Status
-
-Dane z dnia: `r last_date`
-
-## Column {width=70% .tabset}
-
-### Notowania
-
+::: {.card title="Notowania"}
 ```{r}
-#| title: Wykres historyczny z SMA200
 lbw_xts <- xts(lbw_data$price, order.by = as.Date(lbw_data$date))
 sma200 <- SMA(lbw_xts, n = 200)
 
@@ -127,17 +121,17 @@ plot_ly(x = index(lbw_xts), y = as.numeric(lbw_xts), type = 'scatter', mode = 'l
     margin = list(t = 50)
   )
 ```
+:::
 
-### O spółce
-
+::: {.card title="O spółce"}
 **Profil działalności:**  
 Lubawa S.A. to jeden z kluczowych w Polsce producentów sprzętu specjalistycznego dla służb mundurowych (Wojsko, Policja, Straż Pożarna i Graniczna). Jest liderem w segmencie osłon balistycznych i konfekcji technicznej. Spółka posiada własną powlekarnię tkanin, co pozwala jej na dużą niezależność technologiczną.
 
 **Strategia i Perspektywy:**  
 W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia sprzętowego armii NATO, koncentrując się na długoterminowych kontraktach rządowych. Stawia na ekspansję międzynarodową (USA, Armenia) oraz innowacje poprzez własne Centrum Badawczo-Rozwojowe.
+:::
 
-### Produkty i Surowce
-
+::: {.card title="Produkty i Surowce"}
 **Główne linie produktowe:**
 
 *   **Bezpieczeństwo i Obrona:** Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego.
@@ -147,16 +141,17 @@ W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia 
 **Zasoby i Surowce:**
 
 W działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości, guma oraz tkaniny gumowane. 
+:::
 
-### Wizja
-
+::: {.card title="Wizja"}
 **Kierunki rozwoju:**
 
 *   **Ekspansja zagraniczna:** Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.
 *   **Innowacje:** Prace badawczo-rozwojowe nad nowoczesnymi osłonami balistycznymi.
 *   **Dywersyfikacja:** Balans między zamówieniami wojskowymi a rynkiem cywilnym (ratownictwo, BHP).
 
-::: {.callout-note appearance="simple"}
+::: {.callout-important}
 ## Informacja prawna
 Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
+:::
 :::
