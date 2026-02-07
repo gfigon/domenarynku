@@ -680,8 +680,9 @@ git push
 ## 16. Log zmian (od lutego 2026)
 
 ### 2026-02-07
-- **Profile Spółek (Phase 1)**: Wdrożono format Quarto Dashboards dla podstron spółek. Pierwszy profil: Lubawa S.A. (`lbw.qmd`). Dashboard łączy dane finansowe z autorskimi opisami biznesowymi i interaktywnymi wykresami plotly (z SMA200).
-- **Klasyfikacja Branżowa**: Zintegrowano plik `branze_podbranze.csv` do kategoryzacji spółek na profilach.
+- **Profile Spółek (Phase 1)**: Wdrożono format Quarto Dashboards dla podstron spółek. Zrealizowano pierwsze 16 profili (m.in. KGH, PKO, PKN, CDR, DNP).
+- **Standard Wzorcowy**: Jako fundament przyjęto strukturę U5 (z Lubawy): poziomy pasek top, pionowe Value Boxy w lewej kolumnie (22%) i rozbudowany Tabset w prawej kolumnie (78%).
+- **Klasyfikacja Branżowa**: Zintegrowano plik `branze_podbranze.csv` do kategoryzacji spółek.
 
 ### 2026-02-06
 - **Automatyzacja Prasówek**: Wdrożono system codziennych prasówek (GPW 08:25, Świat 11:00) oparty na `cron` i `agent-browser`.
