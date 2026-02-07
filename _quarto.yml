@@ -38,7 +38,6 @@ website:
     center:
       - text: "Prywatność i Regulamin"
         href: privacy.qmd
-    right: "Analiza GPW"
     
 
 lang: pl
