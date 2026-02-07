@@ -64,7 +64,7 @@ title_lp <- paste0("Cena (", last_date, ")")
 
 ### Row {height=92%}
 
-#### Column {width=22%}
+#### Column {width=28%}
 
 ```{r}
 #| content: valuebox
@@ -72,13 +72,13 @@ title_lp <- paste0("Cena (", last_date, ")")
 list(
   icon = "currency-exchange",
   color = "primary",
-  value = paste0(round(last_price, 2), " PLN\n\n\n")
+  value = paste0(round(last_price, 2), " PLN")
 )
 ```
 
 <style>
 .value-box .value-box-value {
-  font-size: 1.8em !important;
+  font-size: 1.6em !important;
 }
 .value-box .value-box-title {
   font-size: 0.8em !important;
@@ -91,7 +91,7 @@ list(
 list(
   icon = "graph-up",
   color = if(change_pct >= 0) "success" else "danger",
-  value = paste0(change_pct, "% \n\n\n")
+  value = paste0(change_pct, "%")
 )
 ```
 
@@ -101,11 +101,11 @@ list(
 list(
   icon = "calendar-check",
   color = if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary",
-  value = if(is.numeric(change_yy)) paste0(change_yy, "% \n\n\n") else change_yy
+  value = if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 )
 ```
 
-#### Column {width=78% .tabset}
+#### Column {width=72% .tabset}
 
 ::: {.card title="Notowania"}
 ```{r}
