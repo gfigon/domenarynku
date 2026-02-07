@@ -43,24 +43,28 @@ if(y_ago_idx > 0) {
   change_yy <- "N/A"
 }
 
+# Tytuły boxów - skrócone dla lepszej czytelności
 title_lp <- paste0("Cena (", last_date, ")")
 ```
 
-## Column {width=30%}
+## Column {width=100%}
 
-### Informacje o spółce
+### Row {height=8%}
 
-**Ticker:** PKN  
-**Siedziba:** Płock  
-**WWWW:** [orlen.pl](https://orlen.pl)
+::: {.card}
+<div style="font-size: 0.85em; display: flex; justify-content: space-around; align-items: center; padding: 5px;">
+  <span>**Ticker:** PKN</span>
+  <span>**ORLEN S.A.**</span>
+  <span>**Siedziba:** Płock</span>
+  <span>**WWW:** [orlen.pl](https://orlen.pl)</span>
+  <span>**Branża:** [Surowce i energia](../spolki-gpw.qmd?branza=Surowce+i+energia)</span>
+  <span>**Podbranża:** [Rafinerie i produkcja paliw](../spolki-gpw.qmd?podbranza=rafinerie+i+produkcja+paliw)</span>
+</div>
+:::
 
-**Branża:**  
-[Surowce i energia](../spolki-gpw.qmd?branza=Surowce+i+energia)
+### Row {height=92%}
 
-**Podbranża:**  
-[Rafinerie i produkcja paliw](../spolki-gpw.qmd?podbranza=rafinerie+i+produkcja+paliw)
-
----
+#### Column {width=22%}
 
 ```{r}
 #| content: valuebox
@@ -101,14 +105,10 @@ list(
 )
 ```
 
-### O spółce
-n(Treść sekcji O spółce została przeniesiona do odpowiedniej zakładki w prawej kolumnie dashboardu.)
-## Column {width=70% .tabset}
+#### Column {width=78% .tabset}
 
-### Notowania
-
+::: {.card title="Notowania"}
 ```{r}
-#| title: Wykres historyczny z SMA200
 stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
 sma200 <- SMA(stock_xts, n = 200)
 
@@ -121,28 +121,36 @@ plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = 'scatter', mode 
     margin = list(t = 50)
   )
 ```
+:::
 
-### Profil i Segmenty
+::: {.card title="O spółce"}
+**Profil działalności:**  
+ORLEN S.A. to największy w regionie koncern multienergetyczny, operujący w segmentach rafineryjnym, petrochemicznym, wydobywczym oraz energetycznym. Podmiot o kluczowym znaczeniu dla bezpieczeństwa energetycznego Polski, posiadający sieć stacji paliw w 7 krajach Europy.
 
-**Zdywersyfikowany model biznesowy:**  
-Grupa ORLEN operuje w wielu kluczowych segmentach gospodarki, co pozwala na stabilizację wyników w różnych cyklach koniunkturalnych.
+**Strategia i Perspektywy:**  
+Koncern realizuje strategię ORLEN2030, dążąc do neutralności emisyjnej do 2050 roku. Kluczowymi kierunkami rozwoju są energetyka niskoemisyjna (w tym offshore wind i SMR), nowoczesna petrochemia oraz rozwój alternatywnych źródeł energii (wodór).
+:::
 
+::: {.card title="Segmenty i Produkty"}
 **Główne obszary działalności:**
-*   **Rafineria:** Przerób ropy naftowej na paliwa, oleje i bazy asfaltowe. Główne zakłady w Płocku, Gdańsku, Czechach i na Litwie.
-*   **Petrochemia:** Produkcja tworzyw sztucznych i chemikaliów wykorzystywanych w przemyśle.
-*   **Energetyka:** Produkcja energii elektrycznej i ciepła (w tym inwestycje w OZE: farmy wiatrowe na morzu i fotowoltaika).
-*   **Wydobycie (Upstream):** Poszukiwanie i wydobycie ropy i gazu (Polska, Norwegia, Pakistan, Kanada).
-*   **Sprzedaż detaliczna:** Największa sieć stacji paliw w regionie oraz rozwój usług pozapaliwowych i logistycznych (Orlen Paczka).
 
-### Misja i Przyszłość
+*   **Rafineria:** Produkcja benzyny, olejów oraz paliwa lotniczego.
+*   **Petrochemia:** Wytwarzanie olefin i tworzyw sztucznych wykorzystywanych w przemyśle.
+*   **Energetyka:** Wytwarzanie prądu i ciepła (Enea, Energa, Baltic Power).
+*   **Detal:** Szeroka sieć nowoczesnych stacji paliw z usługami pozapaliwowymi (Stop Cafe).
 
-Strategia ORLEN2030 zakłada transformację w kierunku koncernu niskoemisyjnego:
-*   **Neutralność emisyjna:** Cel osiągnięcia zerowej emisji netto do 2050 roku.
-*   **Energia odnawialna:** Dynamiczny rozwój projektów offshore (Baltic Power) i lądowych źródeł OZE.
-*   **Nowoczesna petrochemia:** Wydłużanie łańcucha wartości i recykling surowców.
-*   **Wodór:** Budowa infrastruktury dla paliw alternatywnych i czystego napędu wodorowego.
+**Zasoby:** Grupa posiada rafinerie w Polsce, Czechach i na Litwie oraz aktywa wydobywcze na szelfie norweskim.
+:::
 
-::: {.callout-note appearance="simple"}
+::: {.card title="Wizja"}
+**Kierunki rozwoju:**
+
+*   **Neutralność emisyjna:** transformacja w stronę koncernu zeroemisyjnego.
+*   **Rozwój OZE:** masowe inwestycje w farmy wiatrowe i fotowoltaikę.
+*   **Innowacje:** budowa technologii wodorowych i gospodarki o obiegu zamkniętym.
+
+::: {.callout-important}
 ## Informacja prawna
 Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
+:::
 :::

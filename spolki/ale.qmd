@@ -43,24 +43,28 @@ if(y_ago_idx > 0) {
   change_yy <- "N/A"
 }
 
+# Tytuły boxów - skrócone dla lepszej czytelności
 title_lp <- paste0("Cena (", last_date, ")")
 ```
 
-## Column {width=30%}
+## Column {width=100%}
 
-### Informacje o spółce
+### Row {height=8%}
 
-**Ticker:** ALE  
-**Siedziba:** Poznań / Luksemburg  
-**WWWW:** [allegro.eu](https://allegro.eu)
+::: {.card}
+<div style="font-size: 0.85em; display: flex; justify-content: space-around; align-items: center; padding: 5px;">
+  <span>**Ticker:** ALE</span>
+  <span>**Allegro.eu S.A.**</span>
+  <span>**Siedziba:** Luksemburg / Poznań</span>
+  <span>**WWW:** [allegro.eu](https://allegro.eu)</span>
+  <span>**Branża:** [Technologie i IT](../spolki-gpw.qmd?branza=Technologie+i+IT)</span>
+  <span>**Podbranża:** [E-commerce](../spolki-gpw.qmd?podbranza=e-commerce)</span>
+</div>
+:::
 
-**Branża:**  
-[Technologie i IT](../spolki-gpw.qmd?branza=Technologie+i+IT)
+### Row {height=92%}
 
-**Podbranża:**  
-[E-commerce](../spolki-gpw.qmd?podbranza=e-commerce)
-
----
+#### Column {width=22%}
 
 ```{r}
 #| content: valuebox
@@ -101,14 +105,10 @@ list(
 )
 ```
 
-### O spółce
-n(Treść sekcji O spółce została przeniesiona do odpowiedniej zakładki w prawej kolumnie dashboardu.)
-## Column {width=70% .tabset}
+#### Column {width=78% .tabset}
 
-### Notowania
-
+::: {.card title="Notowania"}
 ```{r}
-#| title: Wykres historyczny z SMA200
 stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
 sma200 <- SMA(stock_xts, n = 200)
 
@@ -121,27 +121,36 @@ plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = 'scatter', mode 
     margin = list(t = 50)
   )
 ```
+:::
 
-### Biznes i Ekosystem
+::: {.card title="O spółce"}
+**Profil działalności:**  
+Allegro.eu S.A. to największa w Polsce i jedna z największych w Europie platform e-commerce typu marketplace. Firma łączy miliony kupujących z setkami tysięcy sprzedawców, budując kompletny ekosystem handlu cyfrowego.
 
-**Marketplace i usługi:**  
-Allegro nie jest tylko sklepem, ale platformą łączącą ponad 130 tys. sprzedawców z milionami klientów. Grupa stale poszerza zakres usług, budując przewagę konkurencyjną.
+**Strategia i Biznes:**  
+Spółka rozwija własne usługi logistyczne (Allegro One), systemy odroczonych płatności (Allegro Pay) oraz intensywnie inwestuje w retail media (Allegro Ads). Kluczowym elementem wzrostu jest ekspansja w regionie CEE (Czechy, Słowacja, Węgry).
+:::
 
-**Kluczowe elementy ekosystemu:**
-*   **Allegro Smart!:** Program darmowych dostaw i zwrotów, kluczowy driver lojalności klientów.
-*   **Allegro Pay:** Nowoczesne usługi finansowe BNPL (Buy Now, Pay Later) oraz kredytowanie zakupów.
-*   **Logistyka (One Box & One Kurier):** Rozwój własnej sieci automatów paczkowych i centrów logistycznych (Fullfilment).
-*   **Ceneo.pl:** Największa polska porównywarka cen, wspierająca decyzje zakupowe.
+::: {.card title="Ekosystem i Usługi"}
+**Główne linie produktowe i usługi:**
 
-### Ekspansja i Strategia
+*   **Allegro Smart!:** Lojalnościowy program darmowych dostaw.
+*   **Marketplace:** Platforma dla firm i Allegro Lokalnie dla osób fizycznych.
+*   **Ceneo.pl:** Lider rynku porównywarek cen w Polsce.
+*   **eBilet.pl:** Sprzedaż biletów na wydarzenia rozrywkowe.
 
-Kierunki rozwoju grupy Allegro:
-*   **Region CEE:** Ekspansja na rynki Czech, Słowacji i Węgier (wykorzystanie platformy MALL Group).
-*   **International:** Umożliwienie polskim sprzedawcom eksportu na rynki całej Unii Europejskiej poprzez ujednoliconą platformę.
-*   **Retail Media:** Rozwój zaawansowanych narzędzi reklamowych (Allegro Ads) dla sprzedawców.
-*   **Technologia AI:** Wykorzystanie uczenia maszynowego w personalizacji wyszukiwań i optymalizacji logistyki.
+**Zasięg:** Allegro jest liderem w Polsce i dynamicznie zwiększa obecność na rynkach międzynarodowych.
+:::
 
-::: {.callout-note appearance="simple"}
+::: {.card title="Wizja"}
+**Kierunki rozwoju:**
+
+*   **Lider CEE:** Integracja nabytych aktywów w regionie (MALL Group).
+*   **Technologia AI:** Personalizacja wyszukiwań i optymalizacja logistyki.
+*   **Zrównoważony rozwój:** Budowa ekologicznych sieci One Box i optymalizacja opakowań.
+
+::: {.callout-important}
 ## Informacja prawna
 Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
+:::
 :::

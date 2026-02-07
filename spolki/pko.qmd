@@ -43,24 +43,28 @@ if(y_ago_idx > 0) {
   change_yy <- "N/A"
 }
 
+# Tytuły boxów - skrócone dla lepszej czytelności
 title_lp <- paste0("Cena (", last_date, ")")
 ```
 
-## Column {width=30%}
+## Column {width=100%}
 
-### Informacje o spółce
+### Row {height=8%}
 
-**Ticker:** PKO  
-**Siedziba:** Warszawa  
-**WWWW:** [pkobp.pl](https://pkobp.pl)
+::: {.card}
+<div style="font-size: 0.85em; display: flex; justify-content: space-around; align-items: center; padding: 5px;">
+  <span>**Ticker:** PKO</span>
+  <span>**PKO Bank Polski S.A.**</span>
+  <span>**Siedziba:** Warszawa</span>
+  <span>**WWW:** [pkobp.pl](https://pkobp.pl)</span>
+  <span>**Branża:** [Finanse](../spolki-gpw.qmd?branza=Finanse)</span>
+  <span>**Podbranża:** [Banki uniwersalne](../spolki-gpw.qmd?podbranza=banki+uniwersalne)</span>
+</div>
+:::
 
-**Branża:**  
-[Finanse](../spolki-gpw.qmd?branza=Finanse)
+### Row {height=92%}
 
-**Podbranża:**  
-[Banki uniwersalne](../spolki-gpw.qmd?podbranza=banki+uniwersalne)
-
----
+#### Column {width=22%}
 
 ```{r}
 #| content: valuebox
@@ -101,14 +105,10 @@ list(
 )
 ```
 
-### O spółce
-n(Treść sekcji O spółce została przeniesiona do odpowiedniej zakładki w prawej kolumnie dashboardu.)
-## Column {width=70% .tabset}
+#### Column {width=78% .tabset}
 
-### Notowania
-
+::: {.card title="Notowania"}
 ```{r}
-#| title: Wykres historyczny z SMA200
 stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
 sma200 <- SMA(stock_xts, n = 200)
 
@@ -121,29 +121,36 @@ plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = 'scatter', mode 
     margin = list(t = 50)
   )
 ```
+:::
 
-### Profil i Usługi
+::: {.card title="O spółce"}
+**Profil działalności:**  
+PKO Bank Polski S.A. to lider sektora bankowego w Polsce i czołowa instytucja finansowa w Europie Środkowo-Wschodniej. Bank obsługuje blisko 12 mln klientów, oferując pełen wachlarz usług uniwersalnych w segmencie detalicznym i korporacyjnym.
 
-**Charakterystyka działalności:**  
-PKO BP prowadzi działalność w modelu bankowości uniwersalnej, oferując pełen zakres usług finansowych. Bank jest liderem w większości segmentów rynku — od oszczędności po finansowanie dużych projektów infrastrukturalnych.
+**Strategia i Perspektywy:**  
+Strategia banku koncentruje się na transformacji cyfrowej, personlizacji usług z wykorzystaniem AI oraz wspieraniu polskiej gospodarki w procesie dekarbonizacji. Bank dąży do pozycji lidera bankowości przyszłości.
+:::
 
-**Kluczowe obszary:**
-*   **Bankowość detaliczna:** Największa baza klientów indywidualnych w Polsce, lider nowoczesnej bankowości mobilnej (aplikacja IKO).
-*   **Bankowość korporacyjna:** Finansowanie polskiego eksportu, inwestycji oraz sektora publicznego.
-*   **Grupa Kapitałowa:** Szeroka oferta poza-bankowa, w tym leasing, ubezpieczenia, fundusze inwestycyjne (TFI) oraz zarządzanie nieruchomościami.
+::: {.card title="Segmenty i Produkty"}
+**Główne obszary działalności:**
 
-**Znaczenie systemowe:**  
-Bank pełni strategiczną rolę w polskiej gospodarce, uczestnicząc w najważniejszych programach prorozwojowych i stabilizacyjnych kraju.
+*   **Bankowość detaliczna:** Największa baza klientów i lider nowoczesnej bankowości mobilnej (aplikacja IKO).
+*   **Bankowość korporacyjna:** Finansowanie polskiego eksportu i strategicznych inwestycji infrastrukturalnych.
+*   **Łeb rynków kapitałowych:** Dom maklerski, TFI oraz fundusze emerytalne w ramach Grupy Kapitałowej.
+*   **Leasing i Ubezpieczenia:** Szeroka oferta poza bankowa.
 
-### Wizja i Strategia
+**Atuty:** Dominująca skala działania, stabilna baza depozytowa oraz wysoka efektywność operacyjna.
+:::
 
-Kierunki rozwoju banku koncentrują się na transformacji cyfrowej:
-*   **Bank Przyszłości:** Wykorzystanie AI i analizy danych w personalizacji oferty dla klienta.
-*   **Lider Technologiczny:** Ciągły rozwój ekosystemu usług mobilnych i digitalizacji procesów (Eko-system IKO).
-*   **ESG i Zrównoważony Rozwój:** Finansowanie zielonej transformacji polskiej energetyki i przedsiębiorstw.
-*   **Efektywność Operacyjna:** Optymalizacja sieci placówek przy jednoczesnym zwiększaniu dostępności kanałów cyfrowych.
+::: {.card title="Wizja"}
+**Kierunki rozwoju:**
 
-::: {.callout-note appearance="simple"}
+*   **Lider cyfryzacji:** Rozwój ekosystemu usług mobilnych (super-app).
+*   **Finansowanie ESG:** Aktywne wspieranie transformacji energetycznej Polski.
+*   **Efektywność:** Dalsza optymalizacja i automatyzacja procesów back-office.
+
+::: {.callout-important}
 ## Informacja prawna
 Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
+:::
 :::

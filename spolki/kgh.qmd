@@ -43,24 +43,28 @@ if(y_ago_idx > 0) {
   change_yy <- "N/A"
 }
 
+# Tytuły boxów - skrócone dla lepszej czytelności
 title_lp <- paste0("Cena (", last_date, ")")
 ```
 
-## Column {width=30%}
+## Column {width=100%}
 
-### Informacje o spółce
+### Row {height=8%}
 
-**Ticker:** KGH  
-**Siedziba:** Lubin  
-**WWWW:** [kghm.com](https://kghm.com)
+::: {.card}
+<div style="font-size: 0.85em; display: flex; justify-content: space-around; align-items: center; padding: 5px;">
+  <span>**Ticker:** KGH</span>
+  <span>**KGHM Polska Miedź S.A.**</span>
+  <span>**Siedziba:** Lubin</span>
+  <span>**WWW:** [kghm.com](https://kghm.com)</span>
+  <span>**Branża:** [Surowce i energia](../spolki-gpw.qmd?branza=Surowce+i+energia)</span>
+  <span>**Podbranża:** [Górnictwo rud metali](../spolki-gpw.qmd?podbranza=górnictwo+rud+metali)</span>
+</div>
+:::
 
-**Branża:**  
-[Surowce i energia](../spolki-gpw.qmd?branza=Surowce+i+energia)
+### Row {height=92%}
 
-**Podbranża:**  
-[Górnictwo rud metali](../spolki-gpw.qmd?podbranza=górnictwo+rud+metali)
-
----
+#### Column {width=22%}
 
 ```{r}
 #| content: valuebox
@@ -101,14 +105,10 @@ list(
 )
 ```
 
-### O spółce
-n(Treść sekcji O spółce została przeniesiona do odpowiedniej zakładki w prawej kolumnie dashboardu.)
-## Column {width=70% .tabset}
+#### Column {width=78% .tabset}
 
-### Notowania
-
+::: {.card title="Notowania"}
 ```{r}
-#| title: Wykres historyczny z SMA200
 stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
 sma200 <- SMA(stock_xts, n = 200)
 
@@ -121,30 +121,36 @@ plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = 'scatter', mode 
     margin = list(t = 50)
   )
 ```
+:::
 
-### Profil i Produkty
+::: {.card title="O spółce"}
+**Profil działalności:**  
+KGHM Polska Miedź S.A. to jeden z największych producentów miedzi elektrolitycznej i srebra na świecie. Spółka zarządza kluczowymi procesami wydobywczymi i hutniczymi w Legnicko-Głogowskim Zagłębiu Miedziowym (LGOM) oraz posiada aktywa zagraniczne (m.in. kopalnia Sierra Gorda w Chile).
 
-**Czym się zajmuje:**  
-Grupa Kapitałowa KGHM koncentruje się na wydobyciu i przetwórstwie rud miedzi oraz produkcji metali szlachetnych i przemysłowych. Działalność obejmuje pełen łańcuch wartości — od prac geologicznych i kopalni po huty miedzi i centra badawcze.
+**Strategia i Perspektywy:**  
+Firma dąży do bycia globalnym liderem efektywności w branży wydobywczej. Kluczowe kierunki to ekspansja bazy zasobowej, zielona transformacja energetyczna (OZE + atom SMR) oraz digitalizacja procesów produkcyjnych.
+:::
 
+::: {.card title="Produkty i Zasoby"}
 **Główne produkty:**
-*   **Miedź rafinowana (katody):** Podstawowy produkt, wykorzystywany w energetyce i elektronice.
-*   **Srebro:** KGHM jest jednym z największych producentów srebra rafinowanego na świecie.
-*   **Metale towarzyszące:** Złoto, molibden, ołów, pallad, platyna, selen, ren.
-*   **Produkty chemiczne:** Kwas siarkowy i siarczan miedzi.
 
-**Zasoby:**  
-Kluczowe aktywa znajdują się w Legnicko-Głogowskim Okręgu Miedziowym (LGOM) w Polsce oraz w kopalniach zagranicznych, takich jak Sierra Gorda w Chile czy Robinson i Carlota w USA.
+*   **Miedź rafinowana:** W postaci katod i walcówki.
+*   **Srebro rafinowane:** KGHM jest jednym z największych producentów kruszcu na świecie.
+*   **Złoto i metale szlachetne:** Pallad, platyna.
+*   **Metale towarzyszące:** Ołów, molibden, selen, ren.
 
-### Wizja i Strategia
+**Zasoby:** Jedne z największych na świecie złóż miedzi zlokalizowane na Dolnym Śląsku.
+:::
 
-Strategia KGHM opiera się na czterech filarach:
-*   **Efektywność:** Optymalizacja kosztów wydobycia i produkcji.
-*   **Elastyczność:** Adaptacja do zmiennych cen surowców i trendów globalnej gospodarki.
-*   **Ekologia i E-przemysł:** Inwestycje w technologie przyjazne środowisku (GOZ) oraz digitalizację procesów górniczych.
-*   **Energia:** Budowa własnych źródeł niskoemisyjnych oraz projekty związane z energetyką jądrową (SMR).
+::: {.card title="Wizja"}
+**Kierunki rozwoju:**
 
-::: {.callout-note appearance="simple"}
+*   **Ekspansja globalna:** rozwój aktywów zagranicznych w obu Amerykach.
+*   **Ekologia:** redukcja śladu węglowego i wdrożenie GOZ.
+*   **Bezpieczeństwo surowcowe:** zabezpieczenie strategicznych zasobów miedzi.
+
+::: {.callout-important}
 ## Informacja prawna
 Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
+:::
 :::
