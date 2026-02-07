@@ -42,57 +42,25 @@ if(y_ago_idx > 0) {
 } else {
   change_yy <- "N/A"
 }
-
-# Tytuły boxów - skrócone dla lepszej czytelności
-title_lp <- paste0("Cena (", last_date, ")")
 ```
 
-## Column {width=100%}
-
-### Row {height=8%}
+## Row {height=10%}
 
 ::: {.card}
-<div style="font-size: 0.85em; display: flex; justify-content: space-around; align-items: center; padding: 5px;">
-  <span>**Ticker:** LBW</span>
-  <span>**Lubawa S.A.**</span>
-  <span>**Siedziba:** Ostrów Wielkopolski</span>
-  <span>**WWW:** [lubawagroup.com](https://lubawagroup.com/)</span>
-  <span>**Branża:** [Przemysł i produkcja](../spolki-gpw.qmd?branza=Przemysł+i+produkcja)</span>
-  <span>**Podbranża:** [Lotnictwo i obronność](../spolki-gpw.qmd?podbranza=Lotnictwo+i+obronność)</span>
-</div>
+**Ticker:** LBW | **Pełna nazwa:** Lubawa S.A. | **Siedziba:** Ostrów Wielkopolski | **WWW:** [lubawagroup.com](https://lubawagroup.com/) | **Branża:** [Przemysł i produkcja](../spolki-gpw.qmd?branza=Przemysł+i+produkcja) | **Podbranża:** [Lotnictwo i obronność](../spolki-gpw.qmd?podbranza=Lotnictwo+i+obronność)
 :::
 
-### Row {height=92%}
-
-#### Column {width=22%}
+## Row {height=20%}
 
 ```{r}
 #| content: valuebox
-#| title: !expr title_lp
+#| title: "Ostatnia cena"
 list(
   icon = "currency-exchange",
   color = "primary",
-  value = paste0(round(last_price, 2), " PLN")
+  value = paste0(round(last_price, 3), " PLN")
 )
 ```
-
-<style>
-.value-box .value-box-value {
-  font-size: 1.8em !important;
-}
-.value-box .value-box-title {
-  font-size: 0.8em !important;
-}
-</style>
-
-<style>
-.value-box .value-box-value {
-  font-size: 1.6em !important;
-}
-.value-box .value-box-title {
-  font-size: 0.8em !important;
-}
-</style>
 
 ```{r}
 #| content: valuebox
@@ -114,7 +82,9 @@ list(
 )
 ```
 
-#### Column {width=78% .tabset}
+## Row {height=70%}
+
+### Column {width=70% .tabset}
 
 ::: {.card title="Notowania"}
 ```{r}
@@ -130,6 +100,10 @@ plot_ly(x = index(lbw_xts), y = as.numeric(lbw_xts), type = 'scatter', mode = 'l
     margin = list(t = 50)
   )
 ```
+
+---
+
+**Informacja prawna:** Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
 :::
 
 ::: {.card title="O spółce"}
@@ -146,21 +120,16 @@ W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia 
 *   **Bezpieczeństwo i Obrona:** Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego.
 *   **Ratownictwo:** Zapory przeciwpowodziowe, namioty pneumatyczne i stelażowe, łodzie ratownicze, skokochrony.
 *   **Turystyka i BHP:** Odzież specjalistyczna, sprzęt do prac na wysokościach, produkty turystyczne.
-
-**Zasoby i Surowce:**
-
-W działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości, guma oraz tkaniny gumowane. 
 :::
 
-::: {.card title="Wizja"}
+### Column {width=30%}
+
+::: {.card title="Zasoby"}
+W działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości, guma oraz tkaniny gumowane.
+
 **Kierunki rozwoju:**
 
-*   **Ekspansja zagraniczna:** Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.
-*   **Innowacje:** Prace badawczo-rozwojowe nad nowoczesnymi osłonami balistycznymi.
-*   **Dywersyfikacja:** Balans między zamówieniami wojskowymi a rynkiem cywilnym (ratownictwo, BHP).
-
-::: {.callout-important}
-## Informacja prawna
-Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
-:::
+*   **Ekspansja zagraniczna:** Lubawa Armenia, Lubawa USA.
+*   **Innowacje:** Centrum B+R.
+*   **Dywersyfikacja:** Balans wojsko/cywil.
 :::
