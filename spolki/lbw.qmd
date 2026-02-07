@@ -43,7 +43,7 @@ if(y_ago_idx > 0) {
   change_yy <- "N/A"
 }
 
-# Tytuł boxa
+# Tytuły boxów - skrócone dla lepszej czytelności
 title_lp <- paste0("Cena (", last_date, ")")
 ```
 
@@ -62,7 +62,7 @@ title_lp <- paste0("Cena (", last_date, ")")
 </div>
 :::
 
-### Row {height=82%}
+### Row {height=92%}
 
 #### Column {width=22%}
 
@@ -78,10 +78,10 @@ list(
 
 <style>
 .value-box .value-box-value {
-  font-size: 1.5em !important; /* Jeszcze mniejsza czcionka, aby na pewno się zmieściło */
+  font-size: 1.8em !important;
 }
 .value-box .value-box-title {
-  font-size: 0.75em !important;
+  font-size: 0.8em !important;
 }
 </style>
 
@@ -137,12 +137,21 @@ W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia 
 *   **Bezpieczeństwo i Obrona:** Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego.
 *   **Ratownictwo:** Zapory przeciwpowodziowe, namioty pneumatyczne i stelażowe, łodzie ratownicze, skokochrony.
 *   **Turystyka i BHP:** Odzież specjalistyczna, sprzęt do prac na wysokościach, produkty turystyczne.
+
+**Zasoby i Surowce:**
+
+W działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości, guma oraz tkaniny gumowane. 
 :::
 
-### Row {height=10%}
+::: {.card title="Wizja"}
+**Kierunki rozwoju:**
 
-::: {.card}
-<div style="font-size: 0.8em; color: #666; text-align: center; padding: 5px;">
-**Informacja prawna:** Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży instrumentów finansowych. Inwestowanie na giełdzie wiąże się z ryzykiem utraty kapitału.
-</div>
+*   **Ekspansja zagraniczna:** Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.
+*   **Innowacje:** Prace badawczo-rozwojowe nad nowoczesnymi osłonami balistycznymi.
+*   **Dywersyfikacja:** Balans między zamówieniami wojskowymi a rynkiem cywilnym (ratownictwo, BHP).
+
+::: {.callout-important}
+## Informacja prawna
+Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
+:::
 :::
