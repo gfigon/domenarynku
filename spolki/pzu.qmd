@@ -1,0 +1,87 @@
+---
+title: "PZU S.A. (PZU)"
+format: 
+  dashboard:
+    orientation: columns
+    nav-buttons: [github]
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(plotly)
+library(xts)
+library(TTR)
+
+get_stock_data <- function(ticker) {
+  prices_all <- readRDS("../data/prices100.RDS")
+  col_idx <- which(names(prices_all) == ticker)
+  if(length(col_idx) == 0) return(NULL)
+  df <- prices_all[, c(1, col_idx)]
+  names(df) <- c("date", "price")
+  df <- df %>% filter(!is.na(price))
+  return(df)
+}
+
+stock_data <- get_stock_data("PZU")
+last_row <- tail(stock_data, 1)
+last_price <- last_row$price
+last_date <- last_row$date
+prev_price <- tail(stock_data$price, 2)[1]
+change_pct <- round((last_price - prev_price) / prev_price * 100, 2)
+y_ago_idx <- nrow(stock_data) - 252
+change_yy <- if(y_ago_idx > 0) round((last_price - stock_data$price[y_ago_idx]) / stock_data$price[y_ago_idx] * 100, 2) else "N/A"
+title_lp <- paste0("Cena (", last_date, ")")
+```
+
+## Column {width=30%}
+
+### Informacje o spółce
+**Ticker:** PZU | **Siedziba:** Warszawa | **WWW:** [pzu.pl](https://www.pzu.pl)
+**Branża:** [Finanse](../spolki-gpw.qmd?branza=Finanse) | **Podbranża:** [ubezpieczenia majątkowe](../spolki-gpw.qmd?podbranza=ubezpieczenia+majątkowe)
+
+---
+
+```{r}
+#| content: valuebox
+#| title: !expr title_lp
+list(icon = "currency-exchange", color = "primary", value = paste0(round(last_price, 2), " PLN"))
+```
+
+<style>.value-box .value-box-value { font-size: 1.8em !important; } .value-box .value-box-title { font-size: 0.8em !important; }</style>
+
+```{r}
+#| content: valuebox
+#| title: "Zmiana d/d"
+list(icon = "graph-up", color = if(change_pct >= 0) "success" else "danger", value = paste0(change_pct, "%"))
+```
+
+```{r}
+#| content: valuebox
+#| title: "Zmiana y/y"
+list(icon = "calendar-check", color = if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary", value = if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy)
+```
+
+#### O spółce
+PZU S.A. to największa instytucja finansowa w Polsce i Europie Środkowo-Wschodniej. Jest liderem rynku ubezpieczeń, a poprzez swoje spółki zależne posiada silną pozycję w sektorze bankowym i zarządzaniu aktywami.
+
+## Column {width=70% .tabset}
+
+### Notowania
+```{r}
+stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
+sma200 <- SMA(stock_xts, n = 200)
+plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = 'scatter', mode = 'lines', name = 'Cena PZU') %>%
+  add_lines(x = index(stock_xts), y = as.numeric(sma200), name = 'SMA 200', line = list(color = 'orange')) %>%
+  layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = 'h', x = 0.1, y = 1.1), margin = list(t = 50))
+```
+
+### Profil i Biznes
+Grupa PZU oferuje kompleksową ochronę ubezpieczeniową w segmentach majątkowym, życiowym i zdrowotnym. Posiada kluczowe udziały w bankach Pekao i Alior Bank, tworząc unikalny konglomerat finansowy. Zarządza również ogromnymi aktywami inwestycyjnymi (PZU Zdrowie, TFI PZU).
+
+### Wizja i Strategia
+Strategia PZU zakłada budowę najbardziej nowoczesnej grupy finansowej w regionie, opartej na ekosystemach usług (zdrowie, dom, auto). Koncentruje się na wykorzystaniu Big Data, AI w likwidacji szkód oraz realizacji celów ESG.
+
+::: {.callout-note appearance="simple"}
+## Informacja prawna
+Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
+:::
