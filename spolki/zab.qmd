@@ -34,7 +34,7 @@ last_date <- last_row$date
 prev_price <- tail(stock_data$price, 2)[1]
 change_pct <- round((last_price - prev_price) / prev_price * 100, 2)
 
-# Zmiana y/y
+# Zmiana y/y (z uwagi na krótki staż na GPW - debiut Oct 2024, y/y może być N/A)
 y_ago_idx <- nrow(stock_data) - 252
 if(y_ago_idx > 0) {
   y_ago_price <- stock_data$price[y_ago_idx]
@@ -43,28 +43,24 @@ if(y_ago_idx > 0) {
   change_yy <- "N/A"
 }
 
-# Tytuły boxów - skrócone dla lepszej czytelności
 title_lp <- paste0("Cena (", last_date, ")")
 ```
 
-## Column {width=100%}
+## Column {width=30%}
 
-### Row {height=8%}
+### Informacje o spółce
 
-::: {.card}
-<div style="font-size: 0.85em; display: flex; justify-content: space-around; align-items: center; padding: 5px;">
-  <span>**Ticker:** ZAB</span>
-  <span>**Żabka Group S.A.**</span>
-  <span>**Siedziba:** Poznań</span>
-  <span>**WWW:** [zabkagroup.com](https://zabkagroup.com)</span>
-  <span>**Branża:** [Handel i konsumpcja](../spolki-gpw.qmd?branza=Handel+i+konsumpcja)</span>
-  <span>**Podbranża:** [Sieci convenience](../spolki-gpw.qmd?podbranza=sieci+convenience)</span>
-</div>
-:::
+**Ticker:** ZAB  
+**Siedziba:** Poznań / Luksemburg  
+**WWWW:** [zabkagroup.com](https://zabkagroup.com)
 
-### Row {height=92%}
+**Branża:**  
+[Handel i konsumpcja](../spolki-gpw.qmd?branza=Handel+i+konsumpcja)
 
-#### Column {width=22%}
+**Podbranża:**  
+[Sieci convenience](../spolki-gpw.qmd?podbranza=sieci+convenience)
+
+---
 
 ```{r}
 #| content: valuebox
@@ -105,12 +101,15 @@ list(
 )
 ```
 
-#### Column {width=78% .tabset}
+### O spółce
+n(Treść sekcji O spółce została przeniesiona do odpowiedniej zakładki w prawej kolumnie dashboardu.)
+## Column {width=70% .tabset}
 
-::: {.card title="Notowania"}
+### Notowania
+
 ```{r}
+#| title: Wykres historyczny z SMA200
 stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
-# Dla Żabki (nowa spółka) SMA200 może nie być dostępne
 sma200 <- if(nrow(stock_xts) >= 200) SMA(stock_xts, n = 200) else rep(NA, nrow(stock_xts))
 
 p <- plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = 'scatter', mode = 'lines', name = 'Cena ZAB')
@@ -126,36 +125,30 @@ p %>% layout(
     margin = list(t = 50)
   )
 ```
-:::
 
-::: {.card title="O spółce"}
-**Profil działalności:**  
-Żabka Group S.A. to lider rynku modern convenience w Polsce i jedna z najbardziej dynamicznie rozwijających się sieci handlowych w regionie CEE. Koncentruje się na dostarczaniu klientom wygody poprzez gęstą sieć małych sklepów blisko konsumenta.
+### Biznes i Ekosystem
 
-**Strategia i Biznes:**  
-Grupa wdraża innowacyjne formaty, takie jak bezobsługowe sklepy Żabka Nano, dynamicznie rozwija systemy cyfrowe (aplikacja Żappka) oraz usługi gastronomiczne i logistyczne. Model biznesowy opiera się na franczyzie, co pozwala na błyskawiczną ekspansję.
-:::
+**Model biznesowy:**  
+Żabka operuje w unikalnym ekosystemie integrującym sprzedaż detaliczną, usługi kurierskie oraz gastronomię (Żabka Café). 
 
-::: {.card title="Formaty i Usługi"}
-**Główne linie biznesowe:**
+**Kluczowe formaty i marki:**
+*   **Żabka Convenience:** Podstawowy format sklepów blisko klienta.
+*   **Żabka Nano:** Innowacyjne sklepy autonomiczne (bezobsługowe) oparte na technologii AI.
+*   **Maczfit:** Lider rynku cateringu dietetycznego w Polsce (część grupy).
+*   **Dietly:** Platforma e-commerce dedykowana zdrowej żywności.
 
-*   **Convenience:** Podstawowa sieć blisko 11 000 placówek stacjonarnych.
-*   **Żabka Nano:** Innowacyjne sklepy autonomiczne zasilane przez AI.
-*   **Żabka Café:** Dynamicznie rozwijana oferta gastronomiczna (hot dogi, kawa, gotowe dania).
-*   **Usługi:** Punkt odbioru paczek, płatności rachunków, usługi pocztowe.
+**Infrastruktura:**  
+Siedem zaawansowanych centrów logistycznych zapewnia dostawy do ponad 11 tysięcy placówek na terenie całego kraju.
 
-**Misja:** "Uwalnianie czasu ludzi" poprzez szybkie i wygodne zakupy.
-:::
+### Strategia Rozwoju
 
-::: {.card title="Wizja"}
-**Kierunki rozwoju:**
+Główne kierunki wzrostu Żabka Group:
+*   **Ekspansja terytorialna:** Dalsze nasycanie rynku polskiego i wejście na rynki zagraniczne (np. Rumunia).
+*   **Digitalizacja:** Rozwój aplikacji Żappka (ponad 6 mln aktywnych użytkowników) oraz personalizacja oferty (retail media).
+*   **Logistyka 2.0:** Optymalizacja dostaw ostatniej mili i rozwój usług kurierskich.
+*   **Zrównoważony styl życia:** Rozbudowa oferty produktów "Better for You" i ekologicznych rozwiązań w placówkach.
 
-*   **Ekspansja zagraniczna:** Wejście na nowe rynki (Rumunia).
-*   **Rozwój technologii:** Personalizacja oferty dzięki Big Data i AI.
-*   **Transformacja ESG:** Budowa zrównoważonego łańcucha dostaw i ekologicznych placówek.
-
-::: {.callout-important}
+::: {.callout-note appearance="simple"}
 ## Informacja prawna
 Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
-:::
 :::
