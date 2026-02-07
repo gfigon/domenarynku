@@ -101,10 +101,8 @@ list(
 )
 ```
 
-#### O spółce
-
-Allegro to najpopularniejsza w Polsce i jedna z największych w Europie platform e-commerce typu marketplace. Spółka zrewolucjonizowała polski handel detaliczny, tworząc kompletny ekosystem dla kupujących i sprzedających, obejmujący logistykę, płatności oraz reklamę.
-
+### O spółce
+n(Treść sekcji O spółce została przeniesiona do odpowiedniej zakładki w prawej kolumnie dashboardu.)
 ## Column {width=70% .tabset}
 
 ### Notowania

@@ -101,10 +101,8 @@ list(
 )
 ```
 
-#### O spółce
-
-ORLEN S.A. to największa firma w Europie Środkowo-Wschodniej, działająca w sektorze paliwowo-energetycznym. Po fuzjach z Grupą Lotos oraz PGNiG, koncern stał się multienergetycznym gigantem o strategicznym znaczeniu dla bezpieczeństwa energetycznego Polski.
-
+### O spółce
+n(Treść sekcji O spółce została przeniesiona do odpowiedniej zakładki w prawej kolumnie dashboardu.)
 ## Column {width=70% .tabset}
 
 ### Notowania

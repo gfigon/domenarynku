@@ -61,9 +61,8 @@ list(icon = "graph-up", color = if(change_pct >= 0) "success" else "danger", val
 list(icon = "calendar-check", color = if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary", value = if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy)
 ```
 
-#### O spółce
-LPP S.A. to polski czempion branży odzieżowej, zarządzający znanymi markami: Reserved, Cropp, House, Mohito i Sinsay. Spółka jest jednym z najszybciej rozwijających się sprzedawców odzieży w Europie Środkowo-Wschodniej.
-
+### O spółce
+n(Treść sekcji O spółce została przeniesiona do odpowiedniej zakładki w prawej kolumnie dashboardu.)
 ## Column {width=70% .tabset}
 
 ### Notowania
