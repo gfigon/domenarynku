@@ -2,7 +2,7 @@
 title: "DINO POLSKA S.A. (DNP)"
 format: 
   dashboard:
-    orientation: rows
+    orientation: columns
     nav-buttons: [github]
 ---
 
@@ -12,10 +12,13 @@ library(plotly)
 library(xts)
 library(TTR)
 
+# Funkcja pomocnicza do ładowania danych
 get_stock_data <- function(ticker) {
   prices_all <- readRDS("../data/prices100.RDS")
   col_idx <- which(names(prices_all) == ticker)
+  
   if(length(col_idx) == 0) return(NULL)
+  
   df <- prices_all[, c(1, col_idx)]
   names(df) <- c("date", "price")
   df <- df %>% filter(!is.na(price))
@@ -26,70 +29,127 @@ stock_data <- get_stock_data("DNP")
 last_row <- tail(stock_data, 1)
 last_price <- last_row$price
 last_date <- last_row$date
+
+# Obliczenia zmian
 prev_price <- tail(stock_data$price, 2)[1]
 change_pct <- round((last_price - prev_price) / prev_price * 100, 2)
+
+# Zmiana y/y
 y_ago_idx <- nrow(stock_data) - 252
-change_yy <- if(y_ago_idx > 0) round((last_price - stock_data$price[y_ago_idx]) / stock_data$price[y_ago_idx] * 100, 2) else "N/A"
+if(y_ago_idx > 0) {
+  y_ago_price <- stock_data$price[y_ago_idx]
+  change_yy <- round((last_price - y_ago_price) / y_ago_price * 100, 2)
+} else {
+  change_yy <- "N/A"
+}
+
+# Tytuły boxów - skrócone dla lepszej czytelności
+title_lp <- paste0("Cena (", last_date, ")")
 ```
 
-## Row {height=10%}
+## Column {width=100%}
+
+### Row {height=8%}
 
 ::: {.card}
-**Ticker:** DNP | **DINO POLSKA S.A.** | **Siedziba:** Krotoszyn | **WWW:** [grupadino.pl](https://www.grupadino.pl) | **Branża:** [Handel i konsumpcja](../spolki-gpw.qmd?branza=Handel+i+konsumpcja) | **Podbranża:** [handel detaliczny spożywczy](../spolki-gpw.qmd?podbranza=handel+detaliczny+spożywczy)
+<div style="font-size: 0.85em; display: flex; justify-content: space-around; align-items: center; padding: 5px;">
+  <span>**Ticker:** DNP</span>
+  <span>**DINO POLSKA S.A.**</span>
+  <span>**Siedziba:** Krotoszyn</span>
+  <span>**WWW:** [grupadino.pl](https://www.grupadino.pl)</span>
+  <span>**Branża:** [Handel i konsumpcja](../spolki-gpw.qmd?branza=Handel+i+konsumpcja)</span>
+  <span>**Podbranża:** [handel detaliczny spożywczy](../spolki-gpw.qmd?podbranza=handel+detaliczny+spożywczy)</span>
+</div>
 :::
 
-## Row {height=15%}
+### Row {height=92%}
+
+#### Column {width=22%}
 
 ```{r}
 #| content: valuebox
-#| title: "Ostatnia cena"
-list(icon = "currency-exchange", color = "primary", value = paste0(round(last_price, 2), " PLN"))
+#| title: !expr title_lp
+list(
+  icon = "currency-exchange",
+  color = "primary",
+  value = paste0(round(last_price, 2), " PLN")
+)
 ```
+
+<style>
+.value-box .value-box-value {
+  font-size: 1.8em !important;
+}
+.value-box .value-box-title {
+  font-size: 0.8em !important;
+}
+</style>
 
 ```{r}
 #| content: valuebox
 #| title: "Zmiana d/d"
-list(icon = "graph-up", color = if(change_pct >= 0) "success" else "danger", value = paste0(change_pct, "%"))
+list(
+  icon = "graph-up",
+  color = if(change_pct >= 0) "success" else "danger",
+  value = paste0(change_pct, "%")
+)
 ```
 
 ```{r}
 #| content: valuebox
 #| title: "Zmiana y/y"
-list(icon = "calendar-check", color = if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary", value = if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy)
+list(
+  icon = "calendar-check",
+  color = if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary",
+  value = if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
+)
 ```
 
-## Row {height=75%}
-
-### Kolumna {width=70% .tabset}
+#### Column {width=78% .tabset}
 
 ::: {.card title="Notowania"}
 ```{r}
 stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
 sma200 <- SMA(stock_xts, n = 200)
+
 plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = 'scatter', mode = 'lines', name = 'Cena DNP') %>%
   add_lines(x = index(stock_xts), y = as.numeric(sma200), name = 'SMA 200', line = list(color = 'orange')) %>%
-  layout(xaxis = list(title = ""), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = 'h', x = 0.1, y = 1.1), margin = list(t = 50))
+  layout(
+    xaxis = list(title = "", rangeslider = list(visible = TRUE)),
+    yaxis = list(title = "Cena (PLN)"),
+    legend = list(orientation = 'h', x = 0.1, y = 1.1),
+    margin = list(t = 50)
+  )
 ```
 :::
 
-::: {.card title="Profil i Biznes"}
-**Dino Polska S.A.** to jedna z najdynamiczniej rosnących sieci supermarketów w Polsce. Unikalny model biznesowy opiera się na własności gruntów, ustandaryzowanych placówkach o powierzchni ok. 400 m2 oraz bardzo sprawnej logistyce. Dino skupia się głównie na mniejszych miastach i terenach wiejskich.
+::: {.card title="O spółce"}
+**Profil działalności:**  
+Dino Polska S.A. to jedna z najszybciej rozwijających się sieci supermarketów w Polsce. Unikalny model biznesowy opiera się na własności budynków i gruntów, ustandaryzowanych placówkach o powierzchni ok. 400 m2 oraz bardzo sprawnej logistyce. Spółka skupia się na mniejszych miastach i terenach wiejskich.
+
+**Strategia i Perspektywy:**  
+Głównym celem Dino jest dalsza szybka ekspansja terytorialna w Polsce przy zachowaniu wysokiej rentowności. Spółka inwestuje w nowoczesne centra logistyczne oraz odnawialne źródła energii (fotowoltaika).
 :::
 
-::: {.card title="Wizja i Strategia"}
-Głównym celem Dino jest dalsza intensywna ekspansja terytorialna w Polsce. Spółka dąży do bycia najwygodniejszą siecią zakupową dla mieszkańców mniejszych miejscowości, stawiając na świeżość produktów i efektywność operacyjną.
+::: {.card title="Produkty i Zasoby"}
+**Główne linie produktowe:**
+
+*   **Produkty świeże:** Warzywa, owoce, nabiał oraz produkty piekarnicze.
+*   **Przetwórstwo mięsne:** Własny zakład produkcyjny Agro-Rydzyna dostarczający świeże mięso i wędliny.
+*   **Artykuły FMCG:** Szeroki asortyment ok. 5000 pozycji produktowych.
+
+**Zasoby:** Pełna kontrola nad łańcuchem dostaw dzięki własnej flocie chłodniczej i sieci centrów dystrybucyjnych. 
+:::
+
+::: {.card title="Wizja"}
+**Kierunki rozwoju:**
+
+*   **Ekspansja terytorialna:** Dalsze zwielokrotnianie liczby sklepów na terenie kraju.
+*   **Zrównoważony rozwój:** Redukcja śladu węglowego poprzez OZE.
+*   **Wygoda klienta:** Systematyczne dostosowywanie oferty do potrzeb lokalnych społeczności.
 
 ::: {.callout-important}
 ## Informacja prawna
 Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
 :::
-:::
-
-### O spółce {width=30%}
-
-::: {.card title="Zasoby i Przewagi"}
-*   **Własna logistyka:** Pełna kontrola nad łańcuchem dostaw.
-*   **Produkcja własna:** Zakład mięsny Agro-Rydzyna dostarczający świeże wyroby.
-*   **Własność budynków:** Brak kosztów wynajmu zwiększa stabilność finansową.
-*   **Aktualizacja danych:** `r last_date`
 :::
