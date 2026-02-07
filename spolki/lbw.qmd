@@ -43,7 +43,7 @@ if(y_ago_idx > 0) {
   change_yy <- "N/A"
 }
 
-title_last_price <- paste0("Ostatnia cena (", last_date, ")")
+title_lp <- paste0("Ostatnia cena (", last_date, ")")
 ```
 
 ## Column {width=100%}
@@ -51,16 +51,18 @@ title_last_price <- paste0("Ostatnia cena (", last_date, ")")
 ### Row {height=10%}
 
 ::: {.card}
-**Ticker:** LBW | **Pełna nazwa:** Lubawa S.A. | **Siedziba:** Ostrów Wielkopolski | **WWW:** [lubawagroup.com](https://lubawagroup.com/) | **Branża:** [Przemysł i produkcja](../spolki-gpw.qmd?branza=Przemysł+i+produkcja) | **Podbranża:** [Lotnictwo i obronność](../spolki-gpw.qmd?podbranza=Lotnictwo+i+obronność)
+<div style="font-size: 0.9em;">
+**Ticker:** LBW | **Lubawa S.A.** | **Siedziba:** Ostrów Wielkopolski | **WWW:** [lubawagroup.com](https://lubawagroup.com/) | **Branża:** [Przemysł i produkcja](../spolki-gpw.qmd?branza=Przemysł+i+produkcja) | **Podbranża:** [Lotnictwo i obronność](../spolki-gpw.qmd?podbranza=Lotnictwo+i+obronność)
+</div>
 :::
 
 ### Row {height=90%}
 
-#### Column {width=30%}
+#### Column {width=25%}
 
 ```{r}
 #| content: valuebox
-#| title: title_last_price
+#| title: !expr title_lp
 list(
   icon = "currency-exchange",
   color = "primary",
@@ -88,15 +90,9 @@ list(
 )
 ```
 
-::: {.card title="O spółce"}
-Lubawa S.A. to jeden z kluczowych w Polsce producentów sprzętu specjalistycznego dla służb mundurowych. Jest liderem w segmencie osłon balistycznych i konfekcji technicznej.
+#### Column {width=75% .tabset}
 
-W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia sprzętowego armii NATO.
-:::
-
-#### Column {width=70% .tabset}
-
-::: {.card title="Analiza Notowań"}
+::: {.card title="Notowania"}
 ```{r}
 lbw_xts <- xts(lbw_data$price, order.by = as.Date(lbw_data$date))
 sma200 <- SMA(lbw_xts, n = 200)
@@ -112,26 +108,33 @@ plot_ly(x = index(lbw_xts), y = as.numeric(lbw_xts), type = 'scatter', mode = 'l
 ```
 :::
 
+::: {.card title="O spółce"}
+**Profil działalności:**  
+Lubawa S.A. to jeden z kluczowych w Polsce producentów sprzętu specjalistycznego dla służb mundurowych (Wojsko, Policja, Straż Pożarna i Graniczna). Jest liderem w segmencie osłon balistycznych i konfekcji technicznej. Spółka posiada własną powlekarnię tkanin, co pozwala jej na dużą niezależność technologiczną.
+
+**Strategia i Perspektywy:**  
+W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia sprzętowego armii NATO, koncentrując się na długoterminowych kontraktach rządowych. Stawia na ekspansję międzynarodową (USA, Armenia) oraz innowacje poprzez własne Centrum Badawczo-Rozwojowe.
+:::
+
 ::: {.card title="Produkty i Surowce"}
 **Główne linie produktowe:**
 
-*   **Bezpieczeństwo i Obrona:** Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego.
-*   **Ratownictwo:** Zapory przeciwpowodziowe, namioty pneumatyczne, łodzie ratownicze.
+*   **Bezpieczeństwo i Obrona:** Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego (pozoracja pola walki).
+*   **Ratownictwo:** Zapory przeciwpowodziowe, namioty pneumatyczne i stelażowe, łodzie ratownicze, skokochrony.
+*   **Turystyka i BHP:** Odzież specjalistyczna, sprzęt do prac na wysokościach, produkty turystyczne.
 
 **Zasoby i Surowce:**
-
-W działalności wykorzystywane są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości oraz guma. Spółka posiada własną powlekarnię tkanin, co zapewnia jej niezależność produkcyjną.
+W działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości, guma oraz tkaniny gumowane. 
 :::
 
-::: {.card title="Wizja i Strategia"}
+::: {.card title="Wizja"}
 **Kierunki rozwoju:**
-
-1.  **Ekspansja zagraniczna:** Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.
-2.  **Innowacje:** Prace badawczo-rozwojowe we własnym Centrum B+R.
-3.  **Dywersyfikacja:** Balans między zamówieniami wojskowymi a rynkiem cywilnym.
+1. **Ekspansja zagraniczna:** Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.
+2. **Innowacje:** Prace badawczo-rozwojowe nad nowoczesnymi osłonami balistycznymi.
+3. **Dywersyfikacja:** Balans między zamówieniami wojskowymi a rynkiem cywilnym (ratownictwo, BHP).
 
 ::: {.callout-important}
 ## Informacja prawna
-Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny. Nie stanowią porady inwestycyjnej.
+Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
 :::
 :::
