@@ -42,33 +42,33 @@ if(y_ago_idx > 0) {
 } else {
   change_yy <- "N/A"
 }
-
-# Tytuły boxów - skrócone dla lepszej czytelności
-title_lp <- paste0("Cena (", last_date, ")")
 ```
+
+<style>
+.value-box .value-box-value {
+  font-size: 1.8em !important;
+  line-height: 1 !important;
+}
+.value-box .value-box-title {
+  display: none !important; /* Całkowite ukrycie labeli powyżej */
+}
+</style>
 
 ## Column {width=100%}
 
-### Row {height=8%}
+### Row {height=10%}
 
 ::: {.card}
-<div style="font-size: 0.85em; display: flex; justify-content: space-around; align-items: center; padding: 5px;">
-  <span>**Ticker:** LBW</span>
-  <span>**Lubawa S.A.**</span>
-  <span>**Siedziba:** Ostrów Wielkopolski</span>
-  <span>**WWW:** [lubawagroup.com](https://lubawagroup.com/)</span>
-  <span>**Branża:** [Przemysł i produkcja](../spolki-gpw.qmd?branza=Przemysł+i+produkcja)</span>
-  <span>**Podbranża:** [Lotnictwo i obronność](../spolki-gpw.qmd?podbranza=Lotnictwo+i+obronność)</span>
-</div>
+**Ticker:** LBW | **Pełna nazwa:** Lubawa S.A. | **Siedziba:** Ostrów Wielkopolski | **WWW:** [lubawagroup.com](https://lubawagroup.com/) | **Branża:** [Przemysł i produkcja](../spolki-gpw.qmd?branza=Przemysł+i+produkcja) | **Podbranża:** [Lotnictwo i obronność](../spolki-gpw.qmd?podbranza=Lotnictwo+i+obronność)
 :::
 
-### Row {height=92%}
+### Row {height=90%}
 
-#### Column {width=28%}
+#### Column {width=25%}
 
 ```{r}
 #| content: valuebox
-#| title: !expr title_lp
+#| title: ""
 list(
   icon = "currency-exchange",
   color = "primary",
@@ -76,36 +76,33 @@ list(
 )
 ```
 
-<style>
-.value-box .value-box-value {
-  font-size: 1.6em !important;
-}
-.value-box .value-box-title {
-  font-size: 0.8em !important;
-}
-</style>
-
 ```{r}
 #| content: valuebox
-#| title: "Zmiana d/d"
+#| title: ""
 list(
   icon = "graph-up",
   color = if(change_pct >= 0) "success" else "danger",
-  value = paste0(change_pct, "%")
+  value = paste0(change_pct, "% d/d")
 )
 ```
 
 ```{r}
 #| content: valuebox
-#| title: "Zmiana y/y"
+#| title: ""
 list(
   icon = "calendar-check",
   color = if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary",
-  value = if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
+  value = if(is.numeric(change_yy)) paste0(change_yy, "% y/y") else paste0(change_yy, " y/y")
 )
 ```
 
-#### Column {width=72% .tabset}
+::: {.card title="O spółce"}
+Lubawa S.A. to jeden z kluczowych w Polsce producentów sprzętu specjalistycznego dla służb mundurowych (Wojsko, Policja, Straż Pożarna i Graniczna). Jest liderem w segmencie osłon balistycznych i konfekcji technicznej.
+
+**Dane z dnia:** `r last_date`
+:::
+
+#### Column {width=75% .tabset}
 
 ::: {.card title="Notowania"}
 ```{r}
@@ -121,14 +118,10 @@ plot_ly(x = index(lbw_xts), y = as.numeric(lbw_xts), type = 'scatter', mode = 'l
     margin = list(t = 50)
   )
 ```
+
+::: {.callout-note appearance="simple"}
+**Informacja prawna:** Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
 :::
-
-::: {.card title="O spółce"}
-**Profil działalności:**  
-Lubawa S.A. to jeden z kluczowych w Polsce producentów sprzętu specjalistycznego dla służb mundurowych (Wojsko, Policja, Straż Pożarna i Graniczna). Jest liderem w segmencie osłon balistycznych i konfekcji technicznej. Spółka posiada własną powlekarnię tkanin, co pozwala jej na dużą niezależność technologiczną.
-
-**Strategia i Perspektywy:**  
-W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia sprzętowego armii NATO, koncentrując się na długoterminowych kontraktach rządowych. Stawia na ekspansję międzynarodową (USA, Armenia) oraz innowacje poprzez własne Centrum Badawczo-Rozwojowe.
 :::
 
 ::: {.card title="Produkty i Surowce"}
@@ -139,7 +132,6 @@ W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia 
 *   **Turystyka i BHP:** Odzież specjalistyczna, sprzęt do prac na wysokościach, produkty turystyczne.
 
 **Zasoby i Surowce:**
-
 W działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości, guma oraz tkaniny gumowane. 
 :::
 
@@ -149,9 +141,4 @@ W działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techni
 *   **Ekspansja zagraniczna:** Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.
 *   **Innowacje:** Prace badawczo-rozwojowe nad nowoczesnymi osłonami balistycznymi.
 *   **Dywersyfikacja:** Balans między zamówieniami wojskowymi a rynkiem cywilnym (ratownictwo, BHP).
-
-::: {.callout-important}
-## Informacja prawna
-Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
-:::
 :::
