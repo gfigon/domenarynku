@@ -1,0 +1,152 @@
+---
+title: "KGHM Polska Miedź S.A. (KGH)"
+format: 
+  dashboard:
+    orientation: columns
+    nav-buttons: [github]
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(plotly)
+library(xts)
+library(TTR)
+
+# Funkcja pomocnicza do ładowania danych
+get_stock_data <- function(ticker) {
+  prices_all <- readRDS("../data/prices100.RDS")
+  col_idx <- which(names(prices_all) == ticker)
+  
+  if(length(col_idx) == 0) return(NULL)
+  
+  df <- prices_all[, c(1, col_idx)]
+  names(df) <- c("date", "price")
+  df <- df %>% filter(!is.na(price))
+  return(df)
+}
+
+stock_data <- get_stock_data("KGH")
+last_row <- tail(stock_data, 1)
+last_price <- last_row$price
+last_date <- last_row$date
+
+# Obliczenia zmian
+prev_price <- tail(stock_data$price, 2)[1]
+change_pct <- round((last_price - prev_price) / prev_price * 100, 2)
+
+# Zmiana y/y
+y_ago_idx <- nrow(stock_data) - 252
+if(y_ago_idx > 0) {
+  y_ago_price <- stock_data$price[y_ago_idx]
+  change_yy <- round((last_price - y_ago_price) / y_ago_price * 100, 2)
+} else {
+  change_yy <- "N/A"
+}
+
+title_lp <- paste0("Cena (", last_date, ")")
+```
+
+## Column {width=30%}
+
+### Informacje o spółce
+
+**Ticker:** KGH  
+**Siedziba:** Lubin  
+**WWWW:** [kghm.com](https://kghm.com)
+
+**Branża:**  
+[Surowce i energia](../spolki-gpw.qmd?branza=Surowce+i+energia)
+
+**Podbranża:**  
+[Górnictwo rud metali](../spolki-gpw.qmd?podbranza=górnictwo+rud+metali)
+
+---
+
+```{r}
+#| content: valuebox
+#| title: !expr title_lp
+list(
+  icon = "currency-exchange",
+  color = "primary",
+  value = paste0(round(last_price, 2), " PLN")
+)
+```
+
+<style>
+.value-box .value-box-value {
+  font-size: 1.8em !important;
+}
+.value-box .value-box-title {
+  font-size: 0.8em !important;
+}
+</style>
+
+```{r}
+#| content: valuebox
+#| title: "Zmiana d/d"
+list(
+  icon = "graph-up",
+  color = if(change_pct >= 0) "success" else "danger",
+  value = paste0(change_pct, "%")
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Zmiana y/y"
+list(
+  icon = "calendar-check",
+  color = if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary",
+  value = if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
+)
+```
+
+#### O spółce
+
+KGHM Polska Miedź S.A. to jeden z czołowych światowych producentów miedzi i srebra rafinowanego. Spółka posiada ogromne zasoby złóż miedzi w Polsce oraz aktywa wydobywcze w Kanadzie, USA i Chile. Jest jednym z filarów polskiej gospodarki i największych pracodawców.
+
+## Column {width=70% .tabset}
+
+### Notowania
+
+```{r}
+#| title: Wykres historyczny z SMA200
+stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
+sma200 <- SMA(stock_xts, n = 200)
+
+plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = 'scatter', mode = 'lines', name = 'Cena KGH') %>%
+  add_lines(x = index(stock_xts), y = as.numeric(sma200), name = 'SMA 200', line = list(color = 'orange')) %>%
+  layout(
+    xaxis = list(title = "", rangeslider = list(visible = TRUE)),
+    yaxis = list(title = "Cena (PLN)"),
+    legend = list(orientation = 'h', x = 0.1, y = 1.1),
+    margin = list(t = 50)
+  )
+```
+
+### Profil i Produkty
+
+**Czym się zajmuje:**  
+Grupa Kapitałowa KGHM koncentruje się na wydobyciu i przetwórstwie rud miedzi oraz produkcji metali szlachetnych i przemysłowych. Działalność obejmuje pełen łańcuch wartości — od prac geologicznych i kopalni po huty miedzi i centra badawcze.
+
+**Główne produkty:**
+*   **Miedź rafinowana (katody):** Podstawowy produkt, wykorzystywany w energetyce i elektronice.
+*   **Srebro:** KGHM jest jednym z największych producentów srebra rafinowanego na świecie.
+*   **Metale towarzyszące:** Złoto, molibden, ołów, pallad, platyna, selen, ren.
+*   **Produkty chemiczne:** Kwas siarkowy i siarczan miedzi.
+
+**Zasoby:**  
+Kluczowe aktywa znajdują się w Legnicko-Głogowskim Okręgu Miedziowym (LGOM) w Polsce oraz w kopalniach zagranicznych, takich jak Sierra Gorda w Chile czy Robinson i Carlota w USA.
+
+### Wizja i Strategia
+
+Strategia KGHM opiera się na czterech filarach:
+*   **Efektywność:** Optymalizacja kosztów wydobycia i produkcji.
+*   **Elastyczność:** Adaptacja do zmiennych cen surowców i trendów globalnej gospodarki.
+*   **Ekologia i E-przemysł:** Inwestycje w technologie przyjazne środowisku (GOZ) oraz digitalizację procesów górniczych.
+*   **Energia:** Budowa własnych źródeł niskoemisyjnych oraz projekty związane z energetyką jądrową (SMR).
+
+::: {.callout-note appearance="simple"}
+## Informacja prawna
+Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
+:::

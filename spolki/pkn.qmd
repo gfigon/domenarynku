@@ -1,0 +1,150 @@
+---
+title: "ORLEN S.A. (PKN)"
+format: 
+  dashboard:
+    orientation: columns
+    nav-buttons: [github]
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(plotly)
+library(xts)
+library(TTR)
+
+# Funkcja pomocnicza do ładowania danych
+get_stock_data <- function(ticker) {
+  prices_all <- readRDS("../data/prices100.RDS")
+  col_idx <- which(names(prices_all) == ticker)
+  
+  if(length(col_idx) == 0) return(NULL)
+  
+  df <- prices_all[, c(1, col_idx)]
+  names(df) <- c("date", "price")
+  df <- df %>% filter(!is.na(price))
+  return(df)
+}
+
+stock_data <- get_stock_data("PKN")
+last_row <- tail(stock_data, 1)
+last_price <- last_row$price
+last_date <- last_row$date
+
+# Obliczenia zmian
+prev_price <- tail(stock_data$price, 2)[1]
+change_pct <- round((last_price - prev_price) / prev_price * 100, 2)
+
+# Zmiana y/y
+y_ago_idx <- nrow(stock_data) - 252
+if(y_ago_idx > 0) {
+  y_ago_price <- stock_data$price[y_ago_idx]
+  change_yy <- round((last_price - y_ago_price) / y_ago_price * 100, 2)
+} else {
+  change_yy <- "N/A"
+}
+
+title_lp <- paste0("Cena (", last_date, ")")
+```
+
+## Column {width=30%}
+
+### Informacje o spółce
+
+**Ticker:** PKN  
+**Siedziba:** Płock  
+**WWWW:** [orlen.pl](https://orlen.pl)
+
+**Branża:**  
+[Surowce i energia](../spolki-gpw.qmd?branza=Surowce+i+energia)
+
+**Podbranża:**  
+[Rafinerie i produkcja paliw](../spolki-gpw.qmd?podbranza=rafinerie+i+produkcja+paliw)
+
+---
+
+```{r}
+#| content: valuebox
+#| title: !expr title_lp
+list(
+  icon = "currency-exchange",
+  color = "primary",
+  value = paste0(round(last_price, 2), " PLN")
+)
+```
+
+<style>
+.value-box .value-box-value {
+  font-size: 1.8em !important;
+}
+.value-box .value-box-title {
+  font-size: 0.8em !important;
+}
+</style>
+
+```{r}
+#| content: valuebox
+#| title: "Zmiana d/d"
+list(
+  icon = "graph-up",
+  color = if(change_pct >= 0) "success" else "danger",
+  value = paste0(change_pct, "%")
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Zmiana y/y"
+list(
+  icon = "calendar-check",
+  color = if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary",
+  value = if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
+)
+```
+
+#### O spółce
+
+ORLEN S.A. to największa firma w Europie Środkowo-Wschodniej, działająca w sektorze paliwowo-energetycznym. Po fuzjach z Grupą Lotos oraz PGNiG, koncern stał się multienergetycznym gigantem o strategicznym znaczeniu dla bezpieczeństwa energetycznego Polski.
+
+## Column {width=70% .tabset}
+
+### Notowania
+
+```{r}
+#| title: Wykres historyczny z SMA200
+stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
+sma200 <- SMA(stock_xts, n = 200)
+
+plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = 'scatter', mode = 'lines', name = 'Cena PKN') %>%
+  add_lines(x = index(stock_xts), y = as.numeric(sma200), name = 'SMA 200', line = list(color = 'orange')) %>%
+  layout(
+    xaxis = list(title = "", rangeslider = list(visible = TRUE)),
+    yaxis = list(title = "Cena (PLN)"),
+    legend = list(orientation = 'h', x = 0.1, y = 1.1),
+    margin = list(t = 50)
+  )
+```
+
+### Profil i Segmenty
+
+**Zdywersyfikowany model biznesowy:**  
+Grupa ORLEN operuje w wielu kluczowych segmentach gospodarki, co pozwala na stabilizację wyników w różnych cyklach koniunkturalnych.
+
+**Główne obszary działalności:**
+*   **Rafineria:** Przerób ropy naftowej na paliwa, oleje i bazy asfaltowe. Główne zakłady w Płocku, Gdańsku, Czechach i na Litwie.
+*   **Petrochemia:** Produkcja tworzyw sztucznych i chemikaliów wykorzystywanych w przemyśle.
+*   **Energetyka:** Produkcja energii elektrycznej i ciepła (w tym inwestycje w OZE: farmy wiatrowe na morzu i fotowoltaika).
+*   **Wydobycie (Upstream):** Poszukiwanie i wydobycie ropy i gazu (Polska, Norwegia, Pakistan, Kanada).
+*   **Sprzedaż detaliczna:** Największa sieć stacji paliw w regionie oraz rozwój usług pozapaliwowych i logistycznych (Orlen Paczka).
+
+### Misja i Przyszłość
+
+Strategia ORLEN2030 zakłada transformację w kierunku koncernu niskoemisyjnego:
+*   **Neutralność emisyjna:** Cel osiągnięcia zerowej emisji netto do 2050 roku.
+*   **Energia odnawialna:** Dynamiczny rozwój projektów offshore (Baltic Power) i lądowych źródeł OZE.
+*   **Nowoczesna petrochemia:** Wydłużanie łańcucha wartości i recykling surowców.
+*   **Wodór:** Budowa infrastruktury dla paliw alternatywnych i czystego napędu wodorowego.
+
+::: {.callout-note appearance="simple"}
+## Informacja prawna
+Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
+:::
