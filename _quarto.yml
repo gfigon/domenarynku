@@ -33,6 +33,12 @@ website:
     right:
       - href: about.qmd
         text: O nas
+  page-footer: 
+    left: "© 2026 DomenaRynku.pl"
+    center:
+      - text: "Prywatność i Regulamin"
+        href: privacy.qmd
+    right: "Analiza GPW"
     
 
 lang: pl

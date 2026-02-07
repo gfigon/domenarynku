@@ -43,13 +43,13 @@ if(y_ago_idx > 0) {
   change_yy <- "N/A"
 }
 
-# Tytuły boxów - skrócone dla lepszej czytelności
+# Tytuły boxów
 title_lp <- paste0("Cena (", last_date, ")")
 ```
 
 ## Column {width=100%}
 
-### Row {height=8%}
+### Row {height=10%}
 
 ::: {.card}
 <div style="font-size: 0.85em; display: flex; justify-content: space-around; align-items: center; padding: 5px;">
@@ -62,9 +62,9 @@ title_lp <- paste0("Cena (", last_date, ")")
 </div>
 :::
 
-### Row {height=92%}
+### Row {height=90%}
 
-#### Column {width=22%}
+#### Column {width=25%}
 
 ```{r}
 #| content: valuebox
@@ -105,7 +105,7 @@ list(
 )
 ```
 
-#### Column {width=78% .tabset}
+#### Column {width=75% .tabset}
 
 ::: {.card title="Notowania"}
 ```{r}
@@ -121,6 +121,10 @@ plot_ly(x = index(lbw_xts), y = as.numeric(lbw_xts), type = 'scatter', mode = 'l
     margin = list(t = 50)
   )
 ```
+
+<div style="font-size: 0.8em; color: #666; margin-top: 10px; padding: 10px; border-top: 1px solid #eee;">
+**Informacja prawna:** Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży instrumentów finansowych.
+</div>
 :::
 
 ::: {.card title="O spółce"}
@@ -134,12 +138,11 @@ W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia 
 ::: {.card title="Produkty i Surowce"}
 **Główne linie produktowe:**
 
-*   **Bezpieczeństwo i Obrona:** Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego.
+*   **Bezpieczeństwo i Obrona:** Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego (pozoracja pola walki).
 *   **Ratownictwo:** Zapory przeciwpowodziowe, namioty pneumatyczne i stelażowe, łodzie ratownicze, skokochrony.
 *   **Turystyka i BHP:** Odzież specjalistyczna, sprzęt do prac na wysokościach, produkty turystyczne.
 
 **Zasoby i Surowce:**
-
 W działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości, guma oraz tkaniny gumowane. 
 :::
 
@@ -149,9 +152,4 @@ W działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techni
 *   **Ekspansja zagraniczna:** Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.
 *   **Innowacje:** Prace badawczo-rozwojowe nad nowoczesnymi osłonami balistycznymi.
 *   **Dywersyfikacja:** Balans między zamówieniami wojskowymi a rynkiem cywilnym (ratownictwo, BHP).
-
-::: {.callout-important}
-## Informacja prawna
-Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
-:::
 :::
