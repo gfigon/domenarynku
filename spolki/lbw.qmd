@@ -46,21 +46,17 @@ if(y_ago_idx > 0) {
 title_last_price <- paste0("Ostatnia cena (", last_date, ")")
 ```
 
-## Column {width=30%}
+## Column {width=100%}
 
-### Informacje o spółce
+### Row {height=10%}
 
-**Ticker:** LBW  
-**Siedziba:** Ostrów Wielkopolski  
-**WWWW:** [lubawagroup.com](https://lubawagroup.com/)
+::: {.card}
+**Ticker:** LBW | **Pełna nazwa:** Lubawa S.A. | **Siedziba:** Ostrów Wielkopolski | **WWW:** [lubawagroup.com](https://lubawagroup.com/) | **Branża:** [Przemysł i produkcja](../spolki-gpw.qmd?branza=Przemysł+i+produkcja) | **Podbranża:** [Lotnictwo i obronność](../spolki-gpw.qmd?podbranza=Lotnictwo+i+obronność)
+:::
 
-**Branża:**  
-[Przemysł i produkcja](../spolki-gpw.qmd?branza=Przemysł+i+produkcja)
+### Row {height=90%}
 
-**Podbranża:**  
-[Lotnictwo i obronność](../spolki-gpw.qmd?podbranza=Lotnictwo+i+obronność)
-
----
+#### Column {width=30%}
 
 ```{r}
 #| content: valuebox
@@ -92,17 +88,16 @@ list(
 )
 ```
 
+::: {.card title="O spółce"}
+Lubawa S.A. to jeden z kluczowych w Polsce producentów sprzętu specjalistycznego dla służb mundurowych. Jest liderem w segmencie osłon balistycznych i konfekcji technicznej.
 
-### O spółce
+W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia sprzętowego armii NATO.
+:::
 
-Lubawa S.A. to jeden z kluczowych w Polsce producentów sprzętu specjalistycznego dla służb mundurowych. Jest liderem w segmencie osłon balistycznych.
+#### Column {width=70% .tabset}
 
-## Column {width=70% .tabset}
-
-### Analiza Notowań
-
+::: {.card title="Analiza Notowań"}
 ```{r}
-#| title: Wykres historyczny z SMA200
 lbw_xts <- xts(lbw_data$price, order.by = as.Date(lbw_data$date))
 sma200 <- SMA(lbw_xts, n = 200)
 
@@ -115,9 +110,9 @@ plot_ly(x = index(lbw_xts), y = as.numeric(lbw_xts), type = 'scatter', mode = 'l
     margin = list(t = 50)
   )
 ```
+:::
 
-### Produkty i Surowce
-
+::: {.card title="Produkty i Surowce"}
 **Główne linie produktowe:**
 
 *   **Bezpieczeństwo i Obrona:** Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego.
@@ -126,9 +121,9 @@ plot_ly(x = index(lbw_xts), y = as.numeric(lbw_xts), type = 'scatter', mode = 'l
 **Zasoby i Surowce:**
 
 W działalności wykorzystywane są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości oraz guma. Spółka posiada własną powlekarnię tkanin, co zapewnia jej niezależność produkcyjną.
+:::
 
-### Wizja i Strategia
-
+::: {.card title="Wizja i Strategia"}
 **Kierunki rozwoju:**
 
 1.  **Ekspansja zagraniczna:** Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.
@@ -138,4 +133,5 @@ W działalności wykorzystywane są zaawansowane technicznie tkaniny i dzianiny 
 ::: {.callout-important}
 ## Informacja prawna
 Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny. Nie stanowią porady inwestycyjnej.
+:::
 :::
