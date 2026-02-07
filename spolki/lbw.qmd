@@ -43,7 +43,7 @@ if(y_ago_idx > 0) {
   change_yy <- "N/A"
 }
 
-# Tytuły boxów - skrócone dla lepszej czytelności
+# Tytuły boxów
 title_lp <- paste0("Cena (", last_date, ")")
 ```
 
@@ -105,7 +105,7 @@ list(
 )
 ```
 
-#### Column {width=78% .tabset}
+#### Column {width=78%}
 
 ::: {.card title="Notowania"}
 ```{r}
@@ -121,17 +121,22 @@ plot_ly(x = index(lbw_xts), y = as.numeric(lbw_xts), type = 'scatter', mode = 'l
     margin = list(t = 50)
   )
 ```
+
+<div style="font-size: 0.85em; color: #666; margin-top: 10px; padding: 10px; border-top: 1px solid #eee;">
+**Informacja prawna:** Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży instrumentów finansowych.
+</div>
 :::
 
-::: {.card title="O spółce"}
+::: {.card title="Profil i Wizja" .tabset}
+
+#### O spółce
 **Profil działalności:**  
 Lubawa S.A. to jeden z kluczowych w Polsce producentów sprzętu specjalistycznego dla służb mundurowych (Wojsko, Policja, Straż Pożarna i Graniczna). Jest liderem w segmencie osłon balistycznych i konfekcji technicznej. Spółka posiada własną powlekarnię tkanin, co pozwala jej na dużą niezależność technologiczną.
 
 **Strategia i Perspektywy:**  
 W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia sprzętowego armii NATO, koncentrując się na długoterminowych kontraktach rządowych. Stawia na ekspansję międzynarodową (USA, Armenia) oraz innowacje poprzez własne Centrum Badawczo-Rozwojowe.
-:::
 
-::: {.card title="Produkty i Surowce"}
+#### Produkty i Surowce
 **Główne linie produktowe:**
 
 *   **Bezpieczeństwo i Obrona:** Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego.
@@ -141,17 +146,9 @@ W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia 
 **Zasoby i Surowce:**
 
 W działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości, guma oraz tkaniny gumowane. 
-:::
 
-::: {.card title="Wizja"}
-**Kierunki rozwoju:**
-
+#### Kierunki rozwoju
 *   **Ekspansja zagraniczna:** Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.
 *   **Innowacje:** Prace badawczo-rozwojowe nad nowoczesnymi osłonami balistycznymi.
 *   **Dywersyfikacja:** Balans między zamówieniami wojskowymi a rynkiem cywilnym (ratownictwo, BHP).
-
-::: {.callout-important}
-## Informacja prawna
-Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
-:::
 :::
