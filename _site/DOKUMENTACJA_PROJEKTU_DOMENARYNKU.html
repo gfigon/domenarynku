@@ -303,11 +303,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <li><a href="#planowane" id="toc-planowane" class="nav-link" data-scroll-target="#planowane">Planowane</a></li>
   </ul></li>
   <li><a href="#kontakty-i-narzędzia" id="toc-kontakty-i-narzędzia" class="nav-link" data-scroll-target="#kontakty-i-narzędzia">15. Kontakty i narzędzia</a></li>
-  <li><a href="#log-zmian-od-lutego-2026" id="toc-log-zmian-od-lutego-2026" class="nav-link" data-scroll-target="#log-zmian-od-lutego-2026">16. Log zmian (od lutego 2026)</a>
-  <ul class="collapse">
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2026-02-07</a></li>
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2026-02-06</a></li>
-  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -418,8 +413,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 │   └── indeks-cenowy-top100.qmd # Indeks cenowy równoważony
 │
 ├── spolki-gpw.qmd               # Strona zbiorcza spółek GPW
-├── spolki/                      # Indywidualne profile spółek (dashboards)
-│   └── lbw.qmd                  # Beispiel: Lubawa S.A.
 │
 ├── posts/                       # Blog — posty analityczne
 │   ├── _metadata.yml             # Domyślne ustawienia postów
@@ -1143,7 +1136,7 @@ kupna lub sprzedaży instrumentów finansowych.
 <li>USA market sentiment — rozszerzenie o dodatkowe źródła</li>
 <li>Mapa cieplna sektorów GPW</li>
 <li>Interaktywna tabela spółek z filtrami</li>
-<li>Podstrony indywidualne dla każdej spółki — <strong>Zrealizowane jako Quarto Dashboards w folderze <code>spolki/</code></strong></li>
+<li>Podstrony indywidualne dla każdej spółki (<code>/spolki-gpw/pko/</code>, <code>/spolki-gpw/kghm/</code> itd.)</li>
 <li>Google Ads — infrastruktura cookie consent jest już gotowa</li>
 </ul>
 <hr>
@@ -1159,27 +1152,9 @@ kupna lub sprzedaży instrumentów finansowych.
 <li><strong>Google Search Console:</strong> search.google.com/search-console → domenarynku.pl</li>
 </ul>
 <hr>
-</section>
-<section id="log-zmian-od-lutego-2026" class="level2">
-<h2 class="anchored" data-anchor-id="log-zmian-od-lutego-2026">16. Log zmian (od lutego 2026)</h2>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section">2026-02-07</h3>
-<ul>
-<li><strong>Profile Spółek (Phase 1)</strong>: Wdrożono format Quarto Dashboards dla podstron spółek. Pierwszy profil: Lubawa S.A. (<code>lbw.qmd</code>). Dashboard łączy dane finansowe z autorskimi opisami biznesowymi i interaktywnymi wykresami plotly (z SMA200).</li>
-<li><strong>Klasyfikacja Branżowa</strong>: Zintegrowano plik <code>branze_podbranze.csv</code> do kategoryzacji spółek na profilach.</li>
-</ul>
-</section>
-<section id="section-1" class="level3">
-<h3 class="anchored" data-anchor-id="section-1">2026-02-06</h3>
-<ul>
-<li><strong>Automatyzacja Prasówek</strong>: Wdrożono system codziennych prasówek (GPW 08:25, Świat 11:00) oparty na <code>cron</code> i <code>agent-browser</code>.</li>
-<li><strong>Źródła danych</strong>: Rozszerzono listę źródeł o PAP Biznes, Money.pl oraz breakingthenews.net (dedykowane dla wiadomości ze świata).</li>
-<li><strong>SEO &amp; UX</strong>: Zmieniono sposób wyświetlania kategorii na <code>cloud</code> w <code>index.qmd</code>, co poprawiło interaktywność filtrów i strukturę pod SEO.</li>
-<li><strong>Standardy treści</strong>: Ustalono format linkowania (tylko nazwy portali podlinkowane <code>nofollow</code>) oraz strukturę postów digest.</li>
-</ul>
+<p><em>Dokument wygenerowany na podstawie historii pracy nad projektem (listopad 2024 – luty 2026).</em></p>
 
 
-</section>
 </section>
 </section>
 
@@ -1572,25 +1547,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-<p>© 2026 DomenaRynku.pl - Wszystkie prawa zastrzeżone.</p>
-</div>   
-    <div class="nav-footer-center">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item">
-    <a class="nav-link" href="./privacy.html">
-<p>Polityka prywatności i Regulamin</p>
-</a>
-  </li>  
-</ul>
-    </div>
-    <div class="nav-footer-right">
-<p>Analiza GPW dla świadomych inwestorów</p>
-</div>
-  </div>
-</footer>
 
 
 
