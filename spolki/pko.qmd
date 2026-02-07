@@ -85,25 +85,15 @@ plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = 'scatter', mode 
 :::
 
 ::: {.card title="O spółce"}
-**Profil działalności:**  
-PKO Bank Polski S.A. to lider sektora bankowego w Polsce. Bank obsługuje blisko 12 mln klientów, oferując pełen wachlarz usług uniwersalnych w segmencie detalicznym i korporacyjnym.
-
-**Strategia i Perspektywy:**  
-Strategia banku koncentruje się na transformacji cyfrowej, personlizacji usług z wykorzystaniem AI oraz wspieraniu polskiej gospodarki.
+PKO Bank Polski to lider sektora bankowego w Polsce, obsługujący blisko 12 mln klientów. Jest kluczową instytucją finansową o charakterze uniwersalnym, działającą w segmencie detalicznym, korporacyjnym i inwestycyjnym. 
 :::
 
-::: {.card title="Segmenty i Produkty"}
-**Główne obszary działalności:**
-* **Bankowość detaliczna:** Największa baza klientów i lider nowoczesnej bankowości mobilnej (IKO).
-* **Bankowość korporacyjna:** Finansowanie polskiego eksportu i strategicznych inwestycji.
-* **Grupa Kapitałowa:** Dom maklerski, TFI, Leasing i Ubezpieczenia.
+::: {.card title="Usługi i Segmenty"}
+Bank oferuje pełen zakres produktów finansowych, od kont i kredytów po zaawansowane usługi bankowości inwestycyjnej. Lider nowoczesnych kanałów cyfrowych z najpopularniejszą aplikacją mobilną na rynku polskim (IKO).
 :::
 
 ::: {.card title="Wizja"}
-**Kierunki rozwoju:**
-* Lider cyfryzacji i ekosystemu usług mobilnych.
-* Aktywne wspieranie transformacji energetycznej (ESG).
-* Dalsza optymalizacja procesów przez AI.
+Dążenie do bycia najbardziej nowoczesnym i przyjaznym bankiem w regionie, wspierającym transformację cyfrową i energetyczną klientów.
 
 ::: {.callout-important}
 ## Informacja prawna

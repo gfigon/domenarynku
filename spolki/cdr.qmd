@@ -12,10 +12,13 @@ library(plotly)
 library(xts)
 library(TTR)
 
+# Funkcja pomocnicza do ładowania danych
 get_stock_data <- function(ticker) {
   prices_all <- readRDS("../data/prices100.RDS")
   col_idx <- which(names(prices_all) == ticker)
+  
   if(length(col_idx) == 0) return(NULL)
+  
   df <- prices_all[, c(1, col_idx)]
   names(df) <- c("date", "price")
   df <- df %>% filter(!is.na(price))
@@ -26,62 +29,125 @@ stock_data <- get_stock_data("CDR")
 last_row <- tail(stock_data, 1)
 last_price <- last_row$price
 last_date <- last_row$date
+
+# Obliczenia zmian
 prev_price <- tail(stock_data$price, 2)[1]
 change_pct <- round((last_price - prev_price) / prev_price * 100, 2)
+
+# Zmiana y/y
 y_ago_idx <- nrow(stock_data) - 252
-change_yy <- if(y_ago_idx > 0) round((last_price - stock_data$price[y_ago_idx]) / stock_data$price[y_ago_idx] * 100, 2) else "N/A"
+if(y_ago_idx > 0) {
+  y_ago_price <- stock_data$price[y_ago_idx]
+  change_yy <- round((last_price - y_ago_price) / y_ago_price * 100, 2)
+} else {
+  change_yy <- "N/A"
+}
+
+# Tytuły boxów - skrócone dla lepszej czytelności
 title_lp <- paste0("Cena (", last_date, ")")
 ```
 
-## Column {width=30%}
+## Column {width=100%}
 
-### Informacje o spółce
-**Ticker:** CDR | **Siedziba:** Warszawa | **WWW:** [cdprojekt.com](https://www.cdprojekt.com)
-**Branża:** [Technologie i IT](../spolki-gpw.qmd?branza=Technologie+i+IT) | **Podbranża:** [gaming (gry komputerowe i konsolowe)](../spolki-gpw.qmd?podbranza=gaming+ (gry+komputerowe+i+konsolowe))
+### Row {height=8%}
 
----
+::: {.card}
+<div style="font-size: 0.85em; display: flex; justify-content: space-around; align-items: center; padding: 5px;">
+  <span>**Ticker:** CDR</span>
+  <span>**CD PROJEKT S.A.**</span>
+  <span>**Siedziba:** Warszawa</span>
+  <span>**WWW:** [cdprojekt.com](https://www.cdprojekt.com)</span>
+  <span>**Branża:** [Technologie i IT](../spolki-gpw.qmd?branza=Technologie+i+IT)</span>
+  <span>**Podbranża:** [Gaming](../spolki-gpw.qmd?podbranza=gaming)</span>
+</div>
+:::
+
+### Row {height=92%}
+
+#### Column {width=22%}
 
 ```{r}
 #| content: valuebox
 #| title: !expr title_lp
-list(icon = "currency-exchange", color = "primary", value = paste0(round(last_price, 2), " PLN"))
+list(
+  icon = "currency-exchange",
+  color = "primary",
+  value = paste0(round(last_price, 2), " PLN")
+)
 ```
 
-<style>.value-box .value-box-value { font-size: 1.8em !important; } .value-box .value-box-title { font-size: 0.8em !important; }</style>
+<style>
+.value-box .value-box-value {
+  font-size: 1.8em !important;
+}
+.value-box .value-box-title {
+  font-size: 0.8em !important;
+}
+</style>
 
 ```{r}
 #| content: valuebox
 #| title: "Zmiana d/d"
-list(icon = "graph-up", color = if(change_pct >= 0) "success" else "danger", value = paste0(change_pct, "%"))
+list(
+  icon = "graph-up",
+  color = if(change_pct >= 0) "success" else "danger",
+  value = paste0(change_pct, "%")
+)
 ```
 
 ```{r}
 #| content: valuebox
 #| title: "Zmiana y/y"
-list(icon = "calendar-check", color = if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary", value = if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy)
+list(
+  icon = "calendar-check",
+  color = if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary",
+  value = if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
+)
 ```
 
-#### O spółce
-CD PROJEKT S.A. to wiodący polski producent i wydawca gier wideo, znany na świecie z serii "Wiedźmin" oraz gry "Cyberpunk 2077". Spółka jest jednym z globalnych liderów branży gier RPG typu open-world.
+#### Column {width=78% .tabset}
 
-## Column {width=70% .tabset}
-
-### Notowania
+::: {.card title="Notowania"}
 ```{r}
 stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
 sma200 <- SMA(stock_xts, n = 200)
+
 plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = 'scatter', mode = 'lines', name = 'Cena CDR') %>%
   add_lines(x = index(stock_xts), y = as.numeric(sma200), name = 'SMA 200', line = list(color = 'orange')) %>%
-  layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = 'h', x = 0.1, y = 1.1), margin = list(t = 50))
+  layout(
+    xaxis = list(title = "", rangeslider = list(visible = TRUE)),
+    yaxis = list(title = "Cena (PLN)"),
+    legend = list(orientation = 'h', x = 0.1, y = 1.1),
+    margin = list(t = 50)
+  )
 ```
+:::
 
-### Profil i Produkcje
-Działalność Grupy koncentruje się na dwóch filarach: studiu deweloperskim CD PROJEKT RED oraz cyfrowej platformie dystrybucji GOG.com. Główne marki spółki to światowe hity sprzedaży, które zdefiniowały jakość narracyjną w nowoczesnym gamingu.
+::: {.card title="O spółce"}
+**Profil działalności:**  
+CD PROJEKT S.A. to wiodący polski producent i wydawca gier wideo, znany na całym świecie dzięki serii "Wiedźmin" oraz grze "Cyberpunk 2077". Spółka jest jednym z globalnych liderów w segmencie gier fabularnych (RPG) z otwartym światem.
 
-### Wizja i Strategia
-Strategia CD PROJEKT (aktualizacja 2022) zakłada równoległą pracę nad wieloma projektami (seria Polaris - nowa saga Wiedźmina, Orion - kontynuacja Cyberpunka) oraz rozbudowę uniwersów poprzez media towarzyszące (animacje, serie komiksowe). Spółka stawia na najwyższą jakość produkcji i niezależność twórczą.
+**Strategia i Rozwój:**  
+Spółka realizuje nową strategię zakładającą równoległą produkcję kilku tytułów AAA oraz rozbudowę uniwersów poprzez media towarzyszące (animacje, serie komiksowe). Kluczowe projekty to rozpoczęta nowa saga wiedźmińska (Polaris) oraz projekt Orion (kontynuacja Cyberpunka).
+:::
 
-::: {.callout-note appearance="simple"}
+::: {.card title="Produkcje i Platformy"}
+**Główne marki:**
+* **Seria Wiedźmin:** Globalny fenomen, który zdefiniował pozycję studia.
+* **Cyberpunk 2077:** Przełomowa produkcja typu sci-fi o ogromnym sukcesie sprzedażowym.
+* **GOG.com:** Autorska platforma cyfrowej dystrybucji gier, koncentrująca się na tytułach bez zabezpieczeń DRM.
+
+**Ekosystem:** Budowanie wielomilionowej społeczności fanów skupionych wokół autorskich marek. 
+:::
+
+::: {.card title="Wizja"}
+**Kierunki rozwoju:**
+* **Jakość ponad wszystko:** utrzymanie statusu studia tworzącego najbardziej zaawansowane narracyjnie gry na świecie.
+* **Multiplayer:** wprowadzanie komponentów sieciowych do przyszłych produkcji.
+* **Technologia:** przejście na silnik Unreal Engine 5 w celu optymalizacji procesów twórczych.
+
+::: {.callout-important}
 ## Informacja prawna
 Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
+:::
 :::
