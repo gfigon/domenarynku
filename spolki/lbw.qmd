@@ -42,43 +42,33 @@ if(y_ago_idx > 0) {
 } else {
   change_yy <- "N/A"
 }
+
+# Tytuły boxów - skrócone dla lepszej czytelności
+title_lp <- paste0("Cena (", last_date, ")")
 ```
 
-<style>
-/* Faza 1: Ukrycie tytułów systemowych */
-.value-box .value-box-title {
-  display: none !important;
-}
+## Column {width=100%}
 
-/* Faza 2: Stylizacja wartości z oznaczeniem d/d / y/y */
-.value-box .value-box-value {
-  font-size: 1.5em !important;
-  line-height: 1.2 !important;
-  display: block !important;
-}
+### Row {height=8%}
 
-/* Faza 3: Naprawa ucinania - puste miejsce na dole kafelka */
-.value-box-area {
-  padding-bottom: 20px !important;
-}
-</style>
+::: {.card}
+<div style="font-size: 0.85em; display: flex; justify-content: space-around; align-items: center; padding: 5px;">
+  <span>**Ticker:** LBW</span>
+  <span>**Lubawa S.A.**</span>
+  <span>**Siedziba:** Ostrów Wielkopolski</span>
+  <span>**WWW:** [lubawagroup.com](https://lubawagroup.com/)</span>
+  <span>**Branża:** [Przemysł i produkcja](../spolki-gpw.qmd?branza=Przemysł+i+produkcja)</span>
+  <span>**Podbranża:** [Lotnictwo i obronność](../spolki-gpw.qmd?podbranza=Lotnictwo+i+obronność)</span>
+</div>
+:::
 
-## Column {width=30%}
+### Row {height=92%}
 
-### Informacje o spółce
-
-**Ticker:** LBW  
-**Siedziba:** Ostrów Wielkopolski  
-**WWW:** [lubawagroup.com](https://lubawagroup.com/)
-
-**Branża:** [Przemysł i produkcja](../spolki-gpw.qmd?branza=Przemysł+i+produkcja)  
-**Podbranża:** [Lotnictwo i obronność](../spolki-gpw.qmd?podbranza=Lotnictwo+i+obronność)
-
----
+#### Column {width=22%}
 
 ```{r}
 #| content: valuebox
-#| title: ""
+#| title: !expr title_lp
 list(
   icon = "currency-exchange",
   color = "primary",
@@ -86,36 +76,39 @@ list(
 )
 ```
 
+<style>
+.value-box .value-box-value {
+  font-size: 1.8em !important;
+}
+.value-box .value-box-title {
+  font-size: 0.8em !important;
+}
+</style>
+
 ```{r}
 #| content: valuebox
-#| title: ""
+#| title: "Zmiana d/d"
 list(
   icon = "graph-up",
   color = if(change_pct >= 0) "success" else "danger",
-  value = paste0(change_pct, "% d/d")
+  value = paste0(change_pct, "%")
 )
 ```
 
 ```{r}
 #| content: valuebox
-#| title: ""
+#| title: "Zmiana y/y"
 list(
   icon = "calendar-check",
   color = if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary",
-  value = if(is.numeric(change_yy)) paste0(change_yy, "% y/y") else "N/A y/y"
+  value = if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 )
 ```
 
-### Status i Dane
+#### Column {width=78% .tabset}
 
-Dane aktualne na: **`r last_date`**
-
-## Column {width=70% .tabset}
-
-### Notowania
-
+::: {.card title="Notowania"}
 ```{r}
-#| title: Wykres historyczny z SMA200
 lbw_xts <- xts(lbw_data$price, order.by = as.Date(lbw_data$date))
 sma200 <- SMA(lbw_xts, n = 200)
 
@@ -128,17 +121,37 @@ plot_ly(x = index(lbw_xts), y = as.numeric(lbw_xts), type = 'scatter', mode = 'l
     margin = list(t = 50)
   )
 ```
+:::
 
-<div style="font-size: 0.85em; color: #666; margin-top: 15px; padding: 10px; border-top: 1px solid #eee;">
-**Informacja prawna:** Materiały mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
-</div>
+::: {.card title="O spółce"}
+**Profil działalności:**  
+Lubawa S.A. to jeden z kluczowych w Polsce producentów sprzętu specjalistycznego dla służb mundurowych (Wojsko, Policja, Straż Pożarna i Graniczna). Jest liderem w segmencie osłon balistycznych i konfekcji technicznej. Spółka posiada własną powlekarnię tkanin, co pozwala jej na dużą niezależność technologiczną.
 
-### O spółce
+**Strategia i Perspektywy:**  
+W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia sprzętowego armii NATO, koncentrując się na długoterminowych kontraktach rządowych. Stawia na ekspansję międzynarodową (USA, Armenia) oraz innowacje poprzez własne Centrum Badawczo-Rozwojowe.
+:::
 
-**Lubawa S.A.** to jeden z najważniejszych polskich producentów konfekcji technicznej dla sektora obronnego i ratownictwa. Spółka dostarcza innowacyjne rozwiązania w zakresie ochrony balistycznej (kamizelki, hełmy), osłon pojazdów oraz makiet pneumatycznych. Posiada rozwinięte zaplecze R&D oraz własne moce produkcyjne w zakresie tkanin technicznych.
+::: {.card title="Produkty i Surowce"}
+**Główne linie produktowe:**
 
-### Wizja i rozwój
+*   **Bezpieczeństwo i Obrona:** Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego.
+*   **Ratownictwo:** Zapory przeciwpowodziowe, namioty pneumatyczne i stelażowe, łodzie ratownicze, skokochrony.
+*   **Turystyka i BHP:** Odzież specjalistyczna, sprzęt do prac na wysokościach, produkty turystyczne.
 
-*   **NATO i Obronność:** Dążenie do statusu kluczowego dostawcy wyposażenia dla armii sojuszniczych.
-*   **Globalna Marka:** Ekspansja na rynki pozaeuropejskie (USA).
-*   **Innowacyjność:** Prace nad nowymi kompozytami balistycznymi.
+**Zasoby i Surowce:**
+
+W działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości, guma oraz tkaniny gumowane. 
+:::
+
+::: {.card title="Wizja"}
+**Kierunki rozwoju:**
+
+*   **Ekspansja zagraniczna:** Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.
+*   **Innowacje:** Prace badawczo-rozwojowe nad nowoczesnymi osłonami balistycznymi.
+*   **Dywersyfikacja:** Balans między zamówieniami wojskowymi a rynkiem cywilnym (ratownictwo, BHP).
+
+::: {.callout-important}
+## Informacja prawna
+Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
+:::
+:::
