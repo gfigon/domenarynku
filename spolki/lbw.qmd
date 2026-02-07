@@ -85,6 +85,15 @@ list(
 }
 </style>
 
+<style>
+.value-box .value-box-value {
+  font-size: 1.6em !important;
+}
+.value-box .value-box-title {
+  font-size: 0.8em !important;
+}
+</style>
+
 ```{r}
 #| content: valuebox
 #| title: "Zmiana d/d"
