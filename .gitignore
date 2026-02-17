@@ -18,6 +18,13 @@ data/
 # Cache i pliki tymczasowe Quarto
 _freeze/
 .quarto/
+
+# Pliki dokumentacyjne (lokalne, nie deploy)
+AGENTS.md
+CLAUDE.md
+PROJECT_LOG.md
+DOKUMENTACJA_PROJEKTU_DOMENARYNKU.md
+README_STRUKTURA.md
 # ============================================
 # R - Pliki systemowe i tymczasowe
 # ============================================
