@@ -1,9 +1,13 @@
 ---
 title: "CD PROJEKT S.A. (CDR)"
-format: 
-  dashboard:
-    orientation: columns
-    nav-buttons: [github]
+subtitle: "Profil spółki CD Projekt — notowania, analiza, strategia"
+categories: [Technologie i IT, gaming]
+pagetitle: "CD PROJEKT S.A. (CDR) | Profil spółki GPW - Notowania i Analiza"
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="CD PROJEKT S.A. (CDR) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: gaming.">
+      <meta name="keywords" content="CD Projekt, CDR, akcje CDR, GPW, notowania, gaming, Wiedźmin, Cyberpunk 2077, gry wideo, RPG">
 ---
 
 ```{r setup, include=FALSE}
@@ -12,16 +16,15 @@ library(plotly)
 library(xts)
 library(TTR)
 
-# Funkcja pomocnicza do ładowania danych
 get_stock_data <- function(ticker) {
-  prices_all <- readRDS("../data/prices100.RDS")
+  path <- "../data/prices100.RDS"
+  if(!file.exists(path)) return(NULL)
+  prices_all <- readRDS(path)
   col_idx <- which(names(prices_all) == ticker)
-  
   if(length(col_idx) == 0) return(NULL)
-  
   df <- prices_all[, c(1, col_idx)]
   names(df) <- c("date", "price")
-  df <- df %>% filter(!is.na(price))
+  df <- df |> filter(!is.na(price))
   return(df)
 }
 
@@ -29,12 +32,8 @@ stock_data <- get_stock_data("CDR")
 last_row <- tail(stock_data, 1)
 last_price <- last_row$price
 last_date <- last_row$date
-
-# Obliczenia zmian
 prev_price <- tail(stock_data$price, 2)[1]
 change_pct <- round((last_price - prev_price) / prev_price * 100, 2)
-
-# Zmiana y/y
 y_ago_idx <- nrow(stock_data) - 252
 if(y_ago_idx > 0) {
   y_ago_price <- stock_data$price[y_ago_idx]
@@ -42,112 +41,81 @@ if(y_ago_idx > 0) {
 } else {
   change_yy <- "N/A"
 }
-
-# Tytuły boxów - skrócone dla lepszej czytelności
-title_lp <- paste0("Cena (", last_date, ")")
+color_dd <- if(change_pct >= 0) "success" else "danger"
+color_yy <- if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary"
+val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
-## Column {width=100%}
-
-### Row {height=8%}
-
-::: {.card}
-<div style="font-size: 0.85em; display: flex; justify-content: space-around; align-items: center; padding: 5px;">
-  <span>**Ticker:** CDR</span>
-  <span>**CD PROJEKT S.A.**</span>
-  <span>**Siedziba:** Warszawa</span>
-  <span>**WWW:** [cdprojekt.com](https://www.cdprojekt.com)</span>
-  <span>**Branża:** [Technologie i IT](../spolki-gpw.qmd?branza=Technologie+i+IT)</span>
-  <span>**Podbranża:** [Gaming](../spolki-gpw.qmd?podbranza=gaming)</span>
-</div>
+::: {.company-header}
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** CDR | **CD PROJEKT S.A.** | **Siedziba:** Polska | **WWW:** [cdprojekt.com](https://www.cdprojekt.com){rel="nofollow"} | **Branża:** [Technologie i IT](../spolki-gpw.html#category=Technologie i IT) | **Podbranża:** [gaming](../spolki-gpw.html#category=gaming)
 :::
 
-### Row {height=92%}
-
-#### Column {width=22%}
-
 ```{r}
-#| content: valuebox
-#| title: !expr title_lp
-list(
-  icon = "currency-exchange",
-  color = "primary",
-  value = paste0(round(last_price, 2), " PLN")
+#| echo: false
+#| results: asis
+html_str <- paste0(
+  '<div class="stock-metrics">',
+  '<div class="stock-vbox stock-vbox-primary">',
+  '<div class="stock-vbox-title">Cena (', format(last_date, '%Y-%m-%d'), ')</div>',
+  '<div class="stock-vbox-value">', round(last_price, 2), '</div>',
+  '</div>',
+  '<div class="stock-vbox stock-vbox-', color_dd, '">',
+  '<div class="stock-vbox-title">Zmiana d/d</div>',
+  '<div class="stock-vbox-value">', change_pct, '%</div>',
+  '</div>',
+  '<div class="stock-vbox stock-vbox-', color_yy, '">',
+  '<div class="stock-vbox-title">Zmiana y/y</div>',
+  '<div class="stock-vbox-value">', val_yy, '</div>',
+  '</div>',
+  '</div>'
 )
+cat(html_str)
 ```
 
-<style>
-.value-box .value-box-value {
-  font-size: 1.8em !important;
-}
-.value-box .value-box-title {
-  font-size: 0.8em !important;
-}
-</style>
+## Notowania
 
 ```{r}
-#| content: valuebox
-#| title: "Zmiana d/d"
-list(
-  icon = "graph-up",
-  color = if(change_pct >= 0) "success" else "danger",
-  value = paste0(change_pct, "%")
-)
-```
-
-```{r}
-#| content: valuebox
-#| title: "Zmiana y/y"
-list(
-  icon = "calendar-check",
-  color = if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary",
-  value = if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
-)
-```
-
-#### Column {width=78% .tabset}
-
-::: {.card title="Notowania"}
-```{r}
+#| echo: false
 stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
 sma200 <- SMA(stock_xts, n = 200)
-
-plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = 'scatter', mode = 'lines', name = 'Cena CDR') %>%
-  add_lines(x = index(stock_xts), y = as.numeric(sma200), name = 'SMA 200', line = list(color = 'orange')) %>%
-  layout(
-    xaxis = list(title = "", rangeslider = list(visible = TRUE)),
-    yaxis = list(title = "Cena (PLN)"),
-    legend = list(orientation = 'h', x = 0.1, y = 1.1),
-    margin = list(t = 50)
-  )
+plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena CDR") |>
+  add_lines(x = index(stock_xts), y = as.numeric(sma200), name = "SMA 200", line = list(color = "orange")) |>
+  layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = "h", x = 0.1, y = 1.1), margin = list(t = 50))
 ```
-:::
 
-::: {.card title="O spółce"}
-**Profil działalności:**  
+## O spółce
+
+**Profil działalności:**
 CD PROJEKT S.A. to wiodący polski producent i wydawca gier wideo, znany na całym świecie dzięki serii "Wiedźmin" oraz grze "Cyberpunk 2077". Spółka jest jednym z globalnych liderów w segmencie gier fabularnych (RPG) z otwartym światem.
 
-**Strategia i Rozwój:**  
+**Strategia i Rozwój:**
 Spółka realizuje nową strategię zakładającą równoległą produkcję kilku tytułów AAA oraz rozbudowę uniwersów poprzez media towarzyszące (animacje, serie komiksowe). Kluczowe projekty to rozpoczęta nowa saga wiedźmińska (Polaris) oraz projekt Orion (kontynuacja Cyberpunka).
-:::
 
-::: {.card title="Produkcje i Platformy"}
-**Główne marki:**
-* **Seria Wiedźmin:** Globalny fenomen, który zdefiniował pozycję studia.
-* **Cyberpunk 2077:** Przełomowa produkcja typu sci-fi o ogromnym sukcesie sprzedażowym.
-* **GOG.com:** Autorska platforma cyfrowej dystrybucji gier, koncentrująca się na tytułach bez zabezpieczeń DRM.
+## Biznes
 
-**Ekosystem:** Budowanie wielomilionowej społeczności fanów skupionych wokół autorskich marek. 
-:::
+**Produkcja gier:**
+CD Projekt tworzy gry wideo w modelu własnego studia deweloperskiego (in-house), co zapewnia pełną kontrolę nad jakością i wizją artystyczną.
 
-::: {.card title="Wizja"}
+**Portfolio marek:**
+
+* **Wiedźmin:** Kultowa trylogia RPG (Wiedźmin 1, 2, 3) oraz seria serialowa Netflixa.
+* **Cyberpunk 2077:** Największa premiera w historii polskiego gamingu, z rozbudowanym uniwersum science-fiction.
+* **Polaris:** Nowa saga wiedźmińska - projekt AAA realizowany w ramach nowej strategii.
+
+**Model dystrybucji:**
+Sprzedaż cyfrowa (Steam, GOG, konsole) z dodatkowymi przychodami z DLC i mikrotransakcji.
+
+## Strategia
+
 **Kierunki rozwoju:**
+
 * **Jakość ponad wszystko:** utrzymanie statusu studia tworzącego najbardziej zaawansowane narracyjnie gry na świecie.
+
 * **Multiplayer:** wprowadzanie komponentów sieciowych do przyszłych produkcji.
+
 * **Technologia:** przejście na silnik Unreal Engine 5 w celu optymalizacji procesów twórczych.
 
-::: {.callout-important}
+:::: {.callout-important}
 ## Informacja prawna
 Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
-:::
-:::
+::::

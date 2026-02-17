@@ -1,9 +1,13 @@
 ---
 title: "ORLEN S.A. (PKN)"
-format: 
-  dashboard:
-    orientation: columns
-    nav-buttons: [github]
+subtitle: "Profil spółki ORLEN — notowania, analiza, strategia"
+categories: [Surowce i energia, rafinerie i produkcja paliw]
+pagetitle: "ORLEN S.A. (PKN) | Profil spółki GPW - Notowania i Analiza"
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="ORLEN S.A. (PKN) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: rafinerie i produkcja paliw.">
+      <meta name="keywords" content="ORLEN, PKN, akcje ORLEN, GPW, notowania, paliwa, rafineria, energia, petrochemia, gaz">
 ---
 
 ```{r setup, include=FALSE}
@@ -12,16 +16,15 @@ library(plotly)
 library(xts)
 library(TTR)
 
-# Funkcja pomocnicza do ładowania danych
 get_stock_data <- function(ticker) {
-  prices_all <- readRDS("../data/prices100.RDS")
+  path <- "../data/prices100.RDS"
+  if(!file.exists(path)) return(NULL)
+  prices_all <- readRDS(path)
   col_idx <- which(names(prices_all) == ticker)
-  
   if(length(col_idx) == 0) return(NULL)
-  
   df <- prices_all[, c(1, col_idx)]
   names(df) <- c("date", "price")
-  df <- df %>% filter(!is.na(price))
+  df <- df |> filter(!is.na(price))
   return(df)
 }
 
@@ -29,12 +32,8 @@ stock_data <- get_stock_data("PKN")
 last_row <- tail(stock_data, 1)
 last_price <- last_row$price
 last_date <- last_row$date
-
-# Obliczenia zmian
 prev_price <- tail(stock_data$price, 2)[1]
 change_pct <- round((last_price - prev_price) / prev_price * 100, 2)
-
-# Zmiana y/y
 y_ago_idx <- nrow(stock_data) - 252
 if(y_ago_idx > 0) {
   y_ago_price <- stock_data$price[y_ago_idx]
@@ -42,109 +41,79 @@ if(y_ago_idx > 0) {
 } else {
   change_yy <- "N/A"
 }
-
-title_lp <- paste0("Cena (", last_date, ")")
+color_dd <- if(change_pct >= 0) "success" else "danger"
+color_yy <- if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary"
+val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
-## Column {width=30%}
-
-### Informacje o spółce
-
-**Ticker:** PKN  
-**Siedziba:** Płock  
-**WWWW:** [orlen.pl](https://orlen.pl)
-
-**Branża:**  
-[Surowce i energia](../spolki-gpw.qmd?branza=Surowce+i+energia)
-
-**Podbranża:**  
-[Rafinerie i produkcja paliw](../spolki-gpw.qmd?podbranza=rafinerie+i+produkcja+paliw)
-
----
+::: {.company-header}
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** PKN | **ORLEN S.A.** | **Siedziba:** Polska | **WWW:** [orlen.pl](https://orlen.pl){rel="nofollow"} | **Branża:** [Surowce i energia](../spolki-gpw.html#category=Surowce i energia) | **Podbranża:** [rafinerie i produkcja paliw](../spolki-gpw.html#category=rafinerie i produkcja paliw)
+:::
 
 ```{r}
-#| content: valuebox
-#| title: !expr title_lp
-list(
-  icon = "currency-exchange",
-  color = "primary",
-  value = paste0(round(last_price, 2), " PLN")
+#| echo: false
+#| results: asis
+html_str <- paste0(
+  '<div class="stock-metrics">',
+  '<div class="stock-vbox stock-vbox-primary">',
+  '<div class="stock-vbox-title">Cena (', format(last_date, '%Y-%m-%d'), ')</div>',
+  '<div class="stock-vbox-value">', round(last_price, 2), '</div>',
+  '</div>',
+  '<div class="stock-vbox stock-vbox-', color_dd, '">',
+  '<div class="stock-vbox-title">Zmiana d/d</div>',
+  '<div class="stock-vbox-value">', change_pct, '%</div>',
+  '</div>',
+  '<div class="stock-vbox stock-vbox-', color_yy, '">',
+  '<div class="stock-vbox-title">Zmiana y/y</div>',
+  '<div class="stock-vbox-value">', val_yy, '</div>',
+  '</div>',
+  '</div>'
 )
+cat(html_str)
 ```
 
-<style>
-.value-box .value-box-value {
-  font-size: 1.8em !important;
-}
-.value-box .value-box-title {
-  font-size: 0.8em !important;
-}
-</style>
+## Notowania
 
 ```{r}
-#| content: valuebox
-#| title: "Zmiana d/d"
-list(
-  icon = "graph-up",
-  color = if(change_pct >= 0) "success" else "danger",
-  value = paste0(change_pct, "%")
-)
+#| echo: false
+stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
+sma200 <- SMA(stock_xts, n = 200)
+plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena PKN") |>
+  add_lines(x = index(stock_xts), y = as.numeric(sma200), name = "SMA 200", line = list(color = "orange")) |>
+  layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = "h", x = 0.1, y = 1.1), margin = list(t = 50))
 ```
 
-```{r}
-#| content: valuebox
-#| title: "Zmiana y/y"
-list(
-  icon = "calendar-check",
-  color = if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary",
-  value = if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
-)
-```
-
-#### O spółce
+## O spółce
 
 ORLEN S.A. to największa firma w Europie Środkowo-Wschodniej, działająca w sektorze paliwowo-energetycznym. Po fuzjach z Grupą Lotos oraz PGNiG, koncern stał się multienergetycznym gigantem o strategicznym znaczeniu dla bezpieczeństwa energetycznego Polski.
 
-## Column {width=70% .tabset}
+## Biznes
 
-### Notowania
+**Segmenty działalności:**
 
-```{r}
-#| title: Wykres historyczny z SMA200
-stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
-sma200 <- SMA(stock_xts, n = 200)
+* **Rafinacja:** Przetwarzanie ropy naftowej w rafineriach (Plock, Gdańsk, Trzebinia) - produkcja paliw (benzyna, olej napędowy, paliwo lotnicze).
+* **Petrochemia:** Produkcja tworzyw sztucznych, polimerów, włókien - segment wysokomarżowy.
+* **Wydobycie:** Poszukiwanie i wydobycie ropy oraz gazu (aktywa w Norwegii, Pakistanie, Kanadzie).
+* **Energia:** Produkcja energii elektrycznej, rozwój OZE, programy nuklearne (SMR).
+* **Sieć stacji:** Blisko 2000 stacji paliw w Polsce, Czechach, Niemczech, na Litwie i Słowacji.
 
-plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = 'scatter', mode = 'lines', name = 'Cena PKN') %>%
-  add_lines(x = index(stock_xts), y = as.numeric(sma200), name = 'SMA 200', line = list(color = 'orange')) %>%
-  layout(
-    xaxis = list(title = "", rangeslider = list(visible = TRUE)),
-    yaxis = list(title = "Cena (PLN)"),
-    legend = list(orientation = 'h', x = 0.1, y = 1.1),
-    margin = list(t = 50)
-  )
-```
+**Spółki zależne:**
 
-### Profil i Segmenty
+* **Grupa Lotos:** Wydobycie i przetwórstwo ropy (fuzja z ORLEN)
+* **PGNiG:** Wydobycie i dystrybucja gazu ziemnego
+* **Energa:** Dystrybucja energii elektrycznej
 
-**Zdywersyfikowany model biznesowy:**  
-Grupa ORLEN operuje w wielu kluczowych segmentach gospodarki, co pozwala na stabilizację wyników w różnych cyklach koniunkturalnych.
+## Strategia
 
-**Główne obszary działalności:**
-*   **Rafineria:** Przerób ropy naftowej na paliwa, oleje i bazy asfaltowe. Główne zakłady w Płocku, Gdańsku, Czechach i na Litwie.
-*   **Petrochemia:** Produkcja tworzyw sztucznych i chemikaliów wykorzystywanych w przemyśle.
-*   **Energetyka:** Produkcja energii elektrycznej i ciepła (w tym inwestycje w OZE: farmy wiatrowe na morzu i fotowoltaika).
-*   **Wydobycie (Upstream):** Poszukiwanie i wydobycie ropy i gazu (Polska, Norwegia, Pakistan, Kanada).
-*   **Sprzedaż detaliczna:** Największa sieć stacji paliw w regionie oraz rozwój usług pozapaliwowych i logistycznych (Orlen Paczka).
+**Kierunki rozwoju:**
 
-### Misja i Przyszłość
+* **Transformacja energetyczna:** Dywersyfikacja w kierunku niskoemisyjnych źródeł energii, rozwój OZE i atomu.
+* **Wodór:** Budowa klastrów wodorowych i rozwój technologii wodorowych.
+* **Elektromobilność:** Rozbudowa sieci ładowania pojazdów elektrycznych.
+* **Petrochemia 2.0:** Zwiększanie udziału przetwórstwa ropy w segmencie chemicznym.
+* **Bezpieczeństwo energetyczne:** Wzmocnienie pozycji lidera rynku CEE w sektorze paliwowo-energetycznym.
 
-Strategia ORLEN2030 zakłada transformację w kierunku koncernu niskoemisyjnego:
-*   **Neutralność emisyjna:** Cel osiągnięcia zerowej emisji netto do 2050 roku.
-*   **Energia odnawialna:** Dynamiczny rozwój projektów offshore (Baltic Power) i lądowych źródeł OZE.
-*   **Nowoczesna petrochemia:** Wydłużanie łańcucha wartości i recykling surowców.
-*   **Wodór:** Budowa infrastruktury dla paliw alternatywnych i czystego napędu wodorowego.
-
-::: {.callout-note appearance="simple"}
+:::: {.callout-important}
 ## Informacja prawna
 Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
-:::
+::::

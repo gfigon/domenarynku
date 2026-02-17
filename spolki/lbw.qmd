@@ -1,157 +1,122 @@
 ---
 title: "Lubawa S.A. (LBW)"
-format: 
-  dashboard:
-    orientation: columns
-    nav-buttons: [github]
+subtitle: "Profil spółki Lubawa — notowania, analiza, strategia"
+categories: [Przemysł i produkcja, Lotnictwo i obronność]
+pagetitle: "Lubawa S.A. (LBW) | Profil spółki GPW - Notowania i Analiza"
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Lubawa S.A. (LBW) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Lotnictwo i obronność.">
+      <meta name="keywords" content="Lubawa, LBW, akcje Lubawa, GPW, notowania, obronność, kamizelki kuloodporne, sprzęt wojskowy, przemysł zbrojeniowy">
 ---
 
 ```{r setup, include=FALSE}
 library(tidyverse)
+library(htmltools)
 library(plotly)
 library(xts)
 library(TTR)
 
-# Funkcja pomocnicza do ładowania danych
 get_stock_data <- function(ticker) {
-  prices_all <- readRDS("../data/prices100.RDS")
+  path <- "../data/prices100.RDS"
+  if(!file.exists(path)) return(NULL)
+  prices_all <- readRDS(path)
   col_idx <- which(names(prices_all) == ticker)
-  
   if(length(col_idx) == 0) return(NULL)
-  
   df <- prices_all[, c(1, col_idx)]
   names(df) <- c("date", "price")
-  df <- df %>% filter(!is.na(price))
+  df <- df |> filter(!is.na(price))
   return(df)
 }
 
-lbw_data <- get_stock_data("LBW")
-last_row <- tail(lbw_data, 1)
+stock_data <- get_stock_data("LBW")
+last_row <- tail(stock_data, 1)
 last_price <- last_row$price
 last_date <- last_row$date
-
-# Obliczenia zmian
-prev_price <- tail(lbw_data$price, 2)[1]
+prev_price <- tail(stock_data$price, 2)[1]
 change_pct <- round((last_price - prev_price) / prev_price * 100, 2)
-
-# Zmiana y/y
-y_ago_idx <- nrow(lbw_data) - 252
+y_ago_idx <- nrow(stock_data) - 252
 if(y_ago_idx > 0) {
-  y_ago_price <- lbw_data$price[y_ago_idx]
+  y_ago_price <- stock_data$price[y_ago_idx]
   change_yy <- round((last_price - y_ago_price) / y_ago_price * 100, 2)
 } else {
   change_yy <- "N/A"
 }
-
-# Tytuły boxów - skrócone dla lepszej czytelności
-title_lp <- paste0("Cena (", last_date, ")")
+color_dd <- if(change_pct >= 0) "success" else "danger"
+color_yy <- if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary"
+val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
-## Column {width=100%}
-
-### Row {height=8%}
-
-::: {.card}
-<div style="font-size: 0.85em; display: flex; justify-content: space-around; align-items: center; padding: 5px;">
-  <span>**Ticker:** LBW</span>
-  <span>**Lubawa S.A.**</span>
-  <span>**Siedziba:** Ostrów Wielkopolski</span>
-  <span>**WWW:** [lubawagroup.com](https://lubawagroup.com/)</span>
-  <span>**Branża:** [Przemysł i produkcja](../spolki-gpw.qmd?branza=Przemysł+i+produkcja)</span>
-  <span>**Podbranża:** [Lotnictwo i obronność](../spolki-gpw.qmd?podbranza=Lotnictwo+i+obronność)</span>
-</div>
+::: {.company-header}
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** LBW | **Lubawa S.A.** | **Siedziba:** Polska | **WWW:** [lubawagroup.com](https://lubawagroup.com/){rel="nofollow"} | **Branża:** [Przemysł i produkcja](../spolki-gpw.html#category=Przemysł i produkcja) | **Podbranża:** [Lotnictwo i obronność](../spolki-gpw.html#category=Lotnictwo i obronność)
 :::
 
-### Row {height=92%}
-
-#### Column {width=22%}
-
 ```{r}
-#| content: valuebox
-#| title: !expr title_lp
-list(
-  icon = "currency-exchange",
-  color = "primary",
-  value = paste0(round(last_price, 2), " PLN")
+#| echo: false
+#| results: asis
+html_str <- paste0(
+  '<div class="stock-metrics">',
+  '<div class="stock-vbox stock-vbox-primary">',
+  '<div class="stock-vbox-title">Cena (', format(last_date, '%Y-%m-%d'), ')</div>',
+  '<div class="stock-vbox-value">', round(last_price, 2), '</div>',
+  '</div>',
+  '<div class="stock-vbox stock-vbox-', color_dd, '">',
+  '<div class="stock-vbox-title">Zmiana d/d</div>',
+  '<div class="stock-vbox-value">', change_pct, '%</div>',
+  '</div>',
+  '<div class="stock-vbox stock-vbox-', color_yy, '">',
+  '<div class="stock-vbox-title">Zmiana y/y</div>',
+  '<div class="stock-vbox-value">', val_yy, '</div>',
+  '</div>',
+  '</div>'
 )
+cat(html_str)
 ```
 
-<style>
-.value-box .value-box-value {
-  font-size: 1.8em !important;
-}
-.value-box .value-box-title {
-  font-size: 0.8em !important;
-}
-</style>
+## Notowania
 
 ```{r}
-#| content: valuebox
-#| title: "Zmiana d/d"
-list(
-  icon = "graph-up",
-  color = if(change_pct >= 0) "success" else "danger",
-  value = paste0(change_pct, "%")
-)
+#| echo: false
+stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
+sma200 <- SMA(stock_xts, n = 200)
+plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena LBW") |>
+  add_lines(x = index(stock_xts), y = as.numeric(sma200), name = "SMA 200", line = list(color = "orange")) |>
+  layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = "h", x = 0.1, y = 1.1), margin = list(t = 50))
 ```
 
-```{r}
-#| content: valuebox
-#| title: "Zmiana y/y"
-list(
-  icon = "calendar-check",
-  color = if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary",
-  value = if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
-)
-```
+## O spółce
 
-#### Column {width=78% .tabset}
-
-::: {.card title="Notowania"}
-```{r}
-lbw_xts <- xts(lbw_data$price, order.by = as.Date(lbw_data$date))
-sma200 <- SMA(lbw_xts, n = 200)
-
-plot_ly(x = index(lbw_xts), y = as.numeric(lbw_xts), type = 'scatter', mode = 'lines', name = 'Cena LBW') %>%
-  add_lines(x = index(lbw_xts), y = as.numeric(sma200), name = 'SMA 200', line = list(color = 'orange')) %>%
-  layout(
-    xaxis = list(title = "", rangeslider = list(visible = TRUE)),
-    yaxis = list(title = "Cena (PLN)"),
-    legend = list(orientation = 'h', x = 0.1, y = 1.1),
-    margin = list(t = 50)
-  )
-```
-:::
-
-::: {.card title="O spółce"}
-**Profil działalności:**  
+**Profil działalności:**
 Lubawa S.A. to jeden z kluczowych w Polsce producentów sprzętu specjalistycznego dla służb mundurowych (Wojsko, Policja, Straż Pożarna i Graniczna). Jest liderem w segmencie osłon balistycznych i konfekcji technicznej. Spółka posiada własną powlekarnię tkanin, co pozwala jej na dużą niezależność technologiczną.
 
-**Strategia i Perspektywy:**  
+**Strategia i Perspektywy:**
 W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia sprzętowego armii NATO, koncentrując się na długoterminowych kontraktach rządowych. Stawia na ekspansję międzynarodową (USA, Armenia) oraz innowacje poprzez własne Centrum Badawczo-Rozwojowe.
-:::
 
-::: {.card title="Produkty i Surowce"}
+## Biznes
+
 **Główne linie produktowe:**
 
-*   **Bezpieczeństwo i Obrona:** Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego.
-*   **Ratownictwo:** Zapory przeciwpowodziowe, namioty pneumatyczne i stelażowe, łodzie ratownicze, skokochrony.
-*   **Turystyka i BHP:** Odzież specjalistyczna, sprzęt do prac na wysokościach, produkty turystyczne.
+* **Bezpieczeństwo i Obrona:** Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego.
+
+* **Ratownictwo:** Zapory przeciwpowodziowe, namioty pneumatyczne i stelażowe, łodzie ratownicze, skokochrony.
+
+* **Turystyka i BHP:** Odzież specjalistyczna, sprzęt do prac na wysokościach, produkty turystyczne.
 
 **Zasoby i Surowce:**
 
-W działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości, guma oraz tkaniny gumowane. 
-:::
+W działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości, guma oraz tkaniny gumowane.
 
-::: {.card title="Wizja"}
+## Strategia
+
 **Kierunki rozwoju:**
 
-*   **Ekspansja zagraniczna:** Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.
-*   **Innowacje:** Prace badawczo-rozwojowe nad nowoczesnymi osłonami balistycznymi.
-*   **Dywersyfikacja:** Balans między zamówieniami wojskowymi a rynkiem cywilnym (ratownictwo, BHP).
+* **Ekspansja zagraniczna:** Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.
 
-::: {.callout-important}
+* **Innowacje:** Prace badawczo-rozwojowe nad nowoczesnymi osłonami balistycznymi.
+
+* **Dywersyfikacja:** Balans między zamówieniami wojskowymi a rynkiem cywilnym (ratownictwo, BHP).
+
+:::: {.callout-important}
 ## Informacja prawna
 Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
-:::
-:::
+::::

@@ -319,3 +319,63 @@ hr {
 .klaro button {
   color: inherit !important;
 }
+
+/* ===== PROFILE SPÓŁEK ===== */
+.company-header {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 0.75rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  font-size: 0.9em;
+  text-align: center;
+  border-left: 4px solid var(--accent-blue);
+}
+
+.stock-metrics {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.stock-vbox {
+  flex: 1;
+  border-radius: 12px;
+  padding: 1.25rem;
+  text-align: center;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.stock-vbox-title {
+  font-size: 0.85em;
+  font-weight: 500;
+  opacity: 0.9;
+  margin-bottom: 0.5rem;
+}
+
+.stock-vbox-value {
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+.stock-vbox-primary {
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--accent-blue) 100%);
+}
+
+.stock-vbox-success {
+  background: linear-gradient(135deg, #15803d 0%, #22c55e 100%);
+}
+
+.stock-vbox-danger {
+  background: linear-gradient(135deg, #b91c1c 0%, #ef4444 100%);
+}
+
+.stock-vbox-secondary {
+  background: linear-gradient(135deg, #475569 0%, #94a3b8 100%);
+}
+
+@media (max-width: 768px) {
+  .stock-metrics { flex-direction: column; }
+  .company-header { font-size: 0.8em; }
+}
