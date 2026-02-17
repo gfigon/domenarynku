@@ -105,193 +105,144 @@
     "text": "3. Prawa autorskie\nTreści publikowane w serwisie są chronione prawem autorskim. Kopiowanie i redystrybucja bez zgody administratora jest zabroniona."
   },
   {
+    "objectID": "CLAUDE.html",
+    "href": "CLAUDE.html",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.\n\n\nDomenaRynku.pl is a Polish-language financial analytics portal for the Warsaw Stock Exchange (GPW). Built with Quarto (static site generator) + R for data analysis, hosted on Netlify. The site features proprietary market indicators, company dashboards, and a blog.\n\n\n\n# Render entire site (generates _site/ folder)\nquarto render\n\n# Render a single page\nquarto render spolki/lbw.qmd\n\n# Live preview with hot-reload\nquarto preview\nAfter changes to _quarto.yml (navbar, styles, meta tags), render the entire project — not individual files.\n\n\n\nRun in order from the R console:\nsource(\"R/get_prices2.R\")          # Fetch stock prices from Stooq\nsource(\"R/calc_trend_index.R\")     # Calculate market breadth index\nsource(\"R/calc_price_index.R\")     # Calculate equal-weighted price index\nsource(\"R/data_sentiment_prep.R\")  # Polish market sentiment\nsource(\"R/data_sentiment_prepEN.R\") # USA market sentiment\n\n\n\n\nRender locally (quarto render)\nCommit _site/ to git and push\nNetlify auto-deploys from _site/ — no server-side build\n\nCritical: _site/ is committed to git (not in .gitignore). Netlify serves it directly.\n\n\n\nR/, mod/, scripts/, data/, _freeze/, .quarto/ — all private. R scripts and data files exist only locally.\n\n\n\n\n_quarto.yml — Central config: navbar, theme (cosmo), SEO headers, GTM/Klaro consent\nstyles.css — Custom branding (blue gradient navbar, card hover effects)\nklaro-config.js — GDPR cookie consent (analytics OFF by default)\n_language-pl.yml — Polish UI translations\n\n\n\n\n\n\n\n\n\n\n\nDirectory\nContent\nFormat\n\n\n\n\nspolki/\n16 company dashboards (Phase 1)\nQuarto Dashboard\n\n\nindeksy/\nProprietary market indices (breadth, equal-weighted)\nStandard .qmd\n\n\nsentyment-rynku/\nMarket sentiment (Poland, USA)\nStandard .qmd\n\n\nposts/\nBlog articles (YYYY-MM-DD-title/index.qmd)\nBlog post\n\n\ndata/\nProcessed .RDS files (gitignored)\nR data\n\n\nR/\nData processing scripts (gitignored)\nR scripts\n\n\n\n\n\n\nAll use the LBW template (reference layout): - Header row (8%): ticker, company name, HQ, website, sector/subsector - Left column (22%): value boxes — price, daily change %, yearly change % - Right column (78%): tabset — Notowania (price chart + SMA200), O spółce, Biznes, Strategia - Footer: legal disclaimer\nData source: data/prices100.RDS (historical OHLCV for top 100 GPW stocks).\n\n\n\n\n\n\n\nUse Markdown headers (#, ##, ###) for layout (rows/columns/tabs)\nFORBIDDEN: ::: {.card}, ::: {.column} divs — headers only\nLists must be preceded by a blank line (\\n\\n before * Item)\nTabs: use {.tabset} on a column header, then lower-level headers for tab names\n\n\n\n\n\nTidyverse style, snake_case\nNative pipe |&gt; preferred over %&gt;%\nWrap scraping in purrr::possibly() (no formula syntax: possibly(read_html, otherwise = NA))\nModule system: box::use(mod/gpw)\n\n\n\n\n\nNeutral, objective language — no investment advice\nPolish-language content (interface and analysis)\nEvery analysis page must end with a legal disclaimer blockquote\nUse neutral phrasing: “Dane sugerują…”, “Warto zwrócić uwagę na…” — never “Kup!”, “Gwarantowany zysk”\n\n\n\n\n\n\n\n\n\n\n\n\n\nType\nConvention\nExample\n\n\n\n\nQuarto pages\nkebab-case\nindeks-trendow-gpw.qmd\n\n\nBlog posts\nYYYY-MM-DD-title/index.qmd\n2024-11-21-analiza-trendow/\n\n\nR scripts\nsnake_case\ncalc_trend_index.R\n\n\nData files\nsnake_case\nindex_trend.RDS\n\n\n\n\n\n\n\nfreeze: auto in _quarto.yml — only re-executes R code when source changes; pure markdown files always re-render\nConsent Mode v2 defaults all tracking to denied (GDPR-first) — GA4 only fires after Klaro consent\nAvoid reticulate/Python in .qmd files — can cause hanging processes\nSEO metadata (description, keywords) should be in each .qmd YAML header\nExisting comprehensive docs: DOKUMENTACJA_PROJEKTU_DOMENARYNKU.md (Polish, 680+ lines), AGENTS.md (quick reference)"
+  },
+  {
+    "objectID": "CLAUDE.html#project-overview",
+    "href": "CLAUDE.html#project-overview",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "DomenaRynku.pl is a Polish-language financial analytics portal for the Warsaw Stock Exchange (GPW). Built with Quarto (static site generator) + R for data analysis, hosted on Netlify. The site features proprietary market indicators, company dashboards, and a blog."
+  },
+  {
+    "objectID": "CLAUDE.html#build-render-commands",
+    "href": "CLAUDE.html#build-render-commands",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "# Render entire site (generates _site/ folder)\nquarto render\n\n# Render a single page\nquarto render spolki/lbw.qmd\n\n# Live preview with hot-reload\nquarto preview\nAfter changes to _quarto.yml (navbar, styles, meta tags), render the entire project — not individual files."
+  },
+  {
+    "objectID": "CLAUDE.html#data-pipeline-r-scripts-.gitignored",
+    "href": "CLAUDE.html#data-pipeline-r-scripts-.gitignored",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "Run in order from the R console:\nsource(\"R/get_prices2.R\")          # Fetch stock prices from Stooq\nsource(\"R/calc_trend_index.R\")     # Calculate market breadth index\nsource(\"R/calc_price_index.R\")     # Calculate equal-weighted price index\nsource(\"R/data_sentiment_prep.R\")  # Polish market sentiment\nsource(\"R/data_sentiment_prepEN.R\") # USA market sentiment"
+  },
+  {
+    "objectID": "CLAUDE.html#deployment",
+    "href": "CLAUDE.html#deployment",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "Render locally (quarto render)\nCommit _site/ to git and push\nNetlify auto-deploys from _site/ — no server-side build\n\nCritical: _site/ is committed to git (not in .gitignore). Netlify serves it directly."
+  },
+  {
+    "objectID": "CLAUDE.html#whats-in-.gitignore",
+    "href": "CLAUDE.html#whats-in-.gitignore",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "R/, mod/, scripts/, data/, _freeze/, .quarto/ — all private. R scripts and data files exist only locally."
+  },
+  {
+    "objectID": "CLAUDE.html#architecture",
+    "href": "CLAUDE.html#architecture",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "_quarto.yml — Central config: navbar, theme (cosmo), SEO headers, GTM/Klaro consent\nstyles.css — Custom branding (blue gradient navbar, card hover effects)\nklaro-config.js — GDPR cookie consent (analytics OFF by default)\n_language-pl.yml — Polish UI translations\n\n\n\n\n\n\n\n\n\n\n\nDirectory\nContent\nFormat\n\n\n\n\nspolki/\n16 company dashboards (Phase 1)\nQuarto Dashboard\n\n\nindeksy/\nProprietary market indices (breadth, equal-weighted)\nStandard .qmd\n\n\nsentyment-rynku/\nMarket sentiment (Poland, USA)\nStandard .qmd\n\n\nposts/\nBlog articles (YYYY-MM-DD-title/index.qmd)\nBlog post\n\n\ndata/\nProcessed .RDS files (gitignored)\nR data\n\n\nR/\nData processing scripts (gitignored)\nR scripts\n\n\n\n\n\n\nAll use the LBW template (reference layout): - Header row (8%): ticker, company name, HQ, website, sector/subsector - Left column (22%): value boxes — price, daily change %, yearly change % - Right column (78%): tabset — Notowania (price chart + SMA200), O spółce, Biznes, Strategia - Footer: legal disclaimer\nData source: data/prices100.RDS (historical OHLCV for top 100 GPW stocks)."
+  },
+  {
+    "objectID": "CLAUDE.html#code-style-rules-strict",
+    "href": "CLAUDE.html#code-style-rules-strict",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "Use Markdown headers (#, ##, ###) for layout (rows/columns/tabs)\nFORBIDDEN: ::: {.card}, ::: {.column} divs — headers only\nLists must be preceded by a blank line (\\n\\n before * Item)\nTabs: use {.tabset} on a column header, then lower-level headers for tab names\n\n\n\n\n\nTidyverse style, snake_case\nNative pipe |&gt; preferred over %&gt;%\nWrap scraping in purrr::possibly() (no formula syntax: possibly(read_html, otherwise = NA))\nModule system: box::use(mod/gpw)\n\n\n\n\n\nNeutral, objective language — no investment advice\nPolish-language content (interface and analysis)\nEvery analysis page must end with a legal disclaimer blockquote\nUse neutral phrasing: “Dane sugerują…”, “Warto zwrócić uwagę na…” — never “Kup!”, “Gwarantowany zysk”"
+  },
+  {
+    "objectID": "CLAUDE.html#file-naming-conventions",
+    "href": "CLAUDE.html#file-naming-conventions",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "Type\nConvention\nExample\n\n\n\n\nQuarto pages\nkebab-case\nindeks-trendow-gpw.qmd\n\n\nBlog posts\nYYYY-MM-DD-title/index.qmd\n2024-11-21-analiza-trendow/\n\n\nR scripts\nsnake_case\ncalc_trend_index.R\n\n\nData files\nsnake_case\nindex_trend.RDS"
+  },
+  {
+    "objectID": "CLAUDE.html#key-technical-notes",
+    "href": "CLAUDE.html#key-technical-notes",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "freeze: auto in _quarto.yml — only re-executes R code when source changes; pure markdown files always re-render\nConsent Mode v2 defaults all tracking to denied (GDPR-first) — GA4 only fires after Klaro consent\nAvoid reticulate/Python in .qmd files — can cause hanging processes\nSEO metadata (description, keywords) should be in each .qmd YAML header\nExisting comprehensive docs: DOKUMENTACJA_PROJEKTU_DOMENARYNKU.md (Polish, 680+ lines), AGENTS.md (quick reference)"
+  },
+  {
     "objectID": "spolki-gpw.html",
     "href": "spolki-gpw.html",
     "title": "Spółki GPW",
     "section": "",
-    "text": "Kompletna baza informacji o spółkach notowanych na GPW."
+    "text": "Poniższa tabela zawiera notowania wybranych spółek z GPW. Możesz wyszukiwać po nazwie lub tickerze oraz sortować kolumny.\n\n\n\n\n\n\nJak korzystać\n\n\n\n\nWyszukiwanie — wpisz ticker (np. “PKO”) lub nazwę w polu nad tabelą\nSortowanie — kliknij nagłówek kolumny\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDisclaimer\n\n\n\nNotowania mają charakter wyłącznie informacyjny i nie stanowią rekomendacji inwestycyjnej. Dane pochodzą z zewnętrznych źródeł i mogą być opóźnione."
   },
   {
-    "objectID": "spolki-gpw.html#przegląd-spółek",
-    "href": "spolki-gpw.html#przegląd-spółek",
+    "objectID": "spolki-gpw.html#przegląd-rynku",
+    "href": "spolki-gpw.html#przegląd-rynku",
     "title": "Spółki GPW",
     "section": "",
-    "text": "Kompletna baza informacji o spółkach notowanych na GPW."
+    "text": "Poniższa tabela zawiera listę monitorowanych spółek. Użyj filtrów po prawej stronie, aby wybrać konkretną branżę lub sektor.\n\n\n\n\n\n\nAktualizacja danych\n\n\n\nDane fundamentalne i opisy spółek są weryfikowane okresowo. Notowania (ceny) na profilach indywidualnych są aktualizowane na koniec sesji."
   },
   {
-    "objectID": "spolki-gpw.html#wyszukiwarka-spółek",
-    "href": "spolki-gpw.html#wyszukiwarka-spółek",
+    "objectID": "spolki-gpw.html#katalog-spółek",
+    "href": "spolki-gpw.html#katalog-spółek",
     "title": "Spółki GPW",
-    "section": "Wyszukiwarka spółek",
-    "text": "Wyszukiwarka spółek\nTutaj miejsce na interaktywną wyszukiwarkę spółek."
+    "section": "Katalog Spółek",
+    "text": "Katalog Spółek"
   },
   {
-    "objectID": "spolki-gpw.html#kategorie",
-    "href": "spolki-gpw.html#kategorie",
-    "title": "Spółki GPW",
-    "section": "Kategorie",
-    "text": "Kategorie\n\nWedług sektora\n\nBanki\nEnergetyka\nTechnologie\nBudownictwo\nHandel\nInne\n\n\n\nWedług indeksu\n\nWIG20\nmWIG40\nsWIG80"
-  },
-  {
-    "objectID": "spolki-gpw.html#najpopularniejsze-spółki",
-    "href": "spolki-gpw.html#najpopularniejsze-spółki",
-    "title": "Spółki GPW",
-    "section": "Najpopularniejsze spółki",
-    "text": "Najpopularniejsze spółki\nLista najczęściej analizowanych spółek."
-  },
-  {
-    "objectID": "spolki-gpw.html#statystyki-rynku",
-    "href": "spolki-gpw.html#statystyki-rynku",
-    "title": "Spółki GPW",
-    "section": "Statystyki rynku",
-    "text": "Statystyki rynku\nOgólne statystyki dotyczące spółek na GPW: - Liczba spółek - Kapitalizacja rynku - Obroty"
-  },
-  {
-    "objectID": "sentyment-rynku/polska.html",
-    "href": "sentyment-rynku/polska.html",
-    "title": "Sentyment rynku - Polska",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Aktualności z rynku",
     "section": "",
-    "text": "Sentyment rynku to wskaźnik nastrojów inwestorów na Giełdzie Papierów Wartościowych w Warszawie. Mierzy on emocjonalny stosunek uczestników rynku do sytuacji na giełdzie, pokazując czy przeważają postawy optymistyczne czy pesymistyczne. Wskaźnik ten może sygnalizować potencjalne punkty zwrotne na rynku, gdy nastroje osiągają ekstremalne poziomy.\nSentyment rynku często wyprzedza ruchy cenowe indeksów giełdowych. Skrajny pesymizm może wskazywać na wyprzedanie rynku i potencjalne dno, podczas gdy ekstremalne nastroje euforyczne mogą poprzedzać korekty spadkowe. Warto jednak pamiętać, że sentyment to tylko jedno z narzędzi analitycznych i powinien być stosowany w połączeniu z innymi metodami analizy rynku."
+    "text": "Flesz ze świata: 20. pakiet sankcji UE i ryzyko shutdownu w USA\n\n\n\n\n\n\nŚwiat\n\n\nMakro\n\n\nGeopolityka\n\n\n\n\n\n\n\n\n\n6 lut 2026\n\n\n\n\n\n\n\n\n\n\n\n\nPopołudniowy przegląd rynków: Stalexport zyskuje, RPP o inflacji\n\n\n\n\n\n\nPrasówka\n\n\nGPW\n\n\nSentyment\n\n\n\n\n\n\n\n\n\n6 lut 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDywergencja na GPW: co mówi indeks trendów?\n\n\nAnaliza szerokości rynku - listopad 2024\n\n\n\nanaliza rynku\n\n\nindeks trendów\n\n\nGPW\n\n\n\nPaździernik i listopad przyniosły interesującą dywergencję na warszawskiej giełdzie. Podczas gdy główne indeksy pozostają w trendzie wzrostowym, szerokość rynku pokazuje coś zupełnie innego.\n\n\n\n\n\n21 lis 2024\n\n\nDomenaRynku.pl\n\n\n\n\n\n\nBrak pasujących"
   },
   {
-    "objectID": "sentyment-rynku/polska.html#o-wskaźniku",
-    "href": "sentyment-rynku/polska.html#o-wskaźniku",
-    "title": "Sentyment rynku - Polska",
+    "objectID": "sentyment-rynku/usa.html",
+    "href": "sentyment-rynku/usa.html",
+    "title": "Sentyment rynku - USA",
     "section": "",
-    "text": "Sentyment rynku to wskaźnik nastrojów inwestorów na Giełdzie Papierów Wartościowych w Warszawie. Mierzy on emocjonalny stosunek uczestników rynku do sytuacji na giełdzie, pokazując czy przeważają postawy optymistyczne czy pesymistyczne. Wskaźnik ten może sygnalizować potencjalne punkty zwrotne na rynku, gdy nastroje osiągają ekstremalne poziomy.\nSentyment rynku często wyprzedza ruchy cenowe indeksów giełdowych. Skrajny pesymizm może wskazywać na wyprzedanie rynku i potencjalne dno, podczas gdy ekstremalne nastroje euforyczne mogą poprzedzać korekty spadkowe. Warto jednak pamiętać, że sentyment to tylko jedno z narzędzi analitycznych i powinien być stosowany w połączeniu z innymi metodami analizy rynku."
+    "text": "Sentyment rynku to wskaźnik nastrojów inwestorów na amerykańskim rynku kapitałowym. Mierzy on emocjonalny stosunek uczestników rynku do sytuacji na giełdzie, pokazując czy przeważają postawy optymistyczne czy pesymistyczne. Wskaźnik ten może sygnalizować potencjalne punkty zwrotne na rynku, gdy nastroje osiągają ekstremalne poziomy.\nSentyment rynku często wyprzedza ruchy cenowe indeksów giełdowych. Skrajny pesymizm może wskazywać na wyprzedanie rynku i potencjalne dno, podczas gdy ekstremalne nastroje euforyczne mogą poprzedzać korekty spadkowe. Warto jednak pamiętać, że sentyment to tylko jedno z narzędzi analitycznych i powinien być stosowany w połączeniu z innymi metodami analizy rynku."
   },
   {
-    "objectID": "sentyment-rynku/polska.html#wykres-sentymentu-rynku",
-    "href": "sentyment-rynku/polska.html#wykres-sentymentu-rynku",
-    "title": "Sentyment rynku - Polska",
+    "objectID": "sentyment-rynku/usa.html#o-wskaźniku",
+    "href": "sentyment-rynku/usa.html#o-wskaźniku",
+    "title": "Sentyment rynku - USA",
+    "section": "",
+    "text": "Sentyment rynku to wskaźnik nastrojów inwestorów na amerykańskim rynku kapitałowym. Mierzy on emocjonalny stosunek uczestników rynku do sytuacji na giełdzie, pokazując czy przeważają postawy optymistyczne czy pesymistyczne. Wskaźnik ten może sygnalizować potencjalne punkty zwrotne na rynku, gdy nastroje osiągają ekstremalne poziomy.\nSentyment rynku często wyprzedza ruchy cenowe indeksów giełdowych. Skrajny pesymizm może wskazywać na wyprzedanie rynku i potencjalne dno, podczas gdy ekstremalne nastroje euforyczne mogą poprzedzać korekty spadkowe. Warto jednak pamiętać, że sentyment to tylko jedno z narzędzi analitycznych i powinien być stosowany w połączeniu z innymi metodami analizy rynku."
+  },
+  {
+    "objectID": "sentyment-rynku/usa.html#wykres-sentymentu-rynku",
+    "href": "sentyment-rynku/usa.html#wykres-sentymentu-rynku",
+    "title": "Sentyment rynku - USA",
     "section": "Wykres sentymentu rynku",
-    "text": "Wykres sentymentu rynku\nPoniższy wykres przedstawia znormalizowany wskaźnik sentymentu rynku (0-100) na tle znormalizowanych indeksów WIG20 i WIG z ostatnich 250 sesji giełdowych. Możesz go przybliżać i sprawdzać wartości dla konkretnych dat.\n\n\n\n\n\n\n\n\n\n\n\n\nJak czytać wykres?\n\n\n\n\nSentyment rynku (niebieski): znormalizowany wskaźnik nastrojów (0-100)\nWIG20 i WIG (pomarańczowy/zielony): znormalizowane do skali 0-100 dla porównywalności\nWartości &gt; 70 sugerują bardzo optymistyczne nastroje (potencjalne wykupienie)\nWartości &lt; 30 sugerują pesymistyczne nastroje (potencjalne wyprzedanie)\nWartości 40-60 wskazują na neutralny sentyment rynku"
+    "text": "Wykres sentymentu rynku\nPoniższe wykresy przedstawiają znormalizowany wskaźnik sentymentu rynku (0-100) na tle znormalizowanych indeksów S&P 500 i Nasdaq. Ze względu na przerwę w zbieraniu danych prezentujemy dwa oddzielne okresy. Możesz przybliżać wykresy i sprawdzać wartości dla konkretnych dat.\n\nOkres historyczny: wrzesień 2023 - listopad 2024\n\n\n\n\n\n\n\n\nOkres aktualny: marzec 2025 - dzisiaj\n\n\n\n\n\n\n\n\n\n\n\n\nJak czytać wykresy?\n\n\n\n\nSentyment rynku (niebieski): znormalizowany wskaźnik nastrojów (0-100)\nS&P 500 i Nasdaq (pomarańczowy/zielony): znormalizowane do skali 0-100 dla porównywalności\nWartości &gt; 70 sugerują bardzo optymistyczne nastroje (potencjalne wykupienie)\nWartości &lt; 30 sugerują pesymistyczne nastroje (potencjalne wyprzedanie)\nWartości 40-60 wskazują na neutralny sentyment rynku\n\n\n\n\n\n\n\n\n\nUwaga o przerwę w danych\n\n\n\nZe względów technicznych wystąpiła przerwa w zbieraniu danych od listopada 2024 do marca 2025. Dlatego prezentujemy dwa oddzielne wykresy pokazujące kolejne okresy dostępności danych."
   },
   {
-    "objectID": "sentyment-rynku/polska.html#ostatnie-60-sesji",
-    "href": "sentyment-rynku/polska.html#ostatnie-60-sesji",
-    "title": "Sentyment rynku - Polska",
+    "objectID": "sentyment-rynku/usa.html#ostatnie-60-sesji",
+    "href": "sentyment-rynku/usa.html#ostatnie-60-sesji",
+    "title": "Sentyment rynku - USA",
     "section": "Ostatnie 60 sesji",
-    "text": "Ostatnie 60 sesji\nTabela przedstawia szczegółowe wartości sentymentu rynku oraz głównych indeksów GPW z ostatnich 60 sesji giełdowych (kwartał).\n\n\n\n\n\nWartości sentymentu rynku i głównych indeksów GPW (ostatnie 60 sesji)\n\n\nData\nSentyment\nWIG20\nWIG\n\n\n\n\n2025-11-18\n79.4\n2903.10\n108437.93\n\n\n2025-11-17\n87.0\n2956.16\n110616.15\n\n\n2025-11-16\n91.5\n2990.37\n111687.24\n\n\n2025-11-15\n93.5\n2990.37\n111687.24\n\n\n2025-11-14\n93.5\n2990.37\n111687.24\n\n\n2025-11-13\n93.9\n3016.16\n112532.48\n\n\n2025-11-12\n93.9\n3023.24\n112760.18\n\n\n2025-11-11\n93.1\n3019.29\n112668.07\n\n\n2025-11-10\n90.7\n3019.29\n112668.07\n\n\n2025-11-09\n86.2\n2970.61\n110985.15\n\n\n2025-11-08\n90.7\n2970.61\n110985.15\n\n\n2025-11-07\n91.5\n2970.61\n110985.15\n\n\n2025-11-06\n89.9\n3006.58\n112192.96\n\n\n2025-11-05\n92.7\n2977.25\n111559.98\n\n\n2025-11-04\n100.0\n2978.38\n111372.83\n\n\n2025-11-03\n97.6\n3005.61\n112058.99\n\n\n2025-11-02\n97.2\n2987.33\n111487.05\n\n\n2025-11-01\n98.8\n2987.33\n111487.05\n\n\n2025-10-31\n95.5\n2987.33\n111487.05\n\n\n2025-10-30\n98.8\n3029.29\n112708.11\n\n\n2025-10-29\n93.1\n3038.56\n113294.48\n\n\n2025-10-28\n91.1\n3041.52\n113459.04\n\n\n2025-10-27\n90.7\n2980.91\n111612.44\n\n\n2025-10-26\n82.2\n2981.19\n111427.76\n\n\n2025-10-25\n70.9\n2981.19\n111427.76\n\n\n2025-10-24\n67.6\n2981.19\n111427.76\n\n\n2025-10-23\n66.0\n2984.67\n111568.93\n\n\n2025-10-22\n67.6\n2958.78\n110937.56\n\n\n2025-10-21\n61.1\n2912.05\n109511.51\n\n\n2025-10-20\n51.0\n2916.61\n109618.82\n\n\n2025-10-19\n55.1\n2872.02\n107764.77\n\n\n2025-10-18\n44.5\n2872.02\n107764.77\n\n\n2025-10-17\n42.1\n2872.02\n107764.77\n\n\n2025-10-16\n47.4\n2887.16\n108214.71\n\n\n2025-10-15\n47.8\n2901.08\n108729.37\n\n\n2025-10-14\n48.2\n2844.05\n106653.38\n\n\n2025-10-13\n52.6\n2875.17\n107846.06\n\n\n2025-10-12\n46.6\n2873.04\n107951.51\n\n\n2025-10-11\n52.6\n2873.04\n107951.51\n\n\n2025-10-10\n57.9\n2873.04\n107951.51\n\n\n2025-10-09\n53.0\n2874.30\n108019.25\n\n\n2025-10-08\n60.7\n2877.99\n108295.93\n\n\n2025-10-07\n59.9\n2868.67\n107937.15\n\n\n2025-10-06\n55.1\n2838.10\n107133.09\n\n\n2025-10-05\n57.1\n2862.96\n108016.79\n\n\n2025-10-04\n59.9\n2862.96\n108016.79\n\n\n2025-10-03\n58.7\n2862.96\n108016.79\n\n\n2025-10-02\n58.7\n2861.62\n107695.90\n\n\n2025-10-01\n58.3\n2850.42\n107121.50\n\n\n2025-09-30\n64.0\n2827.17\n106363.86\n\n\n2025-09-29\n72.1\n2832.01\n106524.71\n\n\n2025-09-28\n74.5\n2832.26\n106570.62\n\n\n2025-09-27\n74.5\n2832.26\n106570.62\n\n\n2025-09-26\n74.9\n2832.26\n106570.62\n\n\n2025-09-25\n76.1\n2797.79\n105561.78\n\n\n2025-09-24\n75.3\n2828.82\n106520.90\n\n\n2025-09-23\n75.3\n2819.10\n105866.67\n\n\n2025-09-22\n81.8\n2802.03\n105324.97\n\n\n2025-09-21\n83.4\n2802.69\n105380.97\n\n\n2025-09-20\n80.2\n2802.69\n105380.97"
+    "text": "Ostatnie 60 sesji\nTabela przedstawia szczegółowe wartości sentymentu rynku oraz głównych indeksów amerykańskich z ostatnich 60 sesji giełdowych (kwartał).\n\n\n\n\n\nWartości sentymentu rynku i głównych indeksów USA (ostatnie 60 sesji)\n\n\nData\nSentyment\nS&P 500\nNasdaq\n\n\n\n\n2025-11-17\n39.6\n6672.41\n22708.07\n\n\n2025-11-16\n36.9\n6734.11\n22900.59\n\n\n2025-11-15\n37.7\n6734.11\n22900.59\n\n\n2025-11-14\n35.0\n6734.11\n22900.59\n\n\n2025-11-13\n39.6\n6737.49\n22870.36\n\n\n2025-11-12\n45.0\n6850.92\n23406.46\n\n\n2025-11-11\n50.8\n6832.43\n23527.17\n\n\n2025-11-10\n59.6\n6832.43\n23527.17\n\n\n2025-11-09\n51.9\n6728.80\n23004.54\n\n\n2025-11-08\n53.5\n6728.80\n23004.54\n\n\n2025-11-07\n55.4\n6728.80\n23004.54\n\n\n2025-11-06\n60.8\n6720.32\n23053.99\n\n\n2025-11-05\n56.9\n6796.29\n23499.80\n\n\n2025-11-04\n60.8\n6771.55\n23348.64\n\n\n2025-11-03\n64.2\n6851.97\n23834.72\n\n\n2025-11-02\n58.8\n6840.20\n23724.96\n\n\n2025-11-01\n52.7\n6840.20\n23724.96\n\n\n2025-10-31\n46.9\n6840.20\n23724.96\n\n\n2025-10-30\n56.2\n6822.34\n23581.14\n\n\n2025-10-29\n53.5\n6890.59\n23958.47\n\n\n2025-10-28\n49.6\n6890.89\n23827.49\n\n\n2025-10-27\n48.8\n6875.16\n23637.46\n\n\n2025-10-26\n45.4\n6791.69\n23204.87\n\n\n2025-10-25\n40.4\n6791.69\n23204.87\n\n\n2025-10-24\n34.6\n6791.69\n23204.87\n\n\n2025-10-23\n33.8\n6738.44\n22941.80\n\n\n2025-10-22\n37.7\n6699.40\n22740.40\n\n\n2025-10-21\n36.2\n6735.35\n22953.67\n\n\n2025-10-20\n23.5\n6735.13\n22990.54\n\n\n2025-10-19\n23.8\n6664.01\n22679.97\n\n\n2025-10-18\n25.8\n6664.01\n22679.97\n\n\n2025-10-17\n28.8\n6664.01\n22679.97\n\n\n2025-10-16\n31.2\n6629.07\n22562.54\n\n\n2025-10-15\n33.5\n6671.06\n22670.08\n\n\n2025-10-14\n41.5\n6644.31\n22521.70\n\n\n2025-10-13\n46.2\n6654.72\n22694.61\n\n\n2025-10-12\n46.5\n6552.51\n22204.43\n\n\n2025-10-11\n49.6\n6552.51\n22204.43\n\n\n2025-10-10\n52.3\n6552.51\n22204.43\n\n\n2025-10-09\n50.4\n6735.11\n23024.63\n\n\n2025-10-08\n46.2\n6753.72\n23043.38\n\n\n2025-10-07\n47.3\n6714.59\n22788.36\n\n\n2025-10-06\n47.3\n6740.28\n22941.67\n\n\n2025-10-05\n50.8\n6715.79\n22780.51\n\n\n2025-10-04\n46.9\n6715.79\n22780.51\n\n\n2025-10-03\n42.7\n6715.79\n22780.51\n\n\n2025-10-02\n46.5\n6715.35\n22844.05\n\n\n2025-10-01\n40.0\n6711.20\n22755.16\n\n\n2025-09-30\n45.0\n6688.46\n22660.01\n\n\n2025-09-29\n48.5\n6661.21\n22591.15\n\n\n2025-09-28\n58.1\n6643.70\n22484.07\n\n\n2025-09-27\n54.2\n6643.70\n22484.07\n\n\n2025-09-26\n60.8\n6643.70\n22484.07\n\n\n2025-09-25\n56.5\n6604.72\n22384.70\n\n\n2025-09-24\n56.2\n6637.97\n22497.86\n\n\n2025-09-23\n54.2\n6656.92\n22573.47\n\n\n2025-09-22\n48.1\n6693.75\n22788.98\n\n\n2025-09-21\n51.2\n6664.36\n22631.48\n\n\n2025-09-20\n53.1\n6664.36\n22631.48\n\n\n2025-09-19\n57.3\n6664.36\n22631.48"
   },
   {
-    "objectID": "sentyment-rynku/polska.html#metodologia",
-    "href": "sentyment-rynku/polska.html#metodologia",
-    "title": "Sentyment rynku - Polska",
+    "objectID": "sentyment-rynku/usa.html#metodologia",
+    "href": "sentyment-rynku/usa.html#metodologia",
+    "title": "Sentyment rynku - USA",
     "section": "Metodologia",
-    "text": "Metodologia\n\nŹródło danych\nWskaźnik sentymentu rynku jest budowany na podstawie codziennej analizy nagłówków publikowanych na stronach głównych największych polskich serwisów zajmujących się tematyką giełdy, rynków finansowych i ekonomii. Dane są zbierane od września 2023 roku.\n\n\nProces zbierania i obliczania wskaźnika\nProces przebiega w następujących krokach:\n\nZbieranie danych: Codziennie przed rozpoczęciem sesji GPW analizowane są strony główne serwisów informacyjnych z dziedziny giełdy i finansów.\nKlasyfikacja nagłówków: Wszystkie zidentyfikowane nagłówki newsów otrzymują klasyfikację sentymentu:\n\n+1 - sentyment pozytywny (nagłówki optymistyczne, wskazujące na dobre wiadomości dla rynku)\n0 - sentyment neutralny (nagłówki informacyjne bez wyraźnego wydźwięku emocjonalnego)\n-1 - sentyment negatywny (nagłówki pesymistyczne, wskazujące na niepokojące informacje)\n\nAgregacja dzienna: Dla każdego serwisu obliczana jest suma sentymentu z danego dnia, następnie sumowane są wartości ze wszystkich analizowanych serwisów, tworząc dzienny wskaźnik sentymentu dla całego rynku.\nNormalizacja: Dzienny sentyment jest normalizowany do skali 0-100, gdzie:\n\n0 oznacza najbardziej pesymistyczne nastroje w historii pomiaru\n100 oznacza najbardziej optymistyczne nastroje w historii pomiaru\n50 reprezentuje neutralny punkt w historycznym rozkładzie nastrojów\n\n\nWskaźnik jest aktualizowany codziennie przed rozpoczęciem sesji GPW."
+    "text": "Metodologia\n\nŹródło danych\nWskaźnik sentymentu rynku jest budowany na podstawie codziennej analizy nagłówków publikowanych na głównych amerykańskich portalach finansowych i biznesowych zajmujących się tematyką rynków kapitałowych. Dane są zbierane od września 2023 roku (z przerwą od listopada 2024 do marca 2025).\n\n\nProces zbierania i obliczania wskaźnika\nProces przebiega w następujących krokach:\n\nZbieranie danych: Codziennie przed rozpoczęciem sesji giełdowej analizowane są strony główne anglojęzycznych serwisów informacyjnych z dziedziny finansów i inwestycji.\nKlasyfikacja nagłówków: Wszystkie zidentyfikowane nagłówki newsów otrzymują klasyfikację sentymentu:\n\n+1 - sentyment pozytywny (nagłówki optymistyczne, wskazujące na dobre wiadomości dla rynku)\n0 - sentyment neutralny (nagłówki informacyjne bez wyraźnego wydźwięku emocjonalnego)\n-1 - sentyment negatywny (nagłówki pesymistyczne, wskazujące na niepokojące informacje)\n\nAgregacja dzienna: Dla każdego serwisu obliczana jest suma sentymentu z danego dnia, następnie sumowane są wartości ze wszystkich analizowanych serwisów, tworząc dzienny wskaźnik sentymentu dla całego rynku.\nNormalizacja: Dzienny sentyment jest normalizowany do skali 0-100, gdzie:\n\n0 oznacza najbardziej pesymistyczne nastroje w historii pomiaru\n100 oznacza najbardziej optymistyczne nastroje w historii pomiaru\n50 reprezentuje neutralny punkt w historycznym rozkładzie nastrojów\n\n\nWskaźnik jest aktualizowany codziennie przed rozpoczęciem sesji giełdowej w USA."
   },
   {
-    "objectID": "sentyment-rynku/polska.html#potencjalne-zastosowania",
-    "href": "sentyment-rynku/polska.html#potencjalne-zastosowania",
-    "title": "Sentyment rynku - Polska",
+    "objectID": "sentyment-rynku/usa.html#potencjalne-zastosowania",
+    "href": "sentyment-rynku/usa.html#potencjalne-zastosowania",
+    "title": "Sentyment rynku - USA",
     "section": "Potencjalne zastosowania",
-    "text": "Potencjalne zastosowania\n\n1. Identyfikacja ekstremów rynkowych\nWskaźnik sentymentu może sygnalizować ekstrema rynkowe, które często poprzedzają punkty zwrotne:\n\nSkrajny pesymizm (sentyment &lt; 20-30): Może wskazywać na wyprzedanie rynku i potencjalne dno. Gdy większość nagłówków jest negatywna, często oznacza to, że negatywne informacje są już w cenach.\nSkrajna euforia (sentyment &gt; 70-80): Może sygnalizować wykupienie rynku i zwiększone ryzyko korekty. Gdy dominują wyłącznie pozytywne nagłówki, może brakować nowych katalizatorów do dalszego napędzania wzrostów.\n\n\n\n2. Dywergencje z indeksami\nDywergencje między sentymentem a zachowaniem głównych indeksów mogą być szczególnie informacyjne:\n\nPozytywna dywergencja: Sentyment poprawia się, podczas gdy WIG/WIG20 nadal spadają – może zapowiadać zbliżające się odbicie.\nNegatywna dywergencja: Sentyment pogarsza się, mimo że indeksy rosną – ostrzeżenie przed możliwą korektą spadkową.\n\n\n\n3. Potwierdzenie trendów\nSilne trendy są bardziej wiarygodne, gdy sentyment je wspiera:\n\nTrend wzrostowy + rosnący sentyment: Potwierdza siłę hossy\nTrend spadkowy + spadający sentyment: Potwierdza siłę bessy\n\n\n\n4. Wsparcie w analizie rynku\nSentyment może stanowić dodatkowe narzędzie w analizie sytuacji rynkowej:\n\nNiski sentyment (&lt; 30) z oznakami poprawy: Można rozważyć zwiększenie ekspozycji na rynek\nWysoki sentyment (&gt; 70) z oznakami pogorszenia: Można rozważyć redukcję pozycji lub zabezpieczenie portfela\nSentyment w okolicy 40-60: Rynek może być w fazie konsolidacji\n\n\n\n\n\n\n\nWażne zastrzeżenie\n\n\n\nWskaźnik sentymentu rynku jest narzędziem analitycznym służącym do lepszego zrozumienia nastrojów na rynku. Nie stanowi on rekomendacji inwestycyjnej ani porady, jak należy postępować z kapitałem. Sentyment może pozostawać na ekstremalnych poziomach przez dłuższy czas, zanim nastąpi odwrócenie trendu. Powinien być używany w połączeniu z innymi metodami analizy technicznej i fundamentalnej, zawsze z uwzględnieniem indywidualnej tolerancji ryzyka oraz celów inwestycyjnych.\n\n\n\n\n\n\n\n\n\nAktualizacje\n\n\n\nWskaźnik sentymentu rynku jest aktualizowany codziennie przed rozpoczęciem sesji GPW, ale na tej stronie wyświetlamy aktualizacje raz na jakiś czas.\nOstatnia aktualizacja danych: 2025-11-18\n\n\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią one porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży jakichkolwiek instrumentów finansowych. Decyzje inwestycyjne powinny być podejmowane na podstawie własnej analizy i po konsultacji z licencjonowanym doradcą finansowym."
-  },
-  {
-    "objectID": "sentyment-rynku/swiat.html",
-    "href": "sentyment-rynku/swiat.html",
-    "title": "Sentyment rynku - Świat",
-    "section": "",
-    "text": "Sentyment rynku na światowych rynkach - analiza nastrojów inwestorów na głównych giełdach świata."
-  },
-  {
-    "objectID": "sentyment-rynku/swiat.html#wprowadzenie",
-    "href": "sentyment-rynku/swiat.html#wprowadzenie",
-    "title": "Sentyment rynku - Świat",
-    "section": "",
-    "text": "Sentyment rynku na światowych rynkach - analiza nastrojów inwestorów na głównych giełdach świata."
-  },
-  {
-    "objectID": "sentyment-rynku/swiat.html#główne-rynki",
-    "href": "sentyment-rynku/swiat.html#główne-rynki",
-    "title": "Sentyment rynku - Świat",
-    "section": "Główne rynki",
-    "text": "Główne rynki\n\nStany Zjednoczone\nAnaliza sentymentu na NYSE i NASDAQ.\n\n\nEuropa\nNastroje inwestorów na głównych giełdach europejskich.\n\n\nAzja\nSentyment na rynkach azjatyckich."
-  },
-  {
-    "objectID": "sentyment-rynku/swiat.html#wskaźniki-globalne",
-    "href": "sentyment-rynku/swiat.html#wskaźniki-globalne",
-    "title": "Sentyment rynku - Świat",
-    "section": "Wskaźniki globalne",
-    "text": "Wskaźniki globalne\n\nVIX (indeks strachu)\nPrzepływy kapitału\nPoziom ryzyka"
-  },
-  {
-    "objectID": "posts/2026-02-06-prasowka-popoludniowa-test/index.html",
-    "href": "posts/2026-02-06-prasowka-popoludniowa-test/index.html",
-    "title": "Popołudniowy przegląd rynków: Stalexport zyskuje, RPP o inflacji",
-    "section": "",
-    "text": "Piątkowe popołudnie na warszawskim parkiecie upływa pod znakiem publikacji szacunkowych wyników finansowych oraz analizy protokołu z ostatniego posiedzenia Rady Polityki Pieniężnej.\n\nPoranek na GPW i sesja\nGłówne indeksy utrzymują stabilne poziomy, choć uwaga inwestorów przenosi się na konkretne spółki raportujące dane za ubiegły rok. Mimo mroźnej aury za oknem, nastroje na parkiecie pozostają umiarkowane.\n\n\nZe spółek\n\nStalexport Autostrady (STX): Spółka opublikowała szacunkowe dane za 2025 rok. Skonsolidowany zysk netto przypadający akcjonariuszom jednostki dominującej wyniósł 86,3 mln zł. Choć jest to wynik niższy niż rok wcześniej (132,9 mln zł), inwestorzy analizują rentowność operacyjną w trudniejszym otoczeniu.\nOrlen Synthos Green Energy (OSGE): Energetyka jądrowa nabiera tempa. Spółka wystąpiła o decyzje zasadnicze dla dwóch dodatkowych bloków we Włocławku, co potwierdza długofalowy kierunek transformacji sektora.\nPKP: Grupa ogłosiła ambitną strategię do 2030 roku, zakładającą nie tylko inwestycje w tabor, ale i rozszerzenie działalności o usługi hotelowe marki “Wars”.\n\n\n\nMakro & Świat\n\nRPP o inflacji: Z opisu dyskusji z posiedzenia Rady wynika, że inflacja w kolejnych kwartałach 2026 roku powinna pozostać zgodna z celem NBP. Pojawiają się głosy wskazujące na stopniowy spadek dynamiki płac, co może otwierać pole do dyskusji o stopach w dalszej części roku.\nRezerwy NBP: Oficjalne aktywa rezerwowe Polski wzrosły do 246,8 mld euro na koniec stycznia. Znaczący wpływ na ten wynik miał wzrost wartości posiadanego złota.\nWall Street i świat: Inwestorzy obserwują zbliżenie handlowe USA z Argentyną, co może wpłynąć na globalne ceny żywności. Jednocześnie KE zaostrza ton wobec TikToka, zarzucając mu naruszanie unijnych przepisów o usługach cyfrowych.\n\n\n\nSentyment & Technika\nRynek pozostaje w fazie wyczekiwania. Analiza narracji medialnej sugeruje przewagę stonowanego optymizmu, choć czynniki geoekonomiczne (szczególnie w relacjach USA-Chiny) pozostają monitorowane jako główne ryzyko.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży instrumentów finansowych.\n\n\n\nŹródła: - Stalexport szacuje wyniki (Bankier.pl) - RPP o inflacji i stopach (Bankier.pl) - Plany OSGE we Włocławku (Polska Agencja Prasowa)"
-  },
-  {
-    "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html",
-    "href": "posts/2024-11-21-indeks-trendow-analiza/index.html",
-    "title": "Dywergencja na GPW: co mówi indeks trendów?",
-    "section": "",
-    "text": "W ostatnich tygodniach na warszawskiej giełdzie możemy obserwować klasyczny przykład negatywnej dywergencji między zachowaniem głównych indeksów a szerokością rynku. To sytuacja, która powinna przykuć uwagę każdego świadomego inwestora."
-  },
-  {
-    "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html#sytuacja-na-rynku",
-    "href": "posts/2024-11-21-indeks-trendow-analiza/index.html#sytuacja-na-rynku",
-    "title": "Dywergencja na GPW: co mówi indeks trendów?",
-    "section": "",
-    "text": "W ostatnich tygodniach na warszawskiej giełdzie możemy obserwować klasyczny przykład negatywnej dywergencji między zachowaniem głównych indeksów a szerokością rynku. To sytuacja, która powinna przykuć uwagę każdego świadomego inwestora."
-  },
-  {
-    "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html#wykres-roczny-punkt-zwrotny-we-wrześniu",
-    "href": "posts/2024-11-21-indeks-trendow-analiza/index.html#wykres-roczny-punkt-zwrotny-we-wrześniu",
-    "title": "Dywergencja na GPW: co mówi indeks trendów?",
-    "section": "Wykres roczny: punkt zwrotny we wrześniu",
-    "text": "Wykres roczny: punkt zwrotny we wrześniu\nAby zrozumieć obecną sytuację, przyjrzyjmy się szerszej perspektywie - ostatniemu roku na GPW:\n\n\n\n\n\n\n\nKluczowe obserwacje z wykresu rocznego\nSzczególnie wyraźnie dywergencja ujawniła się od początku września 2024. Do tego momentu indeks trendów i główne indeksy poruszały się w podobnym kierunku - gdy indeksy rosły, rosła też szerokość rynku, a gdy spadały, szerokość też słabła. Od września jednak nastąpiła fundamentalna zmiana:\n\nIndeks trendów zaczął wyraźnie spadać, tracąc od września około 20 punktów procentowych\nWIG i WIG20 kontynuowały wzrosty, osiągając nowe lokalne maksima\nTa rozbieżność sygnalizuje, że wzrosty głównych indeksów są coraz bardziej skoncentrowane na wąskiej grupie spółek\n\nTo klasyczny sygnał ostrzegawczy - rynek “wybiega” napędzany przez coraz mniejszą liczbę graczy.\n\n\nAktualne liczby\nGłówne indeksy - ostatni kwartał (60 sesji):\n\nWIG20: 4.59%\nWIG: 4.09%\n\nIndeks trendów (szerokość rynku):\n\nAktualnie: 58.9% spółek w trendzie wzrostowym\nŚrednia (ostatni miesiąc): 63.2%\nZakres (ostatni miesiąc): 55.8% - 68.4%\nZmiana od września: -1.3 pp ⬇️\n\nAktualnie mniej niż 60% spółek znajduje się w trendzie wzrostowym. Co więcej, w ostatnim miesiącu obserwowaliśmy momenty, gdy indeks trendów spadał poniżej 56%, co jest wyraźnym sygnałem ostrzegawczym."
-  },
-  {
-    "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html#dywergencja-w-szczegółach-ostatni-kwartał",
-    "href": "posts/2024-11-21-indeks-trendow-analiza/index.html#dywergencja-w-szczegółach-ostatni-kwartał",
-    "title": "Dywergencja na GPW: co mówi indeks trendów?",
-    "section": "Dywergencja w szczegółach (ostatni kwartał)",
-    "text": "Dywergencja w szczegółach (ostatni kwartał)\nPrzyjrzyjmy się bliżej ostatnim trzem miesiącom, aby lepiej zobaczyć skalę dywergencji:\n\n\n\n\n\n\n\n\n\n\n\n\nJak czytać wykres?\n\n\n\n\nIndeks Trendów (niebieski, lewa oś): pokazuje procent spółek w trendzie wzrostowym (0-100%)\nWIG20 i WIG (pomarańczowy/zielony, prawa oś): znormalizowane do skali 0-100 dla porównywalności\nWartości &gt; 60% w indeksie trendów sugerują zdrową szerokość rynku\nWartości &lt; 50% sugerują przewagę trendów spadkowych\nDywergencja: gdy indeksy rosną, ale indeks trendów spada - to sygnał ostrzegawczy"
-  },
-  {
-    "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html#zoom-ostatni-miesiąc",
-    "href": "posts/2024-11-21-indeks-trendow-analiza/index.html#zoom-ostatni-miesiąc",
-    "title": "Dywergencja na GPW: co mówi indeks trendów?",
-    "section": "Zoom: ostatni miesiąc",
-    "text": "Zoom: ostatni miesiąc\nZnormalizowanie wszystkich wskaźników do 100 na początku ostatniego miesiąca pozwala jeszcze wyraźniej zobaczyć rozbieżność w zachowaniu głównych indeksów i szerokości rynku:"
-  },
-  {
-    "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html#co-to-oznacza-dla-inwestorów",
-    "href": "posts/2024-11-21-indeks-trendow-analiza/index.html#co-to-oznacza-dla-inwestorów",
-    "title": "Dywergencja na GPW: co mówi indeks trendów?",
-    "section": "Co to oznacza dla inwestorów?",
-    "text": "Co to oznacza dla inwestorów?\n\n1. Koncentracja wzrostów\nGdy główne indeksy rosną, ale szerokość rynku słabnie, oznacza to, że wzrosty są generowane przez coraz mniejszą grupę spółek. Na GPW są to zazwyczaj:\n\nNajwiększe spółki z WIG20 (szczególnie te z wysoką wagą w indeksie)\nSpółki z sektorów preferowanych przez inwestorów zagranicznych\nNieliczne historie wzrostowe, które przyciągają kapitał\n\n\n\n2. Sygnał ostrzegawczy\nNegatywna dywergencja między szerokością rynku a głównym indeksem historycznie była wczesnym sygnałem ostrzegawczym przed:\n\nKorektami rynkowymi\nZmianą trendu z wzrostowego na spadkowy\n\nOkresami zwiększonej zmienności\n\nNie oznacza to automatycznego spadku - rynek może kontynuować wzrosty napędzany przez wąską grupę spółek przez wiele tygodni lub nawet miesięcy. Jednak ryzyko nagłego odwrócenia trendu wzrasta.\n\n\n3. Implikacje dla strategii inwestycyjnej\nW obecnej sytuacji warto rozważyć:\nDla inwestorów długoterminowych: - Zachowanie ostrożności przy nowych pozycjach - Przegląd portfela pod kątem dywersyfikacji - Unikanie “gonienia się” za droższymi spółkami z WIG20\nDla traderów krótkoterminowych: - Śledzenie spółek, które faktycznie uczestniczą we wzrostach - Zwracanie uwagi na sygnały zmiany sentymentu - Przygotowanie strategii defensywnych"
-  },
-  {
-    "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html#dalsze-monitorowanie",
-    "href": "posts/2024-11-21-indeks-trendow-analiza/index.html#dalsze-monitorowanie",
-    "title": "Dywergencja na GPW: co mówi indeks trendów?",
-    "section": "Dalsze monitorowanie",
-    "text": "Dalsze monitorowanie\nW kolejnych dniach i tygodniach kluczowe będzie obserwowanie, czy:\n\nSzerokość rynku zacznie się poprawiać - co potwierdziłoby siłę trendu wzrostowego\nGłówne indeksy podążą za słabnącą szerokością w dół - realizacja negatywnej dywergencji\nSytuacja się ustabilizuje na obecnych poziomach\n\n\n\n\n\n\n\nRegularnie sprawdzaj indeks trendów\n\n\n\nIndeks trendów GPW jest aktualizowany codziennie. Śledź jego wartości na stronie głównej indeksu, aby być na bieżąco z szerokością rynku."
-  },
-  {
-    "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html#podsumowanie",
-    "href": "posts/2024-11-21-indeks-trendow-analiza/index.html#podsumowanie",
-    "title": "Dywergencja na GPW: co mówi indeks trendów?",
-    "section": "Podsumowanie",
-    "text": "Podsumowanie\nObecna sytuacja na GPW to podręcznikowy przykład negatywnej dywergencji:\n\nOd września 2024 obserwujemy fundamentalną zmianę charakteru rynku\nDo września indeksy i szerokość rynku poruszały się zgodnie\nOd września główne indeksy rosną, ale szerokość rynku wyraźnie słabnie\nWzrosty są coraz bardziej skoncentrowane na wąskiej grupie spółek\nTo zwiększa ryzyko korekty w średnim terminie\n\nŚwiadomy inwestor powinien dostosować swoją strategię do tej sytuacji - nie panikować, ale być przygotowanym na zwiększoną zmienność i potencjalną zmianę trendu.\n\n\n\n\n\n\n\nO tej serii\n\n\n\nTo pierwszy post z cyklicznej serii analiz indeksu trendów GPW. W kolejnych tygodniach będziemy regularnie monitorować szerokość rynku i identyfikować kluczowe zmiany w zachowaniu warszawskiej giełdy.\n\n\nData publikacji: 21 November 2025\nDane aktualne na: 20 November 2025"
-  },
-  {
-    "objectID": "R/testy.html",
-    "href": "R/testy.html",
-    "title": "R Notebook",
-    "section": "",
-    "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.6\n✔ forcats   1.0.0     ✔ stringr   1.6.0\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.2.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(xts)\n\nLoading required package: zoo\n\nAttaching package: 'zoo'\n\nThe following objects are masked from 'package:base':\n\n    as.Date, as.Date.numeric\n\n\n######################### Warning from 'xts' package ##########################\n#                                                                             #\n# The dplyr lag() function breaks how base R's lag() function is supposed to  #\n# work, which breaks lag(my_xts). Calls to lag(my_xts) that you type or       #\n# source() into this session won't work correctly.                            #\n#                                                                             #\n# Use stats::lag() to make sure you're not using dplyr::lag(), or you can add #\n# conflictRules('dplyr', exclude = 'lag') to your .Rprofile to stop           #\n# dplyr from breaking base R's lag() function.                                #\n#                                                                             #\n# Code in packages is not affected. It's protected by R's namespace mechanism #\n# Set `options(xts.warn_dplyr_breaks_lag = FALSE)` to suppress this warning.  #\n#                                                                             #\n###############################################################################\n\nAttaching package: 'xts'\n\nThe following objects are masked from 'package:dplyr':\n\n    first, last\n\ntest_prices &lt;- readRDS(\"../data/prices100.RDS\")\n\n\n\ncolnames(test_prices)\n\n [1] \"Date\" \"KGH\"  \"PKO\"  \"PKN\"  \"ZAB\"  \"ALE\"  \"PEO\"  \"PZU\"  \"CDR\"  \"LPP\" \n[11] \"DNP\"  \"CCC\"  \"ALR\"  \"XTB\"  \"SPL\"  \"PCO\"  \"PGE\"  \"CAR\"  \"BDX\"  \"MBK\" \n[21] \"TPE\"  \"ACP\"  \"BFT\"  \"KTY\"  \"JSW\"  \"KRU\"  \"DIG\"  \"DIA\"  \"CPS\"  \"APR\" \n[31] \"MIL\"  \"RBW\"  \"OPL\"  \"DAD\"  \"ENA\"  \"ASB\"  \"SNT\"  \"CRI\"  \"TXT\"  \"PXM\" \n[41] \"BHW\"  \"LBW\"  \"CIG\"  \"EAT\"  \"APT\"  \"CBF\"  \"11B\"  \"ENG\"  \"ASM\"  \"TEN\" \n[51] \"WPL\"  \"GPW\"  \"ATT\"  \"MRB\"  \"PKP\"  \"FRO\"  \"BMC\"  \"MBR\"  \"GRX\"  \"ING\" \n[61] \"EUR\"  \"TRK\"  \"SLV\"  \"TOR\"  \"DAT\"  \"PEP\"  \"GPP\"  \"PLW\"  \"DVL\"  \"ELT\" \n[71] \"RVU\"  \"MDG\"  \"VRG\"  \"SCP\"  \"SPR\"  \"ECH\"  \"WTN\"  \"KER\"  \"TOA\"  \"PCR\" \n[81] \"BCX\"  \"MUR\"  \"LWB\"  \"DOM\"  \"NWG\"  \"SGN\"  \"4MS\"  \"STX\"  \"ENT\"  \"NEU\" \n[91] \"MLS\"  \"CLC\"  \"PAS\"  \"ALL\"  \"ICE\"  \"BNP\"  \"CRJ\""
-  },
-  {
-    "objectID": "posts/2026-02-06-flesz-ze-swiata-sankcje-i-budzet-usa/index.html",
-    "href": "posts/2026-02-06-flesz-ze-swiata-sankcje-i-budzet-usa/index.html",
-    "title": "Flesz ze świata: 20. pakiet sankcji UE i ryzyko shutdownu w USA",
-    "section": "",
-    "text": "Dzisiejszy przegląd wydarzeń globalnych koncentruje się na zaostrzeniu kursu sankcyjnego Unii Europejskiej oraz narastających napięciach budżetowych w Waszyngtonie.\n\nGeopolityka i Sankcje\n\n20. pakiet sankcji UE: Ursula von der Leyen zaprezentowała propozycję nowych restrykcji wobec Rosji. Kluczowe punkty to całkowity zakaz transportu ropy drogą morską, uderzenie we “flotę cieni” LNG oraz zaostrzenie nadzoru nad transferami kryptowalutowymi, które są wykorzystywane do omijania dotychczasowych blokad finansowych.\nUSA i Iran przy stole: W Omanie doszło do rzadkich, bezpośrednich negocjacji między przedstawicielami Waszyngtonu a Teheranu. Irańskie MSZ określiło początek rozmów jako “dobry”, choć zaznaczono, że dotyczą one wyłącznie konkretnych tematów spornych, a nie pełnej normalizacji stosunków.\n\n\n\nMakroekonomia z Zachodu\n\nWidmo shutdownu w USA: Negocjacje budżetowe między Republikanami a Demokratami w sprawie finansowania resortu bezpieczeństwa krajowego (DHS) utknęły w martwym punkcie. Brak porozumienia do końca przyszłego tygodnia może oznaczać częściowy paraliż administracji federalnej, co zawsze budzi niepokój na rynkach obligacji.\nTikTok pod lupą KE: Komisja Europejska oficjalnie stwierdziła, że mechanizmy uzależniające stosowane przez platformę TikTok naruszają unijny Akt o usługach cyfrowych (DSA). To kolejny krok w stronę potencjalnie wysokich kar finansowych dla gigantów technologicznych.\n\n\n\nAzja i Rynki Wschodzące\n\nCzystki w chińskiej bankowości: Były wiceprezes Bank of China został wydalony z partii pod zarzutem korupcji. Pekin kontynuuje agresywną kampanię “oczyszczania” sektora finansowego, co wpływa na zmienność lokalnych indeksów bankowych.\nWybory w Japonii: Inwestorzy z uwagą śledzą nastroje przedwyborcze w Kraju Kwitnącej Wiśni. Wynik może zadecydować o dalszej polityce osłabiania jena, co jest kluczowe dla japońskich eksporterów i hossy na indeksie Nikkei.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży instrumentów finansowych.\n\n\n\nŹródła: - Breaking The News - Bankier.pl - Polska Agencja Prasowa"
+    "text": "Potencjalne zastosowania\n\n1. Identyfikacja ekstremów rynkowych\nWskaźnik sentymentu może sygnalizować ekstrema rynkowe, które często poprzedzają punkty zwrotne:\n\nSkrajny pesymizm (sentyment &lt; 20-30): Może wskazywać na wyprzedanie rynku i potencjalne dno. Gdy większość nagłówków jest negatywna, często oznacza to, że negatywne informacje są już w cenach.\nSkrajna euforia (sentyment &gt; 70-80): Może sygnalizować wykupienie rynku i zwiększone ryzyko korekty. Gdy dominują wyłącznie pozytywne nagłówki, może brakować nowych katalizatorów do dalszego napędzania wzrostów.\n\n\n\n2. Dywergencje z indeksami\nDywergencje między sentymentem a zachowaniem głównych indeksów mogą być szczególnie informacyjne:\n\nPozytywna dywergencja: Sentyment poprawia się, podczas gdy S&P 500/Nasdaq nadal spadają – może zapowiadać zbliżające się odbicie.\nNegatywna dywergencja: Sentyment pogarsza się, mimo że indeksy rosną – ostrzeżenie przed możliwą korektą spadkową.\n\n\n\n3. Potwierdzenie trendów\nSilne trendy są bardziej wiarygodne, gdy sentyment je wspiera:\n\nTrend wzrostowy + rosnący sentyment: Potwierdza siłę hossy\nTrend spadkowy + spadający sentyment: Potwierdza siłę bessy\n\n\n\n4. Wsparcie w analizie rynku\nSentyment może stanowić dodatkowe narzędzie w analizie sytuacji rynkowej:\n\nNiski sentyment (&lt; 30) z oznakami poprawy: Można rozważyć zwiększenie ekspozycji na rynek\nWysoki sentyment (&gt; 70) z oznakami pogorszenia: Można rozważyć redukcję pozycji lub zabezpieczenie portfela\nSentyment w okolicy 40-60: Rynek może być w fazie konsolidacji\n\n\n\n\n\n\n\nWażne zastrzeżenie\n\n\n\nWskaźnik sentymentu rynku jest narzędziem analitycznym służącym do lepszego zrozumienia nastrojów na rynku. Nie stanowi on rekomendacji inwestycyjnej ani porady, jak należy postępować z kapitałem. Sentyment może pozostawać na ekstremalnych poziomach przez dłuższy czas, zanim nastąpi odwrócenie trendu. Powinien być używany w połączeniu z innymi metodami analizy technicznej i fundamentalnej, zawsze z uwzględnieniem indywidualnej tolerancji ryzyka oraz celów inwestycyjnych.\n\n\n\n\n\n\n\n\n\nAktualizacje\n\n\n\nWskaźnik sentymentu rynku jest aktualizowany codziennie przed rozpoczęciem sesji giełdowej w USA, ale na tej stronie wyświetlamy aktualizacje raz na jakiś czas.\nOstatnia aktualizacja danych: 2025-11-17\n\n\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią one porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży jakichkolwiek instrumentów finansowych. Decyzje inwestycyjne powinny być podejmowane na podstawie własnej analizy i po konsultacji z licencjonowanym doradcą finansowym."
   },
   {
     "objectID": "DOKUMENTACJA_PROJEKTU_DOMENARYNKU.html",
@@ -413,53 +364,305 @@
     "text": "Profile Spółek (Phase 1): Wdrożono format Quarto Dashboards dla podstron spółek. Zrealizowano pierwsze 16 profili (m.in. KGH, PKO, PKN, CDR, DNP).\nStandard Wzorcowy: Jako fundament przyjęto strukturę U5 (z Lubawy): poziomy pasek top, pionowe Value Boxy w lewej kolumnie (22%) i rozbudowany Tabset w prawej kolumnie (78%).\nKlasyfikacja Branżowa: Zintegrowano plik branze_podbranze.csv do kategoryzacji spółek.\n\n\n\n\n\nAutomatyzacja Prasówek: Wdrożono system codziennych prasówek (GPW 08:25, Świat 11:00) oparty na cron i agent-browser.\nŹródła danych: Rozszerzono listę źródeł o PAP Biznes, Money.pl oraz breakingthenews.net (dedykowane dla wiadomości ze świata).\nSEO & UX: Zmieniono sposób wyświetlania kategorii na cloud w index.qmd, co poprawiło interaktywność filtrów i strukturę pod SEO.\nStandardy treści: Ustalono format linkowania (tylko nazwy portali podlinkowane nofollow) oraz strukturę postów digest."
   },
   {
-    "objectID": "sentyment-rynku/usa.html",
-    "href": "sentyment-rynku/usa.html",
-    "title": "Sentyment rynku - USA",
+    "objectID": "posts/2026-02-06-flesz-ze-swiata-sankcje-i-budzet-usa/index.html",
+    "href": "posts/2026-02-06-flesz-ze-swiata-sankcje-i-budzet-usa/index.html",
+    "title": "Flesz ze świata: 20. pakiet sankcji UE i ryzyko shutdownu w USA",
     "section": "",
-    "text": "Sentyment rynku to wskaźnik nastrojów inwestorów na amerykańskim rynku kapitałowym. Mierzy on emocjonalny stosunek uczestników rynku do sytuacji na giełdzie, pokazując czy przeważają postawy optymistyczne czy pesymistyczne. Wskaźnik ten może sygnalizować potencjalne punkty zwrotne na rynku, gdy nastroje osiągają ekstremalne poziomy.\nSentyment rynku często wyprzedza ruchy cenowe indeksów giełdowych. Skrajny pesymizm może wskazywać na wyprzedanie rynku i potencjalne dno, podczas gdy ekstremalne nastroje euforyczne mogą poprzedzać korekty spadkowe. Warto jednak pamiętać, że sentyment to tylko jedno z narzędzi analitycznych i powinien być stosowany w połączeniu z innymi metodami analizy rynku."
+    "text": "Dzisiejszy przegląd wydarzeń globalnych koncentruje się na zaostrzeniu kursu sankcyjnego Unii Europejskiej oraz narastających napięciach budżetowych w Waszyngtonie.\n\nGeopolityka i Sankcje\n\n20. pakiet sankcji UE: Ursula von der Leyen zaprezentowała propozycję nowych restrykcji wobec Rosji. Kluczowe punkty to całkowity zakaz transportu ropy drogą morską, uderzenie we “flotę cieni” LNG oraz zaostrzenie nadzoru nad transferami kryptowalutowymi, które są wykorzystywane do omijania dotychczasowych blokad finansowych.\nUSA i Iran przy stole: W Omanie doszło do rzadkich, bezpośrednich negocjacji między przedstawicielami Waszyngtonu a Teheranu. Irańskie MSZ określiło początek rozmów jako “dobry”, choć zaznaczono, że dotyczą one wyłącznie konkretnych tematów spornych, a nie pełnej normalizacji stosunków.\n\n\n\nMakroekonomia z Zachodu\n\nWidmo shutdownu w USA: Negocjacje budżetowe między Republikanami a Demokratami w sprawie finansowania resortu bezpieczeństwa krajowego (DHS) utknęły w martwym punkcie. Brak porozumienia do końca przyszłego tygodnia może oznaczać częściowy paraliż administracji federalnej, co zawsze budzi niepokój na rynkach obligacji.\nTikTok pod lupą KE: Komisja Europejska oficjalnie stwierdziła, że mechanizmy uzależniające stosowane przez platformę TikTok naruszają unijny Akt o usługach cyfrowych (DSA). To kolejny krok w stronę potencjalnie wysokich kar finansowych dla gigantów technologicznych.\n\n\n\nAzja i Rynki Wschodzące\n\nCzystki w chińskiej bankowości: Były wiceprezes Bank of China został wydalony z partii pod zarzutem korupcji. Pekin kontynuuje agresywną kampanię “oczyszczania” sektora finansowego, co wpływa na zmienność lokalnych indeksów bankowych.\nWybory w Japonii: Inwestorzy z uwagą śledzą nastroje przedwyborcze w Kraju Kwitnącej Wiśni. Wynik może zadecydować o dalszej polityce osłabiania jena, co jest kluczowe dla japońskich eksporterów i hossy na indeksie Nikkei.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży instrumentów finansowych.\n\n\n\nŹródła: - Breaking The News - Bankier.pl - Polska Agencja Prasowa"
   },
   {
-    "objectID": "sentyment-rynku/usa.html#o-wskaźniku",
-    "href": "sentyment-rynku/usa.html#o-wskaźniku",
-    "title": "Sentyment rynku - USA",
+    "objectID": "spolki/zab.html",
+    "href": "spolki/zab.html",
+    "title": "Żabka Group S.A. (ZAB)",
     "section": "",
-    "text": "Sentyment rynku to wskaźnik nastrojów inwestorów na amerykańskim rynku kapitałowym. Mierzy on emocjonalny stosunek uczestników rynku do sytuacji na giełdzie, pokazując czy przeważają postawy optymistyczne czy pesymistyczne. Wskaźnik ten może sygnalizować potencjalne punkty zwrotne na rynku, gdy nastroje osiągają ekstremalne poziomy.\nSentyment rynku często wyprzedza ruchy cenowe indeksów giełdowych. Skrajny pesymizm może wskazywać na wyprzedanie rynku i potencjalne dno, podczas gdy ekstremalne nastroje euforyczne mogą poprzedzać korekty spadkowe. Warto jednak pamiętać, że sentyment to tylko jedno z narzędzi analitycznych i powinien być stosowany w połączeniu z innymi metodami analizy rynku."
+    "text": "← Spółki GPW | Ticker: ZAB | Żabka Group S.A. | Siedziba: Polska | WWW: zabkagroup.com | Branża: Handel i konsumpcja | Podbranża: sieci convenience"
   },
   {
-    "objectID": "sentyment-rynku/usa.html#wykres-sentymentu-rynku",
-    "href": "sentyment-rynku/usa.html#wykres-sentymentu-rynku",
-    "title": "Sentyment rynku - USA",
+    "objectID": "spolki/pkn.html",
+    "href": "spolki/pkn.html",
+    "title": "ORLEN S.A. (PKN)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: PKN | ORLEN S.A. | Siedziba: Polska | WWW: orlen.pl | Branża: Surowce i energia | Podbranża: rafinerie i produkcja paliw"
+  },
+  {
+    "objectID": "spolki/kgh.html",
+    "href": "spolki/kgh.html",
+    "title": "KGHM Polska Miedź S.A. (KGH)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: KGH | KGHM Polska Miedź S.A. | Siedziba: Polska | WWW: kghm.com | Branża: Surowce i energia | Podbranża: górnictwo rud metali"
+  },
+  {
+    "objectID": "spolki/alr.html",
+    "href": "spolki/alr.html",
+    "title": "Alior Bank S.A. (ALR)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: ALR | Alior Bank S.A. | Siedziba: Polska | WWW: aliorbank.pl | Branża: Finanse | Podbranża: banki uniwersalne"
+  },
+  {
+    "objectID": "spolki/pzu.html",
+    "href": "spolki/pzu.html",
+    "title": "PZU S.A. (PZU)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: PZU | PZU S.A. | Siedziba: Polska | WWW: pzu.pl | Branża: Finanse | Podbranża: ubezpieczenia majątkowe"
+  },
+  {
+    "objectID": "spolki/ale.html",
+    "href": "spolki/ale.html",
+    "title": "Allegro.eu S.A. (ALE)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: ALE | Allegro.eu S.A. | Siedziba: Polska | WWW: allegro.eu | Branża: Technologie i IT | Podbranża: e-commerce"
+  },
+  {
+    "objectID": "spolki/pco.html",
+    "href": "spolki/pco.html",
+    "title": "Pepco Group N.V. (PCO)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: PCO | Pepco Group N.V. | Siedziba: Polska | WWW: pepcogroup.eu | Branża: Handel i konsumpcja | Podbranża: handel hurtowy FMCG"
+  },
+  {
+    "objectID": "spolki/dnp.html",
+    "href": "spolki/dnp.html",
+    "title": "DINO POLSKA S.A. (DNP)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: DNP | DINO POLSKA S.A. | Siedziba: Polska | WWW: grupadino.pl | Branża: Handel i konsumpcja | Podbranża: handel detaliczny spożywczy"
+  },
+  {
+    "objectID": "spolki/lbw.html",
+    "href": "spolki/lbw.html",
+    "title": "Lubawa S.A. (LBW)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: LBW | Lubawa S.A. | Siedziba: Polska | WWW: lubawagroup.com | Branża: Przemysł i produkcja | Podbranża: Lotnictwo i obronność"
+  },
+  {
+    "objectID": "spolki/spl.html",
+    "href": "spolki/spl.html",
+    "title": "Santander Bank Polska S.A. (SPL)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: SPL | Santander Bank Polska S.A. | Siedziba: Polska | WWW: santander.pl | Branża: Finanse | Podbranża: banki uniwersalne"
+  },
+  {
+    "objectID": "spolki/xtb.html",
+    "href": "spolki/xtb.html",
+    "title": "XTB S.A. (XTB)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: XTB | XTB S.A. | Siedziba: Polska | WWW: xtb.com | Branża: Finanse | Podbranża: domy maklerskie i brokerzy"
+  },
+  {
+    "objectID": "spolki/peo.html",
+    "href": "spolki/peo.html",
+    "title": "Bank Pekao S.A. (PEO)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: PEO | Bank Pekao S.A. | Siedziba: Polska | WWW: pekao.com.pl | Branża: Finanse | Podbranża: banki uniwersalne"
+  },
+  {
+    "objectID": "spolki/ccc.html",
+    "href": "spolki/ccc.html",
+    "title": "Grupa CCC S.A. (CCC)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: CCC | Grupa CCC S.A. | Siedziba: Polska | WWW: corporate.ccc.eu | Branża: Handel i konsumpcja | Podbranża: handel detaliczny obuwiem"
+  },
+  {
+    "objectID": "spolki/lpp.html",
+    "href": "spolki/lpp.html",
+    "title": "LPP S.A. (LPP)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: LPP | LPP S.A. | Siedziba: Polska | WWW: lpp.com | Branża: Handel i konsumpcja | Podbranża: handel detaliczny odzieżowy"
+  },
+  {
+    "objectID": "spolki/pko.html",
+    "href": "spolki/pko.html",
+    "title": "PKO Bank Polski S.A. (PKO)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: PKO | PKO Bank Polski S.A. | Siedziba: Polska | WWW: pkobp.pl | Branża: Finanse | Podbranża: banki uniwersalne"
+  },
+  {
+    "objectID": "spolki/cdr.html",
+    "href": "spolki/cdr.html",
+    "title": "CD PROJEKT S.A. (CDR)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: CDR | CD PROJEKT S.A. | Siedziba: Polska | WWW: cdprojekt.com | Branża: Technologie i IT | Podbranża: gaming"
+  },
+  {
+    "objectID": "R/testy.html",
+    "href": "R/testy.html",
+    "title": "R Notebook",
+    "section": "",
+    "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.6\n✔ forcats   1.0.0     ✔ stringr   1.6.0\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.2.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(xts)\n\nLoading required package: zoo\n\nAttaching package: 'zoo'\n\nThe following objects are masked from 'package:base':\n\n    as.Date, as.Date.numeric\n\n\n######################### Warning from 'xts' package ##########################\n#                                                                             #\n# The dplyr lag() function breaks how base R's lag() function is supposed to  #\n# work, which breaks lag(my_xts). Calls to lag(my_xts) that you type or       #\n# source() into this session won't work correctly.                            #\n#                                                                             #\n# Use stats::lag() to make sure you're not using dplyr::lag(), or you can add #\n# conflictRules('dplyr', exclude = 'lag') to your .Rprofile to stop           #\n# dplyr from breaking base R's lag() function.                                #\n#                                                                             #\n# Code in packages is not affected. It's protected by R's namespace mechanism #\n# Set `options(xts.warn_dplyr_breaks_lag = FALSE)` to suppress this warning.  #\n#                                                                             #\n###############################################################################\n\nAttaching package: 'xts'\n\nThe following objects are masked from 'package:dplyr':\n\n    first, last\n\ntest_prices &lt;- readRDS(\"../data/prices100.RDS\")\n\n\n\ncolnames(test_prices)\n\n [1] \"Date\" \"KGH\"  \"PKO\"  \"PKN\"  \"ZAB\"  \"ALE\"  \"PEO\"  \"PZU\"  \"CDR\"  \"LPP\" \n[11] \"DNP\"  \"CCC\"  \"ALR\"  \"XTB\"  \"SPL\"  \"PCO\"  \"PGE\"  \"CAR\"  \"BDX\"  \"MBK\" \n[21] \"TPE\"  \"ACP\"  \"BFT\"  \"KTY\"  \"JSW\"  \"KRU\"  \"DIG\"  \"DIA\"  \"CPS\"  \"APR\" \n[31] \"MIL\"  \"RBW\"  \"OPL\"  \"DAD\"  \"ENA\"  \"ASB\"  \"SNT\"  \"CRI\"  \"TXT\"  \"PXM\" \n[41] \"BHW\"  \"LBW\"  \"CIG\"  \"EAT\"  \"APT\"  \"CBF\"  \"11B\"  \"ENG\"  \"ASM\"  \"TEN\" \n[51] \"WPL\"  \"GPW\"  \"ATT\"  \"MRB\"  \"PKP\"  \"FRO\"  \"BMC\"  \"MBR\"  \"GRX\"  \"ING\" \n[61] \"EUR\"  \"TRK\"  \"SLV\"  \"TOR\"  \"DAT\"  \"PEP\"  \"GPP\"  \"PLW\"  \"DVL\"  \"ELT\" \n[71] \"RVU\"  \"MDG\"  \"VRG\"  \"SCP\"  \"SPR\"  \"ECH\"  \"WTN\"  \"KER\"  \"TOA\"  \"PCR\" \n[81] \"BCX\"  \"MUR\"  \"LWB\"  \"DOM\"  \"NWG\"  \"SGN\"  \"4MS\"  \"STX\"  \"ENT\"  \"NEU\" \n[91] \"MLS\"  \"CLC\"  \"PAS\"  \"ALL\"  \"ICE\"  \"BNP\"  \"CRJ\""
+  },
+  {
+    "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html",
+    "href": "posts/2024-11-21-indeks-trendow-analiza/index.html",
+    "title": "Dywergencja na GPW: co mówi indeks trendów?",
+    "section": "",
+    "text": "W ostatnich tygodniach na warszawskiej giełdzie możemy obserwować klasyczny przykład negatywnej dywergencji między zachowaniem głównych indeksów a szerokością rynku. To sytuacja, która powinna przykuć uwagę każdego świadomego inwestora."
+  },
+  {
+    "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html#sytuacja-na-rynku",
+    "href": "posts/2024-11-21-indeks-trendow-analiza/index.html#sytuacja-na-rynku",
+    "title": "Dywergencja na GPW: co mówi indeks trendów?",
+    "section": "",
+    "text": "W ostatnich tygodniach na warszawskiej giełdzie możemy obserwować klasyczny przykład negatywnej dywergencji między zachowaniem głównych indeksów a szerokością rynku. To sytuacja, która powinna przykuć uwagę każdego świadomego inwestora."
+  },
+  {
+    "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html#wykres-roczny-punkt-zwrotny-we-wrześniu",
+    "href": "posts/2024-11-21-indeks-trendow-analiza/index.html#wykres-roczny-punkt-zwrotny-we-wrześniu",
+    "title": "Dywergencja na GPW: co mówi indeks trendów?",
+    "section": "Wykres roczny: punkt zwrotny we wrześniu",
+    "text": "Wykres roczny: punkt zwrotny we wrześniu\nAby zrozumieć obecną sytuację, przyjrzyjmy się szerszej perspektywie - ostatniemu roku na GPW:\n\n\n\n\n\n\n\nKluczowe obserwacje z wykresu rocznego\nSzczególnie wyraźnie dywergencja ujawniła się od początku września 2024. Do tego momentu indeks trendów i główne indeksy poruszały się w podobnym kierunku - gdy indeksy rosły, rosła też szerokość rynku, a gdy spadały, szerokość też słabła. Od września jednak nastąpiła fundamentalna zmiana:\n\nIndeks trendów zaczął wyraźnie spadać, tracąc od września około 20 punktów procentowych\nWIG i WIG20 kontynuowały wzrosty, osiągając nowe lokalne maksima\nTa rozbieżność sygnalizuje, że wzrosty głównych indeksów są coraz bardziej skoncentrowane na wąskiej grupie spółek\n\nTo klasyczny sygnał ostrzegawczy - rynek “wybiega” napędzany przez coraz mniejszą liczbę graczy.\n\n\nAktualne liczby\nGłówne indeksy - ostatni kwartał (60 sesji):\n\nWIG20: 4.59%\nWIG: 4.09%\n\nIndeks trendów (szerokość rynku):\n\nAktualnie: 58.9% spółek w trendzie wzrostowym\nŚrednia (ostatni miesiąc): 63.2%\nZakres (ostatni miesiąc): 55.8% - 68.4%\nZmiana od września: -1.3 pp ⬇️\n\nAktualnie mniej niż 60% spółek znajduje się w trendzie wzrostowym. Co więcej, w ostatnim miesiącu obserwowaliśmy momenty, gdy indeks trendów spadał poniżej 56%, co jest wyraźnym sygnałem ostrzegawczym."
+  },
+  {
+    "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html#dywergencja-w-szczegółach-ostatni-kwartał",
+    "href": "posts/2024-11-21-indeks-trendow-analiza/index.html#dywergencja-w-szczegółach-ostatni-kwartał",
+    "title": "Dywergencja na GPW: co mówi indeks trendów?",
+    "section": "Dywergencja w szczegółach (ostatni kwartał)",
+    "text": "Dywergencja w szczegółach (ostatni kwartał)\nPrzyjrzyjmy się bliżej ostatnim trzem miesiącom, aby lepiej zobaczyć skalę dywergencji:\n\n\n\n\n\n\n\n\n\n\n\n\nJak czytać wykres?\n\n\n\n\nIndeks Trendów (niebieski, lewa oś): pokazuje procent spółek w trendzie wzrostowym (0-100%)\nWIG20 i WIG (pomarańczowy/zielony, prawa oś): znormalizowane do skali 0-100 dla porównywalności\nWartości &gt; 60% w indeksie trendów sugerują zdrową szerokość rynku\nWartości &lt; 50% sugerują przewagę trendów spadkowych\nDywergencja: gdy indeksy rosną, ale indeks trendów spada - to sygnał ostrzegawczy"
+  },
+  {
+    "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html#zoom-ostatni-miesiąc",
+    "href": "posts/2024-11-21-indeks-trendow-analiza/index.html#zoom-ostatni-miesiąc",
+    "title": "Dywergencja na GPW: co mówi indeks trendów?",
+    "section": "Zoom: ostatni miesiąc",
+    "text": "Zoom: ostatni miesiąc\nZnormalizowanie wszystkich wskaźników do 100 na początku ostatniego miesiąca pozwala jeszcze wyraźniej zobaczyć rozbieżność w zachowaniu głównych indeksów i szerokości rynku:"
+  },
+  {
+    "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html#co-to-oznacza-dla-inwestorów",
+    "href": "posts/2024-11-21-indeks-trendow-analiza/index.html#co-to-oznacza-dla-inwestorów",
+    "title": "Dywergencja na GPW: co mówi indeks trendów?",
+    "section": "Co to oznacza dla inwestorów?",
+    "text": "Co to oznacza dla inwestorów?\n\n1. Koncentracja wzrostów\nGdy główne indeksy rosną, ale szerokość rynku słabnie, oznacza to, że wzrosty są generowane przez coraz mniejszą grupę spółek. Na GPW są to zazwyczaj:\n\nNajwiększe spółki z WIG20 (szczególnie te z wysoką wagą w indeksie)\nSpółki z sektorów preferowanych przez inwestorów zagranicznych\nNieliczne historie wzrostowe, które przyciągają kapitał\n\n\n\n2. Sygnał ostrzegawczy\nNegatywna dywergencja między szerokością rynku a głównym indeksem historycznie była wczesnym sygnałem ostrzegawczym przed:\n\nKorektami rynkowymi\nZmianą trendu z wzrostowego na spadkowy\n\nOkresami zwiększonej zmienności\n\nNie oznacza to automatycznego spadku - rynek może kontynuować wzrosty napędzany przez wąską grupę spółek przez wiele tygodni lub nawet miesięcy. Jednak ryzyko nagłego odwrócenia trendu wzrasta.\n\n\n3. Implikacje dla strategii inwestycyjnej\nW obecnej sytuacji warto rozważyć:\nDla inwestorów długoterminowych: - Zachowanie ostrożności przy nowych pozycjach - Przegląd portfela pod kątem dywersyfikacji - Unikanie “gonienia się” za droższymi spółkami z WIG20\nDla traderów krótkoterminowych: - Śledzenie spółek, które faktycznie uczestniczą we wzrostach - Zwracanie uwagi na sygnały zmiany sentymentu - Przygotowanie strategii defensywnych"
+  },
+  {
+    "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html#dalsze-monitorowanie",
+    "href": "posts/2024-11-21-indeks-trendow-analiza/index.html#dalsze-monitorowanie",
+    "title": "Dywergencja na GPW: co mówi indeks trendów?",
+    "section": "Dalsze monitorowanie",
+    "text": "Dalsze monitorowanie\nW kolejnych dniach i tygodniach kluczowe będzie obserwowanie, czy:\n\nSzerokość rynku zacznie się poprawiać - co potwierdziłoby siłę trendu wzrostowego\nGłówne indeksy podążą za słabnącą szerokością w dół - realizacja negatywnej dywergencji\nSytuacja się ustabilizuje na obecnych poziomach\n\n\n\n\n\n\n\nRegularnie sprawdzaj indeks trendów\n\n\n\nIndeks trendów GPW jest aktualizowany codziennie. Śledź jego wartości na stronie głównej indeksu, aby być na bieżąco z szerokością rynku."
+  },
+  {
+    "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html#podsumowanie",
+    "href": "posts/2024-11-21-indeks-trendow-analiza/index.html#podsumowanie",
+    "title": "Dywergencja na GPW: co mówi indeks trendów?",
+    "section": "Podsumowanie",
+    "text": "Podsumowanie\nObecna sytuacja na GPW to podręcznikowy przykład negatywnej dywergencji:\n\nOd września 2024 obserwujemy fundamentalną zmianę charakteru rynku\nDo września indeksy i szerokość rynku poruszały się zgodnie\nOd września główne indeksy rosną, ale szerokość rynku wyraźnie słabnie\nWzrosty są coraz bardziej skoncentrowane na wąskiej grupie spółek\nTo zwiększa ryzyko korekty w średnim terminie\n\nŚwiadomy inwestor powinien dostosować swoją strategię do tej sytuacji - nie panikować, ale być przygotowanym na zwiększoną zmienność i potencjalną zmianę trendu.\n\n\n\n\n\n\n\nO tej serii\n\n\n\nTo pierwszy post z cyklicznej serii analiz indeksu trendów GPW. W kolejnych tygodniach będziemy regularnie monitorować szerokość rynku i identyfikować kluczowe zmiany w zachowaniu warszawskiej giełdy.\n\n\nData publikacji: 21 November 2025\nDane aktualne na: 20 November 2025"
+  },
+  {
+    "objectID": "posts/2026-02-06-prasowka-popoludniowa-test/index.html",
+    "href": "posts/2026-02-06-prasowka-popoludniowa-test/index.html",
+    "title": "Popołudniowy przegląd rynków: Stalexport zyskuje, RPP o inflacji",
+    "section": "",
+    "text": "Piątkowe popołudnie na warszawskim parkiecie upływa pod znakiem publikacji szacunkowych wyników finansowych oraz analizy protokołu z ostatniego posiedzenia Rady Polityki Pieniężnej.\n\nPoranek na GPW i sesja\nGłówne indeksy utrzymują stabilne poziomy, choć uwaga inwestorów przenosi się na konkretne spółki raportujące dane za ubiegły rok. Mimo mroźnej aury za oknem, nastroje na parkiecie pozostają umiarkowane.\n\n\nZe spółek\n\nStalexport Autostrady (STX): Spółka opublikowała szacunkowe dane za 2025 rok. Skonsolidowany zysk netto przypadający akcjonariuszom jednostki dominującej wyniósł 86,3 mln zł. Choć jest to wynik niższy niż rok wcześniej (132,9 mln zł), inwestorzy analizują rentowność operacyjną w trudniejszym otoczeniu.\nOrlen Synthos Green Energy (OSGE): Energetyka jądrowa nabiera tempa. Spółka wystąpiła o decyzje zasadnicze dla dwóch dodatkowych bloków we Włocławku, co potwierdza długofalowy kierunek transformacji sektora.\nPKP: Grupa ogłosiła ambitną strategię do 2030 roku, zakładającą nie tylko inwestycje w tabor, ale i rozszerzenie działalności o usługi hotelowe marki “Wars”.\n\n\n\nMakro & Świat\n\nRPP o inflacji: Z opisu dyskusji z posiedzenia Rady wynika, że inflacja w kolejnych kwartałach 2026 roku powinna pozostać zgodna z celem NBP. Pojawiają się głosy wskazujące na stopniowy spadek dynamiki płac, co może otwierać pole do dyskusji o stopach w dalszej części roku.\nRezerwy NBP: Oficjalne aktywa rezerwowe Polski wzrosły do 246,8 mld euro na koniec stycznia. Znaczący wpływ na ten wynik miał wzrost wartości posiadanego złota.\nWall Street i świat: Inwestorzy obserwują zbliżenie handlowe USA z Argentyną, co może wpłynąć na globalne ceny żywności. Jednocześnie KE zaostrza ton wobec TikToka, zarzucając mu naruszanie unijnych przepisów o usługach cyfrowych.\n\n\n\nSentyment & Technika\nRynek pozostaje w fazie wyczekiwania. Analiza narracji medialnej sugeruje przewagę stonowanego optymizmu, choć czynniki geoekonomiczne (szczególnie w relacjach USA-Chiny) pozostają monitorowane jako główne ryzyko.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży instrumentów finansowych.\n\n\n\nŹródła: - Stalexport szacuje wyniki (Bankier.pl) - RPP o inflacji i stopach (Bankier.pl) - Plany OSGE we Włocławku (Polska Agencja Prasowa)"
+  },
+  {
+    "objectID": "sentyment-rynku/swiat.html",
+    "href": "sentyment-rynku/swiat.html",
+    "title": "Sentyment rynku - Świat",
+    "section": "",
+    "text": "Sentyment rynku na światowych rynkach - analiza nastrojów inwestorów na głównych giełdach świata."
+  },
+  {
+    "objectID": "sentyment-rynku/swiat.html#wprowadzenie",
+    "href": "sentyment-rynku/swiat.html#wprowadzenie",
+    "title": "Sentyment rynku - Świat",
+    "section": "",
+    "text": "Sentyment rynku na światowych rynkach - analiza nastrojów inwestorów na głównych giełdach świata."
+  },
+  {
+    "objectID": "sentyment-rynku/swiat.html#główne-rynki",
+    "href": "sentyment-rynku/swiat.html#główne-rynki",
+    "title": "Sentyment rynku - Świat",
+    "section": "Główne rynki",
+    "text": "Główne rynki\n\nStany Zjednoczone\nAnaliza sentymentu na NYSE i NASDAQ.\n\n\nEuropa\nNastroje inwestorów na głównych giełdach europejskich.\n\n\nAzja\nSentyment na rynkach azjatyckich."
+  },
+  {
+    "objectID": "sentyment-rynku/swiat.html#wskaźniki-globalne",
+    "href": "sentyment-rynku/swiat.html#wskaźniki-globalne",
+    "title": "Sentyment rynku - Świat",
+    "section": "Wskaźniki globalne",
+    "text": "Wskaźniki globalne\n\nVIX (indeks strachu)\nPrzepływy kapitału\nPoziom ryzyka"
+  },
+  {
+    "objectID": "sentyment-rynku/polska.html",
+    "href": "sentyment-rynku/polska.html",
+    "title": "Sentyment rynku - Polska",
+    "section": "",
+    "text": "Sentyment rynku to wskaźnik nastrojów inwestorów na Giełdzie Papierów Wartościowych w Warszawie. Mierzy on emocjonalny stosunek uczestników rynku do sytuacji na giełdzie, pokazując czy przeważają postawy optymistyczne czy pesymistyczne. Wskaźnik ten może sygnalizować potencjalne punkty zwrotne na rynku, gdy nastroje osiągają ekstremalne poziomy.\nSentyment rynku często wyprzedza ruchy cenowe indeksów giełdowych. Skrajny pesymizm może wskazywać na wyprzedanie rynku i potencjalne dno, podczas gdy ekstremalne nastroje euforyczne mogą poprzedzać korekty spadkowe. Warto jednak pamiętać, że sentyment to tylko jedno z narzędzi analitycznych i powinien być stosowany w połączeniu z innymi metodami analizy rynku."
+  },
+  {
+    "objectID": "sentyment-rynku/polska.html#o-wskaźniku",
+    "href": "sentyment-rynku/polska.html#o-wskaźniku",
+    "title": "Sentyment rynku - Polska",
+    "section": "",
+    "text": "Sentyment rynku to wskaźnik nastrojów inwestorów na Giełdzie Papierów Wartościowych w Warszawie. Mierzy on emocjonalny stosunek uczestników rynku do sytuacji na giełdzie, pokazując czy przeważają postawy optymistyczne czy pesymistyczne. Wskaźnik ten może sygnalizować potencjalne punkty zwrotne na rynku, gdy nastroje osiągają ekstremalne poziomy.\nSentyment rynku często wyprzedza ruchy cenowe indeksów giełdowych. Skrajny pesymizm może wskazywać na wyprzedanie rynku i potencjalne dno, podczas gdy ekstremalne nastroje euforyczne mogą poprzedzać korekty spadkowe. Warto jednak pamiętać, że sentyment to tylko jedno z narzędzi analitycznych i powinien być stosowany w połączeniu z innymi metodami analizy rynku."
+  },
+  {
+    "objectID": "sentyment-rynku/polska.html#wykres-sentymentu-rynku",
+    "href": "sentyment-rynku/polska.html#wykres-sentymentu-rynku",
+    "title": "Sentyment rynku - Polska",
     "section": "Wykres sentymentu rynku",
-    "text": "Wykres sentymentu rynku\nPoniższe wykresy przedstawiają znormalizowany wskaźnik sentymentu rynku (0-100) na tle znormalizowanych indeksów S&P 500 i Nasdaq. Ze względu na przerwę w zbieraniu danych prezentujemy dwa oddzielne okresy. Możesz przybliżać wykresy i sprawdzać wartości dla konkretnych dat.\n\nOkres historyczny: wrzesień 2023 - listopad 2024\n\n\n\n\n\n\n\n\nOkres aktualny: marzec 2025 - dzisiaj\n\n\n\n\n\n\n\n\n\n\n\n\nJak czytać wykresy?\n\n\n\n\nSentyment rynku (niebieski): znormalizowany wskaźnik nastrojów (0-100)\nS&P 500 i Nasdaq (pomarańczowy/zielony): znormalizowane do skali 0-100 dla porównywalności\nWartości &gt; 70 sugerują bardzo optymistyczne nastroje (potencjalne wykupienie)\nWartości &lt; 30 sugerują pesymistyczne nastroje (potencjalne wyprzedanie)\nWartości 40-60 wskazują na neutralny sentyment rynku\n\n\n\n\n\n\n\n\n\nUwaga o przerwę w danych\n\n\n\nZe względów technicznych wystąpiła przerwa w zbieraniu danych od listopada 2024 do marca 2025. Dlatego prezentujemy dwa oddzielne wykresy pokazujące kolejne okresy dostępności danych."
+    "text": "Wykres sentymentu rynku\nPoniższy wykres przedstawia znormalizowany wskaźnik sentymentu rynku (0-100) na tle znormalizowanych indeksów WIG20 i WIG z ostatnich 250 sesji giełdowych. Możesz go przybliżać i sprawdzać wartości dla konkretnych dat.\n\n\n\n\n\n\n\n\n\n\n\n\nJak czytać wykres?\n\n\n\n\nSentyment rynku (niebieski): znormalizowany wskaźnik nastrojów (0-100)\nWIG20 i WIG (pomarańczowy/zielony): znormalizowane do skali 0-100 dla porównywalności\nWartości &gt; 70 sugerują bardzo optymistyczne nastroje (potencjalne wykupienie)\nWartości &lt; 30 sugerują pesymistyczne nastroje (potencjalne wyprzedanie)\nWartości 40-60 wskazują na neutralny sentyment rynku"
   },
   {
-    "objectID": "sentyment-rynku/usa.html#ostatnie-60-sesji",
-    "href": "sentyment-rynku/usa.html#ostatnie-60-sesji",
-    "title": "Sentyment rynku - USA",
+    "objectID": "sentyment-rynku/polska.html#ostatnie-60-sesji",
+    "href": "sentyment-rynku/polska.html#ostatnie-60-sesji",
+    "title": "Sentyment rynku - Polska",
     "section": "Ostatnie 60 sesji",
-    "text": "Ostatnie 60 sesji\nTabela przedstawia szczegółowe wartości sentymentu rynku oraz głównych indeksów amerykańskich z ostatnich 60 sesji giełdowych (kwartał).\n\n\n\n\n\nWartości sentymentu rynku i głównych indeksów USA (ostatnie 60 sesji)\n\n\nData\nSentyment\nS&P 500\nNasdaq\n\n\n\n\n2025-11-17\n39.6\n6672.41\n22708.07\n\n\n2025-11-16\n36.9\n6734.11\n22900.59\n\n\n2025-11-15\n37.7\n6734.11\n22900.59\n\n\n2025-11-14\n35.0\n6734.11\n22900.59\n\n\n2025-11-13\n39.6\n6737.49\n22870.36\n\n\n2025-11-12\n45.0\n6850.92\n23406.46\n\n\n2025-11-11\n50.8\n6832.43\n23527.17\n\n\n2025-11-10\n59.6\n6832.43\n23527.17\n\n\n2025-11-09\n51.9\n6728.80\n23004.54\n\n\n2025-11-08\n53.5\n6728.80\n23004.54\n\n\n2025-11-07\n55.4\n6728.80\n23004.54\n\n\n2025-11-06\n60.8\n6720.32\n23053.99\n\n\n2025-11-05\n56.9\n6796.29\n23499.80\n\n\n2025-11-04\n60.8\n6771.55\n23348.64\n\n\n2025-11-03\n64.2\n6851.97\n23834.72\n\n\n2025-11-02\n58.8\n6840.20\n23724.96\n\n\n2025-11-01\n52.7\n6840.20\n23724.96\n\n\n2025-10-31\n46.9\n6840.20\n23724.96\n\n\n2025-10-30\n56.2\n6822.34\n23581.14\n\n\n2025-10-29\n53.5\n6890.59\n23958.47\n\n\n2025-10-28\n49.6\n6890.89\n23827.49\n\n\n2025-10-27\n48.8\n6875.16\n23637.46\n\n\n2025-10-26\n45.4\n6791.69\n23204.87\n\n\n2025-10-25\n40.4\n6791.69\n23204.87\n\n\n2025-10-24\n34.6\n6791.69\n23204.87\n\n\n2025-10-23\n33.8\n6738.44\n22941.80\n\n\n2025-10-22\n37.7\n6699.40\n22740.40\n\n\n2025-10-21\n36.2\n6735.35\n22953.67\n\n\n2025-10-20\n23.5\n6735.13\n22990.54\n\n\n2025-10-19\n23.8\n6664.01\n22679.97\n\n\n2025-10-18\n25.8\n6664.01\n22679.97\n\n\n2025-10-17\n28.8\n6664.01\n22679.97\n\n\n2025-10-16\n31.2\n6629.07\n22562.54\n\n\n2025-10-15\n33.5\n6671.06\n22670.08\n\n\n2025-10-14\n41.5\n6644.31\n22521.70\n\n\n2025-10-13\n46.2\n6654.72\n22694.61\n\n\n2025-10-12\n46.5\n6552.51\n22204.43\n\n\n2025-10-11\n49.6\n6552.51\n22204.43\n\n\n2025-10-10\n52.3\n6552.51\n22204.43\n\n\n2025-10-09\n50.4\n6735.11\n23024.63\n\n\n2025-10-08\n46.2\n6753.72\n23043.38\n\n\n2025-10-07\n47.3\n6714.59\n22788.36\n\n\n2025-10-06\n47.3\n6740.28\n22941.67\n\n\n2025-10-05\n50.8\n6715.79\n22780.51\n\n\n2025-10-04\n46.9\n6715.79\n22780.51\n\n\n2025-10-03\n42.7\n6715.79\n22780.51\n\n\n2025-10-02\n46.5\n6715.35\n22844.05\n\n\n2025-10-01\n40.0\n6711.20\n22755.16\n\n\n2025-09-30\n45.0\n6688.46\n22660.01\n\n\n2025-09-29\n48.5\n6661.21\n22591.15\n\n\n2025-09-28\n58.1\n6643.70\n22484.07\n\n\n2025-09-27\n54.2\n6643.70\n22484.07\n\n\n2025-09-26\n60.8\n6643.70\n22484.07\n\n\n2025-09-25\n56.5\n6604.72\n22384.70\n\n\n2025-09-24\n56.2\n6637.97\n22497.86\n\n\n2025-09-23\n54.2\n6656.92\n22573.47\n\n\n2025-09-22\n48.1\n6693.75\n22788.98\n\n\n2025-09-21\n51.2\n6664.36\n22631.48\n\n\n2025-09-20\n53.1\n6664.36\n22631.48\n\n\n2025-09-19\n57.3\n6664.36\n22631.48"
+    "text": "Ostatnie 60 sesji\nTabela przedstawia szczegółowe wartości sentymentu rynku oraz głównych indeksów GPW z ostatnich 60 sesji giełdowych (kwartał).\n\n\n\n\n\nWartości sentymentu rynku i głównych indeksów GPW (ostatnie 60 sesji)\n\n\nData\nSentyment\nWIG20\nWIG\n\n\n\n\n2025-11-18\n79.4\n2903.10\n108437.93\n\n\n2025-11-17\n87.0\n2956.16\n110616.15\n\n\n2025-11-16\n91.5\n2990.37\n111687.24\n\n\n2025-11-15\n93.5\n2990.37\n111687.24\n\n\n2025-11-14\n93.5\n2990.37\n111687.24\n\n\n2025-11-13\n93.9\n3016.16\n112532.48\n\n\n2025-11-12\n93.9\n3023.24\n112760.18\n\n\n2025-11-11\n93.1\n3019.29\n112668.07\n\n\n2025-11-10\n90.7\n3019.29\n112668.07\n\n\n2025-11-09\n86.2\n2970.61\n110985.15\n\n\n2025-11-08\n90.7\n2970.61\n110985.15\n\n\n2025-11-07\n91.5\n2970.61\n110985.15\n\n\n2025-11-06\n89.9\n3006.58\n112192.96\n\n\n2025-11-05\n92.7\n2977.25\n111559.98\n\n\n2025-11-04\n100.0\n2978.38\n111372.83\n\n\n2025-11-03\n97.6\n3005.61\n112058.99\n\n\n2025-11-02\n97.2\n2987.33\n111487.05\n\n\n2025-11-01\n98.8\n2987.33\n111487.05\n\n\n2025-10-31\n95.5\n2987.33\n111487.05\n\n\n2025-10-30\n98.8\n3029.29\n112708.11\n\n\n2025-10-29\n93.1\n3038.56\n113294.48\n\n\n2025-10-28\n91.1\n3041.52\n113459.04\n\n\n2025-10-27\n90.7\n2980.91\n111612.44\n\n\n2025-10-26\n82.2\n2981.19\n111427.76\n\n\n2025-10-25\n70.9\n2981.19\n111427.76\n\n\n2025-10-24\n67.6\n2981.19\n111427.76\n\n\n2025-10-23\n66.0\n2984.67\n111568.93\n\n\n2025-10-22\n67.6\n2958.78\n110937.56\n\n\n2025-10-21\n61.1\n2912.05\n109511.51\n\n\n2025-10-20\n51.0\n2916.61\n109618.82\n\n\n2025-10-19\n55.1\n2872.02\n107764.77\n\n\n2025-10-18\n44.5\n2872.02\n107764.77\n\n\n2025-10-17\n42.1\n2872.02\n107764.77\n\n\n2025-10-16\n47.4\n2887.16\n108214.71\n\n\n2025-10-15\n47.8\n2901.08\n108729.37\n\n\n2025-10-14\n48.2\n2844.05\n106653.38\n\n\n2025-10-13\n52.6\n2875.17\n107846.06\n\n\n2025-10-12\n46.6\n2873.04\n107951.51\n\n\n2025-10-11\n52.6\n2873.04\n107951.51\n\n\n2025-10-10\n57.9\n2873.04\n107951.51\n\n\n2025-10-09\n53.0\n2874.30\n108019.25\n\n\n2025-10-08\n60.7\n2877.99\n108295.93\n\n\n2025-10-07\n59.9\n2868.67\n107937.15\n\n\n2025-10-06\n55.1\n2838.10\n107133.09\n\n\n2025-10-05\n57.1\n2862.96\n108016.79\n\n\n2025-10-04\n59.9\n2862.96\n108016.79\n\n\n2025-10-03\n58.7\n2862.96\n108016.79\n\n\n2025-10-02\n58.7\n2861.62\n107695.90\n\n\n2025-10-01\n58.3\n2850.42\n107121.50\n\n\n2025-09-30\n64.0\n2827.17\n106363.86\n\n\n2025-09-29\n72.1\n2832.01\n106524.71\n\n\n2025-09-28\n74.5\n2832.26\n106570.62\n\n\n2025-09-27\n74.5\n2832.26\n106570.62\n\n\n2025-09-26\n74.9\n2832.26\n106570.62\n\n\n2025-09-25\n76.1\n2797.79\n105561.78\n\n\n2025-09-24\n75.3\n2828.82\n106520.90\n\n\n2025-09-23\n75.3\n2819.10\n105866.67\n\n\n2025-09-22\n81.8\n2802.03\n105324.97\n\n\n2025-09-21\n83.4\n2802.69\n105380.97\n\n\n2025-09-20\n80.2\n2802.69\n105380.97"
   },
   {
-    "objectID": "sentyment-rynku/usa.html#metodologia",
-    "href": "sentyment-rynku/usa.html#metodologia",
-    "title": "Sentyment rynku - USA",
+    "objectID": "sentyment-rynku/polska.html#metodologia",
+    "href": "sentyment-rynku/polska.html#metodologia",
+    "title": "Sentyment rynku - Polska",
     "section": "Metodologia",
-    "text": "Metodologia\n\nŹródło danych\nWskaźnik sentymentu rynku jest budowany na podstawie codziennej analizy nagłówków publikowanych na głównych amerykańskich portalach finansowych i biznesowych zajmujących się tematyką rynków kapitałowych. Dane są zbierane od września 2023 roku (z przerwą od listopada 2024 do marca 2025).\n\n\nProces zbierania i obliczania wskaźnika\nProces przebiega w następujących krokach:\n\nZbieranie danych: Codziennie przed rozpoczęciem sesji giełdowej analizowane są strony główne anglojęzycznych serwisów informacyjnych z dziedziny finansów i inwestycji.\nKlasyfikacja nagłówków: Wszystkie zidentyfikowane nagłówki newsów otrzymują klasyfikację sentymentu:\n\n+1 - sentyment pozytywny (nagłówki optymistyczne, wskazujące na dobre wiadomości dla rynku)\n0 - sentyment neutralny (nagłówki informacyjne bez wyraźnego wydźwięku emocjonalnego)\n-1 - sentyment negatywny (nagłówki pesymistyczne, wskazujące na niepokojące informacje)\n\nAgregacja dzienna: Dla każdego serwisu obliczana jest suma sentymentu z danego dnia, następnie sumowane są wartości ze wszystkich analizowanych serwisów, tworząc dzienny wskaźnik sentymentu dla całego rynku.\nNormalizacja: Dzienny sentyment jest normalizowany do skali 0-100, gdzie:\n\n0 oznacza najbardziej pesymistyczne nastroje w historii pomiaru\n100 oznacza najbardziej optymistyczne nastroje w historii pomiaru\n50 reprezentuje neutralny punkt w historycznym rozkładzie nastrojów\n\n\nWskaźnik jest aktualizowany codziennie przed rozpoczęciem sesji giełdowej w USA."
+    "text": "Metodologia\n\nŹródło danych\nWskaźnik sentymentu rynku jest budowany na podstawie codziennej analizy nagłówków publikowanych na stronach głównych największych polskich serwisów zajmujących się tematyką giełdy, rynków finansowych i ekonomii. Dane są zbierane od września 2023 roku.\n\n\nProces zbierania i obliczania wskaźnika\nProces przebiega w następujących krokach:\n\nZbieranie danych: Codziennie przed rozpoczęciem sesji GPW analizowane są strony główne serwisów informacyjnych z dziedziny giełdy i finansów.\nKlasyfikacja nagłówków: Wszystkie zidentyfikowane nagłówki newsów otrzymują klasyfikację sentymentu:\n\n+1 - sentyment pozytywny (nagłówki optymistyczne, wskazujące na dobre wiadomości dla rynku)\n0 - sentyment neutralny (nagłówki informacyjne bez wyraźnego wydźwięku emocjonalnego)\n-1 - sentyment negatywny (nagłówki pesymistyczne, wskazujące na niepokojące informacje)\n\nAgregacja dzienna: Dla każdego serwisu obliczana jest suma sentymentu z danego dnia, następnie sumowane są wartości ze wszystkich analizowanych serwisów, tworząc dzienny wskaźnik sentymentu dla całego rynku.\nNormalizacja: Dzienny sentyment jest normalizowany do skali 0-100, gdzie:\n\n0 oznacza najbardziej pesymistyczne nastroje w historii pomiaru\n100 oznacza najbardziej optymistyczne nastroje w historii pomiaru\n50 reprezentuje neutralny punkt w historycznym rozkładzie nastrojów\n\n\nWskaźnik jest aktualizowany codziennie przed rozpoczęciem sesji GPW."
   },
   {
-    "objectID": "sentyment-rynku/usa.html#potencjalne-zastosowania",
-    "href": "sentyment-rynku/usa.html#potencjalne-zastosowania",
-    "title": "Sentyment rynku - USA",
+    "objectID": "sentyment-rynku/polska.html#potencjalne-zastosowania",
+    "href": "sentyment-rynku/polska.html#potencjalne-zastosowania",
+    "title": "Sentyment rynku - Polska",
     "section": "Potencjalne zastosowania",
-    "text": "Potencjalne zastosowania\n\n1. Identyfikacja ekstremów rynkowych\nWskaźnik sentymentu może sygnalizować ekstrema rynkowe, które często poprzedzają punkty zwrotne:\n\nSkrajny pesymizm (sentyment &lt; 20-30): Może wskazywać na wyprzedanie rynku i potencjalne dno. Gdy większość nagłówków jest negatywna, często oznacza to, że negatywne informacje są już w cenach.\nSkrajna euforia (sentyment &gt; 70-80): Może sygnalizować wykupienie rynku i zwiększone ryzyko korekty. Gdy dominują wyłącznie pozytywne nagłówki, może brakować nowych katalizatorów do dalszego napędzania wzrostów.\n\n\n\n2. Dywergencje z indeksami\nDywergencje między sentymentem a zachowaniem głównych indeksów mogą być szczególnie informacyjne:\n\nPozytywna dywergencja: Sentyment poprawia się, podczas gdy S&P 500/Nasdaq nadal spadają – może zapowiadać zbliżające się odbicie.\nNegatywna dywergencja: Sentyment pogarsza się, mimo że indeksy rosną – ostrzeżenie przed możliwą korektą spadkową.\n\n\n\n3. Potwierdzenie trendów\nSilne trendy są bardziej wiarygodne, gdy sentyment je wspiera:\n\nTrend wzrostowy + rosnący sentyment: Potwierdza siłę hossy\nTrend spadkowy + spadający sentyment: Potwierdza siłę bessy\n\n\n\n4. Wsparcie w analizie rynku\nSentyment może stanowić dodatkowe narzędzie w analizie sytuacji rynkowej:\n\nNiski sentyment (&lt; 30) z oznakami poprawy: Można rozważyć zwiększenie ekspozycji na rynek\nWysoki sentyment (&gt; 70) z oznakami pogorszenia: Można rozważyć redukcję pozycji lub zabezpieczenie portfela\nSentyment w okolicy 40-60: Rynek może być w fazie konsolidacji\n\n\n\n\n\n\n\nWażne zastrzeżenie\n\n\n\nWskaźnik sentymentu rynku jest narzędziem analitycznym służącym do lepszego zrozumienia nastrojów na rynku. Nie stanowi on rekomendacji inwestycyjnej ani porady, jak należy postępować z kapitałem. Sentyment może pozostawać na ekstremalnych poziomach przez dłuższy czas, zanim nastąpi odwrócenie trendu. Powinien być używany w połączeniu z innymi metodami analizy technicznej i fundamentalnej, zawsze z uwzględnieniem indywidualnej tolerancji ryzyka oraz celów inwestycyjnych.\n\n\n\n\n\n\n\n\n\nAktualizacje\n\n\n\nWskaźnik sentymentu rynku jest aktualizowany codziennie przed rozpoczęciem sesji giełdowej w USA, ale na tej stronie wyświetlamy aktualizacje raz na jakiś czas.\nOstatnia aktualizacja danych: 2025-11-17\n\n\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią one porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży jakichkolwiek instrumentów finansowych. Decyzje inwestycyjne powinny być podejmowane na podstawie własnej analizy i po konsultacji z licencjonowanym doradcą finansowym."
+    "text": "Potencjalne zastosowania\n\n1. Identyfikacja ekstremów rynkowych\nWskaźnik sentymentu może sygnalizować ekstrema rynkowe, które często poprzedzają punkty zwrotne:\n\nSkrajny pesymizm (sentyment &lt; 20-30): Może wskazywać na wyprzedanie rynku i potencjalne dno. Gdy większość nagłówków jest negatywna, często oznacza to, że negatywne informacje są już w cenach.\nSkrajna euforia (sentyment &gt; 70-80): Może sygnalizować wykupienie rynku i zwiększone ryzyko korekty. Gdy dominują wyłącznie pozytywne nagłówki, może brakować nowych katalizatorów do dalszego napędzania wzrostów.\n\n\n\n2. Dywergencje z indeksami\nDywergencje między sentymentem a zachowaniem głównych indeksów mogą być szczególnie informacyjne:\n\nPozytywna dywergencja: Sentyment poprawia się, podczas gdy WIG/WIG20 nadal spadają – może zapowiadać zbliżające się odbicie.\nNegatywna dywergencja: Sentyment pogarsza się, mimo że indeksy rosną – ostrzeżenie przed możliwą korektą spadkową.\n\n\n\n3. Potwierdzenie trendów\nSilne trendy są bardziej wiarygodne, gdy sentyment je wspiera:\n\nTrend wzrostowy + rosnący sentyment: Potwierdza siłę hossy\nTrend spadkowy + spadający sentyment: Potwierdza siłę bessy\n\n\n\n4. Wsparcie w analizie rynku\nSentyment może stanowić dodatkowe narzędzie w analizie sytuacji rynkowej:\n\nNiski sentyment (&lt; 30) z oznakami poprawy: Można rozważyć zwiększenie ekspozycji na rynek\nWysoki sentyment (&gt; 70) z oznakami pogorszenia: Można rozważyć redukcję pozycji lub zabezpieczenie portfela\nSentyment w okolicy 40-60: Rynek może być w fazie konsolidacji\n\n\n\n\n\n\n\nWażne zastrzeżenie\n\n\n\nWskaźnik sentymentu rynku jest narzędziem analitycznym służącym do lepszego zrozumienia nastrojów na rynku. Nie stanowi on rekomendacji inwestycyjnej ani porady, jak należy postępować z kapitałem. Sentyment może pozostawać na ekstremalnych poziomach przez dłuższy czas, zanim nastąpi odwrócenie trendu. Powinien być używany w połączeniu z innymi metodami analizy technicznej i fundamentalnej, zawsze z uwzględnieniem indywidualnej tolerancji ryzyka oraz celów inwestycyjnych.\n\n\n\n\n\n\n\n\n\nAktualizacje\n\n\n\nWskaźnik sentymentu rynku jest aktualizowany codziennie przed rozpoczęciem sesji GPW, ale na tej stronie wyświetlamy aktualizacje raz na jakiś czas.\nOstatnia aktualizacja danych: 2025-11-18\n\n\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią one porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży jakichkolwiek instrumentów finansowych. Decyzje inwestycyjne powinny być podejmowane na podstawie własnej analizy i po konsultacji z licencjonowanym doradcą finansowym."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Aktualności z rynku",
+    "objectID": "PROJECT_LOG.html",
+    "href": "PROJECT_LOG.html",
+    "title": "Project: DomenaRynku",
     "section": "",
-    "text": "Flesz ze świata: 20. pakiet sankcji UE i ryzyko shutdownu w USA\n\n\n\n\n\n\nŚwiat\n\n\nMakro\n\n\nGeopolityka\n\n\n\n\n\n\n\n\n\n6 lut 2026\n\n\n\n\n\n\n\n\n\n\n\n\nPopołudniowy przegląd rynków: Stalexport zyskuje, RPP o inflacji\n\n\n\n\n\n\nPrasówka\n\n\nGPW\n\n\nSentyment\n\n\n\n\n\n\n\n\n\n6 lut 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDywergencja na GPW: co mówi indeks trendów?\n\n\nAnaliza szerokości rynku - listopad 2024\n\n\n\nanaliza rynku\n\n\nindeks trendów\n\n\nGPW\n\n\n\nPaździernik i listopad przyniosły interesującą dywergencję na warszawskiej giełdzie. Podczas gdy główne indeksy pozostają w trendzie wzrostowym, szerokość rynku pokazuje coś zupełnie innego.\n\n\n\n\n\n21 lis 2024\n\n\nDomenaRynku.pl\n\n\n\n\n\n\nBrak pasujących"
+    "text": "Portal dla świadomego inwestora — analiza GPW. Projekt łączy analizę ilościową (market breadth, indeksy równoważone) z edukacją inwestorską, oferując unikalne wskaźniki analityczne dla polskiego rynku kapitałowego.\n\n\n\n\nSSG: Quarto 1.4+\nLanguage: R 4.5.2 (analiza danych, web scraping)\nHosting: Netlify (auto-deploy z folderu _site/)\nVisuals: Plotly, CSS Custom\nTools: GitHub, Google Tag Manager, Klaro Cookie Consent\n\n\n\n\n\nDokończyć profile pozostałych spółek GPW (obecnie 16/100)\nRozbudowa szablonów postów (tygodniowe, miesięczne review)\nIntegracja dodatkowych źródeł dla sentymentu USA\nMonitorować stabilność raportów finansowych (aktualnie STALE dla PL)\n\n\n\n\n\n\n\n\n\n\n\n\nSchedule\nScript\nPurpose\n\n\n\n\n08:20 (Mon-Fri)\nPrasówka DomenaRynku.pl\nAutomatyczny research i publikacja porannej prasówki (Wyłączone 2026-02-07)\n\n\n08:25 (Daily)\nPrasówka GPW (Poranna)\nPrzygotowanie prasówki GPW PL (Wyłączone 2026-02-07)\n\n\n11:00 (Daily)\nPrasówka Światowa\nResearch breakingthenews.net (Wyłączone 2026-02-07)\n\n\n\n\n\n\n\n\n\nRejestracja projektu w systemie pamięci agenta.\nWyłączenie zaplanowanych zadań automatyzacji prasówek (na prośbę użytkownika).\nZapoznanie się z dokumentacją DOKUMENTACJA_PROJEKTU_DOMENARYNKU.md.\nZaładowanie i weryfikacja kontekstu projektu do bieżącej sesji."
+  },
+  {
+    "objectID": "PROJECT_LOG.html#description",
+    "href": "PROJECT_LOG.html#description",
+    "title": "Project: DomenaRynku",
+    "section": "",
+    "text": "Portal dla świadomego inwestora — analiza GPW. Projekt łączy analizę ilościową (market breadth, indeksy równoważone) z edukacją inwestorską, oferując unikalne wskaźniki analityczne dla polskiego rynku kapitałowego."
+  },
+  {
+    "objectID": "PROJECT_LOG.html#tech-stack",
+    "href": "PROJECT_LOG.html#tech-stack",
+    "title": "Project: DomenaRynku",
+    "section": "",
+    "text": "SSG: Quarto 1.4+\nLanguage: R 4.5.2 (analiza danych, web scraping)\nHosting: Netlify (auto-deploy z folderu _site/)\nVisuals: Plotly, CSS Custom\nTools: GitHub, Google Tag Manager, Klaro Cookie Consent"
+  },
+  {
+    "objectID": "PROJECT_LOG.html#todos",
+    "href": "PROJECT_LOG.html#todos",
+    "title": "Project: DomenaRynku",
+    "section": "",
+    "text": "Dokończyć profile pozostałych spółek GPW (obecnie 16/100)\nRozbudowa szablonów postów (tygodniowe, miesięczne review)\nIntegracja dodatkowych źródeł dla sentymentu USA\nMonitorować stabilność raportów finansowych (aktualnie STALE dla PL)"
+  },
+  {
+    "objectID": "PROJECT_LOG.html#cron-jobs",
+    "href": "PROJECT_LOG.html#cron-jobs",
+    "title": "Project: DomenaRynku",
+    "section": "",
+    "text": "Schedule\nScript\nPurpose\n\n\n\n\n08:20 (Mon-Fri)\nPrasówka DomenaRynku.pl\nAutomatyczny research i publikacja porannej prasówki (Wyłączone 2026-02-07)\n\n\n08:25 (Daily)\nPrasówka GPW (Poranna)\nPrzygotowanie prasówki GPW PL (Wyłączone 2026-02-07)\n\n\n11:00 (Daily)\nPrasówka Światowa\nResearch breakingthenews.net (Wyłączone 2026-02-07)"
+  },
+  {
+    "objectID": "PROJECT_LOG.html#event-log",
+    "href": "PROJECT_LOG.html#event-log",
+    "title": "Project: DomenaRynku",
+    "section": "",
+    "text": "Rejestracja projektu w systemie pamięci agenta.\nWyłączenie zaplanowanych zadań automatyzacji prasówek (na prośbę użytkownika).\nZapoznanie się z dokumentacją DOKUMENTACJA_PROJEKTU_DOMENARYNKU.md.\nZaładowanie i weryfikacja kontekstu projektu do bieżącej sesji."
   },
   {
     "objectID": "about.html",
@@ -495,6 +698,48 @@
     "title": "O nas",
     "section": "Kontakt",
     "text": "Kontakt\nJeśli masz pytania lub sugestie, skontaktuj się z nami."
+  },
+  {
+    "objectID": "AGENTS.html",
+    "href": "AGENTS.html",
+    "title": "AGENTS.md - Context & Instructions for AI Agents",
+    "section": "",
+    "text": "Role: You are an expert R/Quarto developer maintaining DomenaRynku.pl. Goal: Maintain the static site, focusing on financial analysis of GPW.\n\n\n\n\nStack: Quarto (SSG), R 4.5.2, Netlify.\nBuild: Local rendering (quarto render). The _site/ directory is COMMITTED to git.\nData: R scripts in R/ process data into .RDS files in data/.\n\n\n\n\n\nUpdate Data: Run R/get_prices2.R -&gt; R/calc_trend_index.R -&gt; R/calc_price_index.R.\nRender: quarto render (entire site) or quarto render path/to/file.qmd.\nDeploy: Commit _site/ and push.\n\n\n\n\n\n\n\nLayout: Use Markdown Headers (#, ##, ###) for layout (Rows/Columns/Tabs).\nFORBIDDEN: Do NOT use Divs like ::: {.card} or ::: {.column}.\nAllowed: Standard Markdown (lists, bold, quotes) and R Code Chunks.\nLists: Always precede a list with a blank line to ensure proper rendering.\nTabs: Use {.tabset} on a column header, then lower-level headers for tabs.\n### Column {.tabset}\n#### Tab 1\nContent...\n#### Tab 2\nContent...\n\n\n\n\n\nStyle: Tidyverse, snake_case.\nPipes: Native |&gt; preferred.\nScraping: Wrap in purrr::possibly to handle errors gracefully.\n\n\n\n\n\nTone: Neutral, objective. No investment advice.\nDisclaimer: All analysis pages must end with a legal disclaimer (use Blockquote &gt;).\n\n\n\n\n\n\nspolki/: Company profiles (Quarto Dashboards).\nindeksy/: Market indices analysis.\nR/: Scripts (Ignored in git, but functional).\ndata/: Data storage (Ignored).\n\n\n\n\n\nEmpty Tabs: Ensure non-empty content under headers.\nList formatting: Ensure \\n\\n before * Item."
+  },
+  {
+    "objectID": "AGENTS.html#project-architecture",
+    "href": "AGENTS.html#project-architecture",
+    "title": "AGENTS.md - Context & Instructions for AI Agents",
+    "section": "",
+    "text": "Stack: Quarto (SSG), R 4.5.2, Netlify.\nBuild: Local rendering (quarto render). The _site/ directory is COMMITTED to git.\nData: R scripts in R/ process data into .RDS files in data/."
+  },
+  {
+    "objectID": "AGENTS.html#operational-commands",
+    "href": "AGENTS.html#operational-commands",
+    "title": "AGENTS.md - Context & Instructions for AI Agents",
+    "section": "",
+    "text": "Update Data: Run R/get_prices2.R -&gt; R/calc_trend_index.R -&gt; R/calc_price_index.R.\nRender: quarto render (entire site) or quarto render path/to/file.qmd.\nDeploy: Commit _site/ and push."
+  },
+  {
+    "objectID": "AGENTS.html#code-style-rules-strict",
+    "href": "AGENTS.html#code-style-rules-strict",
+    "title": "AGENTS.md - Context & Instructions for AI Agents",
+    "section": "",
+    "text": "Layout: Use Markdown Headers (#, ##, ###) for layout (Rows/Columns/Tabs).\nFORBIDDEN: Do NOT use Divs like ::: {.card} or ::: {.column}.\nAllowed: Standard Markdown (lists, bold, quotes) and R Code Chunks.\nLists: Always precede a list with a blank line to ensure proper rendering.\nTabs: Use {.tabset} on a column header, then lower-level headers for tabs.\n### Column {.tabset}\n#### Tab 1\nContent...\n#### Tab 2\nContent...\n\n\n\n\n\nStyle: Tidyverse, snake_case.\nPipes: Native |&gt; preferred.\nScraping: Wrap in purrr::possibly to handle errors gracefully.\n\n\n\n\n\nTone: Neutral, objective. No investment advice.\nDisclaimer: All analysis pages must end with a legal disclaimer (use Blockquote &gt;)."
+  },
+  {
+    "objectID": "AGENTS.html#directory-structure",
+    "href": "AGENTS.html#directory-structure",
+    "title": "AGENTS.md - Context & Instructions for AI Agents",
+    "section": "",
+    "text": "spolki/: Company profiles (Quarto Dashboards).\nindeksy/: Market indices analysis.\nR/: Scripts (Ignored in git, but functional).\ndata/: Data storage (Ignored)."
+  },
+  {
+    "objectID": "AGENTS.html#troubleshooting",
+    "href": "AGENTS.html#troubleshooting",
+    "title": "AGENTS.md - Context & Instructions for AI Agents",
+    "section": "",
+    "text": "Empty Tabs: Ensure non-empty content under headers.\nList formatting: Ensure \\n\\n before * Item."
   },
   {
     "objectID": "indeksy/indeks-trendow-gpw.html",
@@ -537,5 +782,460 @@
     "title": "Indeks trendów GPW",
     "section": "Potencjalne zastosowania",
     "text": "Potencjalne zastosowania\n\n1. Ocena rzeczywistej siły rynku\nIndeks trendów pozwala odróżnić prawdziwą hossę (szeroki udział większości spółek we wzrostach) od pozornej hossy (wzrost napędzany tylko przez kilka dużych spółek). Gdy indeks WIG lub WIG20 rośnie, ale indeks trendów jest niski (np. poniżej 30-40%), może to świadczyć o słabości fundamentalnej ruchu i zwiększonym ryzyku odwrócenia trendu.\n\n\n2. Identyfikacja dywergencji\nDywergencje między indeksem trendów a głównymi indeksami mogą sygnalizować nadchodzące zmiany kierunku rynku:\n\nPozytywna dywergencja (potencjalnie bullish): Indeks trendów rośnie, podczas gdy WIG/WIG20 spadają. Sugeruje to, że szeroki rynek zaczyna się umacniać, mimo że główne indeksy jeszcze tego nie pokazują – może zapowiadać przyszły wzrost.\nNegatywna dywergencja (potencjalnie bearish): Indeks trendów spada, podczas gdy WIG/WIG20 rosną. Oznacza to, że wzrost głównych indeksów jest napędzany przez coraz mniejszą grupę spółek – niezdrowa sytuacja mogąca poprzedzać korektę lub bessę.\n\n\n\n3. Potwierdzenie trendów\nSilne trendy rynkowe (zarówno wzrostowe, jak i spadkowe) są bardziej wiarygodne, gdy towarzyszą im odpowiednie wartości indeksu trendów:\n\nPotwierdzenie hossy: WIG rośnie + indeks trendów &gt; 60-70%\nPotwierdzenie bessy: WIG spada + indeks trendów &lt; 30-40%\n\n\n\n4. Timing wejść i wyjść\nEkstrema w indeksie trendów mogą wskazywać na:\n\nWyprzedanie rynku: Indeks trendów &lt; 20% – potencjalna okazja do zakupów (wyprzedanie)\nWykupienie rynku: Indeks trendów &gt; 80% – potencjalne ostrzeżenie przed korektą (wykupienie)\n\n\n\n\n\n\n\nWażne zastrzeżenie\n\n\n\nIndeks trendów GPW jest narzędziem analitycznym wspomagającym podejmowanie decyzji inwestycyjnych, a nie systemem generującym jednoznaczne sygnały kupna lub sprzedaży. Powinien być używany w połączeniu z innymi metodami analizy i zawsze z uwzględnieniem indywidualnej tolerancji ryzyka oraz celów inwestycyjnych.\n\n\n\n\n\n\n\n\n\nAktualizacje\n\n\n\nIndeks trendów GPW jest aktualizowany codziennie. Strona jest odświeżana automatycznie przed rozpoczęciem każdej nowej sesji giełdowej.\nOstatnia aktualizacja danych: 2026-02-05"
+  },
+  {
+    "objectID": "spolki/lbw.html#notowania",
+    "href": "spolki/lbw.html#notowania",
+    "title": "Lubawa S.A. (LBW)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/lbw.html#o-spółce",
+    "href": "spolki/lbw.html#o-spółce",
+    "title": "Lubawa S.A. (LBW)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Lubawa S.A. to jeden z kluczowych w Polsce producentów sprzętu specjalistycznego dla służb mundurowych (Wojsko, Policja, Straż Pożarna i Graniczna). Jest liderem w segmencie osłon balistycznych i konfekcji technicznej. Spółka posiada własną powlekarnię tkanin, co pozwala jej na dużą niezależność technologiczną.\nStrategia i Perspektywy: W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia sprzętowego armii NATO, koncentrując się na długoterminowych kontraktach rządowych. Stawia na ekspansję międzynarodową (USA, Armenia) oraz innowacje poprzez własne Centrum Badawczo-Rozwojowe."
+  },
+  {
+    "objectID": "spolki/lbw.html#biznes",
+    "href": "spolki/lbw.html#biznes",
+    "title": "Lubawa S.A. (LBW)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nBezpieczeństwo i Obrona: Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego.\nRatownictwo: Zapory przeciwpowodziowe, namioty pneumatyczne i stelażowe, łodzie ratownicze, skokochrony.\nTurystyka i BHP: Odzież specjalistyczna, sprzęt do prac na wysokościach, produkty turystyczne.\n\nZasoby i Surowce:\nW działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości, guma oraz tkaniny gumowane."
+  },
+  {
+    "objectID": "spolki/lbw.html#strategia",
+    "href": "spolki/lbw.html#strategia",
+    "title": "Lubawa S.A. (LBW)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja zagraniczna: Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.\nInnowacje: Prace badawczo-rozwojowe nad nowoczesnymi osłonami balistycznymi.\nDywersyfikacja: Balans między zamówieniami wojskowymi a rynkiem cywilnym (ratownictwo, BHP).\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/ale.html#notowania",
+    "href": "spolki/ale.html#notowania",
+    "title": "Allegro.eu S.A. (ALE)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/ale.html#o-spółce",
+    "href": "spolki/ale.html#o-spółce",
+    "title": "Allegro.eu S.A. (ALE)",
+    "section": "O spółce",
+    "text": "O spółce\nAllegro to najpopularniejsza w Polsce i jedna z największych w Europie platform e-commerce typu marketplace. Spółka zrewolucjonizowała polski handel detaliczny, tworząc kompletny ekosystem dla kupujących i sprzedających, obejmujący logistykę, płatności oraz reklamę."
+  },
+  {
+    "objectID": "spolki/ale.html#biznes",
+    "href": "spolki/ale.html#biznes",
+    "title": "Allegro.eu S.A. (ALE)",
+    "section": "Biznes",
+    "text": "Biznes\nMarketplace i usługi: Allegro nie jest tylko sklepem, ale platformą łączącą ponad 130 tys. sprzedawców z milionami klientów. Grupa stale poszerza zakres usług, budując przewagę konkurencyjną.\nKluczowe elementy ekosystemu:\n\nAllegro Smart!: Program darmowych dostaw i zwrotów, kluczowy driver lojalności klientów.\nAllegro Pay: Nowoczesne usługi finansowe BNPL (Buy Now, Pay Later) oraz kredytowanie zakupów.\nLogistyka (One Box & One Kurier): Rozwój własnej sieci automatów paczkowych i centrów logistycznych (Fullfilment).\nCeneo.pl: Największa polska porównywarka cen, wspierająca decyzje zakupowe."
+  },
+  {
+    "objectID": "spolki/ale.html#strategia",
+    "href": "spolki/ale.html#strategia",
+    "title": "Allegro.eu S.A. (ALE)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju grupy Allegro:\n\nRegion CEE: Ekspansja na rynki Czech, Słowacji i Węgier (wykorzystanie platformy MALL Group).\nInternational: Umożliwienie polskim sprzedawcom eksportu na rynki całej Unii Europejskiej poprzez ujednoliconą platformę.\nRetail Media: Rozwój zaawansowanych narzędzi reklamowych (Allegro Ads) dla sprzedawców.\nTechnologia AI: Wykorzystanie uczenia maszynowego w personalizacji wyszukiwań i optymalizacji logistyki.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/alr.html#notowania",
+    "href": "spolki/alr.html#notowania",
+    "title": "Alior Bank S.A. (ALR)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/alr.html#o-spółce",
+    "href": "spolki/alr.html#o-spółce",
+    "title": "Alior Bank S.A. (ALR)",
+    "section": "O spółce",
+    "text": "O spółce\nAlior Bank S.A. to jeden z najbardziej innowacyjnych banków w Polsce. Od początku istnienia łączy zasady tradycyjnej bankowości z nowoczesnymi technologiami, co pozwoliło mu szybko zdobyć znaczący udział w rynku."
+  },
+  {
+    "objectID": "spolki/alr.html#strategia",
+    "href": "spolki/alr.html#strategia",
+    "title": "Alior Bank S.A. (ALR)",
+    "section": "Strategia",
+    "text": "Strategia\nWizja banku to “Bankowanie na co dzień, na najwyższym poziomie”. Strategia opiera się na budowaniu przewag technologicznych, optymalizacji procesów kredytowych z wykorzystaniem AI oraz wspieraniu transformacji cyfrowej swoich klientów biznesowych.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/ccc.html#notowania",
+    "href": "spolki/ccc.html#notowania",
+    "title": "Grupa CCC S.A. (CCC)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/ccc.html#o-spółce",
+    "href": "spolki/ccc.html#o-spółce",
+    "title": "Grupa CCC S.A. (CCC)",
+    "section": "O spółce",
+    "text": "O spółce\nGrupa CCC to jeden z największych europejskich graczy w segmencie obuwia i odzieży. Spółka jest liderem sprzedaży wielokanałowej (Omnichannel) w regionie CEE, zarządzając potężnym ekosystemem marek własnych i platform e-commerce."
+  },
+  {
+    "objectID": "spolki/ccc.html#strategia",
+    "href": "spolki/ccc.html#strategia",
+    "title": "Grupa CCC S.A. (CCC)",
+    "section": "Strategia",
+    "text": "Strategia\nStrategia Grupy CCC koncentruje się na cyfrowej transformacji i optymalizacji kapitału. Spółka stawia na dalszy dynamiczny wzrost sieci HalfPrice oraz rozwój platformy MODIVO, przy jednoczesnej redukcji zadłużenia i zwiększaniu rentowności modelu tradycyjnego.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/dnp.html#notowania",
+    "href": "spolki/dnp.html#notowania",
+    "title": "DINO POLSKA S.A. (DNP)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/dnp.html#o-spółce",
+    "href": "spolki/dnp.html#o-spółce",
+    "title": "DINO POLSKA S.A. (DNP)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Dino Polska S.A. to jedna z najszybciej rozwijających się sieci supermarketów w Polsce. Unikalny model biznesowy opiera się na własności budynków i gruntów, ustandaryzowanych placówkach o powierzchni ok. 400 m2 oraz bardzo sprawnej logistyce. Spółka skupia się na mniejszych miastach i terenach wiejskich.\nStrategia i Perspektywy: Głównym celem Dino jest dalsza szybka ekspansja terytorialna w Polsce przy zachowaniu wysokiej rentowności. Spółka inwestuje w nowoczesne centra logistyczne oraz odnawialne źródła energii (fotowoltaika)."
+  },
+  {
+    "objectID": "spolki/dnp.html#biznes",
+    "href": "spolki/dnp.html#biznes",
+    "title": "DINO POLSKA S.A. (DNP)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nProdukty świeże: Warzywa, owoce, nabiał oraz produkty piekarnicze.\nPrzetwórstwo mięsne: Własny zakład produkcyjny Agro-Rydzyna dostarczający świeże mięso i wędliny.\nArtykuły FMCG: Szeroki asortyment ok. 5000 pozycji produktowych.\n\nZasoby: Pełna kontrola nad łańcuchem dostaw dzięki własnej flocie chłodniczej i sieci centrów dystrybucyjnych."
+  },
+  {
+    "objectID": "spolki/dnp.html#strategia",
+    "href": "spolki/dnp.html#strategia",
+    "title": "DINO POLSKA S.A. (DNP)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja terytorialna: Dalsze zwielokrotnianie liczby sklepów na terenie kraju.\nZrównoważony rozwój: Redukcja śladu węglowego poprzez OZE.\nWygoda klienta: Systematyczne dostosowywanie oferty do potrzeb lokalnych społeczności.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/cdr.html#notowania",
+    "href": "spolki/cdr.html#notowania",
+    "title": "CD PROJEKT S.A. (CDR)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/cdr.html#o-spółce",
+    "href": "spolki/cdr.html#o-spółce",
+    "title": "CD PROJEKT S.A. (CDR)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: CD PROJEKT S.A. to wiodący polski producent i wydawca gier wideo, znany na całym świecie dzięki serii “Wiedźmin” oraz grze “Cyberpunk 2077”. Spółka jest jednym z globalnych liderów w segmencie gier fabularnych (RPG) z otwartym światem.\nStrategia i Rozwój: Spółka realizuje nową strategię zakładającą równoległą produkcję kilku tytułów AAA oraz rozbudowę uniwersów poprzez media towarzyszące (animacje, serie komiksowe). Kluczowe projekty to rozpoczęta nowa saga wiedźmińska (Polaris) oraz projekt Orion (kontynuacja Cyberpunka)."
+  },
+  {
+    "objectID": "spolki/cdr.html#strategia",
+    "href": "spolki/cdr.html#strategia",
+    "title": "CD PROJEKT S.A. (CDR)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nJakość ponad wszystko: utrzymanie statusu studia tworzącego najbardziej zaawansowane narracyjnie gry na świecie.\nMultiplayer: wprowadzanie komponentów sieciowych do przyszłych produkcji.\nTechnologia: przejście na silnik Unreal Engine 5 w celu optymalizacji procesów twórczych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/kgh.html#notowania",
+    "href": "spolki/kgh.html#notowania",
+    "title": "KGHM Polska Miedź S.A. (KGH)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/kgh.html#o-spółce",
+    "href": "spolki/kgh.html#o-spółce",
+    "title": "KGHM Polska Miedź S.A. (KGH)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: KGHM Polska Miedź S.A. to jeden z największych producentów miedzi elektrolitycznej i srebra na świecie. Spółka zarządza kluczowymi procesami wydobywczymi i hutniczymi w Legnicko-Głogowskim Zagłębiu Miedziowym (LGOM) oraz posiada aktywa zagraniczne (m.in. kopalnia Sierra Gorda w Chile).\nStrategia i Perspektywy: Firma dąży do bycia globalnym liderem efektywności w branży wydobywczej. Kluczowe kierunki to ekspansja bazy zasobowej, zielona transformacja energetyczna (OZE + atom SMR) oraz digitalizacja procesów produkcyjnych."
+  },
+  {
+    "objectID": "spolki/kgh.html#biznes",
+    "href": "spolki/kgh.html#biznes",
+    "title": "KGHM Polska Miedź S.A. (KGH)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne produkty:\n\nMiedź rafinowana: W postaci katod i walcówki.\nSrebro rafinowane: KGHM jest jednym z największych producentów kruszcu na świecie.\nZłoto i metale szlachetne: Pallad, platyna.\nMetale towarzyszące: Ołów, molibden, selen, ren.\n\nZasoby: Jedne z największych na świecie złóż miedzi zlokalizowane na Dolnym Śląsku."
+  },
+  {
+    "objectID": "spolki/kgh.html#strategia",
+    "href": "spolki/kgh.html#strategia",
+    "title": "KGHM Polska Miedź S.A. (KGH)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja globalna: rozwój aktywów zagranicznych w obu Amerykach.\nEkologia: redukcja śladu węglowego i wdrożenie GOZ.\nBezpieczeństwo surowcowe: zabezpieczenie strategicznych zasobów miedzi.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/pco.html#notowania",
+    "href": "spolki/pco.html#notowania",
+    "title": "Pepco Group N.V. (PCO)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/pco.html#o-spółce",
+    "href": "spolki/pco.html#o-spółce",
+    "title": "Pepco Group N.V. (PCO)",
+    "section": "O spółce",
+    "text": "O spółce\nPepco Group N.V. to dynamicznie rozwijający się europejski detalista wielobranżowy, będący właścicielem marek Pepco, Poundland oraz Dealz. Spółka jest liderem w segmencie dyskontów niespożywczych, oferującym szeroki asortyment produktów w niskich cenach."
+  },
+  {
+    "objectID": "spolki/pco.html#strategia",
+    "href": "spolki/pco.html#strategia",
+    "title": "Pepco Group N.V. (PCO)",
+    "section": "Strategia",
+    "text": "Strategia\nGłównym celem Pepco Group jest dalsza intensywna ekspansja terytorialna w Europie oraz optymalizacja łańcucha dostaw. Strategia zakłada wzrost efektywności poprzez integrację systemów operacyjnych oraz rozbudowę oferty marek własnych, przy jednoczesnej koncentracji na poprawie marży.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/peo.html#notowania",
+    "href": "spolki/peo.html#notowania",
+    "title": "Bank Pekao S.A. (PEO)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/peo.html#o-spółce",
+    "href": "spolki/peo.html#o-spółce",
+    "title": "Bank Pekao S.A. (PEO)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Bank Pekao S.A. to jeden z największych banków w Europie Środkowo-Wschodniej. Jest liderem bankowości korporacyjnej oraz znaczącym graczem w finansowaniu handlu i rynków kapitałowych.\nStrategia i Innowacje: Pekao stawia na nowoczesną bankowość cyfrową (PeoPay) oraz wspieranie transformacji energetycznej polskich przedsiębiorstw."
+  },
+  {
+    "objectID": "spolki/peo.html#biznes",
+    "href": "spolki/peo.html#biznes",
+    "title": "Bank Pekao S.A. (PEO)",
+    "section": "Biznes",
+    "text": "Biznes\n\nDla klienta indywidualnego: Nowoczesne konta, kredyty i oszczędności.\nDla biznesu: Kompleksowe finansowanie inwestycji i obrotu.\nWealth Management: Lider zarządzania aktywami dla najzamożniejszych klientów."
+  },
+  {
+    "objectID": "spolki/peo.html#strategia",
+    "href": "spolki/peo.html#strategia",
+    "title": "Bank Pekao S.A. (PEO)",
+    "section": "Strategia",
+    "text": "Strategia\nDążenie do bycia bankiem pierwszego wyboru dzięki efektywności, zaufaniu i technologicznemu zaawansowaniu.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/lpp.html#notowania",
+    "href": "spolki/lpp.html#notowania",
+    "title": "LPP S.A. (LPP)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/lpp.html#o-spółce",
+    "href": "spolki/lpp.html#o-spółce",
+    "title": "LPP S.A. (LPP)",
+    "section": "O spółce",
+    "text": "O spółce\nLPP S.A. to polski czempion branży odzieżowej, zarządzający znanymi markami: Reserved, Cropp, House, Mohito i Sinsay. Spółka jest jednym z najszybciej rozwijających się sprzedawców odzieży w Europie Środkowo-Wschodniej."
+  },
+  {
+    "objectID": "spolki/lpp.html#strategia",
+    "href": "spolki/lpp.html#strategia",
+    "title": "LPP S.A. (LPP)",
+    "section": "Strategia",
+    "text": "Strategia\nStrategia LPP opiera się na cyfryzacji (Omnichannel), automatyzacji logistyki oraz zrównoważonym rozwoju (strategia For People For Our Planet). Spółka dynamicznie zwiększa udział sprzedaży internetowej i stawia na rozwój marki Sinsay w regionie.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/pkn.html#notowania",
+    "href": "spolki/pkn.html#notowania",
+    "title": "ORLEN S.A. (PKN)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/pkn.html#o-spółce",
+    "href": "spolki/pkn.html#o-spółce",
+    "title": "ORLEN S.A. (PKN)",
+    "section": "O spółce",
+    "text": "O spółce\nORLEN S.A. to największa firma w Europie Środkowo-Wschodniej, działająca w sektorze paliwowo-energetycznym. Po fuzjach z Grupą Lotos oraz PGNiG, koncern stał się multienergetycznym gigantem o strategicznym znaczeniu dla bezpieczeństwa energetycznego Polski."
+  },
+  {
+    "objectID": "spolki/spl.html#notowania",
+    "href": "spolki/spl.html#notowania",
+    "title": "Santander Bank Polska S.A. (SPL)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/spl.html#o-spółce",
+    "href": "spolki/spl.html#o-spółce",
+    "title": "Santander Bank Polska S.A. (SPL)",
+    "section": "O spółce",
+    "text": "O spółce\nSantander Bank Polska S.A. to jedna z największych i najnowocześniejszych instytucji finansowych w Polsce. Należy do międzynarodowej Grupy Santander, co zapewnia bankowi dostęp do globalnych innowacji i stabilności kapitałowej."
+  },
+  {
+    "objectID": "spolki/spl.html#strategia",
+    "href": "spolki/spl.html#strategia",
+    "title": "Santander Bank Polska S.A. (SPL)",
+    "section": "Strategia",
+    "text": "Strategia\nMisją banku jest “Pomagać ludziom i firmom w sukcesach”. Strategia koncentruje się na upraszczaniu procesów, budowaniu lojalności klientów poprzez digitalizację oraz aktywnym wspieraniu transformacji energetycznej polskich przedsiębiorstw.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/pzu.html#notowania",
+    "href": "spolki/pzu.html#notowania",
+    "title": "PZU S.A. (PZU)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/pzu.html#o-spółce",
+    "href": "spolki/pzu.html#o-spółce",
+    "title": "PZU S.A. (PZU)",
+    "section": "O spółce",
+    "text": "O spółce\nPZU S.A. to największa instytucja finansowa w Polsce i Europie Środkowo-Wschodniej. Jest liderem rynku ubezpieczeń, a poprzez swoje spółki zależne posiada silną pozycję w sektorze bankowym i zarządzaniu aktywami."
+  },
+  {
+    "objectID": "spolki/pzu.html#strategia",
+    "href": "spolki/pzu.html#strategia",
+    "title": "PZU S.A. (PZU)",
+    "section": "Strategia",
+    "text": "Strategia\nStrategia PZU zakłada budowę najbardziej nowoczesnej grupy finansowej w regionie, opartej na ekosystemach usług (zdrowie, dom, auto). Koncentruje się na wykorzystaniu Big Data, AI w likwidacji szkód oraz realizacji celów ESG.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/pko.html#notowania",
+    "href": "spolki/pko.html#notowania",
+    "title": "PKO Bank Polski S.A. (PKO)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/pko.html#o-spółce",
+    "href": "spolki/pko.html#o-spółce",
+    "title": "PKO Bank Polski S.A. (PKO)",
+    "section": "O spółce",
+    "text": "O spółce\nPKO Bank Polski to lider sektora bankowego w Polsce, obsługujący blisko 12 mln klientów. Jest kluczową instytucją finansową o charakterze uniwersalnym, działającą w segmencie detalicznym, korporacyjnym i inwestycyjnym."
+  },
+  {
+    "objectID": "spolki/pko.html#biznes",
+    "href": "spolki/pko.html#biznes",
+    "title": "PKO Bank Polski S.A. (PKO)",
+    "section": "Biznes",
+    "text": "Biznes\nBank oferuje pełen zakres produktów finansowych, od kont i kredytów po zaawansowane usługi bankowości inwestycyjnej. Lider nowoczesnych kanałów cyfrowych z najpopularniejszą aplikacją mobilną na rynku polskim (IKO)."
+  },
+  {
+    "objectID": "spolki/pko.html#strategia",
+    "href": "spolki/pko.html#strategia",
+    "title": "PKO Bank Polski S.A. (PKO)",
+    "section": "Strategia",
+    "text": "Strategia\nDążenie do bycia najbardziej nowoczesnym i przyjaznym bankiem w regionie, wspierającym transformację cyfrową i energetyczną klientów.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/xtb.html#notowania",
+    "href": "spolki/xtb.html#notowania",
+    "title": "XTB S.A. (XTB)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/xtb.html#o-spółce",
+    "href": "spolki/xtb.html#o-spółce",
+    "title": "XTB S.A. (XTB)",
+    "section": "O spółce",
+    "text": "O spółce\nXTB S.A. to jeden z największych na świecie brokerów instrumentów finansowych (Forex, CFD, akcje, ETF) notowanych na giełdzie. Polska spółka z sukcesem konkuruje na rynkach międzynarodowych, dostarczając autorską platformę transakcyjną xStation."
+  },
+  {
+    "objectID": "spolki/xtb.html#strategia",
+    "href": "spolki/xtb.html#strategia",
+    "title": "XTB S.A. (XTB)",
+    "section": "Strategia",
+    "text": "Strategia\nCelem XTB jest zostać wiodącą aplikacją inwestycyjną w Europie (super-app finansowy). Strategia zakłada ciągłe poszerzanie oferty (np. o plany inwestycyjne, obligacje, konta oszczędnościowe) oraz inwestycje w marketing globalny z udziałem znanych ambasadorów marki.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/zab.html#notowania",
+    "href": "spolki/zab.html#notowania",
+    "title": "Żabka Group S.A. (ZAB)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/zab.html#o-spółce",
+    "href": "spolki/zab.html#o-spółce",
+    "title": "Żabka Group S.A. (ZAB)",
+    "section": "O spółce",
+    "text": "O spółce\nŻabka Group to lider polskiego rynku modern convenience. Grupa zarządza siecią ponad 11 000 sklepów działających w modelu franczyzowym. Spółka zadebiutowała na GPW w Warszawie w październiku 2024 roku, stając się jedną z największych spółek w indeksie WIG20."
+  },
+  {
+    "objectID": "spolki/zab.html#biznes",
+    "href": "spolki/zab.html#biznes",
+    "title": "Żabka Group S.A. (ZAB)",
+    "section": "Biznes",
+    "text": "Biznes\nModel biznesowy: Żabka operuje w unikalnym ekosystemie integrującym sprzedaż detaliczną, usługi kurierskie oraz gastronomię (Żabka Café).\nKluczowe formaty i marki:\n\nŻabka Convenience: Podstawowy format sklepów blisko klienta.\nŻabka Nano: Innowacyjne sklepy autonomiczne (bezobsługowe) oparte na technologii AI.\nMaczfit: Lider rynku cateringu dietetycznego w Polsce (część grupy).\nDietly: Platforma e-commerce dedykowana zdrowej żywności.\n\nInfrastruktura: Siedem zaawansowanych centrów logistycznych zapewnia dostawy do ponad 11 tysięcy placówek na terenie całego kraju."
+  },
+  {
+    "objectID": "spolki/zab.html#strategia",
+    "href": "spolki/zab.html#strategia",
+    "title": "Żabka Group S.A. (ZAB)",
+    "section": "Strategia",
+    "text": "Strategia\nGłówne kierunki wzrostu Żabka Group:\n\nEkspansja terytorialna: Dalsze nasycanie rynku polskiego i wejście na rynki zagraniczne (np. Rumunia).\nDigitalizacja: Rozwój aplikacji Żappka (ponad 6 mln aktywnych użytkowników) oraz personalizacja oferty (retail media).\nLogistyka 2.0: Optymalizacja dostaw ostatniej mili i rozwój usług kurierskich.\nZrównoważony styl życia: Rozbudowa oferty produktów “Better for You” i ekologicznych rozwiązań w placówkach.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki-gpw.html#notowania-spółek-gpw",
+    "href": "spolki-gpw.html#notowania-spółek-gpw",
+    "title": "Spółki GPW",
+    "section": "",
+    "text": "Poniższa tabela zawiera notowania wybranych spółek z GPW. Możesz wyszukiwać po nazwie lub tickerze oraz sortować kolumny.\n\n\n\n\n\n\nJak korzystać\n\n\n\n\nWyszukiwanie — wpisz ticker (np. “PKO”) lub nazwę w polu nad tabelą\nSortowanie — kliknij nagłówek kolumny\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDisclaimer\n\n\n\nNotowania mają charakter wyłącznie informacyjny i nie stanowią rekomendacji inwestycyjnej. Dane pochodzą z zewnętrznych źródeł i mogą być opóźnione."
+  },
+  {
+    "objectID": "spolki/cdr.html#biznes",
+    "href": "spolki/cdr.html#biznes",
+    "title": "CD PROJEKT S.A. (CDR)",
+    "section": "Biznes",
+    "text": "Biznes\nProdukcja gier: CD Projekt tworzy gry wideo w modelu własnego studia deweloperskiego (in-house), co zapewnia pełną kontrolę nad jakością i wizją artystyczną.\nPortfolio marek:\n\nWiedźmin: Kultowa trylogia RPG (Wiedźmin 1, 2, 3) oraz seria serialowa Netflixa.\nCyberpunk 2077: Największa premiera w historii polskiego gamingu, z rozbudowanym uniwersum science-fiction.\nPolaris: Nowa saga wiedźmińska - projekt AAA realizowany w ramach nowej strategii.\n\nModel dystrybucji: Sprzedaż cyfrowa (Steam, GOG, konsole) z dodatkowymi przychodami z DLC i mikrotransakcji."
+  },
+  {
+    "objectID": "spolki/ccc.html#biznes",
+    "href": "spolki/ccc.html#biznes",
+    "title": "Grupa CCC S.A. (CCC)",
+    "section": "Biznes",
+    "text": "Biznes\nModel biznesowy: CCC działa w segmencie detalicznym i hurtowym, oferując obuwie oraz odzież poprzez sieć sklepów stacjonarnych oraz platformy e-commerce.\nSieci i marki:\n\nCCC: Główne salony obuwnicze z ofertą dla całej rodziny.\nHalfPrice: Sieć outletów z markowym obuwiem i odzieżą w obniżonych cenach.\nMODIVO: Platforma e-commerce z obuwiem i akcesoriami.\nGino Rossi: Marka obuwia premium.\n\nStruktura przychodów: Sieć ponad 1000 sklepów w Polsce i regionie CEE, z silnym kierunkiem na rozwój kanału online."
+  },
+  {
+    "objectID": "spolki/lpp.html#biznes",
+    "href": "spolki/lpp.html#biznes",
+    "title": "LPP S.A. (LPP)",
+    "section": "Biznes",
+    "text": "Biznes\nModel biznesowy: LPP projektuje, produkuje i sprzedaje odzież w segmencie mody masowej, operując poprzez sieć sklepów stacjonarnych oraz kanały e-commerce.\nPortfolio marek:\n\nReserved: Główna marka damska i męska w segmencie popularnym.\nCropp: Marka streetwearowa skierowana do młodych konsumentów.\nHouse: Styl vintage i retro dla osób ceniących klasykę.\nMohito: Elegancka odzież damska.\nSinsay: Najszybciej rosnąca marka, kierowana do młodych kobiet i nastolatek.\n\nStruktura przychodów: Spółka posiada ponad 1700 sklepów w 20 krajach, z silną pozycją w Polsce, Czechach, Rumunii i na Słowacji."
+  },
+  {
+    "objectID": "spolki/pco.html#biznes",
+    "href": "spolki/pco.html#biznes",
+    "title": "Pepco Group N.V. (PCO)",
+    "section": "Biznes",
+    "text": "Biznes\nModel biznesowy: Pepco Group działa w segmencie dyskontów niespożywczych, oferując produkty w bardzo niskich cenach (w większości 1 funt/euro).\nSieci handlowe:\n\nPepco: Główna sieć z asortymentem artykułów dla domu, kategorii ogrodowej, zabawek i tekstyliów.\nPoundland: Brytyjska sieć dyskontowa z ofertą “wszystko za funta”.\nDealz: Format w Hiszpanii i Niemczech z podobną koncepcją do Poundland.\n\nStruktura przychodów: Ponad 4700 sklepów w 17 krajach Europy, z dominacją rynku brytyjskiego i silną obecnością w Europie Środkowej."
+  },
+  {
+    "objectID": "spolki/pzu.html#biznes",
+    "href": "spolki/pzu.html#biznes",
+    "title": "PZU S.A. (PZU)",
+    "section": "Biznes",
+    "text": "Biznes\nSegmenty działalności:\n\nUbezpieczenia majątkowe: OC/AC, ubezpieczenia domu, firmy i rolne - pozycja nr 1 w Polsce.\nUbezpieczenia na życie: Polisy inwestycyjne, emerytalne i ochronne.\nBankowość: Poprzez spółki zależne (m.in. Bank Pekao, Alior Bank) - znaczący udział w rynku.\nZarządzanie aktywami: TFI PZU - jeden z największych funduszy inwestycyjnych w kraju.\nZdrowie: PZU Zdrowie - sieć placówek medycznych i usługi telemedyczne.\n\nGrupa kapitałowa: PZU jest jednym z największych podmiotów finansowych w Europie Środkowo-Wschodniej zdominującym rynek ubezpieczeń w Polsce."
+  },
+  {
+    "objectID": "spolki/spl.html#biznes",
+    "href": "spolki/spl.html#biznes",
+    "title": "Santander Bank Polska S.A. (SPL)",
+    "section": "Biznes",
+    "text": "Biznes\nOferta dla klientów indywidualnych:\n\nKonta osobiste i oszczędnościowe\nKredyty hipoteczne i konsumenckie\nKarty płatnicze i kredytowe\nUbezpieczenia\n\nOferta dla biznesu:\n\nKonta firmowe i rozliczenia\nKredyty inwestycyjne i obrotowe\nBankowość transakcyjna i skarbowa\nFaktoring i leasing\n\nUsługi cyfrowe: Aplikacja Santander Bank Polska oraz platforma bankowości internetowej z zaawansowanymi funkcjami zarządzania finansami.\nGrupa Santander: Bank należy do międzynarodowej grupy Santander - jednego z największych banków na świecie pod względem kapitalizacji."
+  },
+  {
+    "objectID": "spolki/xtb.html#biznes",
+    "href": "spolki/xtb.html#biznes",
+    "title": "XTB S.A. (XTB)",
+    "section": "Biznes",
+    "text": "Biznes\nProdukty i usługi:\n\nForex: Handel parami walutowymi z ponad 5700 instrumentami.\nCFD: Kontrakty na różnice kursowe na indeksy, akcje, surowce i kryptowaluty.\nAkcje i ETF: Dostęp do giełd polskich (GPW) i zagranicznych (NYSE, NASDAQ, LSE).\nPlany inwestycyjne: Automatyczne inwestowanie w ETFy.\nKonta oszczędnościowe: Oprocentowane depozyty dla klientów.\n\nPlatforma xStation: Autorska platforma transakcyjna XTB (dostępna jako web, desktop i mobile) uznawana za jedną z najlepszych na rynku.\nZasięg: Około 1 mln klientów w ponad 170 krajach, z silną pozycją w Europie, Ameryce Łacińskiej i Afryce."
+  },
+  {
+    "objectID": "spolki/alr.html#biznes",
+    "href": "spolki/alr.html#biznes",
+    "title": "Alior Bank S.A. (ALR)",
+    "section": "Biznes",
+    "text": "Biznes\nOferta dla klientów indywidualnych:\n\nKonta osobiste z pakietem usług (Konto Jakie Chcę)\nKredyty gotówkowe i hipoteczne\nKarty kredytowe i debetowe\nProdukty inwestycyjne i oszczędnościowe\n\nOferta dla biznesu:\n\nRachunki firmowe i rozliczeniowe\nKredyty dla MSP i korporacji\nFaktoring i leasing\nObsługa transakcji zagranicznych\n\nInnowacje: Alior Bank jest pionierem wśród polskich banków pod względem innowacji cyfrowych - jako pierwszy wprowadził m.in. otwieranie konta selfie czy zaawansowane zarządzanie finansami osobistymi z wykorzystaniem AI.\nGrupa kapitałowa: Alior Bank należy do grupy PZU - największej instytucji finansowej w Polsce."
+  },
+  {
+    "objectID": "spolki/pkn.html#biznes",
+    "href": "spolki/pkn.html#biznes",
+    "title": "ORLEN S.A. (PKN)",
+    "section": "Biznes",
+    "text": "Biznes\nSegmenty działalności:\n\nRafinacja: Przetwarzanie ropy naftowej w rafineriach (Plock, Gdańsk, Trzebinia) - produkcja paliw (benzyna, olej napędowy, paliwo lotnicze).\nPetrochemia: Produkcja tworzyw sztucznych, polimerów, włókien - segment wysokomarżowy.\nWydobycie: Poszukiwanie i wydobycie ropy oraz gazu (aktywa w Norwegii, Pakistanie, Kanadzie).\nEnergia: Produkcja energii elektrycznej, rozwój OZE, programy nuklearne (SMR).\nSieć stacji: Blisko 2000 stacji paliw w Polsce, Czechach, Niemczech, na Litwie i Słowacji.\n\nSpółki zależne:\n\nGrupa Lotos: Wydobycie i przetwórstwo ropy (fuzja z ORLEN)\nPGNiG: Wydobycie i dystrybucja gazu ziemnego\nEnerga: Dystrybucja energii elektrycznej"
+  },
+  {
+    "objectID": "spolki/pkn.html#strategia",
+    "href": "spolki/pkn.html#strategia",
+    "title": "ORLEN S.A. (PKN)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nTransformacja energetyczna: Dywersyfikacja w kierunku niskoemisyjnych źródeł energii, rozwój OZE i atomu.\nWodór: Budowa klastrów wodorowych i rozwój technologii wodorowych.\nElektromobilność: Rozbudowa sieci ładowania pojazdów elektrycznych.\nPetrochemia 2.0: Zwiększanie udziału przetwórstwa ropy w segmencie chemicznym.\nBezpieczeństwo energetyczne: Wzmocnienie pozycji lidera rynku CEE w sektorze paliwowo-energetycznym.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   }
 ]
