@@ -56,6 +56,10 @@ ehthumbs.db
 Desktop.ini
 # Linux
 *~
+# Claude AI
+.claude/
+# Freeze (Quarto cache)
+_freeze/
 # ============================================
 # IDE - Pliki edytorów
 # ============================================
