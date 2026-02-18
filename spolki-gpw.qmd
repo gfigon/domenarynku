@@ -1,49 +1,193 @@
 ---
-# === Wyświetlane na stronie ===
 title: "Spółki GPW"
-subtitle: "Baza spółek notowanych na Giełdzie Papierów Wartościowych w Warszawie"
-date: today
-
-# === SEO - Meta tagi w <head> ===
-pagetitle: "Spółki GPW | Baza danych spółek giełdowych - Notowania i Analiza"
+subtitle: "Interaktywna tabela notowań spółek giełdowych"
+pagetitle: "Spółki GPW | Tabela notowań"
 format:
   html:
     header-includes: |
-      <meta name="description" content="Kompletna baza spółek notowanych na GPW. Wyszukiwarka spółek giełdowych, podziały sektorowe, indeksy WIG20, mWIG40, sWIG80. Notowania i statystyki.">
-      <meta name="keywords" content="spółki GPW, lista spółek giełdowych, WIG20, mWIG40, sWIG80, notowania GPW, baza spółek, giełda warszawska">
+      <meta name="description" content="Interaktywna tabela spółek GPW z notowaniami i zmianami cen. Wyszukiwarka i sortowanie.">
 ---
 
-## Przegląd spółek
+```{r setup, include=FALSE}
+library(dplyr)
+library(DT)
 
-Kompletna baza informacji o spółkach notowanych na GPW.
+# Define company list
+companies <- data.frame(
+  ticker = c("ALE", "ALR", "CCC", "CDR", "DNP", "KGH", "LBW", "LPP", "PEO", "PKN", "PKO", "PZU", "SPL", "XTB", "ZAB"),
+  name = c("Allegro", "Allor Real Estate", "CCC", "CD Projekt", "Dino Polska", "KGHM Polska Miedź", "Lubelski Węgiel Bogdanka", "LPP", "Peugeot Open Europe", "PKN Orlen", "PKO Bank Polski", "PZU", "Split", "XTB", "Zabka"),
+  stringsAsFactors = FALSE
+)
 
-## Wyszukiwarka spółek
+# Load price data
+prices_path <- file.path(getwd(), "data/prices100.RDS")
+prices_all <- readRDS(prices_path)
 
-Tutaj miejsce na interaktywną wyszukiwarkę spółek.
+# Build table row by row
+result_rows <- list()
 
-## Kategorie
+for (i in 1:nrow(companies)) {
+  tick <- companies$ticker[i]
+  comp_name <- companies$name[i]
 
-### Według sektora
-- Banki
-- Energetyka
-- Technologie
-- Budownictwo
-- Handel
-- Inne
+  # Check if ticker exists
+  if (!tick %in% names(prices_all)) {
+    result_rows[[i]] <- data.frame(
+      ticker = tick,
+      name = comp_name,
+      last_price = NA,
+      change_pct = NA,
+      last_date = as.Date(NA),
+      sparkline = "",
+      stringsAsFactors = FALSE
+    )
+    next
+  }
 
-### Według indeksu
-- WIG20
-- mWIG40
-- sWIG80
+  # Get price data
+  tick_df <- prices_all[, c("Date", tick)]
+  names(tick_df) <- c("date", "price")
+  tick_df <- tick_df[!is.na(tick_df$price), ]
+  tick_df <- tick_df[order(tick_df$date), ]
 
-## Najpopularniejsze spółki
+  if (nrow(tick_df) == 0) {
+    result_rows[[i]] <- data.frame(
+      ticker = tick,
+      name = comp_name,
+      last_price = NA,
+      change_pct = NA,
+      last_date = as.Date(NA),
+      sparkline = "",
+      stringsAsFactors = FALSE
+    )
+    next
+  }
 
-Lista najczęściej analizowanych spółek.
+  # Get last price and change
+  last_price <- as.numeric(tail(tick_df$price, 1))
+  prev_price <- as.numeric(tail(tick_df$price, 2)[1])
+  last_date <- tail(tick_df$date, 1)
 
-## Statystyki rynku
+  # Get last 30 days for sparkline
+  spark_data <- tail(tick_df$price, 30)
+  if (length(spark_data) >= 2) {
+    # Normalize to 0-20 range for SVG
+    min_p <- min(spark_data, na.rm = TRUE)
+    max_p <- max(spark_data, na.rm = TRUE)
+    range_p <- ifelse(max_p - min_p > 0, max_p - min_p, 1)
+    normalized <- ((spark_data - min_p) / range_p) * 20
+    # Create SVG path
+    step <- 80 / (length(normalized) - 1)
+    path_d <- paste0("M0,", 20 - normalized[1])
+    for (j in 2:length(normalized)) {
+      path_d <- paste0(path_d, " L", (j-1) * step, ",", 20 - normalized[j])
+    }
+    # Determine color based on trend
+    trend_color <- ifelse(tail(spark_data,1) >= head(spark_data,1), "#28a745", "#dc3545")
+    sparkline_svg <- paste0(
+      "<svg width='80' height='20' style='display:block; margin-top:4px;'>",
+      "<path d='", path_d, "' stroke='", trend_color, "' fill='none' stroke-width='1.5'/>",
+      "</svg>"
+    )
+  } else {
+    sparkline_svg <- ""
+  }
 
-Ogólne statystyki dotyczące spółek na GPW:
-- Liczba spółek
-- Kapitalizacja rynku
-- Obroty
+  change_pct <- NA
+  if (!is.na(prev_price) && prev_price > 0) {
+    change_pct <- ((last_price - prev_price) / prev_price) * 100
+  }
 
+  result_rows[[i]] <- data.frame(
+    ticker = tick,
+    name = comp_name,
+    last_price = last_price,
+    change_pct = change_pct,
+    last_date = last_date,
+    sparkline = sparkline_svg,
+    stringsAsFactors = FALSE
+  )
+}
+
+# Combine results
+company_data <- do.call(rbind, result_rows)
+
+# Format for display
+# Fix links: use lowercase ticker and correct path
+company_data$company <- paste0(
+  "<a href='./spolki/", tolower(company_data$ticker), ".html' style='color:#2c3e50; font-weight:600;'>",
+  company_data$ticker, "</a><br><span style='color:#6c757d; font-size:0.85em;'>",
+  company_data$name, "</span>"
+)
+
+# Format date (dd.mm.rrrr)
+company_data$date_fmt <- ifelse(
+  is.na(company_data$last_date), "",
+  format(company_data$last_date, "%d.%m.%Y")
+)
+
+# Price with date below
+company_data$price_fmt <- paste0(
+  sprintf("%.2f", company_data$last_price),
+  "<br><span style='color:#6c757d; font-size:0.75em;'>", company_data$date_fmt, "</span>"
+)
+
+company_data$change_fmt <- ifelse(
+  is.na(company_data$change_pct), "—",
+  ifelse(
+    company_data$change_pct > 0,
+    paste0("<span style='color:#28a745; font-weight:600;'>+", sprintf("%.2f", company_data$change_pct), "%</span>"),
+    ifelse(
+      company_data$change_pct < 0,
+      paste0("<span style='color:#dc3545; font-weight:600;'>", sprintf("%.2f", company_data$change_pct), "%</span>"),
+      "<span style='color:#6c757d;'>0.00%</span>"
+    )
+  )
+)
+
+# Final table
+final_table <- data.frame(
+  "Spółka" = company_data$company,
+  "Cena" = company_data$price_fmt,
+  "Trend 30D" = company_data$sparkline,
+  "Zmiana" = company_data$change_fmt,
+  stringsAsFactors = FALSE
+)
+```
+
+## Notowania spółek GPW
+
+Poniższa tabela zawiera notowania wybranych spółek z GPW. Możesz wyszukiwać po nazwie lub tickerze oraz sortować kolumny.
+
+::: {.callout-tip}
+## Jak korzystać
+* **Wyszukiwanie** — wpisz ticker (np. "PKO") lub nazwę w polu nad tabelą
+* **Sortowanie** — kliknij nagłówek kolumny
+:::
+
+```{r}
+#| echo: false
+datatable(
+  final_table,
+  rownames = FALSE,
+  escape = FALSE,
+  options = list(
+    pageLength = 20,
+    lengthMenu = c(10, 20, 50, 100),
+    order = list(list(0, "asc")),
+    columnDefs = list(
+      list(targets = 0, width = "220px"),
+      list(targets = 1, width = "100px"),
+      list(targets = 2, width = "100px"),
+      list(targets = 3, width = "100px")
+    ),
+    dom = "ftipl"
+  ),
+  class = "display cell-border stripe hover"
+)
+```
+
+::: {.callout-note}
+## Disclaimer
+Notowania mają charakter wyłącznie informacyjny i nie stanowią rekomendacji inwestycyjnej. Dane pochodzą z zewnętrznych źródeł i mogą być opóźnione.
+:::

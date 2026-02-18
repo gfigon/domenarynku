@@ -204,6 +204,41 @@ tr:hover {
   background-color: var(--light-bg);
 }
 
+/* ===== DATATABLES (DT) - POPRAWKA WIDOCZNOŚCI ===== */
+table.dataTable {
+  background: var(--white) !important;
+  font-size: 0.95rem;
+}
+
+table.dataTable td {
+  color: #1e293b !important;  /* Ciemny tekst - wyraźny */
+  background: var(--white) !important;
+  padding: 0.5rem 0.75rem !important;
+}
+
+table.dataTable th {
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--accent-blue) 100%) !important;
+  color: var(--white) !important;
+  font-weight: 600;
+}
+
+/* Poprawka dla linków w tabeli - wyraźne */
+table.dataTable a {
+  color: #1e40af !important;  /* Ciemny niebieski */
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
+
+table.dataTable a:hover {
+  color: #1e3a8a !important;
+  text-decoration: underline !important;
+}
+
+/* Szary tekst pod tickerem - jaśniejszy */
+table.dataTable td span {
+  color: #475569 !important;  /* Wyraźny szary */
+}
+
 /* ===== KOD ===== */
 pre, code {
   background-color: #f1f5f9;
