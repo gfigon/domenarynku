@@ -60,6 +60,8 @@ Desktop.ini
 .claude/
 # Freeze (Quarto cache)
 _freeze/
+# Screenshots
+screens/
 # ============================================
 # IDE - Pliki edytorów
 # ============================================
