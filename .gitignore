@@ -77,3 +77,4 @@ screens/
 /.quarto/
 **/*.quarto_ipynb
 c.csv
+.PROJECT_LOG.md
