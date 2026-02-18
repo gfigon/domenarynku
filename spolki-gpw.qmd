@@ -15,7 +15,7 @@ library(DT)
 # Define company list
 companies <- data.frame(
   ticker = c("ALE", "ALR", "CCC", "CDR", "DNP", "KGH", "LBW", "LPP", "PEO", "PKN", "PKO", "PZU", "SPL", "XTB", "ZAB"),
-  name = c("Allegro", "Allor Real Estate", "CCC", "CD Projekt", "Dino Polska", "KGHM Polska Miedź", "Lubelski Węgiel Bogdanka", "LPP", "Peugeot Open Europe", "PKN Orlen", "PKO Bank Polski", "PZU", "Split", "XTB", "Zabka"),
+  name = c("Allegro.eu", "Alior Bank", "Grupa CCC", "CD PROJEKT", "DINO POLSKA", "KGHM Polska Miedź", "Lubawa", "LPP", "Bank Pekao", "ORLEN", "PKO Bank Polski", "PZU", "Santander Bank Polska", "XTB", "Żabka Group"),
   stringsAsFactors = FALSE
 )
 
