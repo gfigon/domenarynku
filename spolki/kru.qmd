@@ -1,7 +1,7 @@
 ---
 title: "KRUK S.A. (KRU)"
 subtitle: "Profil spółki KRUK — notowania, analiza, strategia"
-categories: [Windykacja, Usługi finansowe]
+categories: [Finanse]
 pagetitle: "KRUK S.A. (KRU) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** KRU | **KRUK S.A.** | **Siedziba:** Wrocław | **WWW:** [kruk.pl](https://www.kruk.pl/){rel="nofollow"} | **Branża:** [Windykacja](../spolki-gpw.html#category=Windykacja) | **Podbranża:** [Usługi finansowe](../spolki-gpw.html#category=Usługi finansowe)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** KRU | **KRUK S.A.** | **Siedziba:** Wrocław | **WWW:** [kruk.pl](https://www.kruk.pl/){rel="nofollow"} | **Branża:** [Finanse](../spolki-gpw.html#category=Finanse)
 :::
 
 ```{r}

@@ -1,7 +1,7 @@
 ---
 title: "CD PROJEKT S.A. (CDR)"
 subtitle: "Profil spółki CD Projekt — notowania, analiza, strategia"
-categories: [Technologie i IT, gaming]
+categories: [Technologie i IT]
 pagetitle: "CD PROJEKT S.A. (CDR) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -47,7 +47,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** CDR | **CD PROJEKT S.A.** | **Siedziba:** Polska | **WWW:** [cdprojekt.com](https://www.cdprojekt.com){rel="nofollow"} | **Branża:** [Technologie i IT](../spolki-gpw.html#category=Technologie i IT) | **Podbranża:** [gaming](../spolki-gpw.html#category=gaming)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** CDR | **CD PROJEKT S.A.** | **Siedziba:** Polska | **WWW:** [cdprojekt.com](https://www.cdprojekt.com){rel="nofollow"} | **Branża:** [Technologie i IT](../spolki-gpw.html#category=Technologie i IT)
 :::
 
 ```{r}

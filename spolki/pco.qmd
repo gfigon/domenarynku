@@ -1,7 +1,7 @@
 ---
 title: "Pepco Group N.V. (PCO)"
 subtitle: "Profil spółki Pepco Group — notowania, analiza, strategia"
-categories: [Handel i konsumpcja, handel hurtowy FMCG]
+categories: [Handel i konsumpcja]
 pagetitle: "Pepco Group N.V. (PCO) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -47,7 +47,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** PCO | **Pepco Group N.V.** | **Siedziba:** Polska | **WWW:** [pepcogroup.eu](https://www.pepcogroup.eu){rel="nofollow"} | **Branża:** [Handel i konsumpcja](../spolki-gpw.html#category=Handel i konsumpcja) | **Podbranża:** [handel hurtowy FMCG](../spolki-gpw.html#category=handel hurtowy FMCG)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** PCO | **Pepco Group N.V.** | **Siedziba:** Polska | **WWW:** [pepcogroup.eu](https://www.pepcogroup.eu){rel="nofollow"} | **Branża:** [Handel i konsumpcja](../spolki-gpw.html#category=Handel i konsumpcja)
 :::
 
 ```{r}

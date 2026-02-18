@@ -1,7 +1,7 @@
 ---
 title: "DINO POLSKA S.A. (DNP)"
 subtitle: "Profil spółki Dino Polska — notowania, analiza, strategia"
-categories: [Handel i konsumpcja, handel detaliczny spożywczy]
+categories: [Handel i konsumpcja]
 pagetitle: "DINO POLSKA S.A. (DNP) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -47,7 +47,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** DNP | **DINO POLSKA S.A.** | **Siedziba:** Polska | **WWW:** [grupadino.pl](https://www.grupadino.pl){rel="nofollow"} | **Branża:** [Handel i konsumpcja](../spolki-gpw.html#category=Handel i konsumpcja) | **Podbranża:** [handel detaliczny spożywczy](../spolki-gpw.html#category=handel detaliczny spożywczy)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** DNP | **DINO POLSKA S.A.** | **Siedziba:** Polska | **WWW:** [grupadino.pl](https://www.grupadino.pl){rel="nofollow"} | **Branża:** [Handel i konsumpcja](../spolki-gpw.html#category=Handel i konsumpcja)
 :::
 
 ```{r}

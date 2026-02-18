@@ -1,7 +1,7 @@
 ---
 title: "PKO Bank Polski S.A. (PKO)"
 subtitle: "Profil spółki PKO BP — notowania, analiza, strategia"
-categories: [Finanse, banki uniwersalne]
+categories: [Finanse]
 pagetitle: "PKO Bank Polski S.A. (PKO) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -47,7 +47,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** PKO | **PKO Bank Polski S.A.** | **Siedziba:** Polska | **WWW:** [pkobp.pl](https://pkobp.pl){rel="nofollow"} | **Branża:** [Finanse](../spolki-gpw.html#category=Finanse) | **Podbranża:** [banki uniwersalne](../spolki-gpw.html#category=banki uniwersalne)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** PKO | **PKO Bank Polski S.A.** | **Siedziba:** Polska | **WWW:** [pkobp.pl](https://pkobp.pl){rel="nofollow"} | **Branża:** [Finanse](../spolki-gpw.html#category=Finanse)
 :::
 
 ```{r}

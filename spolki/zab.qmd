@@ -1,7 +1,7 @@
 ---
 title: "Żabka Group S.A. (ZAB)"
 subtitle: "Profil spółki Żabka Group — notowania, analiza, strategia"
-categories: [Handel i konsumpcja, sieci convenience]
+categories: [Handel i konsumpcja]
 pagetitle: "Żabka Group S.A. (ZAB) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -47,7 +47,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** ZAB | **Żabka Group S.A.** | **Siedziba:** Polska | **WWW:** [zabkagroup.com](https://zabkagroup.com){rel="nofollow"} | **Branża:** [Handel i konsumpcja](../spolki-gpw.html#category=Handel i konsumpcja) | **Podbranża:** [sieci convenience](../spolki-gpw.html#category=sieci convenience)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** ZAB | **Żabka Group S.A.** | **Siedziba:** Polska | **WWW:** [zabkagroup.com](https://zabkagroup.com){rel="nofollow"} | **Branża:** [Handel i konsumpcja](../spolki-gpw.html#category=Handel i konsumpcja)
 :::
 
 ```{r}

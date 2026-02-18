@@ -1,7 +1,7 @@
 ---
 title: "Grupa Kęty S.A. (KTY)"
 subtitle: "Profil spółki Kęty — notowania, analiza, strategia"
-categories: [Hutnictwo, Przemysł]
+categories: [Surowce i energia]
 pagetitle: "Grupa Kęty S.A. (KTY) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** KTY | **Grupa Kęty S.A.** | **Siedziba:** Kęty | **WWW:** [grupa-kety.pl](https://www.grupa-kety.pl/){rel="nofollow"} | **Branża:** [Hutnictwo](../spolki-gpw.html#category=Hutnictwo) | **Podbranża:** [Przemysł](../spolki-gpw.html#category=Przemysł)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** KTY | **Grupa Kęty S.A.** | **Siedziba:** Kęty | **WWW:** [grupa-kety.pl](https://www.grupa-kety.pl/){rel="nofollow"} | **Branża:** [Surowce i energia](../spolki-gpw.html#category=Surowce i energia)
 :::
 
 ```{r}

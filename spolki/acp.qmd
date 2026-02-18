@@ -1,7 +1,7 @@
 ---
 title: "Asseco Poland S.A. (ACP)"
 subtitle: "Profil spółki Asseco — notowania, analiza, strategia"
-categories: [Informatyka, Oprogramowanie]
+categories: [Technologie i IT]
 pagetitle: "Asseco Poland S.A. (ACP) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** ACP | **Asseco Poland S.A.** | **Siedziba:** Rzeszów | **WWW:** [asseco.pl](https://www.asseco.pl/){rel="nofollow"} | **Branża:** [Informatyka](../spolki-gpw.html#category=Informatyka) | **Podbranża:** [Oprogramowanie](../spolki-gpw.html#category=Oprogramowanie)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** ACP | **Asseco Poland S.A.** | **Siedziba:** Rzeszów | **WWW:** [asseco.pl](https://www.asseco.pl/){rel="nofollow"} | **Branża:** [Technologie i IT](../spolki-gpw.html#category=Technologie i IT)
 :::
 
 ```{r}

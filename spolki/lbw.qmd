@@ -1,7 +1,7 @@
 ---
 title: "Lubawa S.A. (LBW)"
 subtitle: "Profil spółki Lubawa — notowania, analiza, strategia"
-categories: [Przemysł i produkcja, Lotnictwo i obronność]
+categories: [Przemysł i produkcja]
 pagetitle: "Lubawa S.A. (LBW) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** LBW | **Lubawa S.A.** | **Siedziba:** Polska | **WWW:** [lubawagroup.com](https://lubawagroup.com/){rel="nofollow"} | **Branża:** [Przemysł i produkcja](../spolki-gpw.html#category=Przemysł i produkcja) | **Podbranża:** [Lotnictwo i obronność](../spolki-gpw.html#category=Lotnictwo i obronność)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** LBW | **Lubawa S.A.** | **Siedziba:** Polska | **WWW:** [lubawagroup.com](https://lubawagroup.com/){rel="nofollow"} | **Branża:** [Przemysł i produkcja](../spolki-gpw.html#category=Przemysł i produkcja)
 :::
 
 ```{r}

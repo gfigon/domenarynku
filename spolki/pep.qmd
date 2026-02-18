@@ -1,7 +1,7 @@
 ---
 title: "Polenergia S.A. (PEP)"
 subtitle: "Profil spółki Polenergia — notowania, analiza, strategia"
-categories: [Energetyka, OZE]
+categories: [Surowce i energia]
 pagetitle: "Polenergia S.A. (PEP) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** PEP | **Polenergia S.A.** | **Siedziba:** Warszawa | **WWW:** [polenergia.pl](https://polenergia.pl/){rel="nofollow"} | **Branża:** [Energetyka](../spolki-gpw.html#category=Energetyka) | **Podbranża:** [OZE](../spolki-gpw.html#category=OZE)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** PEP | **Polenergia S.A.** | **Siedziba:** Warszawa | **WWW:** [polenergia.pl](https://polenergia.pl/){rel="nofollow"} | **Branża:** [Surowce i energia](../spolki-gpw.html#category=Surowce i energia)
 :::
 
 ```{r}

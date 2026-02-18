@@ -14,8 +14,16 @@ library(DT)
 
 # Define company list
 companies <- data.frame(
-  ticker = c("ACP", "ALE", "ALR", "BDX", "BFT", "CAR", "CCC", "CDR", "DIA", "DIG", "DNP", "JSW", "KGH", "KRU", "KTY", "LBW", "LPP", "MBK", "PEO", "PEP", "PGE", "PKN", "PKO", "PZU", "SPL", "TPE", "XTB", "ZAB"),
-  name = c("Asseco Poland", "Allegro.eu", "Alior Bank", "Budimex", "Benefit Systems", "Inter Cars", "Grupa CCC", "CD PROJEKT", "Bank Millennium", "Digital Network", "DINO POLSKA", "Jastrzębska Spółka Węglowa", "KGHM Polska Miedź", "KRUK", "Grupa Kęty", "Lubawa", "LPP", "mBank", "Bank Pekao", "Polenergia", "PGE Polska Grupa Energetyczna", "ORLEN", "PKO Bank Polski", "PZU", "Santander Bank Polska", "Tauron Polska Energia", "XTB", "Żabka Group"),
+  ticker = c(
+    "ACP", "ALE", "ALR", "BDX", "BFT", "CAR", "CCC", "CDR", "DIG", "DNP", 
+    "JSW", "KGH", "KRU", "KTY", "LBW", "LPP", "MBK", "MIL", "PEO", "PEP", 
+    "PGE", "PKN", "PKO", "PZU", "SPL", "TPE", "XTB", "ZAB"
+  ),
+  name = c(
+    "Asseco Poland", "Allegro.eu", "Alior Bank", "Budimex", "Benefit Systems", "Inter Cars", "Grupa CCC", "CD PROJEKT", "Digital Network", "DINO POLSKA", 
+    "Jastrzębska Spółka Węglowa", "KGHM Polska Miedź", "KRUK", "Grupa Kęty", "Lubawa", "LPP", "mBank", "Bank Millennium", "Bank Pekao", "Polenergia", 
+    "PGE Polska Grupa Energetyczna", "ORLEN", "PKO Bank Polski", "PZU", "Santander Bank Polska", "Tauron Polska Energia", "XTB", "Żabka Group"
+  ),
   stringsAsFactors = FALSE
 )
 
@@ -23,18 +31,63 @@ companies <- data.frame(
 prices_path <- file.path(getwd(), "data/prices100.RDS")
 prices_all <- readRDS(prices_path)
 
+# Load industry mapping
+branze_csv <- read.csv("data/branze_podbranze.csv", stringsAsFactors = FALSE)
+# Set of valid Industries (used for validation)
+valid_inds <- unique(branze_csv$branza)
+
+# Function to extract categories from qmd files
+get_categories <- function(ticker) {
+  file_path <- file.path("spolki", paste0(tolower(ticker), ".qmd"))
+  if (!file.exists(file_path)) return(NA)
+  
+  lines <- readLines(file_path, n = 20)
+  cat_line <- grep("^categories:", lines, value = TRUE)
+  if (length(cat_line) > 0) {
+    # Extract content inside []
+    cats <- gsub("categories: \\[(.*)\\]", "\\1", cat_line)
+    # Split by comma and clean
+    cats_vec <- trimws(unlist(strsplit(cats, ",")))
+    return(cats_vec)
+  }
+  return(NA)
+}
+
 # Build table row by row
 result_rows <- list()
+all_categories <- c()
 
 for (i in 1:nrow(companies)) {
   tick <- companies$ticker[i]
   comp_name <- companies$name[i]
+  
+  # Get category from file
+  raw_cats <- get_categories(tick)
+  final_cat <- NA
+  
+  if (!is.na(raw_cats[1])) {
+    # Logic to map to Industry
+    # 1. Check if any raw cat is a Main Industry
+    ind_match <- intersect(raw_cats, valid_inds)
+    
+    if (length(ind_match) > 0) {
+       final_cat <- ind_match[1] 
+    } else {
+       # Since we updated all files, this should be rare.
+       final_cat <- raw_cats[1] 
+    }
+    
+    if (!is.na(final_cat)) {
+       all_categories <- unique(c(all_categories, final_cat))
+    }
+  }
 
   # Check if ticker exists
   if (!tick %in% names(prices_all)) {
     result_rows[[i]] <- data.frame(
       ticker = tick,
       name = comp_name,
+      categories = final_cat,
       last_price = NA,
       change_pct = NA,
       last_date = as.Date(NA),
@@ -54,6 +107,7 @@ for (i in 1:nrow(companies)) {
     result_rows[[i]] <- data.frame(
       ticker = tick,
       name = comp_name,
+      categories = final_cat,
       last_price = NA,
       change_pct = NA,
       last_date = as.Date(NA),
@@ -101,6 +155,7 @@ for (i in 1:nrow(companies)) {
   result_rows[[i]] <- data.frame(
     ticker = tick,
     name = comp_name,
+    categories = final_cat,
     last_price = last_price,
     change_pct = change_pct,
     last_date = last_date,
@@ -145,14 +200,25 @@ company_data$change_fmt <- ifelse(
   )
 )
 
+# Format categories as badges
+company_data$cat_fmt <- sapply(company_data$categories, function(x) {
+  if (is.na(x)) return("")
+  # Map to standard badge
+  paste0("<span class='badge bg-light text-dark border' style='cursor:pointer;' onclick='filterCategory(\"", x, "\")'>", x, "</span>")
+})
+
 # Final table
 final_table <- data.frame(
   "Spółka" = company_data$company,
+  "Branża" = company_data$cat_fmt,
   "Cena" = company_data$price_fmt,
   "Trend 30D" = company_data$sparkline,
   "Zmiana" = company_data$change_fmt,
   stringsAsFactors = FALSE
 )
+
+# Sort categories alphabetically
+all_categories <- sort(all_categories)
 ```
 
 ## Notowania spółek GPW
@@ -161,9 +227,66 @@ Poniższa tabela zawiera notowania wybranych spółek z GPW. Możesz wyszukiwać
 
 ::: {.callout-tip}
 ## Jak korzystać
-* **Wyszukiwanie** — wpisz ticker (np. "PKO") lub nazwę w polu nad tabelą
-* **Sortowanie** — kliknij nagłówek kolumny
+*   **Wyszukiwanie** — wpisz ticker (np. "PKO") lub nazwę w polu nad tabelą
+*   **Sortowanie** — kliknij nagłówek kolumny
 :::
+
+```{r}
+#| echo: false
+#| results: asis
+
+# Generate category dropdown
+cat('<div class="category-filters mb-3">')
+cat('<label for="categorySelect" class="form-label me-2 fw-bold">Wybierz branżę:</label>')
+cat('<select id="categorySelect" class="form-select d-inline-block w-auto" onchange="filterCategory(this.value)">')
+cat('<option value="all">Wszystkie</option>')
+for(cat_name in all_categories) {
+  cat(paste0('<option value="', cat_name, '">', cat_name, '</option>'))
+}
+cat('</select>')
+cat('</div>')
+
+# Add JavaScript for filtering
+cat(paste0('
+<script>
+$(document).ready(function() {
+  // Initialize DataTable
+  var table = $(".dataTable").DataTable();
+  
+  // Expose filter function globally
+  window.filterCategory = function(category) {
+    var rawCat = decodeURIComponent(category);
+    var targetCat = rawCat;
+    
+    // Update dropdown value
+    if($("#categorySelect").val() !== targetCat) {
+      if(targetCat === "all" || !$("#categorySelect option[value=\'" + targetCat + "\']").length) {
+         $("#categorySelect").val("all");
+      } else {
+         $("#categorySelect").val(targetCat);
+      }
+    }
+    
+    var val = $("#categorySelect").val();
+
+    if(val === "all") {
+      table.column(1).search("").draw();
+      history.pushState("", document.title, window.location.pathname + window.location.search);
+    } else {
+      table.column(1).search(val).draw();
+      window.location.hash = "category=" + encodeURIComponent(val);
+    }
+  };
+
+  // Check URL hash on load
+  var hash = window.location.hash;
+  if(hash && hash.includes("category=")) {
+    var category = hash.split("category=")[1]; 
+    filterCategory(decodeURIComponent(category));
+  }
+});
+</script>
+'))
 
 ```{r}
 #| echo: false
@@ -174,12 +297,13 @@ datatable(
   options = list(
     pageLength = 20,
     lengthMenu = c(10, 20, 50, 100),
-    order = list(list(0, "asc")),
+    order = list(list(0, "asc")), # Sort by Name (idx 0)
     columnDefs = list(
-      list(targets = 0, width = "220px"),
-      list(targets = 1, width = "100px"),
-      list(targets = 2, width = "100px"),
-      list(targets = 3, width = "100px")
+      list(targets = 0, width = "200px"), # Spółka
+      list(targets = 1, width = "150px"), # Branża
+      list(targets = 2, width = "100px"), # Cena
+      list(targets = 3, width = "100px"), # Trend
+      list(targets = 4, width = "100px")  # Zmiana
     ),
     dom = "ftipl"
   ),

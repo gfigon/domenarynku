@@ -1,7 +1,7 @@
 ---
 title: "Jastrzębska Spółka Węglowa S.A. (JSW)"
 subtitle: "Profil spółki JSW — notowania, analiza, strategia"
-categories: [Górnictwo, Węgiel]
+categories: [Surowce i energia]
 pagetitle: "Jastrzębska Spółka Węglowa S.A. (JSW) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** JSW | **Jastrzębska Spółka Węglowa S.A.** | **Siedziba:** Jastrzębie-Zdrój | **WWW:** [jsw.pl](https://www.jsw.pl/){rel="nofollow"} | **Branża:** [Górnictwo](../spolki-gpw.html#category=Górnictwo) | **Podbranża:** [Węgiel](../spolki-gpw.html#category=Węgiel)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** JSW | **Jastrzębska Spółka Węglowa S.A.** | **Siedziba:** Jastrzębie-Zdrój | **WWW:** [jsw.pl](https://www.jsw.pl/){rel="nofollow"} | **Branża:** [Surowce i energia](../spolki-gpw.html#category=Surowce i energia)
 :::
 
 ```{r}

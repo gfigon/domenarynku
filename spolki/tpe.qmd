@@ -1,7 +1,7 @@
 ---
 title: "Tauron Polska Energia S.A. (TPE)"
 subtitle: "Profil spółki Tauron — notowania, analiza, strategia"
-categories: [Energetyka, Dystrybucja energii]
+categories: [Surowce i energia]
 pagetitle: "Tauron Polska Energia S.A. (TPE) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** TPE | **Tauron Polska Energia S.A.** | **Siedziba:** Katowice | **WWW:** [tauron.pl](https://www.tauron.pl/){rel="nofollow"} | **Branża:** [Energetyka](../spolki-gpw.html#category=Energetyka) | **Podbranża:** [Dystrybucja energii](../spolki-gpw.html#category=Dystrybucja energii)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** TPE | **Tauron Polska Energia S.A.** | **Siedziba:** Katowice | **WWW:** [tauron.pl](https://www.tauron.pl/){rel="nofollow"} | **Branża:** [Surowce i energia](../spolki-gpw.html#category=Surowce i energia)
 :::
 
 ```{r}

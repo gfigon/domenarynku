@@ -1,7 +1,7 @@
 ---
 title: "KGHM Polska Miedź S.A. (KGH)"
 subtitle: "Profil spółki KGHM — notowania, analiza, strategia"
-categories: [Surowce i energia, górnictwo rud metali]
+categories: [Surowce i energia]
 pagetitle: "KGHM Polska Miedź S.A. (KGH) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -47,7 +47,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** KGH | **KGHM Polska Miedź S.A.** | **Siedziba:** Polska | **WWW:** [kghm.com](https://kghm.com){rel="nofollow"} | **Branża:** [Surowce i energia](../spolki-gpw.html#category=Surowce i energia) | **Podbranża:** [górnictwo rud metali](../spolki-gpw.html#category=górnictwo rud metali)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** KGH | **KGHM Polska Miedź S.A.** | **Siedziba:** Polska | **WWW:** [kghm.com](https://kghm.com){rel="nofollow"} | **Branża:** [Surowce i energia](../spolki-gpw.html#category=Surowce i energia)
 :::
 
 ```{r}

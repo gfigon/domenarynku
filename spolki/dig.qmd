@@ -1,7 +1,7 @@
 ---
 title: "Digital Network S.A. (DIG)"
 subtitle: "Profil spółki Digital Network — notowania, analiza, strategia"
-categories: [Media, Reklama outdoor]
+categories: [Media i komunikacja]
 pagetitle: "Digital Network S.A. (DIG) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** DIG | **Digital Network S.A.** | **Siedziba:** Warszawa | **WWW:** [digitalnetwork.pl](https://digitalnetwork.pl/){rel="nofollow"} | **Branża:** [Media](../spolki-gpw.html#category=Media) | **Podbranża:** [Reklama outdoor](../spolki-gpw.html#category=Reklama outdoor)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** DIG | **Digital Network S.A.** | **Siedziba:** Warszawa | **WWW:** [digitalnetwork.pl](https://digitalnetwork.pl/){rel="nofollow"} | **Branża:** [Media i komunikacja](../spolki-gpw.html#category=Media i komunikacja)
 :::
 
 ```{r}

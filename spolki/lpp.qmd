@@ -1,7 +1,7 @@
 ---
 title: "LPP S.A. (LPP)"
 subtitle: "Profil spółki LPP — notowania, analiza, strategia"
-categories: [Handel i konsumpcja, handel detaliczny odzieżowy]
+categories: [Handel i konsumpcja]
 pagetitle: "LPP S.A. (LPP) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -47,7 +47,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** LPP | **LPP S.A.** | **Siedziba:** Polska | **WWW:** [lpp.com](https://www.lpp.com){rel="nofollow"} | **Branża:** [Handel i konsumpcja](../spolki-gpw.html#category=Handel i konsumpcja) | **Podbranża:** [handel detaliczny odzieżowy](../spolki-gpw.html#category=handel detaliczny odzieżowy)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** LPP | **LPP S.A.** | **Siedziba:** Polska | **WWW:** [lpp.com](https://www.lpp.com){rel="nofollow"} | **Branża:** [Handel i konsumpcja](../spolki-gpw.html#category=Handel i konsumpcja)
 :::
 
 ```{r}

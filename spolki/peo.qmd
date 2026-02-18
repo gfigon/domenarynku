@@ -1,7 +1,7 @@
 ---
 title: "Bank Pekao S.A. (PEO)"
 subtitle: "Profil spółki Bank Pekao — notowania, analiza, strategia"
-categories: [Finanse, banki uniwersalne]
+categories: [Finanse]
 pagetitle: "Bank Pekao S.A. (PEO) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -47,7 +47,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** PEO | **Bank Pekao S.A.** | **Siedziba:** Polska | **WWW:** [pekao.com.pl](https://www.pekao.com.pl){rel="nofollow"} | **Branża:** [Finanse](../spolki-gpw.html#category=Finanse) | **Podbranża:** [banki uniwersalne](../spolki-gpw.html#category=banki uniwersalne)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** PEO | **Bank Pekao S.A.** | **Siedziba:** Polska | **WWW:** [pekao.com.pl](https://www.pekao.com.pl){rel="nofollow"} | **Branża:** [Finanse](../spolki-gpw.html#category=Finanse)
 :::
 
 ```{r}

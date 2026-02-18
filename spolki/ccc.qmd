@@ -1,7 +1,7 @@
 ---
 title: "Grupa CCC S.A. (CCC)"
 subtitle: "Profil spółki CCC — notowania, analiza, strategia"
-categories: [Handel i konsumpcja, handel detaliczny obuwiem]
+categories: [Handel i konsumpcja]
 pagetitle: "Grupa CCC S.A. (CCC) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -47,7 +47,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** CCC | **Grupa CCC S.A.** | **Siedziba:** Polska | **WWW:** [corporate.ccc.eu](https://corporate.ccc.eu){rel="nofollow"} | **Branża:** [Handel i konsumpcja](../spolki-gpw.html#category=Handel i konsumpcja) | **Podbranża:** [handel detaliczny obuwiem](../spolki-gpw.html#category=handel detaliczny obuwiem)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** CCC | **Grupa CCC S.A.** | **Siedziba:** Polska | **WWW:** [corporate.ccc.eu](https://corporate.ccc.eu){rel="nofollow"} | **Branża:** [Handel i konsumpcja](../spolki-gpw.html#category=Handel i konsumpcja)
 :::
 
 ```{r}

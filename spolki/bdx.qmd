@@ -1,7 +1,7 @@
 ---
 title: "Budimex S.A. (BDX)"
 subtitle: "Profil spółki Budimex — notowania, analiza, strategia"
-categories: [Budownictwo, Infrastruktura]
+categories: [Nieruchomości i budownictwo]
 pagetitle: "Budimex S.A. (BDX) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** BDX | **Budimex S.A.** | **Siedziba:** Warszawa | **WWW:** [budimex.pl](https://budimex.pl){rel="nofollow"} | **Branża:** [Budownictwo](../spolki-gpw.html#category=Budownictwo) | **Podbranża:** [Infrastruktura](../spolki-gpw.html#category=Infrastruktura)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** BDX | **Budimex S.A.** | **Siedziba:** Warszawa | **WWW:** [budimex.pl](https://budimex.pl){rel="nofollow"} | **Branża:** [Nieruchomości i budownictwo](../spolki-gpw.html#category=Nieruchomości i budownictwo)
 :::
 
 ```{r}

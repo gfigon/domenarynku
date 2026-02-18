@@ -1,7 +1,7 @@
 ---
 title: "ORLEN S.A. (PKN)"
 subtitle: "Profil spółki ORLEN — notowania, analiza, strategia"
-categories: [Surowce i energia, rafinerie i produkcja paliw]
+categories: [Surowce i energia]
 pagetitle: "ORLEN S.A. (PKN) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -47,7 +47,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** PKN | **ORLEN S.A.** | **Siedziba:** Polska | **WWW:** [orlen.pl](https://orlen.pl){rel="nofollow"} | **Branża:** [Surowce i energia](../spolki-gpw.html#category=Surowce i energia) | **Podbranża:** [rafinerie i produkcja paliw](../spolki-gpw.html#category=rafinerie i produkcja paliw)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** PKN | **ORLEN S.A.** | **Siedziba:** Polska | **WWW:** [orlen.pl](https://orlen.pl){rel="nofollow"} | **Branża:** [Surowce i energia](../spolki-gpw.html#category=Surowce i energia)
 :::
 
 ```{r}

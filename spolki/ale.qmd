@@ -1,7 +1,7 @@
 ---
 title: "Allegro.eu S.A. (ALE)"
 subtitle: "Profil spółki Allegro — notowania, analiza, strategia"
-categories: [Technologie i IT, e-commerce]
+categories: [Technologie i IT]
 pagetitle: "Allegro.eu S.A. (ALE) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
@@ -47,7 +47,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** ALE | **Allegro.eu S.A.** | **Siedziba:** Polska | **WWW:** [allegro.eu](https://allegro.eu){rel="nofollow"} | **Branża:** [Technologie i IT](../spolki-gpw.html#category=Technologie i IT) | **Podbranża:** [e-commerce](../spolki-gpw.html#category=e-commerce)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** ALE | **Allegro.eu S.A.** | **Siedziba:** Polska | **WWW:** [allegro.eu](https://allegro.eu){rel="nofollow"} | **Branża:** [Technologie i IT](../spolki-gpw.html#category=Technologie i IT)
 :::
 
 ```{r}
