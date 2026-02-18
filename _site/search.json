@@ -203,6 +203,41 @@
     "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.6\n✔ forcats   1.0.0     ✔ stringr   1.6.0\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.2.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(xts)\n\nLoading required package: zoo\n\nAttaching package: 'zoo'\n\nThe following objects are masked from 'package:base':\n\n    as.Date, as.Date.numeric\n\n\n######################### Warning from 'xts' package ##########################\n#                                                                             #\n# The dplyr lag() function breaks how base R's lag() function is supposed to  #\n# work, which breaks lag(my_xts). Calls to lag(my_xts) that you type or       #\n# source() into this session won't work correctly.                            #\n#                                                                             #\n# Use stats::lag() to make sure you're not using dplyr::lag(), or you can add #\n# conflictRules('dplyr', exclude = 'lag') to your .Rprofile to stop           #\n# dplyr from breaking base R's lag() function.                                #\n#                                                                             #\n# Code in packages is not affected. It's protected by R's namespace mechanism #\n# Set `options(xts.warn_dplyr_breaks_lag = FALSE)` to suppress this warning.  #\n#                                                                             #\n###############################################################################\n\nAttaching package: 'xts'\n\nThe following objects are masked from 'package:dplyr':\n\n    first, last\n\ntest_prices &lt;- readRDS(\"../data/prices100.RDS\")\n\n\n\ncolnames(test_prices)\n\n [1] \"Date\" \"KGH\"  \"PKO\"  \"PKN\"  \"ZAB\"  \"ALE\"  \"PEO\"  \"PZU\"  \"CDR\"  \"LPP\" \n[11] \"DNP\"  \"CCC\"  \"ALR\"  \"XTB\"  \"SPL\"  \"PCO\"  \"PGE\"  \"CAR\"  \"BDX\"  \"MBK\" \n[21] \"TPE\"  \"ACP\"  \"BFT\"  \"KTY\"  \"JSW\"  \"KRU\"  \"DIG\"  \"DIA\"  \"CPS\"  \"APR\" \n[31] \"MIL\"  \"RBW\"  \"OPL\"  \"DAD\"  \"ENA\"  \"ASB\"  \"SNT\"  \"CRI\"  \"TXT\"  \"PXM\" \n[41] \"BHW\"  \"LBW\"  \"CIG\"  \"EAT\"  \"APT\"  \"CBF\"  \"11B\"  \"ENG\"  \"ASM\"  \"TEN\" \n[51] \"WPL\"  \"GPW\"  \"ATT\"  \"MRB\"  \"PKP\"  \"FRO\"  \"BMC\"  \"MBR\"  \"GRX\"  \"ING\" \n[61] \"EUR\"  \"TRK\"  \"SLV\"  \"TOR\"  \"DAT\"  \"PEP\"  \"GPP\"  \"PLW\"  \"DVL\"  \"ELT\" \n[71] \"RVU\"  \"MDG\"  \"VRG\"  \"SCP\"  \"SPR\"  \"ECH\"  \"WTN\"  \"KER\"  \"TOA\"  \"PCR\" \n[81] \"BCX\"  \"MUR\"  \"LWB\"  \"DOM\"  \"NWG\"  \"SGN\"  \"4MS\"  \"STX\"  \"ENT\"  \"NEU\" \n[91] \"MLS\"  \"CLC\"  \"PAS\"  \"ALL\"  \"ICE\"  \"BNP\"  \"CRJ\""
   },
   {
+    "objectID": "spolki/cdr.html",
+    "href": "spolki/cdr.html",
+    "title": "CD PROJEKT S.A. (CDR)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: CDR | CD PROJEKT S.A. | Siedziba: Polska | WWW: cdprojekt.com | Branża: Technologie i IT | Podbranża: gaming"
+  },
+  {
+    "objectID": "spolki/cdr.html#notowania",
+    "href": "spolki/cdr.html#notowania",
+    "title": "CD PROJEKT S.A. (CDR)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/cdr.html#o-spółce",
+    "href": "spolki/cdr.html#o-spółce",
+    "title": "CD PROJEKT S.A. (CDR)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: CD PROJEKT S.A. to wiodący polski producent i wydawca gier wideo, znany na całym świecie dzięki serii “Wiedźmin” oraz grze “Cyberpunk 2077”. Spółka jest jednym z globalnych liderów w segmencie gier fabularnych (RPG) z otwartym światem.\nStrategia i Rozwój: Spółka realizuje nową strategię zakładającą równoległą produkcję kilku tytułów AAA oraz rozbudowę uniwersów poprzez media towarzyszące (animacje, serie komiksowe). Kluczowe projekty to rozpoczęta nowa saga wiedźmińska (Polaris) oraz projekt Orion (kontynuacja Cyberpunka)."
+  },
+  {
+    "objectID": "spolki/cdr.html#biznes",
+    "href": "spolki/cdr.html#biznes",
+    "title": "CD PROJEKT S.A. (CDR)",
+    "section": "Biznes",
+    "text": "Biznes\nProdukcja gier: CD Projekt tworzy gry wideo w modelu własnego studia deweloperskiego (in-house), co zapewnia pełną kontrolę nad jakością i wizją artystyczną.\nPortfolio marek:\n\nWiedźmin: Kultowa trylogia RPG (Wiedźmin 1, 2, 3) oraz seria serialowa Netflixa.\nCyberpunk 2077: Największa premiera w historii polskiego gamingu, z rozbudowanym uniwersum science-fiction.\nPolaris: Nowa saga wiedźmińska - projekt AAA realizowany w ramach nowej strategii.\n\nModel dystrybucji: Sprzedaż cyfrowa (Steam, GOG, konsole) z dodatkowymi przychodami z DLC i mikrotransakcji."
+  },
+  {
+    "objectID": "spolki/cdr.html#strategia",
+    "href": "spolki/cdr.html#strategia",
+    "title": "CD PROJEKT S.A. (CDR)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nJakość ponad wszystko: utrzymanie statusu studia tworzącego najbardziej zaawansowane narracyjnie gry na świecie.\nMultiplayer: wprowadzanie komponentów sieciowych do przyszłych produkcji.\nTechnologia: przejście na silnik Unreal Engine 5 w celu optymalizacji procesów twórczych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
     "objectID": "spolki/zab.html",
     "href": "spolki/zab.html",
     "title": "Żabka Group S.A. (ZAB)",
@@ -238,529 +273,39 @@
     "text": "Strategia\nGłówne kierunki wzrostu Żabka Group:\n\nEkspansja terytorialna: Dalsze nasycanie rynku polskiego i wejście na rynki zagraniczne (np. Rumunia).\nDigitalizacja: Rozwój aplikacji Żappka (ponad 6 mln aktywnych użytkowników) oraz personalizacja oferty (retail media).\nLogistyka 2.0: Optymalizacja dostaw ostatniej mili i rozwój usług kurierskich.\nZrównoważony styl życia: Rozbudowa oferty produktów “Better for You” i ekologicznych rozwiązań w placówkach.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/pkn.html",
-    "href": "spolki/pkn.html",
-    "title": "ORLEN S.A. (PKN)",
+    "objectID": "spolki/mbk.html",
+    "href": "spolki/mbk.html",
+    "title": "mBank S.A. (MBK)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: PKN | ORLEN S.A. | Siedziba: Polska | WWW: orlen.pl | Branża: Surowce i energia | Podbranża: rafinerie i produkcja paliw"
+    "text": "← Spółki GPW | Ticker: MBK | mBank S.A. | Siedziba: Warszawa | WWW: mbank.pl | Branża: Bankowość | Podbranża: Usługi finansowe"
   },
   {
-    "objectID": "spolki/pkn.html#notowania",
-    "href": "spolki/pkn.html#notowania",
-    "title": "ORLEN S.A. (PKN)",
+    "objectID": "spolki/mbk.html#notowania",
+    "href": "spolki/mbk.html#notowania",
+    "title": "mBank S.A. (MBK)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/pkn.html#o-spółce",
-    "href": "spolki/pkn.html#o-spółce",
-    "title": "ORLEN S.A. (PKN)",
+    "objectID": "spolki/mbk.html#o-spółce",
+    "href": "spolki/mbk.html#o-spółce",
+    "title": "mBank S.A. (MBK)",
     "section": "O spółce",
-    "text": "O spółce\nORLEN S.A. to największa firma w Europie Środkowo-Wschodniej, działająca w sektorze paliwowo-energetycznym. Po fuzjach z Grupą Lotos oraz PGNiG, koncern stał się multienergetycznym gigantem o strategicznym znaczeniu dla bezpieczeństwa energetycznego Polski."
+    "text": "O spółce\nProfil działalności: mBank S.A. to uniwersalny bank komercyjny należący do grupy mBanku Hipotecznego. Bank oferuje kompleksowe usługi dla klientów indywidualnych i firm, w tym konta osobiste, kredyty, produkty inwestycyjne, usługi maklerskie, leasing oraz factoring. mBank jest znany z innowacyjności i nowoczesnej bankowości internetowej.\nStrategia i Perspektywy: mBank koncentruje się na rozwoju cyfrowych kanałów obsługi i innowacyjnych produktów. Kluczowe są: wzrost w segmencie klientów zamożnych (private banking), rozwój oferty dla firm oraz utrzymanie rentowności w warunkach zmiennej stopy procentowej."
   },
   {
-    "objectID": "spolki/pkn.html#biznes",
-    "href": "spolki/pkn.html#biznes",
-    "title": "ORLEN S.A. (PKN)",
+    "objectID": "spolki/mbk.html#biznes",
+    "href": "spolki/mbk.html#biznes",
+    "title": "mBank S.A. (MBK)",
     "section": "Biznes",
-    "text": "Biznes\nSegmenty działalności:\n\nRafinacja: Przetwarzanie ropy naftowej w rafineriach (Plock, Gdańsk, Trzebinia) - produkcja paliw (benzyna, olej napędowy, paliwo lotnicze).\nPetrochemia: Produkcja tworzyw sztucznych, polimerów, włókien - segment wysokomarżowy.\nWydobycie: Poszukiwanie i wydobycie ropy oraz gazu (aktywa w Norwegii, Pakistanie, Kanadzie).\nEnergia: Produkcja energii elektrycznej, rozwój OZE, programy nuklearne (SMR).\nSieć stacji: Blisko 2000 stacji paliw w Polsce, Czechach, Niemczech, na Litwie i Słowacji.\n\nSpółki zależne:\n\nGrupa Lotos: Wydobycie i przetwórstwo ropy (fuzja z ORLEN)\nPGNiG: Wydobycie i dystrybucja gazu ziemnego\nEnerga: Dystrybucja energii elektrycznej"
+    "text": "Biznes\nGłówne linie produktowe:\n\nBankowość detaliczna: Konta osobiste, kredyty hipoteczne i konsumenckie, karty płatnicze, oszczędności i inwestycje.\nBankowość korporacyjna: Konta firmowe, kredyty dla przedsiębiorstw, zarządzanie płynnością.\nUsługi maklerskie: Platforma transakcyjna, doradztwo inwestycyjne, produkty strukturyzowane.\nLeasing i factoring: Obsługa MŚP poprzez spółki zależne.\n\nZasoby i Surowce:\nDziałalność opiera się na kapitale (depozyty klientów), zasobach IT (platformy cyfrowe) oraz kapitale ludzkim (doradcy, analitycy)."
   },
   {
-    "objectID": "spolki/pkn.html#strategia",
-    "href": "spolki/pkn.html#strategia",
-    "title": "ORLEN S.A. (PKN)",
+    "objectID": "spolki/mbk.html#strategia",
+    "href": "spolki/mbk.html#strategia",
+    "title": "mBank S.A. (MBK)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nTransformacja energetyczna: Dywersyfikacja w kierunku niskoemisyjnych źródeł energii, rozwój OZE i atomu.\nWodór: Budowa klastrów wodorowych i rozwój technologii wodorowych.\nElektromobilność: Rozbudowa sieci ładowania pojazdów elektrycznych.\nPetrochemia 2.0: Zwiększanie udziału przetwórstwa ropy w segmencie chemicznym.\nBezpieczeństwo energetyczne: Wzmocnienie pozycji lidera rynku CEE w sektorze paliwowo-energetycznym.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/kgh.html",
-    "href": "spolki/kgh.html",
-    "title": "KGHM Polska Miedź S.A. (KGH)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: KGH | KGHM Polska Miedź S.A. | Siedziba: Polska | WWW: kghm.com | Branża: Surowce i energia | Podbranża: górnictwo rud metali"
-  },
-  {
-    "objectID": "spolki/kgh.html#notowania",
-    "href": "spolki/kgh.html#notowania",
-    "title": "KGHM Polska Miedź S.A. (KGH)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/kgh.html#o-spółce",
-    "href": "spolki/kgh.html#o-spółce",
-    "title": "KGHM Polska Miedź S.A. (KGH)",
-    "section": "O spółce",
-    "text": "O spółce\nProfil działalności: KGHM Polska Miedź S.A. to jeden z największych producentów miedzi elektrolitycznej i srebra na świecie. Spółka zarządza kluczowymi procesami wydobywczymi i hutniczymi w Legnicko-Głogowskim Zagłębiu Miedziowym (LGOM) oraz posiada aktywa zagraniczne (m.in. kopalnia Sierra Gorda w Chile).\nStrategia i Perspektywy: Firma dąży do bycia globalnym liderem efektywności w branży wydobywczej. Kluczowe kierunki to ekspansja bazy zasobowej, zielona transformacja energetyczna (OZE + atom SMR) oraz digitalizacja procesów produkcyjnych."
-  },
-  {
-    "objectID": "spolki/kgh.html#biznes",
-    "href": "spolki/kgh.html#biznes",
-    "title": "KGHM Polska Miedź S.A. (KGH)",
-    "section": "Biznes",
-    "text": "Biznes\nGłówne produkty:\n\nMiedź rafinowana: W postaci katod i walcówki.\nSrebro rafinowane: KGHM jest jednym z największych producentów kruszcu na świecie.\nZłoto i metale szlachetne: Pallad, platyna.\nMetale towarzyszące: Ołów, molibden, selen, ren.\n\nZasoby: Jedne z największych na świecie złóż miedzi zlokalizowane na Dolnym Śląsku."
-  },
-  {
-    "objectID": "spolki/kgh.html#strategia",
-    "href": "spolki/kgh.html#strategia",
-    "title": "KGHM Polska Miedź S.A. (KGH)",
-    "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja globalna: rozwój aktywów zagranicznych w obu Amerykach.\nEkologia: redukcja śladu węglowego i wdrożenie GOZ.\nBezpieczeństwo surowcowe: zabezpieczenie strategicznych zasobów miedzi.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/alr.html",
-    "href": "spolki/alr.html",
-    "title": "Alior Bank S.A. (ALR)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: ALR | Alior Bank S.A. | Siedziba: Polska | WWW: aliorbank.pl | Branża: Finanse | Podbranża: banki uniwersalne"
-  },
-  {
-    "objectID": "spolki/alr.html#notowania",
-    "href": "spolki/alr.html#notowania",
-    "title": "Alior Bank S.A. (ALR)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/alr.html#o-spółce",
-    "href": "spolki/alr.html#o-spółce",
-    "title": "Alior Bank S.A. (ALR)",
-    "section": "O spółce",
-    "text": "O spółce\nAlior Bank S.A. to jeden z najbardziej innowacyjnych banków w Polsce. Od początku istnienia łączy zasady tradycyjnej bankowości z nowoczesnymi technologiami, co pozwoliło mu szybko zdobyć znaczący udział w rynku."
-  },
-  {
-    "objectID": "spolki/alr.html#biznes",
-    "href": "spolki/alr.html#biznes",
-    "title": "Alior Bank S.A. (ALR)",
-    "section": "Biznes",
-    "text": "Biznes\nOferta dla klientów indywidualnych:\n\nKonta osobiste z pakietem usług (Konto Jakie Chcę)\nKredyty gotówkowe i hipoteczne\nKarty kredytowe i debetowe\nProdukty inwestycyjne i oszczędnościowe\n\nOferta dla biznesu:\n\nRachunki firmowe i rozliczeniowe\nKredyty dla MSP i korporacji\nFaktoring i leasing\nObsługa transakcji zagranicznych\n\nInnowacje: Alior Bank jest pionierem wśród polskich banków pod względem innowacji cyfrowych - jako pierwszy wprowadził m.in. otwieranie konta selfie czy zaawansowane zarządzanie finansami osobistymi z wykorzystaniem AI.\nGrupa kapitałowa: Alior Bank należy do grupy PZU - największej instytucji finansowej w Polsce."
-  },
-  {
-    "objectID": "spolki/alr.html#strategia",
-    "href": "spolki/alr.html#strategia",
-    "title": "Alior Bank S.A. (ALR)",
-    "section": "Strategia",
-    "text": "Strategia\nWizja banku to “Bankowanie na co dzień, na najwyższym poziomie”. Strategia opiera się na budowaniu przewag technologicznych, optymalizacji procesów kredytowych z wykorzystaniem AI oraz wspieraniu transformacji cyfrowej swoich klientów biznesowych.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/pzu.html",
-    "href": "spolki/pzu.html",
-    "title": "PZU S.A. (PZU)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: PZU | PZU S.A. | Siedziba: Polska | WWW: pzu.pl | Branża: Finanse | Podbranża: ubezpieczenia majątkowe"
-  },
-  {
-    "objectID": "spolki/pzu.html#notowania",
-    "href": "spolki/pzu.html#notowania",
-    "title": "PZU S.A. (PZU)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/pzu.html#o-spółce",
-    "href": "spolki/pzu.html#o-spółce",
-    "title": "PZU S.A. (PZU)",
-    "section": "O spółce",
-    "text": "O spółce\nPZU S.A. to największa instytucja finansowa w Polsce i Europie Środkowo-Wschodniej. Jest liderem rynku ubezpieczeń, a poprzez swoje spółki zależne posiada silną pozycję w sektorze bankowym i zarządzaniu aktywami."
-  },
-  {
-    "objectID": "spolki/pzu.html#biznes",
-    "href": "spolki/pzu.html#biznes",
-    "title": "PZU S.A. (PZU)",
-    "section": "Biznes",
-    "text": "Biznes\nSegmenty działalności:\n\nUbezpieczenia majątkowe: OC/AC, ubezpieczenia domu, firmy i rolne - pozycja nr 1 w Polsce.\nUbezpieczenia na życie: Polisy inwestycyjne, emerytalne i ochronne.\nBankowość: Poprzez spółki zależne (m.in. Bank Pekao, Alior Bank) - znaczący udział w rynku.\nZarządzanie aktywami: TFI PZU - jeden z największych funduszy inwestycyjnych w kraju.\nZdrowie: PZU Zdrowie - sieć placówek medycznych i usługi telemedyczne.\n\nGrupa kapitałowa: PZU jest jednym z największych podmiotów finansowych w Europie Środkowo-Wschodniej zdominującym rynek ubezpieczeń w Polsce."
-  },
-  {
-    "objectID": "spolki/pzu.html#strategia",
-    "href": "spolki/pzu.html#strategia",
-    "title": "PZU S.A. (PZU)",
-    "section": "Strategia",
-    "text": "Strategia\nStrategia PZU zakłada budowę najbardziej nowoczesnej grupy finansowej w regionie, opartej na ekosystemach usług (zdrowie, dom, auto). Koncentruje się na wykorzystaniu Big Data, AI w likwidacji szkód oraz realizacji celów ESG.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/ale.html",
-    "href": "spolki/ale.html",
-    "title": "Allegro.eu S.A. (ALE)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: ALE | Allegro.eu S.A. | Siedziba: Polska | WWW: allegro.eu | Branża: Technologie i IT | Podbranża: e-commerce"
-  },
-  {
-    "objectID": "spolki/ale.html#notowania",
-    "href": "spolki/ale.html#notowania",
-    "title": "Allegro.eu S.A. (ALE)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/ale.html#o-spółce",
-    "href": "spolki/ale.html#o-spółce",
-    "title": "Allegro.eu S.A. (ALE)",
-    "section": "O spółce",
-    "text": "O spółce\nAllegro to najpopularniejsza w Polsce i jedna z największych w Europie platform e-commerce typu marketplace. Spółka zrewolucjonizowała polski handel detaliczny, tworząc kompletny ekosystem dla kupujących i sprzedających, obejmujący logistykę, płatności oraz reklamę."
-  },
-  {
-    "objectID": "spolki/ale.html#biznes",
-    "href": "spolki/ale.html#biznes",
-    "title": "Allegro.eu S.A. (ALE)",
-    "section": "Biznes",
-    "text": "Biznes\nMarketplace i usługi: Allegro nie jest tylko sklepem, ale platformą łączącą ponad 130 tys. sprzedawców z milionami klientów. Grupa stale poszerza zakres usług, budując przewagę konkurencyjną.\nKluczowe elementy ekosystemu:\n\nAllegro Smart!: Program darmowych dostaw i zwrotów, kluczowy driver lojalności klientów.\nAllegro Pay: Nowoczesne usługi finansowe BNPL (Buy Now, Pay Later) oraz kredytowanie zakupów.\nLogistyka (One Box & One Kurier): Rozwój własnej sieci automatów paczkowych i centrów logistycznych (Fullfilment).\nCeneo.pl: Największa polska porównywarka cen, wspierająca decyzje zakupowe."
-  },
-  {
-    "objectID": "spolki/ale.html#strategia",
-    "href": "spolki/ale.html#strategia",
-    "title": "Allegro.eu S.A. (ALE)",
-    "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju grupy Allegro:\n\nRegion CEE: Ekspansja na rynki Czech, Słowacji i Węgier (wykorzystanie platformy MALL Group).\nInternational: Umożliwienie polskim sprzedawcom eksportu na rynki całej Unii Europejskiej poprzez ujednoliconą platformę.\nRetail Media: Rozwój zaawansowanych narzędzi reklamowych (Allegro Ads) dla sprzedawców.\nTechnologia AI: Wykorzystanie uczenia maszynowego w personalizacji wyszukiwań i optymalizacji logistyki.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/spl.html",
-    "href": "spolki/spl.html",
-    "title": "Santander Bank Polska S.A. (SPL)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: SPL | Santander Bank Polska S.A. | Siedziba: Polska | WWW: santander.pl | Branża: Finanse | Podbranża: banki uniwersalne"
-  },
-  {
-    "objectID": "spolki/spl.html#notowania",
-    "href": "spolki/spl.html#notowania",
-    "title": "Santander Bank Polska S.A. (SPL)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/spl.html#o-spółce",
-    "href": "spolki/spl.html#o-spółce",
-    "title": "Santander Bank Polska S.A. (SPL)",
-    "section": "O spółce",
-    "text": "O spółce\nSantander Bank Polska S.A. to jedna z największych i najnowocześniejszych instytucji finansowych w Polsce. Należy do międzynarodowej Grupy Santander, co zapewnia bankowi dostęp do globalnych innowacji i stabilności kapitałowej."
-  },
-  {
-    "objectID": "spolki/spl.html#biznes",
-    "href": "spolki/spl.html#biznes",
-    "title": "Santander Bank Polska S.A. (SPL)",
-    "section": "Biznes",
-    "text": "Biznes\nOferta dla klientów indywidualnych:\n\nKonta osobiste i oszczędnościowe\nKredyty hipoteczne i konsumenckie\nKarty płatnicze i kredytowe\nUbezpieczenia\n\nOferta dla biznesu:\n\nKonta firmowe i rozliczenia\nKredyty inwestycyjne i obrotowe\nBankowość transakcyjna i skarbowa\nFaktoring i leasing\n\nUsługi cyfrowe: Aplikacja Santander Bank Polska oraz platforma bankowości internetowej z zaawansowanymi funkcjami zarządzania finansami.\nGrupa Santander: Bank należy do międzynarodowej grupy Santander - jednego z największych banków na świecie pod względem kapitalizacji."
-  },
-  {
-    "objectID": "spolki/spl.html#strategia",
-    "href": "spolki/spl.html#strategia",
-    "title": "Santander Bank Polska S.A. (SPL)",
-    "section": "Strategia",
-    "text": "Strategia\nMisją banku jest “Pomagać ludziom i firmom w sukcesach”. Strategia koncentruje się na upraszczaniu procesów, budowaniu lojalności klientów poprzez digitalizację oraz aktywnym wspieraniu transformacji energetycznej polskich przedsiębiorstw.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/car.html",
-    "href": "spolki/car.html",
-    "title": "Inter Cars S.A. (CAR)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: CAR | Inter Cars S.A. | Siedziba: Warszawa | WWW: intercars.com.pl | Branża: Motoryzacja | Podbranża: Dystrybucja"
-  },
-  {
-    "objectID": "spolki/car.html#notowania",
-    "href": "spolki/car.html#notowania",
-    "title": "Inter Cars S.A. (CAR)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/car.html#o-spółce",
-    "href": "spolki/car.html#o-spółce",
-    "title": "Inter Cars S.A. (CAR)",
-    "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Inter Cars S.A. to największy w Polsce i lider w Europie Środkowo-Wschodniej dystrybutor części zamiennych i akcesoriów motoryzacyjnych. Firma działa w 21 krajach Europy, posiadając ponad 600 filii z infrastrukturą magazynową o powierzchni przekraczającej 400 000 m². Spółka dostarcza części do warsztatów samochodowych, autoryzowanych serwisów oraz sklepów motoryzacyjnych.\nStrategia i Perspektywy: Inter Cars koncentruje się na dalszej ekspansji geograficznej w Europie oraz rozwoju oferty produktowej. Kluczowym elementem strategii jest zrównoważony rozwój - wydłużanie cyklu życia samochodów poprzez sprzedaż części regenerowanych, redukcja śladu węglowego oraz odpowiedzialna gospodarka odpadami w warsztatach."
-  },
-  {
-    "objectID": "spolki/car.html#biznes",
-    "href": "spolki/car.html#biznes",
-    "title": "Inter Cars S.A. (CAR)",
-    "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nCzęści zamienne: Kompleksowa dystrybucja części do wszystkich marek i typów pojazdów - od silników po układy hamulcowe, zawieszenia i elektrykę.\nAkcesoria motoryzacyjne: Oleje, filtry, płyny eksploatacyjne, opony, akumulatory i chemia samochodowa.\nCzęści regenerowane: Program regeneracji - sprzedaż odnowionych komponentów jako ekologiczna i ekonomiczna alternatywa.\nWyposażenie warsztatowe: Narzędzia, podnośniki, urządzenia diagnostyczne i meble warsztatowe.\n\nZasoby i Surowce:\nW działalności kluczowe są produkty stalowe i metalowe (części mechaniczne), tworzywa sztuczne (elementy karoserii i wnętrza), ropa naftowa (oleje i paliwa), oraz infrastruktura logistyczna (magazyny, transport)."
-  },
-  {
-    "objectID": "spolki/car.html#strategia",
-    "href": "spolki/car.html#strategia",
-    "title": "Inter Cars S.A. (CAR)",
-    "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja europejska: Dalsze rozszerzanie sieci dystrybucji na kolejne rynki Europy.\nCyfryzacja: Rozwój platformy e-commerce i systemów zarządzania zapasami w czasie rzeczywistym.\nZrównoważony rozwój: Inwestycje w części regenerowane, redukcja emisji CO2 w operacjach własnych, wspieranie gospodarki o obiegu zamkniętym.\nFuzje i przejęcia: Aktywna strategia konsolidacji rynku dystrybucji części motoryzacyjnych w regionie.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/pge.html",
-    "href": "spolki/pge.html",
-    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: PGE | PGE Polska Grupa Energetyczna S.A. | Siedziba: Warszawa | WWW: gkpge.pl | Branża: Energetyka | Podbranża: Wytwarzanie energii"
-  },
-  {
-    "objectID": "spolki/pge.html#notowania",
-    "href": "spolki/pge.html#notowania",
-    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/pge.html#o-spółce",
-    "href": "spolki/pge.html#o-spółce",
-    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
-    "section": "O spółce",
-    "text": "O spółce\nProfil działalności: PGE Polska Grupa Energetyczna to największy w Polsce podmiot sektora elektroenergetycznego, odpowiadający za około 40% krajowej produkcji energii elektrycznej. Grupa prowadzi zróżnicowaną działalność obejmującą wytwarzanie, dystrybucję i obrót energią elektryczną oraz ciepłem. Spółka obsługuje miliony gospodarstw domowych i przedsiębiorstw na terenie całego kraju.\nStrategia i Perspektywy: Grupa realizuje strategię rozwoju do 2035 roku, koncentrującą się na transformacji w kierunku niskoemisyjnej energetyki. Kluczowym elementem jest rozwój morskich farm wiatrowych na Bałtyku (projekt Baltica) oraz modernizacja infrastruktury dystrybucyjnej. Spółka stawia na dywersyfikację źródeł energii, inwestując w odnawialne źródła przy jednoczesnym utrzymaniu konwencjonalnych elektrowni."
-  },
-  {
-    "objectID": "spolki/pge.html#biznes",
-    "href": "spolki/pge.html#biznes",
-    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
-    "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nWytwarzanie energii: Produkcja energii elektrycznej w elektrowniach węglowych, gazowych, jądrowych (poprzez Polski Atom) oraz odnawialnych źródłach energii (wiatr, słońce, biomasa).\nDystrybucja: Zarządzanie siecią dystrybucyjną obejmującą około 40% powierzchni Polski, zapewniając dostęp do energii dla milionów odbiorców.\nObrót energią: Sprzedaż energii elektrycznej i ciepła do klientów biznesowych oraz indywidualnych.\nEnergetyka morska: Rozwój projektów offshore wind, w tym farma wiatrowa Baltica 2 o mocy około 1,5 GW.\n\nZasoby i Surowce:\nW działalności kluczowy jest węgiel kamienny i brunatny do konwencjonalnych elektrowni, gaz naturalny dla bloków szczytowych, a także lokalizacje na morzu dla farm wiatrowych."
-  },
-  {
-    "objectID": "spolki/pge.html#strategia",
-    "href": "spolki/pge.html#strategia",
-    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
-    "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nTransformacja energetyczna: Stopniowe odchodzenie od węgla na rzecz OZE i energii jądrowej.\nOffshore Wind: Realizacja projektów morskich farm wiatrowych na Bałtyku (Baltica 2 i Baltica 3).\nSieć dystrybucyjna: Modernizacja i rozbudowa infrastruktury sieciowej, w tym inwestycje na Podkarpaciu i Lubelszczyźnie.\nBloki gazowe: Budowa bloków gazowych szczytowych w Rybniku i Gryfinie (łącznie ok. 1200 MW).\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/dnp.html",
-    "href": "spolki/dnp.html",
-    "title": "DINO POLSKA S.A. (DNP)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: DNP | DINO POLSKA S.A. | Siedziba: Polska | WWW: grupadino.pl | Branża: Handel i konsumpcja | Podbranża: handel detaliczny spożywczy"
-  },
-  {
-    "objectID": "spolki/dnp.html#notowania",
-    "href": "spolki/dnp.html#notowania",
-    "title": "DINO POLSKA S.A. (DNP)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/dnp.html#o-spółce",
-    "href": "spolki/dnp.html#o-spółce",
-    "title": "DINO POLSKA S.A. (DNP)",
-    "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Dino Polska S.A. to jedna z najszybciej rozwijających się sieci supermarketów w Polsce. Unikalny model biznesowy opiera się na własności budynków i gruntów, ustandaryzowanych placówkach o powierzchni ok. 400 m2 oraz bardzo sprawnej logistyce. Spółka skupia się na mniejszych miastach i terenach wiejskich.\nStrategia i Perspektywy: Głównym celem Dino jest dalsza szybka ekspansja terytorialna w Polsce przy zachowaniu wysokiej rentowności. Spółka inwestuje w nowoczesne centra logistyczne oraz odnawialne źródła energii (fotowoltaika)."
-  },
-  {
-    "objectID": "spolki/dnp.html#biznes",
-    "href": "spolki/dnp.html#biznes",
-    "title": "DINO POLSKA S.A. (DNP)",
-    "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nProdukty świeże: Warzywa, owoce, nabiał oraz produkty piekarnicze.\nPrzetwórstwo mięsne: Własny zakład produkcyjny Agro-Rydzyna dostarczający świeże mięso i wędliny.\nArtykuły FMCG: Szeroki asortyment ok. 5000 pozycji produktowych.\n\nZasoby: Pełna kontrola nad łańcuchem dostaw dzięki własnej flocie chłodniczej i sieci centrów dystrybucyjnych."
-  },
-  {
-    "objectID": "spolki/dnp.html#strategia",
-    "href": "spolki/dnp.html#strategia",
-    "title": "DINO POLSKA S.A. (DNP)",
-    "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja terytorialna: Dalsze zwielokrotnianie liczby sklepów na terenie kraju.\nZrównoważony rozwój: Redukcja śladu węglowego poprzez OZE.\nWygoda klienta: Systematyczne dostosowywanie oferty do potrzeb lokalnych społeczności.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/lbw.html",
-    "href": "spolki/lbw.html",
-    "title": "Lubawa S.A. (LBW)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: LBW | Lubawa S.A. | Siedziba: Polska | WWW: lubawagroup.com | Branża: Przemysł i produkcja | Podbranża: Lotnictwo i obronność"
-  },
-  {
-    "objectID": "spolki/lbw.html#notowania",
-    "href": "spolki/lbw.html#notowania",
-    "title": "Lubawa S.A. (LBW)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/lbw.html#o-spółce",
-    "href": "spolki/lbw.html#o-spółce",
-    "title": "Lubawa S.A. (LBW)",
-    "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Lubawa S.A. to jeden z kluczowych w Polsce producentów sprzętu specjalistycznego dla służb mundurowych (Wojsko, Policja, Straż Pożarna i Graniczna). Jest liderem w segmencie osłon balistycznych i konfekcji technicznej. Spółka posiada własną powlekarnię tkanin, co pozwala jej na dużą niezależność technologiczną.\nStrategia i Perspektywy: W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia sprzętowego armii NATO, koncentrując się na długoterminowych kontraktach rządowych. Stawia na ekspansję międzynarodową (USA, Armenia) oraz innowacje poprzez własne Centrum Badawczo-Rozwojowe."
-  },
-  {
-    "objectID": "spolki/lbw.html#biznes",
-    "href": "spolki/lbw.html#biznes",
-    "title": "Lubawa S.A. (LBW)",
-    "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nBezpieczeństwo i Obrona: Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego.\nRatownictwo: Zapory przeciwpowodziowe, namioty pneumatyczne i stelażowe, łodzie ratownicze, skokochrony.\nTurystyka i BHP: Odzież specjalistyczna, sprzęt do prac na wysokościach, produkty turystyczne.\n\nZasoby i Surowce:\nW działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości, guma oraz tkaniny gumowane."
-  },
-  {
-    "objectID": "spolki/lbw.html#strategia",
-    "href": "spolki/lbw.html#strategia",
-    "title": "Lubawa S.A. (LBW)",
-    "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja zagraniczna: Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.\nInnowacje: Prace badawczo-rozwojowe nad nowoczesnymi osłonami balistycznymi.\nDywersyfikacja: Balans między zamówieniami wojskowymi a rynkiem cywilnym (ratownictwo, BHP).\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/pco.html",
-    "href": "spolki/pco.html",
-    "title": "Pepco Group N.V. (PCO)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: PCO | Pepco Group N.V. | Siedziba: Polska | WWW: pepcogroup.eu | Branża: Handel i konsumpcja | Podbranża: handel hurtowy FMCG"
-  },
-  {
-    "objectID": "spolki/pco.html#notowania",
-    "href": "spolki/pco.html#notowania",
-    "title": "Pepco Group N.V. (PCO)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/pco.html#o-spółce",
-    "href": "spolki/pco.html#o-spółce",
-    "title": "Pepco Group N.V. (PCO)",
-    "section": "O spółce",
-    "text": "O spółce\nPepco Group N.V. to dynamicznie rozwijający się europejski detalista wielobranżowy, będący właścicielem marek Pepco, Poundland oraz Dealz. Spółka jest liderem w segmencie dyskontów niespożywczych, oferującym szeroki asortyment produktów w niskich cenach."
-  },
-  {
-    "objectID": "spolki/pco.html#biznes",
-    "href": "spolki/pco.html#biznes",
-    "title": "Pepco Group N.V. (PCO)",
-    "section": "Biznes",
-    "text": "Biznes\nModel biznesowy: Pepco Group działa w segmencie dyskontów niespożywczych, oferując produkty w bardzo niskich cenach (w większości 1 funt/euro).\nSieci handlowe:\n\nPepco: Główna sieć z asortymentem artykułów dla domu, kategorii ogrodowej, zabawek i tekstyliów.\nPoundland: Brytyjska sieć dyskontowa z ofertą “wszystko za funta”.\nDealz: Format w Hiszpanii i Niemczech z podobną koncepcją do Poundland.\n\nStruktura przychodów: Ponad 4700 sklepów w 17 krajach Europy, z dominacją rynku brytyjskiego i silną obecnością w Europie Środkowej."
-  },
-  {
-    "objectID": "spolki/pco.html#strategia",
-    "href": "spolki/pco.html#strategia",
-    "title": "Pepco Group N.V. (PCO)",
-    "section": "Strategia",
-    "text": "Strategia\nGłównym celem Pepco Group jest dalsza intensywna ekspansja terytorialna w Europie oraz optymalizacja łańcucha dostaw. Strategia zakłada wzrost efektywności poprzez integrację systemów operacyjnych oraz rozbudowę oferty marek własnych, przy jednoczesnej koncentracji na poprawie marży.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/bdx.html",
-    "href": "spolki/bdx.html",
-    "title": "Budimex S.A. (BDX)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: BDX | Budimex S.A. | Siedziba: Warszawa | WWW: budimex.pl | Branża: Budownictwo | Podbranża: Infrastruktura"
-  },
-  {
-    "objectID": "spolki/bdx.html#notowania",
-    "href": "spolki/bdx.html#notowania",
-    "title": "Budimex S.A. (BDX)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/bdx.html#o-spółce",
-    "href": "spolki/bdx.html#o-spółce",
-    "title": "Budimex S.A. (BDX)",
-    "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Budimex S.A. to największa polska firma budowlana i lider rynku generalnego wykonawstwa w Polsce. Spółka działa od 1968 roku i realizuje najbardziej prestiżowe projekty infrastrukturalne w kraju - od autostrad i lotnisk po budynki użyteczności publicznej i obiekty komercyjne. Budimex jest częścią grupy Ferrovial, jednego z największych koncernów budowlanych na świecie.\nStrategia i Perspektywy: Spółka koncentruje się na segmencie infrastruktury drogowej i kolejowej, gdzie dominuje rynek przetargów publicznych. Kluczowe są kontrakty dla GDDKiA, PKP PLK oraz jednostek samorządowych. Budimex stawia na efektywność kosztową i terminowość realizacji jako przewagi konkurencyjne."
-  },
-  {
-    "objectID": "spolki/bdx.html#biznes",
-    "href": "spolki/bdx.html#biznes",
-    "title": "Budimex S.A. (BDX)",
-    "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nInfrastruktura drogowa: Budowa autostrad, dróg ekspresowych, obwodnic i mostów dla GDDKiA i samorządów.\nInfrastruktura kolejowa: Modernizacja linii kolejowych, budowa stacji i obiektów inżynieryjnych dla PKP PLK.\nBudynki użyteczności publicznej: Szpitale, szkoły, urzędy, obiekty sportowe i kulturalne.\nBudownictwo komercyjne: Centra handlowe, biurowce, hale produkcyjne i magazynowe.\n\nZasoby i Surowce:\nW działalności kluczowe są materiały budowlane (cement, stal, asfalt, kruszywa), paliwa (olej napędowy do maszyn), oraz zasoby ludzkie (inżynierowie, robotnicy budowlani)."
-  },
-  {
-    "objectID": "spolki/bdx.html#strategia",
-    "href": "spolki/bdx.html#strategia",
-    "title": "Budimex S.A. (BDX)",
-    "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nInfrastruktura krajowa: Realizacja Programu Budowy Dróg Krajowych i inwestycji kolejowych.\nPartnerstwo publiczno-prywatne: Udział w projektach PPP w sektorze zdrowia i transportu.\nInnowacje: Wdrażanie technologii BIM i rozwiązań przyspieszających budowę.\nEkspansja zagraniczna: Działalność na rynkach Europy Środkowej poprzez grupę Ferrovial.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/xtb.html",
-    "href": "spolki/xtb.html",
-    "title": "XTB S.A. (XTB)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: XTB | XTB S.A. | Siedziba: Polska | WWW: xtb.com | Branża: Finanse | Podbranża: domy maklerskie i brokerzy"
-  },
-  {
-    "objectID": "spolki/xtb.html#notowania",
-    "href": "spolki/xtb.html#notowania",
-    "title": "XTB S.A. (XTB)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/xtb.html#o-spółce",
-    "href": "spolki/xtb.html#o-spółce",
-    "title": "XTB S.A. (XTB)",
-    "section": "O spółce",
-    "text": "O spółce\nXTB S.A. to jeden z największych na świecie brokerów instrumentów finansowych (Forex, CFD, akcje, ETF) notowanych na giełdzie. Polska spółka z sukcesem konkuruje na rynkach międzynarodowych, dostarczając autorską platformę transakcyjną xStation."
-  },
-  {
-    "objectID": "spolki/xtb.html#biznes",
-    "href": "spolki/xtb.html#biznes",
-    "title": "XTB S.A. (XTB)",
-    "section": "Biznes",
-    "text": "Biznes\nProdukty i usługi:\n\nForex: Handel parami walutowymi z ponad 5700 instrumentami.\nCFD: Kontrakty na różnice kursowe na indeksy, akcje, surowce i kryptowaluty.\nAkcje i ETF: Dostęp do giełd polskich (GPW) i zagranicznych (NYSE, NASDAQ, LSE).\nPlany inwestycyjne: Automatyczne inwestowanie w ETFy.\nKonta oszczędnościowe: Oprocentowane depozyty dla klientów.\n\nPlatforma xStation: Autorska platforma transakcyjna XTB (dostępna jako web, desktop i mobile) uznawana za jedną z najlepszych na rynku.\nZasięg: Około 1 mln klientów w ponad 170 krajach, z silną pozycją w Europie, Ameryce Łacińskiej i Afryce."
-  },
-  {
-    "objectID": "spolki/xtb.html#strategia",
-    "href": "spolki/xtb.html#strategia",
-    "title": "XTB S.A. (XTB)",
-    "section": "Strategia",
-    "text": "Strategia\nCelem XTB jest zostać wiodącą aplikacją inwestycyjną w Europie (super-app finansowy). Strategia zakłada ciągłe poszerzanie oferty (np. o plany inwestycyjne, obligacje, konta oszczędnościowe) oraz inwestycje w marketing globalny z udziałem znanych ambasadorów marki.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/peo.html",
-    "href": "spolki/peo.html",
-    "title": "Bank Pekao S.A. (PEO)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: PEO | Bank Pekao S.A. | Siedziba: Polska | WWW: pekao.com.pl | Branża: Finanse | Podbranża: banki uniwersalne"
-  },
-  {
-    "objectID": "spolki/peo.html#notowania",
-    "href": "spolki/peo.html#notowania",
-    "title": "Bank Pekao S.A. (PEO)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/peo.html#o-spółce",
-    "href": "spolki/peo.html#o-spółce",
-    "title": "Bank Pekao S.A. (PEO)",
-    "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Bank Pekao S.A. to jeden z największych banków w Europie Środkowo-Wschodniej. Jest liderem bankowości korporacyjnej oraz znaczącym graczem w finansowaniu handlu i rynków kapitałowych.\nStrategia i Innowacje: Pekao stawia na nowoczesną bankowość cyfrową (PeoPay) oraz wspieranie transformacji energetycznej polskich przedsiębiorstw."
-  },
-  {
-    "objectID": "spolki/peo.html#biznes",
-    "href": "spolki/peo.html#biznes",
-    "title": "Bank Pekao S.A. (PEO)",
-    "section": "Biznes",
-    "text": "Biznes\n\nDla klienta indywidualnego: Nowoczesne konta, kredyty i oszczędności.\nDla biznesu: Kompleksowe finansowanie inwestycji i obrotu.\nWealth Management: Lider zarządzania aktywami dla najzamożniejszych klientów."
-  },
-  {
-    "objectID": "spolki/peo.html#strategia",
-    "href": "spolki/peo.html#strategia",
-    "title": "Bank Pekao S.A. (PEO)",
-    "section": "Strategia",
-    "text": "Strategia\nDążenie do bycia bankiem pierwszego wyboru dzięki efektywności, zaufaniu i technologicznemu zaawansowaniu.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/ccc.html",
-    "href": "spolki/ccc.html",
-    "title": "Grupa CCC S.A. (CCC)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: CCC | Grupa CCC S.A. | Siedziba: Polska | WWW: corporate.ccc.eu | Branża: Handel i konsumpcja | Podbranża: handel detaliczny obuwiem"
-  },
-  {
-    "objectID": "spolki/ccc.html#notowania",
-    "href": "spolki/ccc.html#notowania",
-    "title": "Grupa CCC S.A. (CCC)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/ccc.html#o-spółce",
-    "href": "spolki/ccc.html#o-spółce",
-    "title": "Grupa CCC S.A. (CCC)",
-    "section": "O spółce",
-    "text": "O spółce\nGrupa CCC to jeden z największych europejskich graczy w segmencie obuwia i odzieży. Spółka jest liderem sprzedaży wielokanałowej (Omnichannel) w regionie CEE, zarządzając potężnym ekosystemem marek własnych i platform e-commerce."
-  },
-  {
-    "objectID": "spolki/ccc.html#biznes",
-    "href": "spolki/ccc.html#biznes",
-    "title": "Grupa CCC S.A. (CCC)",
-    "section": "Biznes",
-    "text": "Biznes\nModel biznesowy: CCC działa w segmencie detalicznym i hurtowym, oferując obuwie oraz odzież poprzez sieć sklepów stacjonarnych oraz platformy e-commerce.\nSieci i marki:\n\nCCC: Główne salony obuwnicze z ofertą dla całej rodziny.\nHalfPrice: Sieć outletów z markowym obuwiem i odzieżą w obniżonych cenach.\nMODIVO: Platforma e-commerce z obuwiem i akcesoriami.\nGino Rossi: Marka obuwia premium.\n\nStruktura przychodów: Sieć ponad 1000 sklepów w Polsce i regionie CEE, z silnym kierunkiem na rozwój kanału online."
-  },
-  {
-    "objectID": "spolki/ccc.html#strategia",
-    "href": "spolki/ccc.html#strategia",
-    "title": "Grupa CCC S.A. (CCC)",
-    "section": "Strategia",
-    "text": "Strategia\nStrategia Grupy CCC koncentruje się na cyfrowej transformacji i optymalizacji kapitału. Spółka stawia na dalszy dynamiczny wzrost sieci HalfPrice oraz rozwój platformy MODIVO, przy jednoczesnej redukcji zadłużenia i zwiększaniu rentowności modelu tradycyjnego.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nCyfryzacja: Inwestycje w aplikacje mobilne i platformy internetowe.\nPrivate banking: Rozwój segmentu klientów zamożnych i wealth management.\nBankowość MŚP: Wzmocnienie oferty dla małych i średnich przedsiębiorstw.\nEfektywność kosztowa: Optymalizacja sieci oddziałów i procesów operacyjnych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
     "objectID": "spolki/lpp.html",
@@ -798,6 +343,531 @@
     "text": "Strategia\nStrategia LPP opiera się na cyfryzacji (Omnichannel), automatyzacji logistyki oraz zrównoważonym rozwoju (strategia For People For Our Planet). Spółka dynamicznie zwiększa udział sprzedaży internetowej i stawia na rozwój marki Sinsay w regionie.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
+    "objectID": "spolki/ccc.html",
+    "href": "spolki/ccc.html",
+    "title": "Grupa CCC S.A. (CCC)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: CCC | Grupa CCC S.A. | Siedziba: Polska | WWW: corporate.ccc.eu | Branża: Handel i konsumpcja | Podbranża: handel detaliczny obuwiem"
+  },
+  {
+    "objectID": "spolki/ccc.html#notowania",
+    "href": "spolki/ccc.html#notowania",
+    "title": "Grupa CCC S.A. (CCC)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/ccc.html#o-spółce",
+    "href": "spolki/ccc.html#o-spółce",
+    "title": "Grupa CCC S.A. (CCC)",
+    "section": "O spółce",
+    "text": "O spółce\nGrupa CCC to jeden z największych europejskich graczy w segmencie obuwia i odzieży. Spółka jest liderem sprzedaży wielokanałowej (Omnichannel) w regionie CEE, zarządzając potężnym ekosystemem marek własnych i platform e-commerce."
+  },
+  {
+    "objectID": "spolki/ccc.html#biznes",
+    "href": "spolki/ccc.html#biznes",
+    "title": "Grupa CCC S.A. (CCC)",
+    "section": "Biznes",
+    "text": "Biznes\nModel biznesowy: CCC działa w segmencie detalicznym i hurtowym, oferując obuwie oraz odzież poprzez sieć sklepów stacjonarnych oraz platformy e-commerce.\nSieci i marki:\n\nCCC: Główne salony obuwnicze z ofertą dla całej rodziny.\nHalfPrice: Sieć outletów z markowym obuwiem i odzieżą w obniżonych cenach.\nMODIVO: Platforma e-commerce z obuwiem i akcesoriami.\nGino Rossi: Marka obuwia premium.\n\nStruktura przychodów: Sieć ponad 1000 sklepów w Polsce i regionie CEE, z silnym kierunkiem na rozwój kanału online."
+  },
+  {
+    "objectID": "spolki/ccc.html#strategia",
+    "href": "spolki/ccc.html#strategia",
+    "title": "Grupa CCC S.A. (CCC)",
+    "section": "Strategia",
+    "text": "Strategia\nStrategia Grupy CCC koncentruje się na cyfrowej transformacji i optymalizacji kapitału. Spółka stawia na dalszy dynamiczny wzrost sieci HalfPrice oraz rozwój platformy MODIVO, przy jednoczesnej redukcji zadłużenia i zwiększaniu rentowności modelu tradycyjnego.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/peo.html",
+    "href": "spolki/peo.html",
+    "title": "Bank Pekao S.A. (PEO)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: PEO | Bank Pekao S.A. | Siedziba: Polska | WWW: pekao.com.pl | Branża: Finanse | Podbranża: banki uniwersalne"
+  },
+  {
+    "objectID": "spolki/peo.html#notowania",
+    "href": "spolki/peo.html#notowania",
+    "title": "Bank Pekao S.A. (PEO)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/peo.html#o-spółce",
+    "href": "spolki/peo.html#o-spółce",
+    "title": "Bank Pekao S.A. (PEO)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Bank Pekao S.A. to jeden z największych banków w Europie Środkowo-Wschodniej. Jest liderem bankowości korporacyjnej oraz znaczącym graczem w finansowaniu handlu i rynków kapitałowych.\nStrategia i Innowacje: Pekao stawia na nowoczesną bankowość cyfrową (PeoPay) oraz wspieranie transformacji energetycznej polskich przedsiębiorstw."
+  },
+  {
+    "objectID": "spolki/peo.html#biznes",
+    "href": "spolki/peo.html#biznes",
+    "title": "Bank Pekao S.A. (PEO)",
+    "section": "Biznes",
+    "text": "Biznes\n\nDla klienta indywidualnego: Nowoczesne konta, kredyty i oszczędności.\nDla biznesu: Kompleksowe finansowanie inwestycji i obrotu.\nWealth Management: Lider zarządzania aktywami dla najzamożniejszych klientów."
+  },
+  {
+    "objectID": "spolki/peo.html#strategia",
+    "href": "spolki/peo.html#strategia",
+    "title": "Bank Pekao S.A. (PEO)",
+    "section": "Strategia",
+    "text": "Strategia\nDążenie do bycia bankiem pierwszego wyboru dzięki efektywności, zaufaniu i technologicznemu zaawansowaniu.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/xtb.html",
+    "href": "spolki/xtb.html",
+    "title": "XTB S.A. (XTB)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: XTB | XTB S.A. | Siedziba: Polska | WWW: xtb.com | Branża: Finanse | Podbranża: domy maklerskie i brokerzy"
+  },
+  {
+    "objectID": "spolki/xtb.html#notowania",
+    "href": "spolki/xtb.html#notowania",
+    "title": "XTB S.A. (XTB)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/xtb.html#o-spółce",
+    "href": "spolki/xtb.html#o-spółce",
+    "title": "XTB S.A. (XTB)",
+    "section": "O spółce",
+    "text": "O spółce\nXTB S.A. to jeden z największych na świecie brokerów instrumentów finansowych (Forex, CFD, akcje, ETF) notowanych na giełdzie. Polska spółka z sukcesem konkuruje na rynkach międzynarodowych, dostarczając autorską platformę transakcyjną xStation."
+  },
+  {
+    "objectID": "spolki/xtb.html#biznes",
+    "href": "spolki/xtb.html#biznes",
+    "title": "XTB S.A. (XTB)",
+    "section": "Biznes",
+    "text": "Biznes\nProdukty i usługi:\n\nForex: Handel parami walutowymi z ponad 5700 instrumentami.\nCFD: Kontrakty na różnice kursowe na indeksy, akcje, surowce i kryptowaluty.\nAkcje i ETF: Dostęp do giełd polskich (GPW) i zagranicznych (NYSE, NASDAQ, LSE).\nPlany inwestycyjne: Automatyczne inwestowanie w ETFy.\nKonta oszczędnościowe: Oprocentowane depozyty dla klientów.\n\nPlatforma xStation: Autorska platforma transakcyjna XTB (dostępna jako web, desktop i mobile) uznawana za jedną z najlepszych na rynku.\nZasięg: Około 1 mln klientów w ponad 170 krajach, z silną pozycją w Europie, Ameryce Łacińskiej i Afryce."
+  },
+  {
+    "objectID": "spolki/xtb.html#strategia",
+    "href": "spolki/xtb.html#strategia",
+    "title": "XTB S.A. (XTB)",
+    "section": "Strategia",
+    "text": "Strategia\nCelem XTB jest zostać wiodącą aplikacją inwestycyjną w Europie (super-app finansowy). Strategia zakłada ciągłe poszerzanie oferty (np. o plany inwestycyjne, obligacje, konta oszczędnościowe) oraz inwestycje w marketing globalny z udziałem znanych ambasadorów marki.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/bdx.html",
+    "href": "spolki/bdx.html",
+    "title": "Budimex S.A. (BDX)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: BDX | Budimex S.A. | Siedziba: Warszawa | WWW: budimex.pl | Branża: Budownictwo | Podbranża: Infrastruktura"
+  },
+  {
+    "objectID": "spolki/bdx.html#notowania",
+    "href": "spolki/bdx.html#notowania",
+    "title": "Budimex S.A. (BDX)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/bdx.html#o-spółce",
+    "href": "spolki/bdx.html#o-spółce",
+    "title": "Budimex S.A. (BDX)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Budimex S.A. to największa polska firma budowlana i lider rynku generalnego wykonawstwa w Polsce. Spółka działa od 1968 roku i realizuje najbardziej prestiżowe projekty infrastrukturalne w kraju - od autostrad i lotnisk po budynki użyteczności publicznej i obiekty komercyjne. Budimex jest częścią grupy Ferrovial, jednego z największych koncernów budowlanych na świecie.\nStrategia i Perspektywy: Spółka koncentruje się na segmencie infrastruktury drogowej i kolejowej, gdzie dominuje rynek przetargów publicznych. Kluczowe są kontrakty dla GDDKiA, PKP PLK oraz jednostek samorządowych. Budimex stawia na efektywność kosztową i terminowość realizacji jako przewagi konkurencyjne."
+  },
+  {
+    "objectID": "spolki/bdx.html#biznes",
+    "href": "spolki/bdx.html#biznes",
+    "title": "Budimex S.A. (BDX)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nInfrastruktura drogowa: Budowa autostrad, dróg ekspresowych, obwodnic i mostów dla GDDKiA i samorządów.\nInfrastruktura kolejowa: Modernizacja linii kolejowych, budowa stacji i obiektów inżynieryjnych dla PKP PLK.\nBudynki użyteczności publicznej: Szpitale, szkoły, urzędy, obiekty sportowe i kulturalne.\nBudownictwo komercyjne: Centra handlowe, biurowce, hale produkcyjne i magazynowe.\n\nZasoby i Surowce:\nW działalności kluczowe są materiały budowlane (cement, stal, asfalt, kruszywa), paliwa (olej napędowy do maszyn), oraz zasoby ludzkie (inżynierowie, robotnicy budowlani)."
+  },
+  {
+    "objectID": "spolki/bdx.html#strategia",
+    "href": "spolki/bdx.html#strategia",
+    "title": "Budimex S.A. (BDX)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nInfrastruktura krajowa: Realizacja Programu Budowy Dróg Krajowych i inwestycji kolejowych.\nPartnerstwo publiczno-prywatne: Udział w projektach PPP w sektorze zdrowia i transportu.\nInnowacje: Wdrażanie technologii BIM i rozwiązań przyspieszających budowę.\nEkspansja zagraniczna: Działalność na rynkach Europy Środkowej poprzez grupę Ferrovial.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/pco.html",
+    "href": "spolki/pco.html",
+    "title": "Pepco Group N.V. (PCO)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: PCO | Pepco Group N.V. | Siedziba: Polska | WWW: pepcogroup.eu | Branża: Handel i konsumpcja | Podbranża: handel hurtowy FMCG"
+  },
+  {
+    "objectID": "spolki/pco.html#notowania",
+    "href": "spolki/pco.html#notowania",
+    "title": "Pepco Group N.V. (PCO)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/pco.html#o-spółce",
+    "href": "spolki/pco.html#o-spółce",
+    "title": "Pepco Group N.V. (PCO)",
+    "section": "O spółce",
+    "text": "O spółce\nPepco Group N.V. to dynamicznie rozwijający się europejski detalista wielobranżowy, będący właścicielem marek Pepco, Poundland oraz Dealz. Spółka jest liderem w segmencie dyskontów niespożywczych, oferującym szeroki asortyment produktów w niskich cenach."
+  },
+  {
+    "objectID": "spolki/pco.html#biznes",
+    "href": "spolki/pco.html#biznes",
+    "title": "Pepco Group N.V. (PCO)",
+    "section": "Biznes",
+    "text": "Biznes\nModel biznesowy: Pepco Group działa w segmencie dyskontów niespożywczych, oferując produkty w bardzo niskich cenach (w większości 1 funt/euro).\nSieci handlowe:\n\nPepco: Główna sieć z asortymentem artykułów dla domu, kategorii ogrodowej, zabawek i tekstyliów.\nPoundland: Brytyjska sieć dyskontowa z ofertą “wszystko za funta”.\nDealz: Format w Hiszpanii i Niemczech z podobną koncepcją do Poundland.\n\nStruktura przychodów: Ponad 4700 sklepów w 17 krajach Europy, z dominacją rynku brytyjskiego i silną obecnością w Europie Środkowej."
+  },
+  {
+    "objectID": "spolki/pco.html#strategia",
+    "href": "spolki/pco.html#strategia",
+    "title": "Pepco Group N.V. (PCO)",
+    "section": "Strategia",
+    "text": "Strategia\nGłównym celem Pepco Group jest dalsza intensywna ekspansja terytorialna w Europie oraz optymalizacja łańcucha dostaw. Strategia zakłada wzrost efektywności poprzez integrację systemów operacyjnych oraz rozbudowę oferty marek własnych, przy jednoczesnej koncentracji na poprawie marży.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/lbw.html",
+    "href": "spolki/lbw.html",
+    "title": "Lubawa S.A. (LBW)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: LBW | Lubawa S.A. | Siedziba: Polska | WWW: lubawagroup.com | Branża: Przemysł i produkcja | Podbranża: Lotnictwo i obronność"
+  },
+  {
+    "objectID": "spolki/lbw.html#notowania",
+    "href": "spolki/lbw.html#notowania",
+    "title": "Lubawa S.A. (LBW)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/lbw.html#o-spółce",
+    "href": "spolki/lbw.html#o-spółce",
+    "title": "Lubawa S.A. (LBW)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Lubawa S.A. to jeden z kluczowych w Polsce producentów sprzętu specjalistycznego dla służb mundurowych (Wojsko, Policja, Straż Pożarna i Graniczna). Jest liderem w segmencie osłon balistycznych i konfekcji technicznej. Spółka posiada własną powlekarnię tkanin, co pozwala jej na dużą niezależność technologiczną.\nStrategia i Perspektywy: W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia sprzętowego armii NATO, koncentrując się na długoterminowych kontraktach rządowych. Stawia na ekspansję międzynarodową (USA, Armenia) oraz innowacje poprzez własne Centrum Badawczo-Rozwojowe."
+  },
+  {
+    "objectID": "spolki/lbw.html#biznes",
+    "href": "spolki/lbw.html#biznes",
+    "title": "Lubawa S.A. (LBW)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nBezpieczeństwo i Obrona: Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego.\nRatownictwo: Zapory przeciwpowodziowe, namioty pneumatyczne i stelażowe, łodzie ratownicze, skokochrony.\nTurystyka i BHP: Odzież specjalistyczna, sprzęt do prac na wysokościach, produkty turystyczne.\n\nZasoby i Surowce:\nW działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości, guma oraz tkaniny gumowane."
+  },
+  {
+    "objectID": "spolki/lbw.html#strategia",
+    "href": "spolki/lbw.html#strategia",
+    "title": "Lubawa S.A. (LBW)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja zagraniczna: Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.\nInnowacje: Prace badawczo-rozwojowe nad nowoczesnymi osłonami balistycznymi.\nDywersyfikacja: Balans między zamówieniami wojskowymi a rynkiem cywilnym (ratownictwo, BHP).\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/dnp.html",
+    "href": "spolki/dnp.html",
+    "title": "DINO POLSKA S.A. (DNP)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: DNP | DINO POLSKA S.A. | Siedziba: Polska | WWW: grupadino.pl | Branża: Handel i konsumpcja | Podbranża: handel detaliczny spożywczy"
+  },
+  {
+    "objectID": "spolki/dnp.html#notowania",
+    "href": "spolki/dnp.html#notowania",
+    "title": "DINO POLSKA S.A. (DNP)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/dnp.html#o-spółce",
+    "href": "spolki/dnp.html#o-spółce",
+    "title": "DINO POLSKA S.A. (DNP)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Dino Polska S.A. to jedna z najszybciej rozwijających się sieci supermarketów w Polsce. Unikalny model biznesowy opiera się na własności budynków i gruntów, ustandaryzowanych placówkach o powierzchni ok. 400 m2 oraz bardzo sprawnej logistyce. Spółka skupia się na mniejszych miastach i terenach wiejskich.\nStrategia i Perspektywy: Głównym celem Dino jest dalsza szybka ekspansja terytorialna w Polsce przy zachowaniu wysokiej rentowności. Spółka inwestuje w nowoczesne centra logistyczne oraz odnawialne źródła energii (fotowoltaika)."
+  },
+  {
+    "objectID": "spolki/dnp.html#biznes",
+    "href": "spolki/dnp.html#biznes",
+    "title": "DINO POLSKA S.A. (DNP)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nProdukty świeże: Warzywa, owoce, nabiał oraz produkty piekarnicze.\nPrzetwórstwo mięsne: Własny zakład produkcyjny Agro-Rydzyna dostarczający świeże mięso i wędliny.\nArtykuły FMCG: Szeroki asortyment ok. 5000 pozycji produktowych.\n\nZasoby: Pełna kontrola nad łańcuchem dostaw dzięki własnej flocie chłodniczej i sieci centrów dystrybucyjnych."
+  },
+  {
+    "objectID": "spolki/dnp.html#strategia",
+    "href": "spolki/dnp.html#strategia",
+    "title": "DINO POLSKA S.A. (DNP)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja terytorialna: Dalsze zwielokrotnianie liczby sklepów na terenie kraju.\nZrównoważony rozwój: Redukcja śladu węglowego poprzez OZE.\nWygoda klienta: Systematyczne dostosowywanie oferty do potrzeb lokalnych społeczności.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/pge.html",
+    "href": "spolki/pge.html",
+    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: PGE | PGE Polska Grupa Energetyczna S.A. | Siedziba: Warszawa | WWW: gkpge.pl | Branża: Energetyka | Podbranża: Wytwarzanie energii"
+  },
+  {
+    "objectID": "spolki/pge.html#notowania",
+    "href": "spolki/pge.html#notowania",
+    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/pge.html#o-spółce",
+    "href": "spolki/pge.html#o-spółce",
+    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: PGE Polska Grupa Energetyczna to największy w Polsce podmiot sektora elektroenergetycznego, odpowiadający za około 40% krajowej produkcji energii elektrycznej. Grupa prowadzi zróżnicowaną działalność obejmującą wytwarzanie, dystrybucję i obrót energią elektryczną oraz ciepłem. Spółka obsługuje miliony gospodarstw domowych i przedsiębiorstw na terenie całego kraju.\nStrategia i Perspektywy: Grupa realizuje strategię rozwoju do 2035 roku, koncentrującą się na transformacji w kierunku niskoemisyjnej energetyki. Kluczowym elementem jest rozwój morskich farm wiatrowych na Bałtyku (projekt Baltica) oraz modernizacja infrastruktury dystrybucyjnej. Spółka stawia na dywersyfikację źródeł energii, inwestując w odnawialne źródła przy jednoczesnym utrzymaniu konwencjonalnych elektrowni."
+  },
+  {
+    "objectID": "spolki/pge.html#biznes",
+    "href": "spolki/pge.html#biznes",
+    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nWytwarzanie energii: Produkcja energii elektrycznej w elektrowniach węglowych, gazowych, jądrowych (poprzez Polski Atom) oraz odnawialnych źródłach energii (wiatr, słońce, biomasa).\nDystrybucja: Zarządzanie siecią dystrybucyjną obejmującą około 40% powierzchni Polski, zapewniając dostęp do energii dla milionów odbiorców.\nObrót energią: Sprzedaż energii elektrycznej i ciepła do klientów biznesowych oraz indywidualnych.\nEnergetyka morska: Rozwój projektów offshore wind, w tym farma wiatrowa Baltica 2 o mocy około 1,5 GW.\n\nZasoby i Surowce:\nW działalności kluczowy jest węgiel kamienny i brunatny do konwencjonalnych elektrowni, gaz naturalny dla bloków szczytowych, a także lokalizacje na morzu dla farm wiatrowych."
+  },
+  {
+    "objectID": "spolki/pge.html#strategia",
+    "href": "spolki/pge.html#strategia",
+    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nTransformacja energetyczna: Stopniowe odchodzenie od węgla na rzecz OZE i energii jądrowej.\nOffshore Wind: Realizacja projektów morskich farm wiatrowych na Bałtyku (Baltica 2 i Baltica 3).\nSieć dystrybucyjna: Modernizacja i rozbudowa infrastruktury sieciowej, w tym inwestycje na Podkarpaciu i Lubelszczyźnie.\nBloki gazowe: Budowa bloków gazowych szczytowych w Rybniku i Gryfinie (łącznie ok. 1200 MW).\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/car.html",
+    "href": "spolki/car.html",
+    "title": "Inter Cars S.A. (CAR)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: CAR | Inter Cars S.A. | Siedziba: Warszawa | WWW: intercars.com.pl | Branża: Motoryzacja | Podbranża: Dystrybucja"
+  },
+  {
+    "objectID": "spolki/car.html#notowania",
+    "href": "spolki/car.html#notowania",
+    "title": "Inter Cars S.A. (CAR)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/car.html#o-spółce",
+    "href": "spolki/car.html#o-spółce",
+    "title": "Inter Cars S.A. (CAR)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Inter Cars S.A. to największy w Polsce i lider w Europie Środkowo-Wschodniej dystrybutor części zamiennych i akcesoriów motoryzacyjnych. Firma działa w 21 krajach Europy, posiadając ponad 600 filii z infrastrukturą magazynową o powierzchni przekraczającej 400 000 m². Spółka dostarcza części do warsztatów samochodowych, autoryzowanych serwisów oraz sklepów motoryzacyjnych.\nStrategia i Perspektywy: Inter Cars koncentruje się na dalszej ekspansji geograficznej w Europie oraz rozwoju oferty produktowej. Kluczowym elementem strategii jest zrównoważony rozwój - wydłużanie cyklu życia samochodów poprzez sprzedaż części regenerowanych, redukcja śladu węglowego oraz odpowiedzialna gospodarka odpadami w warsztatach."
+  },
+  {
+    "objectID": "spolki/car.html#biznes",
+    "href": "spolki/car.html#biznes",
+    "title": "Inter Cars S.A. (CAR)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nCzęści zamienne: Kompleksowa dystrybucja części do wszystkich marek i typów pojazdów - od silników po układy hamulcowe, zawieszenia i elektrykę.\nAkcesoria motoryzacyjne: Oleje, filtry, płyny eksploatacyjne, opony, akumulatory i chemia samochodowa.\nCzęści regenerowane: Program regeneracji - sprzedaż odnowionych komponentów jako ekologiczna i ekonomiczna alternatywa.\nWyposażenie warsztatowe: Narzędzia, podnośniki, urządzenia diagnostyczne i meble warsztatowe.\n\nZasoby i Surowce:\nW działalności kluczowe są produkty stalowe i metalowe (części mechaniczne), tworzywa sztuczne (elementy karoserii i wnętrza), ropa naftowa (oleje i paliwa), oraz infrastruktura logistyczna (magazyny, transport)."
+  },
+  {
+    "objectID": "spolki/car.html#strategia",
+    "href": "spolki/car.html#strategia",
+    "title": "Inter Cars S.A. (CAR)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja europejska: Dalsze rozszerzanie sieci dystrybucji na kolejne rynki Europy.\nCyfryzacja: Rozwój platformy e-commerce i systemów zarządzania zapasami w czasie rzeczywistym.\nZrównoważony rozwój: Inwestycje w części regenerowane, redukcja emisji CO2 w operacjach własnych, wspieranie gospodarki o obiegu zamkniętym.\nFuzje i przejęcia: Aktywna strategia konsolidacji rynku dystrybucji części motoryzacyjnych w regionie.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/spl.html",
+    "href": "spolki/spl.html",
+    "title": "Santander Bank Polska S.A. (SPL)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: SPL | Santander Bank Polska S.A. | Siedziba: Polska | WWW: santander.pl | Branża: Finanse | Podbranża: banki uniwersalne"
+  },
+  {
+    "objectID": "spolki/spl.html#notowania",
+    "href": "spolki/spl.html#notowania",
+    "title": "Santander Bank Polska S.A. (SPL)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/spl.html#o-spółce",
+    "href": "spolki/spl.html#o-spółce",
+    "title": "Santander Bank Polska S.A. (SPL)",
+    "section": "O spółce",
+    "text": "O spółce\nSantander Bank Polska S.A. to jedna z największych i najnowocześniejszych instytucji finansowych w Polsce. Należy do międzynarodowej Grupy Santander, co zapewnia bankowi dostęp do globalnych innowacji i stabilności kapitałowej."
+  },
+  {
+    "objectID": "spolki/spl.html#biznes",
+    "href": "spolki/spl.html#biznes",
+    "title": "Santander Bank Polska S.A. (SPL)",
+    "section": "Biznes",
+    "text": "Biznes\nOferta dla klientów indywidualnych:\n\nKonta osobiste i oszczędnościowe\nKredyty hipoteczne i konsumenckie\nKarty płatnicze i kredytowe\nUbezpieczenia\n\nOferta dla biznesu:\n\nKonta firmowe i rozliczenia\nKredyty inwestycyjne i obrotowe\nBankowość transakcyjna i skarbowa\nFaktoring i leasing\n\nUsługi cyfrowe: Aplikacja Santander Bank Polska oraz platforma bankowości internetowej z zaawansowanymi funkcjami zarządzania finansami.\nGrupa Santander: Bank należy do międzynarodowej grupy Santander - jednego z największych banków na świecie pod względem kapitalizacji."
+  },
+  {
+    "objectID": "spolki/spl.html#strategia",
+    "href": "spolki/spl.html#strategia",
+    "title": "Santander Bank Polska S.A. (SPL)",
+    "section": "Strategia",
+    "text": "Strategia\nMisją banku jest “Pomagać ludziom i firmom w sukcesach”. Strategia koncentruje się na upraszczaniu procesów, budowaniu lojalności klientów poprzez digitalizację oraz aktywnym wspieraniu transformacji energetycznej polskich przedsiębiorstw.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/ale.html",
+    "href": "spolki/ale.html",
+    "title": "Allegro.eu S.A. (ALE)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: ALE | Allegro.eu S.A. | Siedziba: Polska | WWW: allegro.eu | Branża: Technologie i IT | Podbranża: e-commerce"
+  },
+  {
+    "objectID": "spolki/ale.html#notowania",
+    "href": "spolki/ale.html#notowania",
+    "title": "Allegro.eu S.A. (ALE)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/ale.html#o-spółce",
+    "href": "spolki/ale.html#o-spółce",
+    "title": "Allegro.eu S.A. (ALE)",
+    "section": "O spółce",
+    "text": "O spółce\nAllegro to najpopularniejsza w Polsce i jedna z największych w Europie platform e-commerce typu marketplace. Spółka zrewolucjonizowała polski handel detaliczny, tworząc kompletny ekosystem dla kupujących i sprzedających, obejmujący logistykę, płatności oraz reklamę."
+  },
+  {
+    "objectID": "spolki/ale.html#biznes",
+    "href": "spolki/ale.html#biznes",
+    "title": "Allegro.eu S.A. (ALE)",
+    "section": "Biznes",
+    "text": "Biznes\nMarketplace i usługi: Allegro nie jest tylko sklepem, ale platformą łączącą ponad 130 tys. sprzedawców z milionami klientów. Grupa stale poszerza zakres usług, budując przewagę konkurencyjną.\nKluczowe elementy ekosystemu:\n\nAllegro Smart!: Program darmowych dostaw i zwrotów, kluczowy driver lojalności klientów.\nAllegro Pay: Nowoczesne usługi finansowe BNPL (Buy Now, Pay Later) oraz kredytowanie zakupów.\nLogistyka (One Box & One Kurier): Rozwój własnej sieci automatów paczkowych i centrów logistycznych (Fullfilment).\nCeneo.pl: Największa polska porównywarka cen, wspierająca decyzje zakupowe."
+  },
+  {
+    "objectID": "spolki/ale.html#strategia",
+    "href": "spolki/ale.html#strategia",
+    "title": "Allegro.eu S.A. (ALE)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju grupy Allegro:\n\nRegion CEE: Ekspansja na rynki Czech, Słowacji i Węgier (wykorzystanie platformy MALL Group).\nInternational: Umożliwienie polskim sprzedawcom eksportu na rynki całej Unii Europejskiej poprzez ujednoliconą platformę.\nRetail Media: Rozwój zaawansowanych narzędzi reklamowych (Allegro Ads) dla sprzedawców.\nTechnologia AI: Wykorzystanie uczenia maszynowego w personalizacji wyszukiwań i optymalizacji logistyki.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/pzu.html",
+    "href": "spolki/pzu.html",
+    "title": "PZU S.A. (PZU)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: PZU | PZU S.A. | Siedziba: Polska | WWW: pzu.pl | Branża: Finanse | Podbranża: ubezpieczenia majątkowe"
+  },
+  {
+    "objectID": "spolki/pzu.html#notowania",
+    "href": "spolki/pzu.html#notowania",
+    "title": "PZU S.A. (PZU)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/pzu.html#o-spółce",
+    "href": "spolki/pzu.html#o-spółce",
+    "title": "PZU S.A. (PZU)",
+    "section": "O spółce",
+    "text": "O spółce\nPZU S.A. to największa instytucja finansowa w Polsce i Europie Środkowo-Wschodniej. Jest liderem rynku ubezpieczeń, a poprzez swoje spółki zależne posiada silną pozycję w sektorze bankowym i zarządzaniu aktywami."
+  },
+  {
+    "objectID": "spolki/pzu.html#biznes",
+    "href": "spolki/pzu.html#biznes",
+    "title": "PZU S.A. (PZU)",
+    "section": "Biznes",
+    "text": "Biznes\nSegmenty działalności:\n\nUbezpieczenia majątkowe: OC/AC, ubezpieczenia domu, firmy i rolne - pozycja nr 1 w Polsce.\nUbezpieczenia na życie: Polisy inwestycyjne, emerytalne i ochronne.\nBankowość: Poprzez spółki zależne (m.in. Bank Pekao, Alior Bank) - znaczący udział w rynku.\nZarządzanie aktywami: TFI PZU - jeden z największych funduszy inwestycyjnych w kraju.\nZdrowie: PZU Zdrowie - sieć placówek medycznych i usługi telemedyczne.\n\nGrupa kapitałowa: PZU jest jednym z największych podmiotów finansowych w Europie Środkowo-Wschodniej zdominującym rynek ubezpieczeń w Polsce."
+  },
+  {
+    "objectID": "spolki/pzu.html#strategia",
+    "href": "spolki/pzu.html#strategia",
+    "title": "PZU S.A. (PZU)",
+    "section": "Strategia",
+    "text": "Strategia\nStrategia PZU zakłada budowę najbardziej nowoczesnej grupy finansowej w regionie, opartej na ekosystemach usług (zdrowie, dom, auto). Koncentruje się na wykorzystaniu Big Data, AI w likwidacji szkód oraz realizacji celów ESG.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/alr.html",
+    "href": "spolki/alr.html",
+    "title": "Alior Bank S.A. (ALR)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: ALR | Alior Bank S.A. | Siedziba: Polska | WWW: aliorbank.pl | Branża: Finanse | Podbranża: banki uniwersalne"
+  },
+  {
+    "objectID": "spolki/alr.html#notowania",
+    "href": "spolki/alr.html#notowania",
+    "title": "Alior Bank S.A. (ALR)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/alr.html#o-spółce",
+    "href": "spolki/alr.html#o-spółce",
+    "title": "Alior Bank S.A. (ALR)",
+    "section": "O spółce",
+    "text": "O spółce\nAlior Bank S.A. to jeden z najbardziej innowacyjnych banków w Polsce. Od początku istnienia łączy zasady tradycyjnej bankowości z nowoczesnymi technologiami, co pozwoliło mu szybko zdobyć znaczący udział w rynku."
+  },
+  {
+    "objectID": "spolki/alr.html#biznes",
+    "href": "spolki/alr.html#biznes",
+    "title": "Alior Bank S.A. (ALR)",
+    "section": "Biznes",
+    "text": "Biznes\nOferta dla klientów indywidualnych:\n\nKonta osobiste z pakietem usług (Konto Jakie Chcę)\nKredyty gotówkowe i hipoteczne\nKarty kredytowe i debetowe\nProdukty inwestycyjne i oszczędnościowe\n\nOferta dla biznesu:\n\nRachunki firmowe i rozliczeniowe\nKredyty dla MSP i korporacji\nFaktoring i leasing\nObsługa transakcji zagranicznych\n\nInnowacje: Alior Bank jest pionierem wśród polskich banków pod względem innowacji cyfrowych - jako pierwszy wprowadził m.in. otwieranie konta selfie czy zaawansowane zarządzanie finansami osobistymi z wykorzystaniem AI.\nGrupa kapitałowa: Alior Bank należy do grupy PZU - największej instytucji finansowej w Polsce."
+  },
+  {
+    "objectID": "spolki/alr.html#strategia",
+    "href": "spolki/alr.html#strategia",
+    "title": "Alior Bank S.A. (ALR)",
+    "section": "Strategia",
+    "text": "Strategia\nWizja banku to “Bankowanie na co dzień, na najwyższym poziomie”. Strategia opiera się na budowaniu przewag technologicznych, optymalizacji procesów kredytowych z wykorzystaniem AI oraz wspieraniu transformacji cyfrowej swoich klientów biznesowych.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/kgh.html",
+    "href": "spolki/kgh.html",
+    "title": "KGHM Polska Miedź S.A. (KGH)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: KGH | KGHM Polska Miedź S.A. | Siedziba: Polska | WWW: kghm.com | Branża: Surowce i energia | Podbranża: górnictwo rud metali"
+  },
+  {
+    "objectID": "spolki/kgh.html#notowania",
+    "href": "spolki/kgh.html#notowania",
+    "title": "KGHM Polska Miedź S.A. (KGH)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/kgh.html#o-spółce",
+    "href": "spolki/kgh.html#o-spółce",
+    "title": "KGHM Polska Miedź S.A. (KGH)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: KGHM Polska Miedź S.A. to jeden z największych producentów miedzi elektrolitycznej i srebra na świecie. Spółka zarządza kluczowymi procesami wydobywczymi i hutniczymi w Legnicko-Głogowskim Zagłębiu Miedziowym (LGOM) oraz posiada aktywa zagraniczne (m.in. kopalnia Sierra Gorda w Chile).\nStrategia i Perspektywy: Firma dąży do bycia globalnym liderem efektywności w branży wydobywczej. Kluczowe kierunki to ekspansja bazy zasobowej, zielona transformacja energetyczna (OZE + atom SMR) oraz digitalizacja procesów produkcyjnych."
+  },
+  {
+    "objectID": "spolki/kgh.html#biznes",
+    "href": "spolki/kgh.html#biznes",
+    "title": "KGHM Polska Miedź S.A. (KGH)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne produkty:\n\nMiedź rafinowana: W postaci katod i walcówki.\nSrebro rafinowane: KGHM jest jednym z największych producentów kruszcu na świecie.\nZłoto i metale szlachetne: Pallad, platyna.\nMetale towarzyszące: Ołów, molibden, selen, ren.\n\nZasoby: Jedne z największych na świecie złóż miedzi zlokalizowane na Dolnym Śląsku."
+  },
+  {
+    "objectID": "spolki/kgh.html#strategia",
+    "href": "spolki/kgh.html#strategia",
+    "title": "KGHM Polska Miedź S.A. (KGH)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja globalna: rozwój aktywów zagranicznych w obu Amerykach.\nEkologia: redukcja śladu węglowego i wdrożenie GOZ.\nBezpieczeństwo surowcowe: zabezpieczenie strategicznych zasobów miedzi.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/pkn.html",
+    "href": "spolki/pkn.html",
+    "title": "ORLEN S.A. (PKN)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: PKN | ORLEN S.A. | Siedziba: Polska | WWW: orlen.pl | Branża: Surowce i energia | Podbranża: rafinerie i produkcja paliw"
+  },
+  {
+    "objectID": "spolki/pkn.html#notowania",
+    "href": "spolki/pkn.html#notowania",
+    "title": "ORLEN S.A. (PKN)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/pkn.html#o-spółce",
+    "href": "spolki/pkn.html#o-spółce",
+    "title": "ORLEN S.A. (PKN)",
+    "section": "O spółce",
+    "text": "O spółce\nORLEN S.A. to największa firma w Europie Środkowo-Wschodniej, działająca w sektorze paliwowo-energetycznym. Po fuzjach z Grupą Lotos oraz PGNiG, koncern stał się multienergetycznym gigantem o strategicznym znaczeniu dla bezpieczeństwa energetycznego Polski."
+  },
+  {
+    "objectID": "spolki/pkn.html#biznes",
+    "href": "spolki/pkn.html#biznes",
+    "title": "ORLEN S.A. (PKN)",
+    "section": "Biznes",
+    "text": "Biznes\nSegmenty działalności:\n\nRafinacja: Przetwarzanie ropy naftowej w rafineriach (Plock, Gdańsk, Trzebinia) - produkcja paliw (benzyna, olej napędowy, paliwo lotnicze).\nPetrochemia: Produkcja tworzyw sztucznych, polimerów, włókien - segment wysokomarżowy.\nWydobycie: Poszukiwanie i wydobycie ropy oraz gazu (aktywa w Norwegii, Pakistanie, Kanadzie).\nEnergia: Produkcja energii elektrycznej, rozwój OZE, programy nuklearne (SMR).\nSieć stacji: Blisko 2000 stacji paliw w Polsce, Czechach, Niemczech, na Litwie i Słowacji.\n\nSpółki zależne:\n\nGrupa Lotos: Wydobycie i przetwórstwo ropy (fuzja z ORLEN)\nPGNiG: Wydobycie i dystrybucja gazu ziemnego\nEnerga: Dystrybucja energii elektrycznej"
+  },
+  {
+    "objectID": "spolki/pkn.html#strategia",
+    "href": "spolki/pkn.html#strategia",
+    "title": "ORLEN S.A. (PKN)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nTransformacja energetyczna: Dywersyfikacja w kierunku niskoemisyjnych źródeł energii, rozwój OZE i atomu.\nWodór: Budowa klastrów wodorowych i rozwój technologii wodorowych.\nElektromobilność: Rozbudowa sieci ładowania pojazdów elektrycznych.\nPetrochemia 2.0: Zwiększanie udziału przetwórstwa ropy w segmencie chemicznym.\nBezpieczeństwo energetyczne: Wzmocnienie pozycji lidera rynku CEE w sektorze paliwowo-energetycznym.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
     "objectID": "spolki/pko.html",
     "href": "spolki/pko.html",
     "title": "PKO Bank Polski S.A. (PKO)",
@@ -833,39 +903,74 @@
     "text": "Strategia\nDążenie do bycia najbardziej nowoczesnym i przyjaznym bankiem w regionie, wspierającym transformację cyfrową i energetyczną klientów.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/cdr.html",
-    "href": "spolki/cdr.html",
-    "title": "CD PROJEKT S.A. (CDR)",
+    "objectID": "spolki/acp.html",
+    "href": "spolki/acp.html",
+    "title": "Asseco Poland S.A. (ACP)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: CDR | CD PROJEKT S.A. | Siedziba: Polska | WWW: cdprojekt.com | Branża: Technologie i IT | Podbranża: gaming"
+    "text": "← Spółki GPW | Ticker: ACP | Asseco Poland S.A. | Siedziba: Rzeszów | WWW: asseco.pl | Branża: Informatyka | Podbranża: Oprogramowanie"
   },
   {
-    "objectID": "spolki/cdr.html#notowania",
-    "href": "spolki/cdr.html#notowania",
-    "title": "CD PROJEKT S.A. (CDR)",
+    "objectID": "spolki/acp.html#notowania",
+    "href": "spolki/acp.html#notowania",
+    "title": "Asseco Poland S.A. (ACP)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/cdr.html#o-spółce",
-    "href": "spolki/cdr.html#o-spółce",
-    "title": "CD PROJEKT S.A. (CDR)",
+    "objectID": "spolki/acp.html#o-spółce",
+    "href": "spolki/acp.html#o-spółce",
+    "title": "Asseco Poland S.A. (ACP)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: CD PROJEKT S.A. to wiodący polski producent i wydawca gier wideo, znany na całym świecie dzięki serii “Wiedźmin” oraz grze “Cyberpunk 2077”. Spółka jest jednym z globalnych liderów w segmencie gier fabularnych (RPG) z otwartym światem.\nStrategia i Rozwój: Spółka realizuje nową strategię zakładającą równoległą produkcję kilku tytułów AAA oraz rozbudowę uniwersów poprzez media towarzyszące (animacje, serie komiksowe). Kluczowe projekty to rozpoczęta nowa saga wiedźmińska (Polaris) oraz projekt Orion (kontynuacja Cyberpunka)."
+    "text": "O spółce\nProfil działalności: Asseco Poland to wiodący polski producent oprogramowania i dostawca usług IT. Spółka dostarcza rozwiązania dla sektora finansowego, administracji publicznej, energetyki, telekomunikacji i przemysłu. Asseco działa globalnie poprzez sieć spółek zależnych w Europie, na Bliskim Wschodzie i w Afryce.\nStrategia i Perspektywy: Asseco koncentruje się na organicznym wzroście poprzez rozwój własnych produktów oraz ekspansję na rynki zagraniczne. Kluczowe są: modernizacja systemów w instytucjach finansowych, rozwiązania chmurowe i cyfryzacja administracji."
   },
   {
-    "objectID": "spolki/cdr.html#biznes",
-    "href": "spolki/cdr.html#biznes",
-    "title": "CD PROJEKT S.A. (CDR)",
+    "objectID": "spolki/acp.html#biznes",
+    "href": "spolki/acp.html#biznes",
+    "title": "Asseco Poland S.A. (ACP)",
     "section": "Biznes",
-    "text": "Biznes\nProdukcja gier: CD Projekt tworzy gry wideo w modelu własnego studia deweloperskiego (in-house), co zapewnia pełną kontrolę nad jakością i wizją artystyczną.\nPortfolio marek:\n\nWiedźmin: Kultowa trylogia RPG (Wiedźmin 1, 2, 3) oraz seria serialowa Netflixa.\nCyberpunk 2077: Największa premiera w historii polskiego gamingu, z rozbudowanym uniwersum science-fiction.\nPolaris: Nowa saga wiedźmińska - projekt AAA realizowany w ramach nowej strategii.\n\nModel dystrybucji: Sprzedaż cyfrowa (Steam, GOG, konsole) z dodatkowymi przychodami z DLC i mikrotransakcji."
+    "text": "Biznes\nGłówne linie produktowe:\n\nBankowość i finanse: Systemy core banking, platformy płatnicze, rozwiązania dla ubezpieczycieli i firm inwestycyjnych.\nAdministracja publiczna: Systemy e-administracji, rozwiązania dla jednostek samorządowych i administracji centralnej.\nEnergetyka i przemysł: Systemy SCADA, zarządzanie siecią dystrybucyjną, rozwiązania dla sektora naftowego i gazowego.\nTelekomunikacja: Systemy billingowe i zarządania klientami dla operatorów.\n\nZasoby i Surowce:\nDziałalność opiera się na kapitale ludzkim (programiści, konsultanci), własności intelektualnej (oprogramowanie) oraz infrastrukturze IT (centra danych, chmura)."
   },
   {
-    "objectID": "spolki/cdr.html#strategia",
-    "href": "spolki/cdr.html#strategia",
-    "title": "CD PROJEKT S.A. (CDR)",
+    "objectID": "spolki/acp.html#strategia",
+    "href": "spolki/acp.html#strategia",
+    "title": "Asseco Poland S.A. (ACP)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nJakość ponad wszystko: utrzymanie statusu studia tworzącego najbardziej zaawansowane narracyjnie gry na świecie.\nMultiplayer: wprowadzanie komponentów sieciowych do przyszłych produkcji.\nTechnologia: przejście na silnik Unreal Engine 5 w celu optymalizacji procesów twórczych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nRozwój organiczny: Inwestycje w nowe produkty i technologie (chmura, AI, cyberbezpieczeństwo).\nEkspansja zagraniczna: Dalszy rozwój na rynkach CEE, Bliskiego Wschodu i Afryki.\nFuzje i przejęcia: Akwizycje firm uzupełniających portfolio produktowe.\nModernizacja instytucji: Kontrakty na modernizację systemów w bankach i administracji.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/tpe.html",
+    "href": "spolki/tpe.html",
+    "title": "Tauron Polska Energia S.A. (TPE)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: TPE | Tauron Polska Energia S.A. | Siedziba: Katowice | WWW: tauron.pl | Branża: Energetyka | Podbranża: Dystrybucja energii"
+  },
+  {
+    "objectID": "spolki/tpe.html#notowania",
+    "href": "spolki/tpe.html#notowania",
+    "title": "Tauron Polska Energia S.A. (TPE)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/tpe.html#o-spółce",
+    "href": "spolki/tpe.html#o-spółce",
+    "title": "Tauron Polska Energia S.A. (TPE)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Tauron Polska Energia to drugi co do wielkości podmiot na polskim rynku elektroenergetycznym. Grupa prowadzi zintegrowaną działalność obejmującą wydobycie węgla, wytwarzanie energii elektrycznej, jej dystrybucję oraz sprzedaż do odbiorców końcowych. Spółka obsługuje miliony klientów w południowej Polsce.\nStrategia i Perspektywy: Tauron realizuje strategię transformacji w kierunku niskoemisyjnej energetyki, inwestując w odnawialne źródła energii i modernizując infrastrukturę dystrybucyjną. Kluczowe jest alsobudowanie nowych bloków węglowych oraz rozwój sieci inteligentnych."
+  },
+  {
+    "objectID": "spolki/tpe.html#biznes",
+    "href": "spolki/tpe.html#biznes",
+    "title": "Tauron Polska Energia S.A. (TPE)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nWytwarzanie energii: Produkcja energii w elektrowniach węglowych i instalacjach OZE.\nDystrybucja: Zarządzanie siecią dystrybucyjną na terenie południowej Polski (około 15% krajowego rynku).\nSprzedaż: Sprzedaż energii elektrycznej i gazu do gospodarstw domowych i firm.\nWydobycie: Wydobycie węgla kamiennego w kopalniach Grupy.\n\nZasoby i Surowce:\nKluczowy jest węgiel kamienny, infrastruktura sieciowa (linie, stacje transformatorowe), lokalizacje dla OZE (wiatr, słońce)."
+  },
+  {
+    "objectID": "spolki/tpe.html#strategia",
+    "href": "spolki/tpe.html#strategia",
+    "title": "Tauron Polska Energia S.A. (TPE)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nTransformacja energetyczna: Stopniowe odchodzenie od węgla na rzecz OZE.\nSieć inteligentna: Inwestycje w modernizację i cyfryzację dystrybucji.\nKlient końcowy: Rozwój usług dla odbiorców indywidualnych i biznesowych.\nEfektywność: Optymalizacja kosztów operacyjnych i inwestycyjnych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
     "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html",
