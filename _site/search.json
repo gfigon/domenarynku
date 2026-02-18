@@ -203,319 +203,354 @@
     "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.6\n✔ forcats   1.0.0     ✔ stringr   1.6.0\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.2.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(xts)\n\nLoading required package: zoo\n\nAttaching package: 'zoo'\n\nThe following objects are masked from 'package:base':\n\n    as.Date, as.Date.numeric\n\n\n######################### Warning from 'xts' package ##########################\n#                                                                             #\n# The dplyr lag() function breaks how base R's lag() function is supposed to  #\n# work, which breaks lag(my_xts). Calls to lag(my_xts) that you type or       #\n# source() into this session won't work correctly.                            #\n#                                                                             #\n# Use stats::lag() to make sure you're not using dplyr::lag(), or you can add #\n# conflictRules('dplyr', exclude = 'lag') to your .Rprofile to stop           #\n# dplyr from breaking base R's lag() function.                                #\n#                                                                             #\n# Code in packages is not affected. It's protected by R's namespace mechanism #\n# Set `options(xts.warn_dplyr_breaks_lag = FALSE)` to suppress this warning.  #\n#                                                                             #\n###############################################################################\n\nAttaching package: 'xts'\n\nThe following objects are masked from 'package:dplyr':\n\n    first, last\n\ntest_prices &lt;- readRDS(\"../data/prices100.RDS\")\n\n\n\ncolnames(test_prices)\n\n [1] \"Date\" \"KGH\"  \"PKO\"  \"PKN\"  \"ZAB\"  \"ALE\"  \"PEO\"  \"PZU\"  \"CDR\"  \"LPP\" \n[11] \"DNP\"  \"CCC\"  \"ALR\"  \"XTB\"  \"SPL\"  \"PCO\"  \"PGE\"  \"CAR\"  \"BDX\"  \"MBK\" \n[21] \"TPE\"  \"ACP\"  \"BFT\"  \"KTY\"  \"JSW\"  \"KRU\"  \"DIG\"  \"DIA\"  \"CPS\"  \"APR\" \n[31] \"MIL\"  \"RBW\"  \"OPL\"  \"DAD\"  \"ENA\"  \"ASB\"  \"SNT\"  \"CRI\"  \"TXT\"  \"PXM\" \n[41] \"BHW\"  \"LBW\"  \"CIG\"  \"EAT\"  \"APT\"  \"CBF\"  \"11B\"  \"ENG\"  \"ASM\"  \"TEN\" \n[51] \"WPL\"  \"GPW\"  \"ATT\"  \"MRB\"  \"PKP\"  \"FRO\"  \"BMC\"  \"MBR\"  \"GRX\"  \"ING\" \n[61] \"EUR\"  \"TRK\"  \"SLV\"  \"TOR\"  \"DAT\"  \"PEP\"  \"GPP\"  \"PLW\"  \"DVL\"  \"ELT\" \n[71] \"RVU\"  \"MDG\"  \"VRG\"  \"SCP\"  \"SPR\"  \"ECH\"  \"WTN\"  \"KER\"  \"TOA\"  \"PCR\" \n[81] \"BCX\"  \"MUR\"  \"LWB\"  \"DOM\"  \"NWG\"  \"SGN\"  \"4MS\"  \"STX\"  \"ENT\"  \"NEU\" \n[91] \"MLS\"  \"CLC\"  \"PAS\"  \"ALL\"  \"ICE\"  \"BNP\"  \"CRJ\""
   },
   {
-    "objectID": "spolki/tpe.html",
-    "href": "spolki/tpe.html",
-    "title": "Tauron Polska Energia S.A. (TPE)",
+    "objectID": "spolki/pep.html",
+    "href": "spolki/pep.html",
+    "title": "Polenergia S.A. (PEP)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: TPE | Tauron Polska Energia S.A. | Siedziba: Katowice | WWW: tauron.pl | Branża: Energetyka | Podbranża: Dystrybucja energii"
+    "text": "← Spółki GPW | Ticker: PEP | Polenergia S.A. | Siedziba: Warszawa | WWW: polenergia.pl | Branża: Energetyka | Podbranża: OZE"
   },
   {
-    "objectID": "spolki/tpe.html#notowania",
-    "href": "spolki/tpe.html#notowania",
-    "title": "Tauron Polska Energia S.A. (TPE)",
+    "objectID": "spolki/pep.html#notowania",
+    "href": "spolki/pep.html#notowania",
+    "title": "Polenergia S.A. (PEP)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/tpe.html#o-spółce",
-    "href": "spolki/tpe.html#o-spółce",
-    "title": "Tauron Polska Energia S.A. (TPE)",
+    "objectID": "spolki/pep.html#o-spółce",
+    "href": "spolki/pep.html#o-spółce",
+    "title": "Polenergia S.A. (PEP)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Tauron Polska Energia to drugi co do wielkości podmiot na polskim rynku elektroenergetycznym. Grupa prowadzi zintegrowaną działalność obejmującą wydobycie węgla, wytwarzanie energii elektrycznej, jej dystrybucję oraz sprzedaż do odbiorców końcowych. Spółka obsługuje miliony klientów w południowej Polsce.\nStrategia i Perspektywy: Tauron realizuje strategię transformacji w kierunku niskoemisyjnej energetyki, inwestując w odnawialne źródła energii i modernizując infrastrukturę dystrybucyjną. Kluczowe jest alsobudowanie nowych bloków węglowych oraz rozwój sieci inteligentnych."
+    "text": "O spółce\nProfil działalności: Polenergia to polska grupa energetyczna specjalizująca się w odnawialnych źródłach energii. Spółka rozwija projekty farm wiatrowych na lądzie (onshore) i morzu (offshore), oraz instalacji fotowoltaicznych. Polenergia jest jednym z liderów rynku OZE w Polsce.\nStrategia i Perspektywy: Polenergia realizuje strategię ekspansji w OZE, koncentrując się na budowie morskich farm wiatrowych na Bałtyku oraz zwiększaniu mocy zainstalowanej w energetyce słonecznej. Kluczowe są również projekty magazynowania energii."
   },
   {
-    "objectID": "spolki/tpe.html#biznes",
-    "href": "spolki/tpe.html#biznes",
-    "title": "Tauron Polska Energia S.A. (TPE)",
+    "objectID": "spolki/pep.html#biznes",
+    "href": "spolki/pep.html#biznes",
+    "title": "Polenergia S.A. (PEP)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nWytwarzanie energii: Produkcja energii w elektrowniach węglowych i instalacjach OZE.\nDystrybucja: Zarządzanie siecią dystrybucyjną na terenie południowej Polski (około 15% krajowego rynku).\nSprzedaż: Sprzedaż energii elektrycznej i gazu do gospodarstw domowych i firm.\nWydobycie: Wydobycie węgla kamiennego w kopalniach Grupy.\n\nZasoby i Surowce:\nKluczowy jest węgiel kamienny, infrastruktura sieciowa (linie, stacje transformatorowe), lokalizacje dla OZE (wiatr, słońce)."
+    "text": "Biznes\nGłówne linie produktowe:\n\nFarmy wiatrowe onshore: Elektrownie wiatrowe na lądzie w Polsce.\nFarmy wiatrowe offshore: Projekty morskich farm wiatrowych na Bałtyku.\nFotowoltaika: Instalacje solarne na gruntach i dachach.\nMagazyny energii: Projekty bateryjnych magazynów energii.\n\nZasoby i Surowce:\nKluczowe są lokalizacje pod farmy wiatrowe i słoneczne, turbiny wiatrowe, panele PV, oraz pozwolenia i koncesje."
   },
   {
-    "objectID": "spolki/tpe.html#strategia",
-    "href": "spolki/tpe.html#strategia",
-    "title": "Tauron Polska Energia S.A. (TPE)",
+    "objectID": "spolki/pep.html#strategia",
+    "href": "spolki/pep.html#strategia",
+    "title": "Polenergia S.A. (PEP)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nTransformacja energetyczna: Stopniowe odchodzenie od węgla na rzecz OZE.\nSieć inteligentna: Inwestycje w modernizację i cyfryzację dystrybucji.\nKlient końcowy: Rozwój usług dla odbiorców indywidualnych i biznesowych.\nEfektywność: Optymalizacja kosztów operacyjnych i inwestycyjnych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nOffshore wind: Rozwój projektów morskich farm wiatrowych.\nOnshore expansion: Zwiększanie mocy w farmach lądowych.\nFotowoltaika: Inwestycje w instalacje PV.\nMagazynowanie: Budowa magazynów energii bateryjnej.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/jsw.html",
-    "href": "spolki/jsw.html",
-    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
+    "objectID": "spolki/cdr.html",
+    "href": "spolki/cdr.html",
+    "title": "CD PROJEKT S.A. (CDR)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: JSW | Jastrzębska Spółka Węglowa S.A. | Siedziba: Jastrzębie-Zdrój | WWW: jsw.pl | Branża: Górnictwo | Podbranża: Węgiel"
+    "text": "← Spółki GPW | Ticker: CDR | CD PROJEKT S.A. | Siedziba: Polska | WWW: cdprojekt.com | Branża: Technologie i IT | Podbranża: gaming"
   },
   {
-    "objectID": "spolki/jsw.html#notowania",
-    "href": "spolki/jsw.html#notowania",
-    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
+    "objectID": "spolki/cdr.html#notowania",
+    "href": "spolki/cdr.html#notowania",
+    "title": "CD PROJEKT S.A. (CDR)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/jsw.html#o-spółce",
-    "href": "spolki/jsw.html#o-spółce",
-    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
+    "objectID": "spolki/cdr.html#o-spółce",
+    "href": "spolki/cdr.html#o-spółce",
+    "title": "CD PROJEKT S.A. (CDR)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Jastrzębska Spółka Węglowa to największy w Polsce i jeden z największych w Europie producentów węgla koksowego. Spółka wydobywa węgiel kamienny w kopalniach na Śląsku, dostarczając surowiec głównie dla przemysłu hutniczego i energetycznego. JSW jest również producentem koksu i węgla do produkcji stali.\nStrategia i Perspektywy: JSW przechodzi trudny okres restrukturyzacji związany z kryzysem węgla koksowego. Spółka koncentruje się na optymalizacji kosztów, poprawie efektywności wydobycia i dywersyfikacji działalności. Kluczowe jest alsobudowanie nowych bloków energetycznych do przetwarzania węgla."
+    "text": "O spółce\nProfil działalności: CD PROJEKT S.A. to wiodący polski producent i wydawca gier wideo, znany na całym świecie dzięki serii “Wiedźmin” oraz grze “Cyberpunk 2077”. Spółka jest jednym z globalnych liderów w segmencie gier fabularnych (RPG) z otwartym światem.\nStrategia i Rozwój: Spółka realizuje nową strategię zakładającą równoległą produkcję kilku tytułów AAA oraz rozbudowę uniwersów poprzez media towarzyszące (animacje, serie komiksowe). Kluczowe projekty to rozpoczęta nowa saga wiedźmińska (Polaris) oraz projekt Orion (kontynuacja Cyberpunka)."
   },
   {
-    "objectID": "spolki/jsw.html#biznes",
-    "href": "spolki/jsw.html#biznes",
-    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
+    "objectID": "spolki/cdr.html#biznes",
+    "href": "spolki/cdr.html#biznes",
+    "title": "CD PROJEKT S.A. (CDR)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nWęgiel koksowy: Dla przemysłu hutniczego i stalowego.\nWęgiel energetyczny: Dla elektrowni i ciepłowni.\nKoks: Produkt przetworzony dla przemysłu metalurgicznego.\nWęgiel do produkcji aluminium: Specjalistyczne gatunki.\n\nZasoby i Surowce:\nKluczowe są złoża węgla kamiennego, infrastruktura kopalń, siła robocza (górnicy) oraz energia."
+    "text": "Biznes\nProdukcja gier: CD Projekt tworzy gry wideo w modelu własnego studia deweloperskiego (in-house), co zapewnia pełną kontrolę nad jakością i wizją artystyczną.\nPortfolio marek:\n\nWiedźmin: Kultowa trylogia RPG (Wiedźmin 1, 2, 3) oraz seria serialowa Netflixa.\nCyberpunk 2077: Największa premiera w historii polskiego gamingu, z rozbudowanym uniwersum science-fiction.\nPolaris: Nowa saga wiedźmińska - projekt AAA realizowany w ramach nowej strategii.\n\nModel dystrybucji: Sprzedaż cyfrowa (Steam, GOG, konsole) z dodatkowymi przychodami z DLC i mikrotransakcji."
   },
   {
-    "objectID": "spolki/jsw.html#strategia",
-    "href": "spolki/jsw.html#strategia",
-    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
+    "objectID": "spolki/cdr.html#strategia",
+    "href": "spolki/cdr.html#strategia",
+    "title": "CD PROJEKT S.A. (CDR)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nRestrukturyzacja: Poprawa efektywności i redukcja kosztów.\nNowe produkty: Rozwój oferty koksu i węgli specjalnych.\nEnergetyka: Budowa własnych bloków energetycznych.\nDywersyfikacja: Inwestycje poza górnictwem.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nJakość ponad wszystko: utrzymanie statusu studia tworzącego najbardziej zaawansowane narracyjnie gry na świecie.\nMultiplayer: wprowadzanie komponentów sieciowych do przyszłych produkcji.\nTechnologia: przejście na silnik Unreal Engine 5 w celu optymalizacji procesów twórczych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/zab.html",
-    "href": "spolki/zab.html",
-    "title": "Żabka Group S.A. (ZAB)",
+    "objectID": "spolki/acp.html",
+    "href": "spolki/acp.html",
+    "title": "Asseco Poland S.A. (ACP)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: ZAB | Żabka Group S.A. | Siedziba: Polska | WWW: zabkagroup.com | Branża: Handel i konsumpcja | Podbranża: sieci convenience"
+    "text": "← Spółki GPW | Ticker: ACP | Asseco Poland S.A. | Siedziba: Rzeszów | WWW: asseco.pl | Branża: Informatyka | Podbranża: Oprogramowanie"
   },
   {
-    "objectID": "spolki/zab.html#notowania",
-    "href": "spolki/zab.html#notowania",
-    "title": "Żabka Group S.A. (ZAB)",
+    "objectID": "spolki/acp.html#notowania",
+    "href": "spolki/acp.html#notowania",
+    "title": "Asseco Poland S.A. (ACP)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/zab.html#o-spółce",
-    "href": "spolki/zab.html#o-spółce",
-    "title": "Żabka Group S.A. (ZAB)",
+    "objectID": "spolki/acp.html#o-spółce",
+    "href": "spolki/acp.html#o-spółce",
+    "title": "Asseco Poland S.A. (ACP)",
     "section": "O spółce",
-    "text": "O spółce\nŻabka Group to lider polskiego rynku modern convenience. Grupa zarządza siecią ponad 11 000 sklepów działających w modelu franczyzowym. Spółka zadebiutowała na GPW w Warszawie w październiku 2024 roku, stając się jedną z największych spółek w indeksie WIG20."
+    "text": "O spółce\nProfil działalności: Asseco Poland to wiodący polski producent oprogramowania i dostawca usług IT. Spółka dostarcza rozwiązania dla sektora finansowego, administracji publicznej, energetyki, telekomunikacji i przemysłu. Asseco działa globalnie poprzez sieć spółek zależnych w Europie, na Bliskim Wschodzie i w Afryce.\nStrategia i Perspektywy: Asseco koncentruje się na organicznym wzroście poprzez rozwój własnych produktów oraz ekspansję na rynki zagraniczne. Kluczowe są: modernizacja systemów w instytucjach finansowych, rozwiązania chmurowe i cyfryzacja administracji."
   },
   {
-    "objectID": "spolki/zab.html#biznes",
-    "href": "spolki/zab.html#biznes",
-    "title": "Żabka Group S.A. (ZAB)",
+    "objectID": "spolki/acp.html#biznes",
+    "href": "spolki/acp.html#biznes",
+    "title": "Asseco Poland S.A. (ACP)",
     "section": "Biznes",
-    "text": "Biznes\nModel biznesowy: Żabka operuje w unikalnym ekosystemie integrującym sprzedaż detaliczną, usługi kurierskie oraz gastronomię (Żabka Café).\nKluczowe formaty i marki:\n\nŻabka Convenience: Podstawowy format sklepów blisko klienta.\nŻabka Nano: Innowacyjne sklepy autonomiczne (bezobsługowe) oparte na technologii AI.\nMaczfit: Lider rynku cateringu dietetycznego w Polsce (część grupy).\nDietly: Platforma e-commerce dedykowana zdrowej żywności.\n\nInfrastruktura: Siedem zaawansowanych centrów logistycznych zapewnia dostawy do ponad 11 tysięcy placówek na terenie całego kraju."
+    "text": "Biznes\nGłówne linie produktowe:\n\nBankowość i finanse: Systemy core banking, platformy płatnicze, rozwiązania dla ubezpieczycieli i firm inwestycyjnych.\nAdministracja publiczna: Systemy e-administracji, rozwiązania dla jednostek samorządowych i administracji centralnej.\nEnergetyka i przemysł: Systemy SCADA, zarządzanie siecią dystrybucyjną, rozwiązania dla sektora naftowego i gazowego.\nTelekomunikacja: Systemy billingowe i zarządania klientami dla operatorów.\n\nZasoby i Surowce:\nDziałalność opiera się na kapitale ludzkim (programiści, konsultanci), własności intelektualnej (oprogramowanie) oraz infrastrukturze IT (centra danych, chmura)."
   },
   {
-    "objectID": "spolki/zab.html#strategia",
-    "href": "spolki/zab.html#strategia",
-    "title": "Żabka Group S.A. (ZAB)",
+    "objectID": "spolki/acp.html#strategia",
+    "href": "spolki/acp.html#strategia",
+    "title": "Asseco Poland S.A. (ACP)",
     "section": "Strategia",
-    "text": "Strategia\nGłówne kierunki wzrostu Żabka Group:\n\nEkspansja terytorialna: Dalsze nasycanie rynku polskiego i wejście na rynki zagraniczne (np. Rumunia).\nDigitalizacja: Rozwój aplikacji Żappka (ponad 6 mln aktywnych użytkowników) oraz personalizacja oferty (retail media).\nLogistyka 2.0: Optymalizacja dostaw ostatniej mili i rozwój usług kurierskich.\nZrównoważony styl życia: Rozbudowa oferty produktów “Better for You” i ekologicznych rozwiązań w placówkach.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nRozwój organiczny: Inwestycje w nowe produkty i technologie (chmura, AI, cyberbezpieczeństwo).\nEkspansja zagraniczna: Dalszy rozwój na rynkach CEE, Bliskiego Wschodu i Afryki.\nFuzje i przejęcia: Akwizycje firm uzupełniających portfolio produktowe.\nModernizacja instytucji: Kontrakty na modernizację systemów w bankach i administracji.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/pko.html",
-    "href": "spolki/pko.html",
-    "title": "PKO Bank Polski S.A. (PKO)",
+    "objectID": "spolki/bft.html",
+    "href": "spolki/bft.html",
+    "title": "Benefit Systems S.A. (BFT)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: PKO | PKO Bank Polski S.A. | Siedziba: Polska | WWW: pkobp.pl | Branża: Finanse | Podbranża: banki uniwersalne"
+    "text": "← Spółki GPW | Ticker: BFT | Benefit Systems S.A. | Siedziba: Warszawa | WWW: benefitsystems.pl | Branża: Rekreacja i wypoczynek | Podbranża: Usługi"
   },
   {
-    "objectID": "spolki/pko.html#notowania",
-    "href": "spolki/pko.html#notowania",
-    "title": "PKO Bank Polski S.A. (PKO)",
+    "objectID": "spolki/bft.html#notowania",
+    "href": "spolki/bft.html#notowania",
+    "title": "Benefit Systems S.A. (BFT)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/pko.html#o-spółce",
-    "href": "spolki/pko.html#o-spółce",
-    "title": "PKO Bank Polski S.A. (PKO)",
+    "objectID": "spolki/bft.html#o-spółce",
+    "href": "spolki/bft.html#o-spółce",
+    "title": "Benefit Systems S.A. (BFT)",
     "section": "O spółce",
-    "text": "O spółce\nPKO Bank Polski to lider sektora bankowego w Polsce, obsługujący blisko 12 mln klientów. Jest kluczową instytucją finansową o charakterze uniwersalnym, działającą w segmencie detalicznym, korporacyjnym i inwestycyjnym."
+    "text": "O spółce\nProfil działalności: Benefit Systems to wiodący dostawca kart benefitowych i platformy do obsługi benefitów pracowniczych w Polsce. Spółka oferuje popularne programy MultiSport i FitSport, umożliwiające pracownikom korzystanie z siłowni, basenów i innych obiektów sportowych. Model biznesowy opiera się na współpracy z pracodawcami.\nStrategia i Perspektywy: Benefit Systems rozwija się poprzez ekspansję liczby użytkowników kart oraz zwiększanie wartości kontraktów. Kluczowe jest alsobudowanie nowych partnerstw z pracodawcami i rozszerzanie sieci obiektów sportowych."
   },
   {
-    "objectID": "spolki/pko.html#biznes",
-    "href": "spolki/pko.html#biznes",
-    "title": "PKO Bank Polski S.A. (PKO)",
+    "objectID": "spolki/bft.html#biznes",
+    "href": "spolki/bft.html#biznes",
+    "title": "Benefit Systems S.A. (BFT)",
     "section": "Biznes",
-    "text": "Biznes\nBank oferuje pełen zakres produktów finansowych, od kont i kredytów po zaawansowane usługi bankowości inwestycyjnej. Lider nowoczesnych kanałów cyfrowych z najpopularniejszą aplikacją mobilną na rynku polskim (IKO)."
+    "text": "Biznes\nGłówne linie produktowe:\n\nKarty MultiSport: Dostęp do sieci obiektów sportowych w całej Polsce.\nFitSport: Programy fitness dla firm i klientów indywidualnych.\nPlatforma obsługowa: Systemy do zarządzania benefitami dla HR.\n\nZasoby i Surowce:\nDziałalność opiera się na sieci partnerów sportowych (siłownie, baseny), platformach IT oraz relacjach z pracodawcami."
   },
   {
-    "objectID": "spolki/pko.html#strategia",
-    "href": "spolki/pko.html#strategia",
-    "title": "PKO Bank Polski S.A. (PKO)",
+    "objectID": "spolki/bft.html#strategia",
+    "href": "spolki/bft.html#strategia",
+    "title": "Benefit Systems S.A. (BFT)",
     "section": "Strategia",
-    "text": "Strategia\nDążenie do bycia najbardziej nowoczesnym i przyjaznym bankiem w regionie, wspierającym transformację cyfrową i energetyczną klientów.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja użytkowników: Zwiększanie bazy pracodawców oferujących karty.\nNowe produkty: Rozwój oferty benefitów (wellness, mental health).\nCyfryzacja: Aplikacje mobilne i platformy obsługowe.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/pkn.html",
-    "href": "spolki/pkn.html",
-    "title": "ORLEN S.A. (PKN)",
+    "objectID": "spolki/mbk.html",
+    "href": "spolki/mbk.html",
+    "title": "mBank S.A. (MBK)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: PKN | ORLEN S.A. | Siedziba: Polska | WWW: orlen.pl | Branża: Surowce i energia | Podbranża: rafinerie i produkcja paliw"
+    "text": "← Spółki GPW | Ticker: MBK | mBank S.A. | Siedziba: Warszawa | WWW: mbank.pl | Branża: Bankowość | Podbranża: Usługi finansowe"
   },
   {
-    "objectID": "spolki/pkn.html#notowania",
-    "href": "spolki/pkn.html#notowania",
-    "title": "ORLEN S.A. (PKN)",
+    "objectID": "spolki/mbk.html#notowania",
+    "href": "spolki/mbk.html#notowania",
+    "title": "mBank S.A. (MBK)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/pkn.html#o-spółce",
-    "href": "spolki/pkn.html#o-spółce",
-    "title": "ORLEN S.A. (PKN)",
+    "objectID": "spolki/mbk.html#o-spółce",
+    "href": "spolki/mbk.html#o-spółce",
+    "title": "mBank S.A. (MBK)",
     "section": "O spółce",
-    "text": "O spółce\nORLEN S.A. to największa firma w Europie Środkowo-Wschodniej, działająca w sektorze paliwowo-energetycznym. Po fuzjach z Grupą Lotos oraz PGNiG, koncern stał się multienergetycznym gigantem o strategicznym znaczeniu dla bezpieczeństwa energetycznego Polski."
+    "text": "O spółce\nProfil działalności: mBank S.A. to uniwersalny bank komercyjny należący do grupy mBanku Hipotecznego. Bank oferuje kompleksowe usługi dla klientów indywidualnych i firm, w tym konta osobiste, kredyty, produkty inwestycyjne, usługi maklerskie, leasing oraz factoring. mBank jest znany z innowacyjności i nowoczesnej bankowości internetowej.\nStrategia i Perspektywy: mBank koncentruje się na rozwoju cyfrowych kanałów obsługi i innowacyjnych produktów. Kluczowe są: wzrost w segmencie klientów zamożnych (private banking), rozwój oferty dla firm oraz utrzymanie rentowności w warunkach zmiennej stopy procentowej."
   },
   {
-    "objectID": "spolki/pkn.html#biznes",
-    "href": "spolki/pkn.html#biznes",
-    "title": "ORLEN S.A. (PKN)",
+    "objectID": "spolki/mbk.html#biznes",
+    "href": "spolki/mbk.html#biznes",
+    "title": "mBank S.A. (MBK)",
     "section": "Biznes",
-    "text": "Biznes\nSegmenty działalności:\n\nRafinacja: Przetwarzanie ropy naftowej w rafineriach (Plock, Gdańsk, Trzebinia) - produkcja paliw (benzyna, olej napędowy, paliwo lotnicze).\nPetrochemia: Produkcja tworzyw sztucznych, polimerów, włókien - segment wysokomarżowy.\nWydobycie: Poszukiwanie i wydobycie ropy oraz gazu (aktywa w Norwegii, Pakistanie, Kanadzie).\nEnergia: Produkcja energii elektrycznej, rozwój OZE, programy nuklearne (SMR).\nSieć stacji: Blisko 2000 stacji paliw w Polsce, Czechach, Niemczech, na Litwie i Słowacji.\n\nSpółki zależne:\n\nGrupa Lotos: Wydobycie i przetwórstwo ropy (fuzja z ORLEN)\nPGNiG: Wydobycie i dystrybucja gazu ziemnego\nEnerga: Dystrybucja energii elektrycznej"
+    "text": "Biznes\nGłówne linie produktowe:\n\nBankowość detaliczna: Konta osobiste, kredyty hipoteczne i konsumenckie, karty płatnicze, oszczędności i inwestycje.\nBankowość korporacyjna: Konta firmowe, kredyty dla przedsiębiorstw, zarządzanie płynnością.\nUsługi maklerskie: Platforma transakcyjna, doradztwo inwestycyjne, produkty strukturyzowane.\nLeasing i factoring: Obsługa MŚP poprzez spółki zależne.\n\nZasoby i Surowce:\nDziałalność opiera się na kapitale (depozyty klientów), zasobach IT (platformy cyfrowe) oraz kapitale ludzkim (doradcy, analitycy)."
   },
   {
-    "objectID": "spolki/pkn.html#strategia",
-    "href": "spolki/pkn.html#strategia",
-    "title": "ORLEN S.A. (PKN)",
+    "objectID": "spolki/mbk.html#strategia",
+    "href": "spolki/mbk.html#strategia",
+    "title": "mBank S.A. (MBK)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nTransformacja energetyczna: Dywersyfikacja w kierunku niskoemisyjnych źródeł energii, rozwój OZE i atomu.\nWodór: Budowa klastrów wodorowych i rozwój technologii wodorowych.\nElektromobilność: Rozbudowa sieci ładowania pojazdów elektrycznych.\nPetrochemia 2.0: Zwiększanie udziału przetwórstwa ropy w segmencie chemicznym.\nBezpieczeństwo energetyczne: Wzmocnienie pozycji lidera rynku CEE w sektorze paliwowo-energetycznym.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nCyfryzacja: Inwestycje w aplikacje mobilne i platformy internetowe.\nPrivate banking: Rozwój segmentu klientów zamożnych i wealth management.\nBankowość MŚP: Wzmocnienie oferty dla małych i średnich przedsiębiorstw.\nEfektywność kosztowa: Optymalizacja sieci oddziałów i procesów operacyjnych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/lpp.html",
-    "href": "spolki/lpp.html",
-    "title": "LPP S.A. (LPP)",
+    "objectID": "spolki/kru.html",
+    "href": "spolki/kru.html",
+    "title": "KRUK S.A. (KRU)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: LPP | LPP S.A. | Siedziba: Polska | WWW: lpp.com | Branża: Handel i konsumpcja | Podbranża: handel detaliczny odzieżowy"
+    "text": "← Spółki GPW | Ticker: KRU | KRUK S.A. | Siedziba: Wrocław | WWW: kruk.pl | Branża: Windykacja | Podbranża: Usługi finansowe"
   },
   {
-    "objectID": "spolki/lpp.html#notowania",
-    "href": "spolki/lpp.html#notowania",
-    "title": "LPP S.A. (LPP)",
+    "objectID": "spolki/kru.html#notowania",
+    "href": "spolki/kru.html#notowania",
+    "title": "KRUK S.A. (KRU)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/lpp.html#o-spółce",
-    "href": "spolki/lpp.html#o-spółce",
-    "title": "LPP S.A. (LPP)",
+    "objectID": "spolki/kru.html#o-spółce",
+    "href": "spolki/kru.html#o-spółce",
+    "title": "KRUK S.A. (KRU)",
     "section": "O spółce",
-    "text": "O spółce\nLPP S.A. to polski czempion branży odzieżowej, zarządzający znanymi markami: Reserved, Cropp, House, Mohito i Sinsay. Spółka jest jednym z najszybciej rozwijających się sprzedawców odzieży w Europie Środkowo-Wschodniej."
+    "text": "O spółce\nProfil działalności: KRUK to wiodąca europejska firma zarządzania wierzytelnościami i jedna z największych w Polsce. Spółka zajmuje się windykacją należności, wykupem portfeli wierzytelności oraz doradztwem finansowym. KRUK działa w Polsce, Rumunii, Czechach, na Słowacji i w Włoszech.\nStrategia i Perspektywy: KRUK rozwija się poprzez akwizycję portfeli wierzytelności, rozwój na rynkach zagranicznych oraz inwestycje w technologie windykacyjne. Kluczowe jest alsobudowanie efektywnych modeli odzyskiwania należności i rozszerzanie działalności w Europie."
   },
   {
-    "objectID": "spolki/lpp.html#biznes",
-    "href": "spolki/lpp.html#biznes",
-    "title": "LPP S.A. (LPP)",
+    "objectID": "spolki/kru.html#biznes",
+    "href": "spolki/kru.html#biznes",
+    "title": "KRUK S.A. (KRU)",
     "section": "Biznes",
-    "text": "Biznes\nModel biznesowy: LPP projektuje, produkuje i sprzedaje odzież w segmencie mody masowej, operując poprzez sieć sklepów stacjonarnych oraz kanały e-commerce.\nPortfolio marek:\n\nReserved: Główna marka damska i męska w segmencie popularnym.\nCropp: Marka streetwearowa skierowana do młodych konsumentów.\nHouse: Styl vintage i retro dla osób ceniących klasykę.\nMohito: Elegancka odzież damska.\nSinsay: Najszybciej rosnąca marka, kierowana do młodych kobiet i nastolatek.\n\nStruktura przychodów: Spółka posiada ponad 1700 sklepów w 20 krajach, z silną pozycją w Polsce, Czechach, Rumunii i na Słowacji."
+    "text": "Biznes\nGłówne linie produktowe:\n\nWindykacja polisa: Zarządzanie wierzytelnościami dla instytucji finansowych.\nZarządzanie portfelami: Wykup i obsługa portfeli wierzytelności konsumenckich.\nDoradztwo finansowe: Konsulting dla wierzycieli i dłużników.\nRozwiązania technologiczne: Platformy do windykacji online.\n\nZasoby i Surowce:\nDziałalność opiera się na kapitale (do wykupu wierzytelności), modelach analitycznych (scoring dłużników) oraz zespołach windykacyjnych."
   },
   {
-    "objectID": "spolki/lpp.html#strategia",
-    "href": "spolki/lpp.html#strategia",
-    "title": "LPP S.A. (LPP)",
+    "objectID": "spolki/kru.html#strategia",
+    "href": "spolki/kru.html#strategia",
+    "title": "KRUK S.A. (KRU)",
     "section": "Strategia",
-    "text": "Strategia\nStrategia LPP opiera się na cyfryzacji (Omnichannel), automatyzacji logistyki oraz zrównoważonym rozwoju (strategia For People For Our Planet). Spółka dynamicznie zwiększa udział sprzedaży internetowej i stawia na rozwój marki Sinsay w regionie.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja europejska: Rozwój na nowych rynkach UE.\nTechnologie: Inwestycje w platformy AI i automatyzację.\nDywersyfikacja: Rozwój usług beyond debt collection.\nSkalowanie: Zwiększanie wolumenu zarządzanych wierzytelności.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/ccc.html",
-    "href": "spolki/ccc.html",
-    "title": "Grupa CCC S.A. (CCC)",
+    "objectID": "spolki/kgh.html",
+    "href": "spolki/kgh.html",
+    "title": "KGHM Polska Miedź S.A. (KGH)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: CCC | Grupa CCC S.A. | Siedziba: Polska | WWW: corporate.ccc.eu | Branża: Handel i konsumpcja | Podbranża: handel detaliczny obuwiem"
+    "text": "← Spółki GPW | Ticker: KGH | KGHM Polska Miedź S.A. | Siedziba: Polska | WWW: kghm.com | Branża: Surowce i energia | Podbranża: górnictwo rud metali"
   },
   {
-    "objectID": "spolki/ccc.html#notowania",
-    "href": "spolki/ccc.html#notowania",
-    "title": "Grupa CCC S.A. (CCC)",
+    "objectID": "spolki/kgh.html#notowania",
+    "href": "spolki/kgh.html#notowania",
+    "title": "KGHM Polska Miedź S.A. (KGH)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/ccc.html#o-spółce",
-    "href": "spolki/ccc.html#o-spółce",
-    "title": "Grupa CCC S.A. (CCC)",
+    "objectID": "spolki/kgh.html#o-spółce",
+    "href": "spolki/kgh.html#o-spółce",
+    "title": "KGHM Polska Miedź S.A. (KGH)",
     "section": "O spółce",
-    "text": "O spółce\nGrupa CCC to jeden z największych europejskich graczy w segmencie obuwia i odzieży. Spółka jest liderem sprzedaży wielokanałowej (Omnichannel) w regionie CEE, zarządzając potężnym ekosystemem marek własnych i platform e-commerce."
+    "text": "O spółce\nProfil działalności: KGHM Polska Miedź S.A. to jeden z największych producentów miedzi elektrolitycznej i srebra na świecie. Spółka zarządza kluczowymi procesami wydobywczymi i hutniczymi w Legnicko-Głogowskim Zagłębiu Miedziowym (LGOM) oraz posiada aktywa zagraniczne (m.in. kopalnia Sierra Gorda w Chile).\nStrategia i Perspektywy: Firma dąży do bycia globalnym liderem efektywności w branży wydobywczej. Kluczowe kierunki to ekspansja bazy zasobowej, zielona transformacja energetyczna (OZE + atom SMR) oraz digitalizacja procesów produkcyjnych."
   },
   {
-    "objectID": "spolki/ccc.html#biznes",
-    "href": "spolki/ccc.html#biznes",
-    "title": "Grupa CCC S.A. (CCC)",
+    "objectID": "spolki/kgh.html#biznes",
+    "href": "spolki/kgh.html#biznes",
+    "title": "KGHM Polska Miedź S.A. (KGH)",
     "section": "Biznes",
-    "text": "Biznes\nModel biznesowy: CCC działa w segmencie detalicznym i hurtowym, oferując obuwie oraz odzież poprzez sieć sklepów stacjonarnych oraz platformy e-commerce.\nSieci i marki:\n\nCCC: Główne salony obuwnicze z ofertą dla całej rodziny.\nHalfPrice: Sieć outletów z markowym obuwiem i odzieżą w obniżonych cenach.\nMODIVO: Platforma e-commerce z obuwiem i akcesoriami.\nGino Rossi: Marka obuwia premium.\n\nStruktura przychodów: Sieć ponad 1000 sklepów w Polsce i regionie CEE, z silnym kierunkiem na rozwój kanału online."
+    "text": "Biznes\nGłówne produkty:\n\nMiedź rafinowana: W postaci katod i walcówki.\nSrebro rafinowane: KGHM jest jednym z największych producentów kruszcu na świecie.\nZłoto i metale szlachetne: Pallad, platyna.\nMetale towarzyszące: Ołów, molibden, selen, ren.\n\nZasoby: Jedne z największych na świecie złóż miedzi zlokalizowane na Dolnym Śląsku."
   },
   {
-    "objectID": "spolki/ccc.html#strategia",
-    "href": "spolki/ccc.html#strategia",
-    "title": "Grupa CCC S.A. (CCC)",
+    "objectID": "spolki/kgh.html#strategia",
+    "href": "spolki/kgh.html#strategia",
+    "title": "KGHM Polska Miedź S.A. (KGH)",
     "section": "Strategia",
-    "text": "Strategia\nStrategia Grupy CCC koncentruje się na cyfrowej transformacji i optymalizacji kapitału. Spółka stawia na dalszy dynamiczny wzrost sieci HalfPrice oraz rozwój platformy MODIVO, przy jednoczesnej redukcji zadłużenia i zwiększaniu rentowności modelu tradycyjnego.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja globalna: rozwój aktywów zagranicznych w obu Amerykach.\nEkologia: redukcja śladu węglowego i wdrożenie GOZ.\nBezpieczeństwo surowcowe: zabezpieczenie strategicznych zasobów miedzi.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/peo.html",
-    "href": "spolki/peo.html",
-    "title": "Bank Pekao S.A. (PEO)",
+    "objectID": "spolki/alr.html",
+    "href": "spolki/alr.html",
+    "title": "Alior Bank S.A. (ALR)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: PEO | Bank Pekao S.A. | Siedziba: Polska | WWW: pekao.com.pl | Branża: Finanse | Podbranża: banki uniwersalne"
+    "text": "← Spółki GPW | Ticker: ALR | Alior Bank S.A. | Siedziba: Polska | WWW: aliorbank.pl | Branża: Finanse | Podbranża: banki uniwersalne"
   },
   {
-    "objectID": "spolki/peo.html#notowania",
-    "href": "spolki/peo.html#notowania",
-    "title": "Bank Pekao S.A. (PEO)",
+    "objectID": "spolki/alr.html#notowania",
+    "href": "spolki/alr.html#notowania",
+    "title": "Alior Bank S.A. (ALR)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/peo.html#o-spółce",
-    "href": "spolki/peo.html#o-spółce",
-    "title": "Bank Pekao S.A. (PEO)",
+    "objectID": "spolki/alr.html#o-spółce",
+    "href": "spolki/alr.html#o-spółce",
+    "title": "Alior Bank S.A. (ALR)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Bank Pekao S.A. to jeden z największych banków w Europie Środkowo-Wschodniej. Jest liderem bankowości korporacyjnej oraz znaczącym graczem w finansowaniu handlu i rynków kapitałowych.\nStrategia i Innowacje: Pekao stawia na nowoczesną bankowość cyfrową (PeoPay) oraz wspieranie transformacji energetycznej polskich przedsiębiorstw."
+    "text": "O spółce\nAlior Bank S.A. to jeden z najbardziej innowacyjnych banków w Polsce. Od początku istnienia łączy zasady tradycyjnej bankowości z nowoczesnymi technologiami, co pozwoliło mu szybko zdobyć znaczący udział w rynku."
   },
   {
-    "objectID": "spolki/peo.html#biznes",
-    "href": "spolki/peo.html#biznes",
-    "title": "Bank Pekao S.A. (PEO)",
+    "objectID": "spolki/alr.html#biznes",
+    "href": "spolki/alr.html#biznes",
+    "title": "Alior Bank S.A. (ALR)",
     "section": "Biznes",
-    "text": "Biznes\n\nDla klienta indywidualnego: Nowoczesne konta, kredyty i oszczędności.\nDla biznesu: Kompleksowe finansowanie inwestycji i obrotu.\nWealth Management: Lider zarządzania aktywami dla najzamożniejszych klientów."
+    "text": "Biznes\nOferta dla klientów indywidualnych:\n\nKonta osobiste z pakietem usług (Konto Jakie Chcę)\nKredyty gotówkowe i hipoteczne\nKarty kredytowe i debetowe\nProdukty inwestycyjne i oszczędnościowe\n\nOferta dla biznesu:\n\nRachunki firmowe i rozliczeniowe\nKredyty dla MSP i korporacji\nFaktoring i leasing\nObsługa transakcji zagranicznych\n\nInnowacje: Alior Bank jest pionierem wśród polskich banków pod względem innowacji cyfrowych - jako pierwszy wprowadził m.in. otwieranie konta selfie czy zaawansowane zarządzanie finansami osobistymi z wykorzystaniem AI.\nGrupa kapitałowa: Alior Bank należy do grupy PZU - największej instytucji finansowej w Polsce."
   },
   {
-    "objectID": "spolki/peo.html#strategia",
-    "href": "spolki/peo.html#strategia",
-    "title": "Bank Pekao S.A. (PEO)",
+    "objectID": "spolki/alr.html#strategia",
+    "href": "spolki/alr.html#strategia",
+    "title": "Alior Bank S.A. (ALR)",
     "section": "Strategia",
-    "text": "Strategia\nDążenie do bycia bankiem pierwszego wyboru dzięki efektywności, zaufaniu i technologicznemu zaawansowaniu.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nWizja banku to “Bankowanie na co dzień, na najwyższym poziomie”. Strategia opiera się na budowaniu przewag technologicznych, optymalizacji procesów kredytowych z wykorzystaniem AI oraz wspieraniu transformacji cyfrowej swoich klientów biznesowych.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/xtb.html",
-    "href": "spolki/xtb.html",
-    "title": "XTB S.A. (XTB)",
+    "objectID": "spolki/pzu.html",
+    "href": "spolki/pzu.html",
+    "title": "PZU S.A. (PZU)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: XTB | XTB S.A. | Siedziba: Polska | WWW: xtb.com | Branża: Finanse | Podbranża: domy maklerskie i brokerzy"
+    "text": "← Spółki GPW | Ticker: PZU | PZU S.A. | Siedziba: Polska | WWW: pzu.pl | Branża: Finanse | Podbranża: ubezpieczenia majątkowe"
   },
   {
-    "objectID": "spolki/xtb.html#notowania",
-    "href": "spolki/xtb.html#notowania",
-    "title": "XTB S.A. (XTB)",
+    "objectID": "spolki/pzu.html#notowania",
+    "href": "spolki/pzu.html#notowania",
+    "title": "PZU S.A. (PZU)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/xtb.html#o-spółce",
-    "href": "spolki/xtb.html#o-spółce",
-    "title": "XTB S.A. (XTB)",
+    "objectID": "spolki/pzu.html#o-spółce",
+    "href": "spolki/pzu.html#o-spółce",
+    "title": "PZU S.A. (PZU)",
     "section": "O spółce",
-    "text": "O spółce\nXTB S.A. to jeden z największych na świecie brokerów instrumentów finansowych (Forex, CFD, akcje, ETF) notowanych na giełdzie. Polska spółka z sukcesem konkuruje na rynkach międzynarodowych, dostarczając autorską platformę transakcyjną xStation."
+    "text": "O spółce\nPZU S.A. to największa instytucja finansowa w Polsce i Europie Środkowo-Wschodniej. Jest liderem rynku ubezpieczeń, a poprzez swoje spółki zależne posiada silną pozycję w sektorze bankowym i zarządzaniu aktywami."
   },
   {
-    "objectID": "spolki/xtb.html#biznes",
-    "href": "spolki/xtb.html#biznes",
-    "title": "XTB S.A. (XTB)",
+    "objectID": "spolki/pzu.html#biznes",
+    "href": "spolki/pzu.html#biznes",
+    "title": "PZU S.A. (PZU)",
     "section": "Biznes",
-    "text": "Biznes\nProdukty i usługi:\n\nForex: Handel parami walutowymi z ponad 5700 instrumentami.\nCFD: Kontrakty na różnice kursowe na indeksy, akcje, surowce i kryptowaluty.\nAkcje i ETF: Dostęp do giełd polskich (GPW) i zagranicznych (NYSE, NASDAQ, LSE).\nPlany inwestycyjne: Automatyczne inwestowanie w ETFy.\nKonta oszczędnościowe: Oprocentowane depozyty dla klientów.\n\nPlatforma xStation: Autorska platforma transakcyjna XTB (dostępna jako web, desktop i mobile) uznawana za jedną z najlepszych na rynku.\nZasięg: Około 1 mln klientów w ponad 170 krajach, z silną pozycją w Europie, Ameryce Łacińskiej i Afryce."
+    "text": "Biznes\nSegmenty działalności:\n\nUbezpieczenia majątkowe: OC/AC, ubezpieczenia domu, firmy i rolne - pozycja nr 1 w Polsce.\nUbezpieczenia na życie: Polisy inwestycyjne, emerytalne i ochronne.\nBankowość: Poprzez spółki zależne (m.in. Bank Pekao, Alior Bank) - znaczący udział w rynku.\nZarządzanie aktywami: TFI PZU - jeden z największych funduszy inwestycyjnych w kraju.\nZdrowie: PZU Zdrowie - sieć placówek medycznych i usługi telemedyczne.\n\nGrupa kapitałowa: PZU jest jednym z największych podmiotów finansowych w Europie Środkowo-Wschodniej zdominującym rynek ubezpieczeń w Polsce."
   },
   {
-    "objectID": "spolki/xtb.html#strategia",
-    "href": "spolki/xtb.html#strategia",
-    "title": "XTB S.A. (XTB)",
+    "objectID": "spolki/pzu.html#strategia",
+    "href": "spolki/pzu.html#strategia",
+    "title": "PZU S.A. (PZU)",
     "section": "Strategia",
-    "text": "Strategia\nCelem XTB jest zostać wiodącą aplikacją inwestycyjną w Europie (super-app finansowy). Strategia zakłada ciągłe poszerzanie oferty (np. o plany inwestycyjne, obligacje, konta oszczędnościowe) oraz inwestycje w marketing globalny z udziałem znanych ambasadorów marki.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nStrategia PZU zakłada budowę najbardziej nowoczesnej grupy finansowej w regionie, opartej na ekosystemach usług (zdrowie, dom, auto). Koncentruje się na wykorzystaniu Big Data, AI w likwidacji szkód oraz realizacji celów ESG.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/ale.html",
+    "href": "spolki/ale.html",
+    "title": "Allegro.eu S.A. (ALE)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: ALE | Allegro.eu S.A. | Siedziba: Polska | WWW: allegro.eu | Branża: Technologie i IT | Podbranża: e-commerce"
+  },
+  {
+    "objectID": "spolki/ale.html#notowania",
+    "href": "spolki/ale.html#notowania",
+    "title": "Allegro.eu S.A. (ALE)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/ale.html#o-spółce",
+    "href": "spolki/ale.html#o-spółce",
+    "title": "Allegro.eu S.A. (ALE)",
+    "section": "O spółce",
+    "text": "O spółce\nAllegro to najpopularniejsza w Polsce i jedna z największych w Europie platform e-commerce typu marketplace. Spółka zrewolucjonizowała polski handel detaliczny, tworząc kompletny ekosystem dla kupujących i sprzedających, obejmujący logistykę, płatności oraz reklamę."
+  },
+  {
+    "objectID": "spolki/ale.html#biznes",
+    "href": "spolki/ale.html#biznes",
+    "title": "Allegro.eu S.A. (ALE)",
+    "section": "Biznes",
+    "text": "Biznes\nMarketplace i usługi: Allegro nie jest tylko sklepem, ale platformą łączącą ponad 130 tys. sprzedawców z milionami klientów. Grupa stale poszerza zakres usług, budując przewagę konkurencyjną.\nKluczowe elementy ekosystemu:\n\nAllegro Smart!: Program darmowych dostaw i zwrotów, kluczowy driver lojalności klientów.\nAllegro Pay: Nowoczesne usługi finansowe BNPL (Buy Now, Pay Later) oraz kredytowanie zakupów.\nLogistyka (One Box & One Kurier): Rozwój własnej sieci automatów paczkowych i centrów logistycznych (Fullfilment).\nCeneo.pl: Największa polska porównywarka cen, wspierająca decyzje zakupowe."
+  },
+  {
+    "objectID": "spolki/ale.html#strategia",
+    "href": "spolki/ale.html#strategia",
+    "title": "Allegro.eu S.A. (ALE)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju grupy Allegro:\n\nRegion CEE: Ekspansja na rynki Czech, Słowacji i Węgier (wykorzystanie platformy MALL Group).\nInternational: Umożliwienie polskim sprzedawcom eksportu na rynki całej Unii Europejskiej poprzez ujednoliconą platformę.\nRetail Media: Rozwój zaawansowanych narzędzi reklamowych (Allegro Ads) dla sprzedawców.\nTechnologia AI: Wykorzystanie uczenia maszynowego w personalizacji wyszukiwań i optymalizacji logistyki.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
     "objectID": "spolki/bdx.html",
@@ -763,319 +798,354 @@
     "text": "Strategia\nMisją banku jest “Pomagać ludziom i firmom w sukcesach”. Strategia koncentruje się na upraszczaniu procesów, budowaniu lojalności klientów poprzez digitalizację oraz aktywnym wspieraniu transformacji energetycznej polskich przedsiębiorstw.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/ale.html",
-    "href": "spolki/ale.html",
-    "title": "Allegro.eu S.A. (ALE)",
+    "objectID": "spolki/dig.html",
+    "href": "spolki/dig.html",
+    "title": "Digital Network S.A. (DIG)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: ALE | Allegro.eu S.A. | Siedziba: Polska | WWW: allegro.eu | Branża: Technologie i IT | Podbranża: e-commerce"
+    "text": "← Spółki GPW | Ticker: DIG | Digital Network S.A. | Siedziba: Warszawa | WWW: digitalnetwork.pl | Branża: Media | Podbranża: Reklama outdoor"
   },
   {
-    "objectID": "spolki/ale.html#notowania",
-    "href": "spolki/ale.html#notowania",
-    "title": "Allegro.eu S.A. (ALE)",
+    "objectID": "spolki/dig.html#notowania",
+    "href": "spolki/dig.html#notowania",
+    "title": "Digital Network S.A. (DIG)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/ale.html#o-spółce",
-    "href": "spolki/ale.html#o-spółce",
-    "title": "Allegro.eu S.A. (ALE)",
+    "objectID": "spolki/dig.html#o-spółce",
+    "href": "spolki/dig.html#o-spółce",
+    "title": "Digital Network S.A. (DIG)",
     "section": "O spółce",
-    "text": "O spółce\nAllegro to najpopularniejsza w Polsce i jedna z największych w Europie platform e-commerce typu marketplace. Spółka zrewolucjonizowała polski handel detaliczny, tworząc kompletny ekosystem dla kupujących i sprzedających, obejmujący logistykę, płatności oraz reklamę."
+    "text": "O spółce\nProfil działalności: Digital Network to polska spółka mediowa specjalizująca się w reklamie outdoorowej (OOH - Out of Home). Firma prowadzi działalność w segmencie nośników reklamowych w przestrzeni publicznej - billboardy, citylighty, tablice informacyjne i inne formy reklamy zewnętrznej.\nStrategia i Perspektywy: Digital Network rozwija się poprzez ekspansję sieci nośników reklamowych oraz akwizycje. Kluczowe jest alsobudowanie pozycji w segmencie digital out-of-home (DOOH) i rozwój technologii cyfrowych tablic reklamowych."
   },
   {
-    "objectID": "spolki/ale.html#biznes",
-    "href": "spolki/ale.html#biznes",
-    "title": "Allegro.eu S.A. (ALE)",
+    "objectID": "spolki/dig.html#biznes",
+    "href": "spolki/dig.html#biznes",
+    "title": "Digital Network S.A. (DIG)",
     "section": "Biznes",
-    "text": "Biznes\nMarketplace i usługi: Allegro nie jest tylko sklepem, ale platformą łączącą ponad 130 tys. sprzedawców z milionami klientów. Grupa stale poszerza zakres usług, budując przewagę konkurencyjną.\nKluczowe elementy ekosystemu:\n\nAllegro Smart!: Program darmowych dostaw i zwrotów, kluczowy driver lojalności klientów.\nAllegro Pay: Nowoczesne usługi finansowe BNPL (Buy Now, Pay Later) oraz kredytowanie zakupów.\nLogistyka (One Box & One Kurier): Rozwój własnej sieci automatów paczkowych i centrów logistycznych (Fullfilment).\nCeneo.pl: Największa polska porównywarka cen, wspierająca decyzje zakupowe."
+    "text": "Biznes\nGłówne linie produktowe:\n\nBillboardy: Tradycyjne nośniki 14x48 i 14x48 w największych miastach Polski.\nCitylighty: Nośniki w pasażach handlowych i centrum miast.\nDigital OOH: Cyfrowe tablice LED o wysokiej rozdzielczości.\nTransport advertising: Reklama na dworcach, lotniskach i w komunikacji miejskiej.\n\nZasoby i Surowce:\nDziałalność opiera się na powierzchniach reklamowych (wynajem), lokalizacjach w miastach, technologii cyfrowej (ekrany LED) oraz umowach z właścicielami powierzchni."
   },
   {
-    "objectID": "spolki/ale.html#strategia",
-    "href": "spolki/ale.html#strategia",
-    "title": "Allegro.eu S.A. (ALE)",
+    "objectID": "spolki/dig.html#strategia",
+    "href": "spolki/dig.html#strategia",
+    "title": "Digital Network S.A. (DIG)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju grupy Allegro:\n\nRegion CEE: Ekspansja na rynki Czech, Słowacji i Węgier (wykorzystanie platformy MALL Group).\nInternational: Umożliwienie polskim sprzedawcom eksportu na rynki całej Unii Europejskiej poprzez ujednoliconą platformę.\nRetail Media: Rozwój zaawansowanych narzędzi reklamowych (Allegro Ads) dla sprzedawców.\nTechnologia AI: Wykorzystanie uczenia maszynowego w personalizacji wyszukiwań i optymalizacji logistyki.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nDigitalizacja: Inwestycje w cyfrowe tablice LED.\nEkspansja geograficzna: Rozszerzanie sieci nośników w nowych miastach.\nAkwizycje: Konsolidacja rynku outdoor w Polsce.\nProgrammatic DOOH: Rozwój programatycznej sprzedaży reklamy cyfrowej.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/pzu.html",
-    "href": "spolki/pzu.html",
-    "title": "PZU S.A. (PZU)",
+    "objectID": "spolki/xtb.html",
+    "href": "spolki/xtb.html",
+    "title": "XTB S.A. (XTB)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: PZU | PZU S.A. | Siedziba: Polska | WWW: pzu.pl | Branża: Finanse | Podbranża: ubezpieczenia majątkowe"
+    "text": "← Spółki GPW | Ticker: XTB | XTB S.A. | Siedziba: Polska | WWW: xtb.com | Branża: Finanse | Podbranża: domy maklerskie i brokerzy"
   },
   {
-    "objectID": "spolki/pzu.html#notowania",
-    "href": "spolki/pzu.html#notowania",
-    "title": "PZU S.A. (PZU)",
+    "objectID": "spolki/xtb.html#notowania",
+    "href": "spolki/xtb.html#notowania",
+    "title": "XTB S.A. (XTB)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/pzu.html#o-spółce",
-    "href": "spolki/pzu.html#o-spółce",
-    "title": "PZU S.A. (PZU)",
+    "objectID": "spolki/xtb.html#o-spółce",
+    "href": "spolki/xtb.html#o-spółce",
+    "title": "XTB S.A. (XTB)",
     "section": "O spółce",
-    "text": "O spółce\nPZU S.A. to największa instytucja finansowa w Polsce i Europie Środkowo-Wschodniej. Jest liderem rynku ubezpieczeń, a poprzez swoje spółki zależne posiada silną pozycję w sektorze bankowym i zarządzaniu aktywami."
+    "text": "O spółce\nXTB S.A. to jeden z największych na świecie brokerów instrumentów finansowych (Forex, CFD, akcje, ETF) notowanych na giełdzie. Polska spółka z sukcesem konkuruje na rynkach międzynarodowych, dostarczając autorską platformę transakcyjną xStation."
   },
   {
-    "objectID": "spolki/pzu.html#biznes",
-    "href": "spolki/pzu.html#biznes",
-    "title": "PZU S.A. (PZU)",
+    "objectID": "spolki/xtb.html#biznes",
+    "href": "spolki/xtb.html#biznes",
+    "title": "XTB S.A. (XTB)",
     "section": "Biznes",
-    "text": "Biznes\nSegmenty działalności:\n\nUbezpieczenia majątkowe: OC/AC, ubezpieczenia domu, firmy i rolne - pozycja nr 1 w Polsce.\nUbezpieczenia na życie: Polisy inwestycyjne, emerytalne i ochronne.\nBankowość: Poprzez spółki zależne (m.in. Bank Pekao, Alior Bank) - znaczący udział w rynku.\nZarządzanie aktywami: TFI PZU - jeden z największych funduszy inwestycyjnych w kraju.\nZdrowie: PZU Zdrowie - sieć placówek medycznych i usługi telemedyczne.\n\nGrupa kapitałowa: PZU jest jednym z największych podmiotów finansowych w Europie Środkowo-Wschodniej zdominującym rynek ubezpieczeń w Polsce."
+    "text": "Biznes\nProdukty i usługi:\n\nForex: Handel parami walutowymi z ponad 5700 instrumentami.\nCFD: Kontrakty na różnice kursowe na indeksy, akcje, surowce i kryptowaluty.\nAkcje i ETF: Dostęp do giełd polskich (GPW) i zagranicznych (NYSE, NASDAQ, LSE).\nPlany inwestycyjne: Automatyczne inwestowanie w ETFy.\nKonta oszczędnościowe: Oprocentowane depozyty dla klientów.\n\nPlatforma xStation: Autorska platforma transakcyjna XTB (dostępna jako web, desktop i mobile) uznawana za jedną z najlepszych na rynku.\nZasięg: Około 1 mln klientów w ponad 170 krajach, z silną pozycją w Europie, Ameryce Łacińskiej i Afryce."
   },
   {
-    "objectID": "spolki/pzu.html#strategia",
-    "href": "spolki/pzu.html#strategia",
-    "title": "PZU S.A. (PZU)",
+    "objectID": "spolki/xtb.html#strategia",
+    "href": "spolki/xtb.html#strategia",
+    "title": "XTB S.A. (XTB)",
     "section": "Strategia",
-    "text": "Strategia\nStrategia PZU zakłada budowę najbardziej nowoczesnej grupy finansowej w regionie, opartej na ekosystemach usług (zdrowie, dom, auto). Koncentruje się na wykorzystaniu Big Data, AI w likwidacji szkód oraz realizacji celów ESG.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nCelem XTB jest zostać wiodącą aplikacją inwestycyjną w Europie (super-app finansowy). Strategia zakłada ciągłe poszerzanie oferty (np. o plany inwestycyjne, obligacje, konta oszczędnościowe) oraz inwestycje w marketing globalny z udziałem znanych ambasadorów marki.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/alr.html",
-    "href": "spolki/alr.html",
-    "title": "Alior Bank S.A. (ALR)",
+    "objectID": "spolki/peo.html",
+    "href": "spolki/peo.html",
+    "title": "Bank Pekao S.A. (PEO)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: ALR | Alior Bank S.A. | Siedziba: Polska | WWW: aliorbank.pl | Branża: Finanse | Podbranża: banki uniwersalne"
+    "text": "← Spółki GPW | Ticker: PEO | Bank Pekao S.A. | Siedziba: Polska | WWW: pekao.com.pl | Branża: Finanse | Podbranża: banki uniwersalne"
   },
   {
-    "objectID": "spolki/alr.html#notowania",
-    "href": "spolki/alr.html#notowania",
-    "title": "Alior Bank S.A. (ALR)",
+    "objectID": "spolki/peo.html#notowania",
+    "href": "spolki/peo.html#notowania",
+    "title": "Bank Pekao S.A. (PEO)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/alr.html#o-spółce",
-    "href": "spolki/alr.html#o-spółce",
-    "title": "Alior Bank S.A. (ALR)",
+    "objectID": "spolki/peo.html#o-spółce",
+    "href": "spolki/peo.html#o-spółce",
+    "title": "Bank Pekao S.A. (PEO)",
     "section": "O spółce",
-    "text": "O spółce\nAlior Bank S.A. to jeden z najbardziej innowacyjnych banków w Polsce. Od początku istnienia łączy zasady tradycyjnej bankowości z nowoczesnymi technologiami, co pozwoliło mu szybko zdobyć znaczący udział w rynku."
+    "text": "O spółce\nProfil działalności: Bank Pekao S.A. to jeden z największych banków w Europie Środkowo-Wschodniej. Jest liderem bankowości korporacyjnej oraz znaczącym graczem w finansowaniu handlu i rynków kapitałowych.\nStrategia i Innowacje: Pekao stawia na nowoczesną bankowość cyfrową (PeoPay) oraz wspieranie transformacji energetycznej polskich przedsiębiorstw."
   },
   {
-    "objectID": "spolki/alr.html#biznes",
-    "href": "spolki/alr.html#biznes",
-    "title": "Alior Bank S.A. (ALR)",
+    "objectID": "spolki/peo.html#biznes",
+    "href": "spolki/peo.html#biznes",
+    "title": "Bank Pekao S.A. (PEO)",
     "section": "Biznes",
-    "text": "Biznes\nOferta dla klientów indywidualnych:\n\nKonta osobiste z pakietem usług (Konto Jakie Chcę)\nKredyty gotówkowe i hipoteczne\nKarty kredytowe i debetowe\nProdukty inwestycyjne i oszczędnościowe\n\nOferta dla biznesu:\n\nRachunki firmowe i rozliczeniowe\nKredyty dla MSP i korporacji\nFaktoring i leasing\nObsługa transakcji zagranicznych\n\nInnowacje: Alior Bank jest pionierem wśród polskich banków pod względem innowacji cyfrowych - jako pierwszy wprowadził m.in. otwieranie konta selfie czy zaawansowane zarządzanie finansami osobistymi z wykorzystaniem AI.\nGrupa kapitałowa: Alior Bank należy do grupy PZU - największej instytucji finansowej w Polsce."
+    "text": "Biznes\n\nDla klienta indywidualnego: Nowoczesne konta, kredyty i oszczędności.\nDla biznesu: Kompleksowe finansowanie inwestycji i obrotu.\nWealth Management: Lider zarządzania aktywami dla najzamożniejszych klientów."
   },
   {
-    "objectID": "spolki/alr.html#strategia",
-    "href": "spolki/alr.html#strategia",
-    "title": "Alior Bank S.A. (ALR)",
+    "objectID": "spolki/peo.html#strategia",
+    "href": "spolki/peo.html#strategia",
+    "title": "Bank Pekao S.A. (PEO)",
     "section": "Strategia",
-    "text": "Strategia\nWizja banku to “Bankowanie na co dzień, na najwyższym poziomie”. Strategia opiera się na budowaniu przewag technologicznych, optymalizacji procesów kredytowych z wykorzystaniem AI oraz wspieraniu transformacji cyfrowej swoich klientów biznesowych.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nDążenie do bycia bankiem pierwszego wyboru dzięki efektywności, zaufaniu i technologicznemu zaawansowaniu.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/kgh.html",
-    "href": "spolki/kgh.html",
-    "title": "KGHM Polska Miedź S.A. (KGH)",
+    "objectID": "spolki/ccc.html",
+    "href": "spolki/ccc.html",
+    "title": "Grupa CCC S.A. (CCC)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: KGH | KGHM Polska Miedź S.A. | Siedziba: Polska | WWW: kghm.com | Branża: Surowce i energia | Podbranża: górnictwo rud metali"
+    "text": "← Spółki GPW | Ticker: CCC | Grupa CCC S.A. | Siedziba: Polska | WWW: corporate.ccc.eu | Branża: Handel i konsumpcja | Podbranża: handel detaliczny obuwiem"
   },
   {
-    "objectID": "spolki/kgh.html#notowania",
-    "href": "spolki/kgh.html#notowania",
-    "title": "KGHM Polska Miedź S.A. (KGH)",
+    "objectID": "spolki/ccc.html#notowania",
+    "href": "spolki/ccc.html#notowania",
+    "title": "Grupa CCC S.A. (CCC)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/kgh.html#o-spółce",
-    "href": "spolki/kgh.html#o-spółce",
-    "title": "KGHM Polska Miedź S.A. (KGH)",
+    "objectID": "spolki/ccc.html#o-spółce",
+    "href": "spolki/ccc.html#o-spółce",
+    "title": "Grupa CCC S.A. (CCC)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: KGHM Polska Miedź S.A. to jeden z największych producentów miedzi elektrolitycznej i srebra na świecie. Spółka zarządza kluczowymi procesami wydobywczymi i hutniczymi w Legnicko-Głogowskim Zagłębiu Miedziowym (LGOM) oraz posiada aktywa zagraniczne (m.in. kopalnia Sierra Gorda w Chile).\nStrategia i Perspektywy: Firma dąży do bycia globalnym liderem efektywności w branży wydobywczej. Kluczowe kierunki to ekspansja bazy zasobowej, zielona transformacja energetyczna (OZE + atom SMR) oraz digitalizacja procesów produkcyjnych."
+    "text": "O spółce\nGrupa CCC to jeden z największych europejskich graczy w segmencie obuwia i odzieży. Spółka jest liderem sprzedaży wielokanałowej (Omnichannel) w regionie CEE, zarządzając potężnym ekosystemem marek własnych i platform e-commerce."
   },
   {
-    "objectID": "spolki/kgh.html#biznes",
-    "href": "spolki/kgh.html#biznes",
-    "title": "KGHM Polska Miedź S.A. (KGH)",
+    "objectID": "spolki/ccc.html#biznes",
+    "href": "spolki/ccc.html#biznes",
+    "title": "Grupa CCC S.A. (CCC)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne produkty:\n\nMiedź rafinowana: W postaci katod i walcówki.\nSrebro rafinowane: KGHM jest jednym z największych producentów kruszcu na świecie.\nZłoto i metale szlachetne: Pallad, platyna.\nMetale towarzyszące: Ołów, molibden, selen, ren.\n\nZasoby: Jedne z największych na świecie złóż miedzi zlokalizowane na Dolnym Śląsku."
+    "text": "Biznes\nModel biznesowy: CCC działa w segmencie detalicznym i hurtowym, oferując obuwie oraz odzież poprzez sieć sklepów stacjonarnych oraz platformy e-commerce.\nSieci i marki:\n\nCCC: Główne salony obuwnicze z ofertą dla całej rodziny.\nHalfPrice: Sieć outletów z markowym obuwiem i odzieżą w obniżonych cenach.\nMODIVO: Platforma e-commerce z obuwiem i akcesoriami.\nGino Rossi: Marka obuwia premium.\n\nStruktura przychodów: Sieć ponad 1000 sklepów w Polsce i regionie CEE, z silnym kierunkiem na rozwój kanału online."
   },
   {
-    "objectID": "spolki/kgh.html#strategia",
-    "href": "spolki/kgh.html#strategia",
-    "title": "KGHM Polska Miedź S.A. (KGH)",
+    "objectID": "spolki/ccc.html#strategia",
+    "href": "spolki/ccc.html#strategia",
+    "title": "Grupa CCC S.A. (CCC)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja globalna: rozwój aktywów zagranicznych w obu Amerykach.\nEkologia: redukcja śladu węglowego i wdrożenie GOZ.\nBezpieczeństwo surowcowe: zabezpieczenie strategicznych zasobów miedzi.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nStrategia Grupy CCC koncentruje się na cyfrowej transformacji i optymalizacji kapitału. Spółka stawia na dalszy dynamiczny wzrost sieci HalfPrice oraz rozwój platformy MODIVO, przy jednoczesnej redukcji zadłużenia i zwiększaniu rentowności modelu tradycyjnego.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/kru.html",
-    "href": "spolki/kru.html",
-    "title": "KRUK S.A. (KRU)",
+    "objectID": "spolki/lpp.html",
+    "href": "spolki/lpp.html",
+    "title": "LPP S.A. (LPP)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: KRU | KRUK S.A. | Siedziba: Wrocław | WWW: kruk.pl | Branża: Windykacja | Podbranża: Usługi finansowe"
+    "text": "← Spółki GPW | Ticker: LPP | LPP S.A. | Siedziba: Polska | WWW: lpp.com | Branża: Handel i konsumpcja | Podbranża: handel detaliczny odzieżowy"
   },
   {
-    "objectID": "spolki/kru.html#notowania",
-    "href": "spolki/kru.html#notowania",
-    "title": "KRUK S.A. (KRU)",
+    "objectID": "spolki/lpp.html#notowania",
+    "href": "spolki/lpp.html#notowania",
+    "title": "LPP S.A. (LPP)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/kru.html#o-spółce",
-    "href": "spolki/kru.html#o-spółce",
-    "title": "KRUK S.A. (KRU)",
+    "objectID": "spolki/lpp.html#o-spółce",
+    "href": "spolki/lpp.html#o-spółce",
+    "title": "LPP S.A. (LPP)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: KRUK to wiodąca europejska firma zarządzania wierzytelnościami i jedna z największych w Polsce. Spółka zajmuje się windykacją należności, wykupem portfeli wierzytelności oraz doradztwem finansowym. KRUK działa w Polsce, Rumunii, Czechach, na Słowacji i w Włoszech.\nStrategia i Perspektywy: KRUK rozwija się poprzez akwizycję portfeli wierzytelności, rozwój na rynkach zagranicznych oraz inwestycje w technologie windykacyjne. Kluczowe jest alsobudowanie efektywnych modeli odzyskiwania należności i rozszerzanie działalności w Europie."
+    "text": "O spółce\nLPP S.A. to polski czempion branży odzieżowej, zarządzający znanymi markami: Reserved, Cropp, House, Mohito i Sinsay. Spółka jest jednym z najszybciej rozwijających się sprzedawców odzieży w Europie Środkowo-Wschodniej."
   },
   {
-    "objectID": "spolki/kru.html#biznes",
-    "href": "spolki/kru.html#biznes",
-    "title": "KRUK S.A. (KRU)",
+    "objectID": "spolki/lpp.html#biznes",
+    "href": "spolki/lpp.html#biznes",
+    "title": "LPP S.A. (LPP)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nWindykacja polisa: Zarządzanie wierzytelnościami dla instytucji finansowych.\nZarządzanie portfelami: Wykup i obsługa portfeli wierzytelności konsumenckich.\nDoradztwo finansowe: Konsulting dla wierzycieli i dłużników.\nRozwiązania technologiczne: Platformy do windykacji online.\n\nZasoby i Surowce:\nDziałalność opiera się na kapitale (do wykupu wierzytelności), modelach analitycznych (scoring dłużników) oraz zespołach windykacyjnych."
+    "text": "Biznes\nModel biznesowy: LPP projektuje, produkuje i sprzedaje odzież w segmencie mody masowej, operując poprzez sieć sklepów stacjonarnych oraz kanały e-commerce.\nPortfolio marek:\n\nReserved: Główna marka damska i męska w segmencie popularnym.\nCropp: Marka streetwearowa skierowana do młodych konsumentów.\nHouse: Styl vintage i retro dla osób ceniących klasykę.\nMohito: Elegancka odzież damska.\nSinsay: Najszybciej rosnąca marka, kierowana do młodych kobiet i nastolatek.\n\nStruktura przychodów: Spółka posiada ponad 1700 sklepów w 20 krajach, z silną pozycją w Polsce, Czechach, Rumunii i na Słowacji."
   },
   {
-    "objectID": "spolki/kru.html#strategia",
-    "href": "spolki/kru.html#strategia",
-    "title": "KRUK S.A. (KRU)",
+    "objectID": "spolki/lpp.html#strategia",
+    "href": "spolki/lpp.html#strategia",
+    "title": "LPP S.A. (LPP)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja europejska: Rozwój na nowych rynkach UE.\nTechnologie: Inwestycje w platformy AI i automatyzację.\nDywersyfikacja: Rozwój usług beyond debt collection.\nSkalowanie: Zwiększanie wolumenu zarządzanych wierzytelności.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nStrategia LPP opiera się na cyfryzacji (Omnichannel), automatyzacji logistyki oraz zrównoważonym rozwoju (strategia For People For Our Planet). Spółka dynamicznie zwiększa udział sprzedaży internetowej i stawia na rozwój marki Sinsay w regionie.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/mbk.html",
-    "href": "spolki/mbk.html",
-    "title": "mBank S.A. (MBK)",
+    "objectID": "spolki/pkn.html",
+    "href": "spolki/pkn.html",
+    "title": "ORLEN S.A. (PKN)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: MBK | mBank S.A. | Siedziba: Warszawa | WWW: mbank.pl | Branża: Bankowość | Podbranża: Usługi finansowe"
+    "text": "← Spółki GPW | Ticker: PKN | ORLEN S.A. | Siedziba: Polska | WWW: orlen.pl | Branża: Surowce i energia | Podbranża: rafinerie i produkcja paliw"
   },
   {
-    "objectID": "spolki/mbk.html#notowania",
-    "href": "spolki/mbk.html#notowania",
-    "title": "mBank S.A. (MBK)",
+    "objectID": "spolki/pkn.html#notowania",
+    "href": "spolki/pkn.html#notowania",
+    "title": "ORLEN S.A. (PKN)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/mbk.html#o-spółce",
-    "href": "spolki/mbk.html#o-spółce",
-    "title": "mBank S.A. (MBK)",
+    "objectID": "spolki/pkn.html#o-spółce",
+    "href": "spolki/pkn.html#o-spółce",
+    "title": "ORLEN S.A. (PKN)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: mBank S.A. to uniwersalny bank komercyjny należący do grupy mBanku Hipotecznego. Bank oferuje kompleksowe usługi dla klientów indywidualnych i firm, w tym konta osobiste, kredyty, produkty inwestycyjne, usługi maklerskie, leasing oraz factoring. mBank jest znany z innowacyjności i nowoczesnej bankowości internetowej.\nStrategia i Perspektywy: mBank koncentruje się na rozwoju cyfrowych kanałów obsługi i innowacyjnych produktów. Kluczowe są: wzrost w segmencie klientów zamożnych (private banking), rozwój oferty dla firm oraz utrzymanie rentowności w warunkach zmiennej stopy procentowej."
+    "text": "O spółce\nORLEN S.A. to największa firma w Europie Środkowo-Wschodniej, działająca w sektorze paliwowo-energetycznym. Po fuzjach z Grupą Lotos oraz PGNiG, koncern stał się multienergetycznym gigantem o strategicznym znaczeniu dla bezpieczeństwa energetycznego Polski."
   },
   {
-    "objectID": "spolki/mbk.html#biznes",
-    "href": "spolki/mbk.html#biznes",
-    "title": "mBank S.A. (MBK)",
+    "objectID": "spolki/pkn.html#biznes",
+    "href": "spolki/pkn.html#biznes",
+    "title": "ORLEN S.A. (PKN)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nBankowość detaliczna: Konta osobiste, kredyty hipoteczne i konsumenckie, karty płatnicze, oszczędności i inwestycje.\nBankowość korporacyjna: Konta firmowe, kredyty dla przedsiębiorstw, zarządzanie płynnością.\nUsługi maklerskie: Platforma transakcyjna, doradztwo inwestycyjne, produkty strukturyzowane.\nLeasing i factoring: Obsługa MŚP poprzez spółki zależne.\n\nZasoby i Surowce:\nDziałalność opiera się na kapitale (depozyty klientów), zasobach IT (platformy cyfrowe) oraz kapitale ludzkim (doradcy, analitycy)."
+    "text": "Biznes\nSegmenty działalności:\n\nRafinacja: Przetwarzanie ropy naftowej w rafineriach (Plock, Gdańsk, Trzebinia) - produkcja paliw (benzyna, olej napędowy, paliwo lotnicze).\nPetrochemia: Produkcja tworzyw sztucznych, polimerów, włókien - segment wysokomarżowy.\nWydobycie: Poszukiwanie i wydobycie ropy oraz gazu (aktywa w Norwegii, Pakistanie, Kanadzie).\nEnergia: Produkcja energii elektrycznej, rozwój OZE, programy nuklearne (SMR).\nSieć stacji: Blisko 2000 stacji paliw w Polsce, Czechach, Niemczech, na Litwie i Słowacji.\n\nSpółki zależne:\n\nGrupa Lotos: Wydobycie i przetwórstwo ropy (fuzja z ORLEN)\nPGNiG: Wydobycie i dystrybucja gazu ziemnego\nEnerga: Dystrybucja energii elektrycznej"
   },
   {
-    "objectID": "spolki/mbk.html#strategia",
-    "href": "spolki/mbk.html#strategia",
-    "title": "mBank S.A. (MBK)",
+    "objectID": "spolki/pkn.html#strategia",
+    "href": "spolki/pkn.html#strategia",
+    "title": "ORLEN S.A. (PKN)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nCyfryzacja: Inwestycje w aplikacje mobilne i platformy internetowe.\nPrivate banking: Rozwój segmentu klientów zamożnych i wealth management.\nBankowość MŚP: Wzmocnienie oferty dla małych i średnich przedsiębiorstw.\nEfektywność kosztowa: Optymalizacja sieci oddziałów i procesów operacyjnych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nTransformacja energetyczna: Dywersyfikacja w kierunku niskoemisyjnych źródeł energii, rozwój OZE i atomu.\nWodór: Budowa klastrów wodorowych i rozwój technologii wodorowych.\nElektromobilność: Rozbudowa sieci ładowania pojazdów elektrycznych.\nPetrochemia 2.0: Zwiększanie udziału przetwórstwa ropy w segmencie chemicznym.\nBezpieczeństwo energetyczne: Wzmocnienie pozycji lidera rynku CEE w sektorze paliwowo-energetycznym.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/bft.html",
-    "href": "spolki/bft.html",
-    "title": "Benefit Systems S.A. (BFT)",
+    "objectID": "spolki/pko.html",
+    "href": "spolki/pko.html",
+    "title": "PKO Bank Polski S.A. (PKO)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: BFT | Benefit Systems S.A. | Siedziba: Warszawa | WWW: benefitsystems.pl | Branża: Rekreacja i wypoczynek | Podbranża: Usługi"
+    "text": "← Spółki GPW | Ticker: PKO | PKO Bank Polski S.A. | Siedziba: Polska | WWW: pkobp.pl | Branża: Finanse | Podbranża: banki uniwersalne"
   },
   {
-    "objectID": "spolki/bft.html#notowania",
-    "href": "spolki/bft.html#notowania",
-    "title": "Benefit Systems S.A. (BFT)",
+    "objectID": "spolki/pko.html#notowania",
+    "href": "spolki/pko.html#notowania",
+    "title": "PKO Bank Polski S.A. (PKO)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/bft.html#o-spółce",
-    "href": "spolki/bft.html#o-spółce",
-    "title": "Benefit Systems S.A. (BFT)",
+    "objectID": "spolki/pko.html#o-spółce",
+    "href": "spolki/pko.html#o-spółce",
+    "title": "PKO Bank Polski S.A. (PKO)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Benefit Systems to wiodący dostawca kart benefitowych i platformy do obsługi benefitów pracowniczych w Polsce. Spółka oferuje popularne programy MultiSport i FitSport, umożliwiające pracownikom korzystanie z siłowni, basenów i innych obiektów sportowych. Model biznesowy opiera się na współpracy z pracodawcami.\nStrategia i Perspektywy: Benefit Systems rozwija się poprzez ekspansję liczby użytkowników kart oraz zwiększanie wartości kontraktów. Kluczowe jest alsobudowanie nowych partnerstw z pracodawcami i rozszerzanie sieci obiektów sportowych."
+    "text": "O spółce\nPKO Bank Polski to lider sektora bankowego w Polsce, obsługujący blisko 12 mln klientów. Jest kluczową instytucją finansową o charakterze uniwersalnym, działającą w segmencie detalicznym, korporacyjnym i inwestycyjnym."
   },
   {
-    "objectID": "spolki/bft.html#biznes",
-    "href": "spolki/bft.html#biznes",
-    "title": "Benefit Systems S.A. (BFT)",
+    "objectID": "spolki/pko.html#biznes",
+    "href": "spolki/pko.html#biznes",
+    "title": "PKO Bank Polski S.A. (PKO)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nKarty MultiSport: Dostęp do sieci obiektów sportowych w całej Polsce.\nFitSport: Programy fitness dla firm i klientów indywidualnych.\nPlatforma obsługowa: Systemy do zarządzania benefitami dla HR.\n\nZasoby i Surowce:\nDziałalność opiera się na sieci partnerów sportowych (siłownie, baseny), platformach IT oraz relacjach z pracodawcami."
+    "text": "Biznes\nBank oferuje pełen zakres produktów finansowych, od kont i kredytów po zaawansowane usługi bankowości inwestycyjnej. Lider nowoczesnych kanałów cyfrowych z najpopularniejszą aplikacją mobilną na rynku polskim (IKO)."
   },
   {
-    "objectID": "spolki/bft.html#strategia",
-    "href": "spolki/bft.html#strategia",
-    "title": "Benefit Systems S.A. (BFT)",
+    "objectID": "spolki/pko.html#strategia",
+    "href": "spolki/pko.html#strategia",
+    "title": "PKO Bank Polski S.A. (PKO)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja użytkowników: Zwiększanie bazy pracodawców oferujących karty.\nNowe produkty: Rozwój oferty benefitów (wellness, mental health).\nCyfryzacja: Aplikacje mobilne i platformy obsługowe.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nDążenie do bycia najbardziej nowoczesnym i przyjaznym bankiem w regionie, wspierającym transformację cyfrową i energetyczną klientów.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/acp.html",
-    "href": "spolki/acp.html",
-    "title": "Asseco Poland S.A. (ACP)",
+    "objectID": "spolki/zab.html",
+    "href": "spolki/zab.html",
+    "title": "Żabka Group S.A. (ZAB)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: ACP | Asseco Poland S.A. | Siedziba: Rzeszów | WWW: asseco.pl | Branża: Informatyka | Podbranża: Oprogramowanie"
+    "text": "← Spółki GPW | Ticker: ZAB | Żabka Group S.A. | Siedziba: Polska | WWW: zabkagroup.com | Branża: Handel i konsumpcja | Podbranża: sieci convenience"
   },
   {
-    "objectID": "spolki/acp.html#notowania",
-    "href": "spolki/acp.html#notowania",
-    "title": "Asseco Poland S.A. (ACP)",
+    "objectID": "spolki/zab.html#notowania",
+    "href": "spolki/zab.html#notowania",
+    "title": "Żabka Group S.A. (ZAB)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/acp.html#o-spółce",
-    "href": "spolki/acp.html#o-spółce",
-    "title": "Asseco Poland S.A. (ACP)",
+    "objectID": "spolki/zab.html#o-spółce",
+    "href": "spolki/zab.html#o-spółce",
+    "title": "Żabka Group S.A. (ZAB)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Asseco Poland to wiodący polski producent oprogramowania i dostawca usług IT. Spółka dostarcza rozwiązania dla sektora finansowego, administracji publicznej, energetyki, telekomunikacji i przemysłu. Asseco działa globalnie poprzez sieć spółek zależnych w Europie, na Bliskim Wschodzie i w Afryce.\nStrategia i Perspektywy: Asseco koncentruje się na organicznym wzroście poprzez rozwój własnych produktów oraz ekspansję na rynki zagraniczne. Kluczowe są: modernizacja systemów w instytucjach finansowych, rozwiązania chmurowe i cyfryzacja administracji."
+    "text": "O spółce\nŻabka Group to lider polskiego rynku modern convenience. Grupa zarządza siecią ponad 11 000 sklepów działających w modelu franczyzowym. Spółka zadebiutowała na GPW w Warszawie w październiku 2024 roku, stając się jedną z największych spółek w indeksie WIG20."
   },
   {
-    "objectID": "spolki/acp.html#biznes",
-    "href": "spolki/acp.html#biznes",
-    "title": "Asseco Poland S.A. (ACP)",
+    "objectID": "spolki/zab.html#biznes",
+    "href": "spolki/zab.html#biznes",
+    "title": "Żabka Group S.A. (ZAB)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nBankowość i finanse: Systemy core banking, platformy płatnicze, rozwiązania dla ubezpieczycieli i firm inwestycyjnych.\nAdministracja publiczna: Systemy e-administracji, rozwiązania dla jednostek samorządowych i administracji centralnej.\nEnergetyka i przemysł: Systemy SCADA, zarządzanie siecią dystrybucyjną, rozwiązania dla sektora naftowego i gazowego.\nTelekomunikacja: Systemy billingowe i zarządania klientami dla operatorów.\n\nZasoby i Surowce:\nDziałalność opiera się na kapitale ludzkim (programiści, konsultanci), własności intelektualnej (oprogramowanie) oraz infrastrukturze IT (centra danych, chmura)."
+    "text": "Biznes\nModel biznesowy: Żabka operuje w unikalnym ekosystemie integrującym sprzedaż detaliczną, usługi kurierskie oraz gastronomię (Żabka Café).\nKluczowe formaty i marki:\n\nŻabka Convenience: Podstawowy format sklepów blisko klienta.\nŻabka Nano: Innowacyjne sklepy autonomiczne (bezobsługowe) oparte na technologii AI.\nMaczfit: Lider rynku cateringu dietetycznego w Polsce (część grupy).\nDietly: Platforma e-commerce dedykowana zdrowej żywności.\n\nInfrastruktura: Siedem zaawansowanych centrów logistycznych zapewnia dostawy do ponad 11 tysięcy placówek na terenie całego kraju."
   },
   {
-    "objectID": "spolki/acp.html#strategia",
-    "href": "spolki/acp.html#strategia",
-    "title": "Asseco Poland S.A. (ACP)",
+    "objectID": "spolki/zab.html#strategia",
+    "href": "spolki/zab.html#strategia",
+    "title": "Żabka Group S.A. (ZAB)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nRozwój organiczny: Inwestycje w nowe produkty i technologie (chmura, AI, cyberbezpieczeństwo).\nEkspansja zagraniczna: Dalszy rozwój na rynkach CEE, Bliskiego Wschodu i Afryki.\nFuzje i przejęcia: Akwizycje firm uzupełniających portfolio produktowe.\nModernizacja instytucji: Kontrakty na modernizację systemów w bankach i administracji.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nGłówne kierunki wzrostu Żabka Group:\n\nEkspansja terytorialna: Dalsze nasycanie rynku polskiego i wejście na rynki zagraniczne (np. Rumunia).\nDigitalizacja: Rozwój aplikacji Żappka (ponad 6 mln aktywnych użytkowników) oraz personalizacja oferty (retail media).\nLogistyka 2.0: Optymalizacja dostaw ostatniej mili i rozwój usług kurierskich.\nZrównoważony styl życia: Rozbudowa oferty produktów “Better for You” i ekologicznych rozwiązań w placówkach.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/cdr.html",
-    "href": "spolki/cdr.html",
-    "title": "CD PROJEKT S.A. (CDR)",
+    "objectID": "spolki/jsw.html",
+    "href": "spolki/jsw.html",
+    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: CDR | CD PROJEKT S.A. | Siedziba: Polska | WWW: cdprojekt.com | Branża: Technologie i IT | Podbranża: gaming"
+    "text": "← Spółki GPW | Ticker: JSW | Jastrzębska Spółka Węglowa S.A. | Siedziba: Jastrzębie-Zdrój | WWW: jsw.pl | Branża: Górnictwo | Podbranża: Węgiel"
   },
   {
-    "objectID": "spolki/cdr.html#notowania",
-    "href": "spolki/cdr.html#notowania",
-    "title": "CD PROJEKT S.A. (CDR)",
+    "objectID": "spolki/jsw.html#notowania",
+    "href": "spolki/jsw.html#notowania",
+    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/cdr.html#o-spółce",
-    "href": "spolki/cdr.html#o-spółce",
-    "title": "CD PROJEKT S.A. (CDR)",
+    "objectID": "spolki/jsw.html#o-spółce",
+    "href": "spolki/jsw.html#o-spółce",
+    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: CD PROJEKT S.A. to wiodący polski producent i wydawca gier wideo, znany na całym świecie dzięki serii “Wiedźmin” oraz grze “Cyberpunk 2077”. Spółka jest jednym z globalnych liderów w segmencie gier fabularnych (RPG) z otwartym światem.\nStrategia i Rozwój: Spółka realizuje nową strategię zakładającą równoległą produkcję kilku tytułów AAA oraz rozbudowę uniwersów poprzez media towarzyszące (animacje, serie komiksowe). Kluczowe projekty to rozpoczęta nowa saga wiedźmińska (Polaris) oraz projekt Orion (kontynuacja Cyberpunka)."
+    "text": "O spółce\nProfil działalności: Jastrzębska Spółka Węglowa to największy w Polsce i jeden z największych w Europie producentów węgla koksowego. Spółka wydobywa węgiel kamienny w kopalniach na Śląsku, dostarczając surowiec głównie dla przemysłu hutniczego i energetycznego. JSW jest również producentem koksu i węgla do produkcji stali.\nStrategia i Perspektywy: JSW przechodzi trudny okres restrukturyzacji związany z kryzysem węgla koksowego. Spółka koncentruje się na optymalizacji kosztów, poprawie efektywności wydobycia i dywersyfikacji działalności. Kluczowe jest alsobudowanie nowych bloków energetycznych do przetwarzania węgla."
   },
   {
-    "objectID": "spolki/cdr.html#biznes",
-    "href": "spolki/cdr.html#biznes",
-    "title": "CD PROJEKT S.A. (CDR)",
+    "objectID": "spolki/jsw.html#biznes",
+    "href": "spolki/jsw.html#biznes",
+    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
     "section": "Biznes",
-    "text": "Biznes\nProdukcja gier: CD Projekt tworzy gry wideo w modelu własnego studia deweloperskiego (in-house), co zapewnia pełną kontrolę nad jakością i wizją artystyczną.\nPortfolio marek:\n\nWiedźmin: Kultowa trylogia RPG (Wiedźmin 1, 2, 3) oraz seria serialowa Netflixa.\nCyberpunk 2077: Największa premiera w historii polskiego gamingu, z rozbudowanym uniwersum science-fiction.\nPolaris: Nowa saga wiedźmińska - projekt AAA realizowany w ramach nowej strategii.\n\nModel dystrybucji: Sprzedaż cyfrowa (Steam, GOG, konsole) z dodatkowymi przychodami z DLC i mikrotransakcji."
+    "text": "Biznes\nGłówne linie produktowe:\n\nWęgiel koksowy: Dla przemysłu hutniczego i stalowego.\nWęgiel energetyczny: Dla elektrowni i ciepłowni.\nKoks: Produkt przetworzony dla przemysłu metalurgicznego.\nWęgiel do produkcji aluminium: Specjalistyczne gatunki.\n\nZasoby i Surowce:\nKluczowe są złoża węgla kamiennego, infrastruktura kopalń, siła robocza (górnicy) oraz energia."
   },
   {
-    "objectID": "spolki/cdr.html#strategia",
-    "href": "spolki/cdr.html#strategia",
-    "title": "CD PROJEKT S.A. (CDR)",
+    "objectID": "spolki/jsw.html#strategia",
+    "href": "spolki/jsw.html#strategia",
+    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nJakość ponad wszystko: utrzymanie statusu studia tworzącego najbardziej zaawansowane narracyjnie gry na świecie.\nMultiplayer: wprowadzanie komponentów sieciowych do przyszłych produkcji.\nTechnologia: przejście na silnik Unreal Engine 5 w celu optymalizacji procesów twórczych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nRestrukturyzacja: Poprawa efektywności i redukcja kosztów.\nNowe produkty: Rozwój oferty koksu i węgli specjalnych.\nEnergetyka: Budowa własnych bloków energetycznych.\nDywersyfikacja: Inwestycje poza górnictwem.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/tpe.html",
+    "href": "spolki/tpe.html",
+    "title": "Tauron Polska Energia S.A. (TPE)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: TPE | Tauron Polska Energia S.A. | Siedziba: Katowice | WWW: tauron.pl | Branża: Energetyka | Podbranża: Dystrybucja energii"
+  },
+  {
+    "objectID": "spolki/tpe.html#notowania",
+    "href": "spolki/tpe.html#notowania",
+    "title": "Tauron Polska Energia S.A. (TPE)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/tpe.html#o-spółce",
+    "href": "spolki/tpe.html#o-spółce",
+    "title": "Tauron Polska Energia S.A. (TPE)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Tauron Polska Energia to drugi co do wielkości podmiot na polskim rynku elektroenergetycznym. Grupa prowadzi zintegrowaną działalność obejmującą wydobycie węgla, wytwarzanie energii elektrycznej, jej dystrybucję oraz sprzedaż do odbiorców końcowych. Spółka obsługuje miliony klientów w południowej Polsce.\nStrategia i Perspektywy: Tauron realizuje strategię transformacji w kierunku niskoemisyjnej energetyki, inwestując w odnawialne źródła energii i modernizując infrastrukturę dystrybucyjną. Kluczowe jest alsobudowanie nowych bloków węglowych oraz rozwój sieci inteligentnych."
+  },
+  {
+    "objectID": "spolki/tpe.html#biznes",
+    "href": "spolki/tpe.html#biznes",
+    "title": "Tauron Polska Energia S.A. (TPE)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nWytwarzanie energii: Produkcja energii w elektrowniach węglowych i instalacjach OZE.\nDystrybucja: Zarządzanie siecią dystrybucyjną na terenie południowej Polski (około 15% krajowego rynku).\nSprzedaż: Sprzedaż energii elektrycznej i gazu do gospodarstw domowych i firm.\nWydobycie: Wydobycie węgla kamiennego w kopalniach Grupy.\n\nZasoby i Surowce:\nKluczowy jest węgiel kamienny, infrastruktura sieciowa (linie, stacje transformatorowe), lokalizacje dla OZE (wiatr, słońce)."
+  },
+  {
+    "objectID": "spolki/tpe.html#strategia",
+    "href": "spolki/tpe.html#strategia",
+    "title": "Tauron Polska Energia S.A. (TPE)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nTransformacja energetyczna: Stopniowe odchodzenie od węgla na rzecz OZE.\nSieć inteligentna: Inwestycje w modernizację i cyfryzację dystrybucji.\nKlient końcowy: Rozwój usług dla odbiorców indywidualnych i biznesowych.\nEfektywność: Optymalizacja kosztów operacyjnych i inwestycyjnych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
     "objectID": "spolki/kty.html",
