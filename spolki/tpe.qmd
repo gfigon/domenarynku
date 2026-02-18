@@ -1,0 +1,127 @@
+---
+title: "Tauron Polska Energia S.A. (TPE)"
+subtitle: "Profil spółki Tauron — notowania, analiza, strategia"
+categories: [Energetyka, Dystrybucja energii]
+pagetitle: "Tauron Polska Energia S.A. (TPE) | Profil spółki GPW - Notowania i Analiza"
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Tauron Polska Energia S.A. (TPE) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Energetyka.">
+      <meta name="keywords" content="Tauron, TPE, akcje Tauron, GPW, notowania, energetyka, dystrybucja energii">
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(htmltools)
+library(plotly)
+library(xts)
+library(TTR)
+
+get_stock_data <- function(ticker) {
+  path <- "../data/prices100.RDS"
+  if(!file.exists(path)) return(NULL)
+  prices_all <- readRDS(path)
+  col_idx <- which(names(prices_all) == ticker)
+  if(length(col_idx) == 0) return(NULL)
+  df <- prices_all[, c(1, col_idx)]
+  names(df) <- c("date", "price")
+  df <- df |> filter(!is.na(price))
+  return(df)
+}
+
+stock_data <- get_stock_data("TPE")
+last_row <- tail(stock_data, 1)
+last_price <- last_row$price
+last_date <- last_row$date
+prev_price <- tail(stock_data$price, 2)[1]
+change_pct <- round((last_price - prev_price) / prev_price * 100, 2)
+y_ago_idx <- nrow(stock_data) - 252
+if(y_ago_idx > 0) {
+  y_ago_price <- stock_data$price[y_ago_idx]
+  change_yy <- round((last_price - y_ago_price) / y_ago_price * 100, 2)
+} else {
+  change_yy <- "N/A"
+}
+color_dd <- if(change_pct >= 0) "success" else "danger"
+color_yy <- if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary"
+val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
+```
+
+::: {.company-header}
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** TPE | **Tauron Polska Energia S.A.** | **Siedziba:** Katowice | **WWW:** [tauron.pl](https://www.tauron.pl/){rel="nofollow"} | **Branża:** [Energetyka](../spolki-gpw.html#category=Energetyka) | **Podbranża:** [Dystrybucja energii](../spolki-gpw.html#category=Dystrybucja energii)
+:::
+
+```{r}
+#| echo: false
+#| results: asis
+html_str <- paste0(
+  '<div class="stock-metrics">',
+  '<div class="stock-vbox stock-vbox-primary">',
+  '<div class="stock-vbox-title">Cena (', format(last_date, '%Y-%m-%d'), ')</div>',
+  '<div class="stock-vbox-value">', round(last_price, 2), '</div>',
+  '</div>',
+  '<div class="stock-vbox stock-vbox-', color_dd, '">',
+  '<div class="stock-vbox-title">Zmiana d/d</div>',
+  '<div class="stock-vbox-value">', change_pct, '%</div>',
+  '</div>',
+  '<div class="stock-vbox stock-vbox-', color_yy, '">',
+  '<div class="stock-vbox-title">Zmiana y/y</div>',
+  '<div class="stock-vbox-value">', val_yy, '</div>',
+  '</div>',
+  '</div>'
+)
+cat(html_str)
+```
+
+## Notowania
+
+```{r}
+#| echo: false
+stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
+sma200 <- SMA(stock_xts, n = 200)
+plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena TPE") |>
+  add_lines(x = index(stock_xts), y = as.numeric(sma200), name = "SMA 200", line = list(color = "orange")) |>
+  layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = "h", x = 0.1, y = 1.1), margin = list(t = 50))
+```
+
+## O spółce
+
+**Profil działalności:**
+Tauron Polska Energia to drugi co do wielkości podmiot na polskim rynku elektroenergetycznym. Grupa prowadzi zintegrowaną działalność obejmującą wydobycie węgla, wytwarzanie energii elektrycznej, jej dystrybucję oraz sprzedaż do odbiorców końcowych. Spółka obsługuje miliony klientów w południowej Polsce.
+
+**Strategia i Perspektywy:**
+Tauron realizuje strategię transformacji w kierunku niskoemisyjnej energetyki, inwestując w odnawialne źródła energii i modernizując infrastrukturę dystrybucyjną. Kluczowe jest alsobudowanie nowych bloków węglowych oraz rozwój sieci inteligentnych.
+
+## Biznes
+
+**Główne linie produktowe:**
+
+* **Wytwarzanie energii:** Produkcja energii w elektrowniach węglowych i instalacjach OZE.
+
+* **Dystrybucja:** Zarządzanie siecią dystrybucyjną na terenie południowej Polski (około 15% krajowego rynku).
+
+* **Sprzedaż:** Sprzedaż energii elektrycznej i gazu do gospodarstw domowych i firm.
+
+* **Wydobycie:** Wydobycie węgla kamiennego w kopalniach Grupy.
+
+**Zasoby i Surowce:**
+
+Kluczowy jest węgiel kamienny, infrastruktura sieciowa (linie, stacje transformatorowe), lokalizacje dla OZE (wiatr, słońce).
+
+## Strategia
+
+**Kierunki rozwoju:**
+
+* **Transformacja energetyczna:** Stopniowe odchodzenie od węgla na rzecz OZE.
+
+* **Sieć inteligentna:** Inwestycje w modernizację i cyfryzację dystrybucji.
+
+* **Klient końcowy:** Rozwój usług dla odbiorców indywidualnych i biznesowych.
+
+* **Efektywność:** Optymalizacja kosztów operacyjnych i inwestycyjnych.
+
+:::: {.callout-important}
+## Informacja prawna
+Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
+::::
+

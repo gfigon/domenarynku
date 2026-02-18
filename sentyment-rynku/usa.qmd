@@ -1,0 +1,379 @@
+---
+# === Wyświetlane na stronie ===
+title: "Sentyment rynku - USA"
+subtitle: "Analiza nastrojów na amerykańskim rynku kapitałowym"
+date-modified: last-modified
+
+# === SEO - Meta tagi w <head> ===
+pagetitle: "Sentyment rynku USA - S&P 500 i Nasdaq | Analiza nastrojów inwestorów"
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Aktualny sentyment rynku w USA. Analiza nastrojów inwestorów, wskaźniki optymizmu i pesymizmu na rynku S&P 500 i Nasdaq.">
+      <meta name="keywords" content="sentyment rynku, USA, S&P 500, Nasdaq, nastroje inwestorów, pesymizm, optymizm, rynek amerykański">
+---
+
+## O wskaźniku
+
+**Sentyment rynku** to wskaźnik nastrojów inwestorów na amerykańskim rynku kapitałowym. Mierzy on emocjonalny stosunek uczestników rynku do sytuacji na giełdzie, pokazując czy przeważają postawy optymistyczne czy pesymistyczne. Wskaźnik ten może sygnalizować potencjalne punkty zwrotne na rynku, gdy nastroje osiągają ekstremalne poziomy.
+
+Sentyment rynku często wyprzedza ruchy cenowe indeksów giełdowych. Skrajny pesymizm może wskazywać na wyprzedanie rynku i potencjalne dno, podczas gdy ekstremalne nastroje euforyczne mogą poprzedzać korekty spadkowe. Warto jednak pamiętać, że sentyment to tylko jedno z narzędzi analitycznych i powinien być stosowany w połączeniu z innymi metodami analizy rynku.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(tidyverse)
+library(xts)
+library(plotly)
+library(knitr)
+library(kableExtra)
+
+# Wczytaj dane
+all_data <- readRDS("../data/sentimentEN.RDS")
+
+# Konwertuj do data frame
+df_full <- data.frame(
+  data = index(all_data),
+  sentyment = as.numeric(all_data$sent_norm),
+  spx = as.numeric(all_data$SPX),
+  ndq = as.numeric(all_data$NDQ)
+)
+
+# Podział na dwa okresy ze względu na przerwę w danych
+# Okres 1: 2023-09-17 do 2024-11-03
+df_period1 <- df_full %>% 
+  filter(data >= as.Date("2023-09-17") & data <= as.Date("2024-11-03"))
+
+# Okres 2: 2025-03-28 do dzisiaj
+df_period2 <- df_full %>% 
+  filter(data >= as.Date("2025-03-28"))
+```
+
+## Wykres sentymentu rynku
+
+Poniższe wykresy przedstawiają znormalizowany wskaźnik sentymentu rynku (0-100) na tle znormalizowanych indeksów S&P 500 i Nasdaq. Ze względu na przerwę w zbieraniu danych prezentujemy dwa oddzielne okresy. Możesz przybliżać wykresy i sprawdzać wartości dla konkretnych dat.
+
+### Okres historyczny: wrzesień 2023 - listopad 2024
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+# Normalizacja indeksów do skali 0-100 dla okresu 1
+df_norm1 <- df_period1 %>%
+  mutate(
+    spx_norm = (spx - min(spx, na.rm = TRUE)) / 
+               (max(spx, na.rm = TRUE) - min(spx, na.rm = TRUE)) * 100,
+    ndq_norm = (ndq - min(ndq, na.rm = TRUE)) / 
+               (max(ndq, na.rm = TRUE) - min(ndq, na.rm = TRUE)) * 100
+  )
+
+# Wykres interaktywny dla okresu 1
+fig1 <- plot_ly() %>%
+  add_trace(
+    data = df_norm1,
+    x = ~data, 
+    y = ~sentyment,
+    name = "Sentyment rynku",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#3b82f6", width = 2),
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>Sentyment:</b> %{y:.1f}<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  add_trace(
+    data = df_norm1,
+    x = ~data, 
+    y = ~spx_norm,
+    name = "S&P 500 (norm.)",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#f59e0b", width = 1.5),
+    yaxis = "y2",
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>S&P 500:</b> %{y:.1f}<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  add_trace(
+    data = df_norm1,
+    x = ~data, 
+    y = ~ndq_norm,
+    name = "Nasdaq (norm.)",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#10b981", width = 1.5),
+    yaxis = "y2",
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>Nasdaq:</b> %{y:.1f}<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  layout(
+    title = list(
+      text = "Sentyment rynku USA vs S&P 500 i Nasdaq<br><sub>Okres: wrzesień 2023 - listopad 2024</sub>",
+      font = list(size = 16)
+    ),
+    xaxis = list(title = "Data"),
+    yaxis = list(
+      title = "Sentyment rynku (0-100)",
+      side = "left",
+      range = c(0, 100)
+    ),
+    yaxis2 = list(
+      title = "S&P 500 / Nasdaq (znormalizowane 0-100)",
+      overlaying = "y",
+      side = "right",
+      range = c(0, 100)
+    ),
+    hovermode = "x unified",
+    legend = list(
+      orientation = "h",
+      x = 0.5,
+      xanchor = "center",
+      y = -0.15
+    ),
+    margin = list(b = 100)
+  )
+
+fig1
+```
+
+### Okres aktualny: marzec 2025 - dzisiaj
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+# Normalizacja indeksów do skali 0-100 dla okresu 2
+df_norm2 <- df_period2 %>%
+  mutate(
+    spx_norm = (spx - min(spx, na.rm = TRUE)) / 
+               (max(spx, na.rm = TRUE) - min(spx, na.rm = TRUE)) * 100,
+    ndq_norm = (ndq - min(ndq, na.rm = TRUE)) / 
+               (max(ndq, na.rm = TRUE) - min(ndq, na.rm = TRUE)) * 100
+  )
+
+# Wykres interaktywny dla okresu 2
+fig2 <- plot_ly() %>%
+  add_trace(
+    data = df_norm2,
+    x = ~data, 
+    y = ~sentyment,
+    name = "Sentyment rynku",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#3b82f6", width = 2),
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>Sentyment:</b> %{y:.1f}<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  add_trace(
+    data = df_norm2,
+    x = ~data, 
+    y = ~spx_norm,
+    name = "S&P 500 (norm.)",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#f59e0b", width = 1.5),
+    yaxis = "y2",
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>S&P 500:</b> %{y:.1f}<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  add_trace(
+    data = df_norm2,
+    x = ~data, 
+    y = ~ndq_norm,
+    name = "Nasdaq (norm.)",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#10b981", width = 1.5),
+    yaxis = "y2",
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>Nasdaq:</b> %{y:.1f}<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  layout(
+    title = list(
+      text = "Sentyment rynku USA vs S&P 500 i Nasdaq<br><sub>Okres: marzec 2025 - dzisiaj</sub>",
+      font = list(size = 16)
+    ),
+    xaxis = list(title = "Data"),
+    yaxis = list(
+      title = "Sentyment rynku (0-100)",
+      side = "left",
+      range = c(0, 100)
+    ),
+    yaxis2 = list(
+      title = "S&P 500 / Nasdaq (znormalizowane 0-100)",
+      overlaying = "y",
+      side = "right",
+      range = c(0, 100)
+    ),
+    hovermode = "x unified",
+    legend = list(
+      orientation = "h",
+      x = 0.5,
+      xanchor = "center",
+      y = -0.15
+    ),
+    margin = list(b = 100)
+  )
+
+fig2
+```
+
+::: callout-note
+## Jak czytać wykresy?
+
+-   **Sentyment rynku (niebieski):** znormalizowany wskaźnik nastrojów (0-100)
+-   **S&P 500 i Nasdaq (pomarańczowy/zielony):** znormalizowane do skali 0-100 dla porównywalności
+-   Wartości \> 70 sugerują bardzo optymistyczne nastroje (potencjalne wykupienie)
+-   Wartości \< 30 sugerują pesymistyczne nastroje (potencjalne wyprzedanie)
+-   Wartości 40-60 wskazują na neutralny sentyment rynku
+:::
+
+::: callout-warning
+## Uwaga o przerwę w danych
+
+Ze względów technicznych wystąpiła przerwa w zbieraniu danych od listopada 2024 do marca 2025. Dlatego prezentujemy dwa oddzielne wykresy pokazujące kolejne okresy dostępności danych.
+:::
+
+## Ostatnie 60 sesji
+
+Tabela przedstawia szczegółowe wartości sentymentu rynku oraz głównych indeksów amerykańskich z ostatnich 60 sesji giełdowych (kwartał).
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+# Przygotuj tabelę - ostatnie 60 dni
+df_table <- df_full %>%
+  tail(60) %>%
+  arrange(desc(data)) %>%
+  mutate(
+    data = format(data, "%Y-%m-%d"),
+    sentyment = sprintf("%.1f", sentyment),
+    spx = sprintf("%.2f", spx),
+    ndq = sprintf("%.2f", ndq)
+  ) %>%
+  select(data, sentyment, spx, ndq)
+
+# Wyświetl tabelę
+kable(
+  df_table,
+  col.names = c("Data", "Sentyment", "S&P 500", "Nasdaq"),
+  align = c("l", "r", "r", "r"),
+  caption = "Wartości sentymentu rynku i głównych indeksów USA (ostatnie 60 sesji)"
+) %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = FALSE,
+    position = "left",
+    font_size = 12
+  ) %>%
+  scroll_box(height = "500px")
+```
+
+## Metodologia
+
+### Źródło danych
+
+Wskaźnik sentymentu rynku jest budowany na podstawie codziennej analizy nagłówków publikowanych na głównych amerykańskich portalach finansowych i biznesowych zajmujących się tematyką rynków kapitałowych. Dane są zbierane od września 2023 roku (z przerwą od listopada 2024 do marca 2025).
+
+### Proces zbierania i obliczania wskaźnika
+
+Proces przebiega w następujących krokach:
+
+1.  **Zbieranie danych:** Codziennie przed rozpoczęciem sesji giełdowej analizowane są strony główne anglojęzycznych serwisów informacyjnych z dziedziny finansów i inwestycji.
+
+2.  **Klasyfikacja nagłówków:** Wszystkie zidentyfikowane nagłówki newsów otrzymują klasyfikację sentymentu:
+
+    -   **+1** - sentyment pozytywny (nagłówki optymistyczne, wskazujące na dobre wiadomości dla rynku)
+    -   **0** - sentyment neutralny (nagłówki informacyjne bez wyraźnego wydźwięku emocjonalnego)
+    -   **-1** - sentyment negatywny (nagłówki pesymistyczne, wskazujące na niepokojące informacje)
+
+3.  **Agregacja dzienna:** Dla każdego serwisu obliczana jest suma sentymentu z danego dnia, następnie sumowane są wartości ze wszystkich analizowanych serwisów, tworząc dzienny wskaźnik sentymentu dla całego rynku.
+
+4.  **Normalizacja:** Dzienny sentyment jest normalizowany do skali 0-100, gdzie:
+
+    -   **0** oznacza najbardziej pesymistyczne nastroje w historii pomiaru
+    -   **100** oznacza najbardziej optymistyczne nastroje w historii pomiaru
+    -   **50** reprezentuje neutralny punkt w historycznym rozkładzie nastrojów
+
+Wskaźnik jest aktualizowany codziennie przed rozpoczęciem sesji giełdowej w USA.
+
+## Potencjalne zastosowania
+
+### 1. Identyfikacja ekstremów rynkowych
+
+Wskaźnik sentymentu może sygnalizować ekstrema rynkowe, które często poprzedzają punkty zwrotne:
+
+-   **Skrajny pesymizm (sentyment \< 20-30):** Może wskazywać na wyprzedanie rynku i potencjalne dno. Gdy większość nagłówków jest negatywna, często oznacza to, że negatywne informacje są już w cenach.
+
+-   **Skrajna euforia (sentyment \> 70-80):** Może sygnalizować wykupienie rynku i zwiększone ryzyko korekty. Gdy dominują wyłącznie pozytywne nagłówki, może brakować nowych katalizatorów do dalszego napędzania wzrostów.
+
+### 2. Dywergencje z indeksami
+
+**Dywergencje** między sentymentem a zachowaniem głównych indeksów mogą być szczególnie informacyjne:
+
+-   **Pozytywna dywergencja:** Sentyment poprawia się, podczas gdy S&P 500/Nasdaq nadal spadają – może zapowiadać zbliżające się odbicie.
+
+-   **Negatywna dywergencja:** Sentyment pogarsza się, mimo że indeksy rosną – ostrzeżenie przed możliwą korektą spadkową.
+
+### 3. Potwierdzenie trendów
+
+Silne trendy są bardziej wiarygodne, gdy sentyment je wspiera:
+
+-   **Trend wzrostowy + rosnący sentyment:** Potwierdza siłę hossy
+-   **Trend spadkowy + spadający sentyment:** Potwierdza siłę bessy
+
+### 4. Wsparcie w analizie rynku
+
+Sentyment może stanowić dodatkowe narzędzie w analizie sytuacji rynkowej:
+
+-   **Niski sentyment (\< 30) z oznakami poprawy:** Można rozważyć zwiększenie ekspozycji na rynek
+-   **Wysoki sentyment (\> 70) z oznakami pogorszenia:** Można rozważyć redukcję pozycji lub zabezpieczenie portfela
+-   **Sentyment w okolicy 40-60:** Rynek może być w fazie konsolidacji
+
+::: callout-warning
+## Ważne zastrzeżenie
+
+Wskaźnik sentymentu rynku jest narzędziem analitycznym służącym do lepszego zrozumienia nastrojów na rynku. Nie stanowi on rekomendacji inwestycyjnej ani porady, jak należy postępować z kapitałem. Sentyment może pozostawać na ekstremalnych poziomach przez dłuższy czas, zanim nastąpi odwrócenie trendu. Powinien być używany w połączeniu z innymi metodami analizy technicznej i fundamentalnej, zawsze z uwzględnieniem indywidualnej tolerancji ryzyka oraz celów inwestycyjnych.
+:::
+
+------------------------------------------------------------------------
+
+::: callout-tip
+## Aktualizacje
+
+Wskaźnik sentymentu rynku jest aktualizowany codziennie przed rozpoczęciem sesji giełdowej w USA, ale na tej stronie wyświetlamy aktualizacje raz na jakiś czas.
+
+Ostatnia aktualizacja danych: `r df_table$data[1]`
+:::
+
+------------------------------------------------------------------------
+
+::: callout-important
+## Informacja prawna
+
+Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią one porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży jakichkolwiek instrumentów finansowych. Decyzje inwestycyjne powinny być podejmowane na podstawie własnej analizy i po konsultacji z licencjonowanym doradcą finansowym.
+:::
+

@@ -1,0 +1,41 @@
+---
+title: "Popołudniowy przegląd rynków: Stalexport zyskuje, RPP o inflacji"
+pagetitle: "Prasówka GPW 6.02.2026 | DomenaRynku.pl"
+date: "2026-02-06"
+date-modified: last-modified
+categories: [Prasówka, GPW, Sentyment]
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Przegląd najważniejszych wydarzeń na GPW z 6 lutego 2026. Wyniki Stalexportu, perspektywy stóp procentowych RPP oraz sytuacja na rynkach globalnych.">
+      <meta name="keywords" content="GPW, Stalexport szacunki, RPP inflacja, rezerwy NBP, sentyment rynku, giełda Warszawa">
+---
+
+Piątkowe popołudnie na warszawskim parkiecie upływa pod znakiem publikacji szacunkowych wyników finansowych oraz analizy protokołu z ostatniego posiedzenia Rady Polityki Pieniężnej.
+
+### Poranek na GPW i sesja
+Główne indeksy utrzymują stabilne poziomy, choć uwaga inwestorów przenosi się na konkretne spółki raportujące dane za ubiegły rok. Mimo mroźnej aury za oknem, nastroje na parkiecie pozostają umiarkowane.
+
+### Ze spółek
+- **Stalexport Autostrady (STX)**: Spółka opublikowała szacunkowe dane za 2025 rok. Skonsolidowany zysk netto przypadający akcjonariuszom jednostki dominującej wyniósł 86,3 mln zł. Choć jest to wynik niższy niż rok wcześniej (132,9 mln zł), inwestorzy analizują rentowność operacyjną w trudniejszym otoczeniu.
+- **Orlen Synthos Green Energy (OSGE)**: Energetyka jądrowa nabiera tempa. Spółka wystąpiła o decyzje zasadnicze dla dwóch dodatkowych bloków we Włocławku, co potwierdza długofalowy kierunek transformacji sektora.
+- **PKP**: Grupa ogłosiła ambitną strategię do 2030 roku, zakładającą nie tylko inwestycje w tabor, ale i rozszerzenie działalności o usługi hotelowe marki "Wars".
+
+### Makro & Świat
+- **RPP o inflacji**: Z opisu dyskusji z posiedzenia Rady wynika, że inflacja w kolejnych kwartałach 2026 roku powinna pozostać zgodna z celem NBP. Pojawiają się głosy wskazujące na stopniowy spadek dynamiki płac, co może otwierać pole do dyskusji o stopach w dalszej części roku.
+- **Rezerwy NBP**: Oficjalne aktywa rezerwowe Polski wzrosły do 246,8 mld euro na koniec stycznia. Znaczący wpływ na ten wynik miał wzrost wartości posiadanego złota.
+- **Wall Street i świat**: Inwestorzy obserwują zbliżenie handlowe USA z Argentyną, co może wpłynąć na globalne ceny żywności. Jednocześnie KE zaostrza ton wobec TikToka, zarzucając mu naruszanie unijnych przepisów o usługach cyfrowych.
+
+### Sentyment & Technika
+Rynek pozostaje w fazie wyczekiwania. Analiza narracji medialnej sugeruje przewagę stonowanego optymizmu, choć czynniki geoekonomiczne (szczególnie w relacjach USA-Chiny) pozostają monitorowane jako główne ryzyko.
+
+::: {.callout-important}
+## Informacja prawna
+Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży instrumentów finansowych.
+:::
+
+---
+*Źródła:*
+- [Stalexport szacuje wyniki (Bankier.pl)](https://www.bankier.pl/wiadomosc/Skonsolidowany-zysk-netto-j-d-Stalexport-Autostrady-w-25-wyniosl-86-3-mln-zl-szacunki-9080229.html){rel="nofollow"}
+- [RPP o inflacji i stopach (Bankier.pl)](https://www.bankier.pl/wiadomosc/Pensje-rosna-wolniej-inflacja-w-celu-RPP-Co-dalej-ze-stopami-9080200.html){rel="nofollow"}
+- [Plany OSGE we Włocławku (Polska Agencja Prasowa)](https://www.bankier.pl/wiadomosc/Wielkie-plany-OSGE-we-Wloclawku-Jest-wniosek-o-kolejne-bloki-jadrowe-9080185.html){rel="nofollow"}

@@ -1,0 +1,280 @@
+---
+# === Wyświetlane na stronie ===
+title: "Indeks równoważony TOP100 GPW"
+subtitle: "Equal-weight price index - alternatywa dla indeksów kapitalizacyjnych"
+date-modified: last-modified
+
+# === SEO - Meta tagi w <head> ===
+pagetitle: "Indeks równoważony TOP100 GPW | Equal-weight index - unweighted price index"
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Indeks równoważony TOP100 GPW (equal-weight index) - alternatywa dla kapitalizacyjnych WIG i WIG20. Inspirowany ZUPI Martina Zweiga, każda spółka ma równą wagę w indeksie.">
+      <meta name="keywords" content="indeks równoważony GPW, equal-weight index, unweighted price index, ZUPI, Martin Zweig, TOP100 GPW, WIG20, kapitalizacja, analiza techniczna GPW">
+---
+
+## O indeksie
+
+**Indeks równoważony TOP100 GPW** (ang. *equal-weight price index*) to alternatywny sposób mierzenia wyników warszawskiej giełdy, w którym każda z największych 100 spółek ma **identyczny wpływ** na wartość indeksu, niezależnie od wielkości kapitalizacji.
+
+W przeciwieństwie do tradycyjnych indeksów giełdowych ważonych kapitalizacją (jak WIG czy WIG20), gdzie wielkie spółki mogą zdominować wyniki całego rynku, indeks równoważony traktuje małą spółkę o kapitalizacji 500 mln zł **dokładnie tak samo** jak giganta za 50 mld zł. Jeśli wszystkie spółki w indeksie rosną średnio o 1%, to indeks rośnie o 1% - niezależnie od tego, które konkretnie spółki wzrosły.
+
+Koncepcja indeksu równoważonego została spopularyzowana przez legendarnego inwestora **Martina Zweiga** w książce *Winning on Wall Street*, gdzie opisał swój **ZUPI** (Zweig Unweighted Price Index). Zweig zauważył, że taki indeks lepiej oddaje kondycję "przeciętnej spółki" na rynku i często sygnalizuje zmiany trendu wcześniej niż indeksy kapitalizacyjne.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(tidyverse)
+library(xts)
+library(plotly)
+library(knitr)
+library(kableExtra)
+
+# Wczytaj dane
+all_data <- readRDS("../data/index_unweighted.RDS")
+
+# Ogranicz do ostatnich 250 sesji
+all_data <- all_data[(nrow(all_data)-250):nrow(all_data),]
+
+# Konwertuj do data frame
+df <- data.frame(
+  data = index(all_data),
+  indeks_rownowazony = as.numeric(all_data$unweighted_index),
+  wig20 = as.numeric(all_data$W20),
+  wig = as.numeric(all_data$WIG)
+)
+```
+
+## Wykres indeksu równoważonego
+
+Poniższy wykres przedstawia indeks równoważony TOP100 GPW na tle indeksów WIG20 i WIG z ostatnich 250 sesji giełdowych. Możesz go przybliżać i sprawdzać wartości dla konkretnych dat.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+# Normalizacja do skali 0-100 dla lepszej wizualizacji
+df_norm <- df %>%
+  mutate(
+    indeks_norm = (indeks_rownowazony - min(indeks_rownowazony, na.rm = TRUE)) / 
+                  (max(indeks_rownowazony, na.rm = TRUE) - min(indeks_rownowazony, na.rm = TRUE)) * 100,
+    wig20_norm = (wig20 - min(wig20, na.rm = TRUE)) / 
+                 (max(wig20, na.rm = TRUE) - min(wig20, na.rm = TRUE)) * 100,
+    wig_norm = (wig - min(wig, na.rm = TRUE)) / 
+               (max(wig, na.rm = TRUE) - min(wig, na.rm = TRUE)) * 100
+  )
+
+# Wykres interaktywny
+fig <- plot_ly() %>%
+  add_trace(
+    data = df_norm,
+    x = ~data, 
+    y = ~indeks_norm,
+    name = "Indeks Równoważony (norm.)",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#3b82f6", width = 2),
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>Indeks Równoważony (norm.):</b> %{y:.1f}<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  add_trace(
+    data = df_norm,
+    x = ~data, 
+    y = ~wig20_norm,
+    name = "WIG20 (norm.)",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#f59e0b", width = 1.5),
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>WIG20 (norm.):</b> %{y:.1f}<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  add_trace(
+    data = df_norm,
+    x = ~data, 
+    y = ~wig_norm,
+    name = "WIG (norm.)",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#10b981", width = 1.5),
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>WIG (norm.):</b> %{y:.1f}<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  layout(
+    title = list(
+      text = "Indeks Równoważony TOP100 GPW vs WIG20 i WIG (ostatnie 250 sesji)",
+      font = list(size = 16)
+    ),
+    xaxis = list(title = "Data"),
+    yaxis = list(
+      title = "Wartość znormalizowana (0-100)",
+      range = c(0, 100)
+    ),
+    hovermode = "x unified",
+    legend = list(
+      orientation = "h",
+      x = 0.5,
+      xanchor = "center",
+      y = -0.15
+    ),
+    margin = list(b = 100)
+  )
+
+fig
+```
+
+::: callout-note
+## Jak czytać wykres?
+
+-   Wszystkie trzy indeksy zostały **znormalizowane do skali 0-100** dla łatwiejszego porównania względnych zmian
+-   **Indeks Równoważony (niebieski):** każda spółka ma równą wagę
+-   **WIG20 i WIG (pomarańczowy/zielony):** indeksy ważone kapitalizacją
+-   Różnice w przebiegu wykresów pokazują, jak polityka ważenia wpływa na wyniki indeksu
+:::
+
+## Ostatnie 60 sesji
+
+Tabela przedstawia szczegółowe wartości indeksu równoważonego oraz głównych indeksów GPW z ostatnich 60 sesji giełdowych (kwartał).
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+# Przygotuj tabelę - ostatnie 60 dni
+df_table <- df %>%
+  tail(60) %>%
+  arrange(desc(data)) %>%
+  mutate(
+    data = format(data, "%Y-%m-%d"),
+    indeks_rownowazony = sprintf("%.2f", indeks_rownowazony),
+    wig20 = sprintf("%.2f", wig20),
+    wig = sprintf("%.2f", wig)
+  )
+
+# Wyświetl tabelę
+kable(
+  df_table,
+  col.names = c("Data", "Indeks Równoważony", "WIG20", "WIG"),
+  align = c("l", "r", "r", "r"),
+  caption = "Wartości indeksu równoważonego i głównych indeksów GPW (ostatnie 60 sesji)"
+) %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = FALSE,
+    position = "left",
+    font_size = 12
+  ) %>%
+  scroll_box(height = "500px")
+```
+
+## Metodologia
+
+### Uniwersum spółek
+
+Indeks równoważony TOP100 GPW jest budowany na podstawie **100 spółek o najwyższym średnim dziennym obrocie** na Giełdzie Papierów Wartościowych w Warszawie. Dobór spółek na podstawie płynności zapewnia, że indeks odzwierciedla rzeczywiste możliwości inwestycyjne dostępne dla uczestników rynku.
+
+Aby spółka została uwzględniona w kalkulacji, musi spełniać dodatkowy warunek: **posiadać historię notowań obejmującą minimum 250 sesji giełdowych** (około 1 rok). Ten wymóg pozwala uwzględnić w indeksie debiuty gigantów rynkowych z ostatnich lat (takich jak Allegro, Żabka czy Pepco), jednocześnie eliminując spółki o zbyt krótkiej historii, dla których analiza byłaby niewystarczająco wiarygodna.
+
+### Równe ważenie (equal-weight)
+
+Kluczową cechą indeksu jest **równe traktowanie każdej spółki**, niezależnie od jej kapitalizacji, wartości obrotu czy sektora. W praktyce oznacza to, że:
+
+-   Zmiana ceny o 1% w małej spółce (np. 500 mln zł kapitalizacji) ma **identyczny wpływ** na indeks jak zmiana o 1% w dużej spółce (np. 50 mld zł kapitalizacji)
+-   Indeks reprezentuje **przeciętną spółkę** z grupy TOP100, nie rynek ważony wielkością firm
+-   Eliminuje się efekt dominacji kilku największych spółek, która charakteryzuje WIG20 czy WIG
+
+### Obliczanie indeksu
+
+Wartość indeksu jest liczona jako **średnia geometryczna zwrotów logarytmicznych** wszystkich spółek z uniwersum:
+
+$$
+R_t = \frac{1}{N_t} \sum_{i=1}^{N_t} \log\left(\frac{P_{i,t}}{P_{i,t-1}}\right)
+$$
+
+gdzie: - $R_t$ - średni zwrot logarytmiczny w dniu $t$ - $N_t$ - liczba spółek z dostępnymi danymi w dniu $t$ - $P_{i,t}$ - cena spółki $i$ w dniu $t$
+
+Indeks bazowy jest ustawiony na **100 w pierwszym dniu dostępnych danych** i ewoluuje zgodnie z wzorem:
+
+$$
+\text{Indeks}_t = 100 \times \exp\left(\sum_{k=1}^{t} R_k\right)
+$$
+
+**Obsługa brakujących danych:** Jeśli spółka jest zawieszona w obrocie lub z innych powodów nie ma notowań w danym dniu, jest pomijana w obliczeniach średniego zwrotu (poprzez parametr `na.rm = TRUE`). Dzielnik $N_t$ jest dynamiczny i uwzględnia tylko spółki z rzeczywistymi danymi.
+
+### Aktualizacja
+
+Indeks jest **aktualizowany codziennie przed rozpoczęciem nowej sesji GPW**, wykorzystując ceny zamknięcia z poprzedniej sesji. Dzięki temu inwestorzy rozpoczynają każdy dzień handlowy z aktualnym obrazem "przeciętnej spółki" na rynku.
+
+## Potencjalne zastosowania
+
+### 1. Pomiar rzeczywistej siły rynku akcji
+
+Indeks równoważony odpowiada na pytanie: **"Jak radzi sobie typowa spółka na GPW?"** zamiast **"Jak radzą się największe spółki?"**
+
+Gdy WIG20 rośnie dzięki kilku gigantom (np. PKO BP, KGHM, CD Projekt), ale większość mniejszych spółek spada, indeks równoważony to pokaże - będzie tracił na wartości lub rósł wolniej niż WIG20. To sygnał, że **szeroki rynek jest słaby**, mimo wzrostu głównego indeksu.
+
+Odwrotnie - jeśli indeks równoważony rośnie szybciej niż WIG20, oznacza to, że **małe i średnie spółki radzą sobie lepiej** niż giganty. To może być sygnał zmiany sentymentu rynkowego.
+
+### 2. Dywergencje jako sygnały ostrzegawcze
+
+**Dywergencje** między indeksem równoważonym a indeksami kapitalizacyjnymi mogą sygnalizować nadchodzące zmiany kierunku rynku:
+
+-   **Pozytywna dywergencja (potencjalnie bullish):** Indeks równoważony rośnie szybciej niż WIG/WIG20. Sugeruje to, że szeroki rynek zaczyna się umacniać - potencjalny sygnał początku hossy.
+
+-   **Negatywna dywergencja (potencjalnie bearish):** Indeks równoważony rośnie wolniej lub spada, podczas gdy WIG/WIG20 rosną. Oznacza to, że wzrost jest napędzany przez coraz mniejszą grupę dużych spółek - niezdrowa sytuacja mogąca poprzedzać korektę.
+
+### 3. Analiza rotacji sektorowej
+
+Ponieważ duże spółki często koncentrują się w konkretnych sektorach (banki, energia, surowce), różnice między indeksem równoważonym a WIG20 mogą ujawniać **rotacje sektorowe**:
+
+-   Jeśli WIG20 rośnie, a indeks równoważony stoi w miejscu → prawdopodobnie rosną głównie duże spółki z dominujących sektorów
+-   Jeśli indeks równoważony rośnie szybciej → kapitał przenosi się do mniejszych spółek i niszowych sektorów
+
+### 4. Benchmark dla portfeli równoważonych
+
+Indeks stanowi naturalny **benchmark** dla strategii inwestycyjnych opartych na równym ważeniu spółek, które są alternatywą dla klasycznych portfeli kapitalizacyjnych. Pozwala ocenić, czy aktywne zarządzanie portfelem równoważonym dodaje wartość ponad pasywne trzymanie takiego indeksu.
+
+### 5. Identyfikacja szczytów i dołków rynkowych
+
+Martin Zweig zauważył, że indeksy równoważone często osiągają swoje szczyty **przed** indeksami kapitalizacyjnymi na końcu hossy. To zjawisko wynika z tego, że na końcu trendu wzrostowego kapitał koncentruje się w "bezpiecznych" dużych spółkach, podczas gdy małe już spadają.
+
+Analogicznie, w okolicach dna bessy, indeks równoważony często odbija **szybciej** niż WIG20, sygnalizując powrót apetytu na ryzyko.
+
+::: callout-warning
+## Ważne zastrzeżenie
+
+Indeks równoważony TOP100 GPW jest narzędziem analitycznym wspomagającym podejmowanie decyzji inwestycyjnych, a nie systemem generującym jednoznaczne sygnały kupna lub sprzedaży. Powinien być używany w połączeniu z innymi metodami analizy i zawsze z uwzględnieniem indywidualnej tolerancji ryzyka oraz celów inwestycyjnych.
+
+Należy pamiętać, że **rzeczywiste portfele równoważone wymagają regularnego rebalansowania**, co generuje koszty transakcyjne. Indeks nie uwzględnia tych kosztów.
+:::
+
+------------------------------------------------------------------------
+
+::: callout-tip
+## Aktualizacje
+
+Indeks równoważony TOP100 GPW jest aktualizowany codziennie. Strona jest odświeżana automatycznie przed rozpoczęciem każdej nowej sesji giełdowej.
+
+Ostatnia aktualizacja danych: `{r} df_table$data[1] `
+:::
+
+## Inspiracja: ZUPI Martina Zweiga
+
+Koncepcja tego indeksu jest zainspirowana **ZUPI** (Zweig Unweighted Price Index) opisanym przez Martina Zweiga w książce *Winning on Wall Street* (1986). Zweig, legendarny inwestor i analityk techniczny, zauważył, że tradycyjne indeksy ważone kapitalizacją mogą dawać zniekształcony obraz kondycji rynku.
+
+Zweig stworzył ZUPI jako odpowiedź na pytanie: *"Jak radzi sobie przeciętna spółka?"* zamiast *"Jak radzi sobie przeciętny dolar zainwestowany na giełdzie?"* (co mierzą indeksy kapitalizacyjne). W swojej praktyce inwestycyjnej używał ZUPI jako jednego z kluczowych wskaźników do oceny szerokości rynku i wczesnego wykrywania zmian trendu.
+
+Indeks równoważony TOP100 GPW adaptuje tę filozofię do polskiego rynku akcji.
+

@@ -1,0 +1,98 @@
+project:
+  type: website
+  
+execute:
+  freeze: auto
+
+website:
+  title: "DomenaRynku.pl"
+  site-url: "https://domenarynku.pl"
+  favicon: images/domenarynku-logo-v2.svg
+  open-graph: true
+  twitter-card: true
+  navbar:
+    logo: images/domenarynku-logo-v2.svg
+    title: false
+    left:
+      - href: index.qmd
+        text: Strona główna
+      - text: "Sentyment rynku"
+        menu:
+          - href: sentyment-rynku/polska.qmd
+            text: Polska
+          - href: sentyment-rynku/usa.qmd
+            text: USA
+      - text: "Indeksy"
+        menu:
+          - href: indeksy/indeks-trendow-gpw.qmd
+            text: Indeks trendów GPW
+          - href: indeksy/indeks-cenowy-top100.qmd
+            text: Indeks cenowy top 100 GPW
+      - href: spolki-gpw.qmd
+        text: Spółki GPW
+    right:
+      - href: about.qmd
+        text: O nas
+  page-footer: 
+    left: "© 2026 DomenaRynku.pl"
+    center:
+      - text: "Prywatność i Regulamin"
+        href: privacy.qmd
+    
+
+lang: pl
+      
+format:
+  html:
+    theme:
+      - cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    language: _language-pl.yml
+    canonical-url: true
+    # === SEO - Meta tagi globalne ===
+    header-includes: |
+      <!-- Google Consent Mode v2 - musi być PRZED GTM -->
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        
+        // Domyślnie wszystko na "denied" (zgodnie z GDPR)
+        gtag('consent', 'default', {
+          'ad_storage': 'denied',
+          'ad_user_data': 'denied',
+          'ad_personalization': 'denied',
+          'analytics_storage': 'denied',
+          'wait_for_update': 500
+        });
+      </script>
+      
+      <!-- Klaro Cookie Consent - CSS -->
+      <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.css"/>
+      
+      <!-- Klaro Cookie Consent - Konfiguracja -->
+      <script defer type="text/javascript" src="klaro-config.js"></script>
+      
+      <!-- Klaro Cookie Consent - Biblioteka -->
+      <script defer data-config="klaroConfig" type="text/javascript" src="https://cdn.kiprotect.com/klaro/v0.7/klaro.js"></script>
+      
+      <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NXN55TCK');</script>
+      <!-- End Google Tag Manager -->
+      
+      <meta name="author" content="DomenaRynku.pl">
+      <meta name="robots" content="index, follow">
+      <meta name="googlebot" content="index, follow">
+    include-before-body-text: |
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NXN55TCK"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
+editor: source
+

@@ -1,0 +1,39 @@
+---
+# === Wyświetlane na stronie ===
+title: "Sentyment rynku - Świat"
+subtitle: "Analiza nastrojów na globalnych rynkach kapitałowych"
+date-modified: last-modified
+
+# === SEO - Meta tagi w <head> ===
+pagetitle: "Sentyment rynku - Świat | Analiza globalnych rynków kapitałowych"
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Sentyment rynku na światowych rynkach. Analiza nastrojów inwestorów na NYSE, NASDAQ, giełdach europejskich i azjatyckich. Wskaźnik VIX i przepływy kapitału.">
+      <meta name="keywords" content="sentyment rynku świat, NYSE, NASDAQ, VIX, indeks strachu, rynki globalne, giełdy światowe">
+---
+
+## Wprowadzenie
+
+Sentyment rynku na światowych rynkach - analiza nastrojów inwestorów na głównych giełdach świata.
+
+## Główne rynki
+
+### Stany Zjednoczone
+
+Analiza sentymentu na NYSE i NASDAQ.
+
+### Europa
+
+Nastroje inwestorów na głównych giełdach europejskich.
+
+### Azja
+
+Sentyment na rynkach azjatyckich.
+
+## Wskaźniki globalne
+
+-   VIX (indeks strachu)
+-   Przepływy kapitału
+-   Poziom ryzyka
+

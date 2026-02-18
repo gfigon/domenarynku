@@ -1,0 +1,516 @@
+---
+title: "Dywergencja na GPW: co mówi indeks trendów?"
+subtitle: "Analiza szerokości rynku - listopad 2024"
+author: "DomenaRynku.pl"
+date: "2024-11-21"
+categories: [analiza rynku, indeks trendów, GPW]
+description: "Październik i listopad przyniosły interesującą dywergencję na warszawskiej giełdzie. Podczas gdy główne indeksy pozostają w trendzie wzrostowym, szerokość rynku pokazuje coś zupełnie innego."
+
+# SEO
+pagetitle: "Dywergencja na GPW listopad 2024 | Analiza indeksu trendów"
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Analiza dywergencji między indeksem trendów GPW a WIG i WIG20 w listopadzie 2024. Szerokość rynku słabnie mimo wzrostu głównych indeksów.">
+      <meta name="keywords" content="dywergencja GPW, indeks trendów listopad 2024, szerokość rynku, analiza techniczna WIG, WIG20, market breadth">
+---
+
+## Sytuacja na rynku
+
+W ostatnich tygodniach na warszawskiej giełdzie możemy obserwować klasyczny przykład **negatywnej dywergencji** między zachowaniem głównych indeksów a szerokością rynku. To sytuacja, która powinna przykuć uwagę każdego świadomego inwestora.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(tidyverse)
+library(xts)
+library(plotly)
+library(lubridate)
+
+# Wczytaj dane
+all_data <- readRDS("../../data/index_trend.RDS")
+
+# Przygotuj dane dla różnych okresów
+df_all <- data.frame(
+  data = index(all_data),
+  indeks_trendow = as.numeric(all_data$index_trend_perc),
+  wig20 = as.numeric(all_data$W20),
+  wig = as.numeric(all_data$WIG)
+)
+
+# Okres 1: ostatni rok (250 sesji)
+df_year <- tail(df_all, 250)
+
+# Okres 2: ostatni kwartał (60 sesji)
+df_quarter <- tail(df_all, 60)
+
+# Okres 3: ostatni miesiąc (20 sesji)
+df_month <- tail(df_all, 20)
+```
+
+## Wykres roczny: punkt zwrotny we wrześniu
+
+Aby zrozumieć obecną sytuację, przyjrzyjmy się szerszej perspektywie - ostatniemu roku na GPW:
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-width: 10
+#| fig-height: 7
+
+# Data września 2024 jako punkt zwrotny
+wrzesien_2024 <- as.Date("2025-09-01")
+
+# Normalizacja głównych indeksów do skali 0-100 dla lepszej wizualizacji
+df_year_viz <- df_year %>%
+  mutate(
+    wig20_norm = (wig20 - min(wig20, na.rm = TRUE)) / 
+                 (max(wig20, na.rm = TRUE) - min(wig20, na.rm = TRUE)) * 100,
+    wig_norm = (wig - min(wig, na.rm = TRUE)) / 
+               (max(wig, na.rm = TRUE) - min(wig, na.rm = TRUE)) * 100
+  )
+
+# Wykres interaktywny - rok
+fig_year <- plot_ly() %>%
+  add_trace(
+    data = df_year_viz,
+    x = ~data, 
+    y = ~indeks_trendow,
+    name = "Indeks Trendów (%)",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#3b82f6", width = 2.5),
+    yaxis = "y",
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>Indeks Trendów:</b> %{y:.1f}%<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  add_trace(
+    data = df_year_viz,
+    x = ~data, 
+    y = ~wig20_norm,
+    name = "WIG20 (norm.)",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#f59e0b", width = 1.5),
+    yaxis = "y2",
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>WIG20:</b> %{y:.1f}<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  add_trace(
+    data = df_year_viz,
+    x = ~data, 
+    y = ~wig_norm,
+    name = "WIG (norm.)",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#10b981", width = 1.5),
+    yaxis = "y2",
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>WIG:</b> %{y:.1f}<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  layout(
+    title = list(
+      text = "Indeks trendów GPW vs WIG20 i WIG - ostatni rok",
+      font = list(size = 16)
+    ),
+    xaxis = list(title = "Data"),
+    yaxis = list(
+      title = "Indeks Trendów (%)",
+      side = "left",
+      range = c(0, 100),
+      showgrid = TRUE
+    ),
+    yaxis2 = list(
+      title = "WIG20 / WIG (znormalizowane 0-100)",
+      overlaying = "y",
+      side = "right",
+      range = c(0, 100),
+      showgrid = FALSE
+    ),
+    shapes = list(
+      list(
+        type = "line",
+        x0 = wrzesien_2024, x1 = wrzesien_2024,
+        y0 = 0, y1 = 1, yref = "paper",
+        line = list(color = "red", dash = "dash", width = 2)
+      )
+    ),
+    annotations = list(
+      list(
+        text = "Początek września 2024<br>Punkt zwrotny",
+        x = wrzesien_2024,
+        y = 0.95, yref = "paper",
+        showarrow = TRUE,
+        arrowhead = 2,
+        arrowsize = 1,
+        arrowcolor = "red",
+        ax = 60, ay = -40,
+        font = list(color = "red", size = 11, family = "Arial, sans-serif"),
+        bgcolor = "rgba(255, 255, 255, 0.8)",
+        bordercolor = "red",
+        borderwidth = 1
+      )
+    ),
+    hovermode = "x unified",
+    legend = list(
+      orientation = "h",
+      x = 0.5,
+      xanchor = "center",
+      y = -0.15
+    ),
+    margin = list(b = 100)
+  )
+
+fig_year
+```
+
+### Kluczowe obserwacje z wykresu rocznego
+
+Szczególnie wyraźnie dywergencja ujawniła się **od początku września 2024**. Do tego momentu indeks trendów i główne indeksy poruszały się w podobnym kierunku - gdy indeksy rosły, rosła też szerokość rynku, a gdy spadały, szerokość też słabła. **Od września jednak nastąpiła fundamentalna zmiana**:
+
+- **Indeks trendów** zaczął wyraźnie spadać, tracąc od września około 20 punktów procentowych
+- **WIG i WIG20** kontynuowały wzrosty, osiągając nowe lokalne maksima
+- Ta **rozbieżność** sygnalizuje, że wzrosty głównych indeksów są coraz bardziej skoncentrowane na wąskiej grupie spółek
+
+To klasyczny sygnał ostrzegawczy - rynek "wybiega" napędzany przez coraz mniejszą liczbę graczy.
+
+### Aktualne liczby
+
+```{r}
+#| echo: false
+#| warning: false
+
+# Oblicz zmiany procentowe dla głównych indeksów
+wig20_change_month <- (last(df_month$wig20) / first(df_month$wig20) - 1) * 100
+wig_change_month <- (last(df_month$wig) / first(df_month$wig) - 1) * 100
+
+wig20_change_quarter <- (last(df_quarter$wig20) / first(df_quarter$wig20) - 1) * 100
+wig_change_quarter <- (last(df_quarter$wig) / first(df_quarter$wig) - 1) * 100
+
+# Statystyki indeksu trendów
+trend_current <- last(df_all$indeks_trendow)
+trend_month_avg <- mean(df_month$indeks_trendow, na.rm = TRUE)
+trend_month_min <- min(df_month$indeks_trendow, na.rm = TRUE)
+trend_month_max <- max(df_month$indeks_trendow, na.rm = TRUE)
+
+trend_quarter_avg <- mean(df_quarter$indeks_trendow, na.rm = TRUE)
+trend_quarter_start <- first(df_quarter$indeks_trendow)
+trend_change_quarter <- trend_current - trend_quarter_start
+
+# Statystyki od września
+df_od_wrzesnia <- df_all %>% filter(data >= as.Date("2024-09-01"))
+trend_wrzesien_start <- first(df_od_wrzesnia$indeks_trendow)
+trend_change_od_wrzesnia <- trend_current - trend_wrzesien_start
+```
+
+**Główne indeksy - ostatni kwartał (60 sesji):**
+
+- WIG20: `r sprintf("%.2f%%", wig20_change_quarter)` 
+- WIG: `r sprintf("%.2f%%", wig_change_quarter)`
+
+**Indeks trendów (szerokość rynku):**
+
+- Aktualnie: **`r sprintf("%.1f%%", trend_current)`** spółek w trendzie wzrostowym
+- Średnia (ostatni miesiąc): `r sprintf("%.1f%%", trend_month_avg)`
+- Zakres (ostatni miesiąc): `r sprintf("%.1f%%", trend_month_min)` - `r sprintf("%.1f%%", trend_month_max)`
+- **Zmiana od września**: `r sprintf("%.1f pp", trend_change_od_wrzesnia)` ⬇️
+
+Aktualnie mniej niż **60% spółek** znajduje się w trendzie wzrostowym. Co więcej, w ostatnim miesiącu obserwowaliśmy momenty, gdy indeks trendów spadał poniżej 56%, co jest wyraźnym sygnałem ostrzegawczym.
+
+## Dywergencja w szczegółach (ostatni kwartał)
+
+Przyjrzyjmy się bliżej ostatnim trzem miesiącom, aby lepiej zobaczyć skalę dywergencji:
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-width: 10
+#| fig-height: 7
+
+# Normalizacja głównych indeksów do skali 0-100 dla lepszej wizualizacji
+df_quarter_viz <- df_quarter %>%
+  mutate(
+    wig20_norm = (wig20 - min(wig20, na.rm = TRUE)) / 
+                 (max(wig20, na.rm = TRUE) - min(wig20, na.rm = TRUE)) * 100,
+    wig_norm = (wig - min(wig, na.rm = TRUE)) / 
+               (max(wig, na.rm = TRUE) - min(wig, na.rm = TRUE)) * 100
+  )
+
+# Wykres interaktywny - 3 miesiące
+fig_quarter <- plot_ly() %>%
+  add_trace(
+    data = df_quarter_viz,
+    x = ~data, 
+    y = ~indeks_trendow,
+    name = "Indeks Trendów (%)",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#3b82f6", width = 2.5),
+    yaxis = "y",
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>Indeks Trendów:</b> %{y:.1f}%<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  add_trace(
+    data = df_quarter_viz,
+    x = ~data, 
+    y = ~wig20_norm,
+    name = "WIG20 (norm.)",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#f59e0b", width = 1.5),
+    yaxis = "y2",
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>WIG20:</b> %{y:.1f}<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  add_trace(
+    data = df_quarter_viz,
+    x = ~data, 
+    y = ~wig_norm,
+    name = "WIG (norm.)",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#10b981", width = 1.5),
+    yaxis = "y2",
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>WIG:</b> %{y:.1f}<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  layout(
+    title = list(
+      text = "Indeks trendów GPW vs WIG20 i WIG (ostatnie 60 sesji)",
+      font = list(size = 16)
+    ),
+    xaxis = list(title = "Data"),
+    yaxis = list(
+      title = "Indeks Trendów (%)",
+      side = "left",
+      range = c(0, 100),
+      showgrid = TRUE
+    ),
+    yaxis2 = list(
+      title = "WIG20 / WIG (znormalizowane 0-100)",
+      overlaying = "y",
+      side = "right",
+      range = c(0, 100),
+      showgrid = FALSE
+    ),
+    hovermode = "x unified",
+    legend = list(
+      orientation = "h",
+      x = 0.5,
+      xanchor = "center",
+      y = -0.15
+    ),
+    margin = list(b = 100)
+  )
+
+fig_quarter
+```
+
+::: {.callout-note}
+## Jak czytać wykres?
+
+- **Indeks Trendów (niebieski, lewa oś):** pokazuje procent spółek w trendzie wzrostowym (0-100%)
+- **WIG20 i WIG (pomarańczowy/zielony, prawa oś):** znormalizowane do skali 0-100 dla porównywalności
+- Wartości > 60% w indeksie trendów sugerują zdrową szerokość rynku
+- Wartości < 50% sugerują przewagę trendów spadkowych
+- **Dywergencja:** gdy indeksy rosną, ale indeks trendów spada - to sygnał ostrzegawczy
+:::
+
+## Zoom: ostatni miesiąc
+
+Znormalizowanie wszystkich wskaźników do 100 na początku ostatniego miesiąca pozwala jeszcze wyraźniej zobaczyć **rozbieżność w zachowaniu** głównych indeksów i szerokości rynku:
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-width: 10
+#| fig-height: 7
+
+# Wykres miesięczny - znormalizowany do wartości początkowej
+df_month_viz <- df_month %>%
+  mutate(
+    wig20_norm = (wig20 / first(wig20)) * 100,
+    wig_norm = (wig / first(wig)) * 100,
+    trend_norm = (indeks_trendow / first(indeks_trendow)) * 100
+  )
+
+fig_month <- plot_ly() %>%
+  add_trace(
+    data = df_month_viz,
+    x = ~data, 
+    y = ~trend_norm,
+    name = "Indeks Trendów",
+    type = "scatter",
+    mode = "lines+markers",
+    line = list(color = "#3b82f6", width = 2.5),
+    marker = list(size = 6),
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>Zmiana:</b> %{y:.1f}%<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  add_trace(
+    data = df_month_viz,
+    x = ~data, 
+    y = ~wig20_norm,
+    name = "WIG20",
+    type = "scatter",
+    mode = "lines+markers",
+    line = list(color = "#f59e0b", width = 2),
+    marker = list(size = 5),
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>Zmiana:</b> %{y:.1f}%<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  add_trace(
+    data = df_month_viz,
+    x = ~data, 
+    y = ~wig_norm,
+    name = "WIG",
+    type = "scatter",
+    mode = "lines+markers",
+    line = list(color = "#10b981", width = 2),
+    marker = list(size = 5),
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>Zmiana:</b> %{y:.1f}%<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  layout(
+    title = list(
+      text = "Dywergencja: Indeks trendów vs WIG/WIG20 (ostatni miesiąc)<br><sub>Wszystkie wartości znormalizowane do 100 na początku okresu</sub>",
+      font = list(size = 16)
+    ),
+    xaxis = list(title = "Data"),
+    yaxis = list(
+      title = "Zmiana względem początku okresu (%)",
+      range = c(85, 110)
+    ),
+    shapes = list(
+      list(
+        type = "line",
+        x0 = 0, x1 = 1, xref = "paper",
+        y0 = 100, y1 = 100,
+        line = list(color = "gray", dash = "dash", width = 1)
+      )
+    ),
+    annotations = list(
+      list(
+        text = "Początek okresu",
+        x = 0.02, xref = "paper",
+        y = 100, yref = "y",
+        showarrow = FALSE,
+        font = list(color = "gray", size = 10)
+      )
+    ),
+    hovermode = "x unified",
+    legend = list(
+      orientation = "h",
+      x = 0.5,
+      xanchor = "center",
+      y = -0.15
+    ),
+    margin = list(b = 100)
+  )
+
+fig_month
+```
+
+## Co to oznacza dla inwestorów?
+
+### 1. Koncentracja wzrostów
+
+Gdy główne indeksy rosną, ale szerokość rynku słabnie, oznacza to, że **wzrosty są generowane przez coraz mniejszą grupę spółek**. Na GPW są to zazwyczaj:
+
+- Największe spółki z WIG20 (szczególnie te z wysoką wagą w indeksie)
+- Spółki z sektorów preferowanych przez inwestorów zagranicznych
+- Nieliczne historie wzrostowe, które przyciągają kapitał
+
+### 2. Sygnał ostrzegawczy
+
+Negatywna dywergencja między szerokością rynku a głównym indeksem historycznie była **wczesnym sygnałem ostrzegawczym** przed:
+
+- Korektami rynkowymi
+- Zmianą trendu z wzrostowego na spadkowy  
+- Okresami zwiększonej zmienności
+
+Nie oznacza to automatycznego spadku - rynek może kontynuować wzrosty napędzany przez wąską grupę spółek przez wiele tygodni lub nawet miesięcy. Jednak **ryzyko nagłego odwrócenia trendu wzrasta**.
+
+### 3. Implikacje dla strategii inwestycyjnej
+
+W obecnej sytuacji warto rozważyć:
+
+**Dla inwestorów długoterminowych:**
+- Zachowanie ostrożności przy nowych pozycjach
+- Przegląd portfela pod kątem dywersyfikacji
+- Unikanie "gonienia się" za droższymi spółkami z WIG20
+
+**Dla traderów krótkoterminowych:**
+- Śledzenie spółek, które faktycznie uczestniczą we wzrostach
+- Zwracanie uwagi na sygnały zmiany sentymentu
+- Przygotowanie strategii defensywnych
+
+## Dalsze monitorowanie
+
+W kolejnych dniach i tygodniach kluczowe będzie obserwowanie, czy:
+
+1. **Szerokość rynku zacznie się poprawiać** - co potwierdziłoby siłę trendu wzrostowego
+2. **Główne indeksy podążą za słabnącą szerokością w dół** - realizacja negatywnej dywergencji
+3. **Sytuacja się ustabilizuje** na obecnych poziomach
+
+::: {.callout-tip}
+## Regularnie sprawdzaj indeks trendów
+
+Indeks trendów GPW jest aktualizowany codziennie. Śledź jego wartości na [stronie głównej indeksu](/indeksy/indeks-trendow-gpw.html), aby być na bieżąco z szerokością rynku.
+:::
+
+## Podsumowanie
+
+Obecna sytuacja na GPW to podręcznikowy przykład **negatywnej dywergencji**:
+
+- **Od września 2024** obserwujemy fundamentalną zmianę charakteru rynku
+- Do września indeksy i szerokość rynku poruszały się zgodnie
+- **Od września** główne indeksy rosną, ale szerokość rynku wyraźnie słabnie
+- Wzrosty są coraz bardziej skoncentrowane na wąskiej grupie spółek
+- To zwiększa ryzyko korekty w średnim terminie
+
+Świadomy inwestor powinien dostosować swoją strategię do tej sytuacji - nie panikować, ale być przygotowanym na zwiększoną zmienność i potencjalną zmianę trendu.
+
+---
+
+::: {.callout-note appearance="simple"}
+## O tej serii
+
+To pierwszy post z cyklicznej serii analiz indeksu trendów GPW. W kolejnych tygodniach będziemy regularnie monitorować szerokość rynku i identyfikować kluczowe zmiany w zachowaniu warszawskiej giełdy.
+:::
+
+**Data publikacji:** `r format(Sys.Date(), "%d %B %Y")`  
+**Dane aktualne na:** `r format(last(df_all$data), "%d %B %Y")`
+

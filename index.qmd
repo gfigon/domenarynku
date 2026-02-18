@@ -1,0 +1,29 @@
+---
+# === Wyświetlane na stronie ===
+title: "Aktualności z rynku"
+
+# === SEO - Meta tagi w <head> ===
+pagetitle: "DomenaRynku.pl - Portal świadomego inwestora | GPW, Indeksy, Sentyment"
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Kompleksowa analiza GPW, indeksy giełdowe, sentyment rynkowy. Aktualne dane, narzędzia i analizy dla świadomych inwestorów giełdowych.">
+      <meta name="keywords" content="GPW, giełda papierów wartościowych, indeksy giełdowe, sentyment giełdowy, analiza techniczna, inwestowanie, WIG20, akcje">
+
+# === Ustawienia strony ===
+title-block-banner: true
+page-layout: full
+image: images/domenarynku-logo.svg
+
+# === Ustawienia listing ===
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: cloud
+  sort-ui: false
+  filter-ui: false
+  page-size: 10
+---
+
+

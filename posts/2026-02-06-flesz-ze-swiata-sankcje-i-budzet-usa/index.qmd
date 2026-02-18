@@ -1,0 +1,37 @@
+---
+title: "Flesz ze świata: 20. pakiet sankcji UE i ryzyko shutdownu w USA"
+pagetitle: "Prasówka Światowa 6.02.2026 | DomenaRynku.pl"
+date: "2026-02-06"
+date-modified: last-modified
+categories: [Świat, Makro, Geopolityka]
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Globalny przegląd rynków: Nowe sankcje UE na rosyjskie LNG i krypto, impas budżetowy w USA oraz rozmowy USA-Iran w Omanie. Podsumowanie wydarzeń ze świata.">
+      <meta name="keywords" content="sankcje UE Rosja, shutdown USA, rozmowy USA Iran, rynek globalny, geopolityka, Breaking The News">
+---
+
+Dzisiejszy przegląd wydarzeń globalnych koncentruje się na zaostrzeniu kursu sankcyjnego Unii Europejskiej oraz narastających napięciach budżetowych w Waszyngtonie.
+
+### Geopolityka i Sankcje
+- **20. pakiet sankcji UE**: Ursula von der Leyen zaprezentowała propozycję nowych restrykcji wobec Rosji. Kluczowe punkty to całkowity zakaz transportu ropy drogą morską, uderzenie we "flotę cieni" LNG oraz zaostrzenie nadzoru nad transferami kryptowalutowymi, które są wykorzystywane do omijania dotychczasowych blokad finansowych.
+- **USA i Iran przy stole**: W Omanie doszło do rzadkich, bezpośrednich negocjacji między przedstawicielami Waszyngtonu a Teheranu. Irańskie MSZ określiło początek rozmów jako "dobry", choć zaznaczono, że dotyczą one wyłącznie konkretnych tematów spornych, a nie pełnej normalizacji stosunków.
+
+### Makroekonomia z Zachodu
+- **Widmo shutdownu w USA**: Negocjacje budżetowe między Republikanami a Demokratami w sprawie finansowania resortu bezpieczeństwa krajowego (DHS) utknęły w martwym punkcie. Brak porozumienia do końca przyszłego tygodnia może oznaczać częściowy paraliż administracji federalnej, co zawsze budzi niepokój na rynkach obligacji.
+- **TikTok pod lupą KE**: Komisja Europejska oficjalnie stwierdziła, że mechanizmy uzależniające stosowane przez platformę TikTok naruszają unijny Akt o usługach cyfrowych (DSA). To kolejny krok w stronę potencjalnie wysokich kar finansowych dla gigantów technologicznych.
+
+### Azja i Rynki Wschodzące
+- **Czystki w chińskiej bankowości**: Były wiceprezes Bank of China został wydalony z partii pod zarzutem korupcji. Pekin kontynuuje agresywną kampanię "oczyszczania" sektora finansowego, co wpływa na zmienność lokalnych indeksów bankowych.
+- **Wybory w Japonii**: Inwestorzy z uwagą śledzą nastroje przedwyborcze w Kraju Kwitnącej Wiśni. Wynik może zadecydować o dalszej polityce osłabiania jena, co jest kluczowe dla japońskich eksporterów i hossy na indeksie Nikkei.
+
+::: {.callout-important}
+## Informacja prawna
+Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży instrumentów finansowych.
+:::
+
+---
+*Źródła:*
+- [Breaking The News](https://breakingthenews.net/){rel="nofollow"}
+- [Bankier.pl](https://www.bankier.pl/wiadomosci/swiat){rel="nofollow"}
+- [Polska Agencja Prasowa](https://www.pap.pl/){rel="nofollow"}

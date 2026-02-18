@@ -1,0 +1,257 @@
+---
+# === Wyświetlane na stronie ===
+title: "Indeks trendów GPW"
+subtitle: "Analiza szerokości rynku akcji na Giełdzie Papierów Wartościowych w Warszawie"
+date-modified: last-modified
+
+# === SEO - Meta tagi w <head> ===
+pagetitle: "Indeks trendów GPW | Market breadth indicator - szerokość rynku"
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Indeks trendów GPW - market breadth indicator mierzący procent spółek w trendzie wzrostowym. Analiza szerokości rynku, sygnały hossy i bessy, dywergencje WIG i WIG20.">
+      <meta name="keywords" content="indeks trendów GPW, market breadth indicator, szerokość rynku, rynek byka, rynek niedźwiedzia, WIG, WIG20, hossa, bessa, dywergencje rynkowe, analiza techniczna GPW">
+---
+
+## O indeksie
+
+**Indeks trendów GPW** to wskaźnik szerokości rynku (market breadth indicator), który pokazuje, jaki procent spółek z najważniejszych firm notowanych na warszawskiej giełdzie znajduje się aktualnie w trendzie wzrostowym. Jest to kluczowe narzędzie do oceny rzeczywistej siły rynku – pozwala odróżnić prawdziwy rynek byka, w którym uczestniczy większość spółek, od sytuacji, gdy wzrost WIG czy WIG20 jest napędzany jedynie przez kilka dużych spółek.
+
+W odróżnieniu od klasycznych indeksów giełdowych ważonych kapitalizacją (jak WIG czy WIG20), gdzie większe spółki mają dominujący wpływ, indeks trendów traktuje każdą spółkę równo. Dzięki temu lepiej odzwierciedla kondycję całego rynku akcji i może sygnalizować nadchodzące zmiany trendu poprzez wykrywanie dywergencji między zachowaniem szerokiego rynku a głównymi indeksami.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(tidyverse)
+library(xts)
+library(plotly)
+library(knitr)
+library(kableExtra)
+
+# Wczytaj dane
+all_data <- readRDS("../data/index_trend.RDS")
+
+# Ogranicz do ostatnich 250 sesji
+all_data <- all_data[(nrow(all_data)-250):nrow(all_data),]
+
+# Konwertuj do data frame
+df <- data.frame(
+  data = index(all_data),
+  indeks_trendow = as.numeric(all_data$index_trend_perc),
+  wig20 = as.numeric(all_data$W20),
+  wig = as.numeric(all_data$WIG)
+)
+```
+
+## Wykres indeksu trendów
+
+Poniższy wykres przedstawia indeks trendów GPW na tle indeksów WIG20 i WIG z ostatnich 250 sesji giełdowych. Możesz go przybliżać i sprawdzać wartości dla konkretnych dat.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+# Normalizacja do skali 0-100 dla lepszej wizualizacji
+df_norm <- df %>%
+  mutate(
+    wig20_norm = (wig20 - min(wig20, na.rm = TRUE)) / 
+                 (max(wig20, na.rm = TRUE) - min(wig20, na.rm = TRUE)) * 100,
+    wig_norm = (wig - min(wig, na.rm = TRUE)) / 
+               (max(wig, na.rm = TRUE) - min(wig, na.rm = TRUE)) * 100
+  )
+
+# Wykres interaktywny
+fig <- plot_ly() %>%
+  add_trace(
+    data = df_norm,
+    x = ~data, 
+    y = ~indeks_trendow,
+    name = "Indeks Trendów (%)",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#3b82f6", width = 2),
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>Indeks Trendów:</b> %{y:.1f}%<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  add_trace(
+    data = df_norm,
+    x = ~data, 
+    y = ~wig20_norm,
+    name = "WIG20 (norm.)",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#f59e0b", width = 1.5),
+    yaxis = "y2",
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>WIG20:</b> %{y:.1f}<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  add_trace(
+    data = df_norm,
+    x = ~data, 
+    y = ~wig_norm,
+    name = "WIG (norm.)",
+    type = "scatter",
+    mode = "lines",
+    line = list(color = "#10b981", width = 1.5),
+    yaxis = "y2",
+    hovertemplate = paste(
+      "<b>Data:</b> %{x|%Y-%m-%d}<br>",
+      "<b>WIG:</b> %{y:.1f}<br>",
+      "<extra></extra>"
+    )
+  ) %>%
+  layout(
+    title = list(
+      text = "Indeks Trendów GPW vs WIG20 i WIG (ostatnie 250 sesji)",
+      font = list(size = 16)
+    ),
+    xaxis = list(title = "Data"),
+    yaxis = list(
+      title = "Indeks Trendów (%)",
+      side = "left",
+      range = c(0, 100)
+    ),
+    yaxis2 = list(
+      title = "WIG20 / WIG (znormalizowane 0-100)",
+      overlaying = "y",
+      side = "right",
+      range = c(0, 100)
+    ),
+    hovermode = "x unified",
+    legend = list(
+      orientation = "h",
+      x = 0.5,
+      xanchor = "center",
+      y = -0.15
+    ),
+    margin = list(b = 100)
+  )
+
+fig
+```
+
+::: callout-note
+## Jak czytać wykres?
+
+-   **Indeks Trendów (niebieski):** pokazuje procent spółek w trendzie wzrostowym (0-100%)
+-   **WIG20 i WIG (pomarańczowy/zielony):** znormalizowane do skali 0-100 dla porównywalności
+-   Wartości \> 50% w indeksie trendów sugerują przewagę trendów wzrostowych (rynek byka)
+-   Wartości \< 50% sugerują przewagę trendów spadkowych (rynek niedźwiedzia)
+:::
+
+## Ostatnie 60 sesji
+
+Tabela przedstawia szczegółowe wartości indeksu trendów oraz głównych indeksów GPW z ostatnich 60 sesji giełdowych (kwartał).
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+# Przygotuj tabelę - ostatnie 60 dni
+df_table <- df %>%
+  tail(60) %>%
+  arrange(desc(data)) %>%
+  mutate(
+    data = format(data, "%Y-%m-%d"),
+    indeks_trendow = sprintf("%.1f%%", indeks_trendow),
+    wig20 = sprintf("%.2f", wig20),
+    wig = sprintf("%.2f", wig)
+  )
+
+# Wyświetl tabelę
+kable(
+  df_table,
+  col.names = c("Data", "Indeks Trendów", "WIG20", "WIG"),
+  align = c("l", "r", "r", "r"),
+  caption = "Wartości indeksu trendów i głównych indeksów GPW (ostatnie 60 sesji)"
+) %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = FALSE,
+    position = "left",
+    font_size = 12
+  ) %>%
+  scroll_box(height = "500px")
+```
+
+## Metodologia
+
+### Uniwersum spółek
+
+Indeks trendów GPW jest budowany na podstawie **100 spółek o najwyższym średnim dziennym obrocie** na Giełdzie Papierów Wartościowych w Warszawie. Dobór spółek na podstawie płynności zapewnia, że indeks odzwierciedla rzeczywiste możliwości inwestycyjne dostępne dla uczestników rynku.
+
+Aby spółka została uwzględniona w kalkulacji, musi spełniać dodatkowy warunek: **posiadać historię notowań obejmującą minimum 250 sesji giełdowych** (około 1 rok). Ten wymóg pozwala uwzględnić w indeksie debiuty gigantów rynkowych z ostatnich lat (takich jak Allegro, Żabka czy Pepco), jednocześnie eliminując spółki o zbyt krótkiej historii, dla których analiza trendów byłaby niewystarczająco wiarygodna.
+
+### Definicja trendu
+
+Dla każdej spółki z uniwersum analiza trendu opiera się na porównaniu bieżącej ceny z **długoterminową średnią kroczącą obejmującą 200 sesji giełdowych**. Średnia 200-sesyjna jest szeroko uznanym w analizie technicznej narzędziem do określania długoterminowego kierunku ruchu ceny.
+
+Spółka uznawana jest za będącą w **trendzie wzrostowym**, gdy jej cena przebywa powyżej długoterminowej średniej kroczącej. Odwrotnie – gdy cena znajduje się poniżej średniej, spółka nie jest zaliczana do grupy będących w trendzie wzrostowym.
+
+### Obliczanie indeksu
+
+Wartość indeksu trendów to **procent spółek z uniwersum, które znajdują się w trendzie wzrostowym** w danym dniu. Każda spółka ma równy wkład w wartość indeksu (1/N, gdzie N to liczba spółek), niezależnie od jej kapitalizacji czy wartości obrotu.
+
+Matematycznie:
+
+$$
+\text{Indeks Trendów}_t = \frac{\text{Liczba spółek w trendzie wzrostowym}_t}{\text{Całkowita liczba spółek z danymi}_t} \times 100\%
+$$
+
+### Aktualizacja
+
+Indeks jest **aktualizowany codziennie przed rozpoczęciem nowej sesji GPW**, wykorzystując ceny zamknięcia z poprzedniej sesji. Dzięki temu inwestorzy rozpoczynają każdy dzień handlowy z aktualnym obrazem szerokości rynku.
+
+## Potencjalne zastosowania
+
+### 1. Ocena rzeczywistej siły rynku
+
+Indeks trendów pozwala odróżnić **prawdziwą hossę** (szeroki udział większości spółek we wzrostach) od **pozornej hossy** (wzrost napędzany tylko przez kilka dużych spółek). Gdy indeks WIG lub WIG20 rośnie, ale indeks trendów jest niski (np. poniżej 30-40%), może to świadczyć o słabości fundamentalnej ruchu i zwiększonym ryzyku odwrócenia trendu.
+
+### 2. Identyfikacja dywergencji
+
+**Dywergencje** między indeksem trendów a głównymi indeksami mogą sygnalizować nadchodzące zmiany kierunku rynku:
+
+-   **Pozytywna dywergencja (potencjalnie bullish):** Indeks trendów rośnie, podczas gdy WIG/WIG20 spadają. Sugeruje to, że szeroki rynek zaczyna się umacniać, mimo że główne indeksy jeszcze tego nie pokazują – może zapowiadać przyszły wzrost.
+
+-   **Negatywna dywergencja (potencjalnie bearish):** Indeks trendów spada, podczas gdy WIG/WIG20 rosną. Oznacza to, że wzrost głównych indeksów jest napędzany przez coraz mniejszą grupę spółek – niezdrowa sytuacja mogąca poprzedzać korektę lub bessę.
+
+### 3. Potwierdzenie trendów
+
+Silne trendy rynkowe (zarówno wzrostowe, jak i spadkowe) są bardziej wiarygodne, gdy towarzyszą im odpowiednie wartości indeksu trendów:
+
+-   **Potwierdzenie hossy:** WIG rośnie + indeks trendów \> 60-70%
+-   **Potwierdzenie bessy:** WIG spada + indeks trendów \< 30-40%
+
+### 4. Timing wejść i wyjść
+
+Ekstrema w indeksie trendów mogą wskazywać na:
+
+-   **Wyprzedanie rynku:** Indeks trendów \< 20% – potencjalna okazja do zakupów (wyprzedanie)
+-   **Wykupienie rynku:** Indeks trendów \> 80% – potencjalne ostrzeżenie przed korektą (wykupienie)
+
+::: callout-warning
+## Ważne zastrzeżenie
+
+Indeks trendów GPW jest narzędziem analitycznym wspomagającym podejmowanie decyzji inwestycyjnych, a nie systemem generującym jednoznaczne sygnały kupna lub sprzedaży. Powinien być używany w połączeniu z innymi metodami analizy i zawsze z uwzględnieniem indywidualnej tolerancji ryzyka oraz celów inwestycyjnych.
+:::
+
+------------------------------------------------------------------------
+
+::: callout-tip
+## Aktualizacje
+
+Indeks trendów GPW jest aktualizowany codziennie. Strona jest odświeżana automatycznie przed rozpoczęciem każdej nowej sesji giełdowej.
+
+Ostatnia aktualizacja danych: `{r} df_table$data[1] `
+:::
