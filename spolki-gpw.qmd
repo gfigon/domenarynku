@@ -15,13 +15,13 @@ library(DT)
 # Define company list
 companies <- data.frame(
   ticker = c(
-    "ACP", "ALE", "ALR", "APR", "ASB", "BDX", "BFT", "BHW", "CAR", "CCC", "CDR", "CIG", "CPS", "CRI", "DAD", "DIA", "DIG", "DNP", 
-    "ENA", "IFR", "JSW", "KGH", "KRU", "KTY", "LBW", "LPP", "MBK", "MIL", "OPL", "PCO", "PEO", "PEP", 
+    "11B", "ACP", "ALE", "ALR", "APT", "APR", "ASB", "BDX", "BFT", "BHW", "CAR", "CCC", "CDR", "CIG", "CPS", "CRI", "DAD", "DIA", "DIG", "DNP", 
+    "EAT", "ENA", "ENG", "IFR", "JSW", "KGH", "KRU", "KTY", "LBW", "LPP", "MBK", "MIL", "OPL", "PCO", "PEO", "PEP", 
     "PGE", "PKN", "PKO", "PXM", "PZU", "RBW", "SNT", "SPL", "TPE", "TXT", "XTB", "ZAB"
   ),
   name = c(
-    "Asseco Poland", "Allegro.eu", "Alior Bank", "Auto Partner", "Asbis", "Budimex", "Benefit Systems", "Bank Handlowy", "Inter Cars", "Grupa CCC", "CD PROJEKT", "CI Games", "Cyfrowy Polsat", "Creotech", "Dadelo", "Diagnostyka", "Digital Network", "DINO POLSKA", 
-    "ENEA", "Investment Friends", "Jastrzębska Spółka Węglowa", "KGHM Polska Miedź", "KRUK", "Grupa Kęty", "Lubawa", "LPP", "mBank", "Bank Millennium", "Orange Polska", "Pepco Group", "Bank Pekao", "Polenergia", 
+    "11 bit studios", "Asseco Poland", "Allegro.eu", "Alior Bank", "Apator", "Auto Partner", "Asbis", "Budimex", "Benefit Systems", "Bank Handlowy", "Inter Cars", "Grupa CCC", "CD PROJEKT", "CI Games", "Cyfrowy Polsat", "Creotech", "Dadelo", "Diagnostyka", "Digital Network", "DINO POLSKA", 
+    "AmRest", "ENEA", "ENERGA", "Investment Friends", "Jastrzębska Spółka Węglowa", "KGHM Polska Miedź", "KRUK", "Grupa Kęty", "Lubawa", "LPP", "mBank", "Bank Millennium", "Orange Polska", "Pepco Group", "Bank Pekao", "Polenergia", 
     "PGE Polska Grupa Energetyczna", "ORLEN", "PKO Bank Polski", "Polimex-Mostostal", "PZU", "Rainbow Tours", "Synektik", "Santander Bank Polska", "Tauron Polska Energia", "Text", "XTB", "Żabka Group"
   ),
   stringsAsFactors = FALSE
