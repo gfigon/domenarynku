@@ -1,13 +1,13 @@
 ---
-title: "Pepco Group N.V. (PCO)"
-subtitle: "Profil spółki Pepco — notowania, analiza, strategia"
-categories: [Handel i konsumpcja]
-pagetitle: "Pepco Group N.V. (PCO) | Profil spółki GPW - Notowania i Analiza"
+title: "CI Games S.A. (CIG)"
+subtitle: "Profil spółki CI Games — notowania, analiza, strategia"
+categories: [Technologie i IT]
+pagetitle: "CI Games S.A. (CIG) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
     header-includes: |
-      <meta name="description" content="Pepco Group N.V. (PCO) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Handel i konsumpcja.">
-      <meta name="keywords" content="PepCO, akco, Pcje Pepco, GPW, notowania, dyskont, odzież">
+      <meta name="description" content="CI Games S.A. (CIG) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Technologie i IT.">
+      <meta name="keywords" content="CI Games, CIG, akcje CI Games, GPW, notowania, gry, gaming">
 ---
 
 ```{r setup, include=FALSE}
@@ -29,7 +29,7 @@ get_stock_data <- function(ticker) {
   return(df)
 }
 
-stock_data <- get_stock_data("PCO")
+stock_data <- get_stock_data("CIG")
 last_row <- tail(stock_data, 1)
 last_price <- last_row$price
 last_date <- last_row$date
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** PCO | **Pepco Group N.V.** | **Siedziba:** Holandia | **WWW:** [pepco.pl](https://www.pepco.pl/){rel="nofollow"} | **Branża:** [Handel i konsumpcja](../spolki-gpw.html#category=Handel i konsumpcja)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** CIG | **CI Games S.A.** | **Siedziba:** Warszawa | **WWW:** [cigames.pl](https://www.cigames.pl/){rel="nofollow"} | **Branża:** [Technologie i IT](../spolki-gpw.html#category=Technologie i IT)
 :::
 
 ```{r}
@@ -79,7 +79,7 @@ cat(html_str)
 #| echo: false
 stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
 sma200 <- SMA(stock_xts, n = 200)
-plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena PCO") |>
+plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena CIG") |>
   add_lines(x = index(stock_xts), y = as.numeric(sma200), name = "SMA 200", line = list(color = "orange")) |>
   layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = "h", x = 0.1, y = 1.1), margin = list(t = 50))
 ```
@@ -87,38 +87,38 @@ plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode 
 ## O spółce
 
 **Profil działalności:**
-Pepco to międzynarodowa sieć sklepów dyskontowych oferujących odzież, akcesoria domowe i artykuły codziennego użytku w bardzo niskich cenach. Spółka działa w modelu dyskontowym, koncentrując się na rynku środkowej i wschodniej Europy, oferując produkty w atrakcyjnych cenach dla masowego konsumenta.
+CI Games to polski wydawca i deweloper gier komputerowych, specjalizujący się w produkcji gier akcji i RPG dla graczy na całym świecie. Spółka jest jednym z wiodących polskich studiów game dev, znanych z serii "Sniper Ghost Warrior" oraz innych popularnych tytułów.
 
 **Strategia i Perspektywy:**
-Pepco realizuje strategię ekspansji geograficznej, otwierając nowe sklepy w Europie. Model biznesowy opiera się na niskich cenach i szerokim asortymencie produktów非. Kluczowe jest utrzymanie konkurencyjności cenowej przy rosnących kosztach operacyjnych.
+CI Games rozwija własne IP i publikuje gry na platformy PC i konsole. Strategia opiera się na tworzeniu gier z potencjałem na sukces komercyjny na rynku globalnym, wykorzystując sprawdzone modele biznesowe (premium i games-as-a-service).
 
 ## Biznes
 
 **Główne linie produktowe:**
 
-* **Odzież:** Odzież damska, męska i dziecięca w niskich cenach.
+* **Gry AAA:** Duże produkcje action/RPG na PC i konsole.
 
-* **Akcesoria domowe:** Artykuły dekoracyjne, tekstylia, doniczki.
+* **Sniper Ghost Warrior:** Flagowa seria strzelanek taktycznych.
 
-* **Artykuły codzienne:** Zabawki, akcesoria kuchenne, drobna elektronika.
+* **Własne IP:** Rozwój autorskich marek i franchises.
 
-* **Seasonal:** Produkty sezonowe na święta i okazje.
+* **Wydawctwo:** Publishing gier innych studiów.
 
 **Zasoby i Surowce:**
 
-Sieć sklepów w Europie Środkowej i Wschodniej, centra dystrybucyjne, umowy z dostawcami z Azji.
+Zespół doświadczonych deweloperów, silne IP (Sniper Ghost Warrior), umowy z platformami dystrybucyjnymi (Steam, PlayStation, Xbox).
 
 ## Strategia
 
 **Kierunki rozwoju:**
 
-* **Ekspansja:** Otwieranie nowych sklepów w nowych lokalizacjach.
+* **Własne IP:** Rozwój rozpoznawalnych marek i franchises.
 
-* **Formaty:** Rozwój różnych formatów sklepów (duże, małe).
+* **Nowe gatunki:** Dywersyfikacja portfolio gier.
 
-* **Online:** Rozwój kanału e-commerce.
+* **Globalizacja:** Sprzedaż na rynkach międzynarodowych.
 
-* **Efektywność:** Optymalizacja łańcucha dostaw.
+* **Live ops:** Rozwój modeli games-as-a-service.
 
 :::: {.callout-important}
 ## Informacja prawna

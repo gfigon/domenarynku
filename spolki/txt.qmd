@@ -1,13 +1,13 @@
 ---
-title: "Pepco Group N.V. (PCO)"
-subtitle: "Profil spółki Pepco — notowania, analiza, strategia"
-categories: [Handel i konsumpcja]
-pagetitle: "Pepco Group N.V. (PCO) | Profil spółki GPW - Notowania i Analiza"
+title: "Text S.A. (TXT)"
+subtitle: "Profil spółki Text (LiveChat) — notowania, analiza, strategia"
+categories: [Technologie i IT]
+pagetitle: "Text S.A. (TXT) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
     header-includes: |
-      <meta name="description" content="Pepco Group N.V. (PCO) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Handel i konsumpcja.">
-      <meta name="keywords" content="PepCO, akco, Pcje Pepco, GPW, notowania, dyskont, odzież">
+      <meta name="description" content="Text S.A. (TXT) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Technologie i IT.">
+      <meta name="keywords" content="Text, TXT, LiveChat, akcje Text, GPW, notowania, oprogramowanie, SaaS">
 ---
 
 ```{r setup, include=FALSE}
@@ -29,7 +29,7 @@ get_stock_data <- function(ticker) {
   return(df)
 }
 
-stock_data <- get_stock_data("PCO")
+stock_data <- get_stock_data("TXT")
 last_row <- tail(stock_data, 1)
 last_price <- last_row$price
 last_date <- last_row$date
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** PCO | **Pepco Group N.V.** | **Siedziba:** Holandia | **WWW:** [pepco.pl](https://www.pepco.pl/){rel="nofollow"} | **Branża:** [Handel i konsumpcja](../spolki-gpw.html#category=Handel i konsumpcja)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** TXT | **Text S.A.** | **Siedziba:** Wrocław | **WWW:** [text.com](https://www.text.com/){rel="nofollow"} | **Branża:** [Technologie i IT](../spolki-gpw.html#category=Technologie i IT)
 :::
 
 ```{r}
@@ -79,7 +79,7 @@ cat(html_str)
 #| echo: false
 stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
 sma200 <- SMA(stock_xts, n = 200)
-plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena PCO") |>
+plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena TXT") |>
   add_lines(x = index(stock_xts), y = as.numeric(sma200), name = "SMA 200", line = list(color = "orange")) |>
   layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = "h", x = 0.1, y = 1.1), margin = list(t = 50))
 ```
@@ -87,38 +87,38 @@ plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode 
 ## O spółce
 
 **Profil działalności:**
-Pepco to międzynarodowa sieć sklepów dyskontowych oferujących odzież, akcesoria domowe i artykuły codziennego użytku w bardzo niskich cenach. Spółka działa w modelu dyskontowym, koncentrując się na rynku środkowej i wschodniej Europy, oferując produkty w atrakcyjnych cenach dla masowego konsumenta.
+Text (dawniej LiveChat Software) to wiodący polski producent oprogramowania SaaS do obsługi klienta i komunikacji. Spółka oferuje kompleksowe rozwiązania dla biznesu B2B i B2C, w tym platformy LiveChat, ChatBot oraz HelpDesk. Produktysłużą firmom na całym świecie do komunikacji z klientami w czasie rzeczywistym.
 
 **Strategia i Perspektywy:**
-Pepco realizuje strategię ekspansji geograficznej, otwierając nowe sklepy w Europie. Model biznesowy opiera się na niskich cenach i szerokim asortymencie produktów非. Kluczowe jest utrzymanie konkurencyjności cenowej przy rosnących kosztach operacyjnych.
+Text rozwija się w modelu SaaS, koncentrując się na produktach AI i automatyzacji obsługi klienta. Kluczowe jest zwiększanie bazy klientów na rynkach międzynarodowych i rozwój rozwiązań opartych na sztucznej inteligencji.
 
 ## Biznes
 
 **Główne linie produktowe:**
 
-* **Odzież:** Odzież damska, męska i dziecięca w niskich cenach.
+* **LiveChat:** Platforma do czatu na żywo dla stron internetowych.
 
-* **Akcesoria domowe:** Artykuły dekoracyjne, tekstylia, doniczki.
+* **ChatBot:** Automatyzacja obsługi klienta z wykorzystaniem AI.
 
-* **Artykuły codzienne:** Zabawki, akcesoria kuchenne, drobna elektronika.
+* **HelpDesk:** System zarządzania zgłoszeniami i wsparciem.
 
-* **Seasonal:** Produkty sezonowe na święta i okazje.
+* **Analytics:** Narzędzia do analizy komunikacji z klientem.
 
 **Zasoby i Surowce:**
 
-Sieć sklepów w Europie Środkowej i Wschodniej, centra dystrybucyjne, umowy z dostawcami z Azji.
+Zespół programistów i inżynierów, infrastruktura chmurowa, baza klientów korporacyjnych na całym świecie.
 
 ## Strategia
 
 **Kierunki rozwoju:**
 
-* **Ekspansja:** Otwieranie nowych sklepów w nowych lokalizacjach.
+* **AI:** Rozwój funkcji opartych na sztucznej inteligencji.
 
-* **Formaty:** Rozwój różnych formatów sklepów (duże, małe).
+* **Eksport:** Zwiększanie udziału klientów zagranicznych.
 
-* **Online:** Rozwój kanału e-commerce.
+* **Produkty:** Poszerzanie oferty o nowe moduły.
 
-* **Efektywność:** Optymalizacja łańcucha dostaw.
+* **Integracje:** Rozwój integracji z popularnymi platformami e-commerce.
 
 :::: {.callout-important}
 ## Informacja prawna

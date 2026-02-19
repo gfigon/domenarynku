@@ -1,13 +1,13 @@
 ---
-title: "Pepco Group N.V. (PCO)"
-subtitle: "Profil spółki Pepco — notowania, analiza, strategia"
-categories: [Handel i konsumpcja]
-pagetitle: "Pepco Group N.V. (PCO) | Profil spółki GPW - Notowania i Analiza"
+title: "Polimex-Mostostal S.A. (PXM)"
+subtitle: "Profil spółki Polimex-Mostostal — notowania, analiza, strategia"
+categories: [Nieruchomości i budownictwo]
+pagetitle: "Polimex-Mostostal S.A. (PXM) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
     header-includes: |
-      <meta name="description" content="Pepco Group N.V. (PCO) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Handel i konsumpcja.">
-      <meta name="keywords" content="PepCO, akco, Pcje Pepco, GPW, notowania, dyskont, odzież">
+      <meta name="description" content="Polimex-Mostostal S.A. (PXM) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Nieruchomości i budownictwo.">
+      <meta name="keywords" content="Polimex, Mostostal, PXM, akcje Polimex, GPW, notowania, budownictwo, konstrukcje">
 ---
 
 ```{r setup, include=FALSE}
@@ -29,7 +29,7 @@ get_stock_data <- function(ticker) {
   return(df)
 }
 
-stock_data <- get_stock_data("PCO")
+stock_data <- get_stock_data("PXM")
 last_row <- tail(stock_data, 1)
 last_price <- last_row$price
 last_date <- last_row$date
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** PCO | **Pepco Group N.V.** | **Siedziba:** Holandia | **WWW:** [pepco.pl](https://www.pepco.pl/){rel="nofollow"} | **Branża:** [Handel i konsumpcja](../spolki-gpw.html#category=Handel i konsumpcja)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** PXM | **Polimex-Mostostal S.A.** | **Siedziba:** Warszawa | **WWW:** [polimex-mostostal.pl](https://www.polimex-mostostal.pl/){rel="nofollow"} | **Branża:** [Nieruchomości i budownictwo](../spolki-gpw.html#category=Nieruchomości i budownictwo)
 :::
 
 ```{r}
@@ -79,7 +79,7 @@ cat(html_str)
 #| echo: false
 stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
 sma200 <- SMA(stock_xts, n = 200)
-plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena PCO") |>
+plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena PXM") |>
   add_lines(x = index(stock_xts), y = as.numeric(sma200), name = "SMA 200", line = list(color = "orange")) |>
   layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = "h", x = 0.1, y = 1.1), margin = list(t = 50))
 ```
@@ -87,38 +87,38 @@ plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode 
 ## O spółce
 
 **Profil działalności:**
-Pepco to międzynarodowa sieć sklepów dyskontowych oferujących odzież, akcesoria domowe i artykuły codziennego użytku w bardzo niskich cenach. Spółka działa w modelu dyskontowym, koncentrując się na rynku środkowej i wschodniej Europy, oferując produkty w atrakcyjnych cenach dla masowego konsumenta.
+Polimex-Mostostal to wiodąca polska firma budowlana specjalizująca się w kompleksowej realizacji inwestycji przemysłowych, energetycznych i infrastrukturalnych. Spółka działa jako generalny wykonawca dużych projektów budowlanych, oferując usługi od projektowania po oddanie obiektu "pod klucz".
 
 **Strategia i Perspektywy:**
-Pepco realizuje strategię ekspansji geograficznej, otwierając nowe sklepy w Europie. Model biznesowy opiera się na niskich cenach i szerokim asortymencie produktów非. Kluczowe jest utrzymanie konkurencyjności cenowej przy rosnących kosztach operacyjnych.
+Firma koncentruje się na segmencie inwestycji przemysłowych i energetycznych, gdzie ma silną pozycję rynkową. Kluczowe jest pozyskiwanie dużych kontraktów i efektywne zarządzanie projektami budowlanymi.
 
 ## Biznes
 
 **Główne linie produktowe:**
 
-* **Odzież:** Odzież damska, męska i dziecięca w niskich cenach.
+* **Budownictwo przemysłowe:** Hale produkcyjne, magazyny, obiekty przemysłowe.
 
-* **Akcesoria domowe:** Artykuły dekoracyjne, tekstylia, doniczki.
+* **Infrastruktura:** Drogi, mosty, obiekty infrastrukturalne.
 
-* **Artykuły codzienne:** Zabawki, akcesoria kuchenne, drobna elektronika.
+* **Energetyka:** Budowa elektrowni i obiektów energetycznych.
 
-* **Seasonal:** Produkty sezonowe na święta i okazje.
+* **Usługi inżynieryjne:** Projektowanie i zarządzanie inwestycjami.
 
 **Zasoby i Surowce:**
 
-Sieć sklepów w Europie Środkowej i Wschodniej, centra dystrybucyjne, umowy z dostawcami z Azji.
+Doświadczony zespół inżynierów i budowlańców, park maszynowy, certyfikaty i referencje z dużych projektów.
 
 ## Strategia
 
 **Kierunki rozwoju:**
 
-* **Ekspansja:** Otwieranie nowych sklepów w nowych lokalizacjach.
+* **Kontrakty przemysłowe:** Pozyskiwanie dużych projektów dla przemysłu.
 
-* **Formaty:** Rozwój różnych formatów sklepów (duże, małe).
+* **Energetyka:** Udział w budowie obiektów energetycznych i OZE.
 
-* **Online:** Rozwój kanału e-commerce.
+* **Efektywność:** Optymalizacja kosztów realizacji projektów.
 
-* **Efektywność:** Optymalizacja łańcucha dostaw.
+* **Bezpieczeństwo:** Wysokie standardy BHP i jakości.
 
 :::: {.callout-important}
 ## Informacja prawna
