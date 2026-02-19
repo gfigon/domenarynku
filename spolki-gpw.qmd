@@ -15,14 +15,14 @@ library(DT)
 # Define company list
 companies <- data.frame(
   ticker = c(
-    "11B", "ACP", "ALE", "ALR", "APT", "APR", "ASB", "ATT", "BDX", "BFT", "BHW", "CAR", "CCC", "CDR", "CIG", "CPS", "CRI", "DAD", "DIA", "DIG", "DNP", 
-    "EAT", "ENA", "ENG", "FRO", "GPW", "IFR", "JSW", "KGH", "KRU", "KTY", "LBW", "LPP", "MBK", "MBR", "MIL", "MRB", "OPL", "PCO", "PEO", "PEP", 
-    "PGE", "PKN", "PKO", "PKP", "PXM", "PZU", "RBW", "SNT", "SPL", "TEN", "TOR", "TPE", "TXT", "WPL", "XTB", "ZAB"
+    "11B", "ACP", "ALE", "ALR", "APT", "APR", "ASB", "ATT", "BDX", "BFT", "BHW", "CAR", "CCC", "CDR", "CIG", "CPS", "CRI", "DAD", "DAT", "DIA", "DIG", "DNP", 
+    "EAT", "ENA", "ENG", "FRO", "GPW", "GRX", "IFR", "ING", "JSW", "KGH", "KRU", "KTY", "LBW", "LPP", "MBK", "MBR", "MIL", "MRB", "OPL", "PCO", "PEO", "PEP", 
+    "PGE", "PKN", "PKO", "PKP", "PXM", "PZU", "RBW", "SLV", "SNT", "SPL", "TEN", "TOR", "TPE", "TRK", "TXT", "WPL", "XTB", "ZAB"
   ),
   name = c(
-    "11 bit studios", "Asseco Poland", "Allegro.eu", "Alior Bank", "Apator", "Auto Partner", "Asbis", "Grupa Azoty", "Budimex", "Benefit Systems", "Bank Handlowy", "Inter Cars", "Grupa CCC", "CD PROJEKT", "CI Games", "Cyfrowy Polsat", "Creotech", "Dadelo", "Diagnostyka", "Digital Network", "DINO POLSKA", 
-    "AmRest", "ENEA", "ENERGA", "Ferro", "Giełda Papierów Wartościowych", "Investment Friends", "Jastrzębska Spółka Węglowa", "KGHM Polska Miedź", "KRUK", "Grupa Kęty", "Lubawa", "LPP", "mBank", "Mo-BRUK", "Bank Millennium", "MIRBUD", "Orange Polska", "Pepco Group", "Bank Pekao", "Polenergia", 
-    "PGE Polska Grupa Energetyczna", "ORLEN", "PKO Bank Polski", "PKP Cargo", "Polimex-Mostostal", "PZU", "Rainbow Tours", "Synektik", "Santander Bank Polska", "Ten Square Games", "Torpol", "Tauron Polska Energia", "Text", "Wirtualna Polska", "XTB", "Żabka Group"
+    "11 bit studios", "Asseco Poland", "Allegro.eu", "Alior Bank", "Apator", "Auto Partner", "Asbis", "Grupa Azoty", "Budimex", "Benefit Systems", "Bank Handlowy", "Inter Cars", "Grupa CCC", "CD PROJEKT", "CI Games", "Cyfrowy Polsat", "Creotech", "Dadelo", "DataWalk", "Diagnostyka", "Digital Network", "DINO POLSKA", 
+    "AmRest", "ENEA", "ENERGA", "Ferro", "Giełda Papierów Wartościowych", "GreenX Metals", "Investment Friends", "ING Bank Śląski", "Jastrzębska Spółka Węglowa", "KGHM Polska Miedź", "KRUK", "Grupa Kęty", "Lubawa", "LPP", "mBank", "Mo-BRUK", "Bank Millennium", "MIRBUD", "Orange Polska", "Pepco Group", "Bank Pekao", "Polenergia", 
+    "PGE Polska Grupa Energetyczna", "ORLEN", "PKO Bank Polski", "PKP Cargo", "Polimex-Mostostal", "PZU", "Rainbow Tours", "Selvita", "Synektik", "Santander Bank Polska", "Ten Square Games", "Torpol", "Tauron Polska Energia", "Trakcja", "Text", "Wirtualna Polska", "XTB", "Żabka Group"
   ),
   stringsAsFactors = FALSE
 )
