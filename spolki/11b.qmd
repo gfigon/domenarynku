@@ -100,7 +100,7 @@ plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode 
 
 * **Frostpunk:** Strategia przetrwania w świecie lodowcowym.
 
-* **Publishing:** Wydawanie gier innych studiów (Moonlighter, Battlestar Galactica).
+* **Publishing:** Wydawanie gier innych studiów (Moonlighter, Children of Morta, The Thaumaturge).
 
 * **Deweloping:** Tworzenie własnych gier na PC i konsole.
 
