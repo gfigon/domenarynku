@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://domenarynku.pl/spolki-gpw.html</loc>
-    <lastmod>2026-02-19T15:32:15.724Z</lastmod>
+    <lastmod>2026-02-19T15:43:39.635Z</lastmod>
   </url>
   <url>
     <loc>https://domenarynku.pl/sentyment-rynku/polska.html</loc>
@@ -137,6 +137,10 @@
     <lastmod>2026-02-19T14:41:52.051Z</lastmod>
   </url>
   <url>
+    <loc>https://domenarynku.pl/spolki/pas.html</loc>
+    <lastmod>2026-02-19T15:40:40.333Z</lastmod>
+  </url>
+  <url>
     <loc>https://domenarynku.pl/spolki/dig.html</loc>
     <lastmod>2026-02-19T13:32:26.460Z</lastmod>
   </url>
@@ -177,56 +181,68 @@
     <lastmod>2026-02-19T15:09:26.636Z</lastmod>
   </url>
   <url>
-    <loc>https://domenarynku.pl/spolki/gpw.html</loc>
-    <lastmod>2026-02-19T14:40:43.835Z</lastmod>
+    <loc>https://domenarynku.pl/spolki/bnp.html</loc>
+    <lastmod>2026-02-19T15:42:29.587Z</lastmod>
   </url>
   <url>
-    <loc>https://domenarynku.pl/spolki/mls.html</loc>
-    <lastmod>2026-02-19T15:31:17.438Z</lastmod>
+    <loc>https://domenarynku.pl/spolki/all.html</loc>
+    <lastmod>2026-02-19T15:41:10.451Z</lastmod>
   </url>
   <url>
-    <loc>https://domenarynku.pl/spolki/wpl.html</loc>
-    <lastmod>2026-02-19T14:40:06.472Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/spolki/clc.html</loc>
-    <lastmod>2026-02-19T15:31:40.287Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/spolki/tor.html</loc>
-    <lastmod>2026-02-19T14:50:42.798Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/spolki/plw.html</loc>
-    <lastmod>2026-02-19T15:00:55.842Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/spolki/dnp.html</loc>
-    <lastmod>2026-02-19T13:32:26.460Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/spolki/cps.html</loc>
-    <lastmod>2026-02-19T13:32:26.460Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/spolki/elt.html</loc>
-    <lastmod>2026-02-19T15:02:09.398Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/spolki/pge.html</loc>
-    <lastmod>2026-02-19T13:32:26.462Z</lastmod>
-  </url>
-  <url>
-    <loc>https://domenarynku.pl/spolki/bmc.html</loc>
-    <lastmod>2026-02-19T14:49:31.117Z</lastmod>
+    <loc>https://domenarynku.pl/spolki/lbw.html</loc>
+    <lastmod>2026-02-19T13:32:26.461Z</lastmod>
   </url>
   <url>
     <loc>https://domenarynku.pl/spolki/ena.html</loc>
     <lastmod>2026-02-19T14:01:04.022Z</lastmod>
   </url>
   <url>
-    <loc>https://domenarynku.pl/spolki/lbw.html</loc>
-    <lastmod>2026-02-19T13:32:26.461Z</lastmod>
+    <loc>https://domenarynku.pl/spolki/bmc.html</loc>
+    <lastmod>2026-02-19T14:49:31.117Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/spolki/pge.html</loc>
+    <lastmod>2026-02-19T13:32:26.462Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/spolki/elt.html</loc>
+    <lastmod>2026-02-19T15:02:09.398Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/spolki/cps.html</loc>
+    <lastmod>2026-02-19T13:32:26.460Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/spolki/dnp.html</loc>
+    <lastmod>2026-02-19T13:32:26.460Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/spolki/plw.html</loc>
+    <lastmod>2026-02-19T15:00:55.842Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/spolki/tor.html</loc>
+    <lastmod>2026-02-19T14:50:42.798Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/spolki/clc.html</loc>
+    <lastmod>2026-02-19T15:31:40.287Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/spolki/wpl.html</loc>
+    <lastmod>2026-02-19T14:40:06.472Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/spolki/mls.html</loc>
+    <lastmod>2026-02-19T15:31:17.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/spolki/crj.html</loc>
+    <lastmod>2026-02-19T15:43:05.646Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/spolki/gpw.html</loc>
+    <lastmod>2026-02-19T14:40:43.835Z</lastmod>
   </url>
   <url>
     <loc>https://domenarynku.pl/spolki/toa.html</loc>
@@ -271,6 +287,10 @@
   <url>
     <loc>https://domenarynku.pl/spolki/att.html</loc>
     <lastmod>2026-02-19T14:41:12.936Z</lastmod>
+  </url>
+  <url>
+    <loc>https://domenarynku.pl/spolki/ice.html</loc>
+    <lastmod>2026-02-19T15:41:41.782Z</lastmod>
   </url>
   <url>
     <loc>https://domenarynku.pl/spolki/bhw.html</loc>
