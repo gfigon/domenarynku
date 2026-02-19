@@ -15,14 +15,14 @@ library(DT)
 # Define company list
 companies <- data.frame(
   ticker = c(
-    "ACP", "ALE", "ALR", "BDX", "BFT", "CAR", "CCC", "CDR", "DIG", "DNP", 
-    "JSW", "KGH", "KRU", "KTY", "LBW", "LPP", "MBK", "MIL", "PEO", "PEP", 
-    "PGE", "PKN", "PKO", "PZU", "SPL", "TPE", "XTB", "ZAB"
+    "ACP", "ALE", "ALR", "APR", "BDX", "BFT", "CAR", "CCC", "CDR", "CPS", "DAD", "DIA", "DIG", "DNP", 
+    "JSW", "KGH", "KRU", "KTY", "LBW", "LPP", "MBK", "MIL", "OPL", "PEO", "PEP", 
+    "PGE", "PKN", "PKO", "PZU", "RBW", "SPL", "TPE", "XTB", "ZAB"
   ),
   name = c(
-    "Asseco Poland", "Allegro.eu", "Alior Bank", "Budimex", "Benefit Systems", "Inter Cars", "Grupa CCC", "CD PROJEKT", "Digital Network", "DINO POLSKA", 
-    "Jastrzębska Spółka Węglowa", "KGHM Polska Miedź", "KRUK", "Grupa Kęty", "Lubawa", "LPP", "mBank", "Bank Millennium", "Bank Pekao", "Polenergia", 
-    "PGE Polska Grupa Energetyczna", "ORLEN", "PKO Bank Polski", "PZU", "Santander Bank Polska", "Tauron Polska Energia", "XTB", "Żabka Group"
+    "Asseco Poland", "Allegro.eu", "Alior Bank", "Auto Partner", "Budimex", "Benefit Systems", "Inter Cars", "Grupa CCC", "CD PROJEKT", "Cyfrowy Polsat", "Dadelo", "Diagnostyka", "Digital Network", "DINO POLSKA", 
+    "Jastrzębska Spółka Węglowa", "KGHM Polska Miedź", "KRUK", "Grupa Kęty", "Lubawa", "LPP", "mBank", "Bank Millennium", "Orange Polska", "Bank Pekao", "Polenergia", 
+    "PGE Polska Grupa Energetyczna", "ORLEN", "PKO Bank Polski", "PZU", "Rainbow Tours", "Santander Bank Polska", "Tauron Polska Energia", "XTB", "Żabka Group"
   ),
   stringsAsFactors = FALSE
 )

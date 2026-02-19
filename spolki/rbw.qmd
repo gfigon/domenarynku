@@ -1,13 +1,13 @@
 ---
-title: "Benefit Systems S.A. (BFT)"
-subtitle: "Profil spółki Benefit Systems — notowania, analiza, strategia"
+title: "Rainbow Tours S.A. (RBW)"
+subtitle: "Profil spółki Rainbow Tours — notowania, analiza, strategia"
 categories: [Handel i konsumpcja]
-pagetitle: "Benefit Systems S.A. (BFT) | Profil spółki GPW - Notowania i Analiza"
+pagetitle: "Rainbow Tours S.A. (RBW) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
     header-includes: |
-      <meta name="description" content="Benefit Systems S.A. (BFT) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Handel i konsumpcja.">
-      <meta name="keywords" content="Benefit Systems, BFT, akcje Benefit, GPW, notowania, karty benefit, multisport, fitpass">
+      <meta name="description" content="Rainbow Tours S.A. (RBW) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Handel i konsumpcja.">
+      <meta name="keywords" content="Rainbow Tours, RBW, akcje Rainbow Tours, GPW, notowania, biuro podróży, wakacje, turystyka">
 ---
 
 ```{r setup, include=FALSE}
@@ -29,7 +29,7 @@ get_stock_data <- function(ticker) {
   return(df)
 }
 
-stock_data <- get_stock_data("BFT")
+stock_data <- get_stock_data("RBW")
 last_row <- tail(stock_data, 1)
 last_price <- last_row$price
 last_date <- last_row$date
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** BFT | **Benefit Systems S.A.** | **Siedziba:** Warszawa | **WWW:** [benefitsystems.pl](https://www.benefitsystems.pl/){rel="nofollow"} | **Branża:** [Handel i konsumpcja](../spolki-gpw.html#category=Handel i konsumpcja)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** RBW | **Rainbow Tours S.A.** | **Siedziba:** Łódź | **WWW:** [r.pl](https://r.pl/){rel="nofollow"} | **Branża:** [Handel i konsumpcja](../spolki-gpw.html#category=Handel i konsumpcja)
 :::
 
 ```{r}
@@ -79,7 +79,7 @@ cat(html_str)
 #| echo: false
 stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
 sma200 <- SMA(stock_xts, n = 200)
-plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena BFT") |>
+plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena RBW") |>
   add_lines(x = index(stock_xts), y = as.numeric(sma200), name = "SMA 200", line = list(color = "orange")) |>
   layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = "h", x = 0.1, y = 1.1), margin = list(t = 50))
 ```
@@ -87,37 +87,40 @@ plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode 
 ## O spółce
 
 **Profil działalności:**
-Benefit Systems to wiodący dostawca kart benefitowych i platformy do obsługi benefitów pracowniczych w Polsce. Spółka oferuje popularne programy MultiSport i FitSport, umożliwiające pracownikom korzystanie z siłowni, basenów i innych obiektów sportowych. Model biznesowy opiera się na współpracy z pracodawcami.
+Rainbow Tours to jeden z liderów rynku turystycznego w Polsce. Spółka zajmuje się organizacją wyjazdów wakacyjnych, wycieczek objazdowych oraz sprzedażą biletów lotniczych. Obsługuje ponad 100 kierunków na całym świecie i posiada rozbudowaną sieć biur sprzedaży oraz jeden z najpopularniejszych portali turystycznych w Polsce — r.pl.
 
 **Strategia i Perspektywy:**
-Benefit Systems rozwija się poprzez ekspansję liczby użytkowników kart oraz zwiększanie wartości kontraktów. Kluczowe jest alsobudowanie nowych partnerstw z pracodawcami i rozszerzanie sieci obiektów sportowych.
+Model biznesowy Rainbow opiera się na własnej sieci dystrybucji i czarterach. Spółka sukcesywnie rozwija własną bazę hotelową pod marką White Olive (głównie w Grecji), co pozwala na przejmowanie większej części marży z łańcucha wartości usług turystycznych.
 
 ## Biznes
 
 **Główne linie produktowe:**
 
-* **Karty MultiSport:** Dostęp do sieci obiektów sportowych w całej Polsce.
+* **Wczasy (Charter):** Masowa turystyka wypoczynkowa w basenie Morza Śródziemnego i kierunkach egzotycznych.
 
-* **FitSport:** Programy fitness dla firm i klientów indywidualnych.
+* **Wycieczki objazdowe:** Specjalistyczne imprezy turystyczne z bogatym programem zwiedzania.
 
-* **Platforma obsługowa:** Systemy do zarządzania benefitami dla HR.
+* **Wycieczki egzotyczne:** Wykorzystanie nowoczesnych samolotów Dreamliner do dalekich tras.
+
+* **Hotele własne:** Zarządzanie obiektami noclegowymi pod własnym brandem.
 
 **Zasoby i Surowce:**
 
-Działalność opiera się na sieci partnerów sportowych (siłownie, baseny), platformach IT oraz relacjach z pracodawcami.
+Portfel kontraktów z liniami lotniczymi, system rezerwacyjny r.pl, marka o wysokiej rozpoznawalności oraz kapitał relacyjny z hotelarzami na całym świecie.
 
 ## Strategia
 
 **Kierunki rozwoju:**
 
-* **Ekspansja użytkowników:** Zwiększanie bazy pracodawców oferujących karty.
+* **Integracja pionowa:** Budowa i akwizycja kolejnych hoteli własnych.
 
-* **Nowe produkty:** Rozwój oferty benefitów (wellness, mental health).
+* **Multikanałowość:** Rozwój sprzedaży mobilnej i omnichannel.
 
-* **Cyfryzacja:** Aplikacje mobilne i platformy obsługowe.
+* **Egzotyka:** Rozszerzanie oferty wyjazdów dalekobieżnych dostępnych bezpośrednio z Polski.
+
+* **Efektywność kosztowa:** Optymalizacja siatki połączeń czarterowych.
 
 :::: {.callout-important}
 ## Informacja prawna
 Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
 ::::
-

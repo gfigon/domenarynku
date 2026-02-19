@@ -1,12 +1,12 @@
 ---
 title: "Inter Cars S.A. (CAR)"
 subtitle: "Profil spółki Inter Cars — notowania, analiza, strategia"
-categories: [Motoryzacja, Dystrybucja]
+categories: [Przemysł i produkcja]
 pagetitle: "Inter Cars S.A. (CAR) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
     header-includes: |
-      <meta name="description" content="Inter Cars S.A. (CAR) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Motoryzacja.">
+      <meta name="description" content="Inter Cars S.A. (CAR) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Przemysł i produkcja.">
       <meta name="keywords" content="Inter Cars, CAR, akcje Inter Cars, GPW, notowania, części samochodowe, dystrybucja, motoryzacja">
 ---
 
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** CAR | **Inter Cars S.A.** | **Siedziba:** Warszawa | **WWW:** [intercars.com.pl](https://inwestor.intercars.com.pl/){rel="nofollow"} | **Branża:** [Motoryzacja](../spolki-gpw.html#category=Motoryzacja) | **Podbranża:** [Dystrybucja](../spolki-gpw.html#category=Dystrybucja)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** CAR | **Inter Cars S.A.** | **Siedziba:** Warszawa | **WWW:** [intercars.com.pl](https://inwestor.intercars.com.pl/){rel="nofollow"} | **Branża:** [Przemysł i produkcja](../spolki-gpw.html#category=Przemys%C5%82 i produkcja)
 :::
 
 ```{r}

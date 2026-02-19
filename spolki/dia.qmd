@@ -1,13 +1,13 @@
 ---
-title: "Benefit Systems S.A. (BFT)"
-subtitle: "Profil spółki Benefit Systems — notowania, analiza, strategia"
-categories: [Handel i konsumpcja]
-pagetitle: "Benefit Systems S.A. (BFT) | Profil spółki GPW - Notowania i Analiza"
+title: "Diagnostyka S.A. (DIA)"
+subtitle: "Profil spółki Diagnostyka — notowania, analiza, strategia"
+categories: [Zdrowie i farmacja]
+pagetitle: "Diagnostyka S.A. (DIA) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
     header-includes: |
-      <meta name="description" content="Benefit Systems S.A. (BFT) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Handel i konsumpcja.">
-      <meta name="keywords" content="Benefit Systems, BFT, akcje Benefit, GPW, notowania, karty benefit, multisport, fitpass">
+      <meta name="description" content="Diagnostyka S.A. (DIA) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Zdrowie i farmacja.">
+      <meta name="keywords" content="Diagnostyka, DIA, akcje Diagnostyka, GPW, notowania, medycyna, badania laboratoryjne">
 ---
 
 ```{r setup, include=FALSE}
@@ -29,7 +29,7 @@ get_stock_data <- function(ticker) {
   return(df)
 }
 
-stock_data <- get_stock_data("BFT")
+stock_data <- get_stock_data("DIA")
 last_row <- tail(stock_data, 1)
 last_price <- last_row$price
 last_date <- last_row$date
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** BFT | **Benefit Systems S.A.** | **Siedziba:** Warszawa | **WWW:** [benefitsystems.pl](https://www.benefitsystems.pl/){rel="nofollow"} | **Branża:** [Handel i konsumpcja](../spolki-gpw.html#category=Handel i konsumpcja)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** DIA | **Diagnostyka S.A.** | **Siedziba:** Kraków | **WWW:** [diagnostyka.pl](https://diagnostyka.pl/){rel="nofollow"} | **Branża:** [Zdrowie i farmacja](../spolki-gpw.html#category=Zdrowie i farmacja)
 :::
 
 ```{r}
@@ -79,7 +79,7 @@ cat(html_str)
 #| echo: false
 stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
 sma200 <- SMA(stock_xts, n = 200)
-plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena BFT") |>
+plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena DIA") |>
   add_lines(x = index(stock_xts), y = as.numeric(sma200), name = "SMA 200", line = list(color = "orange")) |>
   layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = "h", x = 0.1, y = 1.1), margin = list(t = 50))
 ```
@@ -87,37 +87,40 @@ plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode 
 ## O spółce
 
 **Profil działalności:**
-Benefit Systems to wiodący dostawca kart benefitowych i platformy do obsługi benefitów pracowniczych w Polsce. Spółka oferuje popularne programy MultiSport i FitSport, umożliwiające pracownikom korzystanie z siłowni, basenów i innych obiektów sportowych. Model biznesowy opiera się na współpracy z pracodawcami.
+Diagnostyka S.A. to największa w Polsce sieć laboratoriów medycznych. Spółka zarządza ponad 1100 punktami pobrań oraz 150 laboratoriami diagnostycznymi w całym kraju. Świadczy kompleksowe usługi diagnostyki laboratoryjnej i obrazowej zarówno dla pacjentów indywidualnych, jak i instytucjonalnych (szpitale, kliniki).
 
 **Strategia i Perspektywy:**
-Benefit Systems rozwija się poprzez ekspansję liczby użytkowników kart oraz zwiększanie wartości kontraktów. Kluczowe jest alsobudowanie nowych partnerstw z pracodawcami i rozszerzanie sieci obiektów sportowych.
+Spółka koncentruje się na konsolidacji rynku diagnostyki w Polsce oraz rozwoju zaawansowanych badań genetycznych i medycyny prewencyjnej (Longevity+). Kluczowa jest cyfryzacja usług i automatyzacja procesów laboratoryjnych w celu zwiększenia efektywności i jakości badań.
 
 ## Biznes
 
 **Główne linie produktowe:**
 
-* **Karty MultiSport:** Dostęp do sieci obiektów sportowych w całej Polsce.
+* **Badania podstawowe:** Morfologia, biochemia, koagulologia.
 
-* **FitSport:** Programy fitness dla firm i klientów indywidualnych.
+* **Badania specjalistyczne:** Genetyka molekularna, histopatologia, cytologia.
 
-* **Platforma obsługowa:** Systemy do zarządzania benefitami dla HR.
+* **Diagnostyka obrazowa:** RTG, USG, rezonans i tomografia.
+
+* **Pakiety profilaktyczne:** Zindywidualizowane zestawy badań dla różnych grup pacjentów.
 
 **Zasoby i Surowce:**
 
-Działalność opiera się na sieci partnerów sportowych (siłownie, baseny), platformach IT oraz relacjach z pracodawcami.
+Najnowocześniejsza aparatura laboratoryjna, wysoko wykwalifikowany personel medyczny, ogólnopolska sieć punktów pobrań i centra logistyki medycznej.
 
 ## Strategia
 
 **Kierunki rozwoju:**
 
-* **Ekspansja użytkowników:** Zwiększanie bazy pracodawców oferujących karty.
+* **Rozwój e-zdrowia:** Rozbudowa portalu pacjenta i wyników online.
 
-* **Nowe produkty:** Rozwój oferty benefitów (wellness, mental health).
+* **Medycyna Personalizowana:** Inwestycje w diagnostykę genetyczną i onkologiczną.
 
-* **Cyfryzacja:** Aplikacje mobilne i platformy obsługowe.
+* **Ekspansja Sieci:** Dalsze powiększanie liczby punktów pobrań w mniejszych miastach.
+
+* **Automatyzacja:** Wdrażanie systemów robotycznych w dużych laboratoriach centralnych.
 
 :::: {.callout-important}
 ## Informacja prawna
 Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
 ::::
-

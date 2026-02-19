@@ -1,13 +1,13 @@
 ---
-title: "Benefit Systems S.A. (BFT)"
-subtitle: "Profil spółki Benefit Systems — notowania, analiza, strategia"
-categories: [Handel i konsumpcja]
-pagetitle: "Benefit Systems S.A. (BFT) | Profil spółki GPW - Notowania i Analiza"
+title: "Cyfrowy Polsat S.A. (CPS)"
+subtitle: "Profil spółki Cyfrowy Polsat — notowania, analiza, strategia"
+categories: [Media i komunikacja]
+pagetitle: "Cyfrowy Polsat S.A. (CPS) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
     header-includes: |
-      <meta name="description" content="Benefit Systems S.A. (BFT) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Handel i konsumpcja.">
-      <meta name="keywords" content="Benefit Systems, BFT, akcje Benefit, GPW, notowania, karty benefit, multisport, fitpass">
+      <meta name="description" content="Cyfrowy Polsat S.A. (CPS) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Media i komunikacja.">
+      <meta name="keywords" content="Cyfrowy Polsat, CPS, akcje Cyfrowy Polsat, GPW, notowania, Polsat Plus, Plus, Polsat Box">
 ---
 
 ```{r setup, include=FALSE}
@@ -29,7 +29,7 @@ get_stock_data <- function(ticker) {
   return(df)
 }
 
-stock_data <- get_stock_data("BFT")
+stock_data <- get_stock_data("CPS")
 last_row <- tail(stock_data, 1)
 last_price <- last_row$price
 last_date <- last_row$date
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** BFT | **Benefit Systems S.A.** | **Siedziba:** Warszawa | **WWW:** [benefitsystems.pl](https://www.benefitsystems.pl/){rel="nofollow"} | **Branża:** [Handel i konsumpcja](../spolki-gpw.html#category=Handel i konsumpcja)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** CPS | **Cyfrowy Polsat S.A.** | **Siedziba:** Warszawa | **WWW:** [grupa.polsatplus.pl](https://grupa.polsatplus.pl/){rel="nofollow"} | **Branża:** [Media i komunikacja](../spolki-gpw.html#category=Media i komunikacja)
 :::
 
 ```{r}
@@ -79,7 +79,7 @@ cat(html_str)
 #| echo: false
 stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
 sma200 <- SMA(stock_xts, n = 200)
-plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena BFT") |>
+plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena CPS") |>
   add_lines(x = index(stock_xts), y = as.numeric(sma200), name = "SMA 200", line = list(color = "orange")) |>
   layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = "h", x = 0.1, y = 1.1), margin = list(t = 50))
 ```
@@ -87,37 +87,40 @@ plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode 
 ## O spółce
 
 **Profil działalności:**
-Benefit Systems to wiodący dostawca kart benefitowych i platformy do obsługi benefitów pracowniczych w Polsce. Spółka oferuje popularne programy MultiSport i FitSport, umożliwiające pracownikom korzystanie z siłowni, basenów i innych obiektów sportowych. Model biznesowy opiera się na współpracy z pracodawcami.
+Cyfrowy Polsat (Grupa Polsat Plus) to największa grupa medialno-telekomunikacyjna w Polsce. Oferuje zintegrowane usługi multimedialne: płatną telewizję (Polsat Box), telefonię komórkową oraz internet (Plus). Grupa posiada również bogate portfolio kanałów telewizyjnych oraz portali internetowych (Interia.pl).
 
 **Strategia i Perspektywy:**
-Benefit Systems rozwija się poprzez ekspansję liczby użytkowników kart oraz zwiększanie wartości kontraktów. Kluczowe jest alsobudowanie nowych partnerstw z pracodawcami i rozszerzanie sieci obiektów sportowych.
+Spółka realizuje strategię multiplay, łącząc usługi telekomunikacyjne z mediami i e-commerce. Kluczowym nowym filarem jest segment "Zielonej Energii" — inwestycje w OZE (wiatr, słońce) oraz technologię wodorową, co ma zdywersyfikować przychody i obniżyć ślad węglowy grupy.
 
 ## Biznes
 
 **Główne linie produktowe:**
 
-* **Karty MultiSport:** Dostęp do sieci obiektów sportowych w całej Polsce.
+* **Telekomunikacja:** Usługi głosowe i transmisja danych pod marką Plus (5G).
 
-* **FitSport:** Programy fitness dla firm i klientów indywidualnych.
+* **Media:** Telewizja satelitarna i kablowa (Polsat Box), streaming (Polsat Box Go) oraz produkcja treści.
 
-* **Platforma obsługowa:** Systemy do zarządzania benefitami dla HR.
+* **Energetyka:** Produkcja i sprzedaż zielonej energii oraz wodoru.
+
+* **E-commerce i Finanse:** Usługi płatnicze i ubezpieczeniowe powiązane z ofertą bazową.
 
 **Zasoby i Surowce:**
 
-Działalność opiera się na sieci partnerów sportowych (siłownie, baseny), platformach IT oraz relacjach z pracodawcami.
+Infrastruktura telekomunikacyjna (stacje bazowe, światłowody), koncesje na częstotliwości, prawa do transmisji sportowych i biblioteka filmowa, oraz farmy OZE.
 
 ## Strategia
 
 **Kierunki rozwoju:**
 
-* **Ekspansja użytkowników:** Zwiększanie bazy pracodawców oferujących karty.
+* **Rozwój 5G:** Utrzymanie pozycji lidera technologicznego w Polsce.
 
-* **Nowe produkty:** Rozwój oferty benefitów (wellness, mental health).
+* **Zielona Energia:** Osiągnięcie neutralności klimatycznej i budowa pozycji na rynku energii.
 
-* **Cyfryzacja:** Aplikacje mobilne i platformy obsługowe.
+* **Content is King:** Inwestycje w autorskie produkcje i treści sportowe.
+
+* **Cross-selling:** Zwiększanie wskaźnika usług na jednego klienta (ARPU).
 
 :::: {.callout-important}
 ## Informacja prawna
 Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
 ::::
-
