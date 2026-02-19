@@ -1,0 +1,126 @@
+---
+title: "Giełda Papierów Wartościowych w Warszawie S.A. (GPW)"
+subtitle: "Profil GPW — notowania, analiza, strategia"
+categories: [Finanse]
+pagitle: "Giełda Papierów Wartościowych w Warszawie S.A. (GPW) | Profil spółki GPW - Notowania i Analiza"
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Giełda Papierów Wartościowych w Warszawie S.A. (GPW) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Finanse.">
+      <meta name="keywords" content="GPW, Giełda Papierów Wartościowych, akcje GPW, GPW notowania, giełda, warszawa">
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(htmltools)
+library(plotly)
+library(xts)
+library(TTR)
+
+get_stock_data <- function(ticker) {
+  path <- "../data/prices100.RDS"
+  if(!file.exists(path)) return(NULL)
+  prices_all <- readRDS(path)
+  col_idx <- which(names(prices_all) == ticker)
+  if(length(col_idx) == 0) return(NULL)
+  df <- prices_all[, c(1, col_idx)]
+  names(df) <- c("date", "price")
+  df <- df |> filter(!is.na(price))
+  return(df)
+}
+
+stock_data <- get_stock_data("GPW")
+last_row <- tail(stock_data, 1)
+last_price <- last_row$price
+last_date <- last_row$date
+prev_price <- tail(stock_data$price, 2)[1]
+change_pct <- round((last_price - prev_price) / prev_price * 100, 2)
+y_ago_idx <- nrow(stock_data) - 252
+if(y_ago_idx > 0) {
+  y_ago_price <- stock_data$price[y_ago_idx]
+  change_yy <- round((last_price - y_ago_price) / y_ago_price * 100, 2)
+} else {
+  change_yy <- "N/A"
+}
+color_dd <- if(change_pct >= 0) "success" else "danger"
+color_yy <- if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary"
+val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
+```
+
+::: {.company-header}
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** GPW | **Giełda Papierów Wartościowych w Warszawie S.A.** | **Siedziba:** Warszawa | **WWW:** [gpw.pl](https://www.gpw.pl/){rel="nofollow"} | **Branża:** [Finanse](../spolki-gpw.html#category=Finanse)
+:::
+
+```{r}
+#| echo: false
+#| results: asis
+html_str <- paste0(
+  '<div class="stock-metrics">',
+  '<div class="stock-vbox stock-vbox-primary">',
+  '<div class="stock-vbox-title">Cena (', format(last_date, '%Y-%m-%d'), ')</div>',
+  '<div class="stock-vbox-value">', round(last_price, 2), '</div>',
+  '</div>',
+  '<div class="stock-vbox stock-vbox-', color_dd, '">',
+  '<div class="stock-vbox-title">Zmiana d/d</div>',
+  '<div class="stock-vbox-value">', change_pct, '%</div>',
+  '</div>',
+  '<div class="stock-vbox stock-vbox-', color_yy, '">',
+  '<div class="stock-vbox-title">Zmiana y/y</div>',
+  '<div class="stock-vbox-value">', val_yy, '</div>',
+  '</div>',
+  '</div>'
+)
+cat(html_str)
+```
+
+## Notowania
+
+```{r}
+#| echo: false
+stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
+sma200 <- SMA(stock_xts, n = 200)
+plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena GPW") |>
+  add_lines(x = index(stock_xts), y = as.numeric(sma200), name = "SMA 200", line = list(color = "orange")) |>
+  layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = "h", x = 0.1, y = 1.1), margin = list(t = 50))
+```
+
+## O spółce
+
+**Profil działalności:**
+Giełda Papierów Wartościowych w Warszawie (GPW) to wiodący polski operator rynku papierów wartościowych, zapewniający możliwość obrotu akcjami, obligacjami, instrumentami pochodnymi i innymi papierami wartościowymi. GPW jest spółką publiczną, a jej akcje są notowane na własnym parkiecie.
+
+**Strategia i Perspektywy:**
+GPW rozwija się jako platforma obrotu instrumentami finansowymi, wprowadzając nowe produkty i usługi. Kluczowe jest zwiększanie płynności rynku, rozwój oferty produktowej i przyciąganie nowych emitentów.
+
+## Biznes
+
+**Główne linie produktowe:**
+
+* **Rynek akcji:** Obrot akcjami i prawami poboru.
+
+* **Rynek obligacji:** Obligacje skarbowe i korporacyjne.
+
+* **Derivatives:** Instrumenty pochodne (kontrakty futures, opcje).
+
+* **NewConnect:** Alternatywny system obrotu dla małych firm.
+
+**Zasoby i Surowce:**
+
+Infrastruktura giełdowa, systemy transakcyjne, licencje i zezwolenia, marka GPW.
+
+## Strategia
+
+**Kierunki rozwoju:**
+
+* **Nowe produkty:** Wprowadzanie nowych instrumentów finansowych.
+
+* **Emitenci:** Przyciąganie nowych spółek do notowań.
+
+* **Infrastruktura:** Modernizacja systemów transakcyjnych.
+
+* **Edukacja:** Rozwój edukacji inwestycyjnej.
+
+:::: {.callout-important}
+## Informacja prawna
+Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej.
+::::
