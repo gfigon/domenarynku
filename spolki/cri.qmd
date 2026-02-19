@@ -1,12 +1,12 @@
 ---
 title: "Creotech Instruments S.A. (CRI)"
 subtitle: "Profil spółki Creotech Instruments — notowania, analiza, strategia"
-categories: [Przemysł i produkcja]
+categories: [Technologie i IT]
 pagetitle: "Creotech Instruments S.A. (CRI) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
     header-includes: |
-      <meta name="description" content="Creotech Instruments S.A. (CRI) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Przemysł i produkcja.">
+      <meta name="description" content="Creotech Instruments S.A. (CRI) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Technologie i IT.">
       <meta name="keywords" content="Creotech, CRI, akcje Creotech, GPW, notowania, instrumenty naukowe, elektronika">
 ---
 
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** CRI | **Creotech Instruments S.A.** | **Siedziba:** Warszawa | **WWW:** [creotech.pl](https://www.creotech.pl/){rel="nofollow"} | **Branża:** [Przemysł i produkcja](../spolki-gpw.html#category=Przemysł i produkcja)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** CRI | **Creotech Instruments S.A.** | **Siedziba:** Warszawa | **WWW:** [creotech.pl](https://www.creotech.pl/){rel="nofollow"} | **Branża:** [Technologie i IT](../spolki-gpw.html#category=Technologie i IT)
 :::
 
 ```{r}
@@ -87,38 +87,38 @@ plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode 
 ## O spółce
 
 **Profil działalności:**
-Creotech Instruments to polska firma technologiczna specjalizująca się w produkcji precyzyjnych przyrządów naukowych i elektronicznych dla przemysłu, laboratoriów badawczych oraz sektora obronnego. Spółka dostarcza zaawansowane rozwiązania pomiarowe i detekcyjne wykorzystywane w fizyce, medycynie i przemyśle.
+Creotech Instruments to polska firma technologiczna wyspecjalizowana w technologiach kosmicznych i systemach satelitarnych. Spółka rozwija i dostarcza nowoczesne technologie dla przemysłu kosmicznego, nauki oraz kluczowych sektorów gospodarki. Jest liderem polskiego sektora kosmicznego i partnerem Europejskiej Agencji Kosmicznej (ESA).
 
 **Strategia i Perspektywy:**
-Firma rozwija się w segmencie wysokiej technologii, koncentrując się na produkcji wysoce specjalistycznych urządzeń. Kluczowe jest budowanie kompetencji w obszarze instrumentacji naukowej i rozwój eksportu na rynki Unii Europejskiej.
+Creotech realizuje strategiczne projekty kosmiczne, w tym konstelację satelitarną PIAST oraz misje księżycowe dla ESA. Spółka rozwija własne platformy satelitarne i podzespoły dla misji kosmicznych, dynamicznie zwiększając przychody z segmentu space.
 
 ## Biznes
 
 **Główne linie produktowe:**
 
-* **Instrumenty pomiarowe:** Precyzyjne mierniki i analizatory dla przemysłu i laboratoriów.
+* **Satelity i platformy:** Platforma satelitarna PIAST-M i konstelacja PIAST.
 
-* **Detektory:** Urządzenia detekcyjne dla fizyki jądrowej i medycyny.
+* **Podzespoły satelitarne:** Komputery pokładowe, systemy zasilania i łączności dla satelitów.
 
-* **Elektronika przemysłowa:** Specjalistyczne układy elektroniczne na zamówienie.
+* **Usługi ESA:** Udział w projektach Europejskiej Agencji Kosmicznej (kontrakt CAMILA).
 
-* **Systemy pomiarowe:** Kompleksowe rozwiązania dla przemysłu i badań naukowych.
+* **Misje księżycowe:** Prace nad technologiami dla europejskich misji na Księżyc.
 
 **Zasoby i Surowce:**
 
-Zespół inżynierów i naukowców, certyfikaty jakości dla produktów medycznych i przemysłowych, nowoczesne zaplecze produkcyjne.
+Zespół inżynierów i naukowców wyspecjalizowanych w technologiach kosmicznych, certyfikaty ESA, zaplecze do produkcji podzespołów satelitarnych.
 
 ## Strategia
 
 **Kierunki rozwoju:**
 
-* **High-tech:** Koncentracja na produktach o wysokiej wartości dodanej.
+* **Konstelacja PIAST:** Rozwój i wdrażanie własnej konstelacji satelitów.
 
-* **Eksport:** Rozwój sprzedaży na rynki Unii Europejskiej.
+* **Współpraca z ESA:** Realizacja projektów dla Europejskiej Agencji Kosmicznej.
 
-* **R&D:** Inwestycje w badania i rozwój nowych technologii.
+* **Misje księżycowe:** Udział w europejskich misjach eksploracji Księżyca.
 
-* **Partnerstwa:** Współpraca z instytutami badawczymi i uczelniami.
+* **Eksport technologii:** Sprzedaż polskich technologii kosmicznych na rynki międzynarodowe.
 
 :::: {.callout-important}
 ## Informacja prawna
