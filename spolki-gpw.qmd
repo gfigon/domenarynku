@@ -219,6 +219,11 @@ final_table <- data.frame(
 
 # Sort categories alphabetically
 all_categories <- sort(all_categories)
+
+# DEBUG: Print categories
+cat("\n\nDEBUG all_categories:\n")
+print(all_categories)
+cat("\n\n")
 ```
 
 ## Notowania spółek GPW
