@@ -1,0 +1,50 @@
+---
+title: "Prasówka światowa: Andrew aresztowany, napięcia Iran-USA, 90% ceł płacą Amerykanie"
+pagetitle: "Prasówka Światowa 19.02.2026 | DomenaRynku.pl"
+date: "2026-02-19"
+date-modified: last-modified
+categories: [Świat, Makro, Geopolityka, USA, Iran]
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Globalny przegląd wydarzeń: Aresztowanie księcia Andrew, ultimatum Trumpa dla Iranu, ONZ o ludobójstwie w Sudanie, skazanie byłego prezydenta Korei oraz wpływ ceł na amerykańskich konsumentów.">
+      <meta name="keywords" content="książę Andrew aresztowany, Trump Iran ultimatum, Sudan ludobójstwo ONZ, Yoon Suk Yeol dożywocie, cła USA konsumenci, Fed stopy procentowe, geopolityka, makroekonomia">
+---
+
+Dzisiejszy przegląd wydarzeń globalnych obejmuje głośne aresztowanie w rodzinie królewskiej, narastające napięcia na linii USA-Iran oraz nowe dane o wpływie ceł na amerykańską gospodarkę.
+
+### Wielka Brytania i Europa
+- **Książę Andrew aresztowany**: Były brytyjski książę Andrew Mountbatten-Windsor został zatrzymany przez policję hrabstwa Thames Valley pod zarzutem "misconduct in public office" (nadużycia władzy publicznej). Przeszukania prowadzono w rezydencjach w Berkshire i Norfolk, w tym w posiadłości Sandringham. Zarzuty wiążą się z jego kontaktami z Jeffreyem Epsteinem. Król Karol III wydał oświadczenie, że "prawo musi pójść swoim torem". [^1][^2]
+
+- **Chagos - nowy cios Trumpa w UK**: Prezydent USA Donald Trump powiedział Wielkiej Brytanii, aby nie oddawała wyspy Diego Garcia. Komentarz pojawił się dzień po tym, jak USA oficjalnie poparły porozumienie między UK a Mauritiusem w sprawie archipelagu. [^3]
+
+### Bliski Wschód i Iran
+- **Trump daje Iranowi 10 dni**: Prezydent USA stwierdził, że świat przekona się "w ciągu najbliższych prawdopodobnie 10 dni", czy dojdzie do porozumienia z Iranem w sprawie programu nuklearnego, czy też USA "muszą pójść dalej". W ostatnich dniach Ameryka zwiększyła obecność wojskową na Bliskim Wschodzie, w tym wysyłając lotniskowiec USS Abraham Lincoln. Jednocześnie trwają negocjacje w Szwajcarii. Iran wzmacnia swoje instalacje wojskowe - zdjęcia satelitarne pokazują nowe umocnienia w kompleksie Parchin. [^4][^5]
+
+- **Sudan: "cechy ludobójstwa"**: Misja ONZ ds. zbadania sytuacji w Sudanie stwierdziła, że zniszczenia w mieście el-Fasher oraz działania Sił Wsparcia Szybkiego (RSF) noszą "cechy ludobójstwa". Raport dokumentuje skoordynowane ataki etniczne, gwałty i tortury wobec społeczności niearabskich. [^6]
+
+### Azja
+- **Były prezydent Korei skazany**: Yoon Suk Yeol, były prezydent Korei Południowej, został skazany na dożywotnie pozbawienie wolności za próbę wprowadzenia stanu wojennego w grudniu 2024 roku. Sędzia orzekł, że jego działania "zasadniczo zaszkodziły demokracji" w Korei Południowej. [^7]
+
+### Makroekonomia USA
+- **90% ceł płacą konsumenci**: Niemal wszystkie cła wprowadzone przez prezydenta Trumpa w 2025 roku zostały przerzucone na amerykańskich konsumentów i przedsiębiorstwa w postaci wyższych kosztów - wynika z analizy Federal Reserve Bank of New York. Doradca Białego Domu Kevin Hassett skrytykował badanie, mówiąc że pracownicy Fed "powinni być ukarani" za opublikowanie takich wniosków. [^8][^9]
+
+- **Fed nie spieszy się z cięciem stóp**: Protokół z posiedzenia Federal Reserve pokazuje, że decydenci byli zgodni co do utrzymania stóp procentowych bez zmian. Pozostają jednak podzieleni w kwestii kolejnych kroków - część skłonna jest do podwyżek w razie utrzymania się inflacji, inni widzą przestrzeń do cięć. Fed analizuje również wpływ sztucznej inteligencji na gospodarkę. [^10]
+
+::: {.callout-important}
+## Informacja prawna
+Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży instrumentów finansowych.
+:::
+
+---
+*Źródła:*
+- [^1]: [BBC News - Andrew Mountbatten-Windsor arrested](https://www.bbc.com/news/articles/cn9e1q4797wo){rel="nofollow"}
+- [^2]: [AP News - Andrew arrested](https://apnews.com/article/britain-epstein-andrew-former-prince-arrested-fb0b9e738bf7ede10651914ee3f3583d){rel="nofollow"}
+- [^3]: [BBC News - Trump Chagos](https://www.bbc.com/news/articles/c309qqyer8yo){rel="nofollow"}
+- [^4]: [BBC News - Trump Iran 10 days](https://www.bbc.com/news/articles/c86yjnw4x49o){rel="nofollow"}
+- [^5]: [Al Jazeera - Iran builds concrete shield](https://www.aljazeera.com/news/2026/2/19/iran-builds-concrete-shield-at-military-site-amid-acute-us-tensions){rel="nofollow"}
+- [^6]: [BBC News - Sudan genocide](https://www.bbc.com/news/articles/cpqw74d81jqo){rel="nofollow"}
+- [^7]: [AP News - Yoon Suk Yeol life sentence](https://apnews.com/article/south-korea-yoon-suk-yeol-martial-law-verdict-rebellion-5d5f5c3a82590dc805b41b905f5bbca1){rel="nofollow"}
+- [^8]: [CBS News - Trump tariffs consumers](https://www.cbsnews.com/news/trump-tariffs-consumers-business-nearly-90-percent-new-york-federal-reserve/){rel="nofollow"}
+- [^9]: [Washington Post - Hassett Fed tariffs](https://www.washingtonpost.com/business/2026/02/18/hassett-trump-fed-tariffs/){rel="nofollow"}
+- [^10]: [Reuters - Fed minutes](https://www.reuters.com/business/fed-minutes-could-highlight-shift-balance-risks-policymakers-put-rates-hold-2026-02-18/){rel="nofollow"}
