@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl" xml:lang="pl"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.550">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Indeks trendów GPW | Market breadth indicator - szerokość rynku</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/domenarynku-logo-v2.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Brak wyników",
+    "search-matching-documents-text": "dopasowane dokumenty",
+    "search-copy-link-title": "Kopiuj link do wyszukiwania",
+    "search-hide-matches-text": "Ukryj dodatkowe dopasowania",
+    "search-more-match-text": "więcej dopasowań w tym dokumencie",
+    "search-more-matches-text": "więcej dopasowań w tym dokumencie",
+    "search-clear-button-title": "Wyczyść",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Anuluj",
+    "search-submit-button-title": "Zatwierdź",
+    "search-label": "Szukaj"
+  }
+}</script>
+<link href="../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../site_libs/plotly-binding-4.12.0/plotly.js"></script>
+<script src="../site_libs/typedarray-0.1/typedarray.min.js"></script>
+<script src="../site_libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="../site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+<script src="../site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+<link href="../site_libs/plotly-htmlwidgets-css-2.25.2/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="../site_libs/plotly-main-2.25.2/plotly-latest.min.js"></script>
+<script src="../site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+<!-- Google Consent Mode v2 - musi być PRZED GTM -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  
+  // Domyślnie wszystko na "denied" (zgodnie z GDPR)
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied',
+    'wait_for_update': 500
+  });
+</script>
+
+<!-- Klaro Cookie Consent - CSS -->
+<link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.css">
+
+<!-- Klaro Cookie Consent - Konfiguracja -->
+<script defer="" type="text/javascript" src="klaro-config.js"></script>
+
+<!-- Klaro Cookie Consent - Biblioteka -->
+<script defer="" data-config="klaroConfig" type="text/javascript" src="https://cdn.kiprotect.com/klaro/v0.7/klaro.js"></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NXN55TCK');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="author" content="DomenaRynku.pl">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow">
+<meta name="description" content="Indeks trendów GPW - market breadth indicator mierzący procent spółek w trendzie wzrostowym. Analiza szerokości rynku, sygnały hossy i bessy, dywergencje WIG i WIG20.">
+<meta name="keywords" content="indeks trendów GPW, market breadth indicator, szerokość rynku, rynek byka, rynek niedźwiedzia, WIG, WIG20, hossa, bessa, dywergencje rynkowe, analiza techniczna GPW">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Indeks trendów GPW | Market breadth indicator - szerokość rynku">
+<meta property="og:description" content="Analiza szerokości rynku akcji na Giełdzie Papierów Wartościowych w Warszawie">
+<meta property="og:site_name" content="DomenaRynku.pl">
+<meta name="twitter:title" content="Indeks trendów GPW | Market breadth indicator - szerokość rynku">
+<meta name="twitter:description" content="Analiza szerokości rynku akcji na Giełdzie Papierów Wartościowych w Warszawie">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://domenarynku.pl/indeksy/indeks-trendow-gpw.html">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/domenarynku-logo-v2.svg" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Szukaj"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Przełącz nawigację" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Strona główna</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-sentyment-rynku" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Sentyment rynku</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-sentyment-rynku">    
+        <li>
+    <a class="dropdown-item" href="../sentyment-rynku/polska.html">
+ <span class="dropdown-text">Polska</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../sentyment-rynku/usa.html">
+ <span class="dropdown-text">USA</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-indeksy" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Indeksy</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-indeksy">    
+        <li>
+    <a class="dropdown-item" href="../indeksy/indeks-trendow-gpw.html">
+ <span class="dropdown-text">Indeks trendów GPW</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../indeksy/indeks-cenowy-top100.html">
+ <span class="dropdown-text">Indeks cenowy top 100 GPW</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../spolki-gpw.html"> 
+<span class="menu-text">Spółki GPW</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">O nas</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Na tej stronie</h2>
+   
+  <ul>
+  <li><a href="#o-indeksie" id="toc-o-indeksie" class="nav-link active" data-scroll-target="#o-indeksie">O indeksie</a></li>
+  <li><a href="#wykres-indeksu-trendów" id="toc-wykres-indeksu-trendów" class="nav-link" data-scroll-target="#wykres-indeksu-trendów">Wykres indeksu trendów</a></li>
+  <li><a href="#ostatnie-60-sesji" id="toc-ostatnie-60-sesji" class="nav-link" data-scroll-target="#ostatnie-60-sesji">Ostatnie 60 sesji</a></li>
+  <li><a href="#metodologia" id="toc-metodologia" class="nav-link" data-scroll-target="#metodologia">Metodologia</a>
+  <ul class="collapse">
+  <li><a href="#uniwersum-spółek" id="toc-uniwersum-spółek" class="nav-link" data-scroll-target="#uniwersum-spółek">Uniwersum spółek</a></li>
+  <li><a href="#definicja-trendu" id="toc-definicja-trendu" class="nav-link" data-scroll-target="#definicja-trendu">Definicja trendu</a></li>
+  <li><a href="#obliczanie-indeksu" id="toc-obliczanie-indeksu" class="nav-link" data-scroll-target="#obliczanie-indeksu">Obliczanie indeksu</a></li>
+  <li><a href="#aktualizacja" id="toc-aktualizacja" class="nav-link" data-scroll-target="#aktualizacja">Aktualizacja</a></li>
+  </ul></li>
+  <li><a href="#potencjalne-zastosowania" id="toc-potencjalne-zastosowania" class="nav-link" data-scroll-target="#potencjalne-zastosowania">Potencjalne zastosowania</a>
+  <ul class="collapse">
+  <li><a href="#ocena-rzeczywistej-siły-rynku" id="toc-ocena-rzeczywistej-siły-rynku" class="nav-link" data-scroll-target="#ocena-rzeczywistej-siły-rynku">1. Ocena rzeczywistej siły rynku</a></li>
+  <li><a href="#identyfikacja-dywergencji" id="toc-identyfikacja-dywergencji" class="nav-link" data-scroll-target="#identyfikacja-dywergencji">2. Identyfikacja dywergencji</a></li>
+  <li><a href="#potwierdzenie-trendów" id="toc-potwierdzenie-trendów" class="nav-link" data-scroll-target="#potwierdzenie-trendów">3. Potwierdzenie trendów</a></li>
+  <li><a href="#timing-wejść-i-wyjść" id="toc-timing-wejść-i-wyjść" class="nav-link" data-scroll-target="#timing-wejść-i-wyjść">4. Timing wejść i wyjść</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Indeks trendów GPW</h1>
+<p class="subtitle lead">Analiza szerokości rynku akcji na Giełdzie Papierów Wartościowych w Warszawie</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    <div>
+    <div class="quarto-title-meta-heading">Zmodyfikowano</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">5 lutego 2026</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="o-indeksie" class="level2">
+<h2 class="anchored" data-anchor-id="o-indeksie">O indeksie</h2>
+<p><strong>Indeks trendów GPW</strong> to wskaźnik szerokości rynku (market breadth indicator), który pokazuje, jaki procent spółek z najważniejszych firm notowanych na warszawskiej giełdzie znajduje się aktualnie w trendzie wzrostowym. Jest to kluczowe narzędzie do oceny rzeczywistej siły rynku – pozwala odróżnić prawdziwy rynek byka, w którym uczestniczy większość spółek, od sytuacji, gdy wzrost WIG czy WIG20 jest napędzany jedynie przez kilka dużych spółek.</p>
+<p>W odróżnieniu od klasycznych indeksów giełdowych ważonych kapitalizacją (jak WIG czy WIG20), gdzie większe spółki mają dominujący wpływ, indeks trendów traktuje każdą spółkę równo. Dzięki temu lepiej odzwierciedla kondycję całego rynku akcji i może sygnalizować nadchodzące zmiany trendu poprzez wykrywanie dywergencji między zachowaniem szerokiego rynku a głównymi indeksami.</p>
+</section>
+<section id="wykres-indeksu-trendów" class="level2">
+<h2 class="anchored" data-anchor-id="wykres-indeksu-trendów">Wykres indeksu trendów</h2>
+<p>Poniższy wykres przedstawia indeks trendów GPW na tle indeksów WIG20 i WIG z ostatnich 250 sesji giełdowych. Możesz go przybliżać i sprawdzać wartości dla konkretnych dat.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-e4996745cd330eae520f" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-e4996745cd330eae520f">{"x":{"visdat":{"4aadb67f27a57":["function () ","plotlyVisDat"],"4aadb110fc84e":["function () ","data"],"4aadb603adb4f":["function () ","data"],"4aadb14940919":["function () ","data"]},"cur_data":"4aadb14940919","attrs":{"4aadb110fc84e":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"name":"Indeks Trendów (%)","type":"scatter","mode":"lines","line":{"color":"#3b82f6","width":2},"hovertemplate":"<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","inherit":true},"4aadb603adb4f":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"name":"WIG20 (norm.)","type":"scatter","mode":"lines","line":{"color":"#f59e0b","width":1.5},"yaxis":"y2","hovertemplate":"<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","inherit":true},"4aadb14940919":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"name":"WIG (norm.)","type":"scatter","mode":"lines","line":{"color":"#10b981","width":1.5},"yaxis":"y2","hovertemplate":"<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","inherit":true}},"layout":{"margin":{"b":100,"l":60,"t":25,"r":10},"title":{"text":"Indeks Trendów GPW vs WIG20 i WIG (ostatnie 250 sesji)","font":{"size":16}},"xaxis":{"domain":[0,1],"automargin":true,"title":"Data"},"yaxis":{"domain":[0,1],"automargin":true,"title":"Indeks Trendów (%)","side":"left","range":[0,100]},"yaxis2":{"title":"WIG20 / WIG (znormalizowane 0-100)","overlaying":"y","side":"right","range":[0,100]},"hovermode":"x unified","legend":{"orientation":"h","x":0.5,"xanchor":"center","y":-0.14999999999999999},"showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":["2025-02-17 01:00:00.000000","2025-02-18 01:00:00.000000","2025-02-19 01:00:00.000000","2025-02-20 01:00:00.000000","2025-02-21 01:00:00.000000","2025-02-24 01:00:00.000000","2025-02-25 01:00:00.000000","2025-02-26 01:00:00.000000","2025-02-27 01:00:00.000000","2025-02-28 01:00:00.000000","2025-03-03 01:00:00.000000","2025-03-04 01:00:00.000000","2025-03-05 01:00:00.000000","2025-03-06 01:00:00.000000","2025-03-07 01:00:00.000000","2025-03-10 01:00:00.000000","2025-03-11 01:00:00.000000","2025-03-12 01:00:00.000000","2025-03-13 01:00:00.000000","2025-03-14 01:00:00.000000","2025-03-17 01:00:00.000000","2025-03-18 01:00:00.000000","2025-03-19 01:00:00.000000","2025-03-20 01:00:00.000000","2025-03-21 01:00:00.000000","2025-03-24 01:00:00.000000","2025-03-25 01:00:00.000000","2025-03-26 01:00:00.000000","2025-03-27 01:00:00.000000","2025-03-28 01:00:00.000000","2025-03-31 02:00:00.000000","2025-04-01 02:00:00.000000","2025-04-02 02:00:00.000000","2025-04-03 02:00:00.000000","2025-04-04 02:00:00.000000","2025-04-07 02:00:00.000000","2025-04-08 02:00:00.000000","2025-04-09 02:00:00.000000","2025-04-10 02:00:00.000000","2025-04-11 02:00:00.000000","2025-04-14 02:00:00.000000","2025-04-15 02:00:00.000000","2025-04-16 02:00:00.000000","2025-04-17 02:00:00.000000","2025-04-22 02:00:00.000000","2025-04-23 02:00:00.000000","2025-04-24 02:00:00.000000","2025-04-25 02:00:00.000000","2025-04-28 02:00:00.000000","2025-04-29 02:00:00.000000","2025-04-30 02:00:00.000000","2025-05-02 02:00:00.000000","2025-05-05 02:00:00.000000","2025-05-06 02:00:00.000000","2025-05-07 02:00:00.000000","2025-05-08 02:00:00.000000","2025-05-09 02:00:00.000000","2025-05-12 02:00:00.000000","2025-05-13 02:00:00.000000","2025-05-14 02:00:00.000000","2025-05-15 02:00:00.000000","2025-05-16 02:00:00.000000","2025-05-19 02:00:00.000000","2025-05-20 02:00:00.000000","2025-05-21 02:00:00.000000","2025-05-22 02:00:00.000000","2025-05-23 02:00:00.000000","2025-05-26 02:00:00.000000","2025-05-27 02:00:00.000000","2025-05-28 02:00:00.000000","2025-05-29 02:00:00.000000","2025-05-30 02:00:00.000000","2025-06-02 02:00:00.000000","2025-06-03 02:00:00.000000","2025-06-04 02:00:00.000000","2025-06-05 02:00:00.000000","2025-06-06 02:00:00.000000","2025-06-09 02:00:00.000000","2025-06-10 02:00:00.000000","2025-06-11 02:00:00.000000","2025-06-12 02:00:00.000000","2025-06-13 02:00:00.000000","2025-06-16 02:00:00.000000","2025-06-17 02:00:00.000000","2025-06-18 02:00:00.000000","2025-06-20 02:00:00.000000","2025-06-23 02:00:00.000000","2025-06-24 02:00:00.000000","2025-06-25 02:00:00.000000","2025-06-26 02:00:00.000000","2025-06-27 02:00:00.000000","2025-06-30 02:00:00.000000","2025-07-01 02:00:00.000000","2025-07-02 02:00:00.000000","2025-07-03 02:00:00.000000","2025-07-04 02:00:00.000000","2025-07-07 02:00:00.000000","2025-07-08 02:00:00.000000","2025-07-09 02:00:00.000000","2025-07-10 02:00:00.000000","2025-07-11 02:00:00.000000","2025-07-14 02:00:00.000000","2025-07-15 02:00:00.000000","2025-07-16 02:00:00.000000","2025-07-17 02:00:00.000000","2025-07-18 02:00:00.000000","2025-07-21 02:00:00.000000","2025-07-22 02:00:00.000000","2025-07-23 02:00:00.000000","2025-07-24 02:00:00.000000","2025-07-25 02:00:00.000000","2025-07-28 02:00:00.000000","2025-07-29 02:00:00.000000","2025-07-30 02:00:00.000000","2025-07-31 02:00:00.000000","2025-08-01 02:00:00.000000","2025-08-04 02:00:00.000000","2025-08-05 02:00:00.000000","2025-08-06 02:00:00.000000","2025-08-07 02:00:00.000000","2025-08-08 02:00:00.000000","2025-08-11 02:00:00.000000","2025-08-12 02:00:00.000000","2025-08-13 02:00:00.000000","2025-08-14 02:00:00.000000","2025-08-18 02:00:00.000000","2025-08-19 02:00:00.000000","2025-08-20 02:00:00.000000","2025-08-21 02:00:00.000000","2025-08-22 02:00:00.000000","2025-08-25 02:00:00.000000","2025-08-26 02:00:00.000000","2025-08-27 02:00:00.000000","2025-08-28 02:00:00.000000","2025-08-29 02:00:00.000000","2025-09-01 02:00:00.000000","2025-09-02 02:00:00.000000","2025-09-03 02:00:00.000000","2025-09-04 02:00:00.000000","2025-09-05 02:00:00.000000","2025-09-08 02:00:00.000000","2025-09-09 02:00:00.000000","2025-09-10 02:00:00.000000","2025-09-11 02:00:00.000000","2025-09-12 02:00:00.000000","2025-09-15 02:00:00.000000","2025-09-16 02:00:00.000000","2025-09-17 02:00:00.000000","2025-09-18 02:00:00.000000","2025-09-19 02:00:00.000000","2025-09-22 02:00:00.000000","2025-09-23 02:00:00.000000","2025-09-24 02:00:00.000000","2025-09-25 02:00:00.000000","2025-09-26 02:00:00.000000","2025-09-29 02:00:00.000000","2025-09-30 02:00:00.000000","2025-10-01 02:00:00.000000","2025-10-02 02:00:00.000000","2025-10-03 02:00:00.000000","2025-10-06 02:00:00.000000","2025-10-07 02:00:00.000000","2025-10-08 02:00:00.000000","2025-10-09 02:00:00.000000","2025-10-10 02:00:00.000000","2025-10-13 02:00:00.000000","2025-10-14 02:00:00.000000","2025-10-15 02:00:00.000000","2025-10-16 02:00:00.000000","2025-10-17 02:00:00.000000","2025-10-20 02:00:00.000000","2025-10-21 02:00:00.000000","2025-10-22 02:00:00.000000","2025-10-23 02:00:00.000000","2025-10-24 02:00:00.000000","2025-10-27 01:00:00.000000","2025-10-28 01:00:00.000000","2025-10-29 01:00:00.000000","2025-10-30 01:00:00.000000","2025-10-31 01:00:00.000000","2025-11-03 01:00:00.000000","2025-11-04 01:00:00.000000","2025-11-05 01:00:00.000000","2025-11-06 01:00:00.000000","2025-11-07 01:00:00.000000","2025-11-10 01:00:00.000000","2025-11-12 01:00:00.000000","2025-11-13 01:00:00.000000","2025-11-14 01:00:00.000000","2025-11-17 01:00:00.000000","2025-11-18 01:00:00.000000","2025-11-19 01:00:00.000000","2025-11-20 01:00:00.000000","2025-11-21 01:00:00.000000","2025-11-24 01:00:00.000000","2025-11-25 01:00:00.000000","2025-11-26 01:00:00.000000","2025-11-27 01:00:00.000000","2025-11-28 01:00:00.000000","2025-12-01 01:00:00.000000","2025-12-02 01:00:00.000000","2025-12-03 01:00:00.000000","2025-12-04 01:00:00.000000","2025-12-05 01:00:00.000000","2025-12-08 01:00:00.000000","2025-12-09 01:00:00.000000","2025-12-10 01:00:00.000000","2025-12-11 01:00:00.000000","2025-12-12 01:00:00.000000","2025-12-15 01:00:00.000000","2025-12-16 01:00:00.000000","2025-12-17 01:00:00.000000","2025-12-18 01:00:00.000000","2025-12-19 01:00:00.000000","2025-12-22 01:00:00.000000","2025-12-23 01:00:00.000000","2025-12-29 01:00:00.000000","2025-12-30 01:00:00.000000","2026-01-02 01:00:00.000000","2026-01-05 01:00:00.000000","2026-01-07 01:00:00.000000","2026-01-08 01:00:00.000000","2026-01-09 01:00:00.000000","2026-01-12 01:00:00.000000","2026-01-13 01:00:00.000000","2026-01-14 01:00:00.000000","2026-01-15 01:00:00.000000","2026-01-16 01:00:00.000000","2026-01-19 01:00:00.000000","2026-01-20 01:00:00.000000","2026-01-21 01:00:00.000000","2026-01-22 01:00:00.000000","2026-01-23 01:00:00.000000","2026-01-26 01:00:00.000000","2026-01-27 01:00:00.000000","2026-01-28 01:00:00.000000","2026-01-29 01:00:00.000000","2026-01-30 01:00:00.000000","2026-02-02 01:00:00.000000","2026-02-03 01:00:00.000000","2026-02-04 01:00:00.000000","2026-02-05 01:00:00.000000","2026-02-06 01:00:00.000000","2026-02-09 01:00:00.000000","2026-02-10 01:00:00.000000","2026-02-11 01:00:00.000000","2026-02-12 01:00:00.000000","2026-02-13 01:00:00.000000","2026-02-16 01:00:00.000000","2026-02-17 01:00:00.000000","2026-02-18 01:00:00.000000"],"y":[71.578947368421055,71.578947368421055,71.578947368421055,69.473684210526315,69.473684210526315,70.526315789473685,69.473684210526315,69.473684210526315,70.526315789473685,67.368421052631575,65.26315789473685,64.21052631578948,62.10526315789474,65.26315789473685,66.315789473684205,67.368421052631575,67.368421052631575,66.315789473684205,68.421052631578945,68.421052631578945,70.526315789473685,70.526315789473685,70.526315789473685,70.526315789473685,69.473684210526315,70.526315789473685,74.73684210526315,73.68421052631578,73.68421052631578,71.578947368421055,68.421052631578945,68.421052631578945,67.368421052631575,66.315789473684205,61.05263157894737,52.631578947368418,57.894736842105267,60,61.05263157894737,63.157894736842103,66.315789473684205,66.315789473684205,66.315789473684205,67.368421052631575,68.421052631578945,70.526315789473685,71.578947368421055,71.578947368421055,74.73684210526315,73.68421052631578,72.631578947368425,74.73684210526315,76.84210526315789,76.84210526315789,75.789473684210535,75.789473684210535,77.89473684210526,76.84210526315789,76.84210526315789,78.94736842105263,78.94736842105263,78.94736842105263,80,81.05263157894737,78.94736842105263,76.84210526315789,73.68421052631578,74.73684210526315,77.89473684210526,74.73684210526315,74.73684210526315,74.73684210526315,72.631578947368425,72.631578947368425,71.578947368421055,71.578947368421055,71.578947368421055,70.526315789473685,70.526315789473685,69.473684210526315,70.526315789473685,69.473684210526315,67.368421052631575,68.421052631578945,68.421052631578945,68.421052631578945,67.368421052631575,69.473684210526315,70.526315789473685,71.578947368421055,72.631578947368425,72.631578947368425,72.631578947368425,73.68421052631578,74.73684210526315,73.68421052631578,72.631578947368425,72.631578947368425,72.631578947368425,72.631578947368425,72.631578947368425,71.578947368421055,69.473684210526315,70.526315789473685,71.578947368421055,73.68421052631578,76.84210526315789,76.84210526315789,76.84210526315789,77.89473684210526,78.94736842105263,77.89473684210526,73.68421052631578,72.631578947368425,74.73684210526315,71.578947368421055,72.631578947368425,72.631578947368425,72.631578947368425,73.68421052631578,73.958333333333343,76.041666666666657,76.041666666666657,76.041666666666657,76.041666666666657,77.083333333333343,77.083333333333343,77.083333333333343,77.083333333333343,76.041666666666657,75,75,75,73.958333333333343,73.958333333333343,72.916666666666657,72.916666666666657,72.916666666666657,72.916666666666657,72.916666666666657,72.916666666666657,72.916666666666657,72.916666666666657,72.916666666666657,70.833333333333343,68.75,70.833333333333343,70.833333333333343,68.75,72.916666666666657,71.875,72.916666666666657,71.875,69.791666666666657,69.791666666666657,71.875,70.833333333333343,69.791666666666657,70.833333333333343,69.791666666666657,63.541666666666664,68.75,66.666666666666657,66.666666666666657,65.625,64.583333333333343,65.625,65.625,65.625,64.583333333333343,64.583333333333343,66.666666666666657,66.666666666666657,68.75,65.625,64.583333333333343,64.583333333333343,65.625,64.583333333333343,62.5,64.583333333333343,63.541666666666664,62.5,63.541666666666664,65.625,63.541666666666664,65.625,64.583333333333343,65.625,62.5,57.291666666666664,56.25,59.375,59.793814432989691,58.762886597938149,58.762886597938149,60.824742268041234,62.886597938144327,63.917525773195869,67.010309278350505,64.948453608247419,62.886597938144327,62.886597938144327,60.824742268041234,59.793814432989691,61.855670103092784,61.855670103092784,60.824742268041234,61.855670103092784,61.855670103092784,61.855670103092784,59.793814432989691,57.731958762886592,57.731958762886592,59.793814432989691,60.824742268041234,60.824742268041234,61.855670103092784,63.917525773195869,64.948453608247419,68.041237113402062,68.041237113402062,69.072164948453604,69.072164948453604,68.041237113402062,69.072164948453604,70.103092783505147,70.103092783505147,70.103092783505147,68.041237113402062,67.010309278350505,69.072164948453604,69.072164948453604,68.041237113402062,68.041237113402062,67.010309278350505,68.041237113402062,69.072164948453604,68.041237113402062,67.010309278350505,67.010309278350505,65.979381443298962,62.886597938144327,63.917525773195869,64.948453608247419,64.948453608247419,65.979381443298962,65.979381443298962,64.948453608247419,63.917525773195869,65.979381443298962],"name":"Indeks Trendów (%)","type":"scatter","mode":"lines","line":{"color":"#3b82f6","width":2},"hovertemplate":["<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>Indeks Trendów:<\/b> %{y:.1f}%<br> <extra><\/extra>"],"marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2025-02-17 01:00:00.000000","2025-02-18 01:00:00.000000","2025-02-19 01:00:00.000000","2025-02-20 01:00:00.000000","2025-02-21 01:00:00.000000","2025-02-24 01:00:00.000000","2025-02-25 01:00:00.000000","2025-02-26 01:00:00.000000","2025-02-27 01:00:00.000000","2025-02-28 01:00:00.000000","2025-03-03 01:00:00.000000","2025-03-04 01:00:00.000000","2025-03-05 01:00:00.000000","2025-03-06 01:00:00.000000","2025-03-07 01:00:00.000000","2025-03-10 01:00:00.000000","2025-03-11 01:00:00.000000","2025-03-12 01:00:00.000000","2025-03-13 01:00:00.000000","2025-03-14 01:00:00.000000","2025-03-17 01:00:00.000000","2025-03-18 01:00:00.000000","2025-03-19 01:00:00.000000","2025-03-20 01:00:00.000000","2025-03-21 01:00:00.000000","2025-03-24 01:00:00.000000","2025-03-25 01:00:00.000000","2025-03-26 01:00:00.000000","2025-03-27 01:00:00.000000","2025-03-28 01:00:00.000000","2025-03-31 02:00:00.000000","2025-04-01 02:00:00.000000","2025-04-02 02:00:00.000000","2025-04-03 02:00:00.000000","2025-04-04 02:00:00.000000","2025-04-07 02:00:00.000000","2025-04-08 02:00:00.000000","2025-04-09 02:00:00.000000","2025-04-10 02:00:00.000000","2025-04-11 02:00:00.000000","2025-04-14 02:00:00.000000","2025-04-15 02:00:00.000000","2025-04-16 02:00:00.000000","2025-04-17 02:00:00.000000","2025-04-22 02:00:00.000000","2025-04-23 02:00:00.000000","2025-04-24 02:00:00.000000","2025-04-25 02:00:00.000000","2025-04-28 02:00:00.000000","2025-04-29 02:00:00.000000","2025-04-30 02:00:00.000000","2025-05-02 02:00:00.000000","2025-05-05 02:00:00.000000","2025-05-06 02:00:00.000000","2025-05-07 02:00:00.000000","2025-05-08 02:00:00.000000","2025-05-09 02:00:00.000000","2025-05-12 02:00:00.000000","2025-05-13 02:00:00.000000","2025-05-14 02:00:00.000000","2025-05-15 02:00:00.000000","2025-05-16 02:00:00.000000","2025-05-19 02:00:00.000000","2025-05-20 02:00:00.000000","2025-05-21 02:00:00.000000","2025-05-22 02:00:00.000000","2025-05-23 02:00:00.000000","2025-05-26 02:00:00.000000","2025-05-27 02:00:00.000000","2025-05-28 02:00:00.000000","2025-05-29 02:00:00.000000","2025-05-30 02:00:00.000000","2025-06-02 02:00:00.000000","2025-06-03 02:00:00.000000","2025-06-04 02:00:00.000000","2025-06-05 02:00:00.000000","2025-06-06 02:00:00.000000","2025-06-09 02:00:00.000000","2025-06-10 02:00:00.000000","2025-06-11 02:00:00.000000","2025-06-12 02:00:00.000000","2025-06-13 02:00:00.000000","2025-06-16 02:00:00.000000","2025-06-17 02:00:00.000000","2025-06-18 02:00:00.000000","2025-06-20 02:00:00.000000","2025-06-23 02:00:00.000000","2025-06-24 02:00:00.000000","2025-06-25 02:00:00.000000","2025-06-26 02:00:00.000000","2025-06-27 02:00:00.000000","2025-06-30 02:00:00.000000","2025-07-01 02:00:00.000000","2025-07-02 02:00:00.000000","2025-07-03 02:00:00.000000","2025-07-04 02:00:00.000000","2025-07-07 02:00:00.000000","2025-07-08 02:00:00.000000","2025-07-09 02:00:00.000000","2025-07-10 02:00:00.000000","2025-07-11 02:00:00.000000","2025-07-14 02:00:00.000000","2025-07-15 02:00:00.000000","2025-07-16 02:00:00.000000","2025-07-17 02:00:00.000000","2025-07-18 02:00:00.000000","2025-07-21 02:00:00.000000","2025-07-22 02:00:00.000000","2025-07-23 02:00:00.000000","2025-07-24 02:00:00.000000","2025-07-25 02:00:00.000000","2025-07-28 02:00:00.000000","2025-07-29 02:00:00.000000","2025-07-30 02:00:00.000000","2025-07-31 02:00:00.000000","2025-08-01 02:00:00.000000","2025-08-04 02:00:00.000000","2025-08-05 02:00:00.000000","2025-08-06 02:00:00.000000","2025-08-07 02:00:00.000000","2025-08-08 02:00:00.000000","2025-08-11 02:00:00.000000","2025-08-12 02:00:00.000000","2025-08-13 02:00:00.000000","2025-08-14 02:00:00.000000","2025-08-18 02:00:00.000000","2025-08-19 02:00:00.000000","2025-08-20 02:00:00.000000","2025-08-21 02:00:00.000000","2025-08-22 02:00:00.000000","2025-08-25 02:00:00.000000","2025-08-26 02:00:00.000000","2025-08-27 02:00:00.000000","2025-08-28 02:00:00.000000","2025-08-29 02:00:00.000000","2025-09-01 02:00:00.000000","2025-09-02 02:00:00.000000","2025-09-03 02:00:00.000000","2025-09-04 02:00:00.000000","2025-09-05 02:00:00.000000","2025-09-08 02:00:00.000000","2025-09-09 02:00:00.000000","2025-09-10 02:00:00.000000","2025-09-11 02:00:00.000000","2025-09-12 02:00:00.000000","2025-09-15 02:00:00.000000","2025-09-16 02:00:00.000000","2025-09-17 02:00:00.000000","2025-09-18 02:00:00.000000","2025-09-19 02:00:00.000000","2025-09-22 02:00:00.000000","2025-09-23 02:00:00.000000","2025-09-24 02:00:00.000000","2025-09-25 02:00:00.000000","2025-09-26 02:00:00.000000","2025-09-29 02:00:00.000000","2025-09-30 02:00:00.000000","2025-10-01 02:00:00.000000","2025-10-02 02:00:00.000000","2025-10-03 02:00:00.000000","2025-10-06 02:00:00.000000","2025-10-07 02:00:00.000000","2025-10-08 02:00:00.000000","2025-10-09 02:00:00.000000","2025-10-10 02:00:00.000000","2025-10-13 02:00:00.000000","2025-10-14 02:00:00.000000","2025-10-15 02:00:00.000000","2025-10-16 02:00:00.000000","2025-10-17 02:00:00.000000","2025-10-20 02:00:00.000000","2025-10-21 02:00:00.000000","2025-10-22 02:00:00.000000","2025-10-23 02:00:00.000000","2025-10-24 02:00:00.000000","2025-10-27 01:00:00.000000","2025-10-28 01:00:00.000000","2025-10-29 01:00:00.000000","2025-10-30 01:00:00.000000","2025-10-31 01:00:00.000000","2025-11-03 01:00:00.000000","2025-11-04 01:00:00.000000","2025-11-05 01:00:00.000000","2025-11-06 01:00:00.000000","2025-11-07 01:00:00.000000","2025-11-10 01:00:00.000000","2025-11-12 01:00:00.000000","2025-11-13 01:00:00.000000","2025-11-14 01:00:00.000000","2025-11-17 01:00:00.000000","2025-11-18 01:00:00.000000","2025-11-19 01:00:00.000000","2025-11-20 01:00:00.000000","2025-11-21 01:00:00.000000","2025-11-24 01:00:00.000000","2025-11-25 01:00:00.000000","2025-11-26 01:00:00.000000","2025-11-27 01:00:00.000000","2025-11-28 01:00:00.000000","2025-12-01 01:00:00.000000","2025-12-02 01:00:00.000000","2025-12-03 01:00:00.000000","2025-12-04 01:00:00.000000","2025-12-05 01:00:00.000000","2025-12-08 01:00:00.000000","2025-12-09 01:00:00.000000","2025-12-10 01:00:00.000000","2025-12-11 01:00:00.000000","2025-12-12 01:00:00.000000","2025-12-15 01:00:00.000000","2025-12-16 01:00:00.000000","2025-12-17 01:00:00.000000","2025-12-18 01:00:00.000000","2025-12-19 01:00:00.000000","2025-12-22 01:00:00.000000","2025-12-23 01:00:00.000000","2025-12-29 01:00:00.000000","2025-12-30 01:00:00.000000","2026-01-02 01:00:00.000000","2026-01-05 01:00:00.000000","2026-01-07 01:00:00.000000","2026-01-08 01:00:00.000000","2026-01-09 01:00:00.000000","2026-01-12 01:00:00.000000","2026-01-13 01:00:00.000000","2026-01-14 01:00:00.000000","2026-01-15 01:00:00.000000","2026-01-16 01:00:00.000000","2026-01-19 01:00:00.000000","2026-01-20 01:00:00.000000","2026-01-21 01:00:00.000000","2026-01-22 01:00:00.000000","2026-01-23 01:00:00.000000","2026-01-26 01:00:00.000000","2026-01-27 01:00:00.000000","2026-01-28 01:00:00.000000","2026-01-29 01:00:00.000000","2026-01-30 01:00:00.000000","2026-02-02 01:00:00.000000","2026-02-03 01:00:00.000000","2026-02-04 01:00:00.000000","2026-02-05 01:00:00.000000","2026-02-06 01:00:00.000000","2026-02-09 01:00:00.000000","2026-02-10 01:00:00.000000","2026-02-11 01:00:00.000000","2026-02-12 01:00:00.000000","2026-02-13 01:00:00.000000","2026-02-16 01:00:00.000000","2026-02-17 01:00:00.000000","2026-02-18 01:00:00.000000"],"y":[16.130510225965555,23.369597005322579,19.843637285293717,17.78479655300151,18.214696535454557,12.128833518550978,13.718781072702818,18.427209451950617,15.474449708525844,14.44697900216411,16.604277553566902,6.6502895244779605,15.643095279873648,20.237468561735973,20.595231132167442,15.455927940574348,14.887602113431193,19.054999902516997,24.539392875943157,31.492854496890299,33.757384336433297,35.844495135598834,33.925055077888892,31.380749059289148,28.635628082899544,32.797176892632251,35.968298531906171,32.934627907430155,33.994268000233951,30.841668128911483,25.124290811253445,29.618256614220819,30.869938195784808,19.929422315805905,3.5747012146380097,0,7.4593983349905439,0.23688366380065087,11.917295431947128,9.5465091341560768,17.243765962839479,18.245891092004413,17.987561170575738,20.685890312140522,26.231697568774226,34.283792478212568,35.675849564251024,35.325885632957025,36.461562457351178,37.00064338772885,29.882435515002637,37.019165155680348,34.383225127215319,27.962995457292699,30.922579009962774,32.806925191554079,40.047961630695426,39.023415414010259,40.73814119436156,39.002943986274396,37.415920921799128,36.948977403443081,34.64350470842836,35.562769296757715,32.121619777348833,29.968220545514779,27.837242401200996,35.160164551285796,37.276520247216858,39.513754849778692,34.571367296406777,33.196857148427604,31.57863952740248,29.24294710573006,32.950225185705079,29.536370903277366,26.177107094811937,29.376498800959233,35.358055019399124,33.973796572498088,31.61665789319764,26.957945838451192,27.665672340176624,29.048955957185456,28.44846074360024,29.646526681094148,25.367023454407196,32.303912967187202,30.983993293170322,37.216080793901476,37.466612076192682,40.362831685870795,38.523327679319955,39.821801095708807,44.43762063519916,42.274473104443274,41.962527538944471,44.668655319646717,45.461192021992161,40.870718059698568,41.87966699810881,43.716246514983133,42.815503694605304,42.623462205845073,46.248854574876681,51.951609444151991,50.556627868436962,48.537755161724277,50.232984344231923,52.350314870055193,51.823906728275915,46.331715115712299,50.655085687547505,53.699479440837564,50.603419703261785,44.210485270320341,43.761088690023591,42.337837047435229,48.864323175605847,54.006550856875471,57.599773839465016,54.893646058762734,56.818935095825765,55.147101830730563,50.534206780916733,51.741046187440311,54.761069193425762,53.710202569651585,57.407732350704791,43.79228324657349,46.238131446062646,46.422374295685422,41.45366633522449,38.700746719697428,35.331734612310164,33.05063266460003,33.410344894815864,34.589889064358267,38.69099842077555,36.429393070909114,42.033690121073889,39.489384102474098,37.059133181259867,41.37470511395761,39.50595621064123,42.389503031720949,37.844846074360014,37.248250180343533,36.862217543038739,36.202257706030302,36.137918933146182,37.801953559103922,38.749488214306616,35.72459105886022,39.084829697217856,39.060458949913254,38.588641282096276,40.855120781423643,41.946930260669497,42.077557466222146,39.654130354253169,42.634185334659101,43.542726794174392,43.183014563958608,43.060185997543421,43.267824764578585,40.234154140102561,45.793609015226835,44.436645805306959,42.960753348540678,47.307519837788313,46.862997406952502,51.418377493127466,53.94221208399135,53.60297128151138,53.575676044530219,59.484120021056327,59.195570372969911,58.291903062915516,54.201516835312233,55.983505878224257,53.32904408180773,53.218888303990951,56.078064377766069,52.571601255580916,57.317073170731703,57.702130978144297,57.011951414478155,54.497865122536105,51.162972061375278,45.990524653447963,51.220487025014137,51.344290421321482,47.74326879959446,48.038642256926181,52.209939365580716,55.788539899787501,54.732799126552436,55.627692967577161,56.158975258817321,52.253806710728966,50.154997952857236,51.482716266011586,50.591721744555599,50.952408804663584,56.4562983759334,57.519837788305928,61.480571640248783,63.152404905344028,68.798619640872687,65.504669435183587,65.748376908229531,66.682263944941624,69.715934569417641,72.350899767990512,70.602054941412746,71.514495720496768,73.375445984675679,81.023961318749883,80.637928681445089,85.861067243765959,78.239847146672915,82.330233374276204,83.907508139829602,82.824472129613369,81.653701429100636,85.305414205221211,83.065255112982797,81.474332728938805,81.605934764383605,81.063929344329409,88.770934471934638,84.637655729075306,90.141545300345115,91.0627595484588,93.777660798190723,92.614688736815438,90.539275896356102,90.924333703768696,98.432473533368437,100,91.592092179914602,93.689926107894166,97.563900099432672,93.814704334093719,95.671755278703856,96.134799477491171,90.48078610282505,90.952603770642028,86.791054960909321,92.259850656060507],"name":"WIG20 (norm.)","type":"scatter","mode":"lines","line":{"color":"#f59e0b","width":1.5},"yaxis":"y2","hovertemplate":["<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG20:<\/b> %{y:.1f}<br> <extra><\/extra>"],"marker":{"color":"rgba(255,127,14,1)","line":{"color":"rgba(255,127,14,1)"}},"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","frame":null},{"x":["2025-02-17 01:00:00.000000","2025-02-18 01:00:00.000000","2025-02-19 01:00:00.000000","2025-02-20 01:00:00.000000","2025-02-21 01:00:00.000000","2025-02-24 01:00:00.000000","2025-02-25 01:00:00.000000","2025-02-26 01:00:00.000000","2025-02-27 01:00:00.000000","2025-02-28 01:00:00.000000","2025-03-03 01:00:00.000000","2025-03-04 01:00:00.000000","2025-03-05 01:00:00.000000","2025-03-06 01:00:00.000000","2025-03-07 01:00:00.000000","2025-03-10 01:00:00.000000","2025-03-11 01:00:00.000000","2025-03-12 01:00:00.000000","2025-03-13 01:00:00.000000","2025-03-14 01:00:00.000000","2025-03-17 01:00:00.000000","2025-03-18 01:00:00.000000","2025-03-19 01:00:00.000000","2025-03-20 01:00:00.000000","2025-03-21 01:00:00.000000","2025-03-24 01:00:00.000000","2025-03-25 01:00:00.000000","2025-03-26 01:00:00.000000","2025-03-27 01:00:00.000000","2025-03-28 01:00:00.000000","2025-03-31 02:00:00.000000","2025-04-01 02:00:00.000000","2025-04-02 02:00:00.000000","2025-04-03 02:00:00.000000","2025-04-04 02:00:00.000000","2025-04-07 02:00:00.000000","2025-04-08 02:00:00.000000","2025-04-09 02:00:00.000000","2025-04-10 02:00:00.000000","2025-04-11 02:00:00.000000","2025-04-14 02:00:00.000000","2025-04-15 02:00:00.000000","2025-04-16 02:00:00.000000","2025-04-17 02:00:00.000000","2025-04-22 02:00:00.000000","2025-04-23 02:00:00.000000","2025-04-24 02:00:00.000000","2025-04-25 02:00:00.000000","2025-04-28 02:00:00.000000","2025-04-29 02:00:00.000000","2025-04-30 02:00:00.000000","2025-05-02 02:00:00.000000","2025-05-05 02:00:00.000000","2025-05-06 02:00:00.000000","2025-05-07 02:00:00.000000","2025-05-08 02:00:00.000000","2025-05-09 02:00:00.000000","2025-05-12 02:00:00.000000","2025-05-13 02:00:00.000000","2025-05-14 02:00:00.000000","2025-05-15 02:00:00.000000","2025-05-16 02:00:00.000000","2025-05-19 02:00:00.000000","2025-05-20 02:00:00.000000","2025-05-21 02:00:00.000000","2025-05-22 02:00:00.000000","2025-05-23 02:00:00.000000","2025-05-26 02:00:00.000000","2025-05-27 02:00:00.000000","2025-05-28 02:00:00.000000","2025-05-29 02:00:00.000000","2025-05-30 02:00:00.000000","2025-06-02 02:00:00.000000","2025-06-03 02:00:00.000000","2025-06-04 02:00:00.000000","2025-06-05 02:00:00.000000","2025-06-06 02:00:00.000000","2025-06-09 02:00:00.000000","2025-06-10 02:00:00.000000","2025-06-11 02:00:00.000000","2025-06-12 02:00:00.000000","2025-06-13 02:00:00.000000","2025-06-16 02:00:00.000000","2025-06-17 02:00:00.000000","2025-06-18 02:00:00.000000","2025-06-20 02:00:00.000000","2025-06-23 02:00:00.000000","2025-06-24 02:00:00.000000","2025-06-25 02:00:00.000000","2025-06-26 02:00:00.000000","2025-06-27 02:00:00.000000","2025-06-30 02:00:00.000000","2025-07-01 02:00:00.000000","2025-07-02 02:00:00.000000","2025-07-03 02:00:00.000000","2025-07-04 02:00:00.000000","2025-07-07 02:00:00.000000","2025-07-08 02:00:00.000000","2025-07-09 02:00:00.000000","2025-07-10 02:00:00.000000","2025-07-11 02:00:00.000000","2025-07-14 02:00:00.000000","2025-07-15 02:00:00.000000","2025-07-16 02:00:00.000000","2025-07-17 02:00:00.000000","2025-07-18 02:00:00.000000","2025-07-21 02:00:00.000000","2025-07-22 02:00:00.000000","2025-07-23 02:00:00.000000","2025-07-24 02:00:00.000000","2025-07-25 02:00:00.000000","2025-07-28 02:00:00.000000","2025-07-29 02:00:00.000000","2025-07-30 02:00:00.000000","2025-07-31 02:00:00.000000","2025-08-01 02:00:00.000000","2025-08-04 02:00:00.000000","2025-08-05 02:00:00.000000","2025-08-06 02:00:00.000000","2025-08-07 02:00:00.000000","2025-08-08 02:00:00.000000","2025-08-11 02:00:00.000000","2025-08-12 02:00:00.000000","2025-08-13 02:00:00.000000","2025-08-14 02:00:00.000000","2025-08-18 02:00:00.000000","2025-08-19 02:00:00.000000","2025-08-20 02:00:00.000000","2025-08-21 02:00:00.000000","2025-08-22 02:00:00.000000","2025-08-25 02:00:00.000000","2025-08-26 02:00:00.000000","2025-08-27 02:00:00.000000","2025-08-28 02:00:00.000000","2025-08-29 02:00:00.000000","2025-09-01 02:00:00.000000","2025-09-02 02:00:00.000000","2025-09-03 02:00:00.000000","2025-09-04 02:00:00.000000","2025-09-05 02:00:00.000000","2025-09-08 02:00:00.000000","2025-09-09 02:00:00.000000","2025-09-10 02:00:00.000000","2025-09-11 02:00:00.000000","2025-09-12 02:00:00.000000","2025-09-15 02:00:00.000000","2025-09-16 02:00:00.000000","2025-09-17 02:00:00.000000","2025-09-18 02:00:00.000000","2025-09-19 02:00:00.000000","2025-09-22 02:00:00.000000","2025-09-23 02:00:00.000000","2025-09-24 02:00:00.000000","2025-09-25 02:00:00.000000","2025-09-26 02:00:00.000000","2025-09-29 02:00:00.000000","2025-09-30 02:00:00.000000","2025-10-01 02:00:00.000000","2025-10-02 02:00:00.000000","2025-10-03 02:00:00.000000","2025-10-06 02:00:00.000000","2025-10-07 02:00:00.000000","2025-10-08 02:00:00.000000","2025-10-09 02:00:00.000000","2025-10-10 02:00:00.000000","2025-10-13 02:00:00.000000","2025-10-14 02:00:00.000000","2025-10-15 02:00:00.000000","2025-10-16 02:00:00.000000","2025-10-17 02:00:00.000000","2025-10-20 02:00:00.000000","2025-10-21 02:00:00.000000","2025-10-22 02:00:00.000000","2025-10-23 02:00:00.000000","2025-10-24 02:00:00.000000","2025-10-27 01:00:00.000000","2025-10-28 01:00:00.000000","2025-10-29 01:00:00.000000","2025-10-30 01:00:00.000000","2025-10-31 01:00:00.000000","2025-11-03 01:00:00.000000","2025-11-04 01:00:00.000000","2025-11-05 01:00:00.000000","2025-11-06 01:00:00.000000","2025-11-07 01:00:00.000000","2025-11-10 01:00:00.000000","2025-11-12 01:00:00.000000","2025-11-13 01:00:00.000000","2025-11-14 01:00:00.000000","2025-11-17 01:00:00.000000","2025-11-18 01:00:00.000000","2025-11-19 01:00:00.000000","2025-11-20 01:00:00.000000","2025-11-21 01:00:00.000000","2025-11-24 01:00:00.000000","2025-11-25 01:00:00.000000","2025-11-26 01:00:00.000000","2025-11-27 01:00:00.000000","2025-11-28 01:00:00.000000","2025-12-01 01:00:00.000000","2025-12-02 01:00:00.000000","2025-12-03 01:00:00.000000","2025-12-04 01:00:00.000000","2025-12-05 01:00:00.000000","2025-12-08 01:00:00.000000","2025-12-09 01:00:00.000000","2025-12-10 01:00:00.000000","2025-12-11 01:00:00.000000","2025-12-12 01:00:00.000000","2025-12-15 01:00:00.000000","2025-12-16 01:00:00.000000","2025-12-17 01:00:00.000000","2025-12-18 01:00:00.000000","2025-12-19 01:00:00.000000","2025-12-22 01:00:00.000000","2025-12-23 01:00:00.000000","2025-12-29 01:00:00.000000","2025-12-30 01:00:00.000000","2026-01-02 01:00:00.000000","2026-01-05 01:00:00.000000","2026-01-07 01:00:00.000000","2026-01-08 01:00:00.000000","2026-01-09 01:00:00.000000","2026-01-12 01:00:00.000000","2026-01-13 01:00:00.000000","2026-01-14 01:00:00.000000","2026-01-15 01:00:00.000000","2026-01-16 01:00:00.000000","2026-01-19 01:00:00.000000","2026-01-20 01:00:00.000000","2026-01-21 01:00:00.000000","2026-01-22 01:00:00.000000","2026-01-23 01:00:00.000000","2026-01-26 01:00:00.000000","2026-01-27 01:00:00.000000","2026-01-28 01:00:00.000000","2026-01-29 01:00:00.000000","2026-01-30 01:00:00.000000","2026-02-02 01:00:00.000000","2026-02-03 01:00:00.000000","2026-02-04 01:00:00.000000","2026-02-05 01:00:00.000000","2026-02-06 01:00:00.000000","2026-02-09 01:00:00.000000","2026-02-10 01:00:00.000000","2026-02-11 01:00:00.000000","2026-02-12 01:00:00.000000","2026-02-13 01:00:00.000000","2026-02-16 01:00:00.000000","2026-02-17 01:00:00.000000","2026-02-18 01:00:00.000000"],"y":[11.877789823646626,17.370714388044615,14.386765055294038,13.125252308821715,13.524304819415239,8.9806510339110659,10.043779108817013,13.899998770602137,11.674512650378581,10.711542866719958,12.041550637016265,3.8969403297947505,10.873246320399661,14.345944028275159,14.764541455923204,11.230649842147828,10.697994400469076,14.304445577943692,18.135324589889162,23.378957375270698,25.804208103438008,27.707265816642568,26.876845194471922,24.79577568858198,22.992550099844657,26.481229979945773,29.506953750303268,27.148416673545452,27.64413999981435,25.321280550850524,20.639382230082564,24.54773839718132,25.683978010337466,16.947977151264364,3.2940084918775674,0,6.736372689202458,0.655996664066548,9.9449254846901205,8.5127773327134317,15.13501673862827,16.091789353464687,16.081502555014918,18.661506875470259,23.578094739406541,29.979017440137746,31.081561515932854,31.185985065074046,32.028925473650624,32.839449922234294,27.588189852148602,33.802996770196188,31.888999924981643,28.775135854736366,31.752612031389287,33.326918719991092,38.939998108232672,39.641131236716532,41.532748022864787,40.365070950056094,38.903592877621477,38.6968031390291,36.7187521561506,37.173303198868155,34.72903443844492,32.720323778235681,30.605734363250935,36.466198709332964,38.234624811607318,40.502838780025826,35.697122531576085,34.495800100910998,33.072006836455699,30.719516390006163,34.256067517527079,31.364323024539548,29.004681998679764,31.657697498376059,36.039271483915833,35.05575319311005,33.037132080735816,29.198826502104652,29.747137949228858,30.998138089480577,30.642892286431628,31.810619538744962,28.244562862499883,34.273529985139319,33.855835788574673,39.274494686115915,40.145987232828624,42.563761214805673,41.331327491268134,42.303354675512971,46.31651073803765,44.712849039225574,44.539729748241903,45.851120922319353,46.735057986181047,43.14539185300616,43.605663359251864,44.857466371577729,44.553554201768272,44.518152561249721,47.556697195040968,51.94737876067159,50.853741546948804,49.347754253904789,50.803010067764895,52.595547422015422,52.25119057147181,47.800444138795498,50.967398124942441,53.113876615121448,50.576901219888839,45.054747094042142,47.287985947731514,46.271023017087863,51.514731071726317,55.999549388048401,58.183938493977564,56.115012428208821,57.5968633795244,57.843771632070826,54.293094973995728,55.660461385491224,58.961846264549841,57.881757517077972,60.907004582141447,49.982173730979156,52.190021755324231,52.204172375630719,47.998051028040031,45.923203780724577,42.773862800703803,40.67708710986377,40.667477734726553,41.979822319392042,45.843819804395253,44.750483667700287,49.668125301233815,47.4559618394903,45.050632374662243,48.568190559679607,46.88288680682971,49.569823651657892,45.722761749468269,44.885918150704605,44.754573297327852,44.293097482970957,44.152594869998701,45.511706752982093,47.153153618782774,44.74674529460512,47.277899867300285,47.162712814415372,46.759144148404879,48.660044142910216,50.101199515968474,50.90630457805181,48.689123165845004,50.706489790603413,51.606659924213872,50.912476657121687,50.742518674929869,50.477947236752662,47.485542657471449,52.694150148619137,51.402880955899498,50.273992640172061,54.925758168407945,54.656520036299838,58.234444165390627,59.818535857395851,59.464343823944191,59.927701369724851,64.560775032484926,64.147898068365038,62.676710261783967,59.613100965428579,61.048084259417003,59.326525814469811,59.796080529072604,61.384211671200816,58.353846296664727,62.576250893508814,62.807352602095825,62.236058941849713,60.115372717052082,57.428034436186827,51.962934407107809,56.461401548690063,56.808317553969921,53.230092347851333,53.506932674911333,56.924658735461428,60.091587631856036,59.665337829751465,60.565533053114251,60.692361751074046,57.431923347795887,55.751888442932461,56.062800653638213,55.825175609448905,56.120958699507817,60.624744868581118,61.816809180641449,64.554402235396566,65.409410814837372,69.351964314343491,66.536317040131792,66.874903247642635,67.138471095727169,69.801748304120892,72.37071313355699,71.309115533542354,72.44194294038347,74.047712178390142,81.42613162937117,81.818033560554483,87.056221869683313,80.873805821876317,84.863728773755909,86.058026073772382,85.474112268111085,84.289424343231829,86.831819124964767,85.238644942620994,83.60743469576542,83.31054765660457,83.152482217010785,90.082397255582521,86.841001974312604,91.437921303984666,92.827341607766385,94.926024119782497,93.509757781022159,93.12420355717488,93.734009987226784,99.738966216899385,100,92.727961098840822,94.306533045336423,98.01893824684349,95.808556157514474,97.281424977500734,97.296804995670755,92.37233894950711,93.384710455476835,89.767821941038548,94.032603129545166],"name":"WIG (norm.)","type":"scatter","mode":"lines","line":{"color":"#10b981","width":1.5},"yaxis":"y2","hovertemplate":["<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>","<b>Data:<\/b> %{x|%Y-%m-%d}<br> <b>WIG:<\/b> %{y:.1f}<br> <extra><\/extra>"],"marker":{"color":"rgba(44,160,44,1)","line":{"color":"rgba(44,160,44,1)"}},"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Jak czytać wykres?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Indeks Trendów (niebieski):</strong> pokazuje procent spółek w trendzie wzrostowym (0-100%)</li>
+<li><strong>WIG20 i WIG (pomarańczowy/zielony):</strong> znormalizowane do skali 0-100 dla porównywalności</li>
+<li>Wartości &gt; 50% w indeksie trendów sugerują przewagę trendów wzrostowych (rynek byka)</li>
+<li>Wartości &lt; 50% sugerują przewagę trendów spadkowych (rynek niedźwiedzia)</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="ostatnie-60-sesji" class="level2">
+<h2 class="anchored" data-anchor-id="ostatnie-60-sesji">Ostatnie 60 sesji</h2>
+<p>Tabela przedstawia szczegółowe wartości indeksu trendów oraz głównych indeksów GPW z ostatnich 60 sesji giełdowych (kwartał).</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:500px; ">
+<table class="table table-striped table-hover table-condensed table-sm small" data-quarto-postprocess="true">
+<caption>Wartości indeksu trendów i głównych indeksów GPW (ostatnie 60 sesji)</caption>
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" style="text-align: left; position: sticky; top: 0; background-color: #FFFFFF;">Data</th>
+<th data-quarto-table-cell-role="th" style="text-align: right; position: sticky; top: 0; background-color: #FFFFFF;">Indeks Trendów</th>
+<th data-quarto-table-cell-role="th" style="text-align: right; position: sticky; top: 0; background-color: #FFFFFF;">WIG20</th>
+<th data-quarto-table-cell-role="th" style="text-align: right; position: sticky; top: 0; background-color: #FFFFFF;">WIG</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2026-02-18</td>
+<td style="text-align: right;">66.0%</td>
+<td style="text-align: right;">3377.74</td>
+<td style="text-align: right;">125205.60</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-02-17</td>
+<td style="text-align: right;">63.9%</td>
+<td style="text-align: right;">3321.64</td>
+<td style="text-align: right;">123505.79</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-02-16</td>
+<td style="text-align: right;">64.9%</td>
+<td style="text-align: right;">3364.33</td>
+<td style="text-align: right;">124947.37</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-02-13</td>
+<td style="text-align: right;">66.0%</td>
+<td style="text-align: right;">3359.49</td>
+<td style="text-align: right;">124543.87</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-02-12</td>
+<td style="text-align: right;">66.0%</td>
+<td style="text-align: right;">3417.49</td>
+<td style="text-align: right;">126506.61</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-02-11</td>
+<td style="text-align: right;">64.9%</td>
+<td style="text-align: right;">3412.74</td>
+<td style="text-align: right;">126500.48</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-02-10</td>
+<td style="text-align: right;">64.9%</td>
+<td style="text-align: right;">3393.69</td>
+<td style="text-align: right;">125913.44</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-02-09</td>
+<td style="text-align: right;">63.9%</td>
+<td style="text-align: right;">3432.15</td>
+<td style="text-align: right;">126794.43</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-02-06</td>
+<td style="text-align: right;">62.9%</td>
+<td style="text-align: right;">3392.41</td>
+<td style="text-align: right;">125314.78</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-02-05</td>
+<td style="text-align: right;">66.0%</td>
+<td style="text-align: right;">3370.89</td>
+<td style="text-align: right;">124685.61</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-02-04</td>
+<td style="text-align: right;">67.0%</td>
+<td style="text-align: right;">3457.14</td>
+<td style="text-align: right;">127584.02</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-02-03</td>
+<td style="text-align: right;">67.0%</td>
+<td style="text-align: right;">3441.06</td>
+<td style="text-align: right;">127479.98</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-02-02</td>
+<td style="text-align: right;">68.0%</td>
+<td style="text-align: right;">3364.04</td>
+<td style="text-align: right;">125086.59</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-01-30</td>
+<td style="text-align: right;">69.1%</td>
+<td style="text-align: right;">3360.09</td>
+<td style="text-align: right;">124843.54</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-01-29</td>
+<td style="text-align: right;">68.0%</td>
+<td style="text-align: right;">3381.38</td>
+<td style="text-align: right;">124997.21</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-01-28</td>
+<td style="text-align: right;">67.0%</td>
+<td style="text-align: right;">3393.31</td>
+<td style="text-align: right;">125561.69</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-01-27</td>
+<td style="text-align: right;">68.0%</td>
+<td style="text-align: right;">3365.46</td>
+<td style="text-align: right;">124725.22</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-01-26</td>
+<td style="text-align: right;">68.0%</td>
+<td style="text-align: right;">3356.01</td>
+<td style="text-align: right;">124171.44</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-01-23</td>
+<td style="text-align: right;">69.1%</td>
+<td style="text-align: right;">3299.55</td>
+<td style="text-align: right;">122339.25</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-01-22</td>
+<td style="text-align: right;">69.1%</td>
+<td style="text-align: right;">3341.95</td>
+<td style="text-align: right;">123631.17</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-01-21</td>
+<td style="text-align: right;">67.0%</td>
+<td style="text-align: right;">3262.89</td>
+<td style="text-align: right;">120869.12</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-01-20</td>
+<td style="text-align: right;">68.0%</td>
+<td style="text-align: right;">3268.45</td>
+<td style="text-align: right;">120932.12</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-01-19</td>
+<td style="text-align: right;">70.1%</td>
+<td style="text-align: right;">3267.10</td>
+<td style="text-align: right;">121050.45</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-01-16</td>
+<td style="text-align: right;">70.1%</td>
+<td style="text-align: right;">3283.42</td>
+<td style="text-align: right;">121700.60</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-01-15</td>
+<td style="text-align: right;">70.1%</td>
+<td style="text-align: right;">3306.40</td>
+<td style="text-align: right;">122335.59</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-01-14</td>
+<td style="text-align: right;">69.1%</td>
+<td style="text-align: right;">3268.94</td>
+<td style="text-align: right;">121322.27</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-01-13</td>
+<td style="text-align: right;">68.0%</td>
+<td style="text-align: right;">3280.95</td>
+<td style="text-align: right;">121794.45</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-01-12</td>
+<td style="text-align: right;">69.1%</td>
+<td style="text-align: right;">3292.06</td>
+<td style="text-align: right;">122027.18</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-01-09</td>
+<td style="text-align: right;">69.1%</td>
+<td style="text-align: right;">3275.88</td>
+<td style="text-align: right;">121551.17</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-01-08</td>
+<td style="text-align: right;">68.0%</td>
+<td style="text-align: right;">3233.92</td>
+<td style="text-align: right;">119960.91</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-01-07</td>
+<td style="text-align: right;">68.0%</td>
+<td style="text-align: right;">3312.10</td>
+<td style="text-align: right;">122425.03</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-01-05</td>
+<td style="text-align: right;">64.9%</td>
+<td style="text-align: right;">3258.52</td>
+<td style="text-align: right;">120337.25</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2026-01-02</td>
+<td style="text-align: right;">63.9%</td>
+<td style="text-align: right;">3262.48</td>
+<td style="text-align: right;">120181.05</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-12-30</td>
+<td style="text-align: right;">61.9%</td>
+<td style="text-align: right;">3184.02</td>
+<td style="text-align: right;">117240.24</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-12-29</td>
+<td style="text-align: right;">60.8%</td>
+<td style="text-align: right;">3164.93</td>
+<td style="text-align: right;">116600.23</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-12-23</td>
+<td style="text-align: right;">60.8%</td>
+<td style="text-align: right;">3155.57</td>
+<td style="text-align: right;">116148.72</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-12-22</td>
+<td style="text-align: right;">59.8%</td>
+<td style="text-align: right;">3173.51</td>
+<td style="text-align: right;">116571.84</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-12-19</td>
+<td style="text-align: right;">57.7%</td>
+<td style="text-align: right;">3146.48</td>
+<td style="text-align: right;">115547.93</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-12-18</td>
+<td style="text-align: right;">57.7%</td>
+<td style="text-align: right;">3115.36</td>
+<td style="text-align: right;">114486.43</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-12-17</td>
+<td style="text-align: right;">59.8%</td>
+<td style="text-align: right;">3105.78</td>
+<td style="text-align: right;">114381.38</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-12-16</td>
+<td style="text-align: right;">61.9%</td>
+<td style="text-align: right;">3103.28</td>
+<td style="text-align: right;">114246.43</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-12-15</td>
+<td style="text-align: right;">61.9%</td>
+<td style="text-align: right;">3137.07</td>
+<td style="text-align: right;">115368.66</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-12-12</td>
+<td style="text-align: right;">61.9%</td>
+<td style="text-align: right;">3079.15</td>
+<td style="text-align: right;">113797.28</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-12-11</td>
+<td style="text-align: right;">60.8%</td>
+<td style="text-align: right;">3062.00</td>
+<td style="text-align: right;">113456.50</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-12-10</td>
+<td style="text-align: right;">61.9%</td>
+<td style="text-align: right;">3021.37</td>
+<td style="text-align: right;">112365.38</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-12-09</td>
+<td style="text-align: right;">61.9%</td>
+<td style="text-align: right;">3010.46</td>
+<td style="text-align: right;">111890.26</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-12-08</td>
+<td style="text-align: right;">59.8%</td>
+<td style="text-align: right;">2954.00</td>
+<td style="text-align: right;">110095.19</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-12-05</td>
+<td style="text-align: right;">60.8%</td>
+<td style="text-align: right;">2950.30</td>
+<td style="text-align: right;">109977.30</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-12-04</td>
+<td style="text-align: right;">62.9%</td>
+<td style="text-align: right;">2959.44</td>
+<td style="text-align: right;">110072.01</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-12-03</td>
+<td style="text-align: right;">62.9%</td>
+<td style="text-align: right;">2945.82</td>
+<td style="text-align: right;">109948.09</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-12-02</td>
+<td style="text-align: right;">64.9%</td>
+<td style="text-align: right;">2967.35</td>
+<td style="text-align: right;">110617.70</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-12-01</td>
+<td style="text-align: right;">67.0%</td>
+<td style="text-align: right;">3007.41</td>
+<td style="text-align: right;">111917.21</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-11-28</td>
+<td style="text-align: right;">63.9%</td>
+<td style="text-align: right;">3001.96</td>
+<td style="text-align: right;">111866.66</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-11-27</td>
+<td style="text-align: right;">62.9%</td>
+<td style="text-align: right;">2992.78</td>
+<td style="text-align: right;">111507.87</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-11-26</td>
+<td style="text-align: right;">60.8%</td>
+<td style="text-align: right;">3003.61</td>
+<td style="text-align: right;">111677.76</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-11-25</td>
+<td style="text-align: right;">58.8%</td>
+<td style="text-align: right;">2966.90</td>
+<td style="text-align: right;">110415.52</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-11-24</td>
+<td style="text-align: right;">58.8%</td>
+<td style="text-align: right;">2924.11</td>
+<td style="text-align: right;">109053.32</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-11-21</td>
+<td style="text-align: right;">59.8%</td>
+<td style="text-align: right;">2921.08</td>
+<td style="text-align: right;">108942.98</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-11-20</td>
+<td style="text-align: right;">59.4%</td>
+<td style="text-align: right;">2958.02</td>
+<td style="text-align: right;">110369.15</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-11-19</td>
+<td style="text-align: right;">56.2%</td>
+<td style="text-align: right;">2956.75</td>
+<td style="text-align: right;">110230.88</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+<section id="metodologia" class="level2">
+<h2 class="anchored" data-anchor-id="metodologia">Metodologia</h2>
+<section id="uniwersum-spółek" class="level3">
+<h3 class="anchored" data-anchor-id="uniwersum-spółek">Uniwersum spółek</h3>
+<p>Indeks trendów GPW jest budowany na podstawie <strong>100 spółek o najwyższym średnim dziennym obrocie</strong> na Giełdzie Papierów Wartościowych w Warszawie. Dobór spółek na podstawie płynności zapewnia, że indeks odzwierciedla rzeczywiste możliwości inwestycyjne dostępne dla uczestników rynku.</p>
+<p>Aby spółka została uwzględniona w kalkulacji, musi spełniać dodatkowy warunek: <strong>posiadać historię notowań obejmującą minimum 250 sesji giełdowych</strong> (około 1 rok). Ten wymóg pozwala uwzględnić w indeksie debiuty gigantów rynkowych z ostatnich lat (takich jak Allegro, Żabka czy Pepco), jednocześnie eliminując spółki o zbyt krótkiej historii, dla których analiza trendów byłaby niewystarczająco wiarygodna.</p>
+</section>
+<section id="definicja-trendu" class="level3">
+<h3 class="anchored" data-anchor-id="definicja-trendu">Definicja trendu</h3>
+<p>Dla każdej spółki z uniwersum analiza trendu opiera się na porównaniu bieżącej ceny z <strong>długoterminową średnią kroczącą obejmującą 200 sesji giełdowych</strong>. Średnia 200-sesyjna jest szeroko uznanym w analizie technicznej narzędziem do określania długoterminowego kierunku ruchu ceny.</p>
+<p>Spółka uznawana jest za będącą w <strong>trendzie wzrostowym</strong>, gdy jej cena przebywa powyżej długoterminowej średniej kroczącej. Odwrotnie – gdy cena znajduje się poniżej średniej, spółka nie jest zaliczana do grupy będących w trendzie wzrostowym.</p>
+</section>
+<section id="obliczanie-indeksu" class="level3">
+<h3 class="anchored" data-anchor-id="obliczanie-indeksu">Obliczanie indeksu</h3>
+<p>Wartość indeksu trendów to <strong>procent spółek z uniwersum, które znajdują się w trendzie wzrostowym</strong> w danym dniu. Każda spółka ma równy wkład w wartość indeksu (1/N, gdzie N to liczba spółek), niezależnie od jej kapitalizacji czy wartości obrotu.</p>
+<p>Matematycznie:</p>
+<p><span class="math display">\[
+\text{Indeks Trendów}_t = \frac{\text{Liczba spółek w trendzie wzrostowym}_t}{\text{Całkowita liczba spółek z danymi}_t} \times 100\%
+\]</span></p>
+</section>
+<section id="aktualizacja" class="level3">
+<h3 class="anchored" data-anchor-id="aktualizacja">Aktualizacja</h3>
+<p>Indeks jest <strong>aktualizowany codziennie przed rozpoczęciem nowej sesji GPW</strong>, wykorzystując ceny zamknięcia z poprzedniej sesji. Dzięki temu inwestorzy rozpoczynają każdy dzień handlowy z aktualnym obrazem szerokości rynku.</p>
+</section>
+</section>
+<section id="potencjalne-zastosowania" class="level2">
+<h2 class="anchored" data-anchor-id="potencjalne-zastosowania">Potencjalne zastosowania</h2>
+<section id="ocena-rzeczywistej-siły-rynku" class="level3">
+<h3 class="anchored" data-anchor-id="ocena-rzeczywistej-siły-rynku">1. Ocena rzeczywistej siły rynku</h3>
+<p>Indeks trendów pozwala odróżnić <strong>prawdziwą hossę</strong> (szeroki udział większości spółek we wzrostach) od <strong>pozornej hossy</strong> (wzrost napędzany tylko przez kilka dużych spółek). Gdy indeks WIG lub WIG20 rośnie, ale indeks trendów jest niski (np. poniżej 30-40%), może to świadczyć o słabości fundamentalnej ruchu i zwiększonym ryzyku odwrócenia trendu.</p>
+</section>
+<section id="identyfikacja-dywergencji" class="level3">
+<h3 class="anchored" data-anchor-id="identyfikacja-dywergencji">2. Identyfikacja dywergencji</h3>
+<p><strong>Dywergencje</strong> między indeksem trendów a głównymi indeksami mogą sygnalizować nadchodzące zmiany kierunku rynku:</p>
+<ul>
+<li><p><strong>Pozytywna dywergencja (potencjalnie bullish):</strong> Indeks trendów rośnie, podczas gdy WIG/WIG20 spadają. Sugeruje to, że szeroki rynek zaczyna się umacniać, mimo że główne indeksy jeszcze tego nie pokazują – może zapowiadać przyszły wzrost.</p></li>
+<li><p><strong>Negatywna dywergencja (potencjalnie bearish):</strong> Indeks trendów spada, podczas gdy WIG/WIG20 rosną. Oznacza to, że wzrost głównych indeksów jest napędzany przez coraz mniejszą grupę spółek – niezdrowa sytuacja mogąca poprzedzać korektę lub bessę.</p></li>
+</ul>
+</section>
+<section id="potwierdzenie-trendów" class="level3">
+<h3 class="anchored" data-anchor-id="potwierdzenie-trendów">3. Potwierdzenie trendów</h3>
+<p>Silne trendy rynkowe (zarówno wzrostowe, jak i spadkowe) są bardziej wiarygodne, gdy towarzyszą im odpowiednie wartości indeksu trendów:</p>
+<ul>
+<li><strong>Potwierdzenie hossy:</strong> WIG rośnie + indeks trendów &gt; 60-70%</li>
+<li><strong>Potwierdzenie bessy:</strong> WIG spada + indeks trendów &lt; 30-40%</li>
+</ul>
+</section>
+<section id="timing-wejść-i-wyjść" class="level3">
+<h3 class="anchored" data-anchor-id="timing-wejść-i-wyjść">4. Timing wejść i wyjść</h3>
+<p>Ekstrema w indeksie trendów mogą wskazywać na:</p>
+<ul>
+<li><strong>Wyprzedanie rynku:</strong> Indeks trendów &lt; 20% – potencjalna okazja do zakupów (wyprzedanie)</li>
+<li><strong>Wykupienie rynku:</strong> Indeks trendów &gt; 80% – potencjalne ostrzeżenie przed korektą (wykupienie)</li>
+</ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Ważne zastrzeżenie
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Indeks trendów GPW jest narzędziem analitycznym wspomagającym podejmowanie decyzji inwestycyjnych, a nie systemem generującym jednoznaczne sygnały kupna lub sprzedaży. Powinien być używany w połączeniu z innymi metodami analizy i zawsze z uwzględnieniem indywidualnej tolerancji ryzyka oraz celów inwestycyjnych.</p>
+</div>
+</div>
+<hr>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aktualizacje
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Indeks trendów GPW jest aktualizowany codziennie. Strona jest odświeżana automatycznie przed rozpoczęciem każdej nowej sesji giełdowej.</p>
+<p>Ostatnia aktualizacja danych: 2026-02-18</p>
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Skopiowano!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Skopiowano!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 DomenaRynku.pl</p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../privacy.html">
+<p>Prywatność i Regulamin</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

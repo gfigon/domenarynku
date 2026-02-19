@@ -16,12 +16,12 @@ library(DT)
 companies <- data.frame(
   ticker = c(
     "11B", "4MS", "ACP", "ALE", "ALL", "ALR", "APT", "APR", "ASM", "ASB", "ATT", "BCX", "BDX", "BFT", "BHW", "BMC", "BNP", "CAR", "CCC", "CBF", "CDR", "CIG", "CLC", "CPS", "CRI", "CRJ", "DAD", "DAT", "DIA", "DIG", "DNP", "DOM", "DVL",
-    "EAT", "ECH", "ELT", "ENA", "ENG", "ENT", "EUR", "FRO", "GPW", "GPP", "GRX", "IFR", "ING", "JSW", "KGH", "KER", "KRU", "KTY", "LBW", "LPP", "LWB", "MBK", "MBR", "MDG", "MIL", "MLS", "MRB", "MUR",
+    "EAT", "ECH", "ELT", "ENA", "ENG", "ENT", "EUR", "FRO", "GPW", "GPP", "GRX", "ICE", "IFR", "ING", "JSW", "KGH", "KER", "KRU", "KTY", "LBW", "LPP", "LWB", "MBK", "MBR", "MDG", "MIL", "MLS", "MRB", "MUR",
     "NWG", "NEU", "OPL", "PAS", "PCO", "PCR", "PEO", "PEP", "PGE", "PKN", "PKO", "PKP", "PLW", "PXM", "PZU", "RBW", "RVU", "SCP", "SGN", "SLV", "SNT", "SPL", "SPR", "STX", "TEN", "TOA", "TOR", "TPE", "TRK", "TXT", "VRG", "WTN", "WPL", "XTB", "ZAB"
   ),
   name = c(
     "11 bit studios", "4Mass", "Asseco Poland", "Allegro.eu", "Ailleron", "Alior Bank", "Apator", "Auto Partner", "ASM Group", "Asbis", "Grupa Azoty", "Bioceltix", "Budimex", "Benefit Systems", "Bank Handlowy", "Bumech", "BNP Paribas Bank Polska", "Inter Cars", "Grupa CCC", "Copernicus", "CD PROJEKT", "CI Games", "Columbus Energy", "Cyfrowy Polsat", "Creotech", "Creepy Jar", "Dadelo", "DataWalk", "Diagnostyka", "Digital Network", "DINO POLSKA", "Dom Development", "Develia",
-    "AmRest", "Echo Investment", "Elektrotim", "ENEA", "ENERGA", "Enter Air", "Eurocash", "Ferro", "Giełda Papierów Wartościowych", "Grupa Pracuj", "GreenX Metals", "Investment Friends", "ING Bank Śląski", "Jastrzębska Spółka Węglowa", "KGHM Polska Miedź", "Kernel Holding", "KRUK", "Grupa Kęty", "Lubawa", "LPP", "Lubelski Węgiel Bogdanka", "mBank", "Mo-BRUK", "Medicalgorithmics", "Bank Millennium", "ML System", "MIRBUD", "Murapol",
+    "AmRest", "Echo Investment", "Elektrotim", "ENEA", "ENERGA", "Enter Air", "Eurocash", "Ferro", "Giełda Papierów Wartościowych", "Grupa Pracuj", "GreenX Metals", "Medinice", "Investment Friends", "ING Bank Śląski", "Jastrzębska Spółka Węglowa", "KGHM Polska Miedź", "Kernel Holding", "KRUK", "Grupa Kęty", "Lubawa", "LPP", "Lubelski Węgiel Bogdanka", "mBank", "Mo-BRUK", "Medicalgorithmics", "Bank Millennium", "ML System", "MIRBUD", "Murapol",
     "Newag", "Neuca", "Orange Polska", "Passus", "Pepco Group", "PCC Rokita", "Bank Pekao", "Polenergia", "PGE Polska Grupa Energetyczna", "ORLEN", "PKO Bank Polski", "PKP Cargo", "Playway", "Polimex-Mostostal", "PZU", "Rainbow Tours", "Ryvu Therapeutics", "Scope Fluidics", "Sygnity", "Selvita", "Synektik", "Santander Bank Polska", "Spyrosoft", "Stalexport Autostrady", "Ten Square Games", "Toya", "Torpol", "Tauron Polska Energia", "Trakcja", "Text", "Vistula Retail Group", "Wittchen", "Wirtualna Polska", "XTB", "Żabka Group"
   ),
   stringsAsFactors = FALSE
