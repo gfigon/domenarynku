@@ -1,13 +1,13 @@
 ---
-title: "Bumech S.A. (BMC)"
-subtitle: "Profil spółki Bumech — notowania, analiza, strategia"
-categories: [Przemysł i produkcja]
-pagitle: "Bumech S.A. (BMC) | Profil spółki GPW - Notowania i Analiza"
+title: "Copernicus S.A. (CBF)"
+subtitle: "Profil spółki Copernicus — notowania, analiza, strategia"
+categories: [Zdrowie i farmacja]
+pagitle: "Copernicus S.A. (CBF) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
     header-includes: |
-      <meta name="description" content="Bumech S.A. (BMC) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Przemysł i produkcja.">
-      <meta name="keywords" content="Bumech, BMC, akcje Bumech, GPW, notowania, przemysł, maszyny">
+      <meta name="description" content="Copernicus S.A. (CBF) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Zdrowie i farmacja.">
+      <meta name="keywords" content="Copernicus, CBF, akcje Copernicus, GPW, notowania, szpital, medycyna">
 ---
 
 ```{r setup, include=FALSE}
@@ -29,7 +29,7 @@ get_stock_data <- function(ticker) {
   return(df)
 }
 
-stock_data <- get_stock_data("BMC")
+stock_data <- get_stock_data("CBF")
 last_row <- tail(stock_data, 1)
 last_price <- last_row$price
 last_date <- last_row$date
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** BMC | **Bumech S.A.** | **Siedziba:** Bytom | **WWW:** [bumech.pl](https://www.bumech.pl/){rel="nofollow"} | **Branża:** [Przemysł i produkcja](../spolki-gpw.html#category=Przemysł i produkcja)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** CBF | **Copernicus S.A.** | **Siedziba:** Toruń | **Branża:** [Zdrowie i farmacja](../spolki-gpw.html#category=Zdrowie i farmacja)
 :::
 
 ```{r}
@@ -79,7 +79,7 @@ cat(html_str)
 #| echo: false
 stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
 sma200 <- SMA(stock_xts, n = 200)
-plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena BMC") |>
+plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena CBF") |>
   add_lines(x = index(stock_xts), y = as.numeric(sma200), name = "SMA 200", line = list(color = "orange")) |>
   layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = "h", x = 0.1, y = 1.1), margin = list(t = 50))
 ```
@@ -87,38 +87,38 @@ plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode 
 ## O spółce
 
 **Profil działalności:**
-Bumech to polska spółka przemysłowa specjalizująca się w produkcji maszyn i urządzeń dla górnictwa oraz przemysłu. Spółka oferuje rozwiązania dla sektorów wydobywczego, energetycznego i inżynieryjnego.
+Copernicus to polska spółka medyczna prowadząca szpital i świadcząca usługi zdrowotne. Spółka oferuje kompleksową opiekę medyczną w regionie kujawsko-pomorskim, prowadząc placówki szpitalne.
 
 **Strategia i Perspektywy:**
-Bumech rozwija się jako producent maszyn dla przemysłu ciężkiego. Kluczowe jest pozyskiwanie kontraktów od dużych przedsiębiorstw przemysłowych.
+Copernicus rozwija się jako dostawca usług medycznych, koncentrując się na opiece szpitalnej. Kluczowe jest rozwijanie oferty usług i utrzymanie standardów medycznych.
 
 ## Biznes
 
 **Główne linie produktowe:**
 
-* **Maszyny górnicze:** Urządzenia dla kopalń.
+* **Usługi szpitalne:** Leczenie szpitalne.
 
-* **Przemysł energetyczny:** Maszyny dla sektora energetycznego.
+* **Opieka medyczna:** kompleksowa opieka zdrowotna.
 
-* **Urządzenia specjalistyczne:** Maszyny do pracy w trudnych warunkach.
+* **Diagnostyka:** Badania diagnostyczne.
 
-* **Serwis:** Obsługa posprzedażowa i naprawy.
+* **Poradnie:** Ambulatoryjna opieka specjalistyczna.
 
 **Zasoby i Surowce:**
 
-Zakład produkcyjny, doświadczony zespół inżynierów.
+Szpital, zespół medyczny, infrastruktura medyczna.
 
 ## Strategia
 
 **Kierunki rozwoju:**
 
-* **Górnictwo:** Rozwój produktów dla sektora górniczego.
+* **Usługi:** Rozwijanie oferty usług medycznych.
 
-* **Energetyka:** Maszyny dla przemysłu energetycznego.
+* **Infrastruktura:** Modernizacja placówek.
 
-* **Eksport:** Zwiększanie sprzedaży zagranicznej.
+* **Kadry:** Rozwój zespołu medycznego.
 
-* **Serwis:** Rozwój usług serwisowych.
+* **Jakość:** Utrzymanie wysokich standardów.
 
 :::: {.callout-important}
 ## Informacja prawna

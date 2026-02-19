@@ -1,13 +1,13 @@
 ---
-title: "Bumech S.A. (BMC)"
-subtitle: "Profil spółki Bumech — notowania, analiza, strategia"
-categories: [Przemysł i produkcja]
-pagitle: "Bumech S.A. (BMC) | Profil spółki GPW - Notowania i Analiza"
+title: "ASM Group S.A. (ASM)"
+subtitle: "Profil spółki ASM Group — notowania, analiza, strategia"
+categories: [Usługi biznesowe]
+pagitle: "ASM Group S.A. (ASM) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
     header-includes: |
-      <meta name="description" content="Bumech S.A. (BMC) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Przemysł i produkcja.">
-      <meta name="keywords" content="Bumech, BMC, akcje Bumech, GPW, notowania, przemysł, maszyny">
+      <meta name="description" content="ASM Group S.A. (ASM) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Usługi biznesowe.">
+      <meta name="keywords" content="ASM Group, ASM, akcje ASM, GPW, notowania, usługi, B2B">
 ---
 
 ```{r setup, include=FALSE}
@@ -29,7 +29,7 @@ get_stock_data <- function(ticker) {
   return(df)
 }
 
-stock_data <- get_stock_data("BMC")
+stock_data <- get_stock_data("ASM")
 last_row <- tail(stock_data, 1)
 last_price <- last_row$price
 last_date <- last_row$date
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** BMC | **Bumech S.A.** | **Siedziba:** Bytom | **WWW:** [bumech.pl](https://www.bumech.pl/){rel="nofollow"} | **Branża:** [Przemysł i produkcja](../spolki-gpw.html#category=Przemysł i produkcja)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** ASM | **ASM Group S.A.** | **Siedziba:** Warszawa | **Branża:** [Usługi biznesowe](../spolki-gpw.html#category=Usługi biznesowe)
 :::
 
 ```{r}
@@ -79,7 +79,7 @@ cat(html_str)
 #| echo: false
 stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
 sma200 <- SMA(stock_xts, n = 200)
-plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena BMC") |>
+plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena ASM") |>
   add_lines(x = index(stock_xts), y = as.numeric(sma200), name = "SMA 200", line = list(color = "orange")) |>
   layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = "h", x = 0.1, y = 1.1), margin = list(t = 50))
 ```
@@ -87,38 +87,36 @@ plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode 
 ## O spółce
 
 **Profil działalności:**
-Bumech to polska spółka przemysłowa specjalizująca się w produkcji maszyn i urządzeń dla górnictwa oraz przemysłu. Spółka oferuje rozwiązania dla sektorów wydobywczego, energetycznego i inżynieryjnego.
+ASM Group to polska firma świadcząca usługi wsparcia sprzedaży i outsourcingu dla biznesu. Spółka oferuje kompleksowe usługi dla marek, w tym promocję, merchandising i obsługę klienta.
 
 **Strategia i Perspektywy:**
-Bumech rozwija się jako producent maszyn dla przemysłu ciężkiego. Kluczowe jest pozyskiwanie kontraktów od dużych przedsiębiorstw przemysłowych.
+ASM Group rozwija się jako firma outsourcingowa, koncentrując się na usługach dla sektora FMCG. Kluczowe jest utrzymanie relacji z dużymi markami i rozwój usług.
 
 ## Biznes
 
 **Główne linie produktowe:**
 
-* **Maszyny górnicze:** Urządzenia dla kopalń.
+* **Wsparcie sprzedaży:** Promocje w punktach sprzedaży.
 
-* **Przemysł energetyczny:** Maszyny dla sektora energetycznego.
+* **Merchandising:** Ekspozycja produktów.
 
-* **Urządzenia specjalistyczne:** Maszyny do pracy w trudnych warunkach.
+* **Outsourcing:** Outsourcing pracowników.
 
-* **Serwis:** Obsługa posprzedażowa i naprawy.
+* **Usługi B2B:** Obsługa firm z różnych sektorów.
 
 **Zasoby i Surowce:**
 
-Zakład produkcyjny, doświadczony zespół inżynierów.
+Zespół pracowników, doświadczenie w usługach dla FMCG, baza klientów.
 
 ## Strategia
 
 **Kierunki rozwoju:**
 
-* **Górnictwo:** Rozwój produktów dla sektora górniczego.
+* **Klienci:** Pozyskiwanie nowych marek.
 
-* **Energetyka:** Maszyny dla przemysłu energetycznego.
+* **Usługi:** Poszerzanie oferty usługowej.
 
-* **Eksport:** Zwiększanie sprzedaży zagranicznej.
-
-* **Serwis:** Rozwój usług serwisowych.
+* **Efektywność:** Optymalizacja kosztów.
 
 :::: {.callout-important}
 ## Informacja prawna

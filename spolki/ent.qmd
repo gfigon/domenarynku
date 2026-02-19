@@ -1,13 +1,13 @@
 ---
-title: "Bumech S.A. (BMC)"
-subtitle: "Profil spółki Bumech — notowania, analiza, strategia"
-categories: [Przemysł i produkcja]
-pagitle: "Bumech S.A. (BMC) | Profil spółki GPW - Notowania i Analiza"
+title: "Enter Air S.A. (ENT)"
+subtitle: "Profil spółki Enter Air — notowania, analiza, strategia"
+categories: [Transport i logistyka]
+pagitle: "Enter Air S.A. (ENT) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
     header-includes: |
-      <meta name="description" content="Bumech S.A. (BMC) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Przemysł i produkcja.">
-      <meta name="keywords" content="Bumech, BMC, akcje Bumech, GPW, notowania, przemysł, maszyny">
+      <meta name="description" content="Enter Air S.A. (ENT) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Transport i logistyka.">
+      <meta name="keywords" content="Enter Air, ENT, akcje Enter Air, GPW, notowania, linie lotnicze, lotnictwo">
 ---
 
 ```{r setup, include=FALSE}
@@ -29,7 +29,7 @@ get_stock_data <- function(ticker) {
   return(df)
 }
 
-stock_data <- get_stock_data("BMC")
+stock_data <- get_stock_data("ENT")
 last_row <- tail(stock_data, 1)
 last_price <- last_row$price
 last_date <- last_row$date
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** BMC | **Bumech S.A.** | **Siedziba:** Bytom | **WWW:** [bumech.pl](https://www.bumech.pl/){rel="nofollow"} | **Branża:** [Przemysł i produkcja](../spolki-gpw.html#category=Przemysł i produkcja)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** ENT | **Enter Air S.A.** | **Siedziba:** Warszawa | **WWW:** [enterair.pl](https://www.enterair.pl/){rel="nofollow"} | **Branża:** [Transport i logistyka](../spolki-gpw.html#category=Transport i logistyka)
 :::
 
 ```{r}
@@ -79,7 +79,7 @@ cat(html_str)
 #| echo: false
 stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
 sma200 <- SMA(stock_xts, n = 200)
-plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena BMC") |>
+plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena ENT") |>
   add_lines(x = index(stock_xts), y = as.numeric(sma200), name = "SMA 200", line = list(color = "orange")) |>
   layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = "h", x = 0.1, y = 1.1), margin = list(t = 50))
 ```
@@ -87,38 +87,36 @@ plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode 
 ## O spółce
 
 **Profil działalności:**
-Bumech to polska spółka przemysłowa specjalizująca się w produkcji maszyn i urządzeń dla górnictwa oraz przemysłu. Spółka oferuje rozwiązania dla sektorów wydobywczego, energetycznego i inżynieryjnego.
+Enter Air to polska linia lotnicza oferująca przewozy czarterowe i regularne. Spółka realizuje loty dla touroperatorów oraz obsługuje ruch pasażerski na trasach krajowych i międzynarodowych.
 
 **Strategia i Perspektywy:**
-Bumech rozwija się jako producent maszyn dla przemysłu ciężkiego. Kluczowe jest pozyskiwanie kontraktów od dużych przedsiębiorstw przemysłowych.
+Enter Air rozwija się jako linia lotnicza, koncentrując się na lotach czarterowych i współpracy z touroperatorami. Kluczowe jest utrzymanie pozycji na rynku czarterowym.
 
 ## Biznes
 
 **Główne linie produktowe:**
 
-* **Maszyny górnicze:** Urządzenia dla kopalń.
+* **Loty czarterowe:** Przewozy dla touroperatorów.
 
-* **Przemysł energetyczny:** Maszyny dla sektora energetycznego.
+* **Loty regularne:** Połączenia regularne.
 
-* **Urządzenia specjalistyczne:** Maszyny do pracy w trudnych warunkach.
+* **Usługi:** Obsługa pasażerów i cargo.
 
-* **Serwis:** Obsługa posprzedażowa i naprawy.
+* **Cartering:** Wynajem samolotów.
 
 **Zasoby i Surowce:**
 
-Zakład produkcyjny, doświadczony zespół inżynierów.
+Samoloty, załogi, baza klientów wśród touroperatorów.
 
 ## Strategia
 
 **Kierunki rozwoju:**
 
-* **Górnictwo:** Rozwój produktów dla sektora górniczego.
+* **Trasy:** Rozwój nowych połączeń.
 
-* **Energetyka:** Maszyny dla przemysłu energetycznego.
+* **Touroperatorzy:** Współpraca z większą liczbą touroperatorów.
 
-* **Eksport:** Zwiększanie sprzedaży zagranicznej.
-
-* **Serwis:** Rozwój usług serwisowych.
+* **Flota:** Rozwój i odnowienie floty.
 
 :::: {.callout-important}
 ## Informacja prawna
