@@ -203,354 +203,389 @@
     "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.4     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(xts)\n\nŁadowanie wymaganego pakietu: zoo\n\nDołączanie pakietu: 'zoo'\n\nNastępujące obiekty zostały zakryte z 'package:base':\n\n    as.Date, as.Date.numeric\n\n\n######################### Warning from 'xts' package ##########################\n#                                                                             #\n# The dplyr lag() function breaks how base R's lag() function is supposed to  #\n# work, which breaks lag(my_xts). Calls to lag(my_xts) that you type or       #\n# source() into this session won't work correctly.                            #\n#                                                                             #\n# Use stats::lag() to make sure you're not using dplyr::lag(), or you can add #\n# conflictRules('dplyr', exclude = 'lag') to your .Rprofile to stop           #\n# dplyr from breaking base R's lag() function.                                #\n#                                                                             #\n# Code in packages is not affected. It's protected by R's namespace mechanism #\n# Set `options(xts.warn_dplyr_breaks_lag = FALSE)` to suppress this warning.  #\n#                                                                             #\n###############################################################################\n\nDołączanie pakietu: 'xts'\n\nNastępujące obiekty zostały zakryte z 'package:dplyr':\n\n    first, last\n\ntest_prices &lt;- readRDS(\"../data/prices100.RDS\")\n\n\n\ncolnames(test_prices)\n\n [1] \"Date\" \"KGH\"  \"PKO\"  \"PKN\"  \"ZAB\"  \"ALE\"  \"PEO\"  \"PZU\"  \"CDR\"  \"LPP\" \n[11] \"DNP\"  \"CCC\"  \"ALR\"  \"XTB\"  \"SPL\"  \"PCO\"  \"PGE\"  \"CAR\"  \"BDX\"  \"MBK\" \n[21] \"TPE\"  \"ACP\"  \"BFT\"  \"KTY\"  \"JSW\"  \"KRU\"  \"DIG\"  \"DIA\"  \"CPS\"  \"APR\" \n[31] \"MIL\"  \"RBW\"  \"OPL\"  \"DAD\"  \"ENA\"  \"ASB\"  \"SNT\"  \"IFR\"  \"CRI\"  \"TXT\" \n[41] \"PXM\"  \"BHW\"  \"LBW\"  \"CIG\"  \"EAT\"  \"APT\"  \"CBF\"  \"11B\"  \"ENG\"  \"ASM\" \n[51] \"TEN\"  \"WPL\"  \"GPW\"  \"ATT\"  \"MRB\"  \"PKP\"  \"FRO\"  \"BMC\"  \"MBR\"  \"GRX\" \n[61] \"ING\"  \"EUR\"  \"TRK\"  \"SLV\"  \"TOR\"  \"DAT\"  \"PEP\"  \"GPP\"  \"PLW\"  \"DVL\" \n[71] \"ELT\"  \"RVU\"  \"MDG\"  \"VRG\"  \"SCP\"  \"SPR\"  \"ECH\"  \"WTN\"  \"KER\"  \"TOA\" \n[81] \"PCR\"  \"BCX\"  \"MUR\"  \"LWB\"  \"DOM\"  \"NWG\"  \"SGN\"  \"4MS\"  \"STX\"  \"ENT\" \n[91] \"NEU\"  \"MLS\"  \"CLC\"  \"PAS\"  \"ALL\"  \"ICE\"  \"BNP\"  \"CRJ\""
   },
   {
-    "objectID": "spolki/eat.html",
-    "href": "spolki/eat.html",
-    "title": "AmRest Holdings S.E. (EAT)",
+    "objectID": "spolki/kty.html",
+    "href": "spolki/kty.html",
+    "title": "Grupa Kęty S.A. (KTY)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: EAT | AmRest Holdings S.E. | Siedziba: Wrocław | WWW: amrest.eu | Branża: Handel i konsumpcja"
+    "text": "← Spółki GPW | Ticker: KTY | Grupa Kęty S.A. | Siedziba: Kęty | WWW: grupa-kety.pl | Branża: Surowce i energia"
   },
   {
-    "objectID": "spolki/eat.html#notowania",
-    "href": "spolki/eat.html#notowania",
-    "title": "AmRest Holdings S.E. (EAT)",
+    "objectID": "spolki/kty.html#notowania",
+    "href": "spolki/kty.html#notowania",
+    "title": "Grupa Kęty S.A. (KTY)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/eat.html#o-spółce",
-    "href": "spolki/eat.html#o-spółce",
-    "title": "AmRest Holdings S.E. (EAT)",
+    "objectID": "spolki/kty.html#o-spółce",
+    "href": "spolki/kty.html#o-spółce",
+    "title": "Grupa Kęty S.A. (KTY)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: AmRest to największa w Polsce i jedna z największych w Europie sieć restauracji fast-food i casual dining. Spółka zarządza restauracjami takich marek jak KFC, Burger King i Starbucks w Polsce oraz w wielu krajach Europy. Model biznesowy opiera się na franchisingu i bezpośredniej własności restauracji.\nStrategia i Perspektywy: AmRest realizuje strategię ekspansji geograficznej, otwierając nowe restauracje w Europie. Kluczowe jest zwiększanie sprzedaży w istniejących lokalach (like-for-like) i utrzymanie pozycji lidera w segmencie QSR w Polsce."
+    "text": "O spółce\nProfil działalności: Grupa Kęty to wiodący polski przetwórca aluminium i producent wyrobów dla budownictwa, transportu i przemysłu. Spółka działa w segmencie przetwórstwa aluminium, oferując profile, blachy, farby i systemy budowlane. Grupa jest jednym z największych pracodawców w regionie Małopolski.\nStrategia i Perspektywy: Grupa Kęty stawia na rozwój poprzez zwiększanie przerobu aluminium, ekspansję na rynki zagraniczne oraz inwestycje w nowe technologie. Kluczowe jest alsobudowanie kompetencji w segmencie aluminium dla elektromobilności i energii odnawialnej."
   },
   {
-    "objectID": "spolki/eat.html#biznes",
-    "href": "spolki/eat.html#biznes",
-    "title": "AmRest Holdings S.E. (EAT)",
+    "objectID": "spolki/kty.html#biznes",
+    "href": "spolki/kty.html#biznes",
+    "title": "Grupa Kęty S.A. (KTY)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nKFC: Sieć restauracji z kurczakiem (fast-food).\nBurger King: Sieć burgerów (fast-food).\nStarbucks: Kawiarnie (coffee shop).\nRestauracje casual dining: La Tagliatella, Pizza Hut.\n\nZasoby i Surowce:\nSieć restauracji w Polsce i Europie, umowy franchisingowe, doświadczony zarząd."
+    "text": "Biznes\nGłówne linie produktowe:\n\nProfile aluminiowe: Profile okienne, drzwiowe i fasadowe dla budownictwa.\nBlachy i taśmy: Produkty dla przemysłu i transportu.\nSystemy budowlane: Kompleksowe rozwiązania dla architektów i wykonawców.\nFarby i powłoki: Lakierowanie i anodowanie aluminium.\n\nZasoby i Surowce:\nKluczowy jest aluminium (surowiec), energia (do przetwórstwa), infrastruktura produkcyjna (huty, prasy)."
   },
   {
-    "objectID": "spolki/eat.html#strategia",
-    "href": "spolki/eat.html#strategia",
-    "title": "AmRest Holdings S.E. (EAT)",
+    "objectID": "spolki/kty.html#strategia",
+    "href": "spolki/kty.html#strategia",
+    "title": "Grupa Kęty S.A. (KTY)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja: Otwieranie nowych restauracji KFC i Burger King.\nLike-for-like: Zwiększanie sprzedaży w istniejących lokalach.\nNowe rynki: Wejście na kolejne rynki europejskie.\nDigitalizacja: Rozwój aplikacji mobilnych i zamówień online.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nPrzetwórstwo: Zwiększanie głębokości przerobu aluminium.\nEkspansja zagraniczna: Dalszy rozwój sprzedaży eksportowej.\nNowe segmenty: Aluminium dla elektromobilności i OZE.\nInnowacje: Inwestycje w linie produkcyjne i automatyzację.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/ifr.html",
-    "href": "spolki/ifr.html",
-    "title": "Investment Friends S.A. (IFR)",
+    "objectID": "spolki/trk.html",
+    "href": "spolki/trk.html",
+    "title": "Trakcja S.A. (TRK)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: IFR | Investment Friends S.A. | Siedziba: Warszawa | Branża: Finanse"
+    "text": "← Spółki GPW | Ticker: TRK | Trakcja S.A. | Siedziba: Warszawa | WWW: trakcja.pl | Branża: Nieruchomości i budownictwo"
   },
   {
-    "objectID": "spolki/ifr.html#notowania",
-    "href": "spolki/ifr.html#notowania",
-    "title": "Investment Friends S.A. (IFR)",
+    "objectID": "spolki/trk.html#notowania",
+    "href": "spolki/trk.html#notowania",
+    "title": "Trakcja S.A. (TRK)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/ifr.html#o-spółce",
-    "href": "spolki/ifr.html#o-spółce",
-    "title": "Investment Friends S.A. (IFR)",
+    "objectID": "spolki/trk.html#o-spółce",
+    "href": "spolki/trk.html#o-spółce",
+    "title": "Trakcja S.A. (TRK)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Investment Friends to firma inwestycyjna działająca na polskim rynku kapitałowym. Spółka koncentruje się na inwestycjach w perspektywiczne przedsiębiorstwa z różnych sektorów gospodarki, oferując swoim akcjonariuszom ekspozycję na dynamicznie rozwijające się spółki.\nStrategia i Perspektywy: Model biznesowy opiera się na budowaniu wartości poprzez aktywne zarządzanie portfelem inwestycyjnym i wsparcie rozwoju spółek portfelowych. Spółka poszukuje okazji inwestycyjnych w sektorach o wysokim potencjale wzrostu."
+    "text": "O spółce\nProfil działalności: Trakcja to wiodąca polska firma budowlana specjalizująca się w infrastrukturze kolejowej i drogowej. Spółka realizuje projekty związane z budową i modernizacją linii kolejowych, dróg, mostów oraz infrastruktury tramwajowej.\nStrategia i Perspektywy: Trakcja rozwija się jako wykonawca projektów infrastrukturalnych, korzystając z inwestycji w polską kolej i drogi. Kluczowe jest pozyskiwanie kontraktów od PKP, GDDKiA i samorządów."
   },
   {
-    "objectID": "spolki/ifr.html#biznes",
-    "href": "spolki/ifr.html#biznes",
-    "title": "Investment Friends S.A. (IFR)",
+    "objectID": "spolki/trk.html#biznes",
+    "href": "spolki/trk.html#biznes",
+    "title": "Trakcja S.A. (TRK)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nInwestycje kapitałowe: Lokowanie kapitału w spółki portfelowe z różnych sektorów.\nZarządzanie aktywami: Aktywne zarządzanie portfelem inwestycyjnym.\nDoradztwo inwestycyjne: Konsulting dla spółek portfelowych.\nSprzedaż inwestycji: Realizacja zysków poprzez sprzedaż udziałów.\n\nZasoby i Surowce:\nZespół doświadczonych menadżerów inwestycyjnych, sieć kontaktów w świecie biznesu oraz kapitał na nowe inwestycje."
+    "text": "Biznes\nGłówne linie produktowe:\n\nInfrastruktura kolejowa: Budowa i modernizacja linii kolejowych.\nInfrastruktura drogowa: Drogi, mosty, wiadukty.\nTorowiska: Budowa i modernizacja torowisk tramwajowych.\nElektroenergetyka: Sieci elektroenergetyczne dla kolei.\n\nZasoby i Surowce:\nPark maszynowy, doświadczone brygady budowlane, certyfikaty kolejowe."
   },
   {
-    "objectID": "spolki/ifr.html#strategia",
-    "href": "spolki/ifr.html#strategia",
-    "title": "Investment Friends S.A. (IFR)",
+    "objectID": "spolki/trk.html#strategia",
+    "href": "spolki/trk.html#strategia",
+    "title": "Trakcja S.A. (TRK)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nDywersyfikacja: Rozkładanie ryzyka na różne sektory.\nAktywne zarządzanie: Wspieranie rozwoju spółek portfelowych.\nNowe inwestycje: Poszukiwanie atrakcyjnych celów inwestycyjnych.\nExit strategy: Realizacja zysków poprzez sprzedaż udziałów.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nKolej: Udział w projektach modernizacji PKP.\nDrogi: Pozyskiwanie kontraktów GDDKiA.\nTramwaje: Rozwój projektów tramwajowych.\nRentowność: Poprawa efektywności realizacji.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/pep.html",
-    "href": "spolki/pep.html",
-    "title": "Polenergia S.A. (PEP)",
+    "objectID": "spolki/pxm.html",
+    "href": "spolki/pxm.html",
+    "title": "Polimex-Mostostal S.A. (PXM)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: PEP | Polenergia S.A. | Siedziba: Warszawa | WWW: polenergia.pl | Branża: Surowce i energia"
+    "text": "← Spółki GPW | Ticker: PXM | Polimex-Mostostal S.A. | Siedziba: Warszawa | WWW: polimex-mostostal.pl | Branża: Nieruchomości i budownictwo"
   },
   {
-    "objectID": "spolki/pep.html#notowania",
-    "href": "spolki/pep.html#notowania",
-    "title": "Polenergia S.A. (PEP)",
+    "objectID": "spolki/pxm.html#notowania",
+    "href": "spolki/pxm.html#notowania",
+    "title": "Polimex-Mostostal S.A. (PXM)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/pep.html#o-spółce",
-    "href": "spolki/pep.html#o-spółce",
-    "title": "Polenergia S.A. (PEP)",
+    "objectID": "spolki/pxm.html#o-spółce",
+    "href": "spolki/pxm.html#o-spółce",
+    "title": "Polimex-Mostostal S.A. (PXM)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Polenergia to polska grupa energetyczna specjalizująca się w odnawialnych źródłach energii. Spółka rozwija projekty farm wiatrowych na lądzie (onshore) i morzu (offshore), oraz instalacji fotowoltaicznych. Polenergia jest jednym z liderów rynku OZE w Polsce.\nStrategia i Perspektywy: Polenergia realizuje strategię ekspansji w OZE, koncentrując się na budowie morskich farm wiatrowych na Bałtyku oraz zwiększaniu mocy zainstalowanej w energetyce słonecznej. Kluczowe są również projekty magazynowania energii."
+    "text": "O spółce\nProfil działalności: Polimex-Mostostal to wiodąca polska firma budowlana specjalizująca się w kompleksowej realizacji inwestycji przemysłowych, energetycznych i infrastrukturalnych. Spółka działa jako generalny wykonawca dużych projektów budowlanych, oferując usługi od projektowania po oddanie obiektu “pod klucz”.\nStrategia i Perspektywy: Firma koncentruje się na segmencie inwestycji przemysłowych i energetycznych, gdzie ma silną pozycję rynkową. Kluczowe jest pozyskiwanie dużych kontraktów i efektywne zarządzanie projektami budowlanymi."
   },
   {
-    "objectID": "spolki/pep.html#biznes",
-    "href": "spolki/pep.html#biznes",
-    "title": "Polenergia S.A. (PEP)",
+    "objectID": "spolki/pxm.html#biznes",
+    "href": "spolki/pxm.html#biznes",
+    "title": "Polimex-Mostostal S.A. (PXM)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nFarmy wiatrowe onshore: Elektrownie wiatrowe na lądzie w Polsce.\nFarmy wiatrowe offshore: Projekty morskich farm wiatrowych na Bałtyku.\nFotowoltaika: Instalacje solarne na gruntach i dachach.\nMagazyny energii: Projekty bateryjnych magazynów energii.\n\nZasoby i Surowce:\nKluczowe są lokalizacje pod farmy wiatrowe i słoneczne, turbiny wiatrowe, panele PV, oraz pozwolenia i koncesje."
+    "text": "Biznes\nGłówne linie produktowe:\n\nBudownictwo przemysłowe: Hale produkcyjne, magazyny, obiekty przemysłowe.\nInfrastruktura: Drogi, mosty, obiekty infrastrukturalne.\nEnergetyka: Budowa elektrowni i obiektów energetycznych.\nUsługi inżynieryjne: Projektowanie i zarządzanie inwestycjami.\n\nZasoby i Surowce:\nDoświadczony zespół inżynierów i budowlańców, park maszynowy, certyfikaty i referencje z dużych projektów."
   },
   {
-    "objectID": "spolki/pep.html#strategia",
-    "href": "spolki/pep.html#strategia",
-    "title": "Polenergia S.A. (PEP)",
+    "objectID": "spolki/pxm.html#strategia",
+    "href": "spolki/pxm.html#strategia",
+    "title": "Polimex-Mostostal S.A. (PXM)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nOffshore wind: Rozwój projektów morskich farm wiatrowych.\nOnshore expansion: Zwiększanie mocy w farmach lądowych.\nFotowoltaika: Inwestycje w instalacje PV.\nMagazynowanie: Budowa magazynów energii bateryjnej.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nKontrakty przemysłowe: Pozyskiwanie dużych projektów dla przemysłu.\nEnergetyka: Udział w budowie obiektów energetycznych i OZE.\nEfektywność: Optymalizacja kosztów realizacji projektów.\nBezpieczeństwo: Wysokie standardy BHP i jakości.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/tpe.html",
-    "href": "spolki/tpe.html",
-    "title": "Tauron Polska Energia S.A. (TPE)",
+    "objectID": "spolki/asb.html",
+    "href": "spolki/asb.html",
+    "title": "Asbis S.A. (ASB)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: TPE | Tauron Polska Energia S.A. | Siedziba: Katowice | WWW: tauron.pl | Branża: Surowce i energia"
+    "text": "← Spółki GPW | Ticker: ASB | Asbis S.A. | Siedziba: Warszawa | WWW: asbis.pl | Branża: Handel i konsumpcja"
   },
   {
-    "objectID": "spolki/tpe.html#notowania",
-    "href": "spolki/tpe.html#notowania",
-    "title": "Tauron Polska Energia S.A. (TPE)",
+    "objectID": "spolki/asb.html#notowania",
+    "href": "spolki/asb.html#notowania",
+    "title": "Asbis S.A. (ASB)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/tpe.html#o-spółce",
-    "href": "spolki/tpe.html#o-spółce",
-    "title": "Tauron Polska Energia S.A. (TPE)",
+    "objectID": "spolki/asb.html#o-spółce",
+    "href": "spolki/asb.html#o-spółce",
+    "title": "Asbis S.A. (ASB)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Tauron Polska Energia to drugi co do wielkości podmiot na polskim rynku elektroenergetycznym. Grupa prowadzi zintegrowaną działalność obejmującą wydobycie węgla, wytwarzanie energii elektrycznej, jej dystrybucję oraz sprzedaż do odbiorców końcowych. Spółka obsługuje miliony klientów w południowej Polsce.\nStrategia i Perspektywy: Tauron realizuje strategię transformacji w kierunku niskoemisyjnej energetyki, inwestując w odnawialne źródła energii i modernizując infrastrukturę dystrybucyjną. Kluczowe jest alsobudowanie nowych bloków węglowych oraz rozwój sieci inteligentnych."
+    "text": "O spółce\nProfil działalności: Asbis to wiodący w Polsce dystrybutor sprzętu IT, komponentów komputerowych i elektroniki użytkowej. Spółka działa jako pośrednik między producentami a resellerami i sklepami detalicznymi, oferując szeroki portfel produktów wiodących marek technologicznych.\nStrategia i Perspektywy: Firma rozwija się poprzez poszerzanie oferty produktowej i ekspansję na nowe rynki w regionie CEE. Kluczowe jest budowanie kompetencji w segmencie rozwiązań dla biznesu (serwery, storage, networking) oraz rozwój kanałów e-commerce."
   },
   {
-    "objectID": "spolki/tpe.html#biznes",
-    "href": "spolki/tpe.html#biznes",
-    "title": "Tauron Polska Energia S.A. (TPE)",
+    "objectID": "spolki/asb.html#biznes",
+    "href": "spolki/asb.html#biznes",
+    "title": "Asbis S.A. (ASB)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nWytwarzanie energii: Produkcja energii w elektrowniach węglowych i instalacjach OZE.\nDystrybucja: Zarządzanie siecią dystrybucyjną na terenie południowej Polski (około 15% krajowego rynku).\nSprzedaż: Sprzedaż energii elektrycznej i gazu do gospodarstw domowych i firm.\nWydobycie: Wydobycie węgla kamiennego w kopalniach Grupy.\n\nZasoby i Surowce:\nKluczowy jest węgiel kamienny, infrastruktura sieciowa (linie, stacje transformatorowe), lokalizacje dla OZE (wiatr, słońce)."
+    "text": "Biznes\nGłówne linie produktowe:\n\nPodzespoły komputerowe: Procesory, karty graficzne, płyty główne, pamięci RAM.\nSprzęt IT: Laptopy, komputery stacjonarne, monitory, drukarki.\nPeryferia: Myszki, klawiatury, słuchawki, kamery.\nRozwiązania sieciowe: Switche, routery, punkty dostępowe.\n\nZasoby i Surowce:\nSieć logistyczna, umowy dystrybucyjne z wiodącymi producentami IT, magazyny centralne oraz platforma B2B."
   },
   {
-    "objectID": "spolki/tpe.html#strategia",
-    "href": "spolki/tpe.html#strategia",
-    "title": "Tauron Polska Energia S.A. (TPE)",
+    "objectID": "spolki/asb.html#strategia",
+    "href": "spolki/asb.html#strategia",
+    "title": "Asbis S.A. (ASB)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nTransformacja energetyczna: Stopniowe odchodzenie od węgla na rzecz OZE.\nSieć inteligentna: Inwestycje w modernizację i cyfryzację dystrybucji.\nKlient końcowy: Rozwój usług dla odbiorców indywidualnych i biznesowych.\nEfektywność: Optymalizacja kosztów operacyjnych i inwestycyjnych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja regionalna: Wejście na nowe rynki Europy Środkowo-Wschodniej.\nRozwiązania enterprise: Rozwój sprzedaży serwerów i rozwiązań dla firm.\nE-commerce: Inwestycje w platformę zakupową online.\nNowe kategorie: Poszerzanie oferty o nowe segmenty rynku IT.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/dat.html",
-    "href": "spolki/dat.html",
-    "title": "DataWalk S.A. (DAT)",
+    "objectID": "spolki/cdr.html",
+    "href": "spolki/cdr.html",
+    "title": "CD PROJEKT S.A. (CDR)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: DAT | DataWalk S.A. | Siedziba: Warszawa | WWW: datawalk.com | Branża: Technologie i IT"
+    "text": "← Spółki GPW | Ticker: CDR | CD PROJEKT S.A. | Siedziba: Polska | WWW: cdprojekt.com | Branża: Technologie i IT"
   },
   {
-    "objectID": "spolki/dat.html#notowania",
-    "href": "spolki/dat.html#notowania",
-    "title": "DataWalk S.A. (DAT)",
+    "objectID": "spolki/cdr.html#notowania",
+    "href": "spolki/cdr.html#notowania",
+    "title": "CD PROJEKT S.A. (CDR)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/dat.html#o-spółce",
-    "href": "spolki/dat.html#o-spółce",
-    "title": "DataWalk S.A. (DAT)",
+    "objectID": "spolki/cdr.html#o-spółce",
+    "href": "spolki/cdr.html#o-spółce",
+    "title": "CD PROJEKT S.A. (CDR)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: DataWalk to polska firma technologiczna specjalizująca się w zaawansowanej analityce danych i big data. Spółka oferuje własną platformę analityczną, która umożliwia przetwarzanie i wizualizację dużych zbiorów danych dla firm i instytucji.\nStrategia i Perspektywy: DataWalk rozwija się jako dostawca rozwiązań analitycznych dla sektora bezpieczeństwa, finansów i korporacji. Kluczowe jest pozyskiwanie nowych klientów i rozwój platformy analitycznej."
+    "text": "O spółce\nProfil działalności: CD PROJEKT S.A. to wiodący polski producent i wydawca gier wideo, znany na całym świecie dzięki serii “Wiedźmin” oraz grze “Cyberpunk 2077”. Spółka jest jednym z globalnych liderów w segmencie gier fabularnych (RPG) z otwartym światem.\nStrategia i Rozwój: Spółka realizuje nową strategię zakładającą równoległą produkcję kilku tytułów AAA oraz rozbudowę uniwersów poprzez media towarzyszące (animacje, serie komiksowe). Kluczowe projekty to rozpoczęta nowa saga wiedźmińska (Polaris) oraz projekt Orion (kontynuacja Cyberpunka)."
   },
   {
-    "objectID": "spolki/dat.html#biznes",
-    "href": "spolki/dat.html#biznes",
-    "title": "DataWalk S.A. (DAT)",
+    "objectID": "spolki/cdr.html#biznes",
+    "href": "spolki/cdr.html#biznes",
+    "title": "CD PROJEKT S.A. (CDR)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nPlatforma analityczna: Własne oprogramowanie do analizy danych.\nAnalityka big data: Przetwarzanie dużych zbiorów danych.\nWizualizacja: Narzędzia do wizualizacji danych.\nUsługi: Implementacja i wdrożenia u klientów.\n\nZasoby i Surowce:\nZespół programistów i analityków, platforma analityczna, patenty i IP."
+    "text": "Biznes\nProdukcja gier: CD Projekt tworzy gry wideo w modelu własnego studia deweloperskiego (in-house), co zapewnia pełną kontrolę nad jakością i wizją artystyczną.\nPortfolio marek:\n\nWiedźmin: Kultowa trylogia RPG (Wiedźmin 1, 2, 3) oraz seria serialowa Netflixa.\nCyberpunk 2077: Największa premiera w historii polskiego gamingu, z rozbudowanym uniwersum science-fiction.\nPolaris: Nowa saga wiedźmińska - projekt AAA realizowany w ramach nowej strategii.\n\nModel dystrybucji: Sprzedaż cyfrowa (Steam, GOG, konsole) z dodatkowymi przychodami z DLC i mikrotransakcji."
   },
   {
-    "objectID": "spolki/dat.html#strategia",
-    "href": "spolki/dat.html#strategia",
-    "title": "DataWalk S.A. (DAT)",
+    "objectID": "spolki/cdr.html#strategia",
+    "href": "spolki/cdr.html#strategia",
+    "title": "CD PROJEKT S.A. (CDR)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nPlatforma: Rozwój i aktualizacje oprogramowania.\nSprzedaż: Pozyskiwanie klientów korporacyjnych.\nBezpieczeństwo: Rozwój dla sektora bezpieczeństwa i wojska.\nEkspansja: Wejście na nowe rynki międzynarodowe.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nJakość ponad wszystko: utrzymanie statusu studia tworzącego najbardziej zaawansowane narracyjnie gry na świecie.\nMultiplayer: wprowadzanie komponentów sieciowych do przyszłych produkcji.\nTechnologia: przejście na silnik Unreal Engine 5 w celu optymalizacji procesów twórczych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/jsw.html",
-    "href": "spolki/jsw.html",
-    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
+    "objectID": "spolki/cri.html",
+    "href": "spolki/cri.html",
+    "title": "Creotech Instruments S.A. (CRI)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: JSW | Jastrzębska Spółka Węglowa S.A. | Siedziba: Jastrzębie-Zdrój | WWW: jsw.pl | Branża: Surowce i energia"
+    "text": "← Spółki GPW | Ticker: CRI | Creotech Instruments S.A. | Siedziba: Warszawa | WWW: creotech.pl | Branża: Technologie i IT"
   },
   {
-    "objectID": "spolki/jsw.html#notowania",
-    "href": "spolki/jsw.html#notowania",
-    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
+    "objectID": "spolki/cri.html#notowania",
+    "href": "spolki/cri.html#notowania",
+    "title": "Creotech Instruments S.A. (CRI)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/jsw.html#o-spółce",
-    "href": "spolki/jsw.html#o-spółce",
-    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
+    "objectID": "spolki/cri.html#o-spółce",
+    "href": "spolki/cri.html#o-spółce",
+    "title": "Creotech Instruments S.A. (CRI)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Jastrzębska Spółka Węglowa to największy w Polsce i jeden z największych w Europie producentów węgla koksowego. Spółka wydobywa węgiel kamienny w kopalniach na Śląsku, dostarczając surowiec głównie dla przemysłu hutniczego i energetycznego. JSW jest również producentem koksu i węgla do produkcji stali.\nStrategia i Perspektywy: JSW przechodzi trudny okres restrukturyzacji związany z kryzysem węgla koksowego. Spółka koncentruje się na optymalizacji kosztów, poprawie efektywności wydobycia i dywersyfikacji działalności. Kluczowe jest alsobudowanie nowych bloków energetycznych do przetwarzania węgla."
+    "text": "O spółce\nProfil działalności: Creotech Instruments to polska firma technologiczna wyspecjalizowana w technologiach kosmicznych i systemach satelitarnych. Spółka rozwija i dostarcza nowoczesne technologie dla przemysłu kosmicznego, nauki oraz kluczowych sektorów gospodarki. Jest liderem polskiego sektora kosmicznego i partnerem Europejskiej Agencji Kosmicznej (ESA).\nStrategia i Perspektywy: Creotech realizuje strategiczne projekty kosmiczne, w tym konstelację satelitarną PIAST oraz misje księżycowe dla ESA. Spółka rozwija własne platformy satelitarne i podzespoły dla misji kosmicznych, dynamicznie zwiększając przychody z segmentu space."
   },
   {
-    "objectID": "spolki/jsw.html#biznes",
-    "href": "spolki/jsw.html#biznes",
-    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
+    "objectID": "spolki/cri.html#biznes",
+    "href": "spolki/cri.html#biznes",
+    "title": "Creotech Instruments S.A. (CRI)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nWęgiel koksowy: Dla przemysłu hutniczego i stalowego.\nWęgiel energetyczny: Dla elektrowni i ciepłowni.\nKoks: Produkt przetworzony dla przemysłu metalurgicznego.\nWęgiel do produkcji aluminium: Specjalistyczne gatunki.\n\nZasoby i Surowce:\nKluczowe są złoża węgla kamiennego, infrastruktura kopalń, siła robocza (górnicy) oraz energia."
+    "text": "Biznes\nGłówne linie produktowe:\n\nSatelity i platformy: Platforma satelitarna PIAST-M i konstelacja PIAST.\nPodzespoły satelitarne: Komputery pokładowe, systemy zasilania i łączności dla satelitów.\nUsługi ESA: Udział w projektach Europejskiej Agencji Kosmicznej (kontrakt CAMILA).\nMisje księżycowe: Prace nad technologiami dla europejskich misji na Księżyc.\n\nZasoby i Surowce:\nZespół inżynierów i naukowców wyspecjalizowanych w technologiach kosmicznych, certyfikaty ESA, zaplecze do produkcji podzespołów satelitarnych."
   },
   {
-    "objectID": "spolki/jsw.html#strategia",
-    "href": "spolki/jsw.html#strategia",
-    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
+    "objectID": "spolki/cri.html#strategia",
+    "href": "spolki/cri.html#strategia",
+    "title": "Creotech Instruments S.A. (CRI)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nRestrukturyzacja: Poprawa efektywności i redukcja kosztów.\nNowe produkty: Rozwój oferty koksu i węgli specjalnych.\nEnergetyka: Budowa własnych bloków energetycznych.\nDywersyfikacja: Inwestycje poza górnictwem.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nKonstelacja PIAST: Rozwój i wdrażanie własnej konstelacji satelitów.\nWspółpraca z ESA: Realizacja projektów dla Europejskiej Agencji Kosmicznej.\nMisje księżycowe: Udział w europejskich misjach eksploracji Księżyca.\nEksport technologii: Sprzedaż polskich technologii kosmicznych na rynki międzynarodowe.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/grx.html",
-    "href": "spolki/grx.html",
-    "title": "GreenX Metals Ltd. (GRX)",
+    "objectID": "spolki/acp.html",
+    "href": "spolki/acp.html",
+    "title": "Asseco Poland S.A. (ACP)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: GRX | GreenX Metals Ltd. | Siedziba: Australia/Polska | WWW: greenxmetals.com | Branża: Surowce i energia"
+    "text": "← Spółki GPW | Ticker: ACP | Asseco Poland S.A. | Siedziba: Rzeszów | WWW: asseco.pl | Branża: Technologie i IT"
   },
   {
-    "objectID": "spolki/grx.html#notowania",
-    "href": "spolki/grx.html#notowania",
-    "title": "GreenX Metals Ltd. (GRX)",
+    "objectID": "spolki/acp.html#notowania",
+    "href": "spolki/acp.html#notowania",
+    "title": "Asseco Poland S.A. (ACP)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/grx.html#o-spółce",
-    "href": "spolki/grx.html#o-spółce",
-    "title": "GreenX Metals Ltd. (GRX)",
+    "objectID": "spolki/acp.html#o-spółce",
+    "href": "spolki/acp.html#o-spółce",
+    "title": "Asseco Poland S.A. (ACP)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: GreenX Metals (dawniej Prairie Mining) to międzynarodowa spółka poszukiwawczo-wydobywcza notowana na GPW, ASX i LSE. Spółka prowadzi prace eksploracyjne nad złożami miedzi w Niemczech (projekt Tannenberg), dążąc do odkrycia i wydobycia znaczących zasobów miedzi.\nStrategia i Perspektywy: GreenX Metals koncentruje się na eksploracji złoża Tannenberg w Niemczech. Kluczowe jest potwierdzenie zasobów miedzi i uzyskanie koncesji wydobywczych."
+    "text": "O spółce\nProfil działalności: Asseco Poland to wiodący polski producent oprogramowania i dostawca usług IT. Spółka dostarcza rozwiązania dla sektora finansowego, administracji publicznej, energetyki, telekomunikacji i przemysłu. Asseco działa globalnie poprzez sieć spółek zależnych w Europie, na Bliskim Wschodzie i w Afryce.\nStrategia i Perspektywy: Asseco koncentruje się na organicznym wzroście poprzez rozwój własnych produktów oraz ekspansję na rynki zagraniczne. Kluczowe są: modernizacja systemów w instytucjach finansowych, rozwiązania chmurowe i cyfryzacja administracji."
   },
   {
-    "objectID": "spolki/grx.html#biznes",
-    "href": "spolki/grx.html#biznes",
-    "title": "GreenX Metals Ltd. (GRX)",
+    "objectID": "spolki/acp.html#biznes",
+    "href": "spolki/acp.html#biznes",
+    "title": "Asseco Poland S.A. (ACP)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nEksploracja: Poszukiwanie złóż miedzi.\nProjekt Tannenberg: Główne złoże w Niemczech.\nRozwój: Przygotowanie do wydobycia.\nBadania: Prace geologiczne i wiertnicze.\n\nZasoby i Surowce:\nPrawa do projektu Tannenberg, zespół geologów, finansowanie od inwestorów."
+    "text": "Biznes\nGłówne linie produktowe:\n\nBankowość i finanse: Systemy core banking, platformy płatnicze, rozwiązania dla ubezpieczycieli i firm inwestycyjnych.\nAdministracja publiczna: Systemy e-administracji, rozwiązania dla jednostek samorządowych i administracji centralnej.\nEnergetyka i przemysł: Systemy SCADA, zarządzanie siecią dystrybucyjną, rozwiązania dla sektora naftowego i gazowego.\nTelekomunikacja: Systemy billingowe i zarządania klientami dla operatorów.\n\nZasoby i Surowce:\nDziałalność opiera się na kapitale ludzkim (programiści, konsultanci), własności intelektualnej (oprogramowanie) oraz infrastrukturze IT (centra danych, chmura)."
   },
   {
-    "objectID": "spolki/grx.html#strategia",
-    "href": "spolki/grx.html#strategia",
-    "title": "GreenX Metals Ltd. (GRX)",
+    "objectID": "spolki/acp.html#strategia",
+    "href": "spolki/acp.html#strategia",
+    "title": "Asseco Poland S.A. (ACP)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nEksploracja: Kontynuowanie prac poszukiwawczych.\nZasoby: Potwierdzenie zasobów złoża.\nKoncesje: Uzyskanie pozwoleń wydobywczych.\nPartnerstwa: Pozyskanie partnera do wydobycia.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nRozwój organiczny: Inwestycje w nowe produkty i technologie (chmura, AI, cyberbezpieczeństwo).\nEkspansja zagraniczna: Dalszy rozwój na rynkach CEE, Bliskiego Wschodu i Afryki.\nFuzje i przejęcia: Akwizycje firm uzupełniających portfolio produktowe.\nModernizacja instytucji: Kontrakty na modernizację systemów w bankach i administracji.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/bft.html",
-    "href": "spolki/bft.html",
-    "title": "Benefit Systems S.A. (BFT)",
+    "objectID": "spolki/zab.html",
+    "href": "spolki/zab.html",
+    "title": "Żabka Group S.A. (ZAB)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: BFT | Benefit Systems S.A. | Siedziba: Warszawa | WWW: benefitsystems.pl | Branża: Handel i konsumpcja"
+    "text": "← Spółki GPW | Ticker: ZAB | Żabka Group S.A. | Siedziba: Polska | WWW: zabkagroup.com | Branża: Handel i konsumpcja"
   },
   {
-    "objectID": "spolki/bft.html#notowania",
-    "href": "spolki/bft.html#notowania",
-    "title": "Benefit Systems S.A. (BFT)",
+    "objectID": "spolki/zab.html#notowania",
+    "href": "spolki/zab.html#notowania",
+    "title": "Żabka Group S.A. (ZAB)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/bft.html#o-spółce",
-    "href": "spolki/bft.html#o-spółce",
-    "title": "Benefit Systems S.A. (BFT)",
+    "objectID": "spolki/zab.html#o-spółce",
+    "href": "spolki/zab.html#o-spółce",
+    "title": "Żabka Group S.A. (ZAB)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Benefit Systems to wiodący dostawca kart benefitowych i platformy do obsługi benefitów pracowniczych w Polsce. Spółka oferuje popularne programy MultiSport i FitSport, umożliwiające pracownikom korzystanie z siłowni, basenów i innych obiektów sportowych. Model biznesowy opiera się na współpracy z pracodawcami.\nStrategia i Perspektywy: Benefit Systems rozwija się poprzez ekspansję liczby użytkowników kart oraz zwiększanie wartości kontraktów. Kluczowe jest alsobudowanie nowych partnerstw z pracodawcami i rozszerzanie sieci obiektów sportowych."
+    "text": "O spółce\nŻabka Group to lider polskiego rynku modern convenience. Grupa zarządza siecią ponad 11 000 sklepów działających w modelu franczyzowym. Spółka zadebiutowała na GPW w Warszawie w październiku 2024 roku, stając się jedną z największych spółek w indeksie WIG20."
   },
   {
-    "objectID": "spolki/bft.html#biznes",
-    "href": "spolki/bft.html#biznes",
-    "title": "Benefit Systems S.A. (BFT)",
+    "objectID": "spolki/zab.html#biznes",
+    "href": "spolki/zab.html#biznes",
+    "title": "Żabka Group S.A. (ZAB)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nKarty MultiSport: Dostęp do sieci obiektów sportowych w całej Polsce.\nFitSport: Programy fitness dla firm i klientów indywidualnych.\nPlatforma obsługowa: Systemy do zarządzania benefitami dla HR.\n\nZasoby i Surowce:\nDziałalność opiera się na sieci partnerów sportowych (siłownie, baseny), platformach IT oraz relacjach z pracodawcami."
+    "text": "Biznes\nModel biznesowy: Żabka operuje w unikalnym ekosystemie integrującym sprzedaż detaliczną, usługi kurierskie oraz gastronomię (Żabka Café).\nKluczowe formaty i marki:\n\nŻabka Convenience: Podstawowy format sklepów blisko klienta.\nŻabka Nano: Innowacyjne sklepy autonomiczne (bezobsługowe) oparte na technologii AI.\nMaczfit: Lider rynku cateringu dietetycznego w Polsce (część grupy).\nDietly: Platforma e-commerce dedykowana zdrowej żywności.\n\nInfrastruktura: Siedem zaawansowanych centrów logistycznych zapewnia dostawy do ponad 11 tysięcy placówek na terenie całego kraju."
   },
   {
-    "objectID": "spolki/bft.html#strategia",
-    "href": "spolki/bft.html#strategia",
-    "title": "Benefit Systems S.A. (BFT)",
+    "objectID": "spolki/zab.html#strategia",
+    "href": "spolki/zab.html#strategia",
+    "title": "Żabka Group S.A. (ZAB)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja użytkowników: Zwiększanie bazy pracodawców oferujących karty.\nNowe produkty: Rozwój oferty benefitów (wellness, mental health).\nCyfryzacja: Aplikacje mobilne i platformy obsługowe.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nGłówne kierunki wzrostu Żabka Group:\n\nEkspansja terytorialna: Dalsze nasycanie rynku polskiego i wejście na rynki zagraniczne (np. Rumunia).\nDigitalizacja: Rozwój aplikacji Żappka (ponad 6 mln aktywnych użytkowników) oraz personalizacja oferty (retail media).\nLogistyka 2.0: Optymalizacja dostaw ostatniej mili i rozwój usług kurierskich.\nZrównoważony styl życia: Rozbudowa oferty produktów “Better for You” i ekologicznych rozwiązań w placówkach.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/mbk.html",
-    "href": "spolki/mbk.html",
-    "title": "mBank S.A. (MBK)",
+    "objectID": "spolki/pko.html",
+    "href": "spolki/pko.html",
+    "title": "PKO Bank Polski S.A. (PKO)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: MBK | mBank S.A. | Siedziba: Warszawa | WWW: mbank.pl | Branża: Finanse"
+    "text": "← Spółki GPW | Ticker: PKO | PKO Bank Polski S.A. | Siedziba: Polska | WWW: pkobp.pl | Branża: Finanse"
   },
   {
-    "objectID": "spolki/mbk.html#notowania",
-    "href": "spolki/mbk.html#notowania",
-    "title": "mBank S.A. (MBK)",
+    "objectID": "spolki/pko.html#notowania",
+    "href": "spolki/pko.html#notowania",
+    "title": "PKO Bank Polski S.A. (PKO)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/mbk.html#o-spółce",
-    "href": "spolki/mbk.html#o-spółce",
-    "title": "mBank S.A. (MBK)",
+    "objectID": "spolki/pko.html#o-spółce",
+    "href": "spolki/pko.html#o-spółce",
+    "title": "PKO Bank Polski S.A. (PKO)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: mBank S.A. to uniwersalny bank komercyjny należący do grupy mBanku Hipotecznego. Bank oferuje kompleksowe usługi dla klientów indywidualnych i firm, w tym konta osobiste, kredyty, produkty inwestycyjne, usługi maklerskie, leasing oraz factoring. mBank jest znany z innowacyjności i nowoczesnej bankowości internetowej.\nStrategia i Perspektywy: mBank koncentruje się na rozwoju cyfrowych kanałów obsługi i innowacyjnych produktów. Kluczowe są: wzrost w segmencie klientów zamożnych (private banking), rozwój oferty dla firm oraz utrzymanie rentowności w warunkach zmiennej stopy procentowej."
+    "text": "O spółce\nPKO Bank Polski to lider sektora bankowego w Polsce, obsługujący blisko 12 mln klientów. Jest kluczową instytucją finansową o charakterze uniwersalnym, działającą w segmencie detalicznym, korporacyjnym i inwestycyjnym."
   },
   {
-    "objectID": "spolki/mbk.html#biznes",
-    "href": "spolki/mbk.html#biznes",
-    "title": "mBank S.A. (MBK)",
+    "objectID": "spolki/pko.html#biznes",
+    "href": "spolki/pko.html#biznes",
+    "title": "PKO Bank Polski S.A. (PKO)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nBankowość detaliczna: Konta osobiste, kredyty hipoteczne i konsumenckie, karty płatnicze, oszczędności i inwestycje.\nBankowość korporacyjna: Konta firmowe, kredyty dla przedsiębiorstw, zarządzanie płynnością.\nUsługi maklerskie: Platforma transakcyjna, doradztwo inwestycyjne, produkty strukturyzowane.\nLeasing i factoring: Obsługa MŚP poprzez spółki zależne.\n\nZasoby i Surowce:\nDziałalność opiera się na kapitale (depozyty klientów), zasobach IT (platformy cyfrowe) oraz kapitale ludzkim (doradcy, analitycy)."
+    "text": "Biznes\nBank oferuje pełen zakres produktów finansowych, od kont i kredytów po zaawansowane usługi bankowości inwestycyjnej. Lider nowoczesnych kanałów cyfrowych z najpopularniejszą aplikacją mobilną na rynku polskim (IKO)."
   },
   {
-    "objectID": "spolki/mbk.html#strategia",
-    "href": "spolki/mbk.html#strategia",
-    "title": "mBank S.A. (MBK)",
+    "objectID": "spolki/pko.html#strategia",
+    "href": "spolki/pko.html#strategia",
+    "title": "PKO Bank Polski S.A. (PKO)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nCyfryzacja: Inwestycje w aplikacje mobilne i platformy internetowe.\nPrivate banking: Rozwój segmentu klientów zamożnych i wealth management.\nBankowość MŚP: Wzmocnienie oferty dla małych i średnich przedsiębiorstw.\nEfektywność kosztowa: Optymalizacja sieci oddziałów i procesów operacyjnych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nDążenie do bycia najbardziej nowoczesnym i przyjaznym bankiem w regionie, wspierającym transformację cyfrową i energetyczną klientów.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/pkn.html",
-    "href": "spolki/pkn.html",
-    "title": "ORLEN S.A. (PKN)",
+    "objectID": "spolki/mbr.html",
+    "href": "spolki/mbr.html",
+    "title": "Mo-BRUK S.A. (MBR)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: PKN | ORLEN S.A. | Siedziba: Polska | WWW: orlen.pl | Branża: Surowce i energia"
+    "text": "← Spółki GPW | Ticker: MBR | Mo-BRUK S.A. | Siedziba: Kraków | WWW: mobruk.pl | Branża: Ochrona środowiska i OZE"
   },
   {
-    "objectID": "spolki/pkn.html#notowania",
-    "href": "spolki/pkn.html#notowania",
-    "title": "ORLEN S.A. (PKN)",
+    "objectID": "spolki/mbr.html#notowania",
+    "href": "spolki/mbr.html#notowania",
+    "title": "Mo-BRUK S.A. (MBR)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/pkn.html#o-spółce",
-    "href": "spolki/pkn.html#o-spółce",
-    "title": "ORLEN S.A. (PKN)",
+    "objectID": "spolki/mbr.html#o-spółce",
+    "href": "spolki/mbr.html#o-spółce",
+    "title": "Mo-BRUK S.A. (MBR)",
     "section": "O spółce",
-    "text": "O spółce\nORLEN S.A. to największa firma w Europie Środkowo-Wschodniej, działająca w sektorze paliwowo-energetycznym. Po fuzjach z Grupą Lotos oraz PGNiG, koncern stał się multienergetycznym gigantem o strategicznym znaczeniu dla bezpieczeństwa energetycznego Polski."
+    "text": "O spółce\nProfil działalności: Mo-BRUK to wiodąca polska firma w branży gospodarki odpadami, specjalizująca się w ich przetwarzaniu i utylizacji. Spółka działa w segmencie zagospodarowania odpadów przemysłowych i komunalnych, oferując nowoczesne rozwiązania dla ochrony środowiska.\nStrategia i Perspektywy: Mo-BRUK rozwija się w segmencie recyklingu i przetwarzania odpadów, korzystając z rosnących wymogów środowiskowych. Kluczowe jest rozwijanie technologii zagospodarowania odpadów i pozyskiwanie nowych kontraktów."
   },
   {
-    "objectID": "spolki/pkn.html#biznes",
-    "href": "spolki/pkn.html#biznes",
-    "title": "ORLEN S.A. (PKN)",
+    "objectID": "spolki/mbr.html#biznes",
+    "href": "spolki/mbr.html#biznes",
+    "title": "Mo-BRUK S.A. (MBR)",
     "section": "Biznes",
-    "text": "Biznes\nSegmenty działalności:\n\nRafinacja: Przetwarzanie ropy naftowej w rafineriach (Plock, Gdańsk, Trzebinia) - produkcja paliw (benzyna, olej napędowy, paliwo lotnicze).\nPetrochemia: Produkcja tworzyw sztucznych, polimerów, włókien - segment wysokomarżowy.\nWydobycie: Poszukiwanie i wydobycie ropy oraz gazu (aktywa w Norwegii, Pakistanie, Kanadzie).\nEnergia: Produkcja energii elektrycznej, rozwój OZE, programy nuklearne (SMR).\nSieć stacji: Blisko 2000 stacji paliw w Polsce, Czechach, Niemczech, na Litwie i Słowacji.\n\nSpółki zależne:\n\nGrupa Lotos: Wydobycie i przetwórstwo ropy (fuzja z ORLEN)\nPGNiG: Wydobycie i dystrybucja gazu ziemnego\nEnerga: Dystrybucja energii elektrycznej"
+    "text": "Biznes\nGłówne linie produktowe:\n\nZestalane odpadów: Stabilizacja i zestalanie odpadów nieorganicznych.\nPaliwa alternatywne: Produkcja paliw z odpadów.\nSpalanie: Termiczne przekształcanie odpadów niebezpiecznych i medycznych.\nRecykling: Przetwarzanie odpadów przemysłowych.\n\nZasoby i Surowce:\nInstalacje przetwarzania odpadów, kompetencje technologiczne, certyfikaty środowiskowe."
   },
   {
-    "objectID": "spolki/pkn.html#strategia",
-    "href": "spolki/pkn.html#strategia",
-    "title": "ORLEN S.A. (PKN)",
+    "objectID": "spolki/mbr.html#strategia",
+    "href": "spolki/mbr.html#strategia",
+    "title": "Mo-BRUK S.A. (MBR)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nTransformacja energetyczna: Dywersyfikacja w kierunku niskoemisyjnych źródeł energii, rozwój OZE i atomu.\nWodór: Budowa klastrów wodorowych i rozwój technologii wodorowych.\nElektromobilność: Rozbudowa sieci ładowania pojazdów elektrycznych.\nPetrochemia 2.0: Zwiększanie udziału przetwórstwa ropy w segmencie chemicznym.\nBezpieczeństwo energetyczne: Wzmocnienie pozycji lidera rynku CEE w sektorze paliwowo-energetycznym.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nTechnologie: Rozwój innowacyjnych metod przetwarzania odpadów.\nKontrakty: Pozyskiwanie nowych umów z przemysłem.\nOZE: Integracja z sektorem energii odnawialnej.\nEkspansja: Rozszerzanie działalności na nowe regiony.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/mdg.html",
+    "href": "spolki/mdg.html",
+    "title": "Medicalgorithmics S.A. (MDG)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: MDG | Medicalgorithmics S.A. | Siedziba: Warszawa | WWW: medicalgorithmics.pl | Branża: Zdrowie i farmacja"
+  },
+  {
+    "objectID": "spolki/mdg.html#notowania",
+    "href": "spolki/mdg.html#notowania",
+    "title": "Medicalgorithmics S.A. (MDG)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/mdg.html#o-spółce",
+    "href": "spolki/mdg.html#o-spółce",
+    "title": "Medicalgorithmics S.A. (MDG)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Medicalgythmics to polska firma technologiczna specjalizująca się w produkcji urządzeń medycznych do diagnostyki kardiologicznej. Spółka oferuje innowacyjne rozwiązania do monitorowania pracy serca, wykorzystywane przez szpitale i placówki medyczne.\nStrategia i Perspektywy: Medicalgythmics rozwija się jako producent urządzeń medycznych, koncentrując się na kardiologii. Kluczowe jest rozwój nowych produktów i ekspansja na rynki zagraniczne."
+  },
+  {
+    "objectID": "spolki/mdg.html#biznes",
+    "href": "spolki/mdg.html#biznes",
+    "title": "Medicalgorithmics S.A. (MDG)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nKardiologia: Urządzenia do diagnostyki serca.\nMonitoring: Systemy monitorowania pacjenta.\nOprogramowanie: Aplikacje do analizy danych medycznych.\nSerwis: Obsługa posprzedażna urządzeń.\n\nZasoby i Surowce:\nUrządzenia medyczne, laboratoria R&D, certyfikaty medyczne."
+  },
+  {
+    "objectID": "spolki/mdg.html#strategia",
+    "href": "spolki/mdg.html#strategia",
+    "title": "Medicalgorithmics S.A. (MDG)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nProdukty: Rozwój nowych urządzeń kardiologicznych.\nEksport: Zwiększanie sprzedaży zagranicznej.\nR&D: Inwestycje w badania i rozwój.\nPartnerstwa: Współpraca z placówkami medycznymi.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
     "objectID": "spolki/kru.html",
@@ -868,109 +903,144 @@
     "text": "Strategia\nCelem XTB jest zostać wiodącą aplikacją inwestycyjną w Europie (super-app finansowy). Strategia zakłada ciągłe poszerzanie oferty (np. o plany inwestycyjne, obligacje, konta oszczędnościowe) oraz inwestycje w marketing globalny z udziałem znanych ambasadorów marki.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/bhw.html",
-    "href": "spolki/bhw.html",
-    "title": "Bank Handlowy w Warszawie S.A. (BHW)",
+    "objectID": "spolki/ale.html",
+    "href": "spolki/ale.html",
+    "title": "Allegro.eu S.A. (ALE)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: BHW | Bank Handlowy w Warszawie S.A. | Siedziba: Warszawa | WWW: citihandlowy.pl | Branża: Finanse"
+    "text": "← Spółki GPW | Ticker: ALE | Allegro.eu S.A. | Siedziba: Polska | WWW: allegro.eu | Branża: Technologie i IT"
   },
   {
-    "objectID": "spolki/bhw.html#notowania",
-    "href": "spolki/bhw.html#notowania",
-    "title": "Bank Handlowy w Warszawie S.A. (BHW)",
+    "objectID": "spolki/ale.html#notowania",
+    "href": "spolki/ale.html#notowania",
+    "title": "Allegro.eu S.A. (ALE)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/bhw.html#o-spółce",
-    "href": "spolki/bhw.html#o-spółce",
-    "title": "Bank Handlowy w Warszawie S.A. (BHW)",
+    "objectID": "spolki/ale.html#o-spółce",
+    "href": "spolki/ale.html#o-spółce",
+    "title": "Allegro.eu S.A. (ALE)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Bank Handlowy w Warszawie (działający pod marką Citi Handlowy) to dziewiąty największy bank w Polsce pod względem aktywów, należący do międzynarodowej grupy Citigroup. Bank oferuje kompleksowe usługi finansowe dla klientów korporacyjnych, instytucjonalnych i zamożnych klientów indywidualnych, będąc liderem w segmencie bankowości korporacyjnej w Polsce.\nStrategia i Perspektywy: Citi Handlowy koncentruje się na obsłudze dużych korporacji i klientów z segmentu wealth management. Dzięki przynależności do globalnej grupy Citigroup, bank korzysta z międzynarodowej sieci i know-how w zakresie usług finansowych."
+    "text": "O spółce\nAllegro to najpopularniejsza w Polsce i jedna z największych w Europie platform e-commerce typu marketplace. Spółka zrewolucjonizowała polski handel detaliczny, tworząc kompletny ekosystem dla kupujących i sprzedających, obejmujący logistykę, płatności oraz reklamę."
   },
   {
-    "objectID": "spolki/bhw.html#biznes",
-    "href": "spolki/bhw.html#biznes",
-    "title": "Bank Handlowy w Warszawie S.A. (BHW)",
+    "objectID": "spolki/ale.html#biznes",
+    "href": "spolki/ale.html#biznes",
+    "title": "Allegro.eu S.A. (ALE)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nBankowość korporacyjna: Kredyty, transakcje, zarządzanie płynnością.\nUsługi transakcyjne: Płatności, rozliczenia, bankowość elektroniczna.\nTreasury: Zarządzanie ryzykiem walutowym i stopy procentowej.\nWealth Management: Usługi dla zamożnych klientów indywidualnych.\n\nZasoby i Surowce:\nSieć oddziałów, platformy cyfrowe, marka Citi, globalna przynależność do Citigroup."
+    "text": "Biznes\nMarketplace i usługi: Allegro nie jest tylko sklepem, ale platformą łączącą ponad 130 tys. sprzedawców z milionami klientów. Grupa stale poszerza zakres usług, budując przewagę konkurencyjną.\nKluczowe elementy ekosystemu:\n\nAllegro Smart!: Program darmowych dostaw i zwrotów, kluczowy driver lojalności klientów.\nAllegro Pay: Nowoczesne usługi finansowe BNPL (Buy Now, Pay Later) oraz kredytowanie zakupów.\nLogistyka (One Box & One Kurier): Rozwój własnej sieci automatów paczkowych i centrów logistycznych (Fullfilment).\nCeneo.pl: Największa polska porównywarka cen, wspierająca decyzje zakupowe."
   },
   {
-    "objectID": "spolki/bhw.html#strategia",
-    "href": "spolki/bhw.html#strategia",
-    "title": "Bank Handlowy w Warszawie S.A. (BHW)",
+    "objectID": "spolki/ale.html#strategia",
+    "href": "spolki/ale.html#strategia",
+    "title": "Allegro.eu S.A. (ALE)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nBankowość korporacyjna: Utrzymanie pozycji lidera w segmencie dużych firm.\nDigitalizacja: Rozwój usług cyfrowych i platform bankowości elektronicznej.\nSynergie z Citi: Wykorzystanie globalnej sieci Citigroup.\nProdukty: Rozwój oferty treasury i zarządzania ryzykiem.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju grupy Allegro:\n\nRegion CEE: Ekspansja na rynki Czech, Słowacji i Węgier (wykorzystanie platformy MALL Group).\nInternational: Umożliwienie polskim sprzedawcom eksportu na rynki całej Unii Europejskiej poprzez ujednoliconą platformę.\nRetail Media: Rozwój zaawansowanych narzędzi reklamowych (Allegro Ads) dla sprzedawców.\nTechnologia AI: Wykorzystanie uczenia maszynowego w personalizacji wyszukiwań i optymalizacji logistyki.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/att.html",
-    "href": "spolki/att.html",
-    "title": "Grupa Azoty S.A. (ATT)",
+    "objectID": "spolki/mrb.html",
+    "href": "spolki/mrb.html",
+    "title": "MIRBUD S.A. (MRB)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: ATT | Grupa Azoty S.A. | Siedziba: Tarnów | WWW: grupaazoty.com | Branża: Surowce i energia"
+    "text": "← Spółki GPW | Ticker: MRB | MIRBUD S.A. | Siedziba: Warszawa | WWW: mirbud.pl | Branża: Nieruchomości i budownictwo"
   },
   {
-    "objectID": "spolki/att.html#notowania",
-    "href": "spolki/att.html#notowania",
-    "title": "Grupa Azoty S.A. (ATT)",
+    "objectID": "spolki/mrb.html#notowania",
+    "href": "spolki/mrb.html#notowania",
+    "title": "MIRBUD S.A. (MRB)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/att.html#o-spółce",
-    "href": "spolki/att.html#o-spółce",
-    "title": "Grupa Azoty S.A. (ATT)",
+    "objectID": "spolki/mrb.html#o-spółce",
+    "href": "spolki/mrb.html#o-spółce",
+    "title": "MIRBUD S.A. (MRB)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Grupa Azoty to wiodący europejski producent nawozów sztucznych i chemikaliów, w tym azotowych, wieloskładnikowych i specjalistycznych. Spółka jest jednym z największych w Europie producentów nawozów i komponentów chemicznych, z silną pozycją na rynku krajowym i eksportowym.\nStrategia i Perspektywy: Grupa Azoty realizuje strategię rozwoju w segmencie chemii i nawozów, koncentrując się na zwiększaniu efektywności produkcji i modernizacji instalacji. Kluczowe jest dostosowanie oferty do zmieniających się wymogów środowiskowych i rolniczych."
+    "text": "O spółce\nProfil działalności: MIRBUD to polska firma budowlana specjalizująca się w realizacji infrastruktury transportowej, w tym budowie dróg, autostrad, mostów i wiaduktów. Spółka działa również w segmencie budownictwa kubaturowego, realizując obiekty handlowe, przemysłowe i mieszkalne.\nStrategia i Perspektywy: MIRBUD rozwija się jako generalny wykonawca projektów infrastrukturalnych, korzystając z krajowych i europejskich funduszy na budowę dróg. Kluczowe jest pozyskiwanie kontraktów drogowych i efektywna realizacja projektów."
   },
   {
-    "objectID": "spolki/att.html#biznes",
-    "href": "spolki/att.html#biznes",
-    "title": "Grupa Azoty S.A. (ATT)",
+    "objectID": "spolki/mrb.html#biznes",
+    "href": "spolki/mrb.html#biznes",
+    "title": "MIRBUD S.A. (MRB)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nNawozy azotowe: Mocznik, saletra amonowa, AN.\nNawozy wieloskładnikowe: NPK, kompleksowe nawozy.\nChemikalia: Amoniak, kwas azotowy, urea.\nPlastik: Tworzywa sztuczne i poliamidy.\n\nZasoby i Surowce:\nZakłady produkcyjne (Tarnów, Police, Kędzierzyn), dostęp do gazu ziemnego, sieć dystrybucji."
+    "text": "Biznes\nGłówne linie produktowe:\n\nBudownictwo drogowe: Drogi, autostrady, mosty, wiadukty.\nBudownictwo kubaturowe: Hale przemysłowe, centra handlowe.\nDeweloperka: Projekty mieszkaniowe w polskich miastach.\nZarządzanie obiektami: Zarządzanie powierzchniami komercyjnymi.\n\nZasoby i Surowce:\nPark maszynowy, doświadczone brygady budowlane, certyfikaty i referencje."
   },
   {
-    "objectID": "spolki/att.html#strategia",
-    "href": "spolki/att.html#strategia",
-    "title": "Grupa Azoty S.A. (ATT)",
+    "objectID": "spolki/mrb.html#strategia",
+    "href": "spolki/mrb.html#strategia",
+    "title": "MIRBUD S.A. (MRB)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nModernizacja: Inwestycje w efektywność energetyczną.\nŚrodowisko: Dostosowanie do regulacji środowiskowych.\nEksport: Zwiększanie sprzedaży zagranicznej.\nInnowacje: Rozwój nowych produktów chemicznych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nInfrastruktura: Pozyskiwanie kontraktów drogowych.\nDeweloperka: Rozwój projektów mieszkaniowych.\nRentowność: Poprawa efektywności realizacji projektów.\nPortfolio: Dywersyfikacja realizowanych inwestycji.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/bdx.html",
-    "href": "spolki/bdx.html",
-    "title": "Budimex S.A. (BDX)",
+    "objectID": "spolki/dig.html",
+    "href": "spolki/dig.html",
+    "title": "Digital Network S.A. (DIG)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: BDX | Budimex S.A. | Siedziba: Warszawa | WWW: budimex.pl | Branża: Nieruchomości i budownictwo"
+    "text": "← Spółki GPW | Ticker: DIG | Digital Network S.A. | Siedziba: Warszawa | WWW: digitalnetwork.pl | Branża: Media i komunikacja"
   },
   {
-    "objectID": "spolki/bdx.html#notowania",
-    "href": "spolki/bdx.html#notowania",
-    "title": "Budimex S.A. (BDX)",
+    "objectID": "spolki/dig.html#notowania",
+    "href": "spolki/dig.html#notowania",
+    "title": "Digital Network S.A. (DIG)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/bdx.html#o-spółce",
-    "href": "spolki/bdx.html#o-spółce",
-    "title": "Budimex S.A. (BDX)",
+    "objectID": "spolki/dig.html#o-spółce",
+    "href": "spolki/dig.html#o-spółce",
+    "title": "Digital Network S.A. (DIG)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Budimex S.A. to największa polska firma budowlana i lider rynku generalnego wykonawstwa w Polsce. Spółka działa od 1968 roku i realizuje najbardziej prestiżowe projekty infrastrukturalne w kraju - od autostrad i lotnisk po budynki użyteczności publicznej i obiekty komercyjne. Budimex jest częścią grupy Ferrovial, jednego z największych koncernów budowlanych na świecie.\nStrategia i Perspektywy: Spółka koncentruje się na segmencie infrastruktury drogowej i kolejowej, gdzie dominuje rynek przetargów publicznych. Kluczowe są kontrakty dla GDDKiA, PKP PLK oraz jednostek samorządowych. Budimex stawia na efektywność kosztową i terminowość realizacji jako przewagi konkurencyjne."
+    "text": "O spółce\nProfil działalności: Digital Network to polska spółka mediowa specjalizująca się w reklamie outdoorowej (OOH - Out of Home). Firma prowadzi działalność w segmencie nośników reklamowych w przestrzeni publicznej - billboardy, citylighty, tablice informacyjne i inne formy reklamy zewnętrznej.\nStrategia i Perspektywy: Digital Network rozwija się poprzez ekspansję sieci nośników reklamowych oraz akwizycje. Kluczowe jest alsobudowanie pozycji w segmencie digital out-of-home (DOOH) i rozwój technologii cyfrowych tablic reklamowych."
   },
   {
-    "objectID": "spolki/bdx.html#biznes",
-    "href": "spolki/bdx.html#biznes",
-    "title": "Budimex S.A. (BDX)",
+    "objectID": "spolki/dig.html#biznes",
+    "href": "spolki/dig.html#biznes",
+    "title": "Digital Network S.A. (DIG)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nInfrastruktura drogowa: Budowa autostrad, dróg ekspresowych, obwodnic i mostów dla GDDKiA i samorządów.\nInfrastruktura kolejowa: Modernizacja linii kolejowych, budowa stacji i obiektów inżynieryjnych dla PKP PLK.\nBudynki użyteczności publicznej: Szpitale, szkoły, urzędy, obiekty sportowe i kulturalne.\nBudownictwo komercyjne: Centra handlowe, biurowce, hale produkcyjne i magazynowe.\n\nZasoby i Surowce:\nW działalności kluczowe są materiały budowlane (cement, stal, asfalt, kruszywa), paliwa (olej napędowy do maszyn), oraz zasoby ludzkie (inżynierowie, robotnicy budowlani)."
+    "text": "Biznes\nGłówne linie produktowe:\n\nBillboardy: Tradycyjne nośniki 14x48 i 14x48 w największych miastach Polski.\nCitylighty: Nośniki w pasażach handlowych i centrum miast.\nDigital OOH: Cyfrowe tablice LED o wysokiej rozdzielczości.\nTransport advertising: Reklama na dworcach, lotniskach i w komunikacji miejskiej.\n\nZasoby i Surowce:\nDziałalność opiera się na powierzchniach reklamowych (wynajem), lokalizacjach w miastach, technologii cyfrowej (ekrany LED) oraz umowach z właścicielami powierzchni."
   },
   {
-    "objectID": "spolki/bdx.html#strategia",
-    "href": "spolki/bdx.html#strategia",
-    "title": "Budimex S.A. (BDX)",
+    "objectID": "spolki/dig.html#strategia",
+    "href": "spolki/dig.html#strategia",
+    "title": "Digital Network S.A. (DIG)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nInfrastruktura krajowa: Realizacja Programu Budowy Dróg Krajowych i inwestycji kolejowych.\nPartnerstwo publiczno-prywatne: Udział w projektach PPP w sektorze zdrowia i transportu.\nInnowacje: Wdrażanie technologii BIM i rozwiązań przyspieszających budowę.\nEkspansja zagraniczna: Działalność na rynkach Europy Środkowej poprzez grupę Ferrovial.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nDigitalizacja: Inwestycje w cyfrowe tablice LED.\nEkspansja geograficzna: Rozszerzanie sieci nośników w nowych miastach.\nAkwizycje: Konsolidacja rynku outdoor w Polsce.\nProgrammatic DOOH: Rozwój programatycznej sprzedaży reklamy cyfrowej.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/spr.html",
+    "href": "spolki/spr.html",
+    "title": "Spyrosoft S.A. (SPR)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: SPR | Spyrosoft S.A. | Siedziba: Wrocław | WWW: spyrosoft.com | Branża: Technologie i IT"
+  },
+  {
+    "objectID": "spolki/spr.html#notowania",
+    "href": "spolki/spr.html#notowania",
+    "title": "Spyrosoft S.A. (SPR)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/spr.html#o-spółce",
+    "href": "spolki/spr.html#o-spółce",
+    "title": "Spyrosoft S.A. (SPR)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Spyrosoft to polska firma software’owa świadcząca usługi programistyczne dla międzynarodowych klientów. Spółka specjalizuje się w tworzeniu oprogramowania na zamówienie, oferując usługi deweloperskie dla firm z różnych branż.\nStrategia i Perspektywy: Spyrosoft rozwija się jako firma IT outsourcingowa, koncentrując się na pozyskiwaniu kontraktów od zagranicznych klientów. Kluczowe jest rozwijanie kompetencji i budowanie długoterminowych relacji z klientami."
+  },
+  {
+    "objectID": "spolki/spr.html#biznes",
+    "href": "spolki/spr.html#biznes",
+    "title": "Spyrosoft S.A. (SPR)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nSoftware development: Tworzenie oprogramowania na zamówienie.\nKonsulting IT: Doradztwo technologiczne.\nMobile: Aplikacje mobilne.\nAI/ML: Rozwiązania sztucznej inteligencji.\n\nZasoby i Surowce:\nZespół programistów, kompetencje technologiczne, baza klientów zagranicznych."
+  },
+  {
+    "objectID": "spolki/spr.html#strategia",
+    "href": "spolki/spr.html#strategia",
+    "title": "Spyrosoft S.A. (SPR)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nKontrakty: Pozyskiwanie nowych klientów.\nKompetencje: Rozwój umiejętności zespołu.\nAI/ML: Inwestycje w sztuczną inteligencję.\nRetencja: Utrzymywanie długoterminowych relacji.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
     "objectID": "spolki/slv.html",
@@ -1183,319 +1253,74 @@
     "text": "Strategia\nKierunki rozwoju:\n\nEkspansja europejska: Dalsze rozszerzanie sieci dystrybucji na kolejne rynki Europy.\nCyfryzacja: Rozwój platformy e-commerce i systemów zarządzania zapasami w czasie rzeczywistym.\nZrównoważony rozwój: Inwestycje w części regenerowane, redukcja emisji CO2 w operacjach własnych, wspieranie gospodarki o obiegu zamkniętym.\nFuzje i przejęcia: Aktywna strategia konsolidacji rynku dystrybucji części motoryzacyjnych w regionie.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/gpw.html",
-    "href": "spolki/gpw.html",
-    "title": "Giełda Papierów Wartościowych w Warszawie S.A. (GPW)",
+    "objectID": "spolki/ech.html",
+    "href": "spolki/ech.html",
+    "title": "Echo Investment S.A. (ECH)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: GPW | Giełda Papierów Wartościowych w Warszawie S.A. | Siedziba: Warszawa | WWW: gpw.pl | Branża: Finanse"
+    "text": "← Spółki GPW | Ticker: ECH | Echo Investment S.A. | Siedziba: Warszawa | WWW: echo-inwestycje.pl | Branża: Nieruchomości i budownictwo"
   },
   {
-    "objectID": "spolki/gpw.html#notowania",
-    "href": "spolki/gpw.html#notowania",
-    "title": "Giełda Papierów Wartościowych w Warszawie S.A. (GPW)",
+    "objectID": "spolki/ech.html#notowania",
+    "href": "spolki/ech.html#notowania",
+    "title": "Echo Investment S.A. (ECH)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/gpw.html#o-spółce",
-    "href": "spolki/gpw.html#o-spółce",
-    "title": "Giełda Papierów Wartościowych w Warszawie S.A. (GPW)",
+    "objectID": "spolki/ech.html#o-spółce",
+    "href": "spolki/ech.html#o-spółce",
+    "title": "Echo Investment S.A. (ECH)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Giełda Papierów Wartościowych w Warszawie (GPW) to wiodący polski operator rynku papierów wartościowych, zapewniający możliwość obrotu akcjami, obligacjami, instrumentami pochodnymi i innymi papierami wartościowymi. GPW jest spółką publiczną, a jej akcje są notowane na własnym parkiecie.\nStrategia i Perspektywy: GPW rozwija się jako platforma obrotu instrumentami finansowymi, wprowadzając nowe produkty i usługi. Kluczowe jest zwiększanie płynności rynku, rozwój oferty produktowej i przyciąganie nowych emitentów."
+    "text": "O spółce\nProfil działalności: Echo Investment to wiodący polski deweloper realizujący projekty mieszkaniowe, komercyjne i mixed-use. Spółka buduje mieszkania, biurowce, centra handlowe i hotele w największych polskich miastach, będąc jednym z największych deweloperów w kraju.\nStrategia i Perspektywy: Echo Investment rozwija się jako deweloper z diversyfikowanym portfolio projektów. Kluczowe jest realizacja projektów w dużych miastach i utrzymanie potoku inwestycji."
   },
   {
-    "objectID": "spolki/gpw.html#biznes",
-    "href": "spolki/gpw.html#biznes",
-    "title": "Giełda Papierów Wartościowych w Warszawie S.A. (GPW)",
+    "objectID": "spolki/ech.html#biznes",
+    "href": "spolki/ech.html#biznes",
+    "title": "Echo Investment S.A. (ECH)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nRynek akcji: Obrot akcjami i prawami poboru.\nRynek obligacji: Obligacje skarbowe i korporacyjne.\nDerivatives: Instrumenty pochodne (kontrakty futures, opcje).\nNewConnect: Alternatywny system obrotu dla małych firm.\n\nZasoby i Surowce:\nInfrastruktura giełdowa, systemy transakcyjne, licencje i zezwolenia, marka GPW."
+    "text": "Biznes\nGłówne linie produktowe:\n\nMieszkania: Budowa mieszkań na sprzedaż.\nBiurowce: Budowa powierzchni biurowych.\nHandel: Centra handlowe i retail park.\nHotele: Projekty hotelowe.\n\nZasoby i Surowce:\nGrunty pod zabudowę, doświadczenie deweloperskie, zespół projektantów."
   },
   {
-    "objectID": "spolki/gpw.html#strategia",
-    "href": "spolki/gpw.html#strategia",
-    "title": "Giełda Papierów Wartościowych w Warszawie S.A. (GPW)",
+    "objectID": "spolki/ech.html#strategia",
+    "href": "spolki/ech.html#strategia",
+    "title": "Echo Investment S.A. (ECH)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nNowe produkty: Wprowadzanie nowych instrumentów finansowych.\nEmitenci: Przyciąganie nowych spółek do notowań.\nInfrastruktura: Modernizacja systemów transakcyjnych.\nEdukacja: Rozwój edukacji inwestycyjnej.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nProjekty: Realizacja nowych inwestycji.\nPortfolio: Dywersyfikacja projektów.\nLokalizacje: Koncentracja na dużych miastach.\nSprzedaż: Efektywna sprzedaż nieruchomości.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/ena.html",
-    "href": "spolki/ena.html",
-    "title": "ENEA S.A. (ENA)",
+    "objectID": "spolki/lbw.html",
+    "href": "spolki/lbw.html",
+    "title": "Lubawa S.A. (LBW)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: ENA | ENEA S.A. | Siedziba: Poznań | WWW: enea.pl | Branża: Surowce i energia"
+    "text": "← Spółki GPW | Ticker: LBW | Lubawa S.A. | Siedziba: Polska | WWW: lubawagroup.com | Branża: Przemysł i produkcja"
   },
   {
-    "objectID": "spolki/ena.html#notowania",
-    "href": "spolki/ena.html#notowania",
-    "title": "ENEA S.A. (ENA)",
+    "objectID": "spolki/lbw.html#notowania",
+    "href": "spolki/lbw.html#notowania",
+    "title": "Lubawa S.A. (LBW)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/ena.html#o-spółce",
-    "href": "spolki/ena.html#o-spółce",
-    "title": "ENEA S.A. (ENA)",
+    "objectID": "spolki/lbw.html#o-spółce",
+    "href": "spolki/lbw.html#o-spółce",
+    "title": "Lubawa S.A. (LBW)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: ENEA to jedna z największych grup energetycznych w Polsce, działająca w całym łańcuchu wartości sektora elektroenergetycznego. Grupa prowadzi wydobycie węgla kamiennego, wytwarza energię elektryczną w elektrowniach konwencjonalnych oraz zarządza dystrybucją energii na terenie północno-zachodniej Polski.\nStrategia i Perspektywy: Spółka realizuje strategię transformacji energetycznej, inwestując w odnawialne źródła energii i modernizację infrastruktury dystrybucyjnej. Kluczowe jest zwiększanie udziału energii ze źródeł odnawialnych przy jednoczesnym zapewnieniu stabilności dostaw."
+    "text": "O spółce\nProfil działalności: Lubawa S.A. to jeden z kluczowych w Polsce producentów sprzętu specjalistycznego dla służb mundurowych (Wojsko, Policja, Straż Pożarna i Graniczna). Jest liderem w segmencie osłon balistycznych i konfekcji technicznej. Spółka posiada własną powlekarnię tkanin, co pozwala jej na dużą niezależność technologiczną.\nStrategia i Perspektywy: W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia sprzętowego armii NATO, koncentrując się na długoterminowych kontraktach rządowych. Stawia na ekspansję międzynarodową (USA, Armenia) oraz innowacje poprzez własne Centrum Badawczo-Rozwojowe."
   },
   {
-    "objectID": "spolki/ena.html#biznes",
-    "href": "spolki/ena.html#biznes",
-    "title": "ENEA S.A. (ENA)",
+    "objectID": "spolki/lbw.html#biznes",
+    "href": "spolki/lbw.html#biznes",
+    "title": "Lubawa S.A. (LBW)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nWytwarzanie energii: Produkcja energii elektrycznej w elektrowniach węglowych i gazowych.\nDystrybucja: Przesył i dystrybucja energii elektrycznej do odbiorców końcowych.\nWydobycie: Wydobycie węgla kamiennego w kopalniach należących do grupy.\nSprzedaż: Sprzedaż energii elektrycznej i gazu dla klientów biznesowych i indywidualnych.\n\nZasoby i Surowce:\nKopalnie węgla kamiennego, elektrownie konwencjonalne (węgiel, gaz), sieć dystrybucyjna oraz baza klientów."
+    "text": "Biznes\nGłówne linie produktowe:\n\nBezpieczeństwo i Obrona: Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego.\nRatownictwo: Zapory przeciwpowodziowe, namioty pneumatyczne i stelażowe, łodzie ratownicze, skokochrony.\nTurystyka i BHP: Odzież specjalistyczna, sprzęt do prac na wysokościach, produkty turystyczne.\n\nZasoby i Surowce:\nW działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości, guma oraz tkaniny gumowane."
   },
   {
-    "objectID": "spolki/ena.html#strategia",
-    "href": "spolki/ena.html#strategia",
-    "title": "ENEA S.A. (ENA)",
+    "objectID": "spolki/lbw.html#strategia",
+    "href": "spolki/lbw.html#strategia",
+    "title": "Lubawa S.A. (LBW)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nZielona energia: Inwestycje w farmy wiatrowe i fotowoltaikę.\nModernizacja sieci: Rozbudowa i modernizacja infrastruktury dystrybucyjnej.\nEfektywność: Podnoszenie efektywności energetycznej elektrowni.\nElektromobilność: Rozwój infrastruktury ładowania pojazdów elektrycznych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/bmc.html",
-    "href": "spolki/bmc.html",
-    "title": "Bumech S.A. (BMC)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: BMC | Bumech S.A. | Siedziba: Bytom | WWW: bumech.pl | Branża: Przemysł i produkcja"
-  },
-  {
-    "objectID": "spolki/bmc.html#notowania",
-    "href": "spolki/bmc.html#notowania",
-    "title": "Bumech S.A. (BMC)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/bmc.html#o-spółce",
-    "href": "spolki/bmc.html#o-spółce",
-    "title": "Bumech S.A. (BMC)",
-    "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Bumech to polska spółka przemysłowa specjalizująca się w produkcji maszyn i urządzeń dla górnictwa oraz przemysłu. Spółka oferuje rozwiązania dla sektorów wydobywczego, energetycznego i inżynieryjnego, produkując urządzenia przeznaczone do pracy w trudnych warunkach.\nStrategia i Perspektywy: Bumech rozwija się jako producent maszyn dla przemysłu ciężkiego, koncentrując się na górnictwie i energetyce. Kluczowe jest pozyskiwanie kontraktów od dużych przedsiębiorstw przemysłowych."
-  },
-  {
-    "objectID": "spolki/bmc.html#biznes",
-    "href": "spolki/bmc.html#biznes",
-    "title": "Bumech S.A. (BMC)",
-    "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nMaszyny górnicze: Urządzenia dla kopalń węgla i rud.\nPrzemysł energetyczny: Maszyny dla sektora energetycznego.\nUrządzenia specjalistyczne: Maszyny do pracy w trudnych warunkach.\nSerwis: Obsługa posprzedażowa i naprawy.\n\nZasoby i Surowce:\nZakład produkcyjny, doświadczony zespół inżynierów, kompetencje w budowie maszyn ciężkich."
-  },
-  {
-    "objectID": "spolki/bmc.html#strategia",
-    "href": "spolki/bmc.html#strategia",
-    "title": "Bumech S.A. (BMC)",
-    "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nGórnictwo: Rozwój produktów dla sektora górniczego.\nEnergetyka: Maszyny dla przemysłu energetycznego.\nEksport: Zwiększanie sprzedaży zagranicznej.\nSerwis: Rozwój usług serwisowych i części zamiennych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/tor.html",
-    "href": "spolki/tor.html",
-    "title": "Torpol S.A. (TOR)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: TOR | Torpol S.A. | Siedziba: Poznań | WWW: torpol.pl | Branża: Nieruchomości i budownictwo"
-  },
-  {
-    "objectID": "spolki/tor.html#notowania",
-    "href": "spolki/tor.html#notowania",
-    "title": "Torpol S.A. (TOR)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/tor.html#o-spółce",
-    "href": "spolki/tor.html#o-spółce",
-    "title": "Torpol S.A. (TOR)",
-    "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Torpol to polska firma budowlana specjalizująca się w budowie i modernizacji infrastruktury kolejowej. Spółka realizuje projekty związane z budową torów, sieci tramwajowych, obiektów inżynierskich oraz systemów sterowania ruchem kolejowym.\nStrategia i Perspektywy: Torpol rozwija się jako wykonawca projektów kolejowych, korzystając z inwestycji w polską kolej (PKP, CPK). Kluczowe jest pozyskiwanie kontraktów na modernizację linii kolejowych i rozwój sieci tramwajowych."
-  },
-  {
-    "objectID": "spolki/tor.html#biznes",
-    "href": "spolki/tor.html#biznes",
-    "title": "Torpol S.A. (TOR)",
-    "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nBudowa torów: Układanie i modernizacja torowisk kolejowych.\nTramwaje: Budowa i modernizacja torowisk tramwajowych.\nInżynieria: Obiektów inżynierskie (mosty, wiadukty).\nElektryfikacja: Sieci elektroenergetyczne i oświetlenie.\n\nZasoby i Surowce:\nPark maszynowy do budowy kolei, doświadczone brygady, certyfikaty kolejowe."
-  },
-  {
-    "objectID": "spolki/tor.html#strategia",
-    "href": "spolki/tor.html#strategia",
-    "title": "Torpol S.A. (TOR)",
-    "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nKolej: Udział w projektach modernizacji PKP.\nTramwaje: Rozwój sieci tramwajowych w miastach.\nCPK: Przygotowanie do inwestycji CPK.\nElektryfikacja: Rozwój sieci elektroenergetycznych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/plw.html",
-    "href": "spolki/plw.html",
-    "title": "Playway S.A. (PLW)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: PLW | Playway S.A. | Siedziba: Warszawa | WWW: playway.com | Branża: Technologie i IT"
-  },
-  {
-    "objectID": "spolki/plw.html#notowania",
-    "href": "spolki/plw.html#notowania",
-    "title": "Playway S.A. (PLW)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/plw.html#o-spółce",
-    "href": "spolki/plw.html#o-spółce",
-    "title": "Playway S.A. (PLW)",
-    "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Playway to polska grupa wydawnicza gier komputerowych, wydająca tytuły na platformy PC i konsole. Spółka współpracuje z wieloma studiami deweloperskimi, oferując portfolio gier z różnych gatunków, od symulatorów po gry akcji.\nStrategia i Perspektywy: Playway rozwija się jako wydawca gier, współpracując z zewnętrznymi studiami deweloperskimi. Kluczowe jest tworzenie diversyfikowanego portfolio gier i skuteczna dystrybucja na rynkach globalnych."
-  },
-  {
-    "objectID": "spolki/plw.html#biznes",
-    "href": "spolki/plw.html#biznes",
-    "title": "Playway S.A. (PLW)",
-    "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nGry PC: Tytuły na komputery osobiste.\nGry konsole: Gry na PlayStation, Xbox, Nintendo Switch.\nSymulatory: Popularne gry symulacyjne.\nWspółpraca: Partnerstwa ze studiami deweloperskimi.\n\nZasoby i Surowce:\nPortfolio gier, umowy z deweloperami, doświadczenie w wydawaniu gier."
-  },
-  {
-    "objectID": "spolki/plw.html#strategia",
-    "href": "spolki/plw.html#strategia",
-    "title": "Playway S.A. (PLW)",
-    "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nPortfolio: Poszerzanie oferty gier.\nPlatformy: Wydawanie na więcej platform.\nGlobalizacja: Sprzedaż na rynkach międzynarodowych.\nPartnerstwa: Współpraca z nowymi studiami.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/dnp.html",
-    "href": "spolki/dnp.html",
-    "title": "DINO POLSKA S.A. (DNP)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: DNP | DINO POLSKA S.A. | Siedziba: Polska | WWW: grupadino.pl | Branża: Handel i konsumpcja"
-  },
-  {
-    "objectID": "spolki/dnp.html#notowania",
-    "href": "spolki/dnp.html#notowania",
-    "title": "DINO POLSKA S.A. (DNP)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/dnp.html#o-spółce",
-    "href": "spolki/dnp.html#o-spółce",
-    "title": "DINO POLSKA S.A. (DNP)",
-    "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Dino Polska S.A. to jedna z najszybciej rozwijających się sieci supermarketów w Polsce. Unikalny model biznesowy opiera się na własności budynków i gruntów, ustandaryzowanych placówkach o powierzchni ok. 400 m2 oraz bardzo sprawnej logistyce. Spółka skupia się na mniejszych miastach i terenach wiejskich.\nStrategia i Perspektywy: Głównym celem Dino jest dalsza szybka ekspansja terytorialna w Polsce przy zachowaniu wysokiej rentowności. Spółka inwestuje w nowoczesne centra logistyczne oraz odnawialne źródła energii (fotowoltaika)."
-  },
-  {
-    "objectID": "spolki/dnp.html#biznes",
-    "href": "spolki/dnp.html#biznes",
-    "title": "DINO POLSKA S.A. (DNP)",
-    "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nProdukty świeże: Warzywa, owoce, nabiał oraz produkty piekarnicze.\nPrzetwórstwo mięsne: Własny zakład produkcyjny Agro-Rydzyna dostarczający świeże mięso i wędliny.\nArtykuły FMCG: Szeroki asortyment ok. 5000 pozycji produktowych.\n\nZasoby: Pełna kontrola nad łańcuchem dostaw dzięki własnej flocie chłodniczej i sieci centrów dystrybucyjnych."
-  },
-  {
-    "objectID": "spolki/dnp.html#strategia",
-    "href": "spolki/dnp.html#strategia",
-    "title": "DINO POLSKA S.A. (DNP)",
-    "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja terytorialna: Dalsze zwielokrotnianie liczby sklepów na terenie kraju.\nZrównoważony rozwój: Redukcja śladu węglowego poprzez OZE.\nWygoda klienta: Systematyczne dostosowywanie oferty do potrzeb lokalnych społeczności.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/cps.html",
-    "href": "spolki/cps.html",
-    "title": "Cyfrowy Polsat S.A. (CPS)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: CPS | Cyfrowy Polsat S.A. | Siedziba: Warszawa | WWW: grupa.polsatplus.pl | Branża: Media i komunikacja"
-  },
-  {
-    "objectID": "spolki/cps.html#notowania",
-    "href": "spolki/cps.html#notowania",
-    "title": "Cyfrowy Polsat S.A. (CPS)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/cps.html#o-spółce",
-    "href": "spolki/cps.html#o-spółce",
-    "title": "Cyfrowy Polsat S.A. (CPS)",
-    "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Cyfrowy Polsat (Grupa Polsat Plus) to największa grupa medialno-telekomunikacyjna w Polsce. Oferuje zintegrowane usługi multimedialne: płatną telewizję (Polsat Box), telefonię komórkową oraz internet (Plus). Grupa posiada również bogate portfolio kanałów telewizyjnych oraz portali internetowych (Interia.pl).\nStrategia i Perspektywy: Spółka realizuje strategię multiplay, łącząc usługi telekomunikacyjne z mediami i e-commerce. Kluczowym nowym filarem jest segment “Zielonej Energii” — inwestycje w OZE (wiatr, słońce) oraz technologię wodorową, co ma zdywersyfikować przychody i obniżyć ślad węglowy grupy."
-  },
-  {
-    "objectID": "spolki/cps.html#biznes",
-    "href": "spolki/cps.html#biznes",
-    "title": "Cyfrowy Polsat S.A. (CPS)",
-    "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nTelekomunikacja: Usługi głosowe i transmisja danych pod marką Plus (5G).\nMedia: Telewizja satelitarna i kablowa (Polsat Box), streaming (Polsat Box Go) oraz produkcja treści.\nEnergetyka: Produkcja i sprzedaż zielonej energii oraz wodoru.\nE-commerce i Finanse: Usługi płatnicze i ubezpieczeniowe powiązane z ofertą bazową.\n\nZasoby i Surowce:\nInfrastruktura telekomunikacyjna (stacje bazowe, światłowody), koncesje na częstotliwości, prawa do transmisji sportowych i biblioteka filmowa, oraz farmy OZE."
-  },
-  {
-    "objectID": "spolki/cps.html#strategia",
-    "href": "spolki/cps.html#strategia",
-    "title": "Cyfrowy Polsat S.A. (CPS)",
-    "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nRozwój 5G: Utrzymanie pozycji lidera technologicznego w Polsce.\nZielona Energia: Osiągnięcie neutralności klimatycznej i budowa pozycji na rynku energii.\nContent is King: Inwestycje w autorskie produkcje i treści sportowe.\nCross-selling: Zwiększanie wskaźnika usług na jednego klienta (ARPU).\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/elt.html",
-    "href": "spolki/elt.html",
-    "title": "Elektrotim S.A. (ELT)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: ELT | Elektrotim S.A. | Siedziba: Wrocław | WWW: elektrotim.pl | Branża: Przemysł i produkcja"
-  },
-  {
-    "objectID": "spolki/elt.html#notowania",
-    "href": "spolki/elt.html#notowania",
-    "title": "Elektrotim S.A. (ELT)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/elt.html#o-spółce",
-    "href": "spolki/elt.html#o-spółce",
-    "title": "Elektrotim S.A. (ELT)",
-    "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Elektrotim to polska firma inżynieryjna specjalizująca się w instalacjach elektrycznych i systemach automatyki przemysłowej. Spółka realizuje projekty elektryczne dla przemysłu, budownictwa i infrastruktury, oferując kompleksowe usługi od projektowania po montaż.\nStrategia i Perspektywy: Elektrotim rozwija się jako wykonawca instalacji elektrycznych, koncentrując się na segmencie przemysłowym i infrastrukturalnym. Kluczowe jest pozyskiwanie kontraktów od dużych inwestorów przemysłowych."
-  },
-  {
-    "objectID": "spolki/elt.html#biznes",
-    "href": "spolki/elt.html#biznes",
-    "title": "Elektrotim S.A. (ELT)",
-    "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nInstalacje elektryczne: Projektowanie i montaż instalacji.\nAutomatyka: Systemy automatyki przemysłowej.\nPomiary: Pomiary i certyfikacje elektryczne.\nSerwis: Obsługa posprzedażna instalacji.\n\nZasoby i Surowce:\nZespół elektryków i inżynierów, certyfikaty, sprzęt pomiarowy."
-  },
-  {
-    "objectID": "spolki/elt.html#strategia",
-    "href": "spolki/elt.html#strategia",
-    "title": "Elektrotim S.A. (ELT)",
-    "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nPrzemysł: Rozwój w segmencie instalacji przemysłowych.\nAutomatyka: Rozwój systemów automatyki.\nInfrastruktura: Projekty infrastrukturalne.\nSerwis: Rozwój usług serwisowych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
-  },
-  {
-    "objectID": "spolki/pge.html",
-    "href": "spolki/pge.html",
-    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
-    "section": "",
-    "text": "← Spółki GPW | Ticker: PGE | PGE Polska Grupa Energetyczna S.A. | Siedziba: Warszawa | WWW: gkpge.pl | Branża: Surowce i energia"
-  },
-  {
-    "objectID": "spolki/pge.html#notowania",
-    "href": "spolki/pge.html#notowania",
-    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
-    "section": "Notowania",
-    "text": "Notowania"
-  },
-  {
-    "objectID": "spolki/pge.html#o-spółce",
-    "href": "spolki/pge.html#o-spółce",
-    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
-    "section": "O spółce",
-    "text": "O spółce\nProfil działalności: PGE Polska Grupa Energetyczna to największy w Polsce podmiot sektora elektroenergetycznego, odpowiadający za około 40% krajowej produkcji energii elektrycznej. Grupa prowadzi zróżnicowaną działalność obejmującą wytwarzanie, dystrybucję i obrót energią elektryczną oraz ciepłem. Spółka obsługuje miliony gospodarstw domowych i przedsiębiorstw na terenie całego kraju.\nStrategia i Perspektywy: Grupa realizuje strategię rozwoju do 2035 roku, koncentrującą się na transformacji w kierunku niskoemisyjnej energetyki. Kluczowym elementem jest rozwój morskich farm wiatrowych na Bałtyku (projekt Baltica) oraz modernizacja infrastruktury dystrybucyjnej. Spółka stawia na dywersyfikację źródeł energii, inwestując w odnawialne źródła przy jednoczesnym utrzymaniu konwencjonalnych elektrowni."
-  },
-  {
-    "objectID": "spolki/pge.html#biznes",
-    "href": "spolki/pge.html#biznes",
-    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
-    "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nWytwarzanie energii: Produkcja energii elektrycznej w elektrowniach węglowych, gazowych, jądrowych (poprzez Polski Atom) oraz odnawialnych źródłach energii (wiatr, słońce, biomasa).\nDystrybucja: Zarządzanie siecią dystrybucyjną obejmującą około 40% powierzchni Polski, zapewniając dostęp do energii dla milionów odbiorców.\nObrót energią: Sprzedaż energii elektrycznej i ciepła do klientów biznesowych oraz indywidualnych.\nEnergetyka morska: Rozwój projektów offshore wind, w tym farma wiatrowa Baltica 2 o mocy około 1,5 GW.\n\nZasoby i Surowce:\nW działalności kluczowy jest węgiel kamienny i brunatny do konwencjonalnych elektrowni, gaz naturalny dla bloków szczytowych, a także lokalizacje na morzu dla farm wiatrowych."
-  },
-  {
-    "objectID": "spolki/pge.html#strategia",
-    "href": "spolki/pge.html#strategia",
-    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
-    "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nTransformacja energetyczna: Stopniowe odchodzenie od węgla na rzecz OZE i energii jądrowej.\nOffshore Wind: Realizacja projektów morskich farm wiatrowych na Bałtyku (Baltica 2 i Baltica 3).\nSieć dystrybucyjna: Modernizacja i rozbudowa infrastruktury sieciowej, w tym inwestycje na Podkarpaciu i Lubelszczyźnie.\nBloki gazowe: Budowa bloków gazowych szczytowych w Rybniku i Gryfinie (łącznie ok. 1200 MW).\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja zagraniczna: Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.\nInnowacje: Prace badawczo-rozwojowe nad nowoczesnymi osłonami balistycznymi.\nDywersyfikacja: Balans między zamówieniami wojskowymi a rynkiem cywilnym (ratownictwo, BHP).\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
     "objectID": "spolki/wpl.html",
@@ -1533,39 +1358,319 @@
     "text": "Strategia\nKierunki rozwoju:\n\nReklamy: Monetyzacja poprzez reklamy internetowe.\nUsługi: Rozwój usług finansowych i telekomunikacyjnych.\nVideo: Rozwój treści wideo i streaming.\nMobile: Aplikacje mobilne i usługi na urządzenia przenośne.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/lbw.html",
-    "href": "spolki/lbw.html",
-    "title": "Lubawa S.A. (LBW)",
+    "objectID": "spolki/pge.html",
+    "href": "spolki/pge.html",
+    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: LBW | Lubawa S.A. | Siedziba: Polska | WWW: lubawagroup.com | Branża: Przemysł i produkcja"
+    "text": "← Spółki GPW | Ticker: PGE | PGE Polska Grupa Energetyczna S.A. | Siedziba: Warszawa | WWW: gkpge.pl | Branża: Surowce i energia"
   },
   {
-    "objectID": "spolki/lbw.html#notowania",
-    "href": "spolki/lbw.html#notowania",
-    "title": "Lubawa S.A. (LBW)",
+    "objectID": "spolki/pge.html#notowania",
+    "href": "spolki/pge.html#notowania",
+    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/lbw.html#o-spółce",
-    "href": "spolki/lbw.html#o-spółce",
-    "title": "Lubawa S.A. (LBW)",
+    "objectID": "spolki/pge.html#o-spółce",
+    "href": "spolki/pge.html#o-spółce",
+    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Lubawa S.A. to jeden z kluczowych w Polsce producentów sprzętu specjalistycznego dla służb mundurowych (Wojsko, Policja, Straż Pożarna i Graniczna). Jest liderem w segmencie osłon balistycznych i konfekcji technicznej. Spółka posiada własną powlekarnię tkanin, co pozwala jej na dużą niezależność technologiczną.\nStrategia i Perspektywy: W obecnej sytuacji geopolitycznej spółka dąży do bycia filarem zaopatrzenia sprzętowego armii NATO, koncentrując się na długoterminowych kontraktach rządowych. Stawia na ekspansję międzynarodową (USA, Armenia) oraz innowacje poprzez własne Centrum Badawczo-Rozwojowe."
+    "text": "O spółce\nProfil działalności: PGE Polska Grupa Energetyczna to największy w Polsce podmiot sektora elektroenergetycznego, odpowiadający za około 40% krajowej produkcji energii elektrycznej. Grupa prowadzi zróżnicowaną działalność obejmującą wytwarzanie, dystrybucję i obrót energią elektryczną oraz ciepłem. Spółka obsługuje miliony gospodarstw domowych i przedsiębiorstw na terenie całego kraju.\nStrategia i Perspektywy: Grupa realizuje strategię rozwoju do 2035 roku, koncentrującą się na transformacji w kierunku niskoemisyjnej energetyki. Kluczowym elementem jest rozwój morskich farm wiatrowych na Bałtyku (projekt Baltica) oraz modernizacja infrastruktury dystrybucyjnej. Spółka stawia na dywersyfikację źródeł energii, inwestując w odnawialne źródła przy jednoczesnym utrzymaniu konwencjonalnych elektrowni."
   },
   {
-    "objectID": "spolki/lbw.html#biznes",
-    "href": "spolki/lbw.html#biznes",
-    "title": "Lubawa S.A. (LBW)",
+    "objectID": "spolki/pge.html#biznes",
+    "href": "spolki/pge.html#biznes",
+    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nBezpieczeństwo i Obrona: Kamizelki kuloodporne, hełmy balistyczne, opancerzenie pojazdów i śmigłowców, makiety pneumatyczne sprzętu wojskowego.\nRatownictwo: Zapory przeciwpowodziowe, namioty pneumatyczne i stelażowe, łodzie ratownicze, skokochrony.\nTurystyka i BHP: Odzież specjalistyczna, sprzęt do prac na wysokościach, produkty turystyczne.\n\nZasoby i Surowce:\nW działalności kluczowe są zaawansowane technicznie tkaniny i dzianiny techniczne, materiały balistyczne o wysokiej wytrzymałości, guma oraz tkaniny gumowane."
+    "text": "Biznes\nGłówne linie produktowe:\n\nWytwarzanie energii: Produkcja energii elektrycznej w elektrowniach węglowych, gazowych, jądrowych (poprzez Polski Atom) oraz odnawialnych źródłach energii (wiatr, słońce, biomasa).\nDystrybucja: Zarządzanie siecią dystrybucyjną obejmującą około 40% powierzchni Polski, zapewniając dostęp do energii dla milionów odbiorców.\nObrót energią: Sprzedaż energii elektrycznej i ciepła do klientów biznesowych oraz indywidualnych.\nEnergetyka morska: Rozwój projektów offshore wind, w tym farma wiatrowa Baltica 2 o mocy około 1,5 GW.\n\nZasoby i Surowce:\nW działalności kluczowy jest węgiel kamienny i brunatny do konwencjonalnych elektrowni, gaz naturalny dla bloków szczytowych, a także lokalizacje na morzu dla farm wiatrowych."
   },
   {
-    "objectID": "spolki/lbw.html#strategia",
-    "href": "spolki/lbw.html#strategia",
-    "title": "Lubawa S.A. (LBW)",
+    "objectID": "spolki/pge.html#strategia",
+    "href": "spolki/pge.html#strategia",
+    "title": "PGE Polska Grupa Energetyczna S.A. (PGE)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja zagraniczna: Aktywność poprzez spółki Lubawa Armenia oraz Lubawa USA.\nInnowacje: Prace badawczo-rozwojowe nad nowoczesnymi osłonami balistycznymi.\nDywersyfikacja: Balans między zamówieniami wojskowymi a rynkiem cywilnym (ratownictwo, BHP).\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nTransformacja energetyczna: Stopniowe odchodzenie od węgla na rzecz OZE i energii jądrowej.\nOffshore Wind: Realizacja projektów morskich farm wiatrowych na Bałtyku (Baltica 2 i Baltica 3).\nSieć dystrybucyjna: Modernizacja i rozbudowa infrastruktury sieciowej, w tym inwestycje na Podkarpaciu i Lubelszczyźnie.\nBloki gazowe: Budowa bloków gazowych szczytowych w Rybniku i Gryfinie (łącznie ok. 1200 MW).\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/elt.html",
+    "href": "spolki/elt.html",
+    "title": "Elektrotim S.A. (ELT)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: ELT | Elektrotim S.A. | Siedziba: Wrocław | WWW: elektrotim.pl | Branża: Przemysł i produkcja"
+  },
+  {
+    "objectID": "spolki/elt.html#notowania",
+    "href": "spolki/elt.html#notowania",
+    "title": "Elektrotim S.A. (ELT)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/elt.html#o-spółce",
+    "href": "spolki/elt.html#o-spółce",
+    "title": "Elektrotim S.A. (ELT)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Elektrotim to polska firma inżynieryjna specjalizująca się w instalacjach elektrycznych i systemach automatyki przemysłowej. Spółka realizuje projekty elektryczne dla przemysłu, budownictwa i infrastruktury, oferując kompleksowe usługi od projektowania po montaż.\nStrategia i Perspektywy: Elektrotim rozwija się jako wykonawca instalacji elektrycznych, koncentrując się na segmencie przemysłowym i infrastrukturalnym. Kluczowe jest pozyskiwanie kontraktów od dużych inwestorów przemysłowych."
+  },
+  {
+    "objectID": "spolki/elt.html#biznes",
+    "href": "spolki/elt.html#biznes",
+    "title": "Elektrotim S.A. (ELT)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nInstalacje elektryczne: Projektowanie i montaż instalacji.\nAutomatyka: Systemy automatyki przemysłowej.\nPomiary: Pomiary i certyfikacje elektryczne.\nSerwis: Obsługa posprzedażna instalacji.\n\nZasoby i Surowce:\nZespół elektryków i inżynierów, certyfikaty, sprzęt pomiarowy."
+  },
+  {
+    "objectID": "spolki/elt.html#strategia",
+    "href": "spolki/elt.html#strategia",
+    "title": "Elektrotim S.A. (ELT)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nPrzemysł: Rozwój w segmencie instalacji przemysłowych.\nAutomatyka: Rozwój systemów automatyki.\nInfrastruktura: Projekty infrastrukturalne.\nSerwis: Rozwój usług serwisowych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/cps.html",
+    "href": "spolki/cps.html",
+    "title": "Cyfrowy Polsat S.A. (CPS)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: CPS | Cyfrowy Polsat S.A. | Siedziba: Warszawa | WWW: grupa.polsatplus.pl | Branża: Media i komunikacja"
+  },
+  {
+    "objectID": "spolki/cps.html#notowania",
+    "href": "spolki/cps.html#notowania",
+    "title": "Cyfrowy Polsat S.A. (CPS)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/cps.html#o-spółce",
+    "href": "spolki/cps.html#o-spółce",
+    "title": "Cyfrowy Polsat S.A. (CPS)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Cyfrowy Polsat (Grupa Polsat Plus) to największa grupa medialno-telekomunikacyjna w Polsce. Oferuje zintegrowane usługi multimedialne: płatną telewizję (Polsat Box), telefonię komórkową oraz internet (Plus). Grupa posiada również bogate portfolio kanałów telewizyjnych oraz portali internetowych (Interia.pl).\nStrategia i Perspektywy: Spółka realizuje strategię multiplay, łącząc usługi telekomunikacyjne z mediami i e-commerce. Kluczowym nowym filarem jest segment “Zielonej Energii” — inwestycje w OZE (wiatr, słońce) oraz technologię wodorową, co ma zdywersyfikować przychody i obniżyć ślad węglowy grupy."
+  },
+  {
+    "objectID": "spolki/cps.html#biznes",
+    "href": "spolki/cps.html#biznes",
+    "title": "Cyfrowy Polsat S.A. (CPS)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nTelekomunikacja: Usługi głosowe i transmisja danych pod marką Plus (5G).\nMedia: Telewizja satelitarna i kablowa (Polsat Box), streaming (Polsat Box Go) oraz produkcja treści.\nEnergetyka: Produkcja i sprzedaż zielonej energii oraz wodoru.\nE-commerce i Finanse: Usługi płatnicze i ubezpieczeniowe powiązane z ofertą bazową.\n\nZasoby i Surowce:\nInfrastruktura telekomunikacyjna (stacje bazowe, światłowody), koncesje na częstotliwości, prawa do transmisji sportowych i biblioteka filmowa, oraz farmy OZE."
+  },
+  {
+    "objectID": "spolki/cps.html#strategia",
+    "href": "spolki/cps.html#strategia",
+    "title": "Cyfrowy Polsat S.A. (CPS)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nRozwój 5G: Utrzymanie pozycji lidera technologicznego w Polsce.\nZielona Energia: Osiągnięcie neutralności klimatycznej i budowa pozycji na rynku energii.\nContent is King: Inwestycje w autorskie produkcje i treści sportowe.\nCross-selling: Zwiększanie wskaźnika usług na jednego klienta (ARPU).\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/dnp.html",
+    "href": "spolki/dnp.html",
+    "title": "DINO POLSKA S.A. (DNP)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: DNP | DINO POLSKA S.A. | Siedziba: Polska | WWW: grupadino.pl | Branża: Handel i konsumpcja"
+  },
+  {
+    "objectID": "spolki/dnp.html#notowania",
+    "href": "spolki/dnp.html#notowania",
+    "title": "DINO POLSKA S.A. (DNP)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/dnp.html#o-spółce",
+    "href": "spolki/dnp.html#o-spółce",
+    "title": "DINO POLSKA S.A. (DNP)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Dino Polska S.A. to jedna z najszybciej rozwijających się sieci supermarketów w Polsce. Unikalny model biznesowy opiera się na własności budynków i gruntów, ustandaryzowanych placówkach o powierzchni ok. 400 m2 oraz bardzo sprawnej logistyce. Spółka skupia się na mniejszych miastach i terenach wiejskich.\nStrategia i Perspektywy: Głównym celem Dino jest dalsza szybka ekspansja terytorialna w Polsce przy zachowaniu wysokiej rentowności. Spółka inwestuje w nowoczesne centra logistyczne oraz odnawialne źródła energii (fotowoltaika)."
+  },
+  {
+    "objectID": "spolki/dnp.html#biznes",
+    "href": "spolki/dnp.html#biznes",
+    "title": "DINO POLSKA S.A. (DNP)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nProdukty świeże: Warzywa, owoce, nabiał oraz produkty piekarnicze.\nPrzetwórstwo mięsne: Własny zakład produkcyjny Agro-Rydzyna dostarczający świeże mięso i wędliny.\nArtykuły FMCG: Szeroki asortyment ok. 5000 pozycji produktowych.\n\nZasoby: Pełna kontrola nad łańcuchem dostaw dzięki własnej flocie chłodniczej i sieci centrów dystrybucyjnych."
+  },
+  {
+    "objectID": "spolki/dnp.html#strategia",
+    "href": "spolki/dnp.html#strategia",
+    "title": "DINO POLSKA S.A. (DNP)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja terytorialna: Dalsze zwielokrotnianie liczby sklepów na terenie kraju.\nZrównoważony rozwój: Redukcja śladu węglowego poprzez OZE.\nWygoda klienta: Systematyczne dostosowywanie oferty do potrzeb lokalnych społeczności.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/plw.html",
+    "href": "spolki/plw.html",
+    "title": "Playway S.A. (PLW)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: PLW | Playway S.A. | Siedziba: Warszawa | WWW: playway.com | Branża: Technologie i IT"
+  },
+  {
+    "objectID": "spolki/plw.html#notowania",
+    "href": "spolki/plw.html#notowania",
+    "title": "Playway S.A. (PLW)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/plw.html#o-spółce",
+    "href": "spolki/plw.html#o-spółce",
+    "title": "Playway S.A. (PLW)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Playway to polska grupa wydawnicza gier komputerowych, wydająca tytuły na platformy PC i konsole. Spółka współpracuje z wieloma studiami deweloperskimi, oferując portfolio gier z różnych gatunków, od symulatorów po gry akcji.\nStrategia i Perspektywy: Playway rozwija się jako wydawca gier, współpracując z zewnętrznymi studiami deweloperskimi. Kluczowe jest tworzenie diversyfikowanego portfolio gier i skuteczna dystrybucja na rynkach globalnych."
+  },
+  {
+    "objectID": "spolki/plw.html#biznes",
+    "href": "spolki/plw.html#biznes",
+    "title": "Playway S.A. (PLW)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nGry PC: Tytuły na komputery osobiste.\nGry konsole: Gry na PlayStation, Xbox, Nintendo Switch.\nSymulatory: Popularne gry symulacyjne.\nWspółpraca: Partnerstwa ze studiami deweloperskimi.\n\nZasoby i Surowce:\nPortfolio gier, umowy z deweloperami, doświadczenie w wydawaniu gier."
+  },
+  {
+    "objectID": "spolki/plw.html#strategia",
+    "href": "spolki/plw.html#strategia",
+    "title": "Playway S.A. (PLW)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nPortfolio: Poszerzanie oferty gier.\nPlatformy: Wydawanie na więcej platform.\nGlobalizacja: Sprzedaż na rynkach międzynarodowych.\nPartnerstwa: Współpraca z nowymi studiami.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/tor.html",
+    "href": "spolki/tor.html",
+    "title": "Torpol S.A. (TOR)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: TOR | Torpol S.A. | Siedziba: Poznań | WWW: torpol.pl | Branża: Nieruchomości i budownictwo"
+  },
+  {
+    "objectID": "spolki/tor.html#notowania",
+    "href": "spolki/tor.html#notowania",
+    "title": "Torpol S.A. (TOR)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/tor.html#o-spółce",
+    "href": "spolki/tor.html#o-spółce",
+    "title": "Torpol S.A. (TOR)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Torpol to polska firma budowlana specjalizująca się w budowie i modernizacji infrastruktury kolejowej. Spółka realizuje projekty związane z budową torów, sieci tramwajowych, obiektów inżynierskich oraz systemów sterowania ruchem kolejowym.\nStrategia i Perspektywy: Torpol rozwija się jako wykonawca projektów kolejowych, korzystając z inwestycji w polską kolej (PKP, CPK). Kluczowe jest pozyskiwanie kontraktów na modernizację linii kolejowych i rozwój sieci tramwajowych."
+  },
+  {
+    "objectID": "spolki/tor.html#biznes",
+    "href": "spolki/tor.html#biznes",
+    "title": "Torpol S.A. (TOR)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nBudowa torów: Układanie i modernizacja torowisk kolejowych.\nTramwaje: Budowa i modernizacja torowisk tramwajowych.\nInżynieria: Obiektów inżynierskie (mosty, wiadukty).\nElektryfikacja: Sieci elektroenergetyczne i oświetlenie.\n\nZasoby i Surowce:\nPark maszynowy do budowy kolei, doświadczone brygady, certyfikaty kolejowe."
+  },
+  {
+    "objectID": "spolki/tor.html#strategia",
+    "href": "spolki/tor.html#strategia",
+    "title": "Torpol S.A. (TOR)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nKolej: Udział w projektach modernizacji PKP.\nTramwaje: Rozwój sieci tramwajowych w miastach.\nCPK: Przygotowanie do inwestycji CPK.\nElektryfikacja: Rozwój sieci elektroenergetycznych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/bmc.html",
+    "href": "spolki/bmc.html",
+    "title": "Bumech S.A. (BMC)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: BMC | Bumech S.A. | Siedziba: Bytom | WWW: bumech.pl | Branża: Przemysł i produkcja"
+  },
+  {
+    "objectID": "spolki/bmc.html#notowania",
+    "href": "spolki/bmc.html#notowania",
+    "title": "Bumech S.A. (BMC)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/bmc.html#o-spółce",
+    "href": "spolki/bmc.html#o-spółce",
+    "title": "Bumech S.A. (BMC)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Bumech to polska spółka przemysłowa specjalizująca się w produkcji maszyn i urządzeń dla górnictwa oraz przemysłu. Spółka oferuje rozwiązania dla sektorów wydobywczego, energetycznego i inżynieryjnego, produkując urządzenia przeznaczone do pracy w trudnych warunkach.\nStrategia i Perspektywy: Bumech rozwija się jako producent maszyn dla przemysłu ciężkiego, koncentrując się na górnictwie i energetyce. Kluczowe jest pozyskiwanie kontraktów od dużych przedsiębiorstw przemysłowych."
+  },
+  {
+    "objectID": "spolki/bmc.html#biznes",
+    "href": "spolki/bmc.html#biznes",
+    "title": "Bumech S.A. (BMC)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nMaszyny górnicze: Urządzenia dla kopalń węgla i rud.\nPrzemysł energetyczny: Maszyny dla sektora energetycznego.\nUrządzenia specjalistyczne: Maszyny do pracy w trudnych warunkach.\nSerwis: Obsługa posprzedażowa i naprawy.\n\nZasoby i Surowce:\nZakład produkcyjny, doświadczony zespół inżynierów, kompetencje w budowie maszyn ciężkich."
+  },
+  {
+    "objectID": "spolki/bmc.html#strategia",
+    "href": "spolki/bmc.html#strategia",
+    "title": "Bumech S.A. (BMC)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nGórnictwo: Rozwój produktów dla sektora górniczego.\nEnergetyka: Maszyny dla przemysłu energetycznego.\nEksport: Zwiększanie sprzedaży zagranicznej.\nSerwis: Rozwój usług serwisowych i części zamiennych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/ena.html",
+    "href": "spolki/ena.html",
+    "title": "ENEA S.A. (ENA)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: ENA | ENEA S.A. | Siedziba: Poznań | WWW: enea.pl | Branża: Surowce i energia"
+  },
+  {
+    "objectID": "spolki/ena.html#notowania",
+    "href": "spolki/ena.html#notowania",
+    "title": "ENEA S.A. (ENA)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/ena.html#o-spółce",
+    "href": "spolki/ena.html#o-spółce",
+    "title": "ENEA S.A. (ENA)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: ENEA to jedna z największych grup energetycznych w Polsce, działająca w całym łańcuchu wartości sektora elektroenergetycznego. Grupa prowadzi wydobycie węgla kamiennego, wytwarza energię elektryczną w elektrowniach konwencjonalnych oraz zarządza dystrybucją energii na terenie północno-zachodniej Polski.\nStrategia i Perspektywy: Spółka realizuje strategię transformacji energetycznej, inwestując w odnawialne źródła energii i modernizację infrastruktury dystrybucyjnej. Kluczowe jest zwiększanie udziału energii ze źródeł odnawialnych przy jednoczesnym zapewnieniu stabilności dostaw."
+  },
+  {
+    "objectID": "spolki/ena.html#biznes",
+    "href": "spolki/ena.html#biznes",
+    "title": "ENEA S.A. (ENA)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nWytwarzanie energii: Produkcja energii elektrycznej w elektrowniach węglowych i gazowych.\nDystrybucja: Przesył i dystrybucja energii elektrycznej do odbiorców końcowych.\nWydobycie: Wydobycie węgla kamiennego w kopalniach należących do grupy.\nSprzedaż: Sprzedaż energii elektrycznej i gazu dla klientów biznesowych i indywidualnych.\n\nZasoby i Surowce:\nKopalnie węgla kamiennego, elektrownie konwencjonalne (węgiel, gaz), sieć dystrybucyjna oraz baza klientów."
+  },
+  {
+    "objectID": "spolki/ena.html#strategia",
+    "href": "spolki/ena.html#strategia",
+    "title": "ENEA S.A. (ENA)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nZielona energia: Inwestycje w farmy wiatrowe i fotowoltaikę.\nModernizacja sieci: Rozbudowa i modernizacja infrastruktury dystrybucyjnej.\nEfektywność: Podnoszenie efektywności energetycznej elektrowni.\nElektromobilność: Rozwój infrastruktury ładowania pojazdów elektrycznych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/gpw.html",
+    "href": "spolki/gpw.html",
+    "title": "Giełda Papierów Wartościowych w Warszawie S.A. (GPW)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: GPW | Giełda Papierów Wartościowych w Warszawie S.A. | Siedziba: Warszawa | WWW: gpw.pl | Branża: Finanse"
+  },
+  {
+    "objectID": "spolki/gpw.html#notowania",
+    "href": "spolki/gpw.html#notowania",
+    "title": "Giełda Papierów Wartościowych w Warszawie S.A. (GPW)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/gpw.html#o-spółce",
+    "href": "spolki/gpw.html#o-spółce",
+    "title": "Giełda Papierów Wartościowych w Warszawie S.A. (GPW)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Giełda Papierów Wartościowych w Warszawie (GPW) to wiodący polski operator rynku papierów wartościowych, zapewniający możliwość obrotu akcjami, obligacjami, instrumentami pochodnymi i innymi papierami wartościowymi. GPW jest spółką publiczną, a jej akcje są notowane na własnym parkiecie.\nStrategia i Perspektywy: GPW rozwija się jako platforma obrotu instrumentami finansowymi, wprowadzając nowe produkty i usługi. Kluczowe jest zwiększanie płynności rynku, rozwój oferty produktowej i przyciąganie nowych emitentów."
+  },
+  {
+    "objectID": "spolki/gpw.html#biznes",
+    "href": "spolki/gpw.html#biznes",
+    "title": "Giełda Papierów Wartościowych w Warszawie S.A. (GPW)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nRynek akcji: Obrot akcjami i prawami poboru.\nRynek obligacji: Obligacje skarbowe i korporacyjne.\nDerivatives: Instrumenty pochodne (kontrakty futures, opcje).\nNewConnect: Alternatywny system obrotu dla małych firm.\n\nZasoby i Surowce:\nInfrastruktura giełdowa, systemy transakcyjne, licencje i zezwolenia, marka GPW."
+  },
+  {
+    "objectID": "spolki/gpw.html#strategia",
+    "href": "spolki/gpw.html#strategia",
+    "title": "Giełda Papierów Wartościowych w Warszawie S.A. (GPW)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nNowe produkty: Wprowadzanie nowych instrumentów finansowych.\nEmitenci: Przyciąganie nowych spółek do notowań.\nInfrastruktura: Modernizacja systemów transakcyjnych.\nEdukacja: Rozwój edukacji inwestycyjnej.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
     "objectID": "spolki/dvl.html",
@@ -1813,109 +1918,144 @@
     "text": "Strategia\nKierunki rozwoju:\n\nŚwiatłowód dla każdego: Dalsza rozbudowa zasięgu sieci FTTH.\nDigitalizacja: Automatyzacja obsługi klienta i wewnętrznych procesów spółki.\nB2B Growth: Zwiększanie przychodów z usług cyfrowych poza telekomunikacją.\nESG: Redukcja emisji CO2 i promowanie gospodarki obiegu zamkniętego.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/dig.html",
-    "href": "spolki/dig.html",
-    "title": "Digital Network S.A. (DIG)",
+    "objectID": "spolki/bdx.html",
+    "href": "spolki/bdx.html",
+    "title": "Budimex S.A. (BDX)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: DIG | Digital Network S.A. | Siedziba: Warszawa | WWW: digitalnetwork.pl | Branża: Media i komunikacja"
+    "text": "← Spółki GPW | Ticker: BDX | Budimex S.A. | Siedziba: Warszawa | WWW: budimex.pl | Branża: Nieruchomości i budownictwo"
   },
   {
-    "objectID": "spolki/dig.html#notowania",
-    "href": "spolki/dig.html#notowania",
-    "title": "Digital Network S.A. (DIG)",
+    "objectID": "spolki/bdx.html#notowania",
+    "href": "spolki/bdx.html#notowania",
+    "title": "Budimex S.A. (BDX)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/dig.html#o-spółce",
-    "href": "spolki/dig.html#o-spółce",
-    "title": "Digital Network S.A. (DIG)",
+    "objectID": "spolki/bdx.html#o-spółce",
+    "href": "spolki/bdx.html#o-spółce",
+    "title": "Budimex S.A. (BDX)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Digital Network to polska spółka mediowa specjalizująca się w reklamie outdoorowej (OOH - Out of Home). Firma prowadzi działalność w segmencie nośników reklamowych w przestrzeni publicznej - billboardy, citylighty, tablice informacyjne i inne formy reklamy zewnętrznej.\nStrategia i Perspektywy: Digital Network rozwija się poprzez ekspansję sieci nośników reklamowych oraz akwizycje. Kluczowe jest alsobudowanie pozycji w segmencie digital out-of-home (DOOH) i rozwój technologii cyfrowych tablic reklamowych."
+    "text": "O spółce\nProfil działalności: Budimex S.A. to największa polska firma budowlana i lider rynku generalnego wykonawstwa w Polsce. Spółka działa od 1968 roku i realizuje najbardziej prestiżowe projekty infrastrukturalne w kraju - od autostrad i lotnisk po budynki użyteczności publicznej i obiekty komercyjne. Budimex jest częścią grupy Ferrovial, jednego z największych koncernów budowlanych na świecie.\nStrategia i Perspektywy: Spółka koncentruje się na segmencie infrastruktury drogowej i kolejowej, gdzie dominuje rynek przetargów publicznych. Kluczowe są kontrakty dla GDDKiA, PKP PLK oraz jednostek samorządowych. Budimex stawia na efektywność kosztową i terminowość realizacji jako przewagi konkurencyjne."
   },
   {
-    "objectID": "spolki/dig.html#biznes",
-    "href": "spolki/dig.html#biznes",
-    "title": "Digital Network S.A. (DIG)",
+    "objectID": "spolki/bdx.html#biznes",
+    "href": "spolki/bdx.html#biznes",
+    "title": "Budimex S.A. (BDX)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nBillboardy: Tradycyjne nośniki 14x48 i 14x48 w największych miastach Polski.\nCitylighty: Nośniki w pasażach handlowych i centrum miast.\nDigital OOH: Cyfrowe tablice LED o wysokiej rozdzielczości.\nTransport advertising: Reklama na dworcach, lotniskach i w komunikacji miejskiej.\n\nZasoby i Surowce:\nDziałalność opiera się na powierzchniach reklamowych (wynajem), lokalizacjach w miastach, technologii cyfrowej (ekrany LED) oraz umowach z właścicielami powierzchni."
+    "text": "Biznes\nGłówne linie produktowe:\n\nInfrastruktura drogowa: Budowa autostrad, dróg ekspresowych, obwodnic i mostów dla GDDKiA i samorządów.\nInfrastruktura kolejowa: Modernizacja linii kolejowych, budowa stacji i obiektów inżynieryjnych dla PKP PLK.\nBudynki użyteczności publicznej: Szpitale, szkoły, urzędy, obiekty sportowe i kulturalne.\nBudownictwo komercyjne: Centra handlowe, biurowce, hale produkcyjne i magazynowe.\n\nZasoby i Surowce:\nW działalności kluczowe są materiały budowlane (cement, stal, asfalt, kruszywa), paliwa (olej napędowy do maszyn), oraz zasoby ludzkie (inżynierowie, robotnicy budowlani)."
   },
   {
-    "objectID": "spolki/dig.html#strategia",
-    "href": "spolki/dig.html#strategia",
-    "title": "Digital Network S.A. (DIG)",
+    "objectID": "spolki/bdx.html#strategia",
+    "href": "spolki/bdx.html#strategia",
+    "title": "Budimex S.A. (BDX)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nDigitalizacja: Inwestycje w cyfrowe tablice LED.\nEkspansja geograficzna: Rozszerzanie sieci nośników w nowych miastach.\nAkwizycje: Konsolidacja rynku outdoor w Polsce.\nProgrammatic DOOH: Rozwój programatycznej sprzedaży reklamy cyfrowej.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nInfrastruktura krajowa: Realizacja Programu Budowy Dróg Krajowych i inwestycji kolejowych.\nPartnerstwo publiczno-prywatne: Udział w projektach PPP w sektorze zdrowia i transportu.\nInnowacje: Wdrażanie technologii BIM i rozwiązań przyspieszających budowę.\nEkspansja zagraniczna: Działalność na rynkach Europy Środkowej poprzez grupę Ferrovial.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/mrb.html",
-    "href": "spolki/mrb.html",
-    "title": "MIRBUD S.A. (MRB)",
+    "objectID": "spolki/att.html",
+    "href": "spolki/att.html",
+    "title": "Grupa Azoty S.A. (ATT)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: MRB | MIRBUD S.A. | Siedziba: Warszawa | WWW: mirbud.pl | Branża: Nieruchomości i budownictwo"
+    "text": "← Spółki GPW | Ticker: ATT | Grupa Azoty S.A. | Siedziba: Tarnów | WWW: grupaazoty.com | Branża: Surowce i energia"
   },
   {
-    "objectID": "spolki/mrb.html#notowania",
-    "href": "spolki/mrb.html#notowania",
-    "title": "MIRBUD S.A. (MRB)",
+    "objectID": "spolki/att.html#notowania",
+    "href": "spolki/att.html#notowania",
+    "title": "Grupa Azoty S.A. (ATT)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/mrb.html#o-spółce",
-    "href": "spolki/mrb.html#o-spółce",
-    "title": "MIRBUD S.A. (MRB)",
+    "objectID": "spolki/att.html#o-spółce",
+    "href": "spolki/att.html#o-spółce",
+    "title": "Grupa Azoty S.A. (ATT)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: MIRBUD to polska firma budowlana specjalizująca się w realizacji infrastruktury transportowej, w tym budowie dróg, autostrad, mostów i wiaduktów. Spółka działa również w segmencie budownictwa kubaturowego, realizując obiekty handlowe, przemysłowe i mieszkalne.\nStrategia i Perspektywy: MIRBUD rozwija się jako generalny wykonawca projektów infrastrukturalnych, korzystając z krajowych i europejskich funduszy na budowę dróg. Kluczowe jest pozyskiwanie kontraktów drogowych i efektywna realizacja projektów."
+    "text": "O spółce\nProfil działalności: Grupa Azoty to wiodący europejski producent nawozów sztucznych i chemikaliów, w tym azotowych, wieloskładnikowych i specjalistycznych. Spółka jest jednym z największych w Europie producentów nawozów i komponentów chemicznych, z silną pozycją na rynku krajowym i eksportowym.\nStrategia i Perspektywy: Grupa Azoty realizuje strategię rozwoju w segmencie chemii i nawozów, koncentrując się na zwiększaniu efektywności produkcji i modernizacji instalacji. Kluczowe jest dostosowanie oferty do zmieniających się wymogów środowiskowych i rolniczych."
   },
   {
-    "objectID": "spolki/mrb.html#biznes",
-    "href": "spolki/mrb.html#biznes",
-    "title": "MIRBUD S.A. (MRB)",
+    "objectID": "spolki/att.html#biznes",
+    "href": "spolki/att.html#biznes",
+    "title": "Grupa Azoty S.A. (ATT)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nBudownictwo drogowe: Drogi, autostrady, mosty, wiadukty.\nBudownictwo kubaturowe: Hale przemysłowe, centra handlowe.\nDeweloperka: Projekty mieszkaniowe w polskich miastach.\nZarządzanie obiektami: Zarządzanie powierzchniami komercyjnymi.\n\nZasoby i Surowce:\nPark maszynowy, doświadczone brygady budowlane, certyfikaty i referencje."
+    "text": "Biznes\nGłówne linie produktowe:\n\nNawozy azotowe: Mocznik, saletra amonowa, AN.\nNawozy wieloskładnikowe: NPK, kompleksowe nawozy.\nChemikalia: Amoniak, kwas azotowy, urea.\nPlastik: Tworzywa sztuczne i poliamidy.\n\nZasoby i Surowce:\nZakłady produkcyjne (Tarnów, Police, Kędzierzyn), dostęp do gazu ziemnego, sieć dystrybucji."
   },
   {
-    "objectID": "spolki/mrb.html#strategia",
-    "href": "spolki/mrb.html#strategia",
-    "title": "MIRBUD S.A. (MRB)",
+    "objectID": "spolki/att.html#strategia",
+    "href": "spolki/att.html#strategia",
+    "title": "Grupa Azoty S.A. (ATT)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nInfrastruktura: Pozyskiwanie kontraktów drogowych.\nDeweloperka: Rozwój projektów mieszkaniowych.\nRentowność: Poprawa efektywności realizacji projektów.\nPortfolio: Dywersyfikacja realizowanych inwestycji.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nModernizacja: Inwestycje w efektywność energetyczną.\nŚrodowisko: Dostosowanie do regulacji środowiskowych.\nEksport: Zwiększanie sprzedaży zagranicznej.\nInnowacje: Rozwój nowych produktów chemicznych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/ale.html",
-    "href": "spolki/ale.html",
-    "title": "Allegro.eu S.A. (ALE)",
+    "objectID": "spolki/bhw.html",
+    "href": "spolki/bhw.html",
+    "title": "Bank Handlowy w Warszawie S.A. (BHW)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: ALE | Allegro.eu S.A. | Siedziba: Polska | WWW: allegro.eu | Branża: Technologie i IT"
+    "text": "← Spółki GPW | Ticker: BHW | Bank Handlowy w Warszawie S.A. | Siedziba: Warszawa | WWW: citihandlowy.pl | Branża: Finanse"
   },
   {
-    "objectID": "spolki/ale.html#notowania",
-    "href": "spolki/ale.html#notowania",
-    "title": "Allegro.eu S.A. (ALE)",
+    "objectID": "spolki/bhw.html#notowania",
+    "href": "spolki/bhw.html#notowania",
+    "title": "Bank Handlowy w Warszawie S.A. (BHW)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/ale.html#o-spółce",
-    "href": "spolki/ale.html#o-spółce",
-    "title": "Allegro.eu S.A. (ALE)",
+    "objectID": "spolki/bhw.html#o-spółce",
+    "href": "spolki/bhw.html#o-spółce",
+    "title": "Bank Handlowy w Warszawie S.A. (BHW)",
     "section": "O spółce",
-    "text": "O spółce\nAllegro to najpopularniejsza w Polsce i jedna z największych w Europie platform e-commerce typu marketplace. Spółka zrewolucjonizowała polski handel detaliczny, tworząc kompletny ekosystem dla kupujących i sprzedających, obejmujący logistykę, płatności oraz reklamę."
+    "text": "O spółce\nProfil działalności: Bank Handlowy w Warszawie (działający pod marką Citi Handlowy) to dziewiąty największy bank w Polsce pod względem aktywów, należący do międzynarodowej grupy Citigroup. Bank oferuje kompleksowe usługi finansowe dla klientów korporacyjnych, instytucjonalnych i zamożnych klientów indywidualnych, będąc liderem w segmencie bankowości korporacyjnej w Polsce.\nStrategia i Perspektywy: Citi Handlowy koncentruje się na obsłudze dużych korporacji i klientów z segmentu wealth management. Dzięki przynależności do globalnej grupy Citigroup, bank korzysta z międzynarodowej sieci i know-how w zakresie usług finansowych."
   },
   {
-    "objectID": "spolki/ale.html#biznes",
-    "href": "spolki/ale.html#biznes",
-    "title": "Allegro.eu S.A. (ALE)",
+    "objectID": "spolki/bhw.html#biznes",
+    "href": "spolki/bhw.html#biznes",
+    "title": "Bank Handlowy w Warszawie S.A. (BHW)",
     "section": "Biznes",
-    "text": "Biznes\nMarketplace i usługi: Allegro nie jest tylko sklepem, ale platformą łączącą ponad 130 tys. sprzedawców z milionami klientów. Grupa stale poszerza zakres usług, budując przewagę konkurencyjną.\nKluczowe elementy ekosystemu:\n\nAllegro Smart!: Program darmowych dostaw i zwrotów, kluczowy driver lojalności klientów.\nAllegro Pay: Nowoczesne usługi finansowe BNPL (Buy Now, Pay Later) oraz kredytowanie zakupów.\nLogistyka (One Box & One Kurier): Rozwój własnej sieci automatów paczkowych i centrów logistycznych (Fullfilment).\nCeneo.pl: Największa polska porównywarka cen, wspierająca decyzje zakupowe."
+    "text": "Biznes\nGłówne linie produktowe:\n\nBankowość korporacyjna: Kredyty, transakcje, zarządzanie płynnością.\nUsługi transakcyjne: Płatności, rozliczenia, bankowość elektroniczna.\nTreasury: Zarządzanie ryzykiem walutowym i stopy procentowej.\nWealth Management: Usługi dla zamożnych klientów indywidualnych.\n\nZasoby i Surowce:\nSieć oddziałów, platformy cyfrowe, marka Citi, globalna przynależność do Citigroup."
   },
   {
-    "objectID": "spolki/ale.html#strategia",
-    "href": "spolki/ale.html#strategia",
-    "title": "Allegro.eu S.A. (ALE)",
+    "objectID": "spolki/bhw.html#strategia",
+    "href": "spolki/bhw.html#strategia",
+    "title": "Bank Handlowy w Warszawie S.A. (BHW)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju grupy Allegro:\n\nRegion CEE: Ekspansja na rynki Czech, Słowacji i Węgier (wykorzystanie platformy MALL Group).\nInternational: Umożliwienie polskim sprzedawcom eksportu na rynki całej Unii Europejskiej poprzez ujednoliconą platformę.\nRetail Media: Rozwój zaawansowanych narzędzi reklamowych (Allegro Ads) dla sprzedawców.\nTechnologia AI: Wykorzystanie uczenia maszynowego w personalizacji wyszukiwań i optymalizacji logistyki.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nBankowość korporacyjna: Utrzymanie pozycji lidera w segmencie dużych firm.\nDigitalizacja: Rozwój usług cyfrowych i platform bankowości elektronicznej.\nSynergie z Citi: Wykorzystanie globalnej sieci Citigroup.\nProdukty: Rozwój oferty treasury i zarządzania ryzykiem.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/scp.html",
+    "href": "spolki/scp.html",
+    "title": "Scope Fluidics S.A. (SCP)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: SCP | Scope Fluidics S.A. | Siedziba: Warszawa | WWW: scopefluidics.pl | Branża: Zdrowie i farmacja"
+  },
+  {
+    "objectID": "spolki/scp.html#notowania",
+    "href": "spolki/scp.html#notowania",
+    "title": "Scope Fluidics S.A. (SCP)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/scp.html#o-spółce",
+    "href": "spolki/scp.html#o-spółce",
+    "title": "Scope Fluidics S.A. (SCP)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Scope Fluidics to polska firma biotechnologiczna rozwijająca innowacyjne technologie diagnostyczne i analityczne. Spółka koncentruje się na rozwoju platformy do szybkiej diagnostyki molekularnej, która może być wykorzystywana w medycynie i badaniach naukowych.\nStrategia i Perspektywy: Scope Fluidics rozwija się jako firma biotechnologiczna z innowacyjną technologią diagnostyczną. Kluczowe jest rozwój produktów i wchodzenie w partnerstwa z firmami medycznymi."
+  },
+  {
+    "objectID": "spolki/scp.html#biznes",
+    "href": "spolki/scp.html#biznes",
+    "title": "Scope Fluidics S.A. (SCP)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nDiagnostyka: Szybkie testy diagnostyczne.\nTechnologia: Platforma do analizy molekularnej.\nR&D: Prace badawcze nad nowymi rozwiązaniami.\nPartnerstwa: Współpraca z firmami medycznymi.\n\nZasoby i Surowce:\nLaboratoria badawcze, zespół naukowców, innowacyjna technologia."
+  },
+  {
+    "objectID": "spolki/scp.html#strategia",
+    "href": "spolki/scp.html#strategia",
+    "title": "Scope Fluidics S.A. (SCP)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nProdukty: Rozwój testów diagnostycznych.\nTechnologia: Udoskonalanie platformy analitycznej.\nPartnerstwa: Pozyskiwanie partnerów biznesowych.\nKlinika: Przygotowanie do badań klinicznych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
     "objectID": "spolki/txt.html",
@@ -2233,354 +2373,389 @@
     "text": "Strategia\nKierunki rozwoju:\n\nNowe gry: Produkcja kolejnych tytułów mobilnych.\nLive ops: Rozwój istniejących gier poprzez aktualizacje.\nMonetyzacja: Optymalizacja modelu F2P.\nEkspansja: Zwiększanie zasięgu na nowych rynkach.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/mbr.html",
-    "href": "spolki/mbr.html",
-    "title": "Mo-BRUK S.A. (MBR)",
+    "objectID": "spolki/pkn.html",
+    "href": "spolki/pkn.html",
+    "title": "ORLEN S.A. (PKN)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: MBR | Mo-BRUK S.A. | Siedziba: Kraków | WWW: mobruk.pl | Branża: Ochrona środowiska i OZE"
+    "text": "← Spółki GPW | Ticker: PKN | ORLEN S.A. | Siedziba: Polska | WWW: orlen.pl | Branża: Surowce i energia"
   },
   {
-    "objectID": "spolki/mbr.html#notowania",
-    "href": "spolki/mbr.html#notowania",
-    "title": "Mo-BRUK S.A. (MBR)",
+    "objectID": "spolki/pkn.html#notowania",
+    "href": "spolki/pkn.html#notowania",
+    "title": "ORLEN S.A. (PKN)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/mbr.html#o-spółce",
-    "href": "spolki/mbr.html#o-spółce",
-    "title": "Mo-BRUK S.A. (MBR)",
+    "objectID": "spolki/pkn.html#o-spółce",
+    "href": "spolki/pkn.html#o-spółce",
+    "title": "ORLEN S.A. (PKN)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Mo-BRUK to wiodąca polska firma w branży gospodarki odpadami, specjalizująca się w ich przetwarzaniu i utylizacji. Spółka działa w segmencie zagospodarowania odpadów przemysłowych i komunalnych, oferując nowoczesne rozwiązania dla ochrony środowiska.\nStrategia i Perspektywy: Mo-BRUK rozwija się w segmencie recyklingu i przetwarzania odpadów, korzystając z rosnących wymogów środowiskowych. Kluczowe jest rozwijanie technologii zagospodarowania odpadów i pozyskiwanie nowych kontraktów."
+    "text": "O spółce\nORLEN S.A. to największa firma w Europie Środkowo-Wschodniej, działająca w sektorze paliwowo-energetycznym. Po fuzjach z Grupą Lotos oraz PGNiG, koncern stał się multienergetycznym gigantem o strategicznym znaczeniu dla bezpieczeństwa energetycznego Polski."
   },
   {
-    "objectID": "spolki/mbr.html#biznes",
-    "href": "spolki/mbr.html#biznes",
-    "title": "Mo-BRUK S.A. (MBR)",
+    "objectID": "spolki/pkn.html#biznes",
+    "href": "spolki/pkn.html#biznes",
+    "title": "ORLEN S.A. (PKN)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nZestalane odpadów: Stabilizacja i zestalanie odpadów nieorganicznych.\nPaliwa alternatywne: Produkcja paliw z odpadów.\nSpalanie: Termiczne przekształcanie odpadów niebezpiecznych i medycznych.\nRecykling: Przetwarzanie odpadów przemysłowych.\n\nZasoby i Surowce:\nInstalacje przetwarzania odpadów, kompetencje technologiczne, certyfikaty środowiskowe."
+    "text": "Biznes\nSegmenty działalności:\n\nRafinacja: Przetwarzanie ropy naftowej w rafineriach (Plock, Gdańsk, Trzebinia) - produkcja paliw (benzyna, olej napędowy, paliwo lotnicze).\nPetrochemia: Produkcja tworzyw sztucznych, polimerów, włókien - segment wysokomarżowy.\nWydobycie: Poszukiwanie i wydobycie ropy oraz gazu (aktywa w Norwegii, Pakistanie, Kanadzie).\nEnergia: Produkcja energii elektrycznej, rozwój OZE, programy nuklearne (SMR).\nSieć stacji: Blisko 2000 stacji paliw w Polsce, Czechach, Niemczech, na Litwie i Słowacji.\n\nSpółki zależne:\n\nGrupa Lotos: Wydobycie i przetwórstwo ropy (fuzja z ORLEN)\nPGNiG: Wydobycie i dystrybucja gazu ziemnego\nEnerga: Dystrybucja energii elektrycznej"
   },
   {
-    "objectID": "spolki/mbr.html#strategia",
-    "href": "spolki/mbr.html#strategia",
-    "title": "Mo-BRUK S.A. (MBR)",
+    "objectID": "spolki/pkn.html#strategia",
+    "href": "spolki/pkn.html#strategia",
+    "title": "ORLEN S.A. (PKN)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nTechnologie: Rozwój innowacyjnych metod przetwarzania odpadów.\nKontrakty: Pozyskiwanie nowych umów z przemysłem.\nOZE: Integracja z sektorem energii odnawialnej.\nEkspansja: Rozszerzanie działalności na nowe regiony.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nTransformacja energetyczna: Dywersyfikacja w kierunku niskoemisyjnych źródeł energii, rozwój OZE i atomu.\nWodór: Budowa klastrów wodorowych i rozwój technologii wodorowych.\nElektromobilność: Rozbudowa sieci ładowania pojazdów elektrycznych.\nPetrochemia 2.0: Zwiększanie udziału przetwórstwa ropy w segmencie chemicznym.\nBezpieczeństwo energetyczne: Wzmocnienie pozycji lidera rynku CEE w sektorze paliwowo-energetycznym.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/pko.html",
-    "href": "spolki/pko.html",
-    "title": "PKO Bank Polski S.A. (PKO)",
+    "objectID": "spolki/mbk.html",
+    "href": "spolki/mbk.html",
+    "title": "mBank S.A. (MBK)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: PKO | PKO Bank Polski S.A. | Siedziba: Polska | WWW: pkobp.pl | Branża: Finanse"
+    "text": "← Spółki GPW | Ticker: MBK | mBank S.A. | Siedziba: Warszawa | WWW: mbank.pl | Branża: Finanse"
   },
   {
-    "objectID": "spolki/pko.html#notowania",
-    "href": "spolki/pko.html#notowania",
-    "title": "PKO Bank Polski S.A. (PKO)",
+    "objectID": "spolki/mbk.html#notowania",
+    "href": "spolki/mbk.html#notowania",
+    "title": "mBank S.A. (MBK)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/pko.html#o-spółce",
-    "href": "spolki/pko.html#o-spółce",
-    "title": "PKO Bank Polski S.A. (PKO)",
+    "objectID": "spolki/mbk.html#o-spółce",
+    "href": "spolki/mbk.html#o-spółce",
+    "title": "mBank S.A. (MBK)",
     "section": "O spółce",
-    "text": "O spółce\nPKO Bank Polski to lider sektora bankowego w Polsce, obsługujący blisko 12 mln klientów. Jest kluczową instytucją finansową o charakterze uniwersalnym, działającą w segmencie detalicznym, korporacyjnym i inwestycyjnym."
+    "text": "O spółce\nProfil działalności: mBank S.A. to uniwersalny bank komercyjny należący do grupy mBanku Hipotecznego. Bank oferuje kompleksowe usługi dla klientów indywidualnych i firm, w tym konta osobiste, kredyty, produkty inwestycyjne, usługi maklerskie, leasing oraz factoring. mBank jest znany z innowacyjności i nowoczesnej bankowości internetowej.\nStrategia i Perspektywy: mBank koncentruje się na rozwoju cyfrowych kanałów obsługi i innowacyjnych produktów. Kluczowe są: wzrost w segmencie klientów zamożnych (private banking), rozwój oferty dla firm oraz utrzymanie rentowności w warunkach zmiennej stopy procentowej."
   },
   {
-    "objectID": "spolki/pko.html#biznes",
-    "href": "spolki/pko.html#biznes",
-    "title": "PKO Bank Polski S.A. (PKO)",
+    "objectID": "spolki/mbk.html#biznes",
+    "href": "spolki/mbk.html#biznes",
+    "title": "mBank S.A. (MBK)",
     "section": "Biznes",
-    "text": "Biznes\nBank oferuje pełen zakres produktów finansowych, od kont i kredytów po zaawansowane usługi bankowości inwestycyjnej. Lider nowoczesnych kanałów cyfrowych z najpopularniejszą aplikacją mobilną na rynku polskim (IKO)."
+    "text": "Biznes\nGłówne linie produktowe:\n\nBankowość detaliczna: Konta osobiste, kredyty hipoteczne i konsumenckie, karty płatnicze, oszczędności i inwestycje.\nBankowość korporacyjna: Konta firmowe, kredyty dla przedsiębiorstw, zarządzanie płynnością.\nUsługi maklerskie: Platforma transakcyjna, doradztwo inwestycyjne, produkty strukturyzowane.\nLeasing i factoring: Obsługa MŚP poprzez spółki zależne.\n\nZasoby i Surowce:\nDziałalność opiera się na kapitale (depozyty klientów), zasobach IT (platformy cyfrowe) oraz kapitale ludzkim (doradcy, analitycy)."
   },
   {
-    "objectID": "spolki/pko.html#strategia",
-    "href": "spolki/pko.html#strategia",
-    "title": "PKO Bank Polski S.A. (PKO)",
+    "objectID": "spolki/mbk.html#strategia",
+    "href": "spolki/mbk.html#strategia",
+    "title": "mBank S.A. (MBK)",
     "section": "Strategia",
-    "text": "Strategia\nDążenie do bycia najbardziej nowoczesnym i przyjaznym bankiem w regionie, wspierającym transformację cyfrową i energetyczną klientów.\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nCyfryzacja: Inwestycje w aplikacje mobilne i platformy internetowe.\nPrivate banking: Rozwój segmentu klientów zamożnych i wealth management.\nBankowość MŚP: Wzmocnienie oferty dla małych i średnich przedsiębiorstw.\nEfektywność kosztowa: Optymalizacja sieci oddziałów i procesów operacyjnych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/zab.html",
-    "href": "spolki/zab.html",
-    "title": "Żabka Group S.A. (ZAB)",
+    "objectID": "spolki/bft.html",
+    "href": "spolki/bft.html",
+    "title": "Benefit Systems S.A. (BFT)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: ZAB | Żabka Group S.A. | Siedziba: Polska | WWW: zabkagroup.com | Branża: Handel i konsumpcja"
+    "text": "← Spółki GPW | Ticker: BFT | Benefit Systems S.A. | Siedziba: Warszawa | WWW: benefitsystems.pl | Branża: Handel i konsumpcja"
   },
   {
-    "objectID": "spolki/zab.html#notowania",
-    "href": "spolki/zab.html#notowania",
-    "title": "Żabka Group S.A. (ZAB)",
+    "objectID": "spolki/bft.html#notowania",
+    "href": "spolki/bft.html#notowania",
+    "title": "Benefit Systems S.A. (BFT)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/zab.html#o-spółce",
-    "href": "spolki/zab.html#o-spółce",
-    "title": "Żabka Group S.A. (ZAB)",
+    "objectID": "spolki/bft.html#o-spółce",
+    "href": "spolki/bft.html#o-spółce",
+    "title": "Benefit Systems S.A. (BFT)",
     "section": "O spółce",
-    "text": "O spółce\nŻabka Group to lider polskiego rynku modern convenience. Grupa zarządza siecią ponad 11 000 sklepów działających w modelu franczyzowym. Spółka zadebiutowała na GPW w Warszawie w październiku 2024 roku, stając się jedną z największych spółek w indeksie WIG20."
+    "text": "O spółce\nProfil działalności: Benefit Systems to wiodący dostawca kart benefitowych i platformy do obsługi benefitów pracowniczych w Polsce. Spółka oferuje popularne programy MultiSport i FitSport, umożliwiające pracownikom korzystanie z siłowni, basenów i innych obiektów sportowych. Model biznesowy opiera się na współpracy z pracodawcami.\nStrategia i Perspektywy: Benefit Systems rozwija się poprzez ekspansję liczby użytkowników kart oraz zwiększanie wartości kontraktów. Kluczowe jest alsobudowanie nowych partnerstw z pracodawcami i rozszerzanie sieci obiektów sportowych."
   },
   {
-    "objectID": "spolki/zab.html#biznes",
-    "href": "spolki/zab.html#biznes",
-    "title": "Żabka Group S.A. (ZAB)",
+    "objectID": "spolki/bft.html#biznes",
+    "href": "spolki/bft.html#biznes",
+    "title": "Benefit Systems S.A. (BFT)",
     "section": "Biznes",
-    "text": "Biznes\nModel biznesowy: Żabka operuje w unikalnym ekosystemie integrującym sprzedaż detaliczną, usługi kurierskie oraz gastronomię (Żabka Café).\nKluczowe formaty i marki:\n\nŻabka Convenience: Podstawowy format sklepów blisko klienta.\nŻabka Nano: Innowacyjne sklepy autonomiczne (bezobsługowe) oparte na technologii AI.\nMaczfit: Lider rynku cateringu dietetycznego w Polsce (część grupy).\nDietly: Platforma e-commerce dedykowana zdrowej żywności.\n\nInfrastruktura: Siedem zaawansowanych centrów logistycznych zapewnia dostawy do ponad 11 tysięcy placówek na terenie całego kraju."
+    "text": "Biznes\nGłówne linie produktowe:\n\nKarty MultiSport: Dostęp do sieci obiektów sportowych w całej Polsce.\nFitSport: Programy fitness dla firm i klientów indywidualnych.\nPlatforma obsługowa: Systemy do zarządzania benefitami dla HR.\n\nZasoby i Surowce:\nDziałalność opiera się na sieci partnerów sportowych (siłownie, baseny), platformach IT oraz relacjach z pracodawcami."
   },
   {
-    "objectID": "spolki/zab.html#strategia",
-    "href": "spolki/zab.html#strategia",
-    "title": "Żabka Group S.A. (ZAB)",
+    "objectID": "spolki/bft.html#strategia",
+    "href": "spolki/bft.html#strategia",
+    "title": "Benefit Systems S.A. (BFT)",
     "section": "Strategia",
-    "text": "Strategia\nGłówne kierunki wzrostu Żabka Group:\n\nEkspansja terytorialna: Dalsze nasycanie rynku polskiego i wejście na rynki zagraniczne (np. Rumunia).\nDigitalizacja: Rozwój aplikacji Żappka (ponad 6 mln aktywnych użytkowników) oraz personalizacja oferty (retail media).\nLogistyka 2.0: Optymalizacja dostaw ostatniej mili i rozwój usług kurierskich.\nZrównoważony styl życia: Rozbudowa oferty produktów “Better for You” i ekologicznych rozwiązań w placówkach.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja użytkowników: Zwiększanie bazy pracodawców oferujących karty.\nNowe produkty: Rozwój oferty benefitów (wellness, mental health).\nCyfryzacja: Aplikacje mobilne i platformy obsługowe.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/acp.html",
-    "href": "spolki/acp.html",
-    "title": "Asseco Poland S.A. (ACP)",
+    "objectID": "spolki/grx.html",
+    "href": "spolki/grx.html",
+    "title": "GreenX Metals Ltd. (GRX)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: ACP | Asseco Poland S.A. | Siedziba: Rzeszów | WWW: asseco.pl | Branża: Technologie i IT"
+    "text": "← Spółki GPW | Ticker: GRX | GreenX Metals Ltd. | Siedziba: Australia/Polska | WWW: greenxmetals.com | Branża: Surowce i energia"
   },
   {
-    "objectID": "spolki/acp.html#notowania",
-    "href": "spolki/acp.html#notowania",
-    "title": "Asseco Poland S.A. (ACP)",
+    "objectID": "spolki/grx.html#notowania",
+    "href": "spolki/grx.html#notowania",
+    "title": "GreenX Metals Ltd. (GRX)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/acp.html#o-spółce",
-    "href": "spolki/acp.html#o-spółce",
-    "title": "Asseco Poland S.A. (ACP)",
+    "objectID": "spolki/grx.html#o-spółce",
+    "href": "spolki/grx.html#o-spółce",
+    "title": "GreenX Metals Ltd. (GRX)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Asseco Poland to wiodący polski producent oprogramowania i dostawca usług IT. Spółka dostarcza rozwiązania dla sektora finansowego, administracji publicznej, energetyki, telekomunikacji i przemysłu. Asseco działa globalnie poprzez sieć spółek zależnych w Europie, na Bliskim Wschodzie i w Afryce.\nStrategia i Perspektywy: Asseco koncentruje się na organicznym wzroście poprzez rozwój własnych produktów oraz ekspansję na rynki zagraniczne. Kluczowe są: modernizacja systemów w instytucjach finansowych, rozwiązania chmurowe i cyfryzacja administracji."
+    "text": "O spółce\nProfil działalności: GreenX Metals (dawniej Prairie Mining) to międzynarodowa spółka poszukiwawczo-wydobywcza notowana na GPW, ASX i LSE. Spółka prowadzi prace eksploracyjne nad złożami miedzi w Niemczech (projekt Tannenberg), dążąc do odkrycia i wydobycia znaczących zasobów miedzi.\nStrategia i Perspektywy: GreenX Metals koncentruje się na eksploracji złoża Tannenberg w Niemczech. Kluczowe jest potwierdzenie zasobów miedzi i uzyskanie koncesji wydobywczych."
   },
   {
-    "objectID": "spolki/acp.html#biznes",
-    "href": "spolki/acp.html#biznes",
-    "title": "Asseco Poland S.A. (ACP)",
+    "objectID": "spolki/grx.html#biznes",
+    "href": "spolki/grx.html#biznes",
+    "title": "GreenX Metals Ltd. (GRX)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nBankowość i finanse: Systemy core banking, platformy płatnicze, rozwiązania dla ubezpieczycieli i firm inwestycyjnych.\nAdministracja publiczna: Systemy e-administracji, rozwiązania dla jednostek samorządowych i administracji centralnej.\nEnergetyka i przemysł: Systemy SCADA, zarządzanie siecią dystrybucyjną, rozwiązania dla sektora naftowego i gazowego.\nTelekomunikacja: Systemy billingowe i zarządania klientami dla operatorów.\n\nZasoby i Surowce:\nDziałalność opiera się na kapitale ludzkim (programiści, konsultanci), własności intelektualnej (oprogramowanie) oraz infrastrukturze IT (centra danych, chmura)."
+    "text": "Biznes\nGłówne linie produktowe:\n\nEksploracja: Poszukiwanie złóż miedzi.\nProjekt Tannenberg: Główne złoże w Niemczech.\nRozwój: Przygotowanie do wydobycia.\nBadania: Prace geologiczne i wiertnicze.\n\nZasoby i Surowce:\nPrawa do projektu Tannenberg, zespół geologów, finansowanie od inwestorów."
   },
   {
-    "objectID": "spolki/acp.html#strategia",
-    "href": "spolki/acp.html#strategia",
-    "title": "Asseco Poland S.A. (ACP)",
+    "objectID": "spolki/grx.html#strategia",
+    "href": "spolki/grx.html#strategia",
+    "title": "GreenX Metals Ltd. (GRX)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nRozwój organiczny: Inwestycje w nowe produkty i technologie (chmura, AI, cyberbezpieczeństwo).\nEkspansja zagraniczna: Dalszy rozwój na rynkach CEE, Bliskiego Wschodu i Afryki.\nFuzje i przejęcia: Akwizycje firm uzupełniających portfolio produktowe.\nModernizacja instytucji: Kontrakty na modernizację systemów w bankach i administracji.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nEksploracja: Kontynuowanie prac poszukiwawczych.\nZasoby: Potwierdzenie zasobów złoża.\nKoncesje: Uzyskanie pozwoleń wydobywczych.\nPartnerstwa: Pozyskanie partnera do wydobycia.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/cri.html",
-    "href": "spolki/cri.html",
-    "title": "Creotech Instruments S.A. (CRI)",
+    "objectID": "spolki/jsw.html",
+    "href": "spolki/jsw.html",
+    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: CRI | Creotech Instruments S.A. | Siedziba: Warszawa | WWW: creotech.pl | Branża: Technologie i IT"
+    "text": "← Spółki GPW | Ticker: JSW | Jastrzębska Spółka Węglowa S.A. | Siedziba: Jastrzębie-Zdrój | WWW: jsw.pl | Branża: Surowce i energia"
   },
   {
-    "objectID": "spolki/cri.html#notowania",
-    "href": "spolki/cri.html#notowania",
-    "title": "Creotech Instruments S.A. (CRI)",
+    "objectID": "spolki/jsw.html#notowania",
+    "href": "spolki/jsw.html#notowania",
+    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/cri.html#o-spółce",
-    "href": "spolki/cri.html#o-spółce",
-    "title": "Creotech Instruments S.A. (CRI)",
+    "objectID": "spolki/jsw.html#o-spółce",
+    "href": "spolki/jsw.html#o-spółce",
+    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Creotech Instruments to polska firma technologiczna wyspecjalizowana w technologiach kosmicznych i systemach satelitarnych. Spółka rozwija i dostarcza nowoczesne technologie dla przemysłu kosmicznego, nauki oraz kluczowych sektorów gospodarki. Jest liderem polskiego sektora kosmicznego i partnerem Europejskiej Agencji Kosmicznej (ESA).\nStrategia i Perspektywy: Creotech realizuje strategiczne projekty kosmiczne, w tym konstelację satelitarną PIAST oraz misje księżycowe dla ESA. Spółka rozwija własne platformy satelitarne i podzespoły dla misji kosmicznych, dynamicznie zwiększając przychody z segmentu space."
+    "text": "O spółce\nProfil działalności: Jastrzębska Spółka Węglowa to największy w Polsce i jeden z największych w Europie producentów węgla koksowego. Spółka wydobywa węgiel kamienny w kopalniach na Śląsku, dostarczając surowiec głównie dla przemysłu hutniczego i energetycznego. JSW jest również producentem koksu i węgla do produkcji stali.\nStrategia i Perspektywy: JSW przechodzi trudny okres restrukturyzacji związany z kryzysem węgla koksowego. Spółka koncentruje się na optymalizacji kosztów, poprawie efektywności wydobycia i dywersyfikacji działalności. Kluczowe jest alsobudowanie nowych bloków energetycznych do przetwarzania węgla."
   },
   {
-    "objectID": "spolki/cri.html#biznes",
-    "href": "spolki/cri.html#biznes",
-    "title": "Creotech Instruments S.A. (CRI)",
+    "objectID": "spolki/jsw.html#biznes",
+    "href": "spolki/jsw.html#biznes",
+    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nSatelity i platformy: Platforma satelitarna PIAST-M i konstelacja PIAST.\nPodzespoły satelitarne: Komputery pokładowe, systemy zasilania i łączności dla satelitów.\nUsługi ESA: Udział w projektach Europejskiej Agencji Kosmicznej (kontrakt CAMILA).\nMisje księżycowe: Prace nad technologiami dla europejskich misji na Księżyc.\n\nZasoby i Surowce:\nZespół inżynierów i naukowców wyspecjalizowanych w technologiach kosmicznych, certyfikaty ESA, zaplecze do produkcji podzespołów satelitarnych."
+    "text": "Biznes\nGłówne linie produktowe:\n\nWęgiel koksowy: Dla przemysłu hutniczego i stalowego.\nWęgiel energetyczny: Dla elektrowni i ciepłowni.\nKoks: Produkt przetworzony dla przemysłu metalurgicznego.\nWęgiel do produkcji aluminium: Specjalistyczne gatunki.\n\nZasoby i Surowce:\nKluczowe są złoża węgla kamiennego, infrastruktura kopalń, siła robocza (górnicy) oraz energia."
   },
   {
-    "objectID": "spolki/cri.html#strategia",
-    "href": "spolki/cri.html#strategia",
-    "title": "Creotech Instruments S.A. (CRI)",
+    "objectID": "spolki/jsw.html#strategia",
+    "href": "spolki/jsw.html#strategia",
+    "title": "Jastrzębska Spółka Węglowa S.A. (JSW)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nKonstelacja PIAST: Rozwój i wdrażanie własnej konstelacji satelitów.\nWspółpraca z ESA: Realizacja projektów dla Europejskiej Agencji Kosmicznej.\nMisje księżycowe: Udział w europejskich misjach eksploracji Księżyca.\nEksport technologii: Sprzedaż polskich technologii kosmicznych na rynki międzynarodowe.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nRestrukturyzacja: Poprawa efektywności i redukcja kosztów.\nNowe produkty: Rozwój oferty koksu i węgli specjalnych.\nEnergetyka: Budowa własnych bloków energetycznych.\nDywersyfikacja: Inwestycje poza górnictwem.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/cdr.html",
-    "href": "spolki/cdr.html",
-    "title": "CD PROJEKT S.A. (CDR)",
+    "objectID": "spolki/dat.html",
+    "href": "spolki/dat.html",
+    "title": "DataWalk S.A. (DAT)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: CDR | CD PROJEKT S.A. | Siedziba: Polska | WWW: cdprojekt.com | Branża: Technologie i IT"
+    "text": "← Spółki GPW | Ticker: DAT | DataWalk S.A. | Siedziba: Warszawa | WWW: datawalk.com | Branża: Technologie i IT"
   },
   {
-    "objectID": "spolki/cdr.html#notowania",
-    "href": "spolki/cdr.html#notowania",
-    "title": "CD PROJEKT S.A. (CDR)",
+    "objectID": "spolki/dat.html#notowania",
+    "href": "spolki/dat.html#notowania",
+    "title": "DataWalk S.A. (DAT)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/cdr.html#o-spółce",
-    "href": "spolki/cdr.html#o-spółce",
-    "title": "CD PROJEKT S.A. (CDR)",
+    "objectID": "spolki/dat.html#o-spółce",
+    "href": "spolki/dat.html#o-spółce",
+    "title": "DataWalk S.A. (DAT)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: CD PROJEKT S.A. to wiodący polski producent i wydawca gier wideo, znany na całym świecie dzięki serii “Wiedźmin” oraz grze “Cyberpunk 2077”. Spółka jest jednym z globalnych liderów w segmencie gier fabularnych (RPG) z otwartym światem.\nStrategia i Rozwój: Spółka realizuje nową strategię zakładającą równoległą produkcję kilku tytułów AAA oraz rozbudowę uniwersów poprzez media towarzyszące (animacje, serie komiksowe). Kluczowe projekty to rozpoczęta nowa saga wiedźmińska (Polaris) oraz projekt Orion (kontynuacja Cyberpunka)."
+    "text": "O spółce\nProfil działalności: DataWalk to polska firma technologiczna specjalizująca się w zaawansowanej analityce danych i big data. Spółka oferuje własną platformę analityczną, która umożliwia przetwarzanie i wizualizację dużych zbiorów danych dla firm i instytucji.\nStrategia i Perspektywy: DataWalk rozwija się jako dostawca rozwiązań analitycznych dla sektora bezpieczeństwa, finansów i korporacji. Kluczowe jest pozyskiwanie nowych klientów i rozwój platformy analitycznej."
   },
   {
-    "objectID": "spolki/cdr.html#biznes",
-    "href": "spolki/cdr.html#biznes",
-    "title": "CD PROJEKT S.A. (CDR)",
+    "objectID": "spolki/dat.html#biznes",
+    "href": "spolki/dat.html#biznes",
+    "title": "DataWalk S.A. (DAT)",
     "section": "Biznes",
-    "text": "Biznes\nProdukcja gier: CD Projekt tworzy gry wideo w modelu własnego studia deweloperskiego (in-house), co zapewnia pełną kontrolę nad jakością i wizją artystyczną.\nPortfolio marek:\n\nWiedźmin: Kultowa trylogia RPG (Wiedźmin 1, 2, 3) oraz seria serialowa Netflixa.\nCyberpunk 2077: Największa premiera w historii polskiego gamingu, z rozbudowanym uniwersum science-fiction.\nPolaris: Nowa saga wiedźmińska - projekt AAA realizowany w ramach nowej strategii.\n\nModel dystrybucji: Sprzedaż cyfrowa (Steam, GOG, konsole) z dodatkowymi przychodami z DLC i mikrotransakcji."
+    "text": "Biznes\nGłówne linie produktowe:\n\nPlatforma analityczna: Własne oprogramowanie do analizy danych.\nAnalityka big data: Przetwarzanie dużych zbiorów danych.\nWizualizacja: Narzędzia do wizualizacji danych.\nUsługi: Implementacja i wdrożenia u klientów.\n\nZasoby i Surowce:\nZespół programistów i analityków, platforma analityczna, patenty i IP."
   },
   {
-    "objectID": "spolki/cdr.html#strategia",
-    "href": "spolki/cdr.html#strategia",
-    "title": "CD PROJEKT S.A. (CDR)",
+    "objectID": "spolki/dat.html#strategia",
+    "href": "spolki/dat.html#strategia",
+    "title": "DataWalk S.A. (DAT)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nJakość ponad wszystko: utrzymanie statusu studia tworzącego najbardziej zaawansowane narracyjnie gry na świecie.\nMultiplayer: wprowadzanie komponentów sieciowych do przyszłych produkcji.\nTechnologia: przejście na silnik Unreal Engine 5 w celu optymalizacji procesów twórczych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nPlatforma: Rozwój i aktualizacje oprogramowania.\nSprzedaż: Pozyskiwanie klientów korporacyjnych.\nBezpieczeństwo: Rozwój dla sektora bezpieczeństwa i wojska.\nEkspansja: Wejście na nowe rynki międzynarodowe.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/asb.html",
-    "href": "spolki/asb.html",
-    "title": "Asbis S.A. (ASB)",
+    "objectID": "spolki/tpe.html",
+    "href": "spolki/tpe.html",
+    "title": "Tauron Polska Energia S.A. (TPE)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: ASB | Asbis S.A. | Siedziba: Warszawa | WWW: asbis.pl | Branża: Handel i konsumpcja"
+    "text": "← Spółki GPW | Ticker: TPE | Tauron Polska Energia S.A. | Siedziba: Katowice | WWW: tauron.pl | Branża: Surowce i energia"
   },
   {
-    "objectID": "spolki/asb.html#notowania",
-    "href": "spolki/asb.html#notowania",
-    "title": "Asbis S.A. (ASB)",
+    "objectID": "spolki/tpe.html#notowania",
+    "href": "spolki/tpe.html#notowania",
+    "title": "Tauron Polska Energia S.A. (TPE)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/asb.html#o-spółce",
-    "href": "spolki/asb.html#o-spółce",
-    "title": "Asbis S.A. (ASB)",
+    "objectID": "spolki/tpe.html#o-spółce",
+    "href": "spolki/tpe.html#o-spółce",
+    "title": "Tauron Polska Energia S.A. (TPE)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Asbis to wiodący w Polsce dystrybutor sprzętu IT, komponentów komputerowych i elektroniki użytkowej. Spółka działa jako pośrednik między producentami a resellerami i sklepami detalicznymi, oferując szeroki portfel produktów wiodących marek technologicznych.\nStrategia i Perspektywy: Firma rozwija się poprzez poszerzanie oferty produktowej i ekspansję na nowe rynki w regionie CEE. Kluczowe jest budowanie kompetencji w segmencie rozwiązań dla biznesu (serwery, storage, networking) oraz rozwój kanałów e-commerce."
+    "text": "O spółce\nProfil działalności: Tauron Polska Energia to drugi co do wielkości podmiot na polskim rynku elektroenergetycznym. Grupa prowadzi zintegrowaną działalność obejmującą wydobycie węgla, wytwarzanie energii elektrycznej, jej dystrybucję oraz sprzedaż do odbiorców końcowych. Spółka obsługuje miliony klientów w południowej Polsce.\nStrategia i Perspektywy: Tauron realizuje strategię transformacji w kierunku niskoemisyjnej energetyki, inwestując w odnawialne źródła energii i modernizując infrastrukturę dystrybucyjną. Kluczowe jest alsobudowanie nowych bloków węglowych oraz rozwój sieci inteligentnych."
   },
   {
-    "objectID": "spolki/asb.html#biznes",
-    "href": "spolki/asb.html#biznes",
-    "title": "Asbis S.A. (ASB)",
+    "objectID": "spolki/tpe.html#biznes",
+    "href": "spolki/tpe.html#biznes",
+    "title": "Tauron Polska Energia S.A. (TPE)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nPodzespoły komputerowe: Procesory, karty graficzne, płyty główne, pamięci RAM.\nSprzęt IT: Laptopy, komputery stacjonarne, monitory, drukarki.\nPeryferia: Myszki, klawiatury, słuchawki, kamery.\nRozwiązania sieciowe: Switche, routery, punkty dostępowe.\n\nZasoby i Surowce:\nSieć logistyczna, umowy dystrybucyjne z wiodącymi producentami IT, magazyny centralne oraz platforma B2B."
+    "text": "Biznes\nGłówne linie produktowe:\n\nWytwarzanie energii: Produkcja energii w elektrowniach węglowych i instalacjach OZE.\nDystrybucja: Zarządzanie siecią dystrybucyjną na terenie południowej Polski (około 15% krajowego rynku).\nSprzedaż: Sprzedaż energii elektrycznej i gazu do gospodarstw domowych i firm.\nWydobycie: Wydobycie węgla kamiennego w kopalniach Grupy.\n\nZasoby i Surowce:\nKluczowy jest węgiel kamienny, infrastruktura sieciowa (linie, stacje transformatorowe), lokalizacje dla OZE (wiatr, słońce)."
   },
   {
-    "objectID": "spolki/asb.html#strategia",
-    "href": "spolki/asb.html#strategia",
-    "title": "Asbis S.A. (ASB)",
+    "objectID": "spolki/tpe.html#strategia",
+    "href": "spolki/tpe.html#strategia",
+    "title": "Tauron Polska Energia S.A. (TPE)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja regionalna: Wejście na nowe rynki Europy Środkowo-Wschodniej.\nRozwiązania enterprise: Rozwój sprzedaży serwerów i rozwiązań dla firm.\nE-commerce: Inwestycje w platformę zakupową online.\nNowe kategorie: Poszerzanie oferty o nowe segmenty rynku IT.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nTransformacja energetyczna: Stopniowe odchodzenie od węgla na rzecz OZE.\nSieć inteligentna: Inwestycje w modernizację i cyfryzację dystrybucji.\nKlient końcowy: Rozwój usług dla odbiorców indywidualnych i biznesowych.\nEfektywność: Optymalizacja kosztów operacyjnych i inwestycyjnych.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/pxm.html",
-    "href": "spolki/pxm.html",
-    "title": "Polimex-Mostostal S.A. (PXM)",
+    "objectID": "spolki/pep.html",
+    "href": "spolki/pep.html",
+    "title": "Polenergia S.A. (PEP)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: PXM | Polimex-Mostostal S.A. | Siedziba: Warszawa | WWW: polimex-mostostal.pl | Branża: Nieruchomości i budownictwo"
+    "text": "← Spółki GPW | Ticker: PEP | Polenergia S.A. | Siedziba: Warszawa | WWW: polenergia.pl | Branża: Surowce i energia"
   },
   {
-    "objectID": "spolki/pxm.html#notowania",
-    "href": "spolki/pxm.html#notowania",
-    "title": "Polimex-Mostostal S.A. (PXM)",
+    "objectID": "spolki/pep.html#notowania",
+    "href": "spolki/pep.html#notowania",
+    "title": "Polenergia S.A. (PEP)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/pxm.html#o-spółce",
-    "href": "spolki/pxm.html#o-spółce",
-    "title": "Polimex-Mostostal S.A. (PXM)",
+    "objectID": "spolki/pep.html#o-spółce",
+    "href": "spolki/pep.html#o-spółce",
+    "title": "Polenergia S.A. (PEP)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Polimex-Mostostal to wiodąca polska firma budowlana specjalizująca się w kompleksowej realizacji inwestycji przemysłowych, energetycznych i infrastrukturalnych. Spółka działa jako generalny wykonawca dużych projektów budowlanych, oferując usługi od projektowania po oddanie obiektu “pod klucz”.\nStrategia i Perspektywy: Firma koncentruje się na segmencie inwestycji przemysłowych i energetycznych, gdzie ma silną pozycję rynkową. Kluczowe jest pozyskiwanie dużych kontraktów i efektywne zarządzanie projektami budowlanymi."
+    "text": "O spółce\nProfil działalności: Polenergia to polska grupa energetyczna specjalizująca się w odnawialnych źródłach energii. Spółka rozwija projekty farm wiatrowych na lądzie (onshore) i morzu (offshore), oraz instalacji fotowoltaicznych. Polenergia jest jednym z liderów rynku OZE w Polsce.\nStrategia i Perspektywy: Polenergia realizuje strategię ekspansji w OZE, koncentrując się na budowie morskich farm wiatrowych na Bałtyku oraz zwiększaniu mocy zainstalowanej w energetyce słonecznej. Kluczowe są również projekty magazynowania energii."
   },
   {
-    "objectID": "spolki/pxm.html#biznes",
-    "href": "spolki/pxm.html#biznes",
-    "title": "Polimex-Mostostal S.A. (PXM)",
+    "objectID": "spolki/pep.html#biznes",
+    "href": "spolki/pep.html#biznes",
+    "title": "Polenergia S.A. (PEP)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nBudownictwo przemysłowe: Hale produkcyjne, magazyny, obiekty przemysłowe.\nInfrastruktura: Drogi, mosty, obiekty infrastrukturalne.\nEnergetyka: Budowa elektrowni i obiektów energetycznych.\nUsługi inżynieryjne: Projektowanie i zarządzanie inwestycjami.\n\nZasoby i Surowce:\nDoświadczony zespół inżynierów i budowlańców, park maszynowy, certyfikaty i referencje z dużych projektów."
+    "text": "Biznes\nGłówne linie produktowe:\n\nFarmy wiatrowe onshore: Elektrownie wiatrowe na lądzie w Polsce.\nFarmy wiatrowe offshore: Projekty morskich farm wiatrowych na Bałtyku.\nFotowoltaika: Instalacje solarne na gruntach i dachach.\nMagazyny energii: Projekty bateryjnych magazynów energii.\n\nZasoby i Surowce:\nKluczowe są lokalizacje pod farmy wiatrowe i słoneczne, turbiny wiatrowe, panele PV, oraz pozwolenia i koncesje."
   },
   {
-    "objectID": "spolki/pxm.html#strategia",
-    "href": "spolki/pxm.html#strategia",
-    "title": "Polimex-Mostostal S.A. (PXM)",
+    "objectID": "spolki/pep.html#strategia",
+    "href": "spolki/pep.html#strategia",
+    "title": "Polenergia S.A. (PEP)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nKontrakty przemysłowe: Pozyskiwanie dużych projektów dla przemysłu.\nEnergetyka: Udział w budowie obiektów energetycznych i OZE.\nEfektywność: Optymalizacja kosztów realizacji projektów.\nBezpieczeństwo: Wysokie standardy BHP i jakości.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nOffshore wind: Rozwój projektów morskich farm wiatrowych.\nOnshore expansion: Zwiększanie mocy w farmach lądowych.\nFotowoltaika: Inwestycje w instalacje PV.\nMagazynowanie: Budowa magazynów energii bateryjnej.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/trk.html",
-    "href": "spolki/trk.html",
-    "title": "Trakcja S.A. (TRK)",
+    "objectID": "spolki/ifr.html",
+    "href": "spolki/ifr.html",
+    "title": "Investment Friends S.A. (IFR)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: TRK | Trakcja S.A. | Siedziba: Warszawa | WWW: trakcja.pl | Branża: Nieruchomości i budownictwo"
+    "text": "← Spółki GPW | Ticker: IFR | Investment Friends S.A. | Siedziba: Warszawa | Branża: Finanse"
   },
   {
-    "objectID": "spolki/trk.html#notowania",
-    "href": "spolki/trk.html#notowania",
-    "title": "Trakcja S.A. (TRK)",
+    "objectID": "spolki/ifr.html#notowania",
+    "href": "spolki/ifr.html#notowania",
+    "title": "Investment Friends S.A. (IFR)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/trk.html#o-spółce",
-    "href": "spolki/trk.html#o-spółce",
-    "title": "Trakcja S.A. (TRK)",
+    "objectID": "spolki/ifr.html#o-spółce",
+    "href": "spolki/ifr.html#o-spółce",
+    "title": "Investment Friends S.A. (IFR)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Trakcja to wiodąca polska firma budowlana specjalizująca się w infrastrukturze kolejowej i drogowej. Spółka realizuje projekty związane z budową i modernizacją linii kolejowych, dróg, mostów oraz infrastruktury tramwajowej.\nStrategia i Perspektywy: Trakcja rozwija się jako wykonawca projektów infrastrukturalnych, korzystając z inwestycji w polską kolej i drogi. Kluczowe jest pozyskiwanie kontraktów od PKP, GDDKiA i samorządów."
+    "text": "O spółce\nProfil działalności: Investment Friends to firma inwestycyjna działająca na polskim rynku kapitałowym. Spółka koncentruje się na inwestycjach w perspektywiczne przedsiębiorstwa z różnych sektorów gospodarki, oferując swoim akcjonariuszom ekspozycję na dynamicznie rozwijające się spółki.\nStrategia i Perspektywy: Model biznesowy opiera się na budowaniu wartości poprzez aktywne zarządzanie portfelem inwestycyjnym i wsparcie rozwoju spółek portfelowych. Spółka poszukuje okazji inwestycyjnych w sektorach o wysokim potencjale wzrostu."
   },
   {
-    "objectID": "spolki/trk.html#biznes",
-    "href": "spolki/trk.html#biznes",
-    "title": "Trakcja S.A. (TRK)",
+    "objectID": "spolki/ifr.html#biznes",
+    "href": "spolki/ifr.html#biznes",
+    "title": "Investment Friends S.A. (IFR)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nInfrastruktura kolejowa: Budowa i modernizacja linii kolejowych.\nInfrastruktura drogowa: Drogi, mosty, wiadukty.\nTorowiska: Budowa i modernizacja torowisk tramwajowych.\nElektroenergetyka: Sieci elektroenergetyczne dla kolei.\n\nZasoby i Surowce:\nPark maszynowy, doświadczone brygady budowlane, certyfikaty kolejowe."
+    "text": "Biznes\nGłówne linie produktowe:\n\nInwestycje kapitałowe: Lokowanie kapitału w spółki portfelowe z różnych sektorów.\nZarządzanie aktywami: Aktywne zarządzanie portfelem inwestycyjnym.\nDoradztwo inwestycyjne: Konsulting dla spółek portfelowych.\nSprzedaż inwestycji: Realizacja zysków poprzez sprzedaż udziałów.\n\nZasoby i Surowce:\nZespół doświadczonych menadżerów inwestycyjnych, sieć kontaktów w świecie biznesu oraz kapitał na nowe inwestycje."
   },
   {
-    "objectID": "spolki/trk.html#strategia",
-    "href": "spolki/trk.html#strategia",
-    "title": "Trakcja S.A. (TRK)",
+    "objectID": "spolki/ifr.html#strategia",
+    "href": "spolki/ifr.html#strategia",
+    "title": "Investment Friends S.A. (IFR)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nKolej: Udział w projektach modernizacji PKP.\nDrogi: Pozyskiwanie kontraktów GDDKiA.\nTramwaje: Rozwój projektów tramwajowych.\nRentowność: Poprawa efektywności realizacji.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nDywersyfikacja: Rozkładanie ryzyka na różne sektory.\nAktywne zarządzanie: Wspieranie rozwoju spółek portfelowych.\nNowe inwestycje: Poszukiwanie atrakcyjnych celów inwestycyjnych.\nExit strategy: Realizacja zysków poprzez sprzedaż udziałów.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
-    "objectID": "spolki/kty.html",
-    "href": "spolki/kty.html",
-    "title": "Grupa Kęty S.A. (KTY)",
+    "objectID": "spolki/eat.html",
+    "href": "spolki/eat.html",
+    "title": "AmRest Holdings S.E. (EAT)",
     "section": "",
-    "text": "← Spółki GPW | Ticker: KTY | Grupa Kęty S.A. | Siedziba: Kęty | WWW: grupa-kety.pl | Branża: Surowce i energia"
+    "text": "← Spółki GPW | Ticker: EAT | AmRest Holdings S.E. | Siedziba: Wrocław | WWW: amrest.eu | Branża: Handel i konsumpcja"
   },
   {
-    "objectID": "spolki/kty.html#notowania",
-    "href": "spolki/kty.html#notowania",
-    "title": "Grupa Kęty S.A. (KTY)",
+    "objectID": "spolki/eat.html#notowania",
+    "href": "spolki/eat.html#notowania",
+    "title": "AmRest Holdings S.E. (EAT)",
     "section": "Notowania",
     "text": "Notowania"
   },
   {
-    "objectID": "spolki/kty.html#o-spółce",
-    "href": "spolki/kty.html#o-spółce",
-    "title": "Grupa Kęty S.A. (KTY)",
+    "objectID": "spolki/eat.html#o-spółce",
+    "href": "spolki/eat.html#o-spółce",
+    "title": "AmRest Holdings S.E. (EAT)",
     "section": "O spółce",
-    "text": "O spółce\nProfil działalności: Grupa Kęty to wiodący polski przetwórca aluminium i producent wyrobów dla budownictwa, transportu i przemysłu. Spółka działa w segmencie przetwórstwa aluminium, oferując profile, blachy, farby i systemy budowlane. Grupa jest jednym z największych pracodawców w regionie Małopolski.\nStrategia i Perspektywy: Grupa Kęty stawia na rozwój poprzez zwiększanie przerobu aluminium, ekspansję na rynki zagraniczne oraz inwestycje w nowe technologie. Kluczowe jest alsobudowanie kompetencji w segmencie aluminium dla elektromobilności i energii odnawialnej."
+    "text": "O spółce\nProfil działalności: AmRest to największa w Polsce i jedna z największych w Europie sieć restauracji fast-food i casual dining. Spółka zarządza restauracjami takich marek jak KFC, Burger King i Starbucks w Polsce oraz w wielu krajach Europy. Model biznesowy opiera się na franchisingu i bezpośredniej własności restauracji.\nStrategia i Perspektywy: AmRest realizuje strategię ekspansji geograficznej, otwierając nowe restauracje w Europie. Kluczowe jest zwiększanie sprzedaży w istniejących lokalach (like-for-like) i utrzymanie pozycji lidera w segmencie QSR w Polsce."
   },
   {
-    "objectID": "spolki/kty.html#biznes",
-    "href": "spolki/kty.html#biznes",
-    "title": "Grupa Kęty S.A. (KTY)",
+    "objectID": "spolki/eat.html#biznes",
+    "href": "spolki/eat.html#biznes",
+    "title": "AmRest Holdings S.E. (EAT)",
     "section": "Biznes",
-    "text": "Biznes\nGłówne linie produktowe:\n\nProfile aluminiowe: Profile okienne, drzwiowe i fasadowe dla budownictwa.\nBlachy i taśmy: Produkty dla przemysłu i transportu.\nSystemy budowlane: Kompleksowe rozwiązania dla architektów i wykonawców.\nFarby i powłoki: Lakierowanie i anodowanie aluminium.\n\nZasoby i Surowce:\nKluczowy jest aluminium (surowiec), energia (do przetwórstwa), infrastruktura produkcyjna (huty, prasy)."
+    "text": "Biznes\nGłówne linie produktowe:\n\nKFC: Sieć restauracji z kurczakiem (fast-food).\nBurger King: Sieć burgerów (fast-food).\nStarbucks: Kawiarnie (coffee shop).\nRestauracje casual dining: La Tagliatella, Pizza Hut.\n\nZasoby i Surowce:\nSieć restauracji w Polsce i Europie, umowy franchisingowe, doświadczony zarząd."
   },
   {
-    "objectID": "spolki/kty.html#strategia",
-    "href": "spolki/kty.html#strategia",
-    "title": "Grupa Kęty S.A. (KTY)",
+    "objectID": "spolki/eat.html#strategia",
+    "href": "spolki/eat.html#strategia",
+    "title": "AmRest Holdings S.E. (EAT)",
     "section": "Strategia",
-    "text": "Strategia\nKierunki rozwoju:\n\nPrzetwórstwo: Zwiększanie głębokości przerobu aluminium.\nEkspansja zagraniczna: Dalszy rozwój sprzedaży eksportowej.\nNowe segmenty: Aluminium dla elektromobilności i OZE.\nInnowacje: Inwestycje w linie produkcyjne i automatyzację.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+    "text": "Strategia\nKierunki rozwoju:\n\nEkspansja: Otwieranie nowych restauracji KFC i Burger King.\nLike-for-like: Zwiększanie sprzedaży w istniejących lokalach.\nNowe rynki: Wejście na kolejne rynki europejskie.\nDigitalizacja: Rozwój aplikacji mobilnych i zamówień online.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
+  },
+  {
+    "objectID": "spolki/vrg.html",
+    "href": "spolki/vrg.html",
+    "title": "Vistula Retail Group S.A. (VRG)",
+    "section": "",
+    "text": "← Spółki GPW | Ticker: VRG | Vistula Retail Group S.A. | Siedziba: Kraków | WWW: vrg.pl | Branża: Handel i konsumpcja"
+  },
+  {
+    "objectID": "spolki/vrg.html#notowania",
+    "href": "spolki/vrg.html#notowania",
+    "title": "Vistula Retail Group S.A. (VRG)",
+    "section": "Notowania",
+    "text": "Notowania"
+  },
+  {
+    "objectID": "spolki/vrg.html#o-spółce",
+    "href": "spolki/vrg.html#o-spółce",
+    "title": "Vistula Retail Group S.A. (VRG)",
+    "section": "O spółce",
+    "text": "O spółce\nProfil działalności: Vistula Retail Group to polska firma odzieżowa zarządzająca markami Vistula i Bytom. Spółka działa w segmencie odzieży męskiej, oferując garnitury, koszule i akcesoria dla panów poprzez sieć sklepów stacjonarnych i online.\nStrategia i Perspektywy: VRG rozwija się jako detalista odzieżowy, koncentrując się na segmencie odzieży męskiej premium. Kluczowe jest modernizacja oferty i rozwój kanałów sprzedaży online."
+  },
+  {
+    "objectID": "spolki/vrg.html#biznes",
+    "href": "spolki/vrg.html#biznes",
+    "title": "Vistula Retail Group S.A. (VRG)",
+    "section": "Biznes",
+    "text": "Biznes\nGłówne linie produktowe:\n\nOdzież męska: Garnitury, marynarki, koszule.\nAkcesoria: Krawaty, paski, akcesoria.\nSklepy: Sieć sklepów stacjonarnych.\nE-commerce: Sprzedaż online.\n\nZasoby i Surowce:\nSieć sklepów, marki Vistula i Bytom, zespół projektantów."
+  },
+  {
+    "objectID": "spolki/vrg.html#strategia",
+    "href": "spolki/vrg.html#strategia",
+    "title": "Vistula Retail Group S.A. (VRG)",
+    "section": "Strategia",
+    "text": "Strategia\nKierunki rozwoju:\n\nModernizacja: Odświeżanie oferty produktowej.\nOnline: Rozwój e-commerce.\nSklepy: Optymalizacja sieci sprzedaży.\nMarketing: Budowanie rozpoznawalności marek.\n\n\n\n\n\n\n\nInformacja prawna\n\n\n\nMateriały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej."
   },
   {
     "objectID": "posts/2024-11-21-indeks-trendow-analiza/index.html",

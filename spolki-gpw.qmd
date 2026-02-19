@@ -16,13 +16,13 @@ library(DT)
 companies <- data.frame(
   ticker = c(
     "11B", "ACP", "ALE", "ALR", "APT", "APR", "ASB", "ATT", "BDX", "BFT", "BHW", "CAR", "CCC", "CDR", "CIG", "CPS", "CRI", "DAD", "DAT", "DIA", "DIG", "DNP", "DVL",
-    "EAT", "ELT", "ENA", "ENG", "FRO", "GPW", "GPP", "GRX", "IFR", "ING", "JSW", "KGH", "KRU", "KTY", "LBW", "LPP", "MBK", "MBR", "MIL", "MRB", "OPL", "PCO", "PEO", "PEP", "PGE", "PKN", "PKO", "PKP", "PLW", "PXM", "PZU",
-    "RBW", "RVU", "SLV", "SNT", "SPL", "TEN", "TOR", "TPE", "TRK", "TXT", "WPL", "XTB", "ZAB"
+    "EAT", "ECH", "ELT", "ENA", "ENG", "FRO", "GPW", "GPP", "GRX", "IFR", "ING", "JSW", "KGH", "KRU", "KTY", "LBW", "LPP", "MBK", "MBR", "MDG", "MIL", "MRB",
+    "OPL", "PCO", "PEO", "PEP", "PGE", "PKN", "PKO", "PKP", "PLW", "PXM", "PZU", "RBW", "RVU", "SCP", "SLV", "SNT", "SPL", "SPR", "TEN", "TOR", "TPE", "TRK", "TXT", "VRG", "WPL", "XTB", "ZAB"
   ),
   name = c(
     "11 bit studios", "Asseco Poland", "Allegro.eu", "Alior Bank", "Apator", "Auto Partner", "Asbis", "Grupa Azoty", "Budimex", "Benefit Systems", "Bank Handlowy", "Inter Cars", "Grupa CCC", "CD PROJEKT", "CI Games", "Cyfrowy Polsat", "Creotech", "Dadelo", "DataWalk", "Diagnostyka", "Digital Network", "DINO POLSKA", "Develia",
-    "AmRest", "Elektrotim", "ENEA", "ENERGA", "Ferro", "Giełda Papierów Wartościowych", "Grupa Pracuj", "GreenX Metals", "Investment Friends", "ING Bank Śląski", "Jastrzębska Spółka Węglowa", "KGHM Polska Miedź", "KRUK", "Grupa Kęty", "Lubawa", "LPP", "mBank", "Mo-BRUK", "Bank Millennium", "MIRBUD", "Orange Polska", "Pepco Group", "Bank Pekao", "Polenergia", "PGE Polska Grupa Energetyczna", "ORLEN", "PKO Bank Polski", "PKP Cargo", "Playway", "Polimex-Mostostal", "PZU",
-    "Rainbow Tours", "Ryvu Therapeutics", "Selvita", "Synektik", "Santander Bank Polska", "Ten Square Games", "Torpol", "Tauron Polska Energia", "Trakcja", "Text", "Wirtualna Polska", "XTB", "Żabka Group"
+    "AmRest", "Echo Investment", "Elektrotim", "ENEA", "ENERGA", "Ferro", "Giełda Papierów Wartościowych", "Grupa Pracuj", "GreenX Metals", "Investment Friends", "ING Bank Śląski", "Jastrzębska Spółka Węglowa", "KGHM Polska Miedź", "KRUK", "Grupa Kęty", "Lubawa", "LPP", "mBank", "Mo-BRUK", "Medicalgorithmics", "Bank Millennium", "MIRBUD",
+    "Orange Polska", "Pepco Group", "Bank Pekao", "Polenergia", "PGE Polska Grupa Energetyczna", "ORLEN", "PKO Bank Polski", "PKP Cargo", "Playway", "Polimex-Mostostal", "PZU", "Rainbow Tours", "Ryvu Therapeutics", "Scope Fluidics", "Selvita", "Synektik", "Santander Bank Polska", "Spyrosoft", "Ten Square Games", "Torpol", "Tauron Polska Energia", "Trakcja", "Text", "Vistula Retail Group", "Wirtualna Polska", "XTB", "Żabka Group"
   ),
   stringsAsFactors = FALSE
 )
