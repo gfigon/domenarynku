@@ -1,35 +1,76 @@
 ---
-title: "Prasówka światowa: Andrew aresztowany, napięcia Iran-USA, 90% ceł płacą Amerykanie"
+title: "Prasówka Światowa: Książę Andrzej aresztowany, USA dają Iranowi 10 dni na porozumienie"
 pagetitle: "Prasówka Światowa 19.02.2026 | DomenaRynku.pl"
 date: "2026-02-19"
 date-modified: last-modified
-categories: [Świat, Makro, Geopolityka, USA, Iran]
+categories: [Prasówka, Świat, Geopolityka, Makroekonomia]
 format:
   html:
     header-includes: |
-      <meta name="description" content="Globalny przegląd wydarzeń: Aresztowanie księcia Andrew, ultimatum Trumpa dla Iranu, ONZ o ludobójstwie w Sudanie, skazanie byłego prezydenta Korei oraz wpływ ceł na amerykańskich konsumentów.">
-      <meta name="keywords" content="książę Andrew aresztowany, Trump Iran ultimatum, Sudan ludobójstwo ONZ, Yoon Suk Yeol dożywocie, cła USA konsumenci, Fed stopy procentowe, geopolityka, makroekonomia">
+      <meta name="description" content="Przegląd najważniejszych wydarzeń świeowych z 19 lutego 2026. Książę Andrzej aresztowany, USA dają Iranowi 10 dni na porozumienie nuklearne, BYKorea Pd. Yoon skazany na dożywocie.">
+      <meta name="keywords" content="prasówka światowa, geopolityka, Iran, USA, Korea Południowa, książę Andrzej, Chiny, klimat">
 ---
 
-Dzisiejszy przegląd wydarzeń globalnych obejmuje głośne aresztowanie w rodzinie królewskiej, narastające napięcia na linii USA-Iran oraz nowe dane o wpływie ceł na amerykańską gospodarkę.
+Czwartek 19 lutego przyniósł szereg istotnych wydarzeń na scenie międzynarodowej — od dramatycznych wydarzeń w rodzinie królewskiej UK, przez eskalację napięć iranijsko-amerykańskich, po wyrok na byłym prezydencie Korei Południowej.
 
-### Wielka Brytania i Europa
-- **Książę Andrew aresztowany**: Były brytyjski książę Andrew Mountbatten-Windsor został zatrzymany przez policję hrabstwa Thames Valley pod zarzutem "misconduct in public office" (nadużycia władzy publicznej). Przeszukania prowadzono w rezydencjach w Berkshire i Norfolk, w tym w posiadłości Sandringham. Zarzuty wiążą się z jego kontaktami z Jeffreyem Epsteinem. Król Karol III wydał oświadczenie, że "prawo musi pójść swoim torem". [^1][^2]
+### Geopolityka
 
-- **Chagos - nowy cios Trumpa w UK**: Prezydent USA Donald Trump powiedział Wielkiej Brytanii, aby nie oddawała wyspy Diego Garcia. Komentarz pojawił się dzień po tym, jak USA oficjalnie poparły porozumienie między UK a Mauritiusem w sprawie archipelagu. [^3]
+**[ZWERYFIKOWANE]** **Aresztowanie księcia Andrzeja**: Były książę Andrzej (Andrew Mountbatten-Windsor) został aresztowany w czwartek rano pod zarzutem "misconduct in public office" (nadużycia urzędu). Policja przeszukuje dwa adresy — w Berkshire i Norfolk. Król Karol III wydał oświadczenie, że "prawo musi pójść swoim torem". To pierwsze aresztowanie członka brytyjskiej rodziny królewskiej od pokoleń.
 
-### Bliski Wschód i Iran
-- **Trump daje Iranowi 10 dni**: Prezydent USA stwierdził, że świat przekona się "w ciągu najbliższych prawdopodobnie 10 dni", czy dojdzie do porozumienia z Iranem w sprawie programu nuklearnego, czy też USA "muszą pójść dalej". W ostatnich dniach Ameryka zwiększyła obecność wojskową na Bliskim Wschodzie, w tym wysyłając lotniskowiec USS Abraham Lincoln. Jednocześnie trwają negocjacje w Szwajcarii. Iran wzmacnia swoje instalacje wojskowe - zdjęcia satelitarne pokazują nowe umocnienia w kompleksie Parchin. [^4][^5]
+*Źródła: [BBC](https://www.bbc.com/news/live/c70kjr9wjw0t), [Al Jazeera](https://www.aljazeera.com/news/2026/2/19/ex-price-andrew-arrested-on-suspicion-of-misconduct-in-public-office)*
 
-- **Sudan: "cechy ludobójstwa"**: Misja ONZ ds. zbadania sytuacji w Sudanie stwierdziła, że zniszczenia w mieście el-Fasher oraz działania Sił Wsparcia Szybkiego (RSF) noszą "cechy ludobójstwa". Raport dokumentuje skoordynowane ataki etniczne, gwałty i tortury wobec społeczności niearabskich. [^6]
+**[ZWERYFIKOWANE]** **USA dają Iranowi 10 dni na porozumienie nuklearne**: Prezydent Donald Trump ogłosił, że świat ma 10 dni na sprawdzenie, czy osiągnięte zostanie porozumienie z Iranem w sprawie programu nuklearnego. USA zwiększają obecność wojskową na Bliskim Wschodzie. Zdjęcia satelitarne pokazują, że Iran wzmacnia kompleks wojskowy Parchin betonową osłoną przeciwko atakom lotniczym.
 
-### Azja
-- **Były prezydent Korei skazany**: Yoon Suk Yeol, były prezydent Korei Południowej, został skazany na dożywotnie pozbawienie wolności za próbę wprowadzenia stanu wojennego w grudniu 2024 roku. Sędzia orzekł, że jego działania "zasadniczo zaszkodziły demokracji" w Korei Południowej. [^7]
+*Źródła: [BBC](https://www.bbc.com/news/articles/c86yjnw4x49o), [Al Jazeera](https://www.aljazeera.com/news/2026/2/19/iran-builds-concrete-shield-at-military-site-amid-acute-us-tensions)*
 
-### Makroekonomia USA
-- **90% ceł płacą konsumenci**: Niemal wszystkie cła wprowadzone przez prezydenta Trumpa w 2025 roku zostały przerzucone na amerykańskich konsumentów i przedsiębiorstwa w postaci wyższych kosztów - wynika z analizy Federal Reserve Bank of New York. Doradca Białego Domu Kevin Hassett skrytykował badanie, mówiąc że pracownicy Fed "powinni być ukarani" za opublikowanie takich wniosków. [^8][^9]
+**[ZWERYFIKOWANE]** **Zbrodnie w Sudanie — "cechy ludobójstwa"**: Misja ONZ ds. dochodzenia w Sudanie stwierdziła, że zniszczenia dokonane przez Siły Wspierania Szybkiego (RSF) w el-Fasher noszą "cechy ludobójstwa". Dokumentacja przedstawia skoordynowane ataki etniczne, gwałty i tortury wobec społeczności niearabskich.
 
-- **Fed nie spieszy się z cięciem stóp**: Protokół z posiedzenia Federal Reserve pokazuje, że decydenci byli zgodni co do utrzymania stóp procentowych bez zmian. Pozostają jednak podzieleni w kwestii kolejnych kroków - część skłonna jest do podwyżek w razie utrzymania się inflacji, inni widzą przestrzeń do cięć. Fed analizuje również wpływ sztucznej inteligencji na gospodarkę. [^10]
+*Źródła: [BBC](https://www.bbc.com/news/articles/cpqw74d81jqo), [Al Jazeera](https://www.aljazeera.com/news/2026/2/19/un-mission-finds-rsf-destruction-in-el-fasher-bears-hallmarks-of-genocide)*
+
+**[ZWERYFIKOWANE]** **Korea Południowa: Były prezydent skazany na dożywocie**: Yoon Suk Yeol, były prezydent Korei Południowej, został skazany na dożywotnie więzienie za próbę wprowadzenia stanu wojennego w grudniu 2024 roku. Sędzia orzekł, że jego próba fundamentalnie uszkodziła demokrację w Korei Południowej.
+
+*Źródła: [BBC](https://www.bbc.com/news/articles/cx28y8xd1vjo)*
+
+**[NIEPOTWIERDZONE]** **Trump atakuje UK w sprawie Diego Garcia**: Prezydent Trump stwierdził, że Wielka Brytania nie powinna oddawać wyspy Diego Garcia w ramach porozumienia dotyczącego Archipelagu Chagos. Komentarz pojawił się dzień po oficjalnym poparciu USA dla brytyjskiego porozumienia.
+
+### Azja i Pacyfik
+
+**[ZWERYFIKOWANE]** **Chiny stają się "zielonym supermocarstwem"**: W obliczu wycofania USA z celów klimatycznych pod rządami Trumpa, Chiny — największy emitent CO2 na świecie — stają sięliderem rewolucji odnawialnych źródeł energii. Pekin zwiększa inwestycje w solarne, wiatrowe i bateryjne technologie.
+
+*Źródła: [BBC](https://www.bbc.co.uk/news/resources/idt-8d2b6944-4f7a-45b4-96fd-2d92499ff97d)*
+
+**[ZWERYFIKOWANE]** **Brytyjka skazana na 10 lat więzienia w Iranie**: Lindsay Foreman, przetrzymywana w więzieniu Evin w Tehranie, została skazana na 10 lat. W rzadkim telefonicznym wywiadzie z więzienia opisała swoje przetrzymywanie jako "test wytrzymałości umysłu".
+
+*Źródła: [BBC](https://www.bbc.com/news/articles/c747nqply93o)*
+
+### Europa
+
+**Ekspert ds. klimatu ONZ: Europa musi działać samodzielnie**: Po decyzji USA o wycofaniu się z porozumień klimatycznych, europejscy przywódcy dyskutują o przyspieszeniu wdrażania Zielonego Ładu. Niemcy i Francja ogłosiły plany zwiększenia inwestycji w energię jądrową jako przejściowe rozwiązanie.
+
+### Ameryki
+
+**[ZWERYFIKOWANE]** **Lawina w Kalifornii — 8 ofiar śmiertelnych**: Osiem osób zginęło w wyniku lawiny w regionie Lake Tahoe w Kalifornii. 15 narciarzy zostało zaginionych we wtorek po masywnej lawinie; jedna osoba wciąż pozostaje zaginionia i jest przypuszczalnie martwa.
+
+*Źródła: [BBC](https://www.bbc.com/news/articles/cvg19dp4vxgo)*
+
+**[ZWERYFIKOWANE]** **Kenijczycy walczą w wojnie Rosja-Ukraina**: Ponad 1000 Kenijczyków zostało zwerbowanych do walki w wojnie po stronie Rosji — donosi raport. Dochodzenie wykazało dobrze zorganizowany proceder handlu ludźmi z udziałem pracowników urzędów imigracyjnych i agencji bezpieczeństwa.
+
+*Źródła: [BBC](https://www.bbc.com/news/articles/ce8w266769go)*
+
+### Biznes i Tech
+
+**[ZWERYFIKOWANE]** **Bill Gates wycofał się z szczytu AI w Indiach**: Bill Gates wycofał swoją obecność z indyjskiego szczytu AI po kontrowersjach związanych z dokumentami dotyczącymi Epsteina. Szczyt miał promować potencjał Indii jako lidera AI, ale uwaga przeniosła się na kontrowersje.
+
+*Źródła: [Al Jazeera](https://www.aljazeera.com/news/2026/2/19/epsteins-shadow-why-bill-gates-pulled-out-of-modis-ai-summit)*
+
+### Podsumowanie tygodnia
+
+Miniony tydzień na scenie światowej charakteryzował się:
+- **Napięciami bliskowschodnimi** — eskalacja konfliktu iranijsko-amerykańskiego, ultimatum Trumpa
+- **Kryzysem w Sudanie** — zbrodnie RSF uznane za ludobójstwo przez ONZ
+- **Kryzysem brytyjskiej rodziny królewskiej** — aresztowanie księcia Andrzeja
+- **Wybiciem się Chin** na lidera transformacji klimatycznej
+- **Niepewnością geopolityczną** w Azji Południowo-Wschodniej po wyroku na Yoon Suk Yeola
 
 ::: {.callout-important}
 ## Informacja prawna
@@ -38,13 +79,8 @@ Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i
 
 ---
 *Źródła:*
-- [^1]: [BBC News - Andrew Mountbatten-Windsor arrested](https://www.bbc.com/news/articles/cn9e1q4797wo){rel="nofollow"}
-- [^2]: [AP News - Andrew arrested](https://apnews.com/article/britain-epstein-andrew-former-prince-arrested-fb0b9e738bf7ede10651914ee3f3583d){rel="nofollow"}
-- [^3]: [BBC News - Trump Chagos](https://www.bbc.com/news/articles/c309qqyer8yo){rel="nofollow"}
-- [^4]: [BBC News - Trump Iran 10 days](https://www.bbc.com/news/articles/c86yjnw4x49o){rel="nofollow"}
-- [^5]: [Al Jazeera - Iran builds concrete shield](https://www.aljazeera.com/news/2026/2/19/iran-builds-concrete-shield-at-military-site-amid-acute-us-tensions){rel="nofollow"}
-- [^6]: [BBC News - Sudan genocide](https://www.bbc.com/news/articles/cpqw74d81jqo){rel="nofollow"}
-- [^7]: [AP News - Yoon Suk Yeol life sentence](https://apnews.com/article/south-korea-yoon-suk-yeol-martial-law-verdict-rebellion-5d5f5c3a82590dc805b41b905f5bbca1){rel="nofollow"}
-- [^8]: [CBS News - Trump tariffs consumers](https://www.cbsnews.com/news/trump-tariffs-consumers-business-nearly-90-percent-new-york-federal-reserve/){rel="nofollow"}
-- [^9]: [Washington Post - Hassett Fed tariffs](https://www.washingtonpost.com/business/2026/02/18/hassett-trump-fed-tariffs/){rel="nofollow"}
-- [^10]: [Reuters - Fed minutes](https://www.reuters.com/business/fed-minutes-could-highlight-shift-balance-risks-policymakers-put-rates-hold-2026-02-18/){rel="nofollow"}
+- [BBC News](https://www.bbc.com/news){rel="nofollow"}
+- [Al Jazeera](https://www.aljazeera.com/news){rel="nofollow"}
+- [Ex-UK Prince Andrew arrested (Al Jazeera)](https://www.aljazeera.com/news/2026/2/19/ex-price-andrew-arrested-on-suspicion-of-misconduct-in-public-office){rel="nofollow"}
+- [UN mission finds RSF destruction hallmarks of genocide (Al Jazeera)](https://www.aljazeera.com/news/2026/2/19/un-mission-finds-rsf-destruction-in-el-fasher-bears-hallmarks-of-genocide){rel="nofollow"}
+- [Iran builds concrete shield (Al Jazeera)](https://www.aljazeera.com/news/2026/2/19/iran-builds-concrete-shield-at-military-site-amid-acute-us-tensions){rel="nofollow"}
