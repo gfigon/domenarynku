@@ -1,13 +1,13 @@
 ---
-title: "Copernicus S.A. (CBF)"
-subtitle: "Profil spółki Copernicus — notowania, analiza, strategia"
-categories: [Zdrowie i farmacja]
-pagitle: "Copernicus S.A. (CBF) | Profil spółki GPW - Notowania i Analiza"
+title: "Cyber_Folks SA (CBF)"
+subtitle: "Profil spółki Cyber_Folks — notowania, analiza, strategia"
+categories: [Informatyka]
+pagitle: "Cyber_Folks SA (CBF) | Profil spółki GPW - Notowania i Analiza"
 format:
   html:
     header-includes: |
-      <meta name="description" content="Copernicus S.A. (CBF) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Zdrowie i farmacja.">
-      <meta name="keywords" content="Copernicus, CBF, akcje Copernicus, GPW, notowania, szpital, medycyna">
+      <meta name="description" content="Cyber_Folks SA (CBF) - profil spółki na GPW. Aktualne notowania, wykres z SMA200, analiza działalności i strategii. Branża: Informatyka.">
+      <meta name="keywords" content="Cyber_Folks, CBF, akcje Cyber_Folks, GPW, notowania, IT, internet">
 ---
 
 ```{r setup, include=FALSE}
@@ -48,7 +48,7 @@ val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
-[← Spółki GPW](../spolki-gpw.html) | **Ticker:** CBF | **Copernicus S.A.** | **Siedziba:** Toruń | **Branża:** [Zdrowie i farmacja](../spolki-gpw.html#category=Zdrowie i farmacja)
+[← Spółki GPW](../spolki-gpw.html) | **Ticker:** CBF | **Cyber_Folks SA** | **Branża:** [Informatyka](../spolki-gpw.html#category=Informatyka)
 :::
 
 ```{r}
@@ -87,38 +87,32 @@ plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode 
 ## O spółce
 
 **Profil działalności:**
-Copernicus to polska spółka medyczna prowadząca szpital i świadcząca usługi zdrowotne. Spółka oferuje kompleksową opiekę medyczną w regionie kujawsko-pomorskim, prowadząc placówki szpitalne.
+Cyber_Folks SA to polska spółka technologiczna działająca w sektorze IT i internetu. Firma świadczy usługi związane z hostingiem, domenami, serwerami oraz rozwiązaniami chmurowymi dla biznesu.
 
 **Strategia i Perspektywy:**
-Copernicus rozwija się jako dostawca usług medycznych, koncentrując się na opiece szpitalnej. Kluczowe jest rozwijanie oferty usług i utrzymanie standardów medycznych.
+Cyber_Folks koncentruje się na rozwoju usług cloudowych i SaaS dla małych i średnich przedsiębiorstw. Spółka stawia na ekspansję w segmencie MŚP oraz rozwój infrastruktury data center.
 
 ## Biznes
 
 **Główne linie produktowe:**
 
-* **Usługi szpitalne:** Leczenie szpitalne.
-
-* **Opieka medyczna:** kompleksowa opieka zdrowotna.
-
-* **Diagnostyka:** Badania diagnostyczne.
-
-* **Poradnie:** Ambulatoryjna opieka specjalistyczna.
+* **Hosting i domeny:** Usługi hostingowe, rejestracja domen.
+* **Serwery VPS/Dedicated:** Serwery wirtualne i dedykowane.
+* **Cloud Solutions:** Rozwiązania chmurowe dla biznesu.
+* **Usługi IT:** Administracja systemami, support.
 
 **Zasoby i Surowce:**
 
-Szpital, zespół medyczny, infrastruktura medyczna.
+Infrastruktura data center, zespół IT, oprogramowanie.
 
 ## Strategia
 
 **Kierunki rozwoju:**
 
-* **Usługi:** Rozwijanie oferty usług medycznych.
-
-* **Infrastruktura:** Modernizacja placówek.
-
-* **Kadry:** Rozwój zespołu medycznego.
-
-* **Jakość:** Utrzymanie wysokich standardów.
+* **Cloud:** Rozwój usług chmurowych.
+* **MŚP:** Ekspansja w segmencie małych i średnich firm.
+* **Infrastruktura:** Inwestycje w data center.
+* **Innowacje:** Nowe usługi SaaS.
 
 :::: {.callout-important}
 ## Informacja prawna
