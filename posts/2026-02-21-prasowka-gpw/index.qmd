@@ -1,0 +1,86 @@
+---
+title: "Poranna prasówka GPW: KGHM błyszczy, tydzień pod znakiem niepewności"
+pagetitle: "Prasówka GPW 21.02.2026 | DomenaRynku.pl"
+date: "2026-02-21"
+date-modified: last-modified
+categories: [Prasówka, GPW, KGHM, Orlen, PGE, Wall Street]
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Przegląd najważniejszych wydarzeń na GPW z 21 lutego 2026. KGHM liderem wzrostów, tydzień pod znakiem niepewności, WIG20 blisko 3400 pkt.">
+      <meta name="keywords" content="GPW, WIG20, KGHM, Orlen, PGE, Wall Street, cła, Nvidia, Iran">
+---
+
+Weekend na GPW przynosi podsumowanie drugiego pełnego tygodnia lutego. Minione dni na warszawskiej giełdzie upłynęły pod znakiem niepewności, napędzanej czynnikami zewnętrznymi — od polityki handlowej USA, przez napięcia na Bliskim Wschodzie, po kwestie technologiczne związane ze sztuczną inteligencją.
+
+### Podsumowanie tygodnia na GPW (17-20 lutego)
+
+Miniony tydzień na warszawskiej giełdzie przyniósł mieszane nastroje. Indeks blue chipów WIG20 zakończył tydzień niewielkim spadkiem o 0,04 proc., utrzymując się w pobliżu poziomu 3400 punktów. Szeroki WIG stracił 0,16 proc.
+
+**Przebieg tygodnia:**
+- Poniedziałek: WIG20 +0,14 proc.
+- Wtorek: WIG20 -1,27 proc. (najgorszy dzień)
+- Środa: WIG20 +1,69 proc. (najlepszy dzień)
+- Czwartek: WIG20 +0,22 proc.
+- Piątek: WIG20 -0,04 proc.
+
+Jak wskazuje Rafał Sadoch z mBanku, na początku tygodnia inwestorzy obawiali się przyszłości spółek technologicznych i rozwoju sztucznej inteligencji. W drugiej połowie tygodnia większy nacisk położono na potencjalny konflikt Stanów Zjednoczonych z Iranem.
+
+### KGHM błyszczy na GPW
+
+KGHM był bezapelacyjnym liderem minionego tygodnia na warszawskiej giełdzie. W czwartek akcje miedziowego giganta zwyżkowały o niemal 9 proc. przy obrotach na poziomie 351,7 mln zł. To kolejny silny wzrost — na cztery poprzednie sesje spółka trzykrotnie zanotowała kilkuprocentowy wzrost.
+
+Łącznie od 23 stycznia do końca ubiegłego tygodnia akcje KGHM zdrożały o 12,5 proc. W piątek (20 lutego) spółka zakończyła dzień wzrostem o 2,2 proc., utrzymując pozycję lidera wśród największych spółek.
+
+**Tło rynkowe:** Notowania miedzi od kilku miesięcy systematycznie zwyżkują. W czwartek cena miedzi wzrosła o ponad 6 proc., przekraczając kolejną historyczną barierę. Srebro drożało o 2,5 proc. W ciągu ostatnich dwóch miesięcy cena miedzi wzrosła o ponad 8 proc., a srebra — o ok. 120 proc. od końca listopada 2025 roku.
+
+### Orlen i PGE: kontrastowe notowania
+
+**Orlen** — w czwartek akcje Orlenu zwyżkowały o 3 proc., stając się jednym z liderów wzrostów na WIG20. W całym tygodniu spółka radziła sobie dobrze — od początku roku do środowego zamknięcia zyskała ponad 9 proc. Jednak w piątek notowania odwróciły się i Orlen stracił 1,4 proc., co przełożyło się na spadek indeksu sektorowego paliwa o 1,4 proc.
+
+**PGE** — również w czwartek akcje spółki drożały o 2,5 proc., będąc jednym z najsilniejszych elementów indeksu WIG Energia. W piątek PGE zakończyła dzień wzrostem o 0,4 proc., co było jednym z lepszych wyników w sektorze energetycznym.
+
+### Spadki: Kruk i CCC
+
+**Kruk** — największym przegranym piątkowej sesji była spółka windykacyjna. Po publikacji wstępnych wyników za IV kwartał 2025 roku, które okazały się gorsze od oczekiwań rynku, akcje Kruka zanurkowały o 9,3 proc. Zysk netto w IV kw. wyniósł 208 mln zł.
+
+**CCC (obecnie Modivo)** — spółka obuwnicza kontynuowała spadki z poprzednich sesji. W piątek akcje potaniały o 2,7 proc., a dzień wcześniej o 2,7 proc., co było najgorszym wynikiem na WIG20. Łącznie od 21 stycznia kurs CCC spadł o ok. 6,6 proc.
+
+### Sektor bankowy stabilny
+
+Relatywnie dobrze radziły sobie w piątek banki. Sektor bankowy na WIG20 zyskał prawie 0,5 proc. To kolejny raz, gdy banki utrzymują solidne wyniki — w poniedziałek wzrosły o 0,8 proc., we wtorek wyszły „na zero", w środę wzrosły o 1 proc., a w czwartek — o 0,6 proc.
+
+### Nastroje przedsiębiorstw: poprawa w lutym
+
+Piątkowe dane GUS o koniunkturze wskazują na wyraźnie lepsze nastroje przedsiębiorstw niż przed rokiem. We wszystkich badanych sektorach sygnalizowana jest stabilizacja lub poprawa koniunktury w porównaniu z poprzednim miesiącem.
+
+**Komentarz Mariusza Zielonki, głównego ekonomisty Konfederacji Lewiatan:**
+- „Na początku 2025 r. firmy raportowały problem słabego popytu i wysokiej niepewności, a dominowały oceny pogorszenia sytuacji. Obecnie przeważają odpowiedzi o stabilizacji."
+- Najlepszą poprawę nastrojów widać w handlu i usługach, które korzystają z odbudowy siły nabywczej gospodarstw domowych.
+- Przemysł pozostaje najsłabszym ogniwem — firmy nadal sygnalizują niedostateczny portfel zamówień eksportowych.
+- Przedsiębiorstwa częściej niż przed rokiem deklarują utrzymanie lub przygotowywanie projektów inwestycyjnych.
+
+### Czynniki ryzyka: Iran i Nvidia
+
+Kluczowym czynnikiem dla przyszłego tygodnia będzie sytuacja wokół Iranu. W piątek na krótko przed zamknięciem giełdy prezydent USA Donald Trump powiedział, że rozważa ograniczony atak na Iran. Jak komentuje Rafał Sadoch z mBanku, inwestorzy obawiają się eskalacji konfliktu, co mogłoby utrudnić dostawy ropy i destabilizować rynki.
+
+Drugim ważnym czynnikiem będą wyniki Nvidii, która w przyszłym tygodniu ma opublikować kwartalny raport. Spółka jest uważana za kluczową, jeśli chodzi o wyznacznik rozwoju sztucznej inteligencji.
+
+### Wall Street: cła wycofane, ale euforii nie ma
+
+Czwartkowa sesja na Wall Street przyniosła mieszane nastroje po wycofaniu większości ceł ogłoszonych przez Donalda Trumpa. Ceny akcji generalnie szły w górę, ale inwestorzy nie wykazali euforii. Najchętniej kupowano walory wielkich spółek technologicznych (bigtechów), które w poprzednich miesiącach wypadły z łask inwestorów.
+
+### Przegląd spółek
+
+**MOL** — węgierska grupa naftowa opublikowała wyniki za 2025 rok. Oczyszczona EBITDA wyniosła 3,369 mld USD, wzrostem o 9,6 proc. r/r. W samym IV kw. 2025 r. EBITDA wzrosła o 29 proc. rdr do 877 mln USD. Prognoza na 2026 r. zakłada ok. 3 mld USD oczyszczonej EBITDA.
+
+**Orlen (CBAM)** — wiceprezes Orlenu ds. korporacyjnych Witold Literacki wskazał, że mechanizm CBAM (unijny podatek węglowy) jest niedopracowany. W branży nawozów widoczne są przypadki omijania nowego mechanizmu. Firma Anwil (należąca do Grupy Orlen) ma bardzo duże problemy z napływem nawozów z Rosji i Białorusi, które są produkowane niezgodnie z unijnymi regułami klimatycznymi.
+
+---
+*Źródła:*
+- [WNP.pl](https://www.wnp.pl/rynki/dzien-na-gpw-wig20-rosnie-czwarty-raz-z-rzedu-kghm-zwyzkuje-o-ok-9-proc,1027400.html){rel="nofollow"}
+- [XYZ](https://xyz.pl/kruk-nurkuje-kghm-liderem-wzrostow-dzien-na-gpw-20-lutego-2026-r/){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/Poprawa-koniunktury-w-lutym-2026-Lewiatan-ocenia-nastroje-polskich-przedsiebiorstw-9086914.html){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/MOL-mial-w-2025-r-3-369-mld-USD-oczyszczonej-EBITDA-na-26-prognozuje-ok-3-mld-USD-opis-9086753.html){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/Unijny-podatek-CBAM-Orlen-bije-na-alarm-System-jest-dziurawy-a-Rosja-zalewa-nas-produktami-9086655.html){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/Cla-skasowane-ale-euforii-na-Wall-Street-nie-ma-Jest-za-to-odbicie-na-bigtechach-9087133.html){rel="nofollow"}
