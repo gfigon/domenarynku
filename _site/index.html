@@ -80,7 +80,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 10,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
@@ -266,7 +267,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Kategorie</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Azoty"><span class="quarto-category-count category-cloud-1">Azoty</span></div><div class="category" data-category="Dane makro"><span class="quarto-category-count category-cloud-1">Dane makro</span></div><div class="category" data-category="Europa"><span class="quarto-category-count category-cloud-2">Europa</span></div><div class="category" data-category="GPW"><span class="quarto-category-count category-cloud-6">GPW</span></div><div class="category" data-category="Geopolityka"><span class="quarto-category-count category-cloud-2">Geopolityka</span></div><div class="category" data-category="KGHM"><span class="quarto-category-count category-cloud-2">KGHM</span></div><div class="category" data-category="Makro"><span class="quarto-category-count category-cloud-1">Makro</span></div><div class="category" data-category="Makroekonomia"><span class="quarto-category-count category-cloud-1">Makroekonomia</span></div><div class="category" data-category="Orlen"><span class="quarto-category-count category-cloud-1">Orlen</span></div><div class="category" data-category="PGE"><span class="quarto-category-count category-cloud-1">PGE</span></div><div class="category" data-category="Prasówka"><span class="quarto-category-count category-cloud-6">Prasówka</span></div><div class="category" data-category="Ropa"><span class="quarto-category-count category-cloud-1">Ropa</span></div><div class="category" data-category="Sentyment"><span class="quarto-category-count category-cloud-3">Sentyment</span></div><div class="category" data-category="Trump"><span class="quarto-category-count category-cloud-1">Trump</span></div><div class="category" data-category="USA"><span class="quarto-category-count category-cloud-2">USA</span></div><div class="category" data-category="WIG20"><span class="quarto-category-count category-cloud-1">WIG20</span></div><div class="category" data-category="Wall Street"><span class="quarto-category-count category-cloud-1">Wall Street</span></div><div class="category" data-category="Wyniki finansowe"><span class="quarto-category-count category-cloud-1">Wyniki finansowe</span></div><div class="category" data-category="analiza rynku"><span class="quarto-category-count category-cloud-1">analiza rynku</span></div><div class="category" data-category="cła"><span class="quarto-category-count category-cloud-1">cła</span></div><div class="category" data-category="geopolityka"><span class="quarto-category-count category-cloud-2">geopolityka</span></div><div class="category" data-category="indeks trendów"><span class="quarto-category-count category-cloud-1">indeks trendów</span></div><div class="category" data-category="makroekonomia"><span class="quarto-category-count category-cloud-2">makroekonomia</span></div><div class="category" data-category="Świat"><span class="quarto-category-count category-cloud-2">Świat</span></div><div class="category" data-category="świat"><span class="quarto-category-count category-cloud-2">świat</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Kategorie</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Azoty"><span class="quarto-category-count category-cloud-1">Azoty</span></div><div class="category" data-category="Dane makro"><span class="quarto-category-count category-cloud-1">Dane makro</span></div><div class="category" data-category="Europa"><span class="quarto-category-count category-cloud-2">Europa</span></div><div class="category" data-category="GPW"><span class="quarto-category-count category-cloud-6">GPW</span></div><div class="category" data-category="Geopolityka"><span class="quarto-category-count category-cloud-2">Geopolityka</span></div><div class="category" data-category="KGHM"><span class="quarto-category-count category-cloud-2">KGHM</span></div><div class="category" data-category="Makro"><span class="quarto-category-count category-cloud-1">Makro</span></div><div class="category" data-category="Makroekonomia"><span class="quarto-category-count category-cloud-1">Makroekonomia</span></div><div class="category" data-category="Orlen"><span class="quarto-category-count category-cloud-1">Orlen</span></div><div class="category" data-category="PGE"><span class="quarto-category-count category-cloud-1">PGE</span></div><div class="category" data-category="Prasówka"><span class="quarto-category-count category-cloud-6">Prasówka</span></div><div class="category" data-category="Ropa"><span class="quarto-category-count category-cloud-1">Ropa</span></div><div class="category" data-category="Sentyment"><span class="quarto-category-count category-cloud-3">Sentyment</span></div><div class="category" data-category="Trump"><span class="quarto-category-count category-cloud-1">Trump</span></div><div class="category" data-category="USA"><span class="quarto-category-count category-cloud-2">USA</span></div><div class="category" data-category="WIG20"><span class="quarto-category-count category-cloud-1">WIG20</span></div><div class="category" data-category="Wall Street"><span class="quarto-category-count category-cloud-1">Wall Street</span></div><div class="category" data-category="Wiadomości Światowe"><span class="quarto-category-count category-cloud-1">Wiadomości Światowe</span></div><div class="category" data-category="Wyniki finansowe"><span class="quarto-category-count category-cloud-1">Wyniki finansowe</span></div><div class="category" data-category="analiza rynku"><span class="quarto-category-count category-cloud-1">analiza rynku</span></div><div class="category" data-category="cła"><span class="quarto-category-count category-cloud-1">cła</span></div><div class="category" data-category="geopolityka"><span class="quarto-category-count category-cloud-2">geopolityka</span></div><div class="category" data-category="indeks trendów"><span class="quarto-category-count category-cloud-1">indeks trendów</span></div><div class="category" data-category="makroekonomia"><span class="quarto-category-count category-cloud-2">makroekonomia</span></div><div class="category" data-category="Świat"><span class="quarto-category-count category-cloud-2">Świat</span></div><div class="category" data-category="świat"><span class="quarto-category-count category-cloud-2">świat</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -280,7 +281,40 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Prasówka,GPW,WIG20,Trump,cła,KGHM,Azoty" data-listing-date-sort="1771714800000" data-listing-file-modified-sort="1771745243647" data-listing-date-modified-sort="1771745243000" data-listing-reading-time-sort="3" data-listing-word-count-sort="524">
+<div class="quarto-post image-right" data-index="0" data-categories="Wiadomości Światowe" data-listing-date-sort="1771714800000" data-listing-file-modified-sort="1771754585959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="422">
+<div class="thumbnail">
+<p><a href="./posts/2026-02-22-prasowka-swiat/index.html" class="no-external"></a></p><a href="./posts/2026-02-22-prasowka-swiat/index.html" class="no-external">
+<p><img src="./images/world-news-2026.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2026-02-22-prasowka-swiat/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2026-02-22-prasowka-swiat/index.html" class="no-external">Prasówka Światowa – 22 lutego 2026</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2026-02-22-prasowka-swiat/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Wiadomości Światowe'); return false;">
+Wiadomości Światowe
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2026-02-22-prasowka-swiat/index.html" class="no-external">Najważniejsze wydarzenia ze świata: cła Trumpa 15%, ataki Pakistanu na Afghanistan, amnestia w Wenezueli, tragedii na Bajkale</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2026-02-22-prasowka-swiat/index.html" class="no-external">
+<div class="listing-date">
+22 lut 2026
+</div>
+<div class="listing-author">
+DomenaRynku.pl
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Prasówka,GPW,WIG20,Trump,cła,KGHM,Azoty" data-listing-date-sort="1771714800000" data-listing-file-modified-sort="1771745243647" data-listing-date-modified-sort="1771745243000" data-listing-reading-time-sort="3" data-listing-word-count-sort="524">
 <div class="thumbnail">
 <p><a href="./posts/2026-02-22-prasowka-gpw/index.html" class="no-external"></a></p><a href="./posts/2026-02-22-prasowka-gpw/index.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -328,7 +362,7 @@ Azoty
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="świat,geopolityka,makroekonomia,USA,Europa" data-listing-date-sort="1771628400000" data-listing-file-modified-sort="1771668232364" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="684">
+<div class="quarto-post image-right" data-index="2" data-categories="świat,geopolityka,makroekonomia,USA,Europa" data-listing-date-sort="1771628400000" data-listing-file-modified-sort="1771668232364" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="684">
 <div class="thumbnail">
 <p><a href="./posts/2026-02-21-prasowka-swiat/index.html" class="no-external"></a></p><a href="./posts/2026-02-21-prasowka-swiat/index.html" class="no-external">
 <p><img src="./images/world-news.jpg" class="thumbnail-image"></p>
@@ -373,7 +407,7 @@ Prasówka Światowa
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Prasówka,GPW,KGHM,Orlen,PGE,Wall Street" data-listing-date-sort="1771628400000" data-listing-file-modified-sort="1771658926193" data-listing-date-modified-sort="1771658926000" data-listing-reading-time-sort="5" data-listing-word-count-sort="809">
+<div class="quarto-post image-right" data-index="3" data-categories="Prasówka,GPW,KGHM,Orlen,PGE,Wall Street" data-listing-date-sort="1771628400000" data-listing-file-modified-sort="1771658926193" data-listing-date-modified-sort="1771658926000" data-listing-reading-time-sort="5" data-listing-word-count-sort="809">
 <div class="thumbnail">
 <p><a href="./posts/2026-02-21-prasowka-gpw/index.html" class="no-external"></a></p><a href="./posts/2026-02-21-prasowka-gpw/index.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -418,7 +452,7 @@ Wall Street
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Prasówka,GPW,Sentyment,Dane makro,Ropa" data-listing-date-sort="1771542000000" data-listing-file-modified-sort="1771572481289" data-listing-date-modified-sort="1771572481000" data-listing-reading-time-sort="2" data-listing-word-count-sort="398">
+<div class="quarto-post image-right" data-index="4" data-categories="Prasówka,GPW,Sentyment,Dane makro,Ropa" data-listing-date-sort="1771542000000" data-listing-file-modified-sort="1771572481289" data-listing-date-modified-sort="1771572481000" data-listing-reading-time-sort="2" data-listing-word-count-sort="398">
 <div class="thumbnail">
 <p><a href="./posts/2026-02-20-prasowka-gpw/index.html" class="no-external"></a></p><a href="./posts/2026-02-20-prasowka-gpw/index.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -460,7 +494,7 @@ Ropa
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="świat,geopolityka,makroekonomia,USA,Europa" data-listing-date-sort="1771542000000" data-listing-file-modified-sort="1771581739209" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="474">
+<div class="quarto-post image-right" data-index="5" data-categories="świat,geopolityka,makroekonomia,USA,Europa" data-listing-date-sort="1771542000000" data-listing-file-modified-sort="1771581739209" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="474">
 <div class="thumbnail">
 <p><a href="./posts/2026-02-20-prasowka-swiat/index.html" class="no-external"></a></p><a href="./posts/2026-02-20-prasowka-swiat/index.html" class="no-external">
 <p><img src="./images/world-news.jpg" class="thumbnail-image"></p>
@@ -505,7 +539,7 @@ Prasówka Światowa
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Prasówka,GPW,Sentyment,Wyniki finansowe" data-listing-date-sort="1771455600000" data-listing-file-modified-sort="1771528576956" data-listing-date-modified-sort="1771528576000" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
+<div class="quarto-post image-right" data-index="6" data-categories="Prasówka,GPW,Sentyment,Wyniki finansowe" data-listing-date-sort="1771455600000" data-listing-file-modified-sort="1771528576956" data-listing-date-modified-sort="1771528576000" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
 <div class="thumbnail">
 <p><a href="./posts/2026-02-19-prasowka-gpw/index.html" class="no-external"></a></p><a href="./posts/2026-02-19-prasowka-gpw/index.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -544,7 +578,7 @@ Wyniki finansowe
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="Prasówka,Świat,Geopolityka,Makroekonomia" data-listing-date-sort="1771455600000" data-listing-file-modified-sort="1771528061185" data-listing-date-modified-sort="1771528061000" data-listing-reading-time-sort="3" data-listing-word-count-sort="580">
+<div class="quarto-post image-right" data-index="7" data-categories="Prasówka,Świat,Geopolityka,Makroekonomia" data-listing-date-sort="1771455600000" data-listing-file-modified-sort="1771528061185" data-listing-date-modified-sort="1771528061000" data-listing-reading-time-sort="3" data-listing-word-count-sort="580">
 <div class="thumbnail">
 <p><a href="./posts/2026-02-19-prasowka-swiat/index.html" class="no-external"></a></p><a href="./posts/2026-02-19-prasowka-swiat/index.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -583,7 +617,7 @@ Makroekonomia
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="Świat,Makro,Geopolityka" data-listing-date-sort="1770332400000" data-listing-file-modified-sort="1770398179276" data-listing-date-modified-sort="1770398179000" data-listing-reading-time-sort="2" data-listing-word-count-sort="273">
+<div class="quarto-post image-right" data-index="8" data-categories="Świat,Makro,Geopolityka" data-listing-date-sort="1770332400000" data-listing-file-modified-sort="1770398179276" data-listing-date-modified-sort="1770398179000" data-listing-reading-time-sort="2" data-listing-word-count-sort="273">
 <div class="thumbnail">
 <p><a href="./posts/2026-02-06-flesz-ze-swiata-sankcje-i-budzet-usa/index.html" class="no-external"></a></p><a href="./posts/2026-02-06-flesz-ze-swiata-sankcje-i-budzet-usa/index.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -619,7 +653,7 @@ Geopolityka
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="Prasówka,GPW,Sentyment" data-listing-date-sort="1770332400000" data-listing-file-modified-sort="1770395510924" data-listing-date-modified-sort="1770395510000" data-listing-reading-time-sort="2" data-listing-word-count-sort="309">
+<div class="quarto-post image-right" data-index="9" data-categories="Prasówka,GPW,Sentyment" data-listing-date-sort="1770332400000" data-listing-file-modified-sort="1770395510924" data-listing-date-modified-sort="1770395510000" data-listing-reading-time-sort="2" data-listing-word-count-sort="309">
 <div class="thumbnail">
 <p><a href="./posts/2026-02-06-prasowka-popoludniowa-test/index.html" class="no-external"></a></p><a href="./posts/2026-02-06-prasowka-popoludniowa-test/index.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -655,7 +689,7 @@ Sentyment
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="analiza rynku,indeks trendów,GPW" data-listing-date-sort="1732143600000" data-listing-file-modified-sort="1763719200000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2864">
+<div class="quarto-post image-right" data-index="10" data-categories="analiza rynku,indeks trendów,GPW" data-listing-date-sort="1732143600000" data-listing-file-modified-sort="1763719200000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2864">
 <div class="thumbnail">
 <p><a href="./posts/2024-11-21-indeks-trendow-analiza/index.html" class="no-external"></a></p><a href="./posts/2024-11-21-indeks-trendow-analiza/index.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -698,6 +732,9 @@ DomenaRynku.pl
 <div class="listing-no-matching d-none">
 Brak pasujących
 </div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
