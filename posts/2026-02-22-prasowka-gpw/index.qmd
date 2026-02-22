@@ -1,0 +1,71 @@
+---
+title: "Poranna prasówka GPW: Cła Trumpa rosną, tydzień pod znakiem niepewności"
+pagetitle: "Prasówka GPW 22.02.2026 | DomenaRynku.pl"
+date: "2026-02-22"
+date-modified: last-modified
+categories: [Prasówka, GPW, WIG20, Trump, cła, KGHM, Azoty]
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Przegląd najważniejszych wydarzeń na GPW z 22 lutego 2026. Trump podnosi cła do 15%, KGHM liderem wzrostów, Azoty Polyolefins z układem wierzycieli.">
+      <meta name="keywords" content="GPW, WIG20, Trump, cła, KGHM, Azoty Polyolefins, deweloperzy, giełda">
+---
+
+Niedziela, 22 lutego 2026 roku. Miniony tydzień na warszawskiej giełdzie upłynął pod znakiem zmiennej koniunktury, napędzanej przede wszystkim czynnikami zewnętrznymi — od polityki handlowej USA, przez sytuację na rynkach surowcowych, po wydarzenia geopolityczne.
+
+### Podsumowanie tygodnia na GPW (17-21 lutego)
+
+Miniony tydzień na warszawskiej giełdzie przyniósł mieszane nastroje. Indeks blue chipów WIG20 zakończył tydzień niewielkim spadkiem, utrzymując się w pobliżu poziomu 3400 punktów. Szeroki WIG również zakończył tydzień na minusie.
+
+**Przebieg tygodnia:**
+- Poniedziałek: WIG20 +0,14 proc.
+- Wtorek: WIG20 -1,27 proc. (najgorszy dzień)
+- Środa: WIG20 +1,69 proc. (najlepszy dzień)
+- Czwartek: WIG20 +0,22 proc.
+- Piątek: WIG20 -0,04 proc.
+
+### Trump podnosi cła do 15%
+
+Prezydent USA Donald Trump zapowiedział w sobotę podniesienie tymczasowej globalnej stawki celnej z 10 do 15 proc. na towary importowane. Decyzja ta nastąpiła po tym, jak Sąd Najwyższy Stanów Zjednoczonych unieważnił większość taryf nałożonych wcześniej przez administrację Trumpa. Inwestorzy na światowych rynkach pozostają w niepewności co do dalszych kroków polityki handlowej USA.
+
+### KGHM liderem minionego tygodnia
+
+KGHM był bezapelacyjnym liderem minionego tygodnia na warszawskiej giełdzie. W czwartek akcje miedziowego giganta zwyżkowały o niemal 9 proc. przy obrotach na poziomie 351,7 mln zł. To kolejny silny wzrost — na cztery poprzednie sesje spółka trzykrotnie zanotowała kilkuprocentowy wzrost.
+
+**Tło rynkowe:** Notowania miedzi od kilku miesięcy systematycznie zwyżkują. W czwartek cena miedzi wzrosła o ponad 6 proc., przekraczając kolejną historyczną barierę. Srebro drożało o 2,5 proc. W ciągu ostatnich dwóch miesięcy cena miedzi wzrosła o ponad 8 proc., a srebra — o ok. 120 proc. od końca listopada 2025 roku.
+
+### Azoty Polyolefins: układ z wierzycielami
+
+Spółka Grupa Azoty Polyolefins (GAP) zaproponowała w sobotę wierzycielom układ, zgodnie z którym spłaci im ok. 17 proc. wierzytelności. Suma tych wierzytelności to ponad 6 mld zł. Spółka buduje instalację Polimery Police, m.in. do produkcji propylenu.
+
+### Rekordowy optymizm deweloperów
+
+53,8 proc. deweloperów oczekuje wzrostu sprzedaży mieszkań, co jest najlepszym odczytem od 2023 roku — wynika z Indeksu Nastrojów Deweloperów Tabelaofert.pl. Eksperci zauważyli jednak, że mimo rosnącego optymizmu, 80 proc. deweloperów deklaruje, że nie zamierza obniżać cen.
+
+### Geopolityka: atak na Kijów
+
+W niedzielę nad ranem Rosja przeprowadziła zmasowany atak rakietowy na Kijów. Ranna została kobieta i dziecko — przekazał portal Ukrainska Prawda, powołując się na informacje podane przez burmistrza stolicy Witalija Kliczko i szefa Miejskiej Administracji Wojskowej. Polska poderwała myśliwce w ramach procedury alarmowej.
+
+### Przegląd spółek
+
+**Orlen** — w czwartek akcje Orlenu zwyżkowały o 3 proc., stając się jednym z liderów wzrostów na WIG20. W całym tygodniu spółka radziła sobie dobrze — od początku roku do środowego zamknięcia zyskała ponad 9 proc.
+
+**PGE** — akcje spółki w czwartek drożały o 2,5 proc., będąc jednym z najsilniejszych elementów indeksu WIG Energia.
+
+**Kruk** — największym przegranym piątkowej sesji była spółka windykacyjna. Po publikacji wstępnych wyników za IV kwartał 2025 roku, które okazały się gorsze od oczekiwań rynku, akcje Kruka zanurkowały o 9,3 proc.
+
+**CCC (Modivo)** — spółka obuwnicza kontynuowała spadki z poprzednich sesji. W piątek akcje potaniały o 2,7 proc.
+
+### Perspektywy na nadchodzący tydzień
+
+Kluczowym czynnikiem dla przyszłego tygodnia będzie dalszy rozwój sytuacji polityki handlowej USA oraz wydarzenia geopolityczne. Inwestorzy będą również obserwować sytuację na rynkach surowcowych, szczególnie cenы miedzi i ropy naftowej.
+
+Drugim ważnym czynnikiem będą wyniki Nvidii, która w przyszłym tygodniu ma opublikować kwartalny raport. Spółka jest uważana za kluczową, jeśli chodzi o wyznacznik rozwoju sztucznej inteligencji.
+
+---
+*Źródła:*
+- [Bankier](https://www.bankier.pl/wiadomosc/Trump-zapowiedzial-podniesienie-globalnej-stawki-celnej-z-10-do-15-procent-9087265.html){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/Azoty-Polyolefins-proponuja-wierzycielom-zwrot-17-proc-dlugow-9087281.html){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/Rekordowy-optymizm-wsrod-deweloperow-ale-cenniki-nie-pojda-w-dol-9084194.html){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/Zmasowany-atak-rakietowy-na-Kijow-w-niedzielny-poranek-Polska-poderwala-mysliwce-9087342.html){rel="nofollow"}
+- [Strefa Inwestorów](https://strefainwestorow.pl/strefa-global-market/spolki/najpopularniejsze-akcje-gpw-saxo-bank){rel="nofollow"}
