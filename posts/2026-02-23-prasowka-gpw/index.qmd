@@ -1,0 +1,54 @@
+---
+title: "Poranna prasówka GPW: Cła, ropa i nastroje przed sesją"
+pagetitle: "Prasówka GPW 23.02.2026 | DomenaRynku.pl"
+date: "2026-02-23"
+date-modified: last-modified
+categories: [Prasówka, GPW, WIG20, ropa, miedź, Trump, cła]
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Przegląd najważniejszych wydarzeń na GPW z 23 lutego 2026. Ceny ropy spadają, Chiny odpowiadają na cła USA, nastroje przed poniedziałkową sesją.">
+      <meta name="keywords" content="GPW, WIG20, ropa, miedź, Trump, cła, Chiny, GPW sesja">
+---
+
+Poniedziałek, 23 lutego 2026 roku. Przed nami nowy tydzień na warszawskiej giełdzie. Inwestorzy oceniają sytuację po serii globalnych wydarzeń — od polityki celnej USA, przez sytuację na rynkach surowcowych, po rozwój wydarzeń geopolitycznych.
+
+### Ropa tanieje, Chiny odpowiadają na cła
+
+Ceny ropy naftowej spadają — inwestorzy oceniają perspektywy porozumienia nuklearnego USA z Iranem — podaje [Bankier](https://www.bankier.pl/wiadomosc/Ceny-ropy-ida-w-dol-Rynki-rozwazaja-szanse-na-porozumienie-nuklearne-USA-z-Iranem-9087519.html){rel="nofollow"}. Jednocześnie Chiny wezwały USA do wycofania "jednostronnych środków celnych" — to reakcja Pekinu na orzeczenie Sądu Najwyższego USA, który uznał za nielegalne taryfy nałożone przez prezydenta Donalda Trumpa — informuje [Bankier](https://www.bankier.pl/wiadomosc/Walka-szkodzi-wszystkim-Ministerstwo-handlu-Chin-USA-powinny-zniesc-jednostronne-cla-9087468.html){rel="nofollow"}.
+
+### Miedź drożeje w Londynie
+
+Notowania miedzi na giełdzie metali LME w Londynie rosną po osłabieniu kursu dolara — informują maklerzy. To reakcja na niepewność związaną z amerykańską polityką taryfową, co szkodzi notowaniom dolara — podaje [Bankier](https://www.bankier.pl/wiadomosc/Ceny-miedzi-w-Londynie-rosna-po-oslabieniu-kursu-dolara-9087511.html){rel="nofollow"}.
+
+### Geopolityka: Zełenski o "III wojnie światowej"
+
+Prezydent Ukrainy Wołodymyr Zełenski oświadczył, że Zachód powinien skupić się na powstrzymywaniu Rosji, a nie na próbach przypodobania się Putinowi. W wywiadzie dla BBC prezydent powiedział, że Putin już rozpoczął III wojnę światową — podaje [Bankier](https://www.bankier.pl/wiadomosc/Zelenski-w-BBC-Putin-juz-rozpoczal-III-wojne-swiatowa-9087521.html){rel="nofollow"}.
+
+### Nastroje polskich konsumentów
+
+**Stopa oszczędności Polaków** osiągnęła 10,2 proc. w III kwartale 2025 roku — to najwyższy wynik od pięciu lat — informuje [Bankier](https://www.bankier.pl/wiadomosc/Stopa-oszczednosci-Polakow-osiagnela-10-2-proc-Najwyzszy-wynik-od-pieciu-lat-9087479.html){rel="nofollow"}, powołując się na Polski Instytut Ekonomiczny.
+
+Jednocześnie **71,6 proc. Polaków nie obawia się utraty pracy** — wynika z raportu UCE Research i platformy ePsycholodzy. Z możliwością utraty pracy w tym roku liczy się 16,5 proc. ankietowanych — podaje [Bankier](https://www.bankier.pl/wiadomosc/Bezrobocie-nam-nie-straszne-Siedem-na-dziesiec-osob-nie-boi-sie-utraty-pracy-9087476.html){rel="nofollow"}.
+
+### Komunikaty spółek (ESPI)
+
+Ze względu na ograniczenia techniczne w dostępie do serwisów informacyjnych, szczegółowe komunikaty ESPI zostaną uzupełnione w kolejnych edycjach prasówki.
+
+### Perspektywy na poniedziałkową sesję
+
+Kluczowe czynniki dla dzisiejszej sesji:
+- **Polityka handlowa USA** — rozwój sytuacji po orzeczeniu Sądu Najwyższego USA ws. ceł
+- **Rynki surowcowe** — ceny ropy i miedzi
+- **Geopolityka** — sytuacja wokół konfliktu rosyjsko-ukraińskiego
+
+Inwestorzy będą również obserwować nastroje na głównych giełdach europejskich i amerykańskich przed startem sesji.
+
+---
+*Źródła:*
+- [Bankier](https://www.bankier.pl/wiadomosc/Ceny-ropy-ida-w-dol-Rynki-rozwazaja-szanse-na-porozumienie-nuklearne-USA-z-Iranem-9087519.html){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/Walka-szkodzi-wszystkim-Ministerstwo-handlu-Chin-USA-powinny-zniesc-jednostronne-cla-9087468.html){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/Ceny-miedzi-w-Londynie-rosna-po-oslabieniu-kursu-dolara-9087511.html){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/Zelenski-w-BBC-Putin-juz-rozpoczal-III-wojne-swiatowa-9087521.html){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/Stopa-oszczednosci-Polakow-osiagnela-10-2-proc-Najwyzszy-wynik-od-pieciu-lat-9087479.html){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/Bezrobocie-nam-nie-straszne-Siedem-na-dziesiec-osob-nie-boi-sie-utraty-pracy-9087476.html){rel="nofollow"}
