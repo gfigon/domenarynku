@@ -1,6 +1,6 @@
 ---
 title: "Prasówka Światowa – 23 lutego 2026"
-description: "Najważniejsze wydarzenia ze świata: cła Trumpa 15%, konflikt USA-Kanada, Mexico: zabicie El Mencho, rozmowy nuklearne Iran-USA, Zielona Przylądek odmawia"
+description: "Najważniejsze wydarzenia ze świata: cła Trumpa 15%, konflikt USA-Kanada, Mexico: zabicie El Mencho, rozmowy nuklearne Iran-USA, Wyspy Zielonego Przylądka odmawia"
 date: "2026-02-23"
 author: "DomenaRynku.pl"
 image: /images/world-news-2026.jpg
@@ -83,12 +83,12 @@ Trump powiedział, że jest "ciekawy", dlaczego Iran się nie "poddał" – co w
 
 ---
 
-## 🔴 Zielona Przylądek odmawia amerykańskiego statku szpitalnego
+## 🔴 Wyspy Zielonego Przylądka odmawiają amerykańskiego statku szpitalnego
 
 Premierka Zielonej Przylądka Múte Bourup Egede odmówiła przyjęcia amerykańskiego statku szpitalnego, który obiecał wysłać prezydent Trump. Decyzja zapadła po tym, jak Trump zasugerował, że USA wyśle statek szpitalny na wyspę.
 
 **Kluczowe fakty:**
-- Premierka przypomniała, że Zielona Przylądek ma "bezpłatną opiekę zdrowotną"
+- Premierka przypomniała, że Wyspy Zielonego Przylądka mają "bezpłatną opiekę zdrowotną"
 - Trump wysłał statek mimo wcześniejszych zapewnień, że nie będzie eskalować
 - Dania potwierdziła, że nie potrzebuje amerykańskiej pomocy
 - Temat pojawił się dzień po ewakuacji marynarza z amerykańskiego okrętu podwodnego
@@ -124,7 +124,7 @@ To kolejny incydent związany z bezpieczeństwem Trumpa – wcześniej doszło d
 | Konflikt USA-Kanada hokej | 22.02.2026 | Wysokie |
 | Meksyk: El Mencho | 22.02.2026 | Wysokie |
 | Iran-USA rozmowy | 23.02.2026 | Wysokie |
-| Zielona Przylądek | 22.02.2026 | Średnie |
+| Wyspy Zielonego Przylądka | 22.02.2026 | Średnie |
 | Mar-a-Lago atak | 23.02.2026 | Wysokie |
 
 ---
