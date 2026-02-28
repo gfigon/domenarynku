@@ -1,0 +1,85 @@
+---
+title: "Prasówka GPW – 28 lutego 2026"
+description: "Poranne podsumowanie wydarzeń na GPW: komunikaty spółek, nastroje przed sesją, kluczowe informacje rynkowe"
+date: "2026-02-28"
+author: "DomenaRynku.pl"
+image: "/images/gpw-news.jpg"
+tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska"]
+layout: "post"
+nofollow: true
+---
+
+# Prasówka GPW – 28 lutego 2026
+
+## 🔑 Najważniejsze wydarzenia
+
+### Fitch potwierdza rating Polski na poziomie "A-" z perspektywą negatywną
+
+Agencja Fitch Ratings potwierdziła w piątek (27 lutego) długoterminowy rating Polski w walucie obcej na poziomie **A- z perspektywą negatywną**. Negatywna perspektywa odzwierciedla prognozy utrzymania się wysokich deficytów fiskalnych.
+
+Minister finansów i gospodarki Andrzej Domański skomentował decyzję, stwierdzając że "potwierdza ona odpowiedzialną politykę gospodarczą państwa".
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Agencja-Fitch-potwierdzila-rating-Polski-na-poziomie-A-z-perspektywa-negatywna-9090602.html){rel="nofollow"}, [PolsatNews](https://www.polsatnews.pl/wiadomosc/2026-02-27/agencja-ratingowa-ocenila-polske-utrzymana-negatywna-perspektywa/){rel="nofollow"}, [Business Insider](https://businessinsider.com.pl/gospodarka/rating-polski-pod-lupa-czy-grozi-nam-obnizka-oceny-w-najblizszych-latach/857nk5b){rel="nofollow"}
+
+---
+
+### Grupa Allegro finalizuje sprzedaż działalności w Słowenii i Chorwacji
+
+Grupa Allegro sfinalizowała sprzedaż swojej działalności w Słowenii i Chorwacji – podała spółka w komunikacie. To kolejny krok w restrukturyzacji międzynarodowej działalności e-commerce.
+
+Transakcja wpisuje się w strategię optymalizacji portfela rynków, na których działa Allegro.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Grupa-Allegro-sfinalizowala-sprzedaz-dzialalnosci-w-Slowenii-i-Chorwacji-9090589.html){rel="nofollow"}
+
+---
+
+## ⛽ paliwa
+
+### Benzyna i diesel drożeją. Analitycy przewidują dalsze podwyżki
+
+Kierowców czekają kolejne podwyżki na stacjach paliw. W pierwszym tygodniu marca benzyna zdrożeje średnio o **4 grosze**, a olej napędowy o **3 grosze** na litrze.
+
+Eksperci z BM Reflex ostrzegają, że mimo chwilowej stabilizacji cen w hurcie, globalna sytuacja geopolityczna może wpłynąć na dalsze wzrosty cen ropy naftowej.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Benzyna-i-diesel-drozeja-Analitycy-przewiduja-dalsze-podwyzki-9090307.html){rel="nofollow"}
+
+---
+
+## 🌍 Makroekonomia i rynki zagraniczne
+
+### Wall Street kończy tydzień spadkami
+
+Piątkowa sesja na Wall Street zakończyła się spadkami głównych indeksów. Akcje spadły po tym, jak najnowsze dane dotyczące wskaźnika cen producenta (PPI) – kluczowego miernika inflacji – okazały się wyższe od oczekiwań.
+
+Inwestorzy obawiają się, że wyższa niż oczekiwana inflacja może wpłynąć na politykę monetarną Fed.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Niepewnosc-na-Wall-Street-Inflacja-zwolnienia-i-znaki-zapytania-wokol-AI-9090601.html){rel="nofollow"}
+
+---
+
+### Tydzień na rynkach: Od 6% bezrobocia w Polsce, po "niesycającą" Nvidię i hossę na złocie
+
+Minął tydzień przynoszący serię sygnałów, które mogą wyznaczyć kierunek dla gospodarki i rynków w 2026 roku:
+
+- **Rynek pracy w Polsce**: Stopa bezrobocia utrzymuje się na poziomie 6%
+- **NVIDIA**: Wyniki spółki nie spełniły oczekiwań inwestorów
+- **Złoto**: Hossa kontynuowana, kurs powyżej 5000 USD za uncję
+- **Polityka USA**: Napięcia wokół działań Trumpa i rynku kryptowalut
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Od-6-bezrobocia-w-Polsce-po-niesycaca-Nvidie-i-hosse-na-zlocie-Rynki-miedzy-euforia-a-ryzykiem-9090149.html){rel="nofollow"}
+
+---
+
+## 📊 Podsumowanie
+
+| Wydarzenie | Data | Źródła |
+|------------|------|--------|
+| Fitch rating Polski A- | 27.02.2026 | Bankier, PolsatNews, Business Insider |
+| Allegro sprzedaż SLO/HR | 27.02.2026 | Bankier |
+| Podwyżki paliw | 27.02.2026 | Bankier |
+| Spadki Wall Street | 27.02.2026 | Bankier |
+
+---
+
+*Data przygotowania: 28 lutego 2026, godz. 08:30 CET*
+*Źródła: Bankier.pl, PolsatNews, Business Insider, Money.pl*
