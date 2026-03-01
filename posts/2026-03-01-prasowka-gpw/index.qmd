@@ -1,0 +1,121 @@
+---
+title: "Prasówka GPW – 1 marca 2026"
+description: "Poranne podsumowanie wydarzeń na GPW: komunikaty spółek, nastroje przed sesją, kluczowe informacje rynkowe"
+date: "2026-03-01"
+author: "DomenaRynku.pl"
+image: "/images/gpw-news.jpg"
+tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska"]
+layout: "post"
+nofollow: true
+---
+
+# Prasówka GPW – 1 marca 2026
+
+## 🔑 Najważniejsze wydarzenia
+
+### RPP w marcu z obniżką stóp o 25 pb? Zgodne prognozy rynkowe
+
+Wszystkie prognozy wskazują na kolejną obniżkę stóp procentowych w marcu. Analitycy z ING, mBanku i PZU są zgodni – Rada Polityki Pieniężnej obetnie stopy o 25 punktów bazowych.
+
+W całym 2025 roku skala obniżek wyniosła 175 pb., sprowadzając stopę referencyjną do poziomu 4,0 proc. Inflacja w styczniu 2026 roku wyniosła 2,2 proc., utrzymując się poniżej celu NBP (2,5 proc.).
+
+Prezes NBP Adam Glapiński podczas lutowej konferencji powiedział, że „marzec będzie dobrym miesiącem na obniżkę stóp procentowych". To pierwszy raz od dawna, gdy szef banku centralnego nie wspominał o ryzykach inflacyjnych.
+
+Źródła: [StrefaInwestorow.pl](https://strefainwestorow.pl/gospodarka/prognozy-stopy-procentowe-marzec-2026){rel="nofollow"}, [StrefaInwestorow.pl](https://strefainwestorow.pl/gospodarka/konferencja-prezes-nbp-luty-2026){rel="nofollow"}
+
+---
+
+### Notowania GPW z 28 lutego: WIG20 kontynuuje korektę
+
+Piątkowa sesja na GPW przyniosła lekkie spadki głównych indeksów. WIG20 zamknął się na poziomie **3440,02 pkt**, co oznacza spadek o 0,24% w porównaniu z poprzednią sesją.
+
+Jednak w ujęciu tygodniowym indeks WIG osiągnął nowy historyczny poziom 126786,67 pkt, co pokazuje siłę polskiego rynku akcji w dłuższej perspektywie.
+
+| Indeks | Zmiana % | Wartość |
+|--------|----------|---------|
+| WIG20 | -0,24% | 3440,02 |
+| WIG | -0,08% | 126786,67 |
+| mWIG40 | +0,28% | 8931,85 |
+| sWIG80 | +0,51% | 31300,10 |
+
+Źródła: [StrefaInwestorow.pl](https://strefainwestorow.pl/blog/w-poszukiwaniu-sygnalow/w-poszukiwaniu-sygnalow-28-lutego-2026-analiza-miesieczna){rel="nofollow"}
+
+---
+
+## 📊 Obligacje Skarbu Państwa – oferta na marzec 2026
+
+Ministerstwo Finansów opublikowało marcową ofertę obligacji oszczędnościowych. Oprocentowanie pozostaje bez zmian w porównaniu z lutym.
+
+**Oprocentowanie w pierwszym okresie odsetkowym:**
+
+| Typ obligacji | Oprocentowanie |
+|---------------|----------------|
+| 3-miesięczne (OTS) | 2,50% |
+| 1-roczne (ROR) | 4,25% |
+| 2-letnie (DOR) | 4,40% |
+| 3-letnie (TOS) | 4,65% |
+| 4-letnie (COI) | 5,00% |
+| 10-letnie (EDO) | 5,60% |
+| 6-letnie rodzinne (ROS) | 5,20% |
+| 12-letnie rodzinne (ROD) | 5,85% |
+
+W styczniu 2026 roku sprzedano obligacje oszczędnościowe o wartości **5,76 mld zł** – rekordowy wynik. Najpopularniejsze były obligacje 1-roczne (34% sprzedaży) i 3-letnie (29%).
+
+Źródła: [StrefaInwestorow.pl](https://strefainwestorow.pl/obligacje/oferta-obligacje-skarbowe-marzec-2026){rel="nofollow"}
+
+---
+
+## 💡 Dywidendowe okazje na GPW w 2026 roku
+
+Na warszawskiej giełdzie jest wiele spółek łączących regularne wypłaty dywidendy z trendem wzrostowym kursu akcji. Analitycy wyróżnili 7 spółek z potencjałem na znacząco wyższą dywidendę w 2026 roku:
+
+| Spółka | Potencjalny wzrost dywidendy | Szacowana stopa |
+|--------|------------------------------|-----------------|
+| AB | +115% | ok. 5% |
+| Ultimate Games | +80% | ok. 6% |
+| Seco | +35% | ok. 4% |
+| Votum | +34% | ok. 11% |
+| GPM Vindexus | +24% | ok. 4% |
+| GPW | +24% | ok. 5% |
+| Mennica Polska | +22% | ok. 3% |
+
+GPW sama jest atrakcyjną spółką dywidendową – od roku porusza się w silnym trendzie wzrostowym, a w 2025 roku wypłaciła 3,15 zł na akcję.
+
+Źródła: [StrefaInwestorow.pl](https://strefainwestorow.pl/dywidendy/trend-wzrostowy-wyzsze-dywidendy-w-2026-r){rel="nofollow"}
+
+---
+
+## ⛽ Ropa i paliwa
+
+### Ceny ropy stabilne mimo napięć na Bliskim Wschodzie
+
+Mimo eskalacji konfliktu na Bliskim Wschodzie, ceny ropy naftowej pozostają relatywnie stabilne. Kontrakty terminowe na moskiewskiej giełdzie wzrosły jedynie o 0,19%, osiągając cenę 72,7 USD za baryłkę.
+
+W ubiegłym tygodniu analitycy BM Reflex przewidywali podwyżki cen paliw w Polsce: benzyna drożeje średnio o 4 grosze, a diesel o 3 grosze na litrze.
+
+---
+
+## 📊 Kalendarium makroekonomiczne na ten tydzień
+
+| Data | Wydarzenie |
+|------|------------|
+| 3 marca (wtorek) | GUS poda dane o produkcji przemysłowej |
+| 4 marca (środa) | GUS opublikuje dane o sprzedaży detalicznej |
+| 5 marca (czwartek) | Posiedzenie EBC |
+| 6 marca (piątek) | Raport NBP o inflacji |
+
+---
+
+## 📈 Podsumowanie
+
+| Wydarzenie | Data | Źródła |
+|------------|------|--------|
+| RPP obniżka stóp - prognoza | 28.02.2026 | StrefaInwestorow.pl |
+| WIG20 -0,24% | 27.02.2026 | StrefaInwestorow.pl |
+| Obligacje MF marzec | 25.02.2026 | StrefaInwestorow.pl |
+| Dywidendy GPW 2026 | 28.02.2026 | StrefaInwestorow.pl |
+
+---
+
+*Data przygotowania: 1 marca 2026, godz. 08:30 CET*
+*Źródła: StrefaInwestorow.pl, Bankier.pl*
