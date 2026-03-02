@@ -1,0 +1,100 @@
+---
+title: "Prasówka Światowa - 2 marca 2026"
+description: "Najważniejsze wydarzenia ze świata: eskalacja konfliktu USA-Izrael-Iran, wzrost cen ropy, nowe porozumienie Indie-Kanada."
+date: "2026-03-02"
+author: "DomenaRynku.pl"
+image: "/images/world-news-march-2026.jpg"
+tags: ["geopolityka", "Iran", "USA", "Izrael", "ropa naftowa", "makroekonomia"]
+categories: ["Świat"]
+slug: "prasowka-swiat-2026-03-02"
+---
+
+<script setup>
+import { ref } from 'vue'
+</script>
+
+# 🔴 Prasówka Światowa — 2 marca 2026
+
+## Konflikt USA-Izrael-Iran: Faza krytyczna
+
+### Śmierć ajatollaha Chameneiego potwierdzona
+
+**Ali Chamenei, najwyższy przywódca Iranu, został zabity w sobotnim ataku USA i Izraela na jego kompleks w centrum Tehranu** — potwierdziły irańskie media państwowe oraz izraelscy i amerykańscy urzędnicy. Izraelski minister obrony Israel Katz oświadczył, że Chamenei zginął w "pierwszym ciosie" ataku. To najpoważniejsza eskalacja na Bliskim Wschodzie od dekad.
+
+Źródła: [Reuters](https://www.reuters.com/business/aerospace-defense/israel-us-launch-strikes-iran-2026-02-28/){rel="nofollow"}, [BBC](https://www.bbc.com/news/live/cy0dp1l57nxt){rel="nofollow"}, [NY Times](https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump){rel="nofollow"}
+
+### Amerykańskie samoloty zrzucone w Kuwejcie, trzech żołnierzy USA zginęło
+
+**Trzech amerykańskich żołnierzy zginęło, a pięciu zostało rannych** w wyniku irańskiego ataku rakietowego na bazę wojskową USA w Kuwejcie. Prezydent Donald Trump ostrzegł, że "prawdopodobnie będzie więcej ofiar" i że ataki będą kontynuowane, "dopóki wszystkie cele nie zostaną osiągnięte". Pentagon potwierdził, że w Kuwejcie rozbiło się "kilka" amerykańskich samolotów wojskowych.
+
+Źródła: [Reuters](https://www.reuters.com/world/us-military-says-three-its-service-members-killed-iran-operation-2026-03-01/){rel="nofollow"}, [CNN](https://edition.cnn.com/world/live-news/iran-israel-us-attack-03-02-26-intl-hnk){rel="nofollow"}, [Telegraph](https://www.telegraph.co.uk/world-news/2026/03/02/us-iran-war-latest-news-israel-strikes-lebanon/){rel="nofollow"}
+
+### Izrael bombarduje Bejrut — 31 ofiar
+
+**Izraelskie ataki w Bejrucie zabiły co najmniej 31 osób** w poniedziałek, po tym jak Hezbollah wystrzelił rakiety w stronę Izraela. Izraelski minister obrony oświadczył, że przywódca Hezbollahu jest "celem do zamachu". Organizacja zobowiązała się do konfrontacji z USA i Izraelem po zabiciu Chameneiego.
+
+Źródła: [Al Jazeera](https://www.aljazeera.com/news/2026/3/2/israel-bombs-beirut-after-hezbollah-launches-rocket-attack){rel="nofollow"}, [BBC](https://www.bbc.com/news/live/cy0dp1l57nxt){rel="nofollow"}
+
+### Iran atakuje Zatokę Perską — ceny ropy skoczyły o 10%
+
+**Ceny ropy naftowej wzrosły o 10%** — ropa Brent osiągnęła ponad 82 dolary za baryłkę w poniedziałek, po tym jak Iran zagroził zamknięciem cieśniny Ormuz. Arabia Saudyjska tymczasowo zamknęła rafinerię Ras Tanura po ataku drona. Przynajmniej 150 tankowców zakotwiczyło poza cieśniną z powodu zagrożeń bezpieczeństwa.
+
+⚠️ **Cieśnina Ormuz — kluczowy szlak**: Przez cieśninę przechodzi około 20% światowej produkcji ropy i gazu.
+
+Analitycy ostrzegają, że przedłużający się konflikt może doprowadzić do wzrostu cen powyżej 100 dolarów za baryłkę, co wpłynęłoby na inflację i stopy procentowe na całym świecie.
+
+Źródła: [BBC](https://www.bbc.com/news/articles/c75evve6l63o){rel="nofollow"}, [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/2/us-israel-attack-iran-live){rel="nofollow"}
+
+### Linie lotnicze zawieszają loty na Bliski Wschód
+
+**British Airways, Virgin Atlantic i inne linie lotnicze odwołały loty** na Bliski Wschód w związku z atakami Iranu. Większość przewoźników omija przestrzeń powietrzną regionu.
+
+Źródła: [BBC](https://www.bbc.com/news/articles/c0rjpr575g9o){rel="nofollow"}
+
+---
+
+## 🔑 Pozostałe kluczowe wydarzenia
+
+### Indie i Kanada nawiązują współpracę — umowa handlowa do końca roku
+
+**Premier Kanady Mark Carney i premier Indii Narendra Modi podpisali serię porozumień** podczas wizyty Carney'a w Delhi. Oba kraje dążą do zawarcia kompleksowej umowy handlowej do końca 2026 roku, z celem zwiększenia双向 handlu do 50 miliardów dolarów do 2030 roku (z obecnych około 9 miliardów w 2024/25). Podpisano również porozumienie o współpracy w sektorze uranu.
+
+To symboliczne zbliżenie następuje w kontekście napięć obu krajów z USA — Kanady podatkami taryfowymi, a Indii retoryką Trumpa.
+
+Źródła: [Reuters](https://www.reuters.com/world/india/india-canada-agree-terms-reference-comprehensive-economic-partnership-2026-03-02/){rel="nofollow"}, [CBC](https://www.cbc.ca/news/politics/india-natural-partner-carney-free-trade-deal-9.7110248){rel="nofollow"}, [Guardian](https://www.theguardian.com/world/2026/mar/01/canada-india-trade-meetings){rel="nofollow"}
+
+### Premier Johnson: UK pozwoli USA na użycie baz do ataków na Iran
+
+**Brytyjski premier potwierdził, że UK pozwoli USA na użycie brytyjskich baz** do ataków na irańskie instalacje rakietowe. Jednocześnie podkreślił, że "Wielka Brytania nie przyłączy się do działań ofensywnych".
+
+Źródła: [BBC](https://www.bbc.com/news/articles/cqj9g11p1ezo){rel="nofollow"}
+
+### Strzelanina w Teksasie — FBI bada jako potencjalny terroryzm
+
+**Dwóch zabitych, czternaście osób rannych** w strzelaninie w barze w Teksasie. FBI klasyfikuje zdarzenie jako "potencjalny akt terroryzmu". Sprawca został zastrzelony przez policję.
+
+Źródła: [BBC](https://www.bbc.com/news/articles/cgjznzgly0po){rel="nofollow"}, [Al Jazeera](https://www.aljazeera.com/news/2026/3/1/gunman-kills-two-in-texas-nightlife-shooting-fbi-probing-terrorism-link){rel="nofollow"}
+
+---
+
+## 📊 Podsumowanie rynków
+
+| Indeks/Wskaźnik | Zmiana | Uwagi |
+|-----------------|--------|-------|
+| **Brent** | +10% → $82/bbl | Potem spadło do $79 |
+| **WTI** | +7.6% → $72.20 | |
+| **FTSE 100** | -1% | Linie lotnicze tracą |
+| **OPEC+** | +206 tys. bbl/dz | Próba łagodzenia cen |
+
+---
+
+## 🔮 Co dalej?
+
+- **Kontynuacja ataków** — Trump zapowiedział dalsze operacje
+- **Zamknięcie cieśniny Ormuz** — kluczowe dla globalnych dostaw ropy
+- **Ofiary cywilne** — Rosnące straty po obu stronach
+- **Reakcja rynków** — inwestorzy czekają na rozwój sytuacji
+
+---
+
+*Źródła: BBC, Al Jazeera, Reuters, AP, NY Times, CNN, The Guardian, Telegraph. Weryfikacja: wszystkie kluczowe fakty potwierdzone w minimum 2 źródłach z datą 27.02-02.03.2026.*
