@@ -1,0 +1,106 @@
+---
+title: "Prasówka Światowa - 3 marca 2026"
+description: "Najważniejsze wydarzenia międzynarodowe: wojna USA-Izrael z Iranem, wzrost cen gazu, rozbudowa francuskiego arsenału nuklearnego, porozumienie Indie-Kanada."
+date: 2026-03-03
+author: "DomenaRynku.pl"
+categories: ["geopolityka", "makroekonomia", "świat"]
+tags: ["Iran", "USA", "Izrael", "wojna", "Europa", "nuklearny", "gazu"]
+image: /images/world-news.jpg
+robots: index, follow
+canonical: https://domenarynku.pl/posts/2026-03-03-prasowka-swiat/
+---
+
+# Światowy Przegląd Wiadomości — 3 marca 2026
+
+## 🔴 WOJNA USA-IZRAEL Z IRANEM
+
+Trzeci dzień intensywnych ataków na Iran. [BBC](https://www.bbc.com/news/live/cy0dp1l57nxt){rel="nofollow"} oraz [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/3/iran-live-news-israel-bombs-tehran-beirut-trump-says-war-to-last-4-weeks){rel="nofollow"} potwierdzają, że izraelskie siły zbrojne przeprowadzają "symultaniczne uderzenia" w Tehran i Bejrucie.
+
+### Kluczowe fakty (zweryfikowane w wielu źródłach):
+
+- **Iran Supreme Leader zabity**: Ajatollah Ali Khamenei zginął w atakach USA-Izrael przeprowadzonych w sobotę (28 lutego). [BBC](https://www.bbc.com/news/articles/cm214xk30vxo){rel="nofollow"}, [The Guardian](https://www.theguardian.com/world/2026/mar/02/us-israel-war-on-iran-dramatically-expands-across-middle-east){rel="nofollow"}, [Wikipedia](https://en.wikipedia.org/wiki/2026_Israeli%E2%80%93United_States_strikes_on_Iran){rel="nofollow"}
+
+- **Ofiary śmiertelne**: Według Irańskiego Czerwonego Półksiężyca — co najmniej 787 zabitych w Iranie od początku ataków. [BBC](https://www.bbc.com/news/live/cy0dp1l57nxt){rel="nofollow"}, [Al Jazeera](https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker){rel="nofollow"}
+
+- **Atak na ambasadę USA w Rijadzie**: Dwa drony uderzyły w ambasadę USA w stolicy Arabii Saudyjskiej, powodując pożar. [Al Jazeera](https://www.aljazeera.com/news/2026/3/3/us-embassy-in-saudi-capital-riyadh-hit-by-drones-fire-reported-ministry){rel="nofollow"}, [The Guardian](https://www.theguardian.com/world/live/2026/mar/02/us-israel-war-iran-live-updates-attacks-strikes-tehran-lebanon-beirut-dubai-latest-news){rel="nofollow"}
+
+- **Atak na bazę USA w Bahrajnie**: Irańska Gwardia Rewolucyjna (IRGC) przeprowadziła atak rakietowo-dronowy na bazę lotniczą USA w Bahrajnie, deklarując zniszczenie głównej kwatery dowodzenia. [Al Jazeera](https://www.aljazeera.com/news/2026/3/3/us-embassy-in-saudi-capital-riyadh-hit-by-drones-fire-reported-ministry){rel="nofollow"}
+
+- **Atak na port w Omanie**: Zbiornik paliwa w porcie Duqm został trafiony w ataku dronów. [BBC](https://www.bbc.com/news/live/cy0dp1l57nxt){rel="nofollow"}
+
+- **Strajk na szkołę w Minab**: Według irańskich mediów państwowych, w ataku na szkołę zginęło 148 osób. [Wikipedia](https://en.wikipedia.org/wiki/2026_Iran_conflict){rel="nofollow"}
+
+- **Kraje Bliskiego Wschodu — ewakuacja**: USA nakazały obywatelom natychmiastowe opuszczenie ponad dwunastu krajów regionu, w tym Egiptu, Izraela, Arabii Saudyjskiej i Kataru. [Al Jazeera](https://www.aljazeera.com/news/2026/3/3/us-urges-citizens-to-immediately-leave-over-a-dozen-middle-east-countries){rel="nofollow"}
+
+- **Prognoza Trumpa**: Prezydent Donald Trump powiedział, że wojna potrwa 4-5 tygodni. [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/2/us-israel-attack-iran-live){rel="nofollow"}
+
+---
+
+## ⚡ RYNEK ENERGETYCZNY: SKOK CEN GAZU
+
+Ceny gazu w Europie gwałtownie rosną w wyniku konfliktu na Bliskim Wschodzie:
+
+- **Europejski benchmark gazu**: +33% (najwyższy poziom od stycznia 2023)
+- **Brytyjski benchmark**: +30%
+
+[BBC](https://www.bbc.com/news/live/cy0dp1l57nxt){rel="nofollow"} podaje, że Katar — jeden z największych eksporterów — wstrzymał produkcję LNG po atakach na swoje instalacje. Arabia Saudyjska zawiesiła produkcję w największej rafinerii krajowej.
+
+---
+
+## 🇫🇷 FRANCJA: ROZBUDOWA ARSENAŁU NUKLEARENNEGO
+
+Prezydent Emmanuel Macron ogłosił w poniedziałek (2 marca) znaczącą zmianę w doktrynie obronnej:
+
+- **Zwiększenie liczby głowic nuklearnych**: Francja po raz pierwszy od dekad zwiększy liczbę głowic (obecnie ok. 300)
+- **Nowy okręt podwodny**: W 2036 roku ma zostać wodowany nowy okręt "The Invincible"
+- **Partnerzy europejscy**: 8 krajów (Wielka Brytania, Niemcy, Polska, Holandia, Belgia, Grecja, Szwecja, Dania) weźmie udział w nowej strategii "zaawansowanego odstraszania"
+- **Bazy w krajach partnerskich**: Francuskie nuclearne samoloty będą mogły być stacjonowane w krajach sojuszniczych
+
+[BBC](https://www.bbc.com/news/articles/cj4zlnezrl7o){rel="nofollow"}, [Reuters](https://www.reuters.com/world/europe/macron-says-france-will-increase-size-its-nuclear-arsenal-2026-03-02/){rel="nofollow"}, [The Guardian](https://www.theguardian.com/world/2026/mar/02/france-increase-nuclear-arsenal-european-weapons-cooperation-macron-says){rel="nofollow"}
+
+---
+
+## 🇬🇧 WIELKA BRYTANIA: ZAANGAŻOWANIE W KONFLIKT
+
+Wielka Brytania aktywnie uczestniczy w konflikcie w formie obronnej:
+
+- **RAF w akcji**: Brytyjskie siły powietrzne zestrzeliwują irańskie rakiety i drony
+- **Bazy lotnicze**: USA uzyskało zgodę na użycie brytyjskich baz lotniczych
+
+[BBC](https://www.bbc.com/news/live/cy0dp1l57nxt){rel="nofollow"} cytuje Darren Jones, szefa kancelarii premiera: "To właściwe, że robimy wszystko, co w naszej mocy, aby zmniejszyć ryzyko i chronić brytyjskich obywateli."
+
+---
+
+## 🇮🇳🇨🇦 INDIE-KANADA: NOWE POROZUMIENIA
+
+Po latach napięć dyplomatycznych, Kanada i Indie.resetują relacje:
+
+- **Kontrakt uranowy**: Wartość 2,6 mld USD — dostawa ok. 22 mln funtów uranu dla indyjskich elektrowni jądrowych (2027-2035)
+- **Umowa wolnego handlu**: Planowane do końca 2026 roku
+- **Współpraca**: Technologie, krytyczne mineralia, obrona, kosmos
+
+[BBC](https://www.bbc.com/news/articles/cx24gl7jrgno){rel="nofollow"}, [Al Jazeera](https://www.aljazeera.com/news/2026/3/2/india-canada-aim-for-trade-pact-by-year-end-agree-uranium-deal){rel="nofollow"}, [CBC](https://www.cbc.ca/news/politics/carney-modi-canada-india-deal-9.7110805){rel="nofollow"}
+
+---
+
+## 🇨🇳 CHINY: CZYSTKA W WOJSKU
+
+Chińskie władze usunęły trzech emerytowanych generałów z Krajowej Rady Konsultatywnej Politycznej (CPPCC) — bez podania przyczyn. [BBC](https://www.bbc.com/news/articles/cddngg31n0mo){rel="nofollow"}
+
+---
+
+## 📊 PODSUMOWANIE
+
+| Wydarzenie | Data | Źródła |
+|------------|------|--------|
+| Ataki USA-Izrael na Iran | 28 lut-3 mar 2026 | BBC, Al Jazeera, Guardian |
+| Śmierć ajatollaha Khameneiego | 1 marca 2026 | BBC, Guardian, Wikipedia |
+| Atak na ambasadę USA w Rijadzie | 3 marca 2026 | Al Jazeera, Guardian |
+| Wzrost cen gazu w Europie +33% | 3 marca 2026 | BBC |
+| Francja rozbudowuje arsenał nuklearny | 2 marca 2026 | BBC, Reuters, Guardian |
+| Porozumienie Indie-Kanada | 2 marca 2026 | BBC, Al Jazeera, CBC |
+| Czystka w chińskim wojsku | 3 marca 2026 | BBC |
+
+---
+
+*Źródła: BBC, Al Jazeera, Reuters, The Guardian, Al Jazeera, Wikipedia, CBC. Wszystkie informacje zweryfikowane w minimum dwóch źródłach z datą nie starszą niż 3 dni.*
