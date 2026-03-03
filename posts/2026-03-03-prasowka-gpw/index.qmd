@@ -11,7 +11,33 @@ nofollow: true
 
 # Prasówka GPW – 3 marca 2026
 
-## 🔑 Najważniejsze wydarzenia
+## 📉 Rynki: GPW pod presją przez Bliski Wschód
+
+### WIG20 spadł o ponad 2% na otwarciu
+
+Warszawska giełda zareagowała na eskalację konfliktu na Bliskim Wschodzie. Na otwarciu poniedziałkowej sesji indeks największych spółek WIG20 spadł o **2,25% do 3 362,66 pkt**, a WIG o 1,55% do 124 818,53 pkt. Indeks średnich spółek mWIG40 tracił nawet 1,8%.
+
+Najsłabsze w WIG20 były: mBank (spadek o 3,5 proc.), Alior (spadek o 3,5 proc.), PKO BP (spadek o 3,4 proc.), Pekao (spadek o 3,2 proc.), Budimex (spadek o 3,2 proc.) i Żabka (spadek o 3 proc.).
+
+Wśród spółek średnich kapitalizacji negatywnie wyróżniał się Rainbow Tours, który spadał o ponad 10 proc. – to największy przegrany na GPW w kontekście konfliktu z Iranem.
+
+Analitycy wskazują, że sytuacja na rynkach jest dynamiczna i sentyment będzie zależeć od rozwoju wydarzeń na Bliskim Wschodzie. Eksperci zastanawiają się, czy wzrost cen ropy i osłabienie złotego mogą wpłynąć na decyzję RPP o obniżce stóp procentowych.
+
+Źródła: [Business Insider](https://businessinsider.com.pl/gielda/wiadomosci/orlen-na-gieldzie-wielkim-wygranym-tak-reaguje-rynek-na-konflikt-na-bliskim-wschodzie/h5pkcsp){rel="nofollow"}, [Dziennik.pl](https://gospodarka.dziennik.pl/news/artykuly/10651693,wojna-na-bliskim-wschodzie-gieldy-reaguja-polska-gielda-na-duzym-minusie.html){rel="nofollow"}, [Money.pl](https://www.money.pl/gielda/polska-gielda-reaguje-na-atak-na-iran-indeksy-traca-akcje-orlenu-wystrzelily-7259917532764544a.html){rel="nofollow"}
+
+---
+
+### Orlen z rekordowym kursem akcji
+
+Mimo ogólnych spadków na GPW, akcje Orlenu były najmocniejszą spółką w indeksie WIG20. Kurs wzrósł o ponad **4 proc.**, osiągając poziom ponad 119 zł za akcję – to najwyższa cena w historii. Kapitalizacja Orlenu przekroczyła 138 mld zł.
+
+Tak silna pozcyja Orlenu wynika z faktu, że spółki paliwowe są bezpośrednimi beneficjentami gwałtownego skoku cen ropy naftowej. Inwestorzy dyskontują scenariusz, w którym drożejący surowiec oraz spodziewany wzrost marż rafineryjnych przełożą się na większe zyski finansowe koncernu.
+
+Orlen jest również postrzegany jako swoista „bezpieczna przystań" na GPW – zapotrzebowanie na energię i paliwa w obliczu kryzysu geopolitycznego pozostaje kluczowe.
+
+Źródła: [Business Insider](https://businessinsider.com.pl/gielda/wiadomosci/orlen-na-gieldzie-wielkim-wygranym-tak-reaguje-rynek-na-konflikt-na-bliskim-wschodzie/h5pkcsp){rel="nofollow"}, [Money.pl](https://www.money.pl/gielda/polska-gielda-reaguje-na-atak-na-iran-indeksy-traca-akcje-orlenu-wystrzelily-7259917532764544a.html){rel="nofollow"}
+
+---
 
 ### RPP obniży stopy procentowe o 25 pb
 
@@ -43,7 +69,7 @@ Irańska Gwardia Rewolucyjna ogłosiła w poniedziałek wieczorem zamknięcie ci
 
 Iran ostrzelał dronami ambasadę USA w stolicy Arabii Saudyjskiej Rijadzie. Prezydent USA Donald Trump zapowiedział odwet za ten atak i poległych żołnierzy USA.
 
-Analitycy wskazują, że sytuacja może wpłynąć na ceny ropy i添加到 europejskich gospodarek.
+Analitycy wskazują, że sytuacja może wpłynąć na ceny ropy i europejskich gospodarek.
 
 Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Ciesnina-Ormuz-zamknieta-Iranska-Gwardia-Rewolucyjna-podpalimy-tam-kazdy-statek-9091856.html){rel="nofollow"}, [Business Insider](https://businessinsider.com.pl/gospodarka/iran-zamyka-ciesnine-ormuz-ostrzega-statki-przed-atakami/8s68fbb){rel="nofollow"}, [Wiadomości WP](https://wiadomosci.wp.pl/iran-ciesnina-ormuz-zamknieta-bedziemy-strzelac-do-kazdego-statku-7260096971597952a){rel="nofollow"}, [Onet](https://wiadomosci.onet.pl/swiat/ciesnina-ormuz-iran-moze-sparalizowac-swiatowa-gospodarke/2k2vsvl){rel="nofollow"}
 
@@ -77,7 +103,9 @@ Lokaty krótkoterminowe pozostają atrakcyjne dla osób szukających bezpiecznyc
 
 | Wydarzenie | Data | Źródła |
 |------------|------|--------|
-| RPP obniżka stóp o 25 pb | 03.03.2026 | Bankier, Strefa Inwestorów, Parkiet, Business Insider |
+| GPW: WIG20 -2,25% | 02.03.2026 | Business Insider, Dziennik.pl, Money.pl |
+| Orlen rekord +4% | 02.03.2026 | Business Insider, Money.pl |
+| RPP obniżka stóp o 25 pb | 04.03.2026 | Bankier, Strefa Inwestorów, Parkiet, Business Insider |
 | Polenergia EBITDA Q4 | 03.03.2026 | Bankier, Parkiet |
 | Iran/Cieśnina Ormuz | 02-03.03.2026 | Bankier, Business Insider, WP, Onet |
 | PKB Polski 3,6% | 02.03.2026 | Money.pl, Bankier, TVN24 |
@@ -85,5 +113,5 @@ Lokaty krótkoterminowe pozostają atrakcyjne dla osób szukających bezpiecznyc
 
 ---
 
-*Data przygotowania: 3 marca 2026, godz. 08:20 CET*
-*Źródła: Bankier.pl, Strefa Inwestorów, Parkiet, Business Insider, Money.pl, TVN24, Moneteo, Onet, Wiadomości WP*
+*Data przygotowania: 3 marca 2026, godz. 08:30 CET*
+*Źródła: Bankier.pl, Strefa Inwestorów, Parkiet, Business Insider, Money.pl, Dziennik.pl, TVN24, Moneteo, Onet, Wiadomości WP*
