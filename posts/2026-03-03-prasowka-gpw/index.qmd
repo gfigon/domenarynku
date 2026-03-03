@@ -1,0 +1,89 @@
+---
+title: "Prasówka GPW – 3 marca 2026"
+description: "Poranne podsumowanie wydarzeń na GPW: RPP o obniżce stóp, wyniki Polenergii, napięcia na Bliskim Wschodzie"
+date: "2026-03-03"
+author: "DomenaRynku.pl"
+image: "/images/gpw-news.jpg"
+tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska", "RPP", "stopy procentowe"]
+layout: "post"
+nofollow: true
+---
+
+# Prasówka GPW – 3 marca 2026
+
+## 🔑 Najważniejsze wydarzenia
+
+### RPP obniży stopy procentowe o 25 pb
+
+Rada Polityki Pieniężnej, po dwóch miesiącach przerwy w cięciach stóp procentowych, na rozpoczynającym się we wtorek posiedzeniu obniży je o **25 punktów bazowych** – powiedział PAP ekonomista ING Banku Śląskiego Adam Antoniak.
+
+Obecna główna stopa NBP (stopa referencyjna) wynosi 4 proc. W 2025 roku RPP sześciokrotnie obniżała stopy procentowe, w wyniku czego stopa referencyjna spadła o 1,75 pkt. proc. Ostatnia obniżka miała miejsce w grudniu 2025 roku.
+
+Ekonomista ING wskazał, że konflikt na Bliskim Wschodzie jest nowym czynnikiem ryzyka, który może wpłynąć na perspektywy inflacji i koniunkturę. Rośnie ryzyko, że docelowa stopa procentowa nie spadnie tak nisko jak zakładano (3,25 proc.).
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Antoniak-Po-dwumiesiecznej-przerwie-RPP-obnizy-stopy-procentowe-9091936.html){rel="nofollow"}, [Strefa Inwestorów](https://strefainwestorow.pl/gospodarka/prognozy-stopy-procentowe-marzec-2026){rel="nofollow"}, [Parkiet](https://www.parkiet.com/prognozy-gospodarcze/art43897671-czy-sytuacja-w-iranie-powstrzyma-rade-polityki-pienieznej){rel="nofollow"}, [Business Insider](https://businessinsider.com.pl/gospodarka/wojna-na-bliskim-wschodzie-komplikuje-plany-rpp-czy-w-srode-dojdzie-do-ciecia-stop/804hltr){rel="nofollow"}
+
+---
+
+### Polenergia: wyniki IV kw. poniżej konsensusu
+
+Grupa Polenergia szacuje, że jej **EBITDA w IV kwartale 2025 roku wyniosła 107,9 mln zł**, a skorygowana strata netto 7,4 mln zł – podała spółka w komunikacie. Analitycy ankietowani przez PAP Biznes spodziewali się 119,6 mln zł EBITDA.
+
+W całym 2025 roku wynik EBITDA grupy wyniósł 509,9 mln zł. Spółka podała, że wynik EBITDA za 2025 rok został w segmencie lądowych farm wiatrowych zdeterminowany przede wszystkim normalizacją cen na rynku energii elektrycznej oraz zielonych certyfikatów, a także mniej korzystnymi niż historycznie warunkami wietrzności.
+
+W wynikach kwartalnych ujęto odpisy aktualizujące wartość aktywów o łącznym szacowanym wpływie ok. 176 mln zł na skonsolidowany wynik brutto za 2025 rok. Polenergia opublikuje raport roczny 11 marca 2026 roku.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Polenergia-szacuje-EBITDA-w-IV-kw-na-107-9-mln-zl-wobec-konsensusu-119-6-mln-zl-9091933.html){rel="nofollow"}, [Parkiet](https://www.parkiet.com/komunikaty-espi/art43899251-polenergia-sa-wstepne-wybrane-skonsolidowane-wyniki-finansowe-za-rok-2025){rel="nofollow"}
+
+---
+
+### Napięcia na Bliskim Wschodzie: Iran zamyka Cieśninę Ormuz
+
+Irańska Gwardia Rewolucyjna ogłosiła w poniedziałek wieczorem zamknięcie cieśniny Ormuz i zagroziła, że podpali każdą jednostkę próbującą przepłynąć przez ten kluczowy szlak morski. Cieśnina Ormuz łączy Zatokę Perską z Morzem Arabskim i jest jednym z najważniejszych punktów tranzytowych dla ropy naftowej na świecie.
+
+Iran ostrzelał dronami ambasadę USA w stolicy Arabii Saudyjskiej Rijadzie. Prezydent USA Donald Trump zapowiedział odwet za ten atak i poległych żołnierzy USA.
+
+Analitycy wskazują, że sytuacja może wpłynąć na ceny ropy i添加到 europejskich gospodarek.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Ciesnina-Ormuz-zamknieta-Iranska-Gwardia-Rewolucyjna-podpalimy-tam-kazdy-statek-9091856.html){rel="nofollow"}, [Business Insider](https://businessinsider.com.pl/gospodarka/iran-zamyka-ciesnine-ormuz-ostrzega-statki-przed-atakami/8s68fbb){rel="nofollow"}, [Wiadomości WP](https://wiadomosci.wp.pl/iran-ciesnina-ormuz-zamknieta-bedziemy-strzelac-do-kazdego-statku-7260096971597952a){rel="nofollow"}, [Onet](https://wiadomosci.onet.pl/swiat/ciesnina-ormuz-iran-moze-sparalizowac-swiatowa-gospodarke/2k2vsvl){rel="nofollow"}
+
+---
+
+## 📈 Makroekonomia
+
+### PKB Polski w 2025 roku wzrósł o 3,6%
+
+Według danych GUS, Produkt Krajowy Brutto w IV kwartale 2025 roku wzrósł o **4,0% rok do roku** – szybciej niż kwartał wcześniej. Wzrost napędzały inwestycje i konsumpcja.
+
+W całym 2025 roku wzrost PKB wyniósł **3,6%** i był to najwyższy roczny wzrost od 2022 roku. Dane są zgodne z wcześniejszym szacunkiem flash GUS.
+
+Źródła: [Money.pl](https://www.money.pl/gospodarka/polska-gospodarka-przyspiesza-gus-pokazal-dane-za-2025-rok-7259929647913344a.html){rel="nofollow"}, [Bankier.pl](https://www.bankier.pl/wiadomosc/Najszybszy-wzrost-od-lat-GUS-odkryl-karty-w-sprawie-polskiego-PKB-w-IV-kwartale-2025-r-9091308.html){rel="nofollow"}, [TVN24](https://tvn24.pl/biznes/najnowsze/wzrost-pkb-w-czwartym-kwartale-2025-polska-gospodarka-przyspiesza-st8925971){rel="nofollow"}
+
+---
+
+## 💰 Finanse osobiste
+
+### Lokaty: nawet 7% w skali roku
+
+Lokaty miesięczne to obecnie jedne z wyżej oprocentowanych depozytów. Lokując środki na ten termin, można otrzymać stawkę sięgającą **7 proc. w skali roku**. Niewiele niższe oprocentowanie proponuje bank z drugiego miejsca tabeli – 6,50 proc.
+
+Lokaty krótkoterminowe pozostają atrakcyjne dla osób szukających bezpiecznych form oszczędzania w czasie niepewności co do przyszłych decyzji RPP.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Ranking-lokat-miesiecznych-w-marcu-7-u-lidera-6-5-obok-i-niespodziewana-podwyzka-w-TOP3-9091478.html){rel="nofollow"}, [Strefa Inwestorów](https://strefainwestorow.pl/gospodarka/najlepsze-lokaty-marzec-2026){rel="nofollow"}, [Moneteo](https://moneteo.com/rankingi/lokaty-bankowe){rel="nofollow"}
+
+---
+
+## 📊 Podsumowanie
+
+| Wydarzenie | Data | Źródła |
+|------------|------|--------|
+| RPP obniżka stóp o 25 pb | 03.03.2026 | Bankier, Strefa Inwestorów, Parkiet, Business Insider |
+| Polenergia EBITDA Q4 | 03.03.2026 | Bankier, Parkiet |
+| Iran/Cieśnina Ormuz | 02-03.03.2026 | Bankier, Business Insider, WP, Onet |
+| PKB Polski 3,6% | 02.03.2026 | Money.pl, Bankier, TVN24 |
+| Lokaty 7% | 03.03.2026 | Bankier, Strefa Inwestorów, Moneteo |
+
+---
+
+*Data przygotowania: 3 marca 2026, godz. 08:20 CET*
+*Źródła: Bankier.pl, Strefa Inwestorów, Parkiet, Business Insider, Money.pl, TVN24, Moneteo, Onet, Wiadomości WP*
