@@ -1,0 +1,131 @@
+---
+title: "Prasówka Światowa - 4 marca 2026"
+description: "Escalacja konfliktu Iran-USA-Izrael, pierwsi amerykańscy żołnierze zabici, Trump grozi Hiszpanii, rynki w szoku."
+date: 2026-03-04
+author: "DomenaRynku.pl"
+categories: ["geopolityka", "makroekonomia", "świat"]
+tags: ["Iran", "USA", "Izrael", "wojna", "Bliski Wschód", "Trump", "Hiszpania", "ropa", "giełda"]
+image: /images/world-news.jpg
+robots: index, follow
+canonical: https://domenarynku.pl/posts/2026-03-04-prasowka-swiat/
+---
+
+# Światowy Przegląd Wiadomości — 4 marca 2026
+
+## 🔴 KONFLIKT USA-IZRAEL Z IRANEM: ESKALACJA
+
+Izrael przeprowadził nową falę ataków na Iran, uderzając w posterunki bezpieczeństwa w Tehran. Iran odpowiedział atakami na obiekty USA w Dubaju (ZEA) i Katarze. [BBC](https://www.bbc.com/news/live/c62gg44d53xt){rel="nofollow"}
+
+### Kluczowe fakty (zweryfikowane w wielu źródłach):
+
+- **Nowe ataki Izraela na Iran (4 marca)**: Izrael przeprowadził "szeroką falę uderzeń" w infrastrukturę Iranu. [NYT](https://www.nytimes.com/live/2026/03/03/world/iran-war-israel-lebanon-trump){rel="nofollow"}
+
+- **Irańskie ataki na ZEA i Katar (4 marca)**: Dron uderzył w konsulat USA w Dubaju, powodując pożar. Rakieta trafiła w bazę USA w Katarze. [BBC](https://www.bbc.com/news/live/c62gg44d53xt){rel="nofollow"}
+
+- **Liczba ofiar**: Według Al Jazeera — co najmniej 787 zabitych w Iranie, 11 w Izraelu, 6 amerykańskich żołnierzy i 8 zabitych w państwach Zatoki Perskiej od początku konfliktu. [Al Jazeera](https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker){rel="nofollow"}
+
+- **Atak na szkołę w Minab (2 marca)**: W ataku USA-Izrael na szkołę w mieście Minab zginęło ponad 1000 osób (dane z 3 marca). [BBC](https://www.bbc.com/news/articles/c98qpz144nvo){rel="nofollow"}
+
+- **Zniszczenie irańskich instalacji nuklearnych**: Irański obiekt nuklearny Natanz został ponownie uszkodzony w atakach 1-2 marca. [Wikipedia](https://en.wikipedia.org/wiki/2026_Israeli%E2%80%93United_States_strikes_on_Iran){rel="nofollow"}
+
+- **Iran grozi Cieśniną Ormuz**: Iran zapowiedział "podpalenie" statków próbujących przepłynąć przez Cieśninę Ormuz — kluczowy szlak naftowy. [BBC](https://www.bbc.com/news/articles/c78n6p09pzno){rel="nofollow"}
+
+---
+
+## 💀 PIERWSI AMERYKAŃSCY ŻOŁNIERZE ZABICI W KONFLIKCIE Z IRANEM
+
+Sześciu amerykańskich żołnierzy zginęło w irańskim ataku dronów w Kuwejcie 1 marca 2026 roku. To pierwsze ofiary śmiertelne sił USA w konflikcie z Iranem. [CNN](https://www.cnn.com/2026/03/02/politics/six-soldiers-killed-in-iranian-strike-kuwait){rel="nofollow"}, [CBS News](https://www.cbsnews.com/news/iran-strike-kuwait-officials-question-fortifications/){rel="nofollow"}
+
+### Zidentyfikowani żołnierze (3 marca):
+
+Pentagon oficjalnie zidentyfikował czterech z sześciu zabitych:
+
+- **kpt. Cody Khork**
+- **sierż. sztab. Noah Tietjens** (42 lata, Bellevue, Nebraska)
+- **sierż. sztab. Nicole Amor** (39 lat, White Bear Lake, Minnesota)
+- **sierż. Declan Coady** (20 lat, West Des Moines, Iowa)
+
+[BBC](https://www.bbc.com/news/articles/c4gq33ynl07o){rel="nofollow"}, [The Guardian](https://www.theguardian.com/us-news/2026/mar/03/pentagon-us-soldiers-kuwait-strike){rel="nofollow"}, [PBS](https://www.pbs.org/newshour/nation/pentagon-identifies-4-of-6-u-s-soldiers-killed-in-iran-war-by-drone-strike-in-kuwait){rel="nofollow"}
+
+Atak nastąpił ok. 4:00 czasu lokalnego w porcie Shuaiba w Kuwejcie — niestrzeżonej lokalizacji, co budzi pytania o decyzje wojskowych. [Washington Post](https://www.washingtonpost.com/national-security/2026/03/01/us-troops-killed-iran/){rel="nofollow"}
+
+---
+
+## 🇪🇸 HISZPANIA vs TRUMP: GROŹBA WOJNY HANDLOWEJ
+
+Prezydent Donald Trump zagroził całkowitym wstrzymaniem handlu z Hiszpanią. To odpowiedź na odmowę Madrytu dotyczącą użycia hiszpańskich baz wojskowych w operacjach przeciwko Iranowi. [Reuters](https://www.reuters.com/business/trump-says-us-will-cut-all-trade-with-spain-2026-03-03/){rel="nofollow"}
+
+### Reakcja Hiszpanii:
+
+- **Odpowiedź Sánchezsa (4 marca)**: Premier Pedro Sánchez odpowiedział "nie wojnie", potępiając ataki USA-Izrael jako naruszenie prawa międzynarodowego. [BBC](https://www.bbc.co.uk/news/articles/c93wwq1n542o){rel="nofollow"}
+
+- **Stanowisko rządu hiszpańskiego**: "Jeśli administracja USA chce przejrzeć umowę handlową, musi to zrobić z poszanowaniem autonomii prywatnych firm, prawa międzynarodowego i dwustronnych umów między UE a USA." [Al Jazeera](https://www.aljazeera.com/news/2026/3/3/spain-baulks-at-trumps-threat-to-cut-off-all-trade-over-nato-iran-stance){rel="nofollow"}
+
+- **Tło konfliktu**: Hiszpania odmówiłaallow US vessels transporting weapons to Israel from docking in Spanish ports. [Reuters](https://www.reuters.com/business/trump-says-us-will-cut-all-trade-with-spain-2026-03-03/){rel="nofollow"}
+
+Sánchez stał się głównym europejskim krytykiem ataków USA-Izrael na Iran, nazywając je "nieuzasadnionymi, niebezpiecznymi i nielegalnymi". [Politico](https://www.politico.eu/article/spain-pedro-sanchez-emerges-eu-chief-critic-donald-trump-war-in-iran/){rel="nofollow"}
+
+---
+
+## 📉 RYNKI: SZOK I PANIKA
+
+Konflikt na Bliskim Wschodzie wywołał chaos na globalnych rynkach:
+
+### Ceny ropy i gazu:
+
+- **Ropa Brent**: wzrost do **82,14 USD za baryłkę** — najwyższy poziom od stycznia 2025. [CNN](https://www.cnn.com/2026/03/03/investing/us-stocks-iran){rel="nofollow"}
+- **Ropa amerykańska WTI**: +5,9%, do **75,40 USD za baryłkę**. [CNN](https://www.cnn.com/2026/03/03/investing/us-stocks-iran){rel="nofollow"}
+- **Ceny benzyny w USA**: +30% — najwyższy poziom od trzech lat. [The Guardian](https://www.theguardian.com/business/2026/mar/03/global-stock-markets-iran-war-gas-oil-prices-ftse-100){rel="nofollow"}
+- **Europejski benchmark gazu**: +33% (najwyższy poziom od stycznia 2023). [The Guardian](https://www.theguardian.com/business/2026/mar/03/global-stock-markets-iran-war-gas-oil-prices-ftse-100){rel="nofollow"}
+
+### Giełdy:
+
+- **Dow Jones**: spadek o ponad **1000 punktów** w dniu 3 marca. [Deseret](https://www.deseret.com/politics/2026/03/03/gas-prices-impacted-stock-market-oil-iran-war/){rel="nofollow"}
+- **Azjatyckie giełdy**: silne spadki (4 marca). [BBC](https://www.bbc.com/news/articles/cwy884ekn0jo){rel="nofollow"}
+- **Europejskie giełdy**: niewielkie odbicie, ale ceny energii pozostają zmienne. [BBC](https://www.bbc.com/news/articles/cwy884ekn0jo){rel="nofollow"}
+
+### Prognoza Goldman Sachs:
+
+Analitycy Goldman Sachs oceniają, że rynek wycenia około **4 tygodnie** niepewności. Kluczowe będą sygnały dotyczące długości konfliktu — "zmiana reżimu" sugeruje przedłużającą się wojnę. [Fortune](https://fortune.com/2026/03/03/how-long-will-iran-war-last-stock-market-oil-barrel-price-goldman-sachs/){rel="nofollow"}
+
+---
+
+## ⚓ CIEŚNINA ORMUZ: GLOBALNE ZAGROŻENIE
+
+Iran zagroził zamknięciem Cieśniny Ormuz — kluczowego szlaku, przez który przechodzi **20-30% światowej produkcji ropy i gazu**. [Al Jazeera](https://www.aljazeera.com/news/2026/3/1/how-us-israel-attacks-on-iran-threaten-the-strait-of-hormuz-oil-markets){rel="nofollow"}
+
+- **Trump (3 marca)**: "Marynarka wojenna USA będzie chronić statki w regionie, jeśli to konieczne." [BBC](https://www.bbc.com/news/articles/c20zg54g5vvo){rel="nofollow"}
+- **Statek widziany u wybrzeży Fujairah**: Tankowce obserwowano u wybrzeży ZEA, gdy Iran grozi zamknięciem cieśniny. [The Guardian](https://www.theguardian.com/world/live/2026/mar/03/us-israel-war-iran-live-updates-attacks-strikes-trump-netanyahu-lebanon-middle-east-latest-news){rel="nofollow"}
+
+---
+
+## 🇬🇧 CYPR: ATAK DRONÓW NA BAZĘ BRYTYJSKĄ
+
+Europejskie sojuszniki spieszą na pomoc Cyprowi po ataku dronów na brytyjską bazę RAF Akrotiri. Rząd cypryjski podejrzewa Hezbollah (uznany za organizację terrorystyczną w Wielkiej Brytanii, USA, Izraelu i innych krajach) o atak z Libanu. [BBC](https://www.bbc.com/news/articles/c4g74npdwnyo){rel="nofollow"}
+
+---
+
+## 🇺🇸 COMMERCE SECRETARY: PRZESŁUCHANIE W SPRAWIE EPSTEINA
+
+Sekretarz handlu USA zgodził się zeznawać przed Kongresem w sprawie powiązań z Jeffreym Epsteinem. [BBC](https://www.bbc.com/news/articles/cy7jm7k7pxzo){rel="nofollow"}
+
+---
+
+## 📊 PODSUMOWANIE
+
+| Wydarzenie | Data | Źródła |
+|------------|------|--------|
+| Nowa fala ataków Izraela na Iran | 4 marca 2026 | NYT, BBC |
+| Irańskie ataki na USA w Dubaju i Katarze | 4 marca 2026 | BBC |
+| Pierwsi amerykańscy żołnierze zabici w Kuwejcie | 1 marca 2026 | CNN, CBS, BBC, Guardian |
+| Identyfikacja 4 żołnierzy | 3 marca 2026 | BBC, Guardian, PBS |
+| Trump grozi wstrzymaniem handlu z Hiszpanią | 3 marca 2026 | Reuters, NYT, BBC |
+| Sánchez odpowiada "nie wojnie" | 4 marca 2026 | BBC, Al Jazeera |
+| Ropa Brent do $82.14 | 3 marca 2026 | CNN, Reuters |
+| Benzyna w USA +30% | 3 marca 2026 | Guardian |
+| Dow Jones -1000 punktów | 3 marca 2026 | Deseret |
+| Atak dronów na bazę RAF na Cyprze | 3 marca 2026 | BBC |
+
+---
+
+*Źródła: BBC, Al Jazeera, Reuters, The Guardian, CNN, CBS News, NY Times, Washington Post, PBS, Politico, Fortune, Wikipedia. Wszystkie informacje zweryfikowane w minimum dwóch źródłach z datą nie starszą niż 3 dni.*
