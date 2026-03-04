@@ -1,0 +1,108 @@
+---
+title: "Prasówka GPW – 4 marca 2026"
+description: "Poranne podsumowanie: Trump zrywa handel z Hiszpanią, GPW mocno traci, ropa powyżej 81 USD, RPP decyduje o stopach"
+date: "2026-03-04"
+author: "DomenaRynku.pl"
+image: "/images/gpw-news.jpg"
+tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska", "Trump", "ropa", "Iran", "RPP"]
+layout: "post"
+nofollow: true
+---
+
+# Prasówka GPW – 4 marca 2026
+
+## 🌐 Geopolityka i handel światowy
+
+### Trump zrywa handel z Hiszpanią
+
+Prezydent USA Donald Trump oświadczył we wtorek, że Stany Zjednoczone zrywają handel z Hiszpanią. Decyzja została podjęta po tym, jak rząd hiszpański odmówił siłom amerykańskim wykorzystania swoich baz wojskowych do operacji związanych z atakiem na Iran.
+
+Trump podczas spotkania z kanclerzem Niemiec Friedrichem Merzem powiedział: *"Zerwiemy cały handel z Hiszpanią. Nie chcemy mieć niczego do czynienia z Hiszpanią"*. Prezydent USA dodał również, że nie jest zadowolony z postawy Wielkiej Brytanii.
+
+Hiszpania odmówiła wsparcia dla operacji wojskowej USA w Iranie, co spotkało się z natychmiastową reakcją amerykańską.
+
+Źródła: [Money.pl](https://www.money.pl/gospodarka/trump-usa-zrywamy-handel-z-hiszpania-7260397656443008a.html){rel="nofollow"}, [RP.pl](https://www.rp.pl/handel/art43904711-donald-trump-zrywa-handel-z-hiszpania-za-brak-wsparcia-dla-operacji-wojskowej-usa){rel="nofollow"}, [PolsatNews](https://www.polsatnews.pl/wiadomosc/2026-03-03/trump-wstrzymuje-handel-z-hiszpania-w-tle-atak-na-iran/){rel="nofollow"}, [Business Insider](https://businessinsider.com.pl/gospodarka/donald-trump-usa-zrywaja-handel-z-hiszpania/5gmmx35){rel="nofollow"}
+
+---
+
+## ⛽ Surowce: Ropa znowu drożeje
+
+### Ceny ropy powyżej 81 USD za baryłkę
+
+Ceny ropy naftowej wystrzeliły w górę po ataku sił amerykańskich i izraelskich na Iran. We wtorek rano kurs BRENT przekroczył **81 dolarów za baryłkę** – to wzrost o ponad 30% w porównaniu z początkiem roku.
+
+Analitycy wskazują, że świat stawia pytanie o Cieśninę Ormuz – kluczowy szlak tranzytowy, przez który przepływa 1/5 światowych wolumenów ropy. Irańska Gwardia Rewolucyjna ogłosiła zamknięcie cieśniny i zagroziła atakami na statki.
+
+FXMag podkreśla, że zamiast przewidywanych 55 dolarów za baryłkę, ropa jest o ponad 30% wyżej niż oczekiwano na początku roku. Business Insider informuje, że ceny paliw w hurcie ostro poszły w górę w ciągu ostatnich 24 godzin.
+
+Eksperci zastanawiają się, jak długo potrwa konflikt – ograniczone wzrosty cen ropy sygnalizują, że inwestorzy liczą na krótkotrwały konflikt.
+
+Źródła: [FXMag](https://www.fxmag.pl/gospodarka/nowy-kryzys-cen-paliw-najgorszy-scenariusz-wojny-w-iranie-wlasnie-sie-materializuje){rel="nofollow"}, [Business Insider](https://businessinsider.com.pl/poradnik-finansowy/ceny-paliw-w-hurcie-wystrzelily-po-ile-moze-byc-benzyna-i-olej-na-stacjach/bxvqyrc){rel="nofollow"}, [Money.pl](https://www.money.pl/gospodarka/jak-dlugo-moze-potrwac-wojna-z-iranem-tak-widza-to-rynki-7260249736865888a.html){rel="nofollow"}, [Strefa Inwestorów](https://strefainwestorow.pl/w-zielonej-strefie/paliwa-i-surowce/atak-na-iran-ropa-gaz-polskie-magazyny-zapasy){rel="nofollow"}
+
+---
+
+## 📉 Rynki: GPW mocno w dół
+
+### WIG20 traci ponad 4%
+
+Wtorkowa sesja na GPW przyniosła znaczące spadki. Główne indeksy warszawskiej giełdy zaliczyły spadki przekraczające poziom **4 procent**. Wśród największych spółek notowanych na warszawskim parkiecie najgorszą passę miał KGHM.
+
+Napięcia militarne na Bliskim Wschodzie coraz wyraźniej przekładają się na nastroje inwestorów. Warszawska giełda, która jeszcze na początku tygodnia próbowała zachować względny spokój, wyraźnie odczuwa ciężar wydarzeń z Iranu, Izraela i regionu Zatoki Perskiej.
+
+Analitycy wskazują, że sytuacja na rynkach jest dynamiczna i sentyment będzie zależeć od rozwoju wydarzeń na Bliskim Wschodzie.
+
+Źródła: [XYZ.pl](https://xyz.pl/czerwien-zdominowala-warszawska-gielde-kghm-liderem-spadkow-dzien-na-gpw-3-marca-2026-r/){rel="nofollow"}, [Strefa Inwestorów](https://www.gowork.pl/blog/35-gpw-pod-presja-geopolityki-konflikt-na-bliskim-wschodzie-przyspiesza-wyprzedaz/){rel="nofollow"}
+
+---
+
+## 🏦 Makroekonomia i polityka monetarna
+
+### RPP decyduje o stopach procentowych
+
+W środę Rada Polityki Pieniężnej podejmuje decyzję w sprawie stóp procentowych. Ekonomiści są niemal jednogłośni – spodziewają się obniżki o **25 punktów bazowych**.
+
+Według wcześniejszych zapowiedzi ekonomistów, po dwóch miesiącach przerwy w cięciach stóp procentowych, RPP obniży je o 25 pb. Obecna główna stopa NBP wynosi 4 proc.
+
+Konflikt na Bliskim Wschodzie jest nowym czynnikiem ryzyka, który może wpłynąć na perspektywy inflacji i koniunkturę. Rośnie ryzyko, że docelowa stopa procentowa nie spadnie tak nisko jak zakładano (3,25 proc.).
+
+Źródła: [RP.pl](https://www.rp.pl/dane-gospodarcze/art43894391-czy-sytuacja-w-iranie-powstrzyma-rade-polityki-pienieznej){rel="nofollow"}, [Bankier.pl](https://www.bankier.pl/wiadomosc/Antoniak-Po-dwumiesiecznej-przerwie-RPP-obnizy-stopy-procentowe-9091936.html){rel="nofollow"}
+
+---
+
+### PKB Polski: wzrost o 4% w IV kwartale
+
+Według danych GUS, Produkt Krajowy Brutto w IV kwartale 2025 roku wzrósł o **4,0% rok do roku** – szybciej niż kwartał wcześniej. Największy wkład w ten wynik miała prywatna konsumpcja, która zwiększyła się o 4,2 proc., a eksport odnotował najwyższy od ponad trzech lat wzrost o 7,7 proc.
+
+W całym 2025 roku wzrost PKB wyniósł **3,6%** i był to najwyższy roczny wzrost od 2022 roku. Dane są zgodne z wcześniejszym szacunkiem flash GUS.
+
+Agencja Fitch prognozuje wzrost PKB na poziomie 3,6 proc. w 2026 roku, a w 2027 roku oczekiwane jest spowolnienie do 2,9 proc.
+
+Źródła: [FXMag](https://www.fxmag.pl/gospodarka/polska-gospodarka-silny-wzrost-pkb-rosnace-ceny-energii-i-spadek-pmi-przemyslu){rel="nofollow"}, [Next.gazeta.pl](https://next.gazeta.pl/next/7,151003,32635008,dlug-polski-w-gore-dwa-biliony-zlotych-juz-o-krok-co-z-polskimi.html){rel="nofollow"}, [Goniec.pl](https://goniec.pl/nie-do-wiary-co-we-wtorek-dzieje-sie-na-stacjach-paliw-ludzie-tankuja-i-lapia-sie-za-portfele-wk-wjsk-030326){rel="nofollow"}
+
+---
+
+### Ceny miedzi pod presją
+
+Notowania miedzi na giełdzie metali LME w Londynie nieznacznie się zmieniają. Prognozy dla cen metalu nie są dobre – miedź może stanieć poniżej 12 000 USD za tonę – informują maklerzy.
+
+Bankier.pl podkreśla, że perspektywy dla cen miedzi są niekorzystne ze względu na globalną niepewność gospodarczą.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Ceny-miedzi-nieznacznie-sie-zmieniaja-Prognozy-nie-sa-dobre-9092589.html){rel="nofollow"}
+
+---
+
+## 📊 Podsumowanie
+
+| Wydarzenie | Data | Źródła |
+|------------|------|--------|
+| Trump zrywa handel z Hiszpanią | 03.03.2026 | Money.pl, RP.pl, PolsatNews, Business Insider |
+| Ropa BRENT powyżej 81 USD (+30%) | 03-04.03.2026 | FXMag, Business Insider, Money.pl, Strefa Inwestorów |
+| GPW: WIG20 -4% | 03.03.2026 | XYZ.pl, Strefa Inwestorów |
+| RPP: decyzja o stopach | 04.03.2026 | RP.pl, Bankier.pl |
+| PKB Polski +4% (Q4 2025) | 02.03.2026 | FXMag, Next.gazeta.pl, Goniec.pl |
+| Ceny miedzi pod presją | 04.03.2026 | Bankier.pl |
+
+---
+
+*Data przygotowania: 4 marca 2026, godz. 08:20 CET*
+*Źródła: Money.pl, RP.pl, PolsatNews, Business Insider, FXMag, Strefa Inwestorów, XYZ.pl, Bankier.pl, Next.gazeta.pl, Goniec.pl*
