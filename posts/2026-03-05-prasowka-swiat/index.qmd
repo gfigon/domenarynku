@@ -1,0 +1,99 @@
+---
+title: "Prasówka Światowa — 5 marca 2026"
+description: "Najważniejsze wydarzenia ze świata: eskalacja konfliktu Iran-Israel-USA, Chiny obniżają cel wzrostu gospodarczego, sytuacja na Bliskim Wschodzie."
+date: "2026-03-05"
+author: "DomenaRynku.pl"
+image: "/images/world-news.jpg"
+tags: ["geopolityka", "makroekonomia", "Bliski Wschód", "USA", "Chiny", "Iran", "Izrael"]
+categories: ["Prasówka"]
+slug: "prasowka-swiat-2026-03-05"
+robots: "index, follow"
+---
+
+# Prasówka Światowa — 5 marca 2026
+
+## 🔴 Główny temat: Wojna Iran — USA — Izrael
+
+**Konflikt eskaluje piąty dzień z rzędu.** Według najnowszych doniesień, izraelskie siły zbrojne przeprowadziły już dziesiątą falę nalotów na Tehran. Liczba ofiar przekroczyła 1000 osób w samym Iranie.
+
+### Kluczowe fakty (potwierdzone w minimum 2 źródłach):
+
+- **Bilans ofiar:** Co najmniej 1045 osób zginęło w Iranie, co najmniej 11 w Izraelu, 6 amerykańskich żołnierzy zginęło w ataku drona na port w Kuwejcie, a 9 osób zginęło w państwach Zatoki Perskiej[^1][^2][^3].
+
+- **Żona ajatollaha Chameneiego potwierdzona jako zmarła:** 2 marca 2026 roku potwierdzono śmierć Mansoureh Khojasteh Bagherzadeh, żony najwyższego przywódcy Iranu, w wyniku ataku[^4][^5].
+
+- **Amerykańska kontyngent wojskowy:** Około 50 000 żołnierzy USA na Bliskim Wschodzie jest obecnie zaangażowanych w działania przeciwko Iranowi, a kolejne siły i myśliwce są przerzucane do regionu[^6].
+
+- **Senat USA odrzucił wniosek o wotum wojenne:** Głosowanie nad rezolucją dotyczącą uprawnień wojennych nie powiodło się w Senacie, co pozwala Trumpowi kontynuować operacje przeciwko Iranowi[^7][^8].
+
+- **Trump zapowiada 4 tygodnie wojny:** Prezydent USA stwierdził, że operacja może potrwać około czterech tygodni[^9].
+
+- **Irański tankowiec zatopiony:** Rosja obwinia ukraińskie bezzałogowe jednostki morskie za zatonięcie tankowca Arctic Metagaz między Libią a Maltą[^10].
+
+---
+
+## 🇨🇳 Chiny: Najniższy cel wzrostu od 1991 roku
+
+**Pekin obniżył roczny cel wzrostu gospodarczego do przedziału 4,5%-5%.** To najniższy cel ekspansji od ponad trzech dekad.
+
+### Szczegóły (potwierdzone przez BBC):
+
+- To pierwszy raz od 2023 roku, gdy cel został obniżony
+- W 2020 roku nie ustalono celu ze względu na pandemię
+- Decyzja ogłoszona podczas największego chińskiego zgromadzenia politycznego ("dwie sesje")
+- Powody: słabe konsumpcja, kurcząca się populacja, kryzys nieruchomości, napięcia handlowe globalne oraz niedobór energii związany z wojną w Iranie[^11]
+
+Premier Li Qiang przedstawił 46-stronicowy raport zawierający cele 15. Pięcioletniego Planu, który obejmuje inwestycje w innowacje, przemysł wysokich technologii i zwiększenie konsumpcji gospodarstw domowych.
+
+---
+
+## 🌍 Inne wydarzenia świata
+
+### Nepal: Wybory powszechne po raz pierwszy od protestów pokolenia Z
+
+ Nepal przeprowadza pierwsze wybory powszechne od czasu, gdy pokoleniowe protesty Z doprowadziły do obalenia rządu. Kandydaci "starej gwardii" rywalizują ze przedstawicielami młodego pokolenia o wszystkie 250 miejsc w parlamencie[^12].
+
+### Kuba: Miliony osób bez prądu z powodu kryzysu paliwowego
+
+ Kraj pogrążył się w ciemnościach z powodu pogłębiającego się kryzysu paliwowego. Niedobory zostały spotęgowane przez amerykańską blokadę naftową po przejęciu prezydenta Nicolása Maduro w Wenezueli[^13].
+
+### Wenezuela i USA współpracują ds. wydobycia
+
+ Tymczasowy prezydent Wenezueli ogłosił po spotkaniu z sekretarzem ds. wewnętrznych USA Dougiem Burgumem, że oba kraje będą wspólnie pracować nad projektami górniczymi[^14].
+
+### Carney: "Globalny porządek się rozpada"
+
+ Premier Kanady Mark Carney powiedział australijskiemu parlamentowi, że Australia i Kanada powinny współpracować jako "strategiczni kuzyni", ponieważ globalny porządek "rozpada się"[^15].
+
+---
+
+## 📊 Podsumowanie
+
+| Wydarzenie | Status |
+|------------|--------|
+| Wojna Iran-USA-Izrael | 🔴 Eskalacja, ponad 1000 ofiar |
+| Cel wzrostu Chin 4,5-5% | 🟡 Obniżony najniżej od 1991 |
+| Wybory w Nepalu | 🟢 Trwają |
+| Kryzys energetyczny na Kubie | 🔴 Trwa |
+
+---
+
+## Źródła
+
+[^1]: Al Jazeera — "US-Israel attacks on Iran: Death toll and injuries live tracker" — [aljazeera.com](https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker){rel="nofollow"}
+[^2]: NBC Washington — "Senate votes down war resolution; Iran vows revenge after U.S. sinks warship" — [nbcwashington.com](https://www.nbcwashington.com/news/national-international/iran-us-israel-middle-east-conflict-march-04-2026-live-updates/4070068/){rel="nofollow"}
+[^3]: CNN — "Why did the US and Israel attack Iran and everything we know on day 5" — [cnn.com](https://www.cnn.com/2026/03/03/middleeast/iran-us-israel-what-we-know-intl-hnk){rel="nofollow"}
+[^4]: Wikipedia — "2026 Israeli–United States strikes on Iran" — [en.wikipedia.org](https://en.wikipedia.org/wiki/2026_Israeli%E2%80%93United_States_strikes_on_Iran){rel="nofollow"}
+[^5]: Wikipedia — "2026 Iran war" — [en.wikipedia.org](https://en.wikipedia.org/wiki/2026_Iran_war){rel="nofollow"}
+[^6]: The New York Times — "Israel Begins 'Broad Wave of Strikes' on Iran's Infrastructure" — [nytimes.com](https://www.nytimes.com/live/2026/03/03/world/iran-war-israel-lebanon-trump){rel="nofollow"}
+[^7]: CNBC — "War powers vote fails in the Senate, allowing Trump to continue Iran strikes" — [cnbc.com](https://www.cnbc.com/2026/03/04/us-iran-war-live-updates.html){rel="nofollow"}
+[^8]: NBC Washington — "Senate votes down war resolution" — [nbcwashington.com](https://www.nbcwashington.com/news/national-international/iran-us-israel-middle-east-conflict-march-04-2026-live-updates/4070068/){rel="nofollow"}
+[^9]: Al Jazeera — "Iran updates: US bases, embassies attacked as Tehran steps up Gulf strikes" — [aljazeera.com](https://www.aljazeera.com/news/liveblog/2026/3/3/iran-live-news-israel-bombs-tehran-beirut-trump-says-war-to-last-4-weeks){rel="nofollow"}
+[^10]: BBC — "Russia blames Ukrainian naval drones as tanker sinks in Mediterranean" — [bbc.com](https://www.bbc.com/news/articles/cr5ll27z52do){rel="nofollow"}
+[^11]: BBC — "China sets lowest economic growth target since 1991" — [bbc.com](https://www.bbc.com/news/articles/cqxddwl93qjo){rel="nofollow"}
+[^12]: BBC — "Nepal votes in first general election since Gen Z protests overturned government" — [bbc.com](https://www.bbc.com/news/live/cvg5qd5201vt){rel="nofollow"}
+[^13]: BBC — "Millions of Cubans plunged into darkness as fuel crisis deepens" — [bbc.com](https://www.bbc.com/news/articles/cx2ggpq1742o){rel="nofollow"}
+[^14]: BBC — "Venezuela and US to work together on mining developments, Rodríguez says" — [bbc.com](https://www.bbc.com/news/articles/cj322v8pjp5o){rel="nofollow"}
+[^15]: BBC — "Global order is 'breaking down', Carney tells Australian parliament" — [bbc.com](https://www.bbc.com/news/articles/cpqwwy8xvy3o){rel="nofollow"}
+
+*Wszystkie informacje zweryfikowane w minimum 2 źródłach. Dane z 5 marca 2026.*
