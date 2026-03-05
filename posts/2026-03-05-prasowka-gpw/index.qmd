@@ -1,67 +1,77 @@
 ---
-title: "Prasówka GPW – 5 marca 2026"
-description: "Poranne podsumowanie wydarzeń na GPW: decyzja RPP, ceny ropy, projekcja NBP"
+title: "Prasówka GPW - 5 marca 2026"
 date: "2026-03-05"
-author: "DomenaRynku.pl"
-image: "/images/gpw-news.jpg"
-tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska", "RPP", "stopy procentowe"]
-layout: "post"
-nofollow: true
+description: "Poranna prasówka z kluczowymi informacjami z GPW, RPP i spółek giełdowych"
+keywords: [GPW, WIG20, RPP, stopy procentowe, giełda, akcje, kghm, orlen, cyber_folks]
 ---
 
-# Prasówka GPW – 5 marca 2026
+## 📈 Rynki – Odbicie po przecenie
 
-## 🔑 Najważniejsze wydarzenia
+**Środowa sesja na GPW przyniosła mocne odbicie** po wtorkowej gwałtownej przecenie związanej z atakiem USA i Izraela na Iran. 
 
-### RPP obniża stopy procentowe do 3,75%
+- **WIG20** zyskał +2,66% (do 3335,75 pkt)
+- **WIG** wzrósł o +2,44% (do 123 047,41 pkt)
+- **mWIG40** +1,94%, **sWIG80** +2,2%
 
-Rada Polityki Pieniężnej na marcowym posiedzeniu zdecydowała się na **obniżkę stóp procentowych o 25 punktów bazowych**. Stopa referencyjna NBP wynosi teraz **3,75%** – najniższy poziom od kwietnia 2022 roku.
+To przełamanie czterech z rzędu spadkowych dni. GPW była trzecią najmocniejszą giełdą w Europie, ustępując jedynie parkietom w Grecji i Budapeszcie. [Money.pl](https://www.money.pl/gielda/zmiana-nastrojow-na-gpw-indeksy-w-gore-7260762298968192a.html){rel="nofollow"}
 
-Decyzja RPP jest szczególnie istotna w kontekście trwającej wojny na Bliskim Wschodzie, która wpływa na globalne rynki. Analitycy wskazują, że mimo napięć geopolitycznych, czynniki krajowe – przede wszystkim presja płacowa – były kluczowe dla podjęcia decyzji o luzowaniu polityki monetarnej.
+**We wtorek indeksy mocno spadły**: WIG20 stracił 4,5%, a WIG 4,2% – to były największe spadki w tym tygodniu. [RP.pl](https://www.rp.pl/gielda/art43909541-gpw-odbija-po-gwaltownej-przecenie-czy-to-tylko-korekta-a-nie-poczatek-bessy){rel="nofollow"}
 
-Od marca 2025 roku stopa referencyjna spadła już o 200 punktów bazowych.
+### Najmocniejsze spółki WIG20
 
-Źródła: [Interia Biznes](https://biznes.interia.pl/gospodarka/news-posiedzenie-rpp-z-nowa-wojna-w-tle-wiadomo-co-ze-stopami-pro,nId,22615059){rel="nofollow"}, [TVN24 Biznes](https://tvn24.pl/biznes/pieniadze/stopy-procentowe-w-marcu-2026-rpp-obnizylo-stopy-do-do-3-75-procent-st8930186){rel="nofollow"}, [Bankier.pl](https://www.bankier.pl/wiadomosc/Decyzja-RPP-w-marcu-2026-Rada-jednak-sciela-stopy-procentowe-9092728.html){rel="nofollow"}, [Infor.pl](https://www.infor.pl/prawo/nowosci-prawne/7533379,w-marcu-2026-r-stopy-w-dol-o-ile-spadnie-rada-kredytu-hipotecznego.html){rel="nofollow"}
+- **CD Projekt** +5,09%
+- **KGHM** +3,74% (reakcja na wzrosty cen miedzi i srebra)
+- **Alior Bank** +4%
+- **PKO BP** +3,8%
+- **Orlen** +2,68% (po wtorkowym spadku o 4,8% po komentarzu premiera ws. cen paliw)
 
----
+[Stockwatch.pl](https://www.stockwatch.pl/wiadomosci/gpw-wsrod-najmocniejszych-w-europie-w-grze-kghm-unimot-jsw-i-cyber_folks,akcje,367473){rel="nofollow"}
 
-### Projekcja NBP: Inflacja w przedziale 1,6-2,9% w 2026 roku
+### Gorące spółki
 
-Narodowy Bank Polski opublikował nową projekcję makroekonomiczną. Zgodnie z prognozą NBP:
-
-- **Inflacja** w 2026 roku z 50-procentowym prawdopodobieństwem znajdzie się w przedziale **1,6–2,9%**
-- **Wzrost PKB** w 2026 roku prognozowany jest na poziomie **3,1-4,7%**
-- W 2027 roku inflacja ma wynieść 1,1-3,7%, a PKB 2,0-3,8%
-
-Projekcja jest korzystniejsza od wcześniejszych prognoz, co daje RPP przestrzeń do dalszego łagodzenia polityki monetarnej.
-
-Źródła: [Forsal.pl](https://forsal.pl/gospodarka/inflacja/artykuly/10791094,inflacja-i-wzrost-pkb-w-2026-roku-nbp-opublikowal-nowa-projekcje.html){rel="nofollow"}, [Business Insider](https://businessinsider.com.pl/gospodarka/projekcja-nbp-inflacja-i-wzrost-gospodarczy-w-polsce/dnf6z0){rel="nofollow"}
+- **cyber_Folks** +6,67% po świetnych wynikach Q4 2025: zysk netto +36,4% r/r (44,4 mln zł), przychody +37% (237,3 mln zł) – powyżej oczekiwań
+- **Unimot** +3,97%, testuje najwyższe poziomy od września 2025
+- **JSW** i **Bogdanka** – beneficjenci zawirowań na rynku surowców energetycznych
 
 ---
 
-## ⛽ Rynki surowcowe
+## 🏦 RPP obniżyła stopy procentowe
 
-### Ropa naftowa powyżej 80 USD za baryłkę
+**Rada Polityki Pieniężnej zdecydowała się na obniżkę stóp procentowych o 25 punktów bazowych** na marcowym posiedzeniu (3-4 marca 2026), mimo wojny na Bliskim Wschodzie i związanego z nią wzrostu cen energii.
 
-Konflikt na Bliskim Wschodzie nadal wpływa na ceny ropy naftowej. We wtorek (3 marca) doszło do ataku sił amerykańskich i izraelskich na Iran, co spowodowało zakłócenia w cieśnie Ormuz – kluczowym szlaku dla światowego eksportu ropy.
+**Nowe stopy procentowe (od 5 marca 2026):**
+- Stopa referencyjna: **3,75%** (najniższy poziom od kwietnia 2022)
+- Stopa lombardowa: 4,25%
+- Stopa depozytowa: 3,25%
 
-Ceny ropy Brent na ICE są wyceniane na **83,60 USD za baryłkę** (wzrost o 2,70%). To najwyższy poziom od stycznia 2025 roku.
+RPP wznowiła „niecykl" obniżek – po stagnacji w январе i lutym. Głównym czynnikiem była spadająca dynamika płac i słabszy przemysł. [Bankier.pl](https://www.bankier.pl/wiadomosc/Decyzja-RPP-w-marcu-2026-Rada-jednak-sciela-stopy-procentowe-9092728.html){rel="nofollow"}
 
-Eksperci wskazują, że ruch tankowców przez Cieśninę Ormuz praktycznie zamarł, co może prowadzić do dalszych wzrostów cen. Jednocześnie analitycy sugerują, że wraz z "otrząśnięciem się" rynków po początkowym szoku, ceny mogą ponownie spaść.
+W reakcji na decyzję złoty osłabł – euro wzrosło do 4,2740 zł. [Interia Biznes](https://biznes.interia.pl/gospodarka/news-posiedzenie-rpp-z-nowa-wojna-w-tle-wiadomo-co-ze-stopami-pro,nId,22615059){rel="nofollow"}
 
-Źródła: [Strefa Biznesu](https://strefabiznesu.pl/ciesnina-ormuz-praktycznie-stanela-ropa-wystrzelila-po-ruchu-iranu/ar/c3p2-28787439){rel="nofollow"}, [Money.pl](https://www.money.pl/gospodarka/wrze-na-bliskim-wschodzie-ropa-wciaz-drozeje-7260585969821824a.html){rel="nofollow"}, [Interia Biznes](https://biznes.interia.pl/gospodarka/news-ceny-ropy-pna-sie-w-gore-ciesnina-ormuz-nie-dziala,nId,22615167){rel="nofollow"}, [Strefa Inwestorów](https://strefainwestorow.pl/w-zielonej-strefie/paliwa-i-surowce/atak-na-iran-ropa-gaz-polskie-magazyny-zapasy){rel="nofollow"}
-
----
-
-## 📊 Podsumowanie
-
-| Wydarzenie | Data | Źródła |
-|------------|------|--------|
-| RPP obniżyła stopy do 3,75% | 05.03.2026 | Interia, TVN24, Bankier, Infor |
-| Projekcja NBP inflacja 1,6-2,9% | 05.03.2026 | Forsal, Business Insider |
-| Ropa Brent 83,60 USD | 04-2026 | St05.03.refa Biznesu, Money.pl, Interia, Strefa Inwestorów |
+Następne posiedzenie RPP zaplanowane na 8-9 kwietnia. [TVN24 Biznes](https://tvn24.pl/biznes/pieniadze/stopy-procentowe-w-marcu-2026-rpp-obnizylo-stopy-do-do-3-75-procent-st8930186){rel="nofollow"}
 
 ---
 
-*Data przygotowania: 5 marca 2026, godz. 08:20 CET*
-*Źródła: Interia Biznes, TVN24 Biznes, Bankier.pl, Infor.pl, Forsal.pl, Business Insider, Money.pl, Strefa Biznesu, Strefa Inwestorów*
+## 🌍 Czynniki geopolityczne
+
+**Sytuacja na Bliskim Wschodzie** pozostaje kluczowa dla nastrojów na GPW:
+
+- **Cieśnina Ormuz** – szansa na wznowienie transportu ropy po deklaracji Trumpa o amerykańskim ubezpieczeniu i eskorcie marynarki wojennej
+- **Korea Południowa** – KOSPI spadł o 12% w środę (panika na azjatyckich rynkach)
+- **Europa** – giełdy zakończyły dzień wzrostami: DAX +1,74%, CAC +0,79%, FTSE +0,8%
+
+[Money.pl](https://www.money.pl/gielda/zmiana-nastrojow-na-gpw-indeksy-w-gore-7260762298968192a.html){rel="nofollow"}
+
+---
+
+## 📊 Co dalej na GPW?
+
+Analitycy zastanawiają się, czy środowe odbicie to:
+- **Korekta** (po panicznej wyprzedaży) – i powrót do spadków
+- **Początek nowego impetu** – przy założeniu, że ropa i gaz stanieją po ewentualnym zakończeniu wojny
+
+Kluczowe będą: sytuacja w Iranie, ceny ropy, oraz postawa inwestorów zagranicznych wobec złotego. [RP.pl](https://www.rp.pl/gielda/art43909541-gpw-odbija-po-gwaltownej-przecenie-czy-to-tylko-korekta-a-nie-poczatek-bessy){rel="nofollow"}
+
+---
+
+*Źródła: Bankier.pl, Money.pl, Stockwatch.pl, RP.pl, Interia Biznes, TVN24 Biznes, Parkiet.com*
