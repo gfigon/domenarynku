@@ -1,84 +1,80 @@
 ---
-title: "Prasówka GPW – 6 marca 2026"
-description: "Poranne podsumowanie wydarzeń na GPW i rynkach finansowych: stopy procentowe, ceny ropy, sytuacja na Bliskim Wschodzie"
+title: "Prasówka GPW - 6 marca 2026"
 date: "2026-03-06"
-author: "DomenaRynku.pl"
-image: "/images/gpw-news.jpg"
-tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska", "stopy procentowe", "ropa", "iran"]
-layout: "post"
-nofollow: true
+author: "OpenClaw"
+description: "Poranna prasówka GPW - najważniejsze wiadomości z rynku akcji"
+image: /og-image.png
 ---
 
-# Prasówka GPW – 6 marca 2026
+# 📈 Prasówka GPW — 6 marca 2026
 
 ## 🔑 Najważniejsze wydarzenia
 
-### RPP obniżyła stopy procentowe do 3,75%
+### Przetasowanie w indeksach GPW
 
-Rada Polityki Pieniężnej na marcowym posiedzeniu (4 marca) zdecydowała się na obniżkę stóp procentowych o 25 punktów bazowych. Stopa referencyjna wynosi teraz **3,75%**, stopa lombardowa 4,25%, a stopa depozytowa 3,25%.
+**Tauron Polska Energia zastąpi Orange Polska w indeksie WIG20 po sesji 20 marca 2026 roku** — poinformowała GPW Benchmark w komunikacie z 5 marca 2026. Jednocześnie do indeksu mWIG40 wejdą Creotech Instruments, Orange Polska oraz Polimex Mostostal, zastępując 11 bit, Huuuge oraz Tauron.
 
-Decyzja została podjęta mimo skokowego wzrostu cen energii i osłabienia złotego w związku z konfliktem na Bliskim Wschodzie. RPP argumentowała, że biorąc pod uwagę kształtowanie się inflacji i jej perspektywy w kolejnych kwartałach, dostosowanie poziomu stóp było uzasadnione. W reakcji na decyzję kurs euro wzrósł do 4,2740 zł.
+W indeksie sWIG80 nastąpią następujące zmiany:
+- **Wejdą:** 11 bit, Answear, Huuuge, Medinice, Zremb-Chojnice
+- **Wyjdą:** Creotech, mcr, ML System, Polimex Mostostal, XTPL
 
-Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Decyzja-RPP-w-marcu-2026-Rada-jednak-sciela-stopy-procentowe-9092728.html){rel="nofollow"}, [TVN24.pl](https://tvn24.pl/biznes/pieniadze/stopy-procentowe-w-marcu-2026-rpp-obnizylo-stopy-do-do-3-75-procent-st8930186){rel="nofollow"}, [Interia Biznes](https://biznes.interia.pl/gospodarka/news-posiedzenie-rpp-z-nowa-wojna-w-tle-wiadomo-co-ze-stopami-pro,nId,22615059){rel="nofollow"}
+Dodatkowo wprowadzono limity ważenia:
+- PKO BP w WIG20 oraz WIG20TR: limit 15%
+- ING Bank Śląski w mWIG40 oraz mWIG40TR: limit 10%
+- PKO BP i PKNORLEN w WIG30 oraz WIG30TR: limit 10%
 
----
-
-### Chiny negocjują z Iranem w sprawie cieśniny Ormuz
-
-Chiny prowadzą rozmowy z Iranem w sprawie umożliwienia przepływu statków z ropą naftową i skroplonym gazem ziemnym przez cieśninę Ormuz – poinformowała agencja Reutera, powołując się na trzy źródła dyplomatyczne.
-
-Chiny są w dużym stopniu uzależnione od dostaw z Bliskiego Wschodu, a ok. 45% importu ropy do Chin przepływa przez cieśninę Ormuz. Liczba tankowców przepływających przez Ormuz spadła do czterech w niedzielę, w porównaniu ze średnią 24 dziennie od stycznia.
-
-Iran oświadczył, że żadne statki należące do USA, Izraela, krajów europejskich ani ich sojuszników nie będą mogły przepływać przez cieśninę. USA zapowiedziały eskortowanie tankowców "najwcześniej jak będzie to możliwe".
-
-Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Chiny-chca-ropy-Pekin-negocjuje-z-Iranem-bezpieczny-przeplyw-przez-Ormuz-9093947.html){rel="nofollow"}, [Interia Biznes](https://biznes.interia.pl/gospodarka/news-chiny-obawiaja-sie-o-dostawy-ropy-negocjuja-z-iranem-ws-cies,nId,22616271){rel="nofollow"}, [Onet Wiadomości](https://wiadomosci.onet.pl/swiat/sekretarz-wojny-usa-zapowiada-eskalacje-to-co-do-tej-pory-widziales-to-nic-relacja-na/4vkx2s3){rel="nofollow"}
+*Źródła: [Bankier](https://www.bankier.pl/wiadomosc/Tauron-zastapi-Orange-w-indeksie-WIG20-po-sesji-20-marca-9093824.html){rel="nofollow"}, [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260305/tauron-zastapi-orange-w-indeksie-wig20-po-sesji-20-marca){rel="nofollow"}, [XYZ](https://xyz.pl/dzieje-sie/przetasowanie-w-wig20-na-gpw-tauron-zastapi-orange-2847){rel="nofollow"}*
 
 ---
 
-### Wojna w Iranie kosztuje USA prawie 1 mld dolarów dziennie
+### Komunikaty ESPI
 
-Pierwsze 100 godzin operacji amerykańskich sił przeciwko Iranowi kosztowało **3,7 mld dolarów**, czyli ponad **890 mln dolarów dziennie** – podał think tank Center for Strategic and International Studies (CSIS).
+**B-Act S.A.** poinformował o zawarciu 4 marca 2026 roku umowy z ZDI sp. z o.o. na pełnienie nadzoru nad projektowaniem i realizacją robót oraz zarządzanie kontraktem w ramach CPK. Przedmiotem umowy jest realizacja zadań inżyniera kontraktu dla prac przygotowawczych przy budowie CPK w zakresie infrastruktury energetycznej i telekomunikacyjnej. Maksymalne wynagrodzenie: 3 482 030,23 zł netto (okres realizacji do 86 miesięcy).
 
-Ceny ropy naftowej wzrosły o ponad 15% od początku konfliktu. Notowania ropy Brent zbliżyły się do poziomu 85 dol. za baryłkę, a amerykańska ropa WTI kosztowała blisko 78 dol.
-
-Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Masakra-Iranu-za-miliardy-dolarow-Operacja-kosztuje-USA-890-mln-dolarow-dziennie-9093912.html){rel="nofollow"}, [PolsatNews](https://www.polsatnews.pl/wiadomosc/2026-03-05/tyle-kosztuje-jeden-dzien-wojny-amerykanski-podatnik-placi-krocie/){rel="nofollow"}, [RMF24](https://www.rmf24.pl/raporty/raport-izrael-w-stanie-wojny/news-ponad-890-milionow-dolarow-dziennie-tyle-kosztuje-usa-wojna-,nId,8070034){rel="nofollow"}, [Business Insider](https://businessinsider.com.pl/gospodarka/usa-wydaja-miliardy-na-operacje-w-iranie-eksperci-alarmuja-o-kosztach/wqysevs){rel="nofollow"}
+*Źródło: [Bankier](https://www.bankier.pl/wiadomosc/B-Act-S-A-Zawarcie-istotnej-umowy-9093801.html){rel="nofollow"}*
 
 ---
 
-### Ewakuacja Polaków z Bliskiego Wschodu
+### Analiza rynku
 
-Pierwsza grupa rodaków ewakuowanych wojskowym transportem lotniczym z rejonu Bliskiego Wschodu dotarła w piątek nad ranem do Polski – poinformowało Dowództwo Operacyjne Rodzajów Sił Zbrojnych.
+**Czwartkowa sesja na GPW (5 marca) zakończyła się bez wyraźnego kierunku** — indeks WIG20 zamknął się spadkiem o 0,28%. Według analityków, rynek nadal zmaga się z niepewnością geopolityczną związaną z sytuacją na Bliskim Wschodzie. Inwestorzy nie mają jasności, czy kontynuować kupowanie na spadkach, czy wyczekiwać dalszego rozwoju wydarzeń.
 
-Prezydent Karol Nawrocki podpisał postanowienie umożliwiające zaangażowanie do 150 żołnierzy w działania ewakuacyjne od 5 do 31 marca 2026 roku. Ewakuacja obejmuje Polaków przebywających w Arabii Saudyjskiej, Bahrajnie, Egipcie, Izraelu, Katarze, Kuwejcie, Omanie i ZEA.
+**Dane z rynków:**
+- Ropa WTI: +5% (ok. 79 USD za baryłkę)
+- Złoto: poniżej 5100 USD za uncję
+- Bitcoin: -2%
+- USD/PLN: ok. 3,69 zł
+- EUR/PLN: ok. 4,27 zł
 
-Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Juz-w-Polsce-Pierwsza-grupa-Polakow-ewakuowanych-z-Bliskiego-Wschodu-dotarla-do-kraju-9093992.html){rel="nofollow"}, [RadioZET](https://wiadomosci.radiozet.pl/swiat/trwa-ewakuacja-polakow-z-bliskiego-wschodu-armia-ujawnia-szczegoly-operacji){rel="nofollow"}, [Interia Wydarzenia](https://wydarzenia.interia.pl/bliski-wschod/news-wojsko-pomoze-w-ewakuacji-polakow-nowy-komunikat-rzecznika-m,nId,22615771){rel="nofollow"}, [Gazeta.pl](https://wiadomosci.gazeta.pl/polityka/7,198012,32639861,ewakuacja-polakow-z-bliskiego-wschodu-samoloty-z-wojskowa-zaloga.html){rel="nofollow"}
-
----
-
-## ⛽ Ceny paliw i ropa
-
-### Ropa drożeje, Chiny szukają alternatyw
-
-Ceny ropy kontynuują wzrosty w związku z atakami USA i Izraela przeciwko Iranowi, które zakłócają przepływy surowca do kluczowych importerów. Ropa Brent zbliżyła się do 85 dol. za baryłkę (wzrost o ok. 12% w pierwszych trzech dniach tygodnia).
-
-Prezes Unimotu Adam Sikorski zwraca uwagę, że cena oleju napędowego na giełdzie w Londynie przekroczyła 900 dolarów za tonę. Problemem jest nie tylko cena ropy, ale też ograniczone moce rafineryjne – większość nowych rafinerii powstała na Bliskim Wschodzie, który jest teraz objęty konfliktem.
-
-Pozytywne jest to, że Polska ma zapasy paliw pozwalające wytrzymać około 90 dni.
-
-Źródła: [Business Insider](https://businessinsider.com.pl/gielda/surowce/ciesnina-ormuz-blokuje-dostawy-ropy-globalne-rynki-energii-pod-presja/7bsl5ej){rel="nofollow"}, [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260302/ceny-paliw-moga-wzrosnac-mocniej-niz-wskazuje-sam-wzrost-cen-ropy-unimot){rel="nofollow"}
+*Źródła: [Parkiet](https://www.parkiet.com/gielda/art43918141-wciaz-wiecej-pytan-niz-odpowiedzi-na-gpw){rel="nofollow"}, [Bankier](https://www.bankier.pl/wiadomosc/Konflikt-w-Europie-niedoszacowany-Spodziewamy-sie-spadkow-w-najblizszych-dniach-9093777.html){rel="nofollow"}*
 
 ---
 
-## 📊 Podsumowanie
+### Rekomendacje
 
-| Wydarzenie | Data | Źródła |
-|------------|------|--------|
-| RPP obniżyła stopy do 3,75% | 04.03.2026 | Bankier, TVN24, Interia |
-| Chiny-Iran: negocjacje ws. Ormuz | 06.03.2026 | Bankier, Interia, Onet |
-| Koszt operacji USA: 890 mln $/dzień | 05.03.2026 | Bankier, PolsatNews, RMF24, Business Insider |
-| Ewakuacja Polaków z Bliskiego Wschodu | 05-06.03.2026 | Bankier, RadioZET, Interia, Gazeta |
+BNP Paribas opublikował listę TOP PICKS na marzec 2026. Portfel obejmuje 10 spółek z GPW, w tym CD Projekt, Dom Development i XTB. Analitycy zwracają uwagę na potencjał wzrostu sięgający nawet 44% dla wybranych spółek.
+
+*Źródło: [FXMAG](https://www.fxmag.pl/gielda/prognozy-akcje-10-spolek-z-gpw-dadza-dobrze-zarobic-bnp-paribas-opublikowal-zaskakujace-top-picks-na-marzec-po-ile-akcje-cd-projekt-dom-development-i-xtb-gielda){rel="nofollow"}*
 
 ---
 
-*Data przygotowania: 6 marca 2026, godz. 08:20 CET*
-*Źródła: Bankier.pl, Interia Biznes, PolsatNews, RMF24, Business Insider, TVN24, Onet Wiadomości, Gazeta.pl, RadioZET*
+## 📊 Kalendarium
+
+| Data | Wydarzenie |
+|------|------------|
+| 19 marca 2026 | Forum Rynku Finansowego, Warszawa |
+| 20 marca 2026 | Zmiana składu indeksów WIG20, mWIG40, sWIG80 |
+
+---
+
+## 🔗 Źródła
+
+- [Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+- [Parkiet.com](https://www.parkiet.com){rel="nofollow"}
+- [StrefaInwestorow.pl](https://strefainwestorow.pl){rel="nofollow"}
+- [XYZ.pl](https://xyz.pl){rel="nofollow"}
+- [FXMAG](https://www.fxmag.pl){rel="nofollow"}
+
+---
+
+*Przygotowano: 6 marca 2026, 08:30*
