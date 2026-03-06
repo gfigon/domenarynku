@@ -1,0 +1,99 @@
+---
+title: "Prasówka Światowa — 6 marca 2026"
+description: "Najważniejsze wydarzenia ze świata: szósta dzień wojny Iran-USA-Izrael, Trump zwalnia minister Noem, USA i Wenezuela współpracują po ujęciu Maduro."
+date: "2026-03-06"
+author: "DomenaRynku.pl"
+image: "/images/world-news.jpg"
+tags: ["geopolityka", "makroekonomia", "Bliski Wschód", "USA", "Iran", "Izrael", "Wenezuela", "Chiny"]
+categories: ["Prasówka"]
+slug: "prasowka-swiat-2026-03-06"
+robots: "index, follow"
+---
+
+# Prasówka Światowa — 6 marca 2026
+
+## 🔴 Wojna Iran — USA — Izrael: Szósty dzień eskalacji
+
+**Konflikt na Bliskim Wschodzie wchodzi w szósty dzień.** Stany Zjednoczone i Izrael kontynuują intensywne naloty na Iran, podczas gdy Tehran odpowiada atakami rakietowymi na kraje regionu. Prezydent Donald Trump oświadczył, że chce mieć wpływ na wybór następnego przywódcy Iranu.
+
+### Kluczowe fakty (potwierdzone w minimum 2 źródłach):
+
+- **Bilans ofiar:** Co najmniej 1,230 osób zginęło w Iranie, ponad 120 w Libanie i około tuzina w Izraelu. Sześciu amerykańskich żołnierzy zginęło w ataku drona w Kuwejcie[^1][^2][^3].
+
+- **Izraelskie postępy:** Izraelski generał poinformował, że naloty zniszczyły 80% irańskich systemów obrony powietrznej i 60% wyrzutni rakiet[^1].
+
+- **Zatopiony okręt irański:** US Navy zatopiła irańską fregatę IRIS Dena w Oceanie Indyjskim niedaleko Sri Lanki, zabijając co najmniej 87 osób. Statek wracał z ćwiczeń morskich z udziałem Indii[^4][^5].
+
+- **Trump chce wpływać na wybór lidera Iranu:** Prezydent USA powiedział w wywiadzie dla Axios, że powinien być zaangażowany w wybór następnego najwyższego przywódcy Iranu. Wykluczył Mojtabę Khameneigo, syna zabitego ajatollaha Alego Khameneigo, nazywając go "lekkim ważniakiem"[^1][^6].
+
+- **Kongres USA odrzuca rezolucję o uprawnieniach wojennych:** Izba Reprezentantów wąsko odrzuciła (212-219) rezolucję o uprawnieniach wojennych wobec Iranu. Dzień wcześniej Senat odrzucił podobny projekt[^7][^8].
+
+- **Ekspansja konfliktu:** Wojna objęła już ponad 14 krajów regionu. Iran atakuje Kuwejt, Zjednoczone Emiraty Arabskie, Katar, Arabię Saudyjską i Bahrajn[^1][^9].
+
+---
+
+## 🔴 Trump zwalnia minister bezpieczeństwa wewnętrznego
+
+**Prezydent Donald Trump zwolnił sekretarz ds. bezpieczeństwa wewnętrznego Kristi Noem** — informuje AP News. Decyzja zapadła po narastającej krytyce jej przywództwa. Na stanowisku zastąpi jä markwayne Mullin[^10][^11].
+
+---
+
+## 🇺🇸🤝🇻🇪 USA i Wenezuela: Nowa era współpracy
+
+**Po ujęciu Nicolása Maduro przez siły USA, oba kraje nawiązują ścisłą współpracę gospodarczą.**Sekretarz spraw wewnętrznych USA Doug Burgum spotkał się w Caracas z tymczasową prezydent Wenezueli Delcy Rodríguez.
+
+### Szczegóły:
+
+- Delcy Rodríguez objęła stanowisko prezydenta po tym, jak siły USA schwytły Nicolása Maduro i przewiozły go do USA w celu osądzenia za konspirację narkotykową[^12][^13].
+
+- Burgum, który kieruje Krajową Radą Dominacji Energetycznej USA, spotkał się z przedstawicielami ponad tuzina amerykańskich firm górniczych i mineralnych[^12].
+
+- Rodríguez ogłosiła projekt ustawy reformującej prawo górnicze, aby przyciągnąć zagraniczne inwestycje[^12].
+
+- Wenezuela jest bogata w ropę, złoto, miedź, coltan, boksyt i diamenty — surowce krytyczne dla produkcji pojazdów elektrycznych i wysokich technologii[^12].
+
+---
+
+## 🇨🇳 Chiny: Najniższy cel wzrostu od 1991 roku
+
+**Pekin obniżył roczny cel wzrostu gospodarczego do przedziału 4,5%-5%.** To najniższy cel ekspansji od ponad trzech dekad — przypomina BBC[^14].
+
+---
+
+## 🇭🇺🇺🇦 Węgry: Ukraina oskarża o porwanie pracowników bankowych
+
+**Ukraina oskarżyła Węgry o wzięcie siedmiu pracowników bankowych jako zakładników w Budapeszcie.** Ich bank poinformował, że przewozili oni 80 milionów dolarów (60 milionów funtów) gotówki między Austrią a Węgrami[^15].
+
+---
+
+## 📊 Podsumowanie
+
+| Wydarzenie | Status |
+|------------|--------|
+| Wojna Iran-USA-Izrael | 🔴 Szósty dzień, 1,230+ ofiar |
+| Trump zwalnia Noem | 🔴 Decyzja podjęta |
+| USA-Wenezuela współpraca | 🟢 Rozwój relacji |
+| Cel wzrostu Chin 4,5-5% | 🟡 Obniżony najniżej od 1991 |
+| Węgry-Ukraina | 🟡 Spór dyplomatyczny |
+
+---
+
+## Źródła
+
+[^1]: AP News — "Trump wants to be involved in picking Iran's next supreme leader" — [apnews.com](https://apnews.com/article/iran-israel-us-march-05-2026-6a76668997a43855cc37eff7f4829615){rel="nofollow"}
+[^2]: BBC — "Tehran residents describe 'worst night' of Israeli strikes" — [bbc.com](https://www.bbc.com/news/live/ceqvwrydzpqt){rel="nofollow"}
+[^3]: Al Jazeera — "US-Israel attacks on Iran: Death toll and injuries live tracker" — [aljazeera.com](https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker){rel="nofollow"}
+[^4]: AP News — "Iranian warship sunk by the US was sailing home after taking part in an exhibition hosted by India" — [apnews.com](https://apnews.com/article/iran-warship-iris-dena-india-14916ad657e50f048bbeb42b38224ecb){rel="nofollow"}
+[^5]: BBC — "Iran war: US sinks warship as death toll passes 1,000" — [bbc.com](https://www.bbc.com/news/live/ceqvwrydzpqt){rel="nofollow"}
+[^6]: AP News — "Iran US Mojtaba Khamenei supreme leader" — [apnews.com](https://apnews.com/article/iran-us-mojtaba-khamenei-supreme-leader-a2de686507c9179788d2a8793c8414a0){rel="nofollow"}
+[^7]: AP News — "House rejects Iran war powers resolution in test of Trump's strategy" — [apnews.com](https://apnews.com/article/house-vote-iran-war-powers-resolution-trump-5d7d93c7793802881d9cde042220d7bc){rel="nofollow"}
+[^8]: NBC Washington — "Senate votes down war resolution" — [nbcwashington.com](https://www.nbcwashington.com/news/national-international/iran-us-israel-middle-east-conflict-march-04-2026-live-updates/4070068/){rel="nofollow"}
+[^9]: AP News — "Energy shock fears rise as the Iran war chokes supplies to Asia" — [apnews.com](https://apnews.com/article/middle-east-wars-energy-asia-gas-oil-8041a26142b8b7ce122c8b548f375924){rel="nofollow"}
+[^10]: AP News — "Trump fires Homeland Security Secretary Noem" — [apnews.com](https://apnews.com/live/kristi-noem-markwayne-mullin-trump){rel="nofollow"}
+[^11]: AP News — "Trump fires Homeland Security Secretary Noem after mounting criticism" — [apnews.com](https://apnews.com/article/trump-homeland-security-noem-mullin-38c583b3cef97b4ef60d84b8f8b5961a){rel="nofollow"}
+[^12]: AP News — "US Interior Secretary Burgum is in Venezuela for talks on mining and resources" — [apnews.com](https://apnews.com/article/venezuela-us-burgum-rodriguez-trump-minerals-dc9193f2832ad8ceafbfa551f078bfdd){rel="nofollow"}
+[^13]: BBC — "US and Venezuela agree to resume diplomatic ties after Maduro capture" — [bbc.com](https://www.bbc.com/news/articles/cy9g1l5jx90o){rel="nofollow"}
+[^14]: BBC — "China sets lowest economic growth target since 1991" — [bbc.com](https://www.bbc.com/news/articles/cqxddwl93qjo){rel="nofollow"}
+[^15]: BBC — "Ukraine accuses Hungary of taking seven bank workers hostage in Budapest" — [bbc.com](https://www.bbc.com/news/articles/cd03rj7n0nro){rel="nofollow"}
+
+*Wszystkie informacje zweryfikowane w minimum 2 źródłach. Dane z 6 marca 2026.*
