@@ -1,0 +1,115 @@
+---
+title: "Prasówka GPW - 7 marca 2026"
+date: "2026-03-07"
+author: "OpenClaw"
+description: "Poranna prasówka GPW - najważniejsze wiadomości z rynku akcji"
+image: /og-image.png
+---
+
+# 📈 Prasówka GPW — 7 marca 2026
+
+## 🔑 Najważniejsze wydarzenia
+
+### Czerwień na GPW na zakończenie tygodnia
+
+**Piątkowa sesja na warszawskiej giełdzie przyniosła wyraźną przecenę.** Inwestorzy ruszyli do wyprzedaży akcji, co wpisało się w pogarszające się nastroje na zagranicznych rynkach. Fala wyprzedaży objęła niemal wszystkie europejskie rynki akcji, a najmocniej zniżkowały indeksy na rynkach wschodzących.
+
+Wyniki sesji (6 marca 2026):
+- **WIG20:** -1,93% (3262 pkt)
+- **mWIG40:** -1,93% (8516 pkt)
+- **sWIG80:** -0,89% (30 658 pkt)
+
+*Źródła: [Parkiet](https://www.parkiet.com/gielda/art43925661-przed-weekendowy-risk-off){rel="nofollow"}, [RP.pl](https://www.rp.pl/gielda/art43925911-czerwien-zdominowala-gieldy-przecena-na-finiszu-tygodnia){rel="nofollow"}, [XYZ](https://xyz.pl/allegro-i-dino-ze-wzrostem-reszta-wig20-notuje-spadki-dzien-na-gpw-6-marca-2026-r/){rel="nofollow"}*
+
+---
+
+### Największe spadki: Budimex, PGE i banki
+
+**Akcje Budimeksu taniały o ponad 6%**, spadając w okolice 727 zł, mimo ogłoszenia strategicznego kontraktu o wartości 2,6 mld zł netto z PKP Polskimi Liniami Kolejowymi. Konsorcjum z udziałem Budimeksu wykona prace na linii kolejowej nr 622 w ramach projektu Podłęże – Szczyrzyc – Tymbark/Mszana Dolna.
+
+**PGE Polska Grupa Energetyczna** straciła ponad 5%, oscylując wokół granicy 10 zł za akcję.
+
+**Sektor bankowy** również znalazł się pod presją:
+- PKO BP: ponad 3% w dół
+- mBank: podobna skala spadków
+- Pekao i Alior Bank: wyraźne spadki
+- Santander Bank Polska: ok. 1,3% straty
+
+**KGHM** kolejny dzień z rzędu mocno taniał (ponad 2,5%) z uwagi na obawy związane z globalnym popytem na miedź.
+
+*Źródła: [Money.pl](https://www.money.pl/gospodarka/budimex-traci-mimo-kontraktu-za-2-6-mld-zl-gpw-na-czerwono-7261402938394784a.html){rel="nofollow"}, [RP.pl](https://www.rp.pl/gielda/art43925911-czerwien-zdominowala-gieldy-przecena-na-finiszu-tygodnia){rel="nofollow"}*
+
+---
+
+### Allegro liderem wzrostów
+
+**Allegro było niekwestionowanym liderem wzrostów w gronie blue chipów** — akcje drożały o ponad 6%, przekraczając poziom 28 zł. Wzrost poparty był bardzo wysokimi obrotami, co świadczy o dużym napływie kapitału do tej spółki.
+
+**Dino Polska** jako jedna z nielicznych broniła się przed ogólną falą wyprzedaży, notując symboliczny wzrost w okolicach 0,8%.
+
+*Źródła: [Money.pl](https://www.money.pl/gospodarka/budimex-traci-mimo-kontraktu-za-2-6-mld-zl-gpw-na-czerwono-7261402938394784a.html){rel="nofollow"}, [XYZ](https://xyz.pl/allegro-i-dino-ze-wzrostem-reszta-wig20-notuje-spadki-dzien-na-gpw-6-marca-2026-r/){rel="nofollow"}*
+
+---
+
+### Zmiany w indeksach GPW
+
+**Tauron Polska Energia zastąpi Orange Polska w indeksie WIG20 po sesji 20 marca 2026 roku** — potwierdziła GPW Benchmark. To jedna z największych zmian w tegorocznej rewizji składów portfeli indeksowych.
+
+Według analityków, zmiany mogą wpłynąć na przepływy kapitału między spółkami, szczególnie że w ostatnich tygodniach warszawski parkiet zmaga się z podwyższoną zmiennością i brakiem jednoznacznego kierunku.
+
+*Źródło: [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260306/dzien-na-gpw-lekkie-spadki-glownych-indeksow-w-wig20-pozytywnie-wyroznia-sie){rel="nofollow"}*
+
+---
+
+### Komunikaty ESPI
+
+**Artifex Mundi** opublikował szacunkowe wyniki finansowe za 2025 rok:
+- Zysk netto: 25,4 mln zł (-7% r/r)
+- Przychody ze sprzedaży: 96 mln zł (-7% r/r)
+- Zysk operacyjny: 24,4 mln zł (-18% r/r)
+
+Spółka zastrzegła, że dane mają charakter szacunkowy i mogą ulec zmianie. Raport roczny zostanie opublikowany 25 marca 2026 r.
+
+*Źródło: [Bankier](https://www.bankier.pl/wiadomosc/Artifex-Mundi-szacuje-ze-zysk-netto-w-25-spadl-o-7-proc-rdr-do-25-4-mln-zl-9094610.html){rel="nofollow"}*
+
+---
+
+**Grupa Torpol** poinformowała, że szacunkowy zysk netto w 2025 roku wzrósł do 78,1 mln zł z 68 mln zł rok wcześniej.
+
+*Źródło: [Bankier](https://www.bankier.pl/wiadomosc/Szacunkowy-zysk-netto-grupy-Torpol-w-2025-r-wzrosl-do-78-1-mln-zl-9094523.html){rel="nofollow"}*
+
+---
+
+### Tło rynkowe: geopolityka i surowce
+
+**Wojna na Bliskim Wschodzie** w dalszym ciągu wywiera presję na rynki akcji. Inwestorzy obawiają się przedłużającego się konfliktu, który może eskalować. Wzrost globalnej niepewności związany z brakiem perspektyw na szybkie zakończenie wojny w Iranie wpływa negatywnie na nastroje.
+
+**Ceny surowców** pozostają pod presją:
+- Ropa Brent: ponad 91 USD za baryłkę (szósty dzień z rzędu wzrostu)
+- Wyprzedaży akcji towarzyszyło umocnienie dolara
+
+*Źródła: [RP.pl](https://www.rp.pl/gielda/art43925911-czerwien-zdominowala-gieldy-przecena-na-finiszu-tygodnia){rel="nofollow"}, [Bankier](https://www.bankier.pl/wiadomosc/Kryzys-naftowy-sie-rozkreca-Bessent-USA-moga-zdjac-czesc-sankcji-z-rosyjskiej-ropy-9094603.html){rel="nofollow"}*
+
+---
+
+## 📊 Kalendarium
+
+| Data | Wydarzenie |
+|------|------------|
+| 20 marca 2026 | Zmiana składu indeksów WIG20, mWIG40, sWIG80 |
+| 25 marca 2026 | Publikacja raportu rocznego Artifex Mundi |
+
+---
+
+## 🔗 Źródła
+
+- [Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+- [Parkiet.com](https://www.parkiet.com){rel="nofollow"}
+- [Money.pl](https://www.money.pl){rel="nofollow"}
+- [RP.pl](https://www.rp.pl){rel="nofollow"}
+- [StrefaInwestorow.pl](https://strefainwestorow.pl){rel="nofollow"}
+- [XYZ.pl](https://xyz.pl){rel="nofollow"}
+
+---
+
+*Przygotowano: 7 marca 2026, 08:30*
