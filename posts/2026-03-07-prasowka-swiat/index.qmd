@@ -1,0 +1,98 @@
+---
+title: "Prasówka Światowa – 7 marca 2026"
+description: "Najważniejsze wydarzenia ze świata: wojna Iran-USA-Izrael, atak na Charków, napięcia USA-Kuba, makroekonomia"
+date: "2026-03-07"
+author: "DomenaRynku.pl"
+image: "/images/world-news.jpg"
+tags: ["świat", "geopolityka", "USA", "Europa", "gospodarka", "Iran", "Izrael", "Ukraina", "Kuba", "Rosja"]
+layout: "post"
+nofollow: true
+---
+
+# Prasówka Światowa – 7 marca 2026
+
+## 🔥 Najważniejsze wydarzenia
+
+### Wojna Iran-USA-Izrael: Dzień 8. konfliktu
+
+Konflikt zbrojny między Stanami Zjednoczonymi, Izraelem a Iranem wszedł w ósmy dzień. Prezydent Iranu Masoud Pezeshkian powiedział, że Iran "nigdy się nie podda" po tym, jak prezydent Donald Trump zażądał "bezwarunkowej kapitulacji" Iranu. Iran kontynuuje ataki dronami i rakietami wymierzone w Izrael i kraje Zatoki Perskiej.
+
+**Kluczowe wydarzenia:**
+- **Lotnisko w Dubaju**: Irańskie drony i rakiety przechwycone w pobliżu lotniska w Dubaju. Emirates zawiesiła wszystkie loty do i z Dubaju do odwołania. Według rzecznika obrony Kataru, przechwycono rakietę w pobliżu Doha.
+- **Przeprosiny Iranu**: Prezydent Pezeshkian przeprosił kraje Zatoki Perskiej za ataki Iranu, stwierdzając, że Iran nie będzie atakować jako pierwszy.
+- **Ceny ropy**: Ropa osiągnęła najwyższy poziom od dwóch lat. Minister energii Kataru Saad al-Kaabi ostrzegł, że ceny mogą wzrosnąć do 150 dolarów za baryłkę, jeśli konflikt będzie trwał.
+- **Bomber w UK**: Amerykański bombowiec B-2 Spirit wylądował w brytyjskiej bazie w Gloucestershire. Wielka Brytania zezwoliła na wykorzystanie swoich baz wojskowych.
+- **USA atakują z "rekordową prędkością"**: Według monitora wojennego Airwars, pierwsze dni amerykańsko-izraelskich ataków na Iran "trafiły znacząco więcej celów niż jakakolwiek kampania w ostatnich dekadach".
+
+Źródła: [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/3/7/iran-war-live-trump-says-no-deal-with-iran-until-unconditional-surrender){rel="nofollow"}, [BBC](https://www.bbc.com/news/live/ceqvwrydzpqt){rel="nofollow"}, [The Guardian](https://www.theguardian.com/world/live/2026/mar/07/middle-east-crisis-live-tehran-explosions-beirut-trump-israel-iran-war-second-week){rel="nofollow"}, [NY Times](https://www.nytimes.com/live/2026/03/05/world/iran-war-israel-trump){rel="nofollow"}
+
+---
+
+### Rosja atakuje Charków: 7 zabitych
+
+Rosyjski pocisk rakietowy trafił w pięciopiętrowy budynek mieszkalny w Charkowie w sobotę 7 marca, zabijając co najmniej siedem osób, w tym dwoje dzieci. Dziesięć osób zostało rannych, w tym troje dzieci.
+
+Prezydent Wołodymyr Zelensky poinformował, że ratownicy przeszukują gruzy. Według ukraińskich władz, Rosja przeprowadziła również ataki dronami i rakietami balistycznymi na Kijów.
+
+Dzień 1471 wojny Rosji przeciwko Ukrainie. Według danych ukraińskich, łączne straty bojowe rosyjskich wojsk od 24 lutego 2022 roku wynoszą około 1 271 350 żołnierzy.
+
+Źródła: [Reuters](https://www.reuters.com/world/europe/russian-strike-kills-seven-including-two-children-ukraines-kharkiv-governor-says-2026-03-07/){rel="nofollow"}, [The Independent](https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-trump-kharkiv-offensive-b2933820.html){rel="nofollow"}, [Kyiv Independent](https://kyivindependent.com/russia-targets-kyiv-with-ballistic-missiles/){rel="nofollow"}, [UKrinform](https://www.ukrinform.net/block-lastnews){rel="nofollow"}
+
+---
+
+### Trump: "Kuba wkrótce upadnie"
+
+Prezydent Donald Trump powiedział w wywiadzie dla CNN, że rząd Kuby "wkrótce upadnie" i że przywódcy kubańscy "bardzo chcą zawrzeć umowę". Trump zasugerował, że po zakończeniu wojny z Iranem USA mogą skierować swoją uwagę na Kubę.
+
+**Równoległe działania:**
+- **Departament Sprawiedliwości**: DOJ utworzył grupę roboczą ds. możliwych oskarżeń przeciwko urzędnikom kubańskiego rządu i Komunistycznej Partii Kuby za przestępstwa narkotykowe, imigracyjne, gospodarcze i przemoc.
+- **Shootout na Kubie**: Rząd Kuby ogłosił piątą ofiarę śmiertelną po strzelaninie z łodzią z flagami Florydy. Według Hawany, 10 osób na pokładzie planowało "wypuścić terror" na Kubie.
+- **Zamknięcie ambasady**: Kuba zamknęła swoją ambasadę w Quito po wydaleniu dyplomatów przez Ekwador.
+
+Źródła: [CNN](https://www.cnn.com/2026/03/06/americas/trump-cuba-pressure-havana-latam-intl){rel="nofollow"}, [NY Times](https://www.nytimes.com/2026/03/06/us/politics/justice-dept-orders-cuba-investigation.html){rel="nofollow"}, [Washington Post](https://www.washingtonpost.com/national-security/2026/03/06/trump-cuba-prosecution/){rel="nofollow"}, [Al Jazeera](https://www.aljazeera.com/news/2026/3/7/cuba-announces-fifth-death-after-shootout-with-florida-tagged-speedboat){rel="nofollow"}
+
+---
+
+## 💰 Makroekonomia i finanse
+
+### USA: Rezerwa Federalna w pułapce między słabymi danymi a inflacją
+
+Amerykańska gospodarka zanotowała nieoczekiwany spadek zatrudnienia o 92 000 miejsc pracy w lutym – kontrastujący z oczekiwaniami +50 000. Jednocześnie ceny benzyny wzrosły o 60 centów w ciągu mniej niż tygodnia z powodu konfliktu na Bliskim Wschodzie.
+
+**Kluczowe fakty:**
+- **Stopy procentowe**: Rezerwa Federalna prawdopodobnie utrzyma stopy procentowe bez zmian na posiedzeniu 17-18 marca.
+- **Kredyty hipoteczne**: Stopy kredytów 30-letnich spadły o ponad punkt procentowy od początku 2025 roku, obecnie poniżej 6% dla kwalifikowanych kredytobiorców.
+- **Inflacja**: Rynek obawia się wzrostu inflacji z powodu rosnących cen ropy.
+
+Według analityków cytowanych przez International Business Times, "Fed jest uwięziony między skałą a twardym miejscem" – z jednej strony słabe dane z rynku pracy, z drugiej rosnąca inflacja.
+
+Źródła: [NY Times](https://www.nytimes.com/2026/03/06/business/economy/federal-reserve-jobs-inflation.html){rel="nofollow"}, [CBS News](https://www.cbsnews.com/news/todays-mortgage-interest-rates-march-6-2026/){rel="nofollow"}, [International Business Times](https://www.ibtimes.co.uk/us-economy-faces-setback-jobs-lost-inflation-1783757){rel="nofollow"}, [Yahoo Finance](https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-refinance-interest-rates-today-friday-march-6-2026-110054212.html){rel="nofollow"}
+
+---
+
+### Wojna Iranu zagraża światowej gospodarce
+
+Konflikt na Bliskim Wschodzie jest najnowszym zagrożeniem dla światowej gospodarki, która zmaga się z niepewnością związaną z polityką handlową Trumpa. Rosnące ceny energii mogą podsycić inflację i ograniczyć wzrost gospodarczy na całym świecie.
+
+Al Jazeera podkreśla, że przerwy w lotach w Zatoce Perskiej wpływają na globalne łańcuchy dostaw, a niepewność inwestycyjna rośnie.
+
+Źródła: [Al Jazeera](https://www.aljazeera.com/economy/2026/3/7/iran-war-is-latest-threat-to-a-global-economy-rattled-by-trump){rel="nofollow"}, [BBC](https://www.bbc.com/news/articles/cy031ylgepro){rel="nofollow"}
+
+---
+
+## 📊 Podsumowanie
+
+| Wydarzenie | Data | Źródła |
+|------------|------|--------|
+| Wojna Iran-USA-Izrael: Dzień 8 | 07.03.2026 | Al Jazeera, BBC, Guardian |
+| Trump żąda bezwarunkowej kapitulacji Iranu | 07.03.2026 | Al Jazeera, NY Times |
+| Atak na Dubaj: lotnisko zamknięte | 07.03.2026 | BBC, Financial Express |
+| Ropa: najwyższa cena od 2 lat ($150 możliwe) | 07.03.2026 | BBC, Al Jazeera |
+| Rosja: 7 zabitych w Charkowie | 07.03.2026 | Reuters, Independent, Kyiv Independent |
+| Trump: "Kuba wkrótce upadnie" | 06.03.2026 | CNN, NY Times, Washington Post |
+| USA: 92 000 miejsc pracy straconych | 06.03.2026 | NY Times, IBTimes |
+| Fed utrzyma stopy (marzec) | 06.03.2026 | NY Times, CBS |
+
+*Data przygotowania: 7 marca 2026, godz. 11:00 CET*
+
+*Źródła: Reuters, BBC, Al Jazeera, NY Times, Washington Post, The Guardian, The Independent, Kyiv Independent, UKrinform, International Business Times, CBS News, Yahoo Finance*
