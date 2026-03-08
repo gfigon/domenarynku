@@ -1,0 +1,72 @@
+---
+title: "Prasówka GPW – 8 marca 2026"
+description: "Poranne podsumowanie wydarzeń na GPW: komunikaty spółek, nastroje przed sesją, kluczowe informacje rynkowe"
+date: "2026-03-08"
+author: "DomenaRynku.pl"
+image: "/images/gpw-news.jpg"
+tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska", "wig20", "indeksy"]
+layout: "post"
+nofollow: true
+---
+
+# Prasówka GPW – 8 marca 2026
+
+## 🔑 Najważniejsze wydarzenia
+
+### Wielkie przetasowanie w indeksach GPW. Tauron wraca do WIG20
+
+Po sesji 20 marca 2026 roku nastąpi roczna rewizja składów portfeli najważniejszych indeksów GPW. **Grupa Tauron zastąpi Orange Polska w indeksie WIG20** – poinformowała spółka GPW Benchmark. To symboliczna zmiana, ponieważ z prestiżowego grona blue chipów zniknie ostatni przedstawiciel sektora telekomunikacyjnego.
+
+Jednocześnie:
+- **Orange Polska** trafi do indeksu mWIG40
+- **Creotech Instruments** i **Polimex Mostostal** dołączą do mWIG40
+- **11 Bit Studios** i **Huuuge** zostaną przeniesione z mWIG40 do sWIG80
+
+GPW Benchmark wprowadzi również limity udziału dla największych podmiotów: PKO BP zostanie ograniczony do 15% w WIG20 oraz 10% w WIG30 (wraz z Orlenem).
+
+Źródła: [Comparic.pl](https://comparic.pl/ida-duze-zmiany-w-indeksach-na-gpw-sprawdz-ktore-spolki-juz-20-marca-opuszcza-wig20-mwig40-i-swig40-06-03-2026/){rel="nofollow"}, [StrefaInwestorow.pl](https://strefainwestorow.pl/wiadomosci/20260306/dzien-na-gpw-lekkie-spadki-glownych-indeksow-w-wig20-pozytywnie-wyroznia-sie){rel="nofollow"}
+
+---
+
+### Piątek na GPW: WIG20 spadł o prawie 2%
+
+Piątkowa sesja (6 marca) na warszawskiej giełdzie zakończyła się spadkami głównych indeksów. WIG20 stracił **1,93%**, co było kontynuacją korekty rozpoczętej wcześniej w tygodniu. Na tle przeceny wyróżniały się akcje **Allegro** oraz **Dino**, które zakończyły dzień na plusie.
+
+Sesja odbywała się w cieniu napięć geopolitycznych związanych z sytuacją na Bliskim Wschodzie.
+
+Źródła: [XYZ.pl](https://xyz.pl/allegro-i-dino-ze-wzrostem-reszta-wig20-notuje-spadki-dzien-na-gpw-6-marca-2026-r/){rel="nofollow"}, [StrefaInwestorow.pl](https://strefainwestorow.pl/blog/w-poszukiwaniu-sygnalow/w-poszukiwaniu-sygnalow-7-marca-2026-wszystkie-indeksy-gpw){rel="nofollow"}
+
+---
+
+### Polskie SAFE 0 proc. – Glapiński przedstawi szczegóły w środę
+
+Prezes NBP **Adam Glapiński** przedstawi publicznie rozwiązania dotyczące „polskiego SAFE 0 proc." w środę, 11 marca – dowiedziała się PAP ze źródła zbliżonego do banku centralnego.
+
+Propozycja „polskiego SAFE 0 proc." padła po spotkaniu prezydenta Karola Nawrockiego i prezesa NBP. Rozwiązanie mogłoby wygenerować kwotę podobną do unijnego programu SAFE (185 mld zł), ale bez konieczności spłaty odsetek czy kapitału.
+
+**Radosław Sikorski** (wicepremier, szef MSZ) potwierdził, że Polska przyjmie SAFE, a pierwszych przelewów z Brukseli spodziewamy się w ciągu kilku tygodni. Prezydent ma czas na podjęcie decyzji ws. ustawy do 20 marca.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Polskie-SAFE-0-proc-Wiemy-kiedy-Glapinski-pokaze-szczegoly-9094670.html){rel="nofollow"}
+
+---
+
+## 📊 Podsumowanie tygodnia na GPW
+
+| Wydarzenie | Data | Źródła |
+|------------|------|--------|
+| Rewizja indeksów: Tauron do WIG20 | 06.03.2026 | Comparic, StrefaInwestorow |
+| WIG20 spadł 1,93% | 06.03.2026 | XYZ, StrefaInwestorow |
+| SAFE 0 proc. - szczegóły 11 marca | 07.03.2026 | Bankier, PAP |
+
+---
+
+## 📈 Przed sesją
+
+Ze względu na dzień wolny (niedziela), dzisiejsza sesja na GPW się nie odbędzie. Poniedziałek, 9 marca, będzie pierwszą sesją nowego tygodnia.
+
+**Nastroje przed sesją:** Inwestorzy będą prawdopodobnie analizować piątkowe spadki oraz czekać na środową prezentację prezesa Glapińskiego dotyczącą polskiego SAFE 0 proc.
+
+---
+
+*Data przygotowania: 8 marca 2026, godz. 08:30 CET*
+*Źródła: Bankier.pl, Comparic.pl, StrefaInwestorow.pl, XYZ.pl*
