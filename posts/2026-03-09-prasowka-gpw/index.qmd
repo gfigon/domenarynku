@@ -1,0 +1,70 @@
+---
+title: "Prasówka GPW – 9 marca 2026"
+description: "Poranne podsumowanie wydarzeń na GPW: ceny ropy, sytuacja na Bliskim Wschodzie, wpływ na rynek paliw w Polsce"
+date: "2026-03-09"
+author: "DomenaRynku.pl"
+image: "/images/gpw-news.jpg"
+tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska", "wig20", "ropa", "paliwa", "bliski wschód"]
+layout: "post"
+nofollow: true
+---
+
+# Prasówka GPW – 9 marca 2026
+
+## 🔑 Najważniejsze wydarzenia
+
+### Szok naftowy: ropa Brent powyżej 100 USD, ceny paliw w Polsce wzrosną o 4-7%
+
+Ceny ropy naftowej wystrzeliły w poniedziałek rano do najwyższego poziomu od ponad trzech lat. Ropa Brent osiągnęła **107 USD za baryłkę** po zamknięciu Cieśniny Ormuz, przez którą przechodzi 20% globalnej podaży ropy. 
+
+W reakcji na eskalację konfliktu na Bliskim Wschodzie:
+- Iran grozi atakami na instalacje naftowe w krajach Zatoki Perskiej
+- Cena ropy może przekroczyć 200 USD za baryłkę – ostrzega Iran
+- USA zawiesiły sankcje na rosyjską ropę transportowaną do Indii (do 4 kwietnia 2026)
+
+**Wpływ na Polskę:** Analitycy prognozują wzrost cen paliw w Polsce o **4-7%** w najbliższych dniach. Bezpośrednim powodem jest przeniesienie wyższych kosztów ropy na ceny detaliczne z opóźnieniem około 2 tygodni.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Ceny-ropy-na-swiecie-rosna-w-tempie-bez-granic-9094983.html){rel="nofollow"}, [Money.pl](https://www.money.pl/gospodarka/nie-ma-granic-ceny-ropy-beda-tylko-rosly-7262364273576096a.html){rel="nofollow"}, [Gazeta.pl](https://next.gazeta.pl/inwestycje/7,187021,32647867,naftowy-szok-ropa-najdrozsza-od-2022-r-panika-na-gieldzie.html){rel="nofollow"}, [cenypaliw.fyi](https://cenypaliw.fyi/){rel="nofollow"}
+
+---
+
+### Rząd pracuje nad rozwiązaniami dla rosnących cen paliw
+
+Minister finansów **Andrzej Domański** poinformował w poniedziałek rano w Polsat News, że rząd pracuje nad rozwiązaniami mającymi złagodzić wzrost cen paliw. Jednocześnie rząd wprowadził **specjalne wyjątki od norm czasu pracy dla kierowców cystern** (przewoźników paliw), które obowiązują od 6 marca do 2 kwietnia 2026 roku.
+
+Przewoźnicy drogowi ostrzegają przed falą upadłości – ceny paliw wzrosły o 30% w ciągu 3 dni.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Rzad-pracuje-nad-rozwiazaniami-majacymi-zlagodzic-wzrost-cen-paliw-Domanski-MF-9094988.html){rel="nofollow"}, [Infor.pl](https://www.infor.pl/twoje-pieniadze/7534697,wzrost-cen-paliw-o-30-w-3-dni-bedzie-fala-upadlosci-dramat-polskich-przewoznikow-drogowych.html){rel="nofollow"}, [Interia.pl](https://motoryzacja.interia.pl/wiadomosci/news-pilna-decyzja-rzadu-w-sprawie-paliwa-kierowcy-cystern-moga-j,nId,22616795){rel="nofollow"}
+
+---
+
+### Polskie SAFE 0 proc. – Glapiński przedstawi szczegóły w środę
+
+Przypominamy, że prezes NBP **Adam Glapiński** przedstawi szczegóły "polskiego SAFE 0 proc." w środę, 11 marca. To rozwiązanie może wygenerować kwotę podobną do unijnego programu SAFE (185 mld zł).
+
+---
+
+## 📊 Kalendarz
+
+| Wydarzenie | Data | Źródła |
+|------------|------|--------|
+| Ropa Brent powyżej 107 USD | 09.03.2026 | Bankier, Money.pl, Gazeta |
+| Wzrost cen paliw w PL o 4-7% | 09.03.2026 | cenypaliw.fyi, Superbiz |
+| Rządowe rozwiązania dla paliw | 09.03.2026 | Bankier, Infor, Interia |
+| Szczegóły SAFE 0 proc. | 11.03.2026 | Bankier |
+
+---
+
+## 📈 Przed sesją
+
+**Nastroje przed sesją:** Poniedziałkowa sesja na GPW rozpocznie się w cieniu szoku naftowego. Inwestorzy będą monitorować sytuację na Bliskim Wschodzie oraz czekać na środową prezentację prezesa Glapińskiego dotyczącą polskiego SAFE 0 proc.
+
+Kluczowe tematy rynkowe:
+- Eskalacja konfliktu Iran-Israel i jej wpływ na ceny ropy
+- Oczekiwane podwyżki cen paliw w Polsce
+- Rewizja indeksów GPW 20 marca (Tauron wraca do WIG20)
+
+---
+
+*Data przygotowania: 9 marca 2026, godz. 08:20 CET*
+*Źródła: Bankier.pl, Money.pl, Gazeta.pl, cenypaliw.fyi, Infor.pl, Interia.pl*
