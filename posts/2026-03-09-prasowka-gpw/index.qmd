@@ -1,6 +1,6 @@
 ---
 title: "Prasówka GPW – 9 marca 2026"
-description: "Poranne podsumowanie wydarzeń na GPW: ceny ropy, sytuacja na Bliskim Wschodzie, wpływ na rynek paliw w Polsce"
+description: "Poranne podsumowanie wydarzeń na GPW: szok naftowy, ceny ropy powyżej 100 USD, wpływ na rynek paliw w Polsce"
 date: "2026-03-09"
 author: "DomenaRynku.pl"
 image: "/images/gpw-news.jpg"
@@ -13,34 +13,55 @@ nofollow: true
 
 ## 🔑 Najważniejsze wydarzenia
 
-### Szok naftowy: ropa Brent powyżej 100 USD, ceny paliw w Polsce wzrosną o 4-7%
+### Szok naftowy: ropa przebiła 100 i 110 USD za baryłkę
 
-Ceny ropy naftowej wystrzeliły w poniedziałek rano do najwyższego poziomu od ponad trzech lat. Ropa Brent osiągnęła **107 USD za baryłkę** po zamknięciu Cieśniny Ormuz, przez którą przechodzi 20% globalnej podaży ropy. 
+Ceny ropy naftowej przeżywają gwałtowny szok w poniedziałek rano. W nocy z niedzieli na poniedziałek notowania przebiły kolejno poziomy 100 i 110 dolarów za baryłkę, osiągając najwyższe wartości od marca 2022 roku.
 
-W reakcji na eskalację konfliktu na Bliskim Wschodzie:
-- Iran grozi atakami na instalacje naftowe w krajach Zatoki Perskiej
-- Cena ropy może przekroczyć 200 USD za baryłkę – ostrzega Iran
-- USA zawiesiły sankcje na rosyjską ropę transportowaną do Indii (do 4 kwietnia 2026)
+Zgodnie z danymi z poniedziałku rano:
+- **Ropa WTI (amerykańska):** wzrost o ponad 25%, w pewnym momencie osiągając poziom **118,21 USD za baryłkę**
+- **Ropa Brent (europejska):** wzrost o około 27%, do **118,22 USD za baryłkę**
+- Po korekcie: WTI ok. 103-104 USD, Brent ok. 107-108 USD
 
-**Wpływ na Polskę:** Analitycy prognozują wzrost cen paliw w Polsce o **4-7%** w najbliższych dniach. Bezpośrednim powodem jest przeniesienie wyższych kosztów ropy na ceny detaliczne z opóźnieniem około 2 tygodni.
+Bezpośrednią przyczyną wzrostów jest eskalacja konfliktu na Bliskim Wschodzie. Izrael przeprowadził ataki na irańską infrastrukturę energetyczną, Iran zagroził uderzeniem na instalacje naftowe w krajach Zatoki Perskiej. Dodatkowo, nowym przywódcą Iranu został Modżtaba Chameneii — syn zabitego ajatollaha Alego Chameneia, co sugeruje kontynuację twardego kursu wobec USA i sojuszników.
 
-Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Ceny-ropy-na-swiecie-rosna-w-tempie-bez-granic-9094983.html){rel="nofollow"}, [Money.pl](https://www.money.pl/gospodarka/nie-ma-granic-ceny-ropy-beda-tylko-rosly-7262364273576096a.html){rel="nofollow"}, [Gazeta.pl](https://next.gazeta.pl/inwestycje/7,187021,32647867,naftowy-szok-ropa-najdrozsza-od-2022-r-panika-na-gieldzie.html){rel="nofollow"}, [cenypaliw.fyi](https://cenypaliw.fyi/){rel="nofollow"}
+Blokada Cieśniny Ormuz przez Iran paraliżuje transport ropy. Kuwejt ograniczył wydobycie na części pól naftowych z powodu wyczerpania pojemności magazynowej. Wydobycie z głównych pól na południu Iraku spadło o 70%.
 
----
-
-### Rząd pracuje nad rozwiązaniami dla rosnących cen paliw
-
-Minister finansów **Andrzej Domański** poinformował w poniedziałek rano w Polsat News, że rząd pracuje nad rozwiązaniami mającymi złagodzić wzrost cen paliw. Jednocześnie rząd wprowadził **specjalne wyjątki od norm czasu pracy dla kierowców cystern** (przewoźników paliw), które obowiązują od 6 marca do 2 kwietnia 2026 roku.
-
-Przewoźnicy drogowi ostrzegają przed falą upadłości – ceny paliw wzrosły o 30% w ciągu 3 dni.
-
-Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Rzad-pracuje-nad-rozwiazaniami-majacymi-zlagodzic-wzrost-cen-paliw-Domanski-MF-9094988.html){rel="nofollow"}, [Infor.pl](https://www.infor.pl/twoje-pieniadze/7534697,wzrost-cen-paliw-o-30-w-3-dni-bedzie-fala-upadlosci-dramat-polskich-przewoznikow-drogowych.html){rel="nofollow"}, [Interia.pl](https://motoryzacja.interia.pl/wiadomosci/news-pilna-decyzja-rzadu-w-sprawie-paliwa-kierowcy-cystern-moga-j,nId,22616795){rel="nofollow"}
+Źródła: [Gazeta.pl](https://next.gazeta.pl/inwestycje/7,187021,32647867,naftowy-szok-ropa-najdrozsza-od-2022-r-panika-na-gieldzie.html){rel="nofollow"}, [PolsatNews](https://www.polsatnews.pl/wiadomosc/2026-03-09/ropa-naftowa-gwaltownie-zdrozala-panika-na-rynkach-trump-niska-cena-za-pokoj/){rel="nofollow"}, [Business Insider](https://businessinsider.com.pl/gielda/wiadomosci/ceny-ropy-nagle-wystrzelily-ostra-reakcja-donalda-trumpa/dvedpfc){rel="nofollow"}, [Puls Biznesu](https://www.pb.pl/ropa-bez-limitow-spadki-na-gieldach-zapowiedz-dnia-09-03-2026-1257566){rel="nofollow"}
 
 ---
 
-### Polskie SAFE 0 proc. – Glapiński przedstawi szczegóły w środę
+### Panika na giełdach azjatyckich
 
-Przypominamy, że prezes NBP **Adam Glapiński** przedstawi szczegóły "polskiego SAFE 0 proc." w środę, 11 marca. To rozwiązanie może wygenerować kwotę podobną do unijnego programu SAFE (185 mld zł).
+Reakcja rynków na wzrost cen ropy była gwałtowna:
+
+- **Japonia (Nikkei 225):** spadek o **7%**
+- **Korea Południowa (KOSPI):** spadek o **niemal 6%** — w Seulu uruchomiono awaryjne procedury bezpieczeństwa i tymczasowo wstrzymano obrót
+- **Australia (ASX 200):** spadek o blisko **4%**
+- **Chiny (CSI 300):** spadek o **2%**
+- **Hongkong (Hang Seng):** spadek o **3%**
+
+W Stanach Zjednoczonych piątkowa sesja również zakończyła się wyraźną wyprzedażą z powodu obaw o stagflację. Kontrakty terminowe na europejskie i amerykańskie indeksy również spadają, co wskazuje na możliwość pogłębienia przeceny.
+
+Źródła: [PolsatNews](https://www.polsatnews.pl/wiadomosc/2026-03-09/ropa-naftowa-gwaltownie-zdrozala-panika-na-rynkach-trump-niska-cena-za-pokoj/){rel="nofollow"}, [Puls Biznesu](https://www.pb.pl/ropa-bez-limitow-spadki-na-gieldach-zapowiedz-dnia-09-03-2026-1257566){rel="nofollow"}
+
+---
+
+### Ceny paliw w Polsce wzrosną o 25-56 groszy
+
+Wtorkowe i środowe prognozy zapowiadają podwyżki cen paliw na polskich stacjach w przedziale **25-56 groszy za litr**. 
+
+Aktualne ceny (wg danych z poniedziałku):
+- **Benzyna Pb 95:** ok. 7,75 zł/l
+- **Benzyna Pb 98:** ok. 6,23 zł/l  
+- **Olej napędowy (ON):** ok. 5,98 zł/l
+
+Analitycy wskazują, że ceny oleju napędowego i nafty przekroczyły już szczyty z 2022 roku. Jeśli wysokie ceny ropy utrzymają się, kierowcy odczują je przy dystrybutorach z około dwutygodniowym opóźnieniem.
+
+Donald Trump skomentował sytuację na Truth Social: "Krótkoterminowe ceny ropy, które gwałtownie spadną, gdy minie groźba irańskiego zagrożenia nuklearnego, to bardzo niska cena za bezpieczeństwo i pokój. Tylko głupcy myślą inaczej!"
+
+G7 dyskutuje możliwość wspólnego uwolnienia ropy z rezerw we współpracy z Międzynarodową Agencją Energetyczną.
+
+Źródła: [Business Insider](https://businessinsider.com.pl/gielda/wiadomosci/ceny-ropy-nagle-wystrzelily-ostra-reakcja-donalda-trumpa/dvedpfc){rel="nofollow"}, [cenypaliw.fyi](https://cenypaliw.fyi/){rel="nofollow"}
 
 ---
 
@@ -48,23 +69,27 @@ Przypominamy, że prezes NBP **Adam Glapiński** przedstawi szczegóły "polskie
 
 | Wydarzenie | Data | Źródła |
 |------------|------|--------|
-| Ropa Brent powyżej 107 USD | 09.03.2026 | Bankier, Money.pl, Gazeta |
-| Wzrost cen paliw w PL o 4-7% | 09.03.2026 | cenypaliw.fyi, Superbiz |
-| Rządowe rozwiązania dla paliw | 09.03.2026 | Bankier, Infor, Interia |
-| Szczegóły SAFE 0 proc. | 11.03.2026 | Bankier |
+| Ropa WTI powyżej 118 USD | 09.03.2026 | Gazeta, PolsatNews, BI |
+| Ropa Brent powyżej 118 USD | 09.03.2026 | Gazeta, PolsatNews |
+| Spadek Nikkei o 7% | 09.03.2026 | PolsatNews, Puls Biznesu |
+| Wstrzymanie handlu w Seulu | 09.03.2026 | PolsatNews |
+| Podwyżki paliw w PL +25-56 gr | 09.03.2026 | Business Insider |
 
 ---
 
 ## 📈 Przed sesją
 
-**Nastroje przed sesją:** Poniedziałkowa sesja na GPW rozpocznie się w cieniu szoku naftowego. Inwestorzy będą monitorować sytuację na Bliskim Wschodzie oraz czekać na środową prezentację prezesa Glapińskiego dotyczącą polskiego SAFE 0 proc.
+**Nastroje przed sesją:** Poniedziałkowa sesja na GPW rozpocznie się w cieniu globalnej paniki na rynkach. Gwałtowny wzrost cen ropy i obawy o eskalację konfliktu na Bliskim Wschodzie będą głównymi czynnikami wpływającymi na nastroje inwestorów.
 
 Kluczowe tematy rynkowe:
 - Eskalacja konfliktu Iran-Israel i jej wpływ na ceny ropy
+- Reakcja G7 - możliwe uwolnienie rezerw naftowych
 - Oczekiwane podwyżki cen paliw w Polsce
-- Rewizja indeksów GPW 20 marca (Tauron wraca do WIG20)
+- Wpływ na europejskie i amerykańskie indeksy futures
+
+**Do godziny 14:30** (gdy w USA przestawiono zegarki na czas letni) sesja na Wall Street będzie trwała od 14:30 do 21:00 czasu polskiego.
 
 ---
 
-*Data przygotowania: 9 marca 2026, godz. 08:20 CET*
-*Źródła: Bankier.pl, Money.pl, Gazeta.pl, cenypaliw.fyi, Infor.pl, Interia.pl*
+*Data przygotowania: 9 marca 2026, godz. 08:30 CET*
+*Źródła: Gazeta.pl, PolsatNews, Business Insider, Puls Biznesu, cenypaliw.fyi*
