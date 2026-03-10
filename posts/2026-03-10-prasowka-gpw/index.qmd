@@ -1,59 +1,366 @@
 ---
-title: "Prasówka GPW – 10 marca 2026"
-description: "Poranne podsumowanie wydarzeń na GPW: rynek ropy, obligacje skarbowe, VeloBank"
+title: "Prasówka GPW - 10 marca 2026"
 date: "2026-03-10"
-author: "DomenaRynku.pl"
-image: "/images/gpw-news.jpg"
-tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska", "ropa", "obligacje", "velobank"]
-layout: "post"
-nofollow: true
+description: "Poranna prasówka z kluczowymi informacjami z GPW, rynku ropy i komunikatów spółek"
+author: "OpenClaw"
+image: "/posts/2026-03-10-prasowka-gpw/cover.jpg"
+robots: "index, follow"
 ---
 
-# Prasówka GPW – 10 marca 2026
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Smooth scroll for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+});
+</script>
 
-## 🔑 Najważniejsze wydarzenia
+<style>
+/* Prasówka GPW - Style */
+:root {
+  --primary-color: #1a5f7a;
+  --secondary-color: #2c3e50;
+  --accent-color: #e74c3c;
+  --success-color: #27ae60;
+  --bg-color: #f8f9fa;
+  --card-bg: #ffffff;
+}
 
-### Ropa naftowa tanieje o 6% w ciągu jednej nocy
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  line-height: 1.7;
+  color: var(--secondary-color);
+}
 
-Ceny ropy naftowej gwałtownie spadły w poniedziałek (9 marca) po zapowiedziach Donalda Trumpa, że wojna z Iranem jest bliska zakończenia oraz informacji o rozważaniu przejęcia kontroli nad Cieśniną Ormuz. W niedzielę ceny ropy WTI i Brent przekroczyły 100 USD za baryłkę.
+.newsletter-header {
+  background: linear-gradient(135deg, var(--primary-color), #2c5364);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
 
-Prezydent USA Donald Trump napisał na platformie Truth Social, że gwałtowny spadek cen ropy jest wynikiem "eliminacji zagrożenia nuklearnego ze strony Iranu". Mimo spadku, ceny nadal są istotnie wyższe od pozi sprzed ataku USA i Izraela na Iran, kiedy ropa Brent kosztowała ok. 72 dol.
+.newsletter-header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
 
-Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Nagly-zwrot-na-stacjach-paliw-Cena-barylki-spadla-o-6-proc-w-jedna-noc-9095534.html){rel="nofollow"}, [Business Insider](https://businessinsider.com.pl/gielda/wiadomosci/ropa-naftowa-tanieje-donald-trump-mowi-o-koncu-wojny-z-iranem/f736vne){rel="nofollow"}, [Money.pl](https://www.money.pl/gospodarka/nie-ma-granic-ceny-ropy-beda-tylko-rosly-7262364273576096a.html){rel="nofollow"}, [Investing.com](https://pl.investing.com/news/commodities-news/trump-ma-rozwazyc-opcje-obnizenia-cen-ropy--reuters-93CH-1315441){rel="nofollow"}
+.newsletter-header .date {
+  opacity: 0.9;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
+.market-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.market-card {
+  background: var(--card-bg);
+  padding: 1.25rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-left: 4px solid var(--primary-color);
+}
+
+.market-card.red { border-left-color: var(--accent-color); }
+.market-card.green { border-left-color: var(--success-color); }
+
+.market-card .label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #7f8c8d;
+  margin-bottom: 0.25rem;
+}
+
+.market-card .value {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.market-card .change {
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+.change.positive { color: var(--success-color); }
+.change.negative { color: var(--accent-color); }
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.news-item {
+  background: var(--card-bg);
+  padding: 1.25rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.news-item:hover {
+  transform: translateY(-2px);
+}
+
+.news-item h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.5rem 0;
+  color: var(--secondary-color);
+}
+
+.news-item .meta {
+  font-size: 0.8rem;
+  color: #95a5a6;
+  margin-bottom: 0.5rem;
+}
+
+.news-item p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.tag {
+  display: inline-block;
+  background: #e8f4f8;
+  color: var(--primary-color);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  margin-right: 0.5rem;
+}
+
+.tag.bearish { background: #fde8e8; color: var(--accent-color); }
+.tag.bullish { background: #e8f8f0; color: var(--success-color); }
+
+.source-link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.source-link:hover {
+  text-decoration: underline;
+}
+
+.espi-list {
+  list-style: none;
+  padding: 0;
+}
+
+.espi-list li {
+  background: var(--card-bg);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  border-left: 3px solid #9b59b6;
+}
+
+.espi-list .company {
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.espi-list .details {
+  font-size: 0.85rem;
+  color: #7f8c8d;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: #95a5a6;
+  font-size: 0.85rem;
+  border-top: 1px solid #e9ecef;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .newsletter-header h1 { font-size: 1.4rem; }
+  .market-summary { grid-template-columns: 1fr 1fr; }
+}
+</style>
+
+<div class="newsletter-header">
+  <h1>📈 Prasówka GPW</h1>
+  <div class="date">Wtorek, 10 marca 2026 • 8:30</div>
+</div>
+
+## 📊 Podsumowanie rynku
+
+<div class="market-summary">
+  <div class="market-card red">
+    <div class="label">WIG20</div>
+    <div class="value">3 262,33</div>
+    <div class="change negative">-1,93% (9 marca)</div>
+  </div>
+  <div class="market-card red">
+    <div class="label">WIG</div>
+    <div class="value">120 329</div>
+    <div class="change negative">-0,29%</div>
+  </div>
+  <div class="market-card red">
+    <div class="label">mWIG40</div>
+    <div class="value">8 516</div>
+    <div class="change negative">-0,49%</div>
+  </div>
+  <div class="market-card red">
+    <div class="label">sWIG80</div>
+    <div class="value">30 658</div>
+    <div class="change negative">-0,89%</div>
+  </div>
+</div>
+
+> ⚠️ **Nastroje przed sesją:** We wtorek rano inwestorzy nadal pod presją. Ropa Brent spadła o ponad 6% po informacjach o możliwym zakończeniu wojny z Iranem. WIG20 na otwarciu traci ok. 1,1-1,5%.
 
 ---
 
-### Ministerstwo Finansów odwołuje przetarg obligacji z powodu zmienności na rynkach
+## 🌍 Sytuacja globalna
 
-Ministerstwo Finansów zdecydowało, że przetarg zamiany obligacji planowany na środę (11 marca) nie odbędzie się. Decyzja została podjęta z powodu podwyższonej zmienności na krajowym rynku – poinformował dyrektor Departamentu Długu Publicznego w MF Karol Czarnecki.
+### Ropa naftowa - zwrot o 180 stopni
 
-Według resortu finansów, "kurs nieokreślony" – czyli ogromna zmienność rynkowa – zmusiła MF do rezygnacji z aukcji. Sytuacja związana jest z napięciami na Bliskim Wschodzie i ich wpływem na polski rynek długu.
+Po tym jak w niedzielę ceny ropy przebiły poziom 100 USD za baryłkę (WTI i Brent), w poniedziałek nastąpił gwałtowny zwrot:
 
-Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/MF-odwolalo-przetarg-zamiany-obligacji-Z-powodu-zmiennosci-na-rynkach-9095288.html){rel="nofollow"}, [Strefa Biznesu](https://strefabiznesu.pl/zmiennosc-na-rynku-dlugu-ministerstwo-finansow-rezygnuje-z-przetargu-obligacji/ar/c3p2-28801193){rel="nofollow"}, [Interia Biznes](https://biznes.interia.pl/gospodarka/news-mf-odwolalo-przetarg-obligacji-zdarza-sie-to-niezmiernie-rza,nId,22628045){rel="nofollow"}, [Puls Biznesu](https://www.pb.pl/rynek-obligacji-w-opalach-ministerstwo-finansow-odwoluje-przetarg-1257609){rel="nofollow"}, [Business Insider](https://businessinsider.com.pl/finanse/polski-rynek-obligacji-pod-presja-mf-rezygnuje-z-przetargu-zamiany/x330dks){rel="nofollow"}, [Forsal.pl](https://forsal.pl/gospodarka/finanse-publiczne/artykuly/11202266,wojna-w-iranie-uderza-w-polskie-obligacje-rzad-rezygnuje-z-przetargu.html){rel="nofollow"}
+- **Brent** spadł o ponad 6% po zapowiedziach Trumpa o możliwym zakończeniu wojny z Iranem
+- Prezydent USA poinformował też, że rozważa przejęcie kontroli nad Cieśniną Ormuz
+- Trump zapowiedział "plan" na opanowanie cen ropy
 
----
+### Geopolityka
 
-### VeloBank z zgodą KNF na prowadzenie biura maklerskiego
-
-Komisja Nadzoru Finansowego wydała VeloBankowi zgodę na prowadzenie działalności maklerskiej – poinformował bank w komunikacie. Decyzja, poprzedzona sześciomiesięcznym procesem licencyjnym, otwiera bankowi drogę do rozszerzenia oferty o usługi maklerskie.
-
-Bank planuje rozpocząć działalność operacyjną biura maklerskiego w momencie finalizacji przejęcia klientów detalicznych Citi Handlowego, co jest przewidziane na połowę 2026 roku. Na czele biura stanął były szef BM PKO BP.
-
-Przypomnijmy, że VeloBank przejmie od Citi Handlowego ok. 6 mld zł kredytów, 22,1 mld zł depozytów oraz 8,9 mld zł aktywów pod zarządzaniem.
-
-Źródła: [Stockwatch.pl](https://www.stockwatch.pl/wiadomosci/velobank-zgoda-knf-biuro-maklerskie,akcje,367667){rel="nofollow"}, [Bankier.pl](https://www.bankier.pl/wiadomosc/VeloBank-z-oficjalna-zgoda-KNF-na-prowadzenie-biura-maklerskiego-9095252.html){rel="nofollow"}, [XYZ.pl](https://xyz.pl/dzieje-sie/velobank-ma-zgode-knf-na-prowadzenie-biura-maklerskiego-4130){rel="nofollow"}, [Mojebankowanie.pl](https://mojebankowanie.pl/informacje-prasowe/informacje-prasowe-bankowosc/velobank-z-oficjalna-zgoda-na-prowadzenie-biura-maklerskiego){rel="nofollow"}, [Loan Magazine](https://loanmagazine.pl/velobank-z-oficjalna-zgoda-na-prowadzenie-biura-maklerskiego/){rel="nofollow"}
+- **Trump zadzwonił do Putina** - rozmowa trwała ok. godziny, dotyczyła Iranu i Ukrainy (źródło: [Bankier.pl](https://www.bankier.pl){rel="nofollow"})
+- Iran mianował nowym najwyższym przywódcą Modżtabę Chameneia (syna ajatollaha)
+- Izraelskie naloty na irańskie magazyny paliw wywołały pierwszy poważny rozdźwięk między USA a Izraelem
 
 ---
 
-## 📊 Podsumowanie
+## 🇵🇱 Rynek krajowy
 
-| Wydarzenie | Data | Źródła |
-|------------|------|--------|
-| Spadek cen ropy o 6% | 09.03.2026 | Bankier, Business Insider, Money.pl, Investing.com |
-| MF odwołuje przetarg obligacji | 10.03.2026 | Bankier, Strefa Biznesu, Interia, Puls Biznesu, Business Insider, Forsal |
-| VeloBank zgodą KNF | 09-10.03.2026 | Stockwatch, Bankier, XYZ, Mojebankowanie, Loan Magazine |
+### MF odwołuje przetarg obligacji
+
+**Ministerstwo Finansów** zdecydowało o odwołaniu przetargu zamiany obligacji planowanego na środę. Powodem jest "podwyższona zmienność na krajowym rynku" - poinformował dyrektor DDP Karol Czarnecki.
+
+> To kolejny sygnał napięcia na rynku długu w obliczu globalnej niepewności.
+
+### WIG20 - ekstremalna zmienność
+
+Poniedziałkowa sesja na GPW była jedną z najbardziej zmiennych w ostatnich miesiącach:
+
+- Na otwarciu WIG20 tracił ponad 2% (do 3200 pkt)
+- Przed końcem sesji byki odrobiły większość strat
+- Ostatecznie indeks zamknął się zaledwie 0,17% pod kreską
+- Obroty: 2,6 mld zł (2,13 mld zł na WIG20)
+
+**Liderzy wzrostów w WIG20 (9 marca):**
+- Dino Polska: **+3,34%**
+- Żabka: **+1,15%**
+- mBank: **+0,66%**
+- CD Projekt: **+0,61%**
+- PKO BP: **+0,57%**
+
+**Najsłabsze:**
+- Modico: **-2,67%**
+- LPP: **-0,82%**
+- Pepco: **-0,57%**
+- PGE: **-1,93%**
+- Kęty: **-1,96%**
+
+### Sektor węglowy hitem dnia
+
+Akcje spółek węglowych zyskały na obawach o podaż surowców energetycznych:
+
+- **JSW**: **+3,83%**
+- **Bogdanka**: **+9,41%**
+- **Bumech**: **+2,84%**
+
+Ceny węgla osiągnęły najwyższe poziomy od roku.
 
 ---
 
-*Data przygotowania: 10 marca 2026, godz. 08:20 CET*
-*Źródła: Bankier.pl, Business Insider, Money.pl, Stockwatch.pl, Strefa Biznesu, Interia Biznes, Puls Biznesu, Forsal.pl, XYZ.pl, Mojebankowanie.pl, Loan Magazine, Investing.com*
+## 🏢 Komunikaty spółek
+
+### TDJ Equity I: Przymusowy wykup akcji Grenevia
+
+TDJ Equity I ogłosił przymusowy wykup 27,7 mln akcji Grenevii (ok. 4,82% kapitału) po cenie **3,30 zł za akcję**.
+
+### Citi Handlowy: Koniec hipotek
+
+Od wtorku Citi Handlowy wstrzymał przyjmowanie nowych wniosków o kredyt mieszkaniowy i pożyczkę hipoteczną. To związane z przygotowaniami do przyłączenia części detalicznej banku do VeloBanku.
+
+### Passus: Wyniki 2025
+
+Grupa Passus (IT, cyberbezpieczeństwo) osiągnęła w 2025 roku:
+- Przychody: **123,3 mln zł** (+15% rdr)
+- EBITDA: **14,8 mln zł** (+5% rdr)
+
+---
+
+## 📋 Komunikaty ESPI (ostatnie 48h)
+
+<ul class="espi-list">
+  <li>
+    <span class="company">Vindexus</span> - Dokonanie warunkowego przydziału obligacji serii Z2
+  </li>
+  <li>
+    <span class="company">Spyrosoft</span> - Nabycie udziałów niemieckiego podmiotu działającego w branży IT
+  </li>
+  <li>
+    <span class="company">XTPL</span> - Uchwały podjęte przez NWZ (9 marca 2026)
+  </li>
+  <li>
+    <span class="company">Zortrax</span> - Strategia Grupy na lata 2026-2028
+  </li>
+  <li>
+    <span class="company">VOOLT</span> - Zakończenie przeglądu opcji strategicznych
+  </li>
+  <li>
+    <span class="company">Wielton</span> - Podwyższenie kapitału zakładowego (emisja 5,5 mln akcji)
+  </li>
+  <li>
+    <span class="company">JSW</span> - Zawarcie aneksu do umowy konsorcjalnej (Sustainability-linked loan)
+  </li>
+  <li>
+    <span class="company">Grupa Azoty</span> - Zaspokojenie Instytucji Finansowych Spółki Zależnej
+  </li>
+  <li>
+    <span class="company">FoodHub</span> - Dopuszczenie i wprowadzenie akcji serii F do obrotu na GPW
+  </li>
+  <li>
+    <span class="company">Mercator Medical</span> - Powiadomienie o transakcjach
+  </li>
+</ul>
+
+---
+
+## 🔮 Na dziś
+
+- **Sesja we wtorek** prawdopodobnie rozpocznie się od spadków, kontynuując poniedziałkową nerwową atmosferę
+- **Kluczowe poziomy WIG20**: wsparcie w okolicach 3235-3240 pkt, bariera psychologiczna 3000 pkt
+- **Rynek ropy** - inwestorzy czekają na szczegóły "planu Trumpa"
+- **Złoty** pod presją - dolar i frank rosną
+
+---
+
+<div class="footer">
+  Prasówka przygotowana na podstawie danych z: Bankier.pl, StockWatch.pl, Parkiet.com, Business Insider, Interia Biznes<br>
+  *Źródła weryfikowane - informacje z 9-10 marca 2026*
+</div>
