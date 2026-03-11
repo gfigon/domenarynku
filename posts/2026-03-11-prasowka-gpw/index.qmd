@@ -203,7 +203,7 @@ body {
 
 <div class="newsletter-header">
   <h1>📈 Prasówka GPW</h1>
-  <div class="date">Środa, 11 marca 2026 • 8:20</div>
+  <div class="date">Środa, 11 marca 2026 • 8:30</div>
 </div>
 
 ## 📊 Podsumowanie rynku
@@ -211,8 +211,8 @@ body {
 <div class="market-summary">
   <div class="market-card">
     <div class="label">RPP</div>
-    <div class="value">3,75%</div>
-    <div class="change negative">-25 pb (marzec)</div>
+    <div class="value">4,00%</div>
+    <div class="change">-25 pb (marzec 2026)</div>
   </div>
   <div class="market-card">
     <div class="label">Inflacja</div>
@@ -231,70 +231,94 @@ body {
   </div>
 </div>
 
-> ⚠️ **Nastroje przed sesją:** Środa, 11 marca. RPP obniżyła stopy o 25 pb do 3,75%. Inwestorzy czekają na Wall Street i rozwój sytuacji na Bliskim Wschodzie.
+> ⚠️ **Nastroje przed sesją:** Środa, 11 marca. RPP obniżyła stopy o 25 pb w marcu do 4,00%. **Kotecki (RPP): "To raczej koniec" obniżek w 2026.** Inwestorzy czekają na rozwój sytuacji na Bliskim Wschodzie - napięcia USA-Iran wciąż kluczowym czynnikiem ryzyka.
 
 ---
 
 ## 🇵🇱 Polityka monetarna
 
-### RPP obniża stopy do 3,75%
+### RPP obniża stopy do 4,00%
 
-Rada Polityki Pieniężnej na marcowym posiedzeniu (3-4 marca 2026) zdecydowała się na **obniżkę stóp procentowych o 25 punktów bazowych**. Stopa referencyjna wynosi teraz **3,75%** - to druga z rzędu obniżka (poprzednia w grudniu 2025 również o 25 pb).
+Rada Polityki Pieniężnej na marcowym posiedzeniu (3-4 marca 2026) zdecydowała się na **obniżkę stóp procentowych o 25 punktów bazowych**. Stopa referencyjna wynosi teraz **4,00%** - to druga z rzędu obniżka (poprzednia w grudniu 2025 również o 25 pb).
 
-Źródła: [Business Insider](https://businessinsider.com.pl/gospodarka/rada-polityki-pienieznej-obniza-stopy-procentowe-co-dalej-z-kredytami/n90tnhe){rel="nofollow"}, [Strefa Inwestorów](https://strefainwestorow.pl/gospodarka/decyzja-rpp-marzec-2026){rel="nofollow"}, [GOFIN.pl](https://www.gofin.pl/17,2,7,261604,rpp-obnizyla-stopy-procentowe.html){rel="nofollow"}
+### "To raczej koniec" - głos z RPP
 
-### Prognozy NBP: Wzrost bez presji inflacyjnej
+**Członek RPP Ludwik Kotecki** ocenił w radiu Program I Polskiego Radia, że marcowa obniżka stóp procentowych mogła być ostatnią w tym roku:
 
-Narodowy Bank Polski opublikował marcową projekcję inflacji i PKB, która zakłada:
+> "Obawiam się, że to raczej koniec. Te scenariusze, które kreśliliśmy, że mamy komfortową sytuację, że możemy sobie obniżać stopy, to chyba po tym co się dzieje, to marcowa obniżka - to była być może ostatnia w tym roku"
 
-- **PKB 2026**: wzrost o **3,9%** (wcześniej prognozowano 2,9%)
-- **Inflacja 2026**: **2,3%** (wcześniej 3,4%) - blisko celu inflacyjnego NBP (2,5%)
-- **Inflacja w styczniu 2026**: spadek do **2,2%** rok do roku
-- Dynamika płac w sektorze przedsiębiorstw wyraźnie się osłabiła
-
-Analitycy PZU wskazują, że takie dane świadczą o przyspieszeniu wzrostu gospodarczego bez presji cenowej. Średnioroczna inflacja w latach do 2028 r. powinna utrzymywać się w przedziale 2,3-2,4%.
+Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/Kotecki-To-raczej-koniec-Glos-z-RPP-w-sprawie-stop-procentowych-9096288.html){rel="nofollow"}
 
 > ⚠️ **Ryzyka**: Kluczowym zagrożeniem pozostaje sytuacja geopolityczna na Bliskim Wschodzie. Eskalacja napięć mogłaby wywołać szok podażowy, zwiększając inflację i spowalniając wzrost.
-
-Źródła: [Business Insider](https://businessinsider.com.pl/gospodarka/rada-polityki-pienieznej-obniza-stopy-procentowe-co-dalej-z-kredytami/n90tnhe){rel="nofollow"}, [Strefa Inwestorów](https://strefainwestorow.pl/gospodarka/projekcja-inflacji-nbp-marzec-2026){rel="nofollow"}
-
-### Kolejna obniżka możliwa w lipcu?
-
-Jeśli sytuacja geopolityczna pozostanie pod kontrolą, lipcowa aktualizacja projekcji inflacji i PKB przez NBP może stać się okazją do kolejnej obniżki stóp procentowych. Wiele zależy od rozwoju wydarzeń na arenie międzynarodowej.
 
 ---
 
 ## 🌍 Sytuacja globalna
 
-### Ropa naftowa - niepewność na rynku
+### Wojna o Cieśninę Ormuz
 
-Ceny ropy naftowej wahają się w środę. Inwestorzy oceniają doniesienia na temat możliwego uwolnienia ropy ze strategicznych rezerw USA. Wcześniej ropa gwałtownie zdrożała po atakach na Iran, a następnie staniała po zapowiedziach potencjalnego porozumienia.
+- Prezydent USA Donald Trump poinformował, że amerykańskie wojsko zniszczyło **10 irańskich nieaktywnych statków minowych**
+- Trump ostrzegł, że blokada Cieśniny Ormuz będzie mieć poważne konsekwencje: **"Rozprawimy się z nimi szybko i brutalnie"**
+- Iran rozmieszcza miny w Cieśninie Ormuz
 
-### Bliski Wschód - napięcia USA-Iran
+### Rosyjski konsulat w Isfahanie pod ostrzałem
 
-- Rosyjski konsulat w irańskim Isfahanie został uszkodzony w wyniku ostrzału - Kreml mówi o "rażącym pogwałceniu konwencji wiedeńskiej"
-- Administracja USA poprosiła Izrael, by nie prowadził dalszych ostrzałów irańskich obiektów energetycznych
-- Kanada zadeklarowała, że nie weźmie udziału w wojnie z Iranem
+- Rosyjski konsulat w irańskim mieście Isfahan został uszkodzony w wyniku ostrzału
+- **Kreml o "rażącym pogwałceniu konwencji wiedeńskiej"**
+
+### USA-Izrael: "Zgrzyt sojuszników"
+
+- Administracja Trumpa poprosiła Izrael, by nie prowadził dalszych ostrzałów irańskich obiektów energetycznych, przede wszystkim infrastruktury naftowej
+- Irańskie obiekty energetyczne jako "opcja ostateczna"
+
+### Kanada odmawia udziału w wojnie
+
+- Premier Mark Carney: **"Kanada nie będzie uczestniczyła w wojnie z Iranem"**
+
+### Ropa i metale
+
+- Ceny ropy wahają się - inwestorzy oceniają doniesienia o możliwym uwolnieniu ropy z rezerw strategicznych
+- Notowania miedzi stabilne - ok. 13 000 USD za tonę
 
 ---
 
 ## 🇵🇱 Rynek krajowy
 
+### Prezydencki projekt "SAFE 0 proc."
+
+We wtorek w Sejmie złożony został prezydencki projekt ustawy realizujący koncepcję "polskiego SAFE 0 proc.":
+
+- Utworzenie w BGK **Polskiego Funduszu Inwestycji Obronnych**
+- Finansowanie z zysku NBP - według uzasadnienia zapewni to państwu ok. **200 mld zł** na cele obronne
+- Premier Tusk: **"SAFE zero złotych"** - w projekcie nie ma pieniędzy, jest nowe ciało, rada, biurokracja
+
+### MF: Koniec limitu 40 tys. euro w FIZ
+
+Ministerstwo Finansów przygotowało projekt nowelizacji:
+- **Zniesienie wymogu** minimalnej ceny pierwszej emisji certyfikatów niepublicznych FIZ (40 tys. euro)
+- **Zniesienie zakazu** podziału certyfikatu inwestycyjnego
+
+> "To uderzenie w nadregulację" - według MF nowe przepisy zwiększą dostępność FIZ
+
 ### ZEN wprowadza wpłatomaty Euronet
 
-ZEN.COM uruchamia w Polsce wpłaty gotówki we wpłatomatach Euronetu. Usługa ma wystartować **17 marca 2026 r.** i uzupełni dotychczasową obsługę wpłat w sieci Planet Cash. Opłata za taką operację została szczegółowo określona w nowym cenniku.
-
-Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/ZEN-zmienia-cennik-i-udostepnia-wplatomaty-Euronetu-9096302.html){rel="nofollow"}
+ZEN.COM uruchamia wpłaty gotówki we wpłatomatach Euronetu. Usługa startuje **17 marca 2026 r.**, uzupełniając sieć Planet Cash.
 
 ### Zatory płatnicze w sektorze IT
 
-Zaległości kontrahentów wobec firm z branży IT zanotowane w Krajowym Rejestrze Długów wzrosły w ciągu ostatnich 12 miesięcy o **13% do blisko 0,5 mld zł**. W tym samym okresie zadłużenie firm informatycznych również zwiększyło się.
+Zaległości kontrahentów wobec firm IT wzrosły o **13%** do blisko **0,5 mld zł** (12 miesięcy).
 
-Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/Zatory-platnicze-uderzaja-w-polskie-IT-Zaleglosci-kontrahentow-wzrosly-o-56-mln-zl-9096286.html){rel="nofollow"}
+---
 
-### Rozwój gospodarczy poza wielkimi miastami
+## 🏢 Komunikaty spółek
 
-Nysa (90 km od Wrocławia) jest stolicą trzeciego najszybciej rozwijającego się powiatu w Polsce - wynika z danych "Pulsu Biznesu". To przykład dynamicznego rozwoju regionalnego poza tradycyjnymi metropoliami.
+### Molecure: Analiza cząstkowa w badaniu KITE w połowie 2026
+
+Molecure ocenia, że w badaniu KITE (OATD-01) możliwa będzie **analiza cząstkowa w połowie 2026 r.**
+
+> "Osiągnięty trend wzrostowy w rekrutacji pacjentów powinien umożliwić przeprowadzenie drugiej analizy cząstkowej na danych z 50 pacjentów" - prezes Marcin Szumowski
+
+Na koniec 2025 r. środki pieniężne spółki: **16,35 mln zł**
 
 ---
 
@@ -302,13 +326,31 @@ Nysa (90 km od Wrocławia) jest stolicą trzeciego najszybciej rozwijającego si
 
 <ul class="espi-list">
   <li>
-    <span class="company">KGHM</span> - Wycena wartości inwestycji w kopalnię Sierra Gorda na 504 mln USD
+    <span class="company">KGHM</span> - Informacja o wynikach przeprowadzonych testów na utratę wartości
   </li>
   <li>
-    <span class="company">GPW</span> - Odpisy obniżą wynik netto za 2025 r. o ok. 10,7 mln zł
+    <span class="company">GPW</span> - Zdarzenia jednorazowe wpływające istotnie na wyniki za 2025 rok (odpisy ~10,7 mln zł)
   </li>
   <li>
-    <span class="company">Grenevia</span> - TDJ rozpoczął przymusowy wykup akcji
+    <span class="company">Grenevia</span> - TDJ rozpoczął przymusowy wykup akcji (cena 3,30 zł)
+  </li>
+  <li>
+    <span class="company">OT Logistics</span> - Zwołanie NWZ na dzień 10.04.2026 r.
+  </li>
+  <li>
+    <span class="company">TAURON</span> - Otrzymanie decyzji URE w sprawie Funduszu Wypłaty Różnicy Ceny
+  </li>
+  <li>
+    <span class="company">Orange Polska</span> - Powołanie członków zarządu na kolejne kadencje
+  </li>
+  <li>
+    <span class="company">ENEA</span> - Wstępne wyniki finansowe i operacyjne za 2025 rok
+  </li>
+  <li>
+    <span class="company">MONNARI Trade</span> - Skup akcji własnych
+  </li>
+  <li>
+    <span class="company">JSW</span> - Nakaz Państwowej Inspekcji Pracy
   </li>
 </ul>
 
@@ -316,14 +358,14 @@ Nysa (90 km od Wrocławia) jest stolicą trzeciego najszybciej rozwijającego si
 
 ## 🔮 Na dziś
 
-- **Sesja na GPW** - inwestorzy czekają na otwarcie Wall Street
-- **RPP** - decyzja o stopach (3,75%) już w cenach
-- **Bliski Wschód** - główny czynnik ryzyka dla rynków
-- **Złoty** - stabilny wobec głównych walut
+- **Sesja na GPW** - inwestorzy czekają na rozwój sytuacji na Bliskim Wschodzie
+- **RPP** - decyzja o stopach (4,00%) już w cenach, kolejna obniżka mało prawdopodobna w 2026
+- **Bliski Wschód** - główny czynnik ryzyka; napięcia USA-Iran, miny w Cieśninie Ormuz
+- **Złoty** - stabilny; USD/PLN ok. 4,05, EUR/PLN ok. 4,35
 
 ---
 
 <div class="footer">
-  Prasówka przygotowana na podstawie danych z: Bankier.pl, Business Insider, Strefa Inwestorów, GOFIN.pl, Money.pl<br>
-  *Źródła weryfikowane - informacje z 9-11 marca 2026*
+  Prasówka przygotowana na podstawie danych z: Bankier.pl, GPW (espi.pl), PAP Biznes<br>
+  *Źródła weryfikowane - informacje z 10-11 marca 2026*
 </div>
