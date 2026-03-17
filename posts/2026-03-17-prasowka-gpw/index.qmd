@@ -1,0 +1,107 @@
+---
+title: "Prasówka GPW – 17 marca 2026"
+description: "Poranne podsumowanie wydarzeń na GPW: energetyka prowadzi wzrosty, Orlen z rekordem, mBank z ratingiem S&P"
+date: "2026-03-17"
+author: "DomenaRynku.pl"
+image: "/images/gpw-news.jpg"
+tags: ["gpw", "giełda", "warszawa", "akcje", "energetyka", "biznes", "polska", "orc", "pge", "tauron", "enea", "jsw", "mbank"]
+layout: "post"
+nofollow: true
+---
+
+# Prasówka GPW – 17 marca 2026
+
+## 🔑 Najważniejsze wydarzenia
+
+### Energetyczny rajd na GPW. WIG-Energia zyskuje ponad 8%
+
+Wtorkowa sesja na warszawskim parkiecie upłynęła pod znakiem dominacji byków w sektorze energetycznym. Indeks WIG-Enerjia zyskiwał na zamknięciu ponad **8,6%**, co czyni go najsilniejszym indeksem sektorowym dnia.
+
+Największe wzrosty odnotowały:
+- **PGE** – dwucyfrowy wzrost
+- **Enea** – dwucyfrowy wzrost  
+- **Tauron** – dwucyfrowy wzrost
+
+Analitycy wskazują, że jest to reakcja na zbyt mocne spadki z ostatnich tygodni oraz efekt wypowiedzi przedstawicieli Komisji Europejskiej odnośnie systemu ETS, które sugerują korzystne zmiany dla sektora.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Energetyczny-wystrzal-na-gieldzie-Dwucyfrowe-wzrosty-najwiekszych-rekord-Orlenu-i-swietna-forma-JSW-9099766.html){rel="nofollow"}, [XYZ](https://xyz.pl/dzieje-sie/akcje-pge-z-dwucyfrowym-wzrostem-spolki-energetyczne-najsilniejsze-na-gpw-2571){rel="nofollow"}
+
+---
+
+### Orlen bije rekord. Kurs najwyższy od 2017 roku
+
+Akcje Grupy Orlen osiągnęły we wtorek najwyższy kurs od 2017 roku, przebijając poprzedni szczyt. To część szerszego rajdu całego sektora energetycznego na GPW.
+
+Wzrosty Orlenu wspierane są przez optymizm związany z nadziejami na szybsze niż dotychczas sądzono zakończenie konfliktu na Bliskim Wschodzie oraz korzystne dla europejskiego sektora wypowiedzi ws. systemu ETS.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Kurs-Grupy-Orlen-pobil-szczyt-z-2017-r-Najwieksza-polska-firma-srubuje-kosmiczna-kapitalizacje-9099576.html){rel="nofollow"}
+
+---
+
+### JSW najlepszą spółką WIG20. „Mieszanka wybuchowa" na kursie
+
+Jastrzębska Spółka Węglowa we wtorek była najlepszą spółką w indeksie WIG20. Analitycy wskazują na połączenie czynników: cyklon, mocny dolar oraz gaz z koksowni tworzą „mieszankę wybuchową" wspierającą kurs.
+
+Spółka niedawno zawarła kontrakt z ArcelorMittal Poland na sprzedaż węgla koksowego w 2026 roku, wart około **2,1 mld zł**.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Najlepsza-spolka-elity-GPW-Jak-cyklon-mocny-dolar-i-gaz-z-koksowni-stworzyly-mieszanke-wybuchowa-na-kursie-JSW-9098968.html){rel="nofollow"}, [Comparic](https://comparic.pl/jsw-akcje-prognozy-na-najblizsze-dni-umowa-warta-miliardy-i-pomoc-rzadowa-kurs-jsw-zbiera-sily-przed-walka-o-wybicie/){rel="nofollow"}
+
+---
+
+### S&P podwyższył perspektywę ratingu mBanku do „pozytywnej"
+
+Agencja ratingowa S&P podwyższyła perspektywę ratingu mBanku do „pozytywnej" ze „stabilnej". Rating długoterminowy dla banku został podtrzymany na poziomie **BBB+**, a krótkoterminowy na poziomie **A-2**.
+
+To ważny sygnał dla inwestorów, który może przełożyć się na dalsze wzrosty kursu akcji banku.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/S-P-podwyzszyl-perspektywe-ratingu-mBanku-do-pozytywnej-9099691.html){rel="nofollow"}, [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260317/sp-podwyzszyl-perspektywe-ratingu-mbanku-do-pozytywnej-opis){rel="nofollow"}
+
+---
+
+## 🏭 Spółki i transakcje
+
+### Orlen Lietuva musi uwolnić 80 tys. ton paliw z rezerw
+
+Rząd Litwy zobowiązał spółkę Orlen Lietuva do zmniejszenia zapasów ropy o **80 tys. ton** i natychmiastowego skierowania tej ilości na rynek. Rozporządzenie podpisał minister energetyki Žygimantas Vaicziunas.
+
+Celem jest stabilizacja cen paliw w związku z konfliktem na Bliskim Wschodzie. Litwa zamierza uwolnić zarówno rezerwy ropy naftowej, jak i gotowych produktów paliwowych.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Orlen-Lietuva-ma-niezwlocznie-wprowadzic-na-rynek-80-tys-ton-paliw-z-rezerw-9099733.html){rel="nofollow"}, [Puls Biznesu](https://www.pb.pl/rzad-litwy-polecil-orlen-lietuva-wprowadzenie-na-rynek-80-tys-ton-paliw-z-rezerw-1258043){rel="nofollow"}
+
+---
+
+### Bumech z oficjalną koncesją na wydobycie ze złoża Silesia
+
+Ministerstwo klimatu i środowiska przeniosło koncesję na wydobywanie węgla kamiennego ze złoża Silesia z PG Silesia do spółki Bumech. To przełom w wielomiesięcznej sprawie.
+
+Przeniesienie koncesji warunkuje wejście w życie umowy dzierżawy zorganizowanej części przedsiębiorstwa górniczego przez Bumech i daje perspektywę utrzymania miejsc pracy w regionie.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Resort-klimatu-zdecydowal-o-przeniesieniu-koncesji-ze-zloza-Silesia-na-Bumech-9099736.html){rel="nofollow"}, [Puls Biznesu](https://www.pb.pl/resort-klimatu-zdecydowal-o-przeniesieniu-koncesji-ze-zloza-silesia-na-bumech-1258042){rel="nofollow"}
+
+---
+
+### Rząd pracuje nad programem wsparcia górnictwa węgla koksującego
+
+W wykazie prac rządu opublikowano we wtorek projekt programu wsparcia sektora górnictwa węgla kamiennego koksującego. Dokument ma umożliwić wypłatę świadczeń osłonowych pracownikom Jastrzębskiej Spółki Węglowej.
+
+Według wcześniejszych informacji, JSW potrzebuje około **653 mln zł** na tegoroczne odprawy. Trwają rozmowy międzyresortowe nad nowym instrumentem dłużnym.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Rzadowy-program-wsparcia-sektora-gornictwa-wegla-kamiennego-koksujacego-umozliwi-oslony-dla-gornikow-JSW-9099659.html){rel="nofollow"}
+
+---
+
+## 📊 Podsumowanie
+
+| Wydarzenie | Data | Źródła |
+|------------|------|--------|
+| WIG-Energia +8,6% | 17.03.2026 | Bankier, XYZ |
+| Orlen rekord 2017 | 17.03.2026 | Bankier |
+| JSW najlepsza w WIG20 | 17.03.2026 | Bankier, Comparic |
+| S&P rating mBanku pozytywny | 17.03.2026 | Bankier, Strefa Inwestorów |
+| Orlen Lietuva 80 tys. ton | 17.03.2026 | Bankier, Puls Biznesu |
+| Bumech koncesja Silesia | 17.03.2026 | Bankier, Puls Biznesu |
+
+---
+
+*Data przygotowania: 17 marca 2026, godz. 17:30 CET*
+*Źródła: Bankier.pl, Puls Biznesu, XYZ, Strefa Inwestorów, Comparic*
