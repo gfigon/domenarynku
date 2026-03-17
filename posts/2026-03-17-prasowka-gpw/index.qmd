@@ -1,10 +1,10 @@
 ---
 title: "Prasówka GPW – 17 marca 2026"
-description: "Poranne podsumowanie wydarzeń na GPW: energetyka prowadzi wzrosty, Orlen z rekordem, mBank z ratingiem S&P"
+description: "Poranne podsumowanie wydarzeń na GPW: komunikaty spółek, nastroje przed sesją, kluczowe informacje rynkowe"
 date: "2026-03-17"
 author: "DomenaRynku.pl"
 image: "/images/gpw-news.jpg"
-tags: ["gpw", "giełda", "warszawa", "akcje", "energetyka", "biznes", "polska", "orc", "pge", "tauron", "enea", "jsw", "mbank"]
+tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska"]
 layout: "post"
 nofollow: true
 ---
@@ -13,80 +13,135 @@ nofollow: true
 
 ## 🔑 Najważniejsze wydarzenia
 
-### Energetyczny rajd na GPW. WIG-Energia zyskuje ponad 8%
+### Wielki rajd energetycznego sektora na GPW
 
-Wtorkowa sesja na warszawskim parkiecie upłynęła pod znakiem dominacji byków w sektorze energetycznym. Indeks WIG-Enerjia zyskiwał na zamknięciu ponad **8,6%**, co czyni go najsilniejszym indeksem sektorowym dnia.
+Wtorkowa sesja na warszawskim parkiecie przyniosła mocne wzrosty. Indeks WIG20 zakończył dzień na poziomie **3 359,96 pkt** (+2,05%), WIG wzrósł o **2,20%** do 123 591 pkt, a mWIG40 o **3,13%**. Najsilniej rosły spółki energetyczne:
 
-Największe wzrosty odnotowały:
-- **PGE** – dwucyfrowy wzrost
-- **Enea** – dwucyfrowy wzrost  
-- **Tauron** – dwucyfrowy wzrost
+- **Orlen** ustanowił nowy rekord cenowy
+- **JSW** z dwucyfrowymi wzrostami
+- **PGE**, **Enea** i **Tauron** z ponad 10% wzrostami
 
 Analitycy wskazują, że jest to reakcja na zbyt mocne spadki z ostatnich tygodni oraz efekt wypowiedzi przedstawicieli Komisji Europejskiej odnośnie systemu ETS, które sugerują korzystne zmiany dla sektora.
 
-Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Energetyczny-wystrzal-na-gieldzie-Dwucyfrowe-wzrosty-najwiekszych-rekord-Orlenu-i-swietna-forma-JSW-9099766.html){rel="nofollow"}, [XYZ](https://xyz.pl/dzieje-sie/akcje-pge-z-dwucyfrowym-wzrostem-spolki-energetyczne-najsilniejsze-na-gpw-2571){rel="nofollow"}
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Energetyczny-wystrzal-na-gieldzie-Dwucyfrowe-wzrosty-najwiekszych-rekord-Orlenu-i-swietna-forma-JSW-9099766.html){rel="nofollow"}, [Inwestycje.pl](https://inwestycje.pl/gielda/indeks-wig20-wzrosl-o-055-na-zamknieciu-w-poniedzialek-2/){rel="nofollow"}
 
 ---
 
-### Orlen bije rekord. Kurs najwyższy od 2017 roku
+### Genomtec pozyska finansowanie udziałowe
 
-Akcje Grupy Orlen osiągnęły we wtorek najwyższy kurs od 2017 roku, przebijając poprzedni szczyt. To część szerszego rajdu całego sektora energetycznego na GPW.
+Genomtec zawarł umowę inwestycyjną z 5HT Fundacją Rodzinną, na podstawie której akcjonariusz zobowiązał się do przeprowadzenia oferty publicznej nie więcej niż 2 mln istniejących akcji spółki. Jednocześnie zawarto umowę pożyczki z prawem konwersji na akcje. Zwołano również Nadzwyczajne Walne Zgromadzenie.
 
-Wzrosty Orlenu wspierane są przez optymizm związany z nadziejami na szybsze niż dotychczas sądzono zakończenie konfliktu na Bliskim Wschodzie oraz korzystne dla europejskiego sektora wypowiedzi ws. systemu ETS.
-
-Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Kurs-Grupy-Orlen-pobil-szczyt-z-2017-r-Najwieksza-polska-firma-srubuje-kosmiczna-kapitalizacje-9099576.html){rel="nofollow"}
-
----
-
-### JSW najlepszą spółką WIG20. „Mieszanka wybuchowa" na kursie
-
-Jastrzębska Spółka Węglowa we wtorek była najlepszą spółką w indeksie WIG20. Analitycy wskazują na połączenie czynników: cyklon, mocny dolar oraz gaz z koksowni tworzą „mieszankę wybuchową" wspierającą kurs.
-
-Spółka niedawno zawarła kontrakt z ArcelorMittal Poland na sprzedaż węgla koksowego w 2026 roku, wart około **2,1 mld zł**.
-
-Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Najlepsza-spolka-elity-GPW-Jak-cyklon-mocny-dolar-i-gaz-z-koksowni-stworzyly-mieszanke-wybuchowa-na-kursie-JSW-9098968.html){rel="nofollow"}, [Comparic](https://comparic.pl/jsw-akcje-prognozy-na-najblizsze-dni-umowa-warta-miliardy-i-pomoc-rzadowa-kurs-jsw-zbiera-sily-przed-walka-o-wybicie/){rel="nofollow"}
-
----
-
-### S&P podwyższył perspektywę ratingu mBanku do „pozytywnej"
-
-Agencja ratingowa S&P podwyższyła perspektywę ratingu mBanku do „pozytywnej" ze „stabilnej". Rating długoterminowy dla banku został podtrzymany na poziomie **BBB+**, a krótkoterminowy na poziomie **A-2**.
-
-To ważny sygnał dla inwestorów, który może przełożyć się na dalsze wzrosty kursu akcji banku.
-
-Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/S-P-podwyzszyl-perspektywe-ratingu-mBanku-do-pozytywnej-9099691.html){rel="nofollow"}, [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260317/sp-podwyzszyl-perspektywe-ratingu-mbanku-do-pozytywnej-opis){rel="nofollow"}
-
----
-
-## 🏭 Spółki i transakcje
-
-### Orlen Lietuva musi uwolnić 80 tys. ton paliw z rezerw
-
-Rząd Litwy zobowiązał spółkę Orlen Lietuva do zmniejszenia zapasów ropy o **80 tys. ton** i natychmiastowego skierowania tej ilości na rynek. Rozporządzenie podpisał minister energetyki Žygimantas Vaicziunas.
-
-Celem jest stabilizacja cen paliw w związku z konfliktem na Bliskim Wschodzie. Litwa zamierza uwolnić zarówno rezerwy ropy naftowej, jak i gotowych produktów paliwowych.
-
-Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Orlen-Lietuva-ma-niezwlocznie-wprowadzic-na-rynek-80-tys-ton-paliw-z-rezerw-9099733.html){rel="nofollow"}, [Puls Biznesu](https://www.pb.pl/rzad-litwy-polecil-orlen-lietuva-wprowadzenie-na-rynek-80-tys-ton-paliw-z-rezerw-1258043){rel="nofollow"}
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Genomtec-zawarl-umowe-inwestycyjna-w-celu-pozyskania-finansowania-udzialowego-9099802.html){rel="nofollow"}, [ESPI/PAP](https://espiebi.pap.pl/node/717056){rel="nofollow"}
 
 ---
 
 ### Bumech z oficjalną koncesją na wydobycie ze złoża Silesia
 
-Ministerstwo klimatu i środowiska przeniosło koncesję na wydobywanie węgla kamiennego ze złoża Silesia z PG Silesia do spółki Bumech. To przełom w wielomiesięcznej sprawie.
+Ministerstwo klimatu i środowiska przeniosło koncesję na wydobywanie węgla kamiennego ze złoża Silesia z PG Silesia do spółki Bumech – poinformował rzecznik resortu na platformie X. To przełom w wieloletniej sprawie kopalni Silesia.
 
-Przeniesienie koncesji warunkuje wejście w życie umowy dzierżawy zorganizowanej części przedsiębiorstwa górniczego przez Bumech i daje perspektywę utrzymania miejsc pracy w regionie.
+Jednocześnie rząd przedstawił projekt programu wsparcia sektora górnictwa węgla kamiennego koksującego, który umożliwi wypłatę świadczeń osłonowych pracownikom Jastrzębskiej Spółki Węglowej. Spółka potrzebuje 653 mln zł na tegoroczne odprawy.
 
-Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Resort-klimatu-zdecydowal-o-przeniesieniu-koncesji-ze-zloza-Silesia-na-Bumech-9099736.html){rel="nofollow"}, [Puls Biznesu](https://www.pb.pl/resort-klimatu-zdecydowal-o-przeniesieniu-koncesji-ze-zloza-silesia-na-bumech-1258042){rel="nofollow"}
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Resort-klimatu-zdecydowal-o-przeniesieniu-koncesji-ze-zloza-Silesia-na-Bumech-9099736.html){rel="nofollow"}, [ESPI/PAP](https://espiebi.pap.pl/node/717054){rel="nofollow"}, [Bankier.pl - JSW](https://www.bankier.pl/wiadomosc/Rzadowy-program-wsparcia-sektora-gornictwa-wegla-kamiennego-koksujacego-umozliwi-oslony-dla-gornikow-JSW-9099659.html){rel="nofollow"}
 
 ---
 
-### Rząd pracuje nad programem wsparcia górnictwa węgla koksującego
+### BTCS planuje przejście z NewConnect na rynek główny GPW
 
-W wykazie prac rządu opublikowano we wtorek projekt programu wsparcia sektora górnictwa węgla kamiennego koksującego. Dokument ma umożliwić wypłatę świadczeń osłonowych pracownikom Jastrzębskiej Spółki Węglowej.
+Akcjonariusze BTCS, spółki technologicznej notowanej na NewConnect, upoważnili zarząd do rozpoczęcia procesu zmiany rynku notowań z NewConnect na GPW. Na NWZ w dniu 17 marca podjęto stosowne uchwały.
 
-Według wcześniejszych informacji, JSW potrzebuje około **653 mln zł** na tegoroczne odprawy. Trwają rozmowy międzyresortowe nad nowym instrumentem dłużnym.
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/BTCS-chce-zmienic-rynek-notowan-na-rynek-glowny-GPW-9099738.html){rel="nofollow"}, [ESPI/PAP](https://espiebi.pap.pl/node/717065){rel="nofollow"}
 
-Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Rzadowy-program-wsparcia-sektora-gornictwa-wegla-kamiennego-koksujacego-umozliwi-oslony-dla-gornikow-JSW-9099659.html){rel="nofollow"}
+---
+
+### S&P podwyższył perspektywę ratingu mBanku
+
+Agencja ratingowa S&P podwyższyła perspektywę ratingu mBanku do **"pozytywnej"** ze "stabilnej". Rating długoterminowy pozostał na poziomie **"BBB+"**, a krótkoterminowy na poziomie **"A-2"**.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/S-P-podwyzszyl-perspektywe-ratingu-mBanku-do-pozytywnej-9099691.html){rel="nofollow"}
+
+---
+
+### Develia z zielonym światłem UOKiK
+
+Develia uzyskała od UOKiK bezwarunkową zgodę na dokonanie koncentracji polegającej na utworzeniu wspólnego przedsiębiorcy z Mosaic Poland Holding w celu realizacji wspólnej inwestycji deweloperskiej.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Develia-ma-zgode-UOKiK-na-koncentracje-z-Mosaic-Poland-Holding-9099723.html){rel="nofollow"}
+
+---
+
+### Grupa Niewiadów partnerem KNDS France
+
+Grupa Niewiadów otrzymała od KNDS France (europejskiego lidera w sektorze zbrojeniowym) list intencyjny dotyczący produkcji amunicji kalibru 155 mm dla polskich systemów Krab i K9. To istotny krok w rozwoju polskiego przemysłu obronnego.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Grupa-Niewiadow-ma-list-inwestycyjny-od-KNDS-France-dot-produkcji-amunicji-155-mm-9099745.html){rel="nofollow"}
+
+---
+
+### Litwa walczy z cenami paliw. Orlen Lietuva musi uwolnić zapasy
+
+Rząd Litwy zobowiązał spółkę Orlen Lietuva do zmniejszenia zapasów ropy o **80 tys. ton** i natychmiastowego skierowania tej ilości na rynek. Rozporządzenie podpisał minister energetyki Žygimantas Vaicziunas. Celem jest walka z wysokimi cenami paliw.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Orlen-Lietuva-ma-niezwlocznie-wprowadzic-na-rynek-80-tys-ton-paliw-z-rezerw-9099733.html){rel="nofollow"}
+
+---
+
+## 📈 Wyniki spółek
+
+### Dom Development z rekordową dywidendą
+
+Zarząd Dom Development zarekomendował przeznaczenie na dywidendę **361,18 mln zł** z zysku netto za 2025 r. (580,81 mln zł), co daje **14 zł na akcję**. Spółka przygotowuje się do sprzedaży na poziomie ponad 5 tys. mieszkań rocznie.
+
+Źródła: [Inwestycje.pl](https://inwestycje.pl/gielda/dom-development-rekomenduje-lacznie-14-zl-dywidendy-na-akcje-z-zysku-za-2025/){rel="nofollow"}
+
+---
+
+### MLP Group z solidnymi wynikami za 2025
+
+MLP Group odnotowało **458,99 mln zł** skonsolidowanego zysku netto (wzrost z 372,19 mln zł rok wcześniej) oraz **210,92 mln zł** zysku EBITDA w 2025 roku.
+
+Źródła: [Inwestycje.pl](https://inwestycje.pl/gielda/mlp-group-mialo-45899-mln-zl-zysku-netto-21092-mln-zl-zysku-ebitda-w-2025/){rel="nofollow"}
+
+---
+
+### Tauron z wynikami za IV kwartał 2025
+
+Tauron Polska Energia miał **416 mln zł** skonsolidowanego zysku netto oraz **1 369 mln zł** zysku EBITDA w IV kw. 2025 roku.
+
+Źródła: [Inwestycje.pl](https://inwestycje.pl/gielda/tauron-mial-wstepnie-416-mln-zl-zysku-netto-1-369-mln-zl-zysku-ebitda-w-iv-kw-2025/){rel="nofollow"}
+
+---
+
+### Citi Handlowy z wynikami za 2025
+
+Citi Handlowy odnotował **1 666,34 mln zł** skonsolidowanego zysku netto w 2025 roku oraz **19,7% ROE**. Wynik ten jest niższy od 1 760,46 mln zł rok wcześniej.
+
+Źródła: [Inwestycje.pl](https://inwestycje.pl/gielda/citi-handlowy-mial-1-75814-mln-zl-zysku-netto-z-dzial-kont-197-roe-w-2025/){rel="nofollow"}
+
+---
+
+### DataWalk z szacunkami za 2025
+
+DataWalk miał **16,08 mln zł** skorygowanej straty EBITDA w 2025 roku, co stanowi poprawę wobec 19,82 mln zł straty rok wcześniej.
+
+Źródła: [Inwestycje.pl](https://inwestycje.pl/gielda/datawalk-mial-szacunkowo-1608-mln-zl-skorygowanej-straty-ebitda-w-2025/){rel="nofollow"}
+
+---
+
+## 🌍 Kalendarium
+
+### KNF zatwierdziła prospekt Scanway
+
+Komisja Nadzoru Finansowego zatwierdziła prospekt Scanway w związku z planowanym przeniesieniem notowań wszystkich akcji spółki z NewConnect na rynek główny GPW.
+
+Źródła: [Inwestycje.pl](https://inwestycje.pl/gielda/knf-zatwierdzila-prospekt-scanway-w-zwiazku-z-przejsciem-na-gpw-z-newconnect/){rel="nofollow"}
+
+---
+
+### EcoRun planuje debiut na GPW
+
+EcoRun zakłada złożenie prospektu emisyjnego w KNF do jesieni tego roku i liczy na debiut na rynku głównym GPW.
+
+Źródła: [Inwestycje.pl](https://inwestycje.pl/gielda/ecorun-zaklada-zlozenie-prospektu-w-knf-do-jesieni/){rel="nofollow"}
 
 ---
 
@@ -94,14 +149,21 @@ Według wcześniejszych informacji, JSW potrzebuje około **653 mln zł** na teg
 
 | Wydarzenie | Data | Źródła |
 |------------|------|--------|
-| WIG-Energia +8,6% | 17.03.2026 | Bankier, XYZ |
-| Orlen rekord 2017 | 17.03.2026 | Bankier |
-| JSW najlepsza w WIG20 | 17.03.2026 | Bankier, Comparic |
-| S&P rating mBanku pozytywny | 17.03.2026 | Bankier, Strefa Inwestorów |
-| Orlen Lietuva 80 tys. ton | 17.03.2026 | Bankier, Puls Biznesu |
-| Bumech koncesja Silesia | 17.03.2026 | Bankier, Puls Biznesu |
+| Rajd energetyczny na GPW | 17.03.2026 | Bankier, Inwestycje.pl |
+| Genomtec - umowa inwestycyjna | 17.03.2026 | Bankier, ESPI/PAP |
+| Bumech - koncesja Silesia | 17.03.2026 | Bankier, ESPI/PAP |
+| BTCS - przejście na GPW | 17.03.2026 | Bankier, ESPI/PAP |
+| S&P - rating mBanku | 17.03.2026 | Bankier |
+| Develia - zgoda UOKiK | 17.03.2026 | Bankier |
+| Niewiadów - KNDS France | 17.03.2026 | Bankier |
+| Orlen Lietuva - zapasy | 17.03.2026 | Bankier |
+| Dom Development - dywidenda | 17.03.2026 | Inwestycje.pl |
+| MLP Group - wyniki 2025 | 17.03.2026 | Inwestycje.pl |
+| Tauron - wyniki Q4 | 17.03.2026 | Inwestycje.pl |
+| Citi Handlowy - wyniki 2025 | 17.03.2026 | Inwestycje.pl |
+| Scanway - prospekt KNF | 17.03.2026 | Inwestycje.pl |
 
 ---
 
-*Data przygotowania: 17 marca 2026, godz. 17:30 CET*
-*Źródła: Bankier.pl, Puls Biznesu, XYZ, Strefa Inwestorów, Comparic*
+*Data przygotowania: 17 marca 2026, godz. 08:30 CET*
+*Źródła: Bankier.pl, Inwestycje.pl, ESPI/PAP*
