@@ -1,0 +1,87 @@
+---
+title: "Prasówka GPW – 18 marca 2026"
+description: "Poranne podsumowanie wydarzeń na GPW: plan inwestycji w energetykę, nastroje przed sesją, kluczowe informacje rynkowe"
+date: "2026-03-18"
+author: "DomenaRynku.pl"
+image: "/images/gpw-news.jpg"
+tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska", "energetyka"]
+layout: "post"
+nofollow: true
+---
+
+# Prasówka GPW – 18 marca 2026
+
+## 🔑 Najważniejsze wydarzenia
+
+### Premier ogłasza bilion złotych inwestycji w energetykę
+
+Premier Donald Tusk ogłosił podczas PowerConnect Energy Summit w Gdańsku, że Polska w ciągu najbliższej dekady zainwestuje **1 bilion złotych** w energetykę. Środki zostaną przeznaczone na:
+- OZE i magazyny energii – ponad 220 mld zł
+- Dystrybucję – 234 mld zł
+- Energetykę jądrową – 160 mld zł
+
+Szef rządu podkreślił, że Polska jest obecnie największym placem budowy energetycznej w Europie i nie ma mowy o powrocie do kupowania rosyjskich surowców. Polska wspólnie z grupą państw (Włochy, Belgia, Austria, Bułgaria, Słowacja, Grecja) wystosowała list do Komisji Europejskiej w sprawie kontynuacji darmowych uprawnień do emisji CO2 dla przemysłu.
+
+Unijny szczyt ws. ETS odbędzie się 19 marca.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Bilion-zlotych-w-dekade-Premier-oglasza-nowy-plan-na-energetyke-9100094.html){rel="nofollow"}, [Money.pl](https://www.money.pl/gospodarka/co-dalej-z-polska-energetyka-rzad-odkrywa-karty-7265577827227968a.html){rel="nofollow"}
+
+---
+
+### Inflacja w Polsce zgodna z celem
+
+Według danych Eurostatu, inflacja liczona według HICP w Polsce w lutym w ujęciu rocznym wyniosła **2,5%**, wobec 2,5% w styczniu. Miesięcznie ceny wzrosły o 0,4%. Rumunia utrzymała pozycję lidera inflacyjnego w UE.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Polska-trzyma-sie-celu-inflacyjnego-HICP-w-lutym-na-poziomie-2-5-proc-9100114.html){rel="nofollow"}
+
+---
+
+### Foxconn może zainwestować pod Wrocławiem
+
+Po rezygnacji Intela z budowy zakładu w Miękini pod Wrocławiem, tajwański gigant Foxconn wraz z grupą partnerów rozważa inwestycję w Polsce. Według ustaleń "Business Insider Polska", skala projektu może być ogromna.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Tajwanczycy-zamiast-Amerykanow-Na-podwroclawskiej-dzialce-po-Intelu-moze-powstac-ogromna-fabryka-9100130.html){rel="nofollow"}
+
+---
+
+## 📈 Informacje ze spółek
+
+### MLP Group z prognozą wzrostu przychodów
+
+MLP Group w I kw. 2026 notuje wysoką aktywność najemców, którzy chcą zapewnić sobie bezpieczeństwo łańcuchów dostaw. W całym 2026 roku przychody grupy mogą wzrosnąć o **20-30%** rdr. Spółka analizuje też ekspansję na nowe rynki.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Przychody-MLP-Group-w-26-moga-wzrosnac-o-20-30-proc-rdr-grupa-analizuje-nowe-rynki-wywiad-9100122.html){rel="nofollow"}
+
+---
+
+### Sunex zawiąże rezerwę księgową
+
+Sunex zawiąże rezerwę księgową w wysokości **4,66 mln zł** w związku z decyzjami dotyczącymi przeglądu opcji strategicznych.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Sunex-zawiaze-rezerwe-ksiegowa-w-wysokosci-4-66-mln-zl-9100143.html){rel="nofollow"}
+
+---
+
+### Nowe płace minimalne w ochronie zdrowia
+
+Od 1 lipca 2026 roku pensja minimalna lekarza specjalisty wyniesie **12,9 tys. zł**. Farmaceuta, fizjoterapeuta, pielęgniarka z tytułem magistra i specjalizacją zarobią 11,4 tys. zł, a opiekun medyczny - prawie 7,6 tys. zł.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Prawie-13-tys-zl-dla-lekarza-specjalisty-Znamy-nowe-place-minimalne-w-ochronie-zdrowia-9100104.html){rel="nofollow"}
+
+---
+
+## 📊 Podsumowanie
+
+| Wydarzenie | Data | Źródła |
+|------------|------|--------|
+| Bilion zł na energetykę | 18.03.2026 | Bankier, Money.pl |
+| Inflacja HICP 2,5% | 18.03.2026 | Bankier |
+| Foxconn pod Wrocławiem | 18.03.2026 | Bankier |
+| MLP Group - prognoza | 18.03.2026 | Bankier |
+| Sunex - rezerwa | 18.03.2026 | Bankier |
+| Płace w ochronie zdrowia | 18.03.2026 | Bankier |
+
+---
+
+*Data przygotowania: 18 marca 2026, godz. 12:20 CET*
+*Źródła: Bankier.pl, Money.pl*
