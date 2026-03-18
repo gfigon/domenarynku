@@ -1,10 +1,10 @@
 ---
 title: "Prasówka GPW – 18 marca 2026"
-description: "Poranne podsumowanie wydarzeń na GPW: plan inwestycji w energetykę, nastroje przed sesją, kluczowe informacje rynkowe"
+description: "Poranne podsumowanie wydarzeń na GPW: wzrosty na sesji, rekord Orlenu, bilion zł na energetykę, dywidenda Santander"
 date: "2026-03-18"
 author: "DomenaRynku.pl"
 image: "/images/gpw-news.jpg"
-tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska", "energetyka"]
+tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska", "energetyka", "dywidenda"]
 layout: "post"
 nofollow: true
 ---
@@ -12,6 +12,16 @@ nofollow: true
 # Prasówka GPW – 18 marca 2026
 
 ## 🔑 Najważniejsze wydarzenia
+
+### Wtorek na GPW: Silne wzrosty, rekord Orlenu
+
+Wtorkowa sesja (17 marca) przyniosła wyraźne wzrosty na polskim rynku akcji. Szeroki WIG wzrósł **2,2%**, WIG20 o **2,05%**, a mWIG40 o **3,1%**. Obroty na szerokim rynku wyniosły 2,33 mld zł, z czego 1,91 mld zł dotyczyło spółek z WIG20.
+
+Największym bohaterem sesji był sektor energetyczny. Akcje Orlenu ustanowiły nowy historyczny rekord, przebijając barierę **134,45 zł** i pokonując szczyt z 2017 roku. PGE zyskał ponad 10%, a JSW również radziła sobie znakomicie.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Energetyczny-wystrzal-na-gieldzie-Dwucyfrowe-wzrosty-najwiekszych-rekord-Orlenu-i-swietna-forma-JSW-9099766.html){rel="nofollow"}, [XYZ](https://xyz.pl/akcje-pge-z-dwucyfrowym-wzrostem-glowne-indeksy-w-gore-allegro-znow-najgorsze-w-wig20-dzien-na-gpw-17-marca-2026-r/){rel="nofollow"}
+
+---
 
 ### Premier ogłasza bilion złotych inwestycji w energetykę
 
@@ -36,6 +46,16 @@ Według danych Eurostatu, inflacja liczona według HICP w Polsce w lutym w ujęc
 
 ---
 
+### Nastroje przed dzisiejszą sesją
+
+Dzisiejsza sesja (środa, 18 marca) przebiega w spokojnym, mieszanym tonie. Na godzinę 13:30 WIG nieznacznie rośnie o 0,2%, WIG20 umacnia się o 0,3%, podczas gdy mWIG40 traci 0,4%. Kontrakty na WIG20 poruszają się w bardzo wąskim przedziale cenowym, blisko 50-dniowej wykładniczej średniej kroczącej.
+
+Rynki czekają na sygnały związane z drugim progiem podatkowym – Resort Finansów poinformował, że podwyższenie progu PIT do 120 000 zł byłoby nierozważne ze względu na deficyt budżetowy.
+
+Źródła: [XTB](https://www.xtb.com/pl/analizy-rynkowe/wiadomosci-rynkowe/puls-gpw-rynek-szuka-kierunku){rel="nofollow"}
+
+---
+
 ### Foxconn może zainwestować pod Wrocławiem
 
 Po rezygnacji Intela z budowy zakładu w Miękini pod Wrocławiem, tajwański gigant Foxconn wraz z grupą partnerów rozważa inwestycję w Polsce. Według ustaleń "Business Insider Polska", skala projektu może być ogromna.
@@ -46,11 +66,29 @@ Po rezygnacji Intela z budowy zakładu w Miękini pod Wrocławiem, tajwański gi
 
 ## 📈 Informacje ze spółek
 
+### Santander Bank Polska z rekordową dywidendą
+
+Zarząd Santander Bank Polska chce wypłacić **49,98 zł dywidendy na akcję** z zysku za 2025 rok oraz z części zysków z lat ubiegłych. Łączna kwota dywidendy wyniesie **5,1 mld zł**, co stanowi 75% zysku netto (6,71 mld zł). Dodatkowo w wypłacie uwzględniono 76,82 mln zł z niewypłaconych zysków z lat 2018-2024.
+
+KNF zezwoliła bankowi na sięgnięcie po kapitał dodatkowy, co umożliwiło maksymalizację wypłaty.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Santander-Bank-Polska-chce-wyplacic-49-98-zl-dywidendy-na-akcje-9100093.html){rel="nofollow"}, [StockWatch.pl](https://www.stockwatch.pl/wiadomosci/santander-bank-polska-wyplaci-51-mld-zl-dywidendy-niemal-50-zl-na-akcje,akcje,368364){rel="nofollow"}
+
+---
+
 ### MLP Group z prognozą wzrostu przychodów
 
 MLP Group w I kw. 2026 notuje wysoką aktywność najemców, którzy chcą zapewnić sobie bezpieczeństwo łańcuchów dostaw. W całym 2026 roku przychody grupy mogą wzrosnąć o **20-30%** rdr. Spółka analizuje też ekspansję na nowe rynki.
 
 Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Przychody-MLP-Group-w-26-moga-wzrosnac-o-20-30-proc-rdr-grupa-analizuje-nowe-rynki-wywiad-9100122.html){rel="nofollow"}
+
+---
+
+### Rainbow Tours szacuje wpływ kryzysu na Bliskim Wschodzie
+
+Rainbow Tours szacuje do **5 mln zł** nadzwyczajnych kosztów w związku z sytuacją polityczno-gospodarczą w regionie Bliskiego Wschodu. Dodatkowo spółka wskazuje na ok. **3 mln zł** utraconej marży. Całość zostanie ujęta w wynikach pierwszego kwartału 2026 roku.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Rainbow-Tours-szacuje-do-5-mln-zl-kosztow-w-zw-z-sytuacja-w-regionie-Bliskiego-Wschodu-9100076.html){rel="nofollow"}
 
 ---
 
@@ -70,18 +108,46 @@ Od 1 lipca 2026 roku pensja minimalna lekarza specjalisty wyniesie **12,9 tys. z
 
 ---
 
+### mBank zyskuje na planach UniCredit
+
+Włoski bank UniCredit planuje zwiększyć swoje udziały w niemieckim Commerzbanku powyżej 30%. Obecnie UniCredit posiada około 26% akcji Commerzbanku. Ponieważ Commerzbank jest głównym właścicielem mBanku, inwestorzy obserwują rozwój sytuacji, co może wpłynąć na przyszłą wycenę polskiego banku.
+
+Źródła: [XTB](https://www.xtb.com/pl/analizy-rynkowe/wiadomosci-rynkowe/puls-gpw-rynek-szuka-kierunku){rel="nofollow"}
+
+---
+
+### Sektor obronny zainteresowaniem inwestorów
+
+Na GPW rośnie zainteresowanie spółkami z sektora obronnego, podsycane napięciami na Bliskim Wschodzie oraz sytuacją na Ukrainie. Wśród firm obserwowanych przez inwestorów znajdują się: Protektor, Grupa Virtus, Grupa Niewiadów oraz Zremb Chojnice.
+
+Źródła: [XTB](https://www.xtb.com/pl/analizy-rynkowe/wiadomosci-rynkowe/puls-gpw-rynek-szuka-kierunku){rel="nofollow"}
+
+---
+
+## 📊 Komunikaty ESPI (17 marca)
+
+- **Passus** – zawiadomienie o zmianie udziału w głosach w związku z nabyciem akcji własnych
+- **Develia** – decyzja Prezesa UOKiK w sprawie zgody na dokonanie koncentracji
+- **PKP Cargo** – uchwała Rady Wierzycieli w sprawie Planu Restrukturyzacyjnego
+- **TESGAS** – informacja o wyborze najkorzystniejszej oferty
+- **Geotrans** – zawarcie warunkowych przedwstępnych umów sprzedaży przez spółkę zależną
+
+---
+
 ## 📊 Podsumowanie
 
 | Wydarzenie | Data | Źródła |
 |------------|------|--------|
+| WIG20 +2,05% | 17.03.2026 | Bankier, XYZ |
+| Orlen rekord 134,45 zł | 17.03.2026 | Bankier |
 | Bilion zł na energetykę | 18.03.2026 | Bankier, Money.pl |
 | Inflacja HICP 2,5% | 18.03.2026 | Bankier |
+| Dywidenda Santander 5,1 mld zł | 18.03.2026 | Bankier, StockWatch |
+| MLP Group +20-30% przychodów | 18.03.2026 | Bankier |
 | Foxconn pod Wrocławiem | 18.03.2026 | Bankier |
-| MLP Group - prognoza | 18.03.2026 | Bankier |
-| Sunex - rezerwa | 18.03.2026 | Bankier |
-| Płace w ochronie zdrowia | 18.03.2026 | Bankier |
+| Rainbow Tours -8 mln zł | 18.03.2026 | Bankier |
 
 ---
 
 *Data przygotowania: 18 marca 2026, godz. 12:20 CET*
-*Źródła: Bankier.pl, Money.pl*
+*Źródła: Bankier.pl, XTB, XYZ, StockWatch, Money.pl*
