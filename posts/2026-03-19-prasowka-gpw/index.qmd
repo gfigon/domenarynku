@@ -1,0 +1,41 @@
+---
+title: "Prasówka GPW - 19 marca 2026"
+date: "2026-03-19"
+description: "Najważniejsze wiadomości finansowe z polskiego rynku kapitałowego przedsesyjnego - dywidenda Santander, koszty Rainbow Tours, raporty CD Projekt i Żabka."
+keywords: "GPW, giełda, dywidenda, Santander, Rainbow Tours, CD Projekt, Żabka, 2026"
+og_description: "Przegląd najważniejszych wydarzeń na GPW przed sesją 19 marca 2026."
+---
+
+# Prasówka GPW – 19 marca 2026
+
+## Poranne podsumowanie
+
+### Dywidendy i wyniki banków
+
+**Santander Bank Polska** rekomenduje wypłatę dywidendy w wysokości **49,98 zł na akcję** za 2025 rok, co oznacza łączną kwotę blisko **5,1 mld zł**. To 75% zysku netto banku, który wyniósł 6,71 mld zł. Rekomendacja została zatwierdzona przez radę nadzorczą, a KNF zezwoliła na sięgnięcie po kapitał dodatkowy.
+
+###Wpływ konfliktu na Bliskim Wschodzie na polskie spółki
+
+**Rainbow Tours** oszacował negatywny wpływ wojny na Bliskim Wschodzie na około **8 mln zł**. Spółka poniosła bezpośrednie koszty ewakuacji klientów, zmian programów wycieczek i odwołań imprez (do 5 mln zł), a dodatkowe straty z tytułu utraconych korzyści wyniosły kolejne 3 mln zł.
+
+### Kalendarium na dziś
+
+**Czwartek, 19 marca** to kluczowy dzień dla inwestorów giełdowych. Dzisiaj zostaną opublikowane:
+
+- **CD Projekt** - raport roczny za 2025 rok
+- **Żabka Group** - wyniki finansowe za miniony rok
+
+### Nadchodzące debiuty
+
+Na rynku głównym GPW w najbliższych tygodniach zadebiutują: **Scanway**, **Syn2bio** i **Creotech Quantum**. Trwają przygotowania do kilku większych IPO.
+
+---
+
+## Źródła
+
+- [Santander Bank Polska z wysoką dywidendą - Rzeczpospolita](https://www.rp.pl/banki/art43983331-santander-bp-z-wysoka-dywidenda-blisko-50-zl-na-akcje){rel="nofollow"}
+- [Santander wypłaci 5,1 mld zł dywidendy - StockWatch](https://www.stockwatch.pl/wiadomosci/santander-bank-polska-wyplaci-51-mld-zl-dywidendy-niemal-50-zl-na-akcje,akcje,368364){rel="nofollow"}
+- [Rainbow Tours - koszty wojny - Puls Biznesu](https://www.pb.pl/rainbow-tours-podliczyl-nadzwyczajne-koszty-zwiazane-z-wybuchem-wojny-1258072){rel="nofollow"}
+- [Rainbow Tours - wpływ wojny na wyniki - Parkiet](https://www.parkiet.com/handel-i-konsumpcja/art43983121-wojna-na-bliskim-wschodzie-uszczupli-zyski-rainbow-tours){rel="nofollow"}
+- [Kalendarium raportów - Strefa Inwestorów](https://strefainwestorow.pl/wydarzenia/kalendarium-publikacji-raportow-rocznych-marzec-2026){rel="nofollow"}
+- [IPO na GPW w 2026 - Parkiet](https://www.parkiet.com/firmy/art43976811-przeswietlamy-debiutantow-trzech-pewniakow-i-reszta){rel="nofollow"}
