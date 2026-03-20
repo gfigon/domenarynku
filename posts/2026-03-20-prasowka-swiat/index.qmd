@@ -1,0 +1,66 @@
+---
+title: "Prasówka Światowa - 20 marca 2026"
+description: "Codzienny przegląd najważniejszych wydarzeń świattowych z 20 marca 2026 roku. Geopolityka, makroekonomia, rynki."
+date: "2026-03-20"
+author: "Prasówka Światowa"
+tags: ["geopolityka", "makroekonomia", "Iran", "Izrael", "USA", "Europa", "rynki"]
+categories: ["Wiadomości Światowe"]
+slug: "prasowka-swiat-2026-03-20"
+image: "/images/world-news.jpg"
+robots: "index, follow"
+canonical: "https://domenarynku.pl/posts/2026-03-20-prasowka-swiat/"
+---
+
+# Prasówka Światowa - 20 marca 2026
+
+## Konflikt Iran-Izrael eskaluje
+
+**Sytuacja militarna na Bliskim Wschodzie gwałtownie się pogorszyła w piątek, gdy obie strony przeprowadziły kolejne ataki.** Izrael strajkował w Tehranie, atakując "infrastrukturę terrorystycznego reżimu irańskiego", jak podała armia izraelska. Iran odpowiedział gradem rakiet, które wywołały syreny alarmowe w Tel Awiwie.
+
+**Kluczowe wydarzenia:**
+
+- **Rzecznik IRGC zabity**: Generał Ali Mohammad Naini, rzecznik Irańskich Gard Rewolucyjnych, został zabity w izraelskim ataku rakietowym. Potwierdziły to izraelskie siły zbrojne oraz irańska telewizja państwowa [1](https://www.reuters.com/world/middle-east/spokesperson-irans-revolutionary-guards-killed-strike-state-tv-says-2026-03-20/){rel="nofollow"} [2](https://www.aljazeera.com/news/liveblog/2026/3/20/iran-war-live-tehran-warns-of-intensified-strikes-if-energy-sites-targeted){rel="nofollow"}.
+
+- **Największa izraelska rafineria ropy uszkodzona**: Ropociąg Bazan w Hajfie został częściowo uszkodzony w irańskim ataku rakietowym. To największa rafineria Izraela [3](https://breakingthenews.net/Article/Israel's-largest-oil-refinery-damaged-in-missile-attack/65916217){rel="nofollow"}.
+
+- **USA rozważają okupację irańskiej wyspy Kharg**: Administracja Trumpa rozważa plany окupacji lub blokady irańskiej wyspy Kharg, kluczowej dla eksportu ropy naftowej. Donosi portal Axios [4](https://breakingthenews.net/Article/US-could-occupy-Iran's-Kharg-Island/65916327){rel="nofollow"}.
+
+- **Trump wzywa Japonię i NATO do większego wsparcia**: Podczas spotkania z japońską premier Takaichi, Trump wezwał sojuszników do "kroku naprzód" w kwestii konfliktu z Iranem, porównując ataki na Iran do Pearl Harbor [5](https://www.reuters.com/world/china/trump-may-push-japan-help-with-iran-war-white-house-meeting-2026-03-19/){rel="nofollow"}.
+
+## Rynki finansowe
+
+**Notowania giełdowe w piątek:**
+
+- **Wall Street**: Kontrakty terminowe indeksów amerykańskich rosną po decyzji administracji Trumpa o złagodzeniu zakazu sprzedaży rosyjskiej ropy, pozwalając na sprzedaż ropy currently in transit [6](https://breakingthenews.net/Article/US-futures-up-as-oil-prices-fall/65915744){rel="nofollow"}.
+
+- **Europa**: Giełdy europejskie rozpoczęły piątek od wzrostów po decyzji Europejskiego Banku Centralnego o pozostawieniu stóp procentowych bez zmian. Prezes ECB Christine Lagarde powiedziała, że inflacja w strefie euro prawdopodobnie wzrośnie [7](https://breakingthenews.net/Article/Europe-opens-higher-following-ECB-decision/65915499){rel="nofollow"}.
+
+- **Super Micro Computer**: Akcje spadły o 19% w notowaniach przedsesyjnych po aresztowaniu współzałożyciela Yih-Shyan "Wally" Liaw przez agentów federalnych [8](https://breakingthenews.net/Article/Super-Micro-drops-19-after-co-founder's-arrest/65915684){rel="nofollow"}.
+
+- **Ropya**: Cena ropy Brent wynosi 110,08 USD (+2,31%), WTI 95,32 USD (+1,14%) [9](https://breakingthenews.net/){rel="nofollow"}.
+
+## Europa
+
+**Węgry - Orban o rosyjskiej energii**: Premier Viktor Orban powtórzył, że Unia Europejska nie może "przetrwać" bez dostaw rosyjskiej energii w obecnej sytuacji globalnych zakłóceń naftowych [10](https://breakingthenews.net/Article/Orban:-Europe-can't-survive-without-Russian-energy/65916034){rel="nofollow"}.
+
+**Hiszpania - obniżka VAT na paliwo**: Hiszpania spodziewa się zatwierdzić redukcję VAT na paliwo z 21% do 10% na nadzwyczajnym posiedzeniu rządu w piątek, donosi Cadena SER [11](https://breakingthenews.net/Article/Spain-may-cut-fuel-VAT-from-21-to-10-amid-Iran-war/65915849){rel="nofollow"}.
+
+**Włochy - nadwyżka handlowa**: Włoska nadwyżka handlowa wyniosła 1 mld EUR w janvier 2026, w porównaniu do 6 mld EUR w grudniu 2025 [12](https://breakingthenews.net/Article/Italy's-trade-surplus-at-euro1-billion-in-January/65915994){rel="nofollow"}.
+
+**Niemcy - test wyborczy dla Merza**: Kanclerz Friedrich Merz stoi przed drugim testem wyborczym w niedzielę, gdy landy Brandenburgia i Saksonia-Anhalt przeprowadzają wybory [13](https://www.reuters.com/world/europe/germanys-merz-faces-second-state-election-test-sunday-2026-03-20/){rel="nofollow"}.
+
+## Inne wydarzenia międzynarodowe
+
+**Grenlandia - wybory w Danii**: Dania przeprowadzi wybory narodowe we wtorek, gdy kraj zmaga się z powtarzającymi się groźbami prezydenta Trumpa dotyczącymi przejęcia Grenlandii [14](https://www.reuters.com/world/trumps-shadow-greenland-seeks-more-leverage-danish-vote-2026-03-20/){rel="nofollow"}.
+
+**Rosja - wezwanie izraelskiego ambasadora**: Rosyjskie Ministerstwo Spraw Zagranicznych wezwało izraelskiego ambasadora w Moskwie po incydencie z ekipą telewizyjną [15](https://breakingthenews.net/Article/Russia-summons-Israeli-envoy-after-TV-crew-incident/65916144){rel="nofollow"}.
+
+**Ukraina - rozmowy pokojowe w zawieszeniu**: Kreml powiedział, że rozmowy między Waszyngtonem, Moskwą i Kijowem o zakończeniu wojny są "tymczasowo zawieszone" po wybuchu wojny z Iranem [16](https://www.reuters.com/world/europe/ukraine-peace-talks-paused-amid-iran-war-russias-izvestia-says-2026-03-19/){rel="nofollow"}.
+
+**EA vs Iran**: Międzynarodowa Agencja Energii (IEA) zasugerowała, że konsumenci powinni pracować z domu i unikać lotów, aby radzić sobie z wyższymi cenami energii [17](https://www.reuters.com/business/energy/work-home-avoid-air-travel-deal-with-higher-energy-prices-iea-says-2026-03-20/){rel="nofollow"}.
+
+**ZEA - likwidacja sieci terrorystycznej**: Władze ZEA zlikwidowały "sieć terrorystyczną" finansowaną przez libański Hezbollah i Iran [18](https://www.reuters.com/world/middle-east/uae-says-it-dismantled-terrorist-network-funded-by-iran-hezbollah-2026-03-19/){rel="nofollow"} [19](https://breakingthenews.net/Article/UAE-dismantles-network-linked-to-Hezbollah-Iran/65913415){rel="nofollow"}.
+
+---
+
+*Źródła: Reuters, Al Jazeera, Breaking The News, Bloomberg (za pośrednictwem agenacji). Wszystkie informacje z 19-20 marca 2026.*
