@@ -1,0 +1,56 @@
+---
+title: "Prasówka GPW - 20 marca 2026"
+date: "2026-03-20"
+description: "Najważniejsze wiadomości finansowe z polskiego rynku kapitałowego - atak na rafinerię w Kuwejcie, zmiany w ETS, 13 emerytura, inwestycja Uber w Rivian."
+keywords: "GPW, giełda, sesja, Kuwejt, ropa, Iran, ETS, emerytura, Uber, Rivian, 2026"
+og_description: "Przegląd najważniejszych wydarzeń na GPW przed sesją 20 marca 2026."
+---
+
+# Prasówka GPW – 20 marca 2026
+
+## Poranne podsumowanie
+
+### Bliski Wschód - eskalacja napięć
+
+**Atak na rafinerię w Kuwejcie.** Kuwejcka państwowa firma naftowa KPC poinformowała, że rafineria Mina Al-Ahmadi została w piątek rano ponownie zaatakowana przez liczne irańskie drony. W niektórych obiektach wybuchł pożar. Rafineria Mina Al-Ahmadi jest jedną z największych petrochemii w regionie - jej zdolności produkcyjne to 730 tys. baryłek ropy naftowej dziennie.
+
+**Izrael ogłasza upadek potęgi Iranu.** Premier Izraela Benjamin Netanjahu oświadczył, że Iran nie może już wzbogacać uranu i nie jest zdolny do produkcji pocisków balistycznych, a jego arsenały rakietowe i dronowe są w znacznym stopniu zdegradowane. Według izraelskiego premiera po niemal 20 dniach wojny Iran jest "słabszy niż kiedykolwiek".
+
+**Serbia przedłuża zakaz eksportu paliw.** Serbia zdecydowała się przedłużyć zakaz eksportu ropy i produktów paliwowych do 2 kwietnia, aby chronić rynek przed niedoborami i skokami cen wynikającymi z wojny USA i Izraela z Iranem. Belgrad uwolnił też 40 tys. ton oleju napędowego z rezerw.
+
+**IEA radzi jak obniżyć ceny ropy.** Międzynarodowa Agencja Energetyczna przedstawiła propozycje mające złagodzić presję rosnących cen ropy: praca z domu, unikanie podróży lotniczych i wolniejsza o co najmniej 10 km/h jazda samochodem.
+
+### Europa - zmiany w systemie ETS
+
+**Przełom w sprawie ETS.** Unijny szczyt przyniósł zmianę kierunku myślenia o systemie handlu emisjami. Przedłużenie darmowych uprawnień w ETS oraz uwolnienie rezerw tych na sprzedaż - tak unijne źródło podsumowało wyniki szczytu. Ma to przynieść ulgę dla przemysłu i obniżyć rachunki za prąd dla konsumentów, zwłaszcza w Polsce.
+
+### Polska - finanse i polityka
+
+**13 emerytura - harmonogram wypłat.** ZUS przygotowuje się do wypłaty trzynastych emerytur. Pierwszy termin przypada 1 kwietnia. Dodatkowe świadczenia trafią do uprawnionych wraz z podstawową emeryturą. Nie trzeba składać wniosków. Trzynastka przysługuje w wysokości najniższej emerytury, czyli 1978,49 zł brutto.
+
+**Pożyczka 90 mld euro dla Ukrainy.** Przewodnicząca Komisji Europejskiej Ursula von der Leyen zapewniła po szczycie UE w Brukseli, że Unia Europejska przekaże Ukrainie zapowiadaną pożyczkę w wysokości 90 mld euro "w taki czy inny sposób".
+
+### Spółki - transakcje i wyniki
+
+**Uber inwestuje w Rivian.** Uber Technologies planuje zainwestować 1,25 mld dolarów w firmę Rivian Automotive, aby uruchomić globalną flotę 50 tysięcy autonomicznych taksówek. Zgodnie z komunikatem Uber lub jego partnerzy kupią 10 tysięcy autonomicznych pojazdów elektrycznych Rivian R2 z opcją zakupu kolejnych 40 tysięcy od 2030 roku.
+
+**PCC Rokita: zysk na kapitał zapasowy.** Rada nadzorcza PCC Rokita pozytywnie zaopiniowała rekomendację zarządu dotyczącą przeznaczenia zysku spółki za 2025 r. w kwocie 65,7 mln zł na kapitał zapasowy.
+
+**PolTREG: podwyższenie kapitału.** Akcjonariusze PolTREG zdecydowali o podwyższeniu kapitału zakładowego spółki poprzez emisję do 1.253.008 akcji serii O.
+
+### Czynniki ryzyka
+
+**Bliski Wschód** pozostaje głównym źródłem niepewności na rynkach. Ataki na infrastrukturę naftową w Kuwejcie oraz eskalacja konfliktu irańsko-izraelskiego wpływają na ceny ropy naftowej. Inwestorzy obserwują rozwój sytuacji przed sesją na GPW.
+
+---
+
+## Źródła
+
+- [Pożar w rafinerii Mina Al-Ahmadi - Bankier/PAP](https://www.bankier.pl/wiadomosc/Pozar-w-rafinerii-Mina-Al-Ahmadi-po-ataku-Iranskich-dronow-9101344.html){rel="nofollow"}
+- [Izrael ogłasza upadek potęgi Iranu - Bankier/PAP](https://www.bankier.pl/wiadomosc/Izrael-oglasza-upadek-potegi-Iranu-Arsenal-rakietowy-zniszczony-9101268.html){rel="nofollow"}
+- [Serbia przedłuża zakaz eksportu paliw - Money.pl](https://www.money.pl/gospodarka/serbia-reaguje-na-wojne-na-bliskim-wschodzie-jest-decyzja-ws-paliw-7266238550436160a.html){rel="nofollow"}
+- [IEA radzi jak obniżyć ceny ropy - Bankier/PAP](https://www.bankier.pl/wiadomosc/Pracujcie-z-domow-jadac-autem-zwolnijcie-o-10-km-h-Tak-IEA-radzi-walczyc-z-droga-ropa-9101358.html){rel="nofollow"}
+- [Zmiana myślenia o ETS - Bankier/PAP](https://www.bankier.pl/wiadomosc/Zmiana-myslenia-o-ETS-Eksperci-to-przyniesie-ulge-dla-portfeli-9101275.html){rel="nofollow"}
+- [13 emerytura - harmonogram wypłat - Bankier/PAP](https://www.bankier.pl/wiadomosc/Wyplaty-13-emerytury-startuja-ZUS-podal-harmonogram-przelewow-9101306.html){rel="nofollow"}
+- [Pożyczka dla Ukrainy - Bankier/PAP](https://www.bankier.pl/wiadomosc/Szczyt-UE-za-nami-pozyczka-dla-Ukrainy-dyskusja-o-migracji-i-Bliskim-Wschodzie-9101286.html){rel="nofollow"}
+- [Uber inwestuje w Rivian - Bankier/PAP](https://www.bankier.pl/wiadomosc/Inwestycja-Ubera-za-miliardy-Nadciaga-flota-50-tysiecy-autonomicznych-aut-9101327.html){rel="nofollow"}
