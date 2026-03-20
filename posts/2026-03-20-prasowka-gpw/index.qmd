@@ -1,56 +1,131 @@
 ---
-title: "Prasówka GPW - 20 marca 2026"
+title: "Prasówka GPW – 20 marca 2026"
+description: "Poranne podsumowanie wydarzeń na GPW: komunikaty spółek, nastroje przed sesją, kluczowe informacje rynkowe"
 date: "2026-03-20"
-description: "Najważniejsze wiadomości finansowe z polskiego rynku kapitałowego - atak na rafinerię w Kuwejcie, zmiany w ETS, 13 emerytura, inwestycja Uber w Rivian."
-keywords: "GPW, giełda, sesja, Kuwejt, ropa, Iran, ETS, emerytura, Uber, Rivian, 2026"
-og_description: "Przegląd najważniejszych wydarzeń na GPW przed sesją 20 marca 2026."
+author: "DomenaRynku.pl"
+image: "/images/gpw-news.jpg"
+tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska", "dino", "kghm", "jsw", "orlen"]
+layout: "post"
+nofollow: true
 ---
 
 # Prasówka GPW – 20 marca 2026
 
-## Poranne podsumowanie
+## 🔑 Najważniejsze wydarzenia
 
-### Bliski Wschód - eskalacja napięć
+### WIG20 z drugą spadkową sesją z rzędu
 
-**Atak na rafinerię w Kuwejcie.** Kuwejcka państwowa firma naftowa KPC poinformowała, że rafineria Mina Al-Ahmadi została w piątek rano ponownie zaatakowana przez liczne irańskie drony. W niektórych obiektach wybuchł pożar. Rafineria Mina Al-Ahmadi jest jedną z największych petrochemii w regionie - jej zdolności produkcyjne to 730 tys. baryłek ropy naftowej dziennie.
+Czwartkowa sesja na GPW przyniosła znaczące spadki. Indeks WIG20 stracił **1,85 proc.**, a WIG wycofał się o **1,72 proc.** To druga z rzędu sesja spadkowa, która skasowała zyski z wtorkowego optymizmu. Na szerokim rynku około 70 proc. spółek zanotowało spadki cen akcji.
 
-**Izrael ogłasza upadek potęgi Iranu.** Premier Izraela Benjamin Netanjahu oświadczył, że Iran nie może już wzbogacać uranu i nie jest zdolny do produkcji pocisków balistycznych, a jego arsenały rakietowe i dronowe są w znacznym stopniu zdegradowane. Według izraelskiego premiera po niemal 20 dniach wojny Iran jest "słabszy niż kiedykolwiek".
+Najmocniej przecenionymi spółkami w WIG20 były **Dino (-6,33 proc.)** oraz **KGHM (-5,15 proc.)**. W przypadku Dino, presję na kurs wywarły wyniki Jeronimo Martins (właściciela Biedronki), które okazały się lepsze od oczekiwań. KGHM z kolei dotknęły spadki cen miedzi i srebra do najniższych poziomów od początku roku.
 
-**Serbia przedłuża zakaz eksportu paliw.** Serbia zdecydowała się przedłużyć zakaz eksportu ropy i produktów paliwowych do 2 kwietnia, aby chronić rynek przed niedoborami i skokami cen wynikającymi z wojny USA i Izraela z Iranem. Belgrad uwolnił też 40 tys. ton oleju napędowego z rezerw.
+Pozytywnie wyróżniły się jedynie dwa blue chipy: **mBank** i **Orlen** (po +0,05 proc.).
 
-**IEA radzi jak obniżyć ceny ropy.** Międzynarodowa Agencja Energetyczna przedstawiła propozycje mające złagodzić presję rosnących cen ropy: praca z domu, unikanie podróży lotniczych i wolniejsza o co najmniej 10 km/h jazda samochodem.
-
-### Europa - zmiany w systemie ETS
-
-**Przełom w sprawie ETS.** Unijny szczyt przyniósł zmianę kierunku myślenia o systemie handlu emisjami. Przedłużenie darmowych uprawnień w ETS oraz uwolnienie rezerw tych na sprzedaż - tak unijne źródło podsumowało wyniki szczytu. Ma to przynieść ulgę dla przemysłu i obniżyć rachunki za prąd dla konsumentów, zwłaszcza w Polsce.
-
-### Polska - finanse i polityka
-
-**13 emerytura - harmonogram wypłat.** ZUS przygotowuje się do wypłaty trzynastych emerytur. Pierwszy termin przypada 1 kwietnia. Dodatkowe świadczenia trafią do uprawnionych wraz z podstawową emeryturą. Nie trzeba składać wniosków. Trzynastka przysługuje w wysokości najniższej emerytury, czyli 1978,49 zł brutto.
-
-**Pożyczka 90 mld euro dla Ukrainy.** Przewodnicząca Komisji Europejskiej Ursula von der Leyen zapewniła po szczycie UE w Brukseli, że Unia Europejska przekaże Ukrainie zapowiadaną pożyczkę w wysokości 90 mld euro "w taki czy inny sposób".
-
-### Spółki - transakcje i wyniki
-
-**Uber inwestuje w Rivian.** Uber Technologies planuje zainwestować 1,25 mld dolarów w firmę Rivian Automotive, aby uruchomić globalną flotę 50 tysięcy autonomicznych taksówek. Zgodnie z komunikatem Uber lub jego partnerzy kupią 10 tysięcy autonomicznych pojazdów elektrycznych Rivian R2 z opcją zakupu kolejnych 40 tysięcy od 2030 roku.
-
-**PCC Rokita: zysk na kapitał zapasowy.** Rada nadzorcza PCC Rokita pozytywnie zaopiniowała rekomendację zarządu dotyczącą przeznaczenia zysku spółki za 2025 r. w kwocie 65,7 mln zł na kapitał zapasowy.
-
-**PolTREG: podwyższenie kapitału.** Akcjonariusze PolTREG zdecydowali o podwyższeniu kapitału zakładowego spółki poprzez emisję do 1.253.008 akcji serii O.
-
-### Czynniki ryzyka
-
-**Bliski Wschód** pozostaje głównym źródłem niepewności na rynkach. Ataki na infrastrukturę naftową w Kuwejcie oraz eskalacja konfliktu irańsko-izraelskiego wpływają na ceny ropy naftowej. Inwestorzy obserwują rozwój sytuacji przed sesją na GPW.
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Spadki-na-swiatowych-gieldach-Odwrot-WIG20-rajd-weglowych-spolek-i-efekt-Biedronki-9101013.html){rel="nofollow"}, [Business Insider](https://businessinsider.com.pl/gielda/wiadomosci/akcje-na-gpw-z-mocnymi-spadkami-w-centrum-uwagi-kghm-i-dino/e1pzvyl){rel="nofollow"}
 
 ---
 
-## Źródła
+### Rajd węglowych spółek na GPW
 
-- [Pożar w rafinerii Mina Al-Ahmadi - Bankier/PAP](https://www.bankier.pl/wiadomosc/Pozar-w-rafinerii-Mina-Al-Ahmadi-po-ataku-Iranskich-dronow-9101344.html){rel="nofollow"}
-- [Izrael ogłasza upadek potęgi Iranu - Bankier/PAP](https://www.bankier.pl/wiadomosc/Izrael-oglasza-upadek-potegi-Iranu-Arsenal-rakietowy-zniszczony-9101268.html){rel="nofollow"}
-- [Serbia przedłuża zakaz eksportu paliw - Money.pl](https://www.money.pl/gospodarka/serbia-reaguje-na-wojne-na-bliskim-wschodzie-jest-decyzja-ws-paliw-7266238550436160a.html){rel="nofollow"}
-- [IEA radzi jak obniżyć ceny ropy - Bankier/PAP](https://www.bankier.pl/wiadomosc/Pracujcie-z-domow-jadac-autem-zwolnijcie-o-10-km-h-Tak-IEA-radzi-walczyc-z-droga-ropa-9101358.html){rel="nofollow"}
-- [Zmiana myślenia o ETS - Bankier/PAP](https://www.bankier.pl/wiadomosc/Zmiana-myslenia-o-ETS-Eksperci-to-przyniesie-ulge-dla-portfeli-9101275.html){rel="nofollow"}
-- [13 emerytura - harmonogram wypłat - Bankier/PAP](https://www.bankier.pl/wiadomosc/Wyplaty-13-emerytury-startuja-ZUS-podal-harmonogram-przelewow-9101306.html){rel="nofollow"}
-- [Pożyczka dla Ukrainy - Bankier/PAP](https://www.bankier.pl/wiadomosc/Szczyt-UE-za-nami-pozyczka-dla-Ukrainy-dyskusja-o-migracji-i-Bliskim-Wschodzie-9101286.html){rel="nofollow"}
-- [Uber inwestuje w Rivian - Bankier/PAP](https://www.bankier.pl/wiadomosc/Inwestycja-Ubera-za-miliardy-Nadciaga-flota-50-tysiecy-autonomicznych-aut-9101327.html){rel="nofollow"}
+Pomimo ogólnych spadków, w czwartek mocno rosły notowania spółek węglowych. **Bogdanka podrożała o 13,69 proc.**, **JSW o 7,89 proc.**, a **Bumech o 12,38 proc.** Ceny węgla na światowych rynkach wystrzeliły po uderzeniu na Iran.
+
+Wsparcie dla sektora dodał minister aktywów państwowych **Wojciech Balczun**, który poinformował, że rząd pracuje nad rozwiązaniem systemowym dla JSW w celu stabilizacji sytuacji finansowej spółki.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Spadki-na-swiatowych-gieldach-Odwrot-WIG20-rajd-weglowych-spolek-i-efekt-Biedronki-9101013.html){rel="nofollow"}
+
+---
+
+## 📢 Komunikaty spółek (ESPI)
+
+### PCC Rokita przeznaczy zysk na kapitał zapasowy
+
+Rada nadzorcza PCC Rokita pozytywnie zaopiniowała rekomendację zarządu dotyczącą przeznaczenia zysku spółki za 2025 rok w kwocie **65,7 mln zł** na kapitał zapasowy.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/PCC-Rokita-chce-przeznaczyc-zysk-za-25-na-kapital-zapasowy-9101332.html){rel="nofollow"}
+
+---
+
+### PolTREG: Podwyższenie kapitału zakładowego
+
+Akcjonariusze PolTREG zdecydowali o podwyższeniu kapitału zakładowego spółki poprzez emisję do **1 253 008 akcji serii O**. Decyzja zapadła na Nadzwyczajnym Walnym Zgromadzeniu.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Akcjonariusze-PolTREG-zdecydowali-o-podwyzszeniu-kapitalu-zakladowego-poprzez-emisje-akcji-9101330.html){rel="nofollow"}
+
+---
+
+### Dino buduje nowe centrum dystrybucyjne
+
+Zarząd Dino Polska podjął decyzję o rozpoczęciu budowy nowego centrum dystrybucyjnego. Informacja ta pojawiła się w dniu, gdy kurs akcji Dino mocno spadał w reakcji na wyniki konkurencyjnej sieci Biedronka.
+
+Źródła: [Parkiet.com](https://www.parkiet.com/komunikaty-espi/art43991951-dino-polska-spolka-akcyjna-decyzja-w-sprawie-rozpoczecia-budowy-nowego-centrum-dystrybucyjnego){rel="nofollow"}
+
+---
+
+### XTPL: Objęcie akcji przez prezesa zarządu
+
+Prezes zarządu XTPL, dr **Filip Granek**, objął akcje serii Y emitenta. Informacja została przekazana w trybie art. 19 MAR.
+
+Źródła: [Parkiet.com](https://www.parkiet.com/komunikaty-espi/art43991981-xtpl-spolka-akcyjna-objecie-akcji-serii-y-przez-prezesa-zarzadu-emitenta-pana-dr-filipa-granka){rel="nofollow"}
+
+---
+
+### Synektik: Podział spółki zatwierdzony
+
+Akcjonariusze Synektika zatwierdzili podział spółki i wydzielenie projektu kardioznacznika do Syn2bio. KNF zatwierdziła prospekt Syn2bio, co przybliża debiut spółki na GPW.
+
+Źródła: [Parkiet.com](https://www.parkiet.com/komunikaty-espi/art43991911-synektik-spolka-akcyjna-wykaz-akcjonariuszy-posiadajacych-co-najmniej-5-ogolnej-liczby-glosow-na-nadzwyczajnym-walnym-zgromadzeniu-akcjonariuszy-w-dniu-19-marca-2026-roku){rel="nofollow"}
+
+---
+
+## 🌍 Makroekonomia i geopolityka
+
+### Bliski Wschód: Napięcia nie maleją
+
+Sytuacja na Bliskim Wschodzie pozostaje głównym czynnikiem ryzyka dla rynków. Premier Izraela Benjamin Netanjahu oświadczył, że Iran nie może już wzbogacać uranu i nie jest zdolny do produkcji pocisków balistycznych. W piątek rano doszło do kolejnego ataku irańskich dronów na kuwejcką rafinerię Mina Al-Ahmadi.
+
+W czwartek ceny ropy Brent wzrosły do 118 USD za baryłkę, ale później spadły do 110 USD po sugestii sekretarza skarbu USA Scotta Bessenta o możliwości uwolnienia rezerw strategicznych lub zniesienia sankcji na irańską ropę.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Izrael-oglasza-upadek-potegi-Iranu-Arsenal-rakietowy-zniszczony-9101268.html){rel="nofollow"}, [Bankier.pl](https://www.bankier.pl/wiadomosc/Pozar-w-rafinerii-Mina-Al-Ahmadi-po-ataku-Iranskich-dronow-9101344.html){rel="nofollow"}
+
+---
+
+### UE: Pożyczka dla Ukrainy i zmiany w ETS
+
+Szczyt UE zakończył się zobowiązaniem do przekazania乌克兰 zapowiadanej pożyczki w wysokości 90 mld euro. Pojawiła się też zmiana podejścia do systemu ETS – przedłużenie darmowych uprawnień oraz uwolnienie rezerw na sprzedaż, co ma przynieść ulgę dla przemysłu i portfeli konsumenckich.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Szczyt-UE-za-nami-pozyczka-dla-Ukrainy-dyskusja-o-migracji-i-Bliskim-Wschodzie-9101286.html){rel="nofollow"}, [Bankier.pl](https://www.bankier.pl/wiadomosc/Zmiana-myslenia-o-ETS-Eksperci-to-przyniesie-ulge-dla-portfeli-9101275.html){rel="nofollow"}
+
+---
+
+### IEA radzi: Pracujcie z domu, zwolnijcie o 10 km/h
+
+Międzynarodowa Agencja Energetyczna (IEA) przedstawiła propozycje mające złagodzić presję rosnących cen ropy. Wśród zaleceń znalazły się: praca z domu, unikanie podróży lotniczych i wolniejsza jazda samochodem (o co najmniej 10 km/h).
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Pracujcie-z-domow-jadac-autem-zwolnijcie-o-10-km-h-Tak-IEA-radzi-walczyc-z-droga-ropa-9101358.html){rel="nofollow"}
+
+---
+
+### USA: 2/3 Amerykanów spodziewa się interwencji lądowej w Iranie
+
+Według sondażu Reutera, 65 proc. Amerykanów uważa, że prezydent Donald Trump wyśle wojska do udziału w wojnie lądowej w Iranie. Jednocześnie tylko 7 proc. popiera ten pomysł.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Trump-wysle-wojska-ladowe-do-Iranu-2-3-Amerykanow-jest-przekonana-9101259.html){rel="nofollow"}
+
+---
+
+## 📊 Podsumowanie
+
+| Wydarzenie | Data | Źródła |
+|------------|------|--------|
+| WIG20 -1,85% | 19.03.2026 | Bankier, Business Insider |
+| Dino -6,33%, KGHM -5,15% | 19.03.2026 | Bankier, Business Insider |
+| Bogdanka +13,69%, JSW +7,89% | 19.03.2026 | Bankier |
+| PCC Rokita zysk na kapitał | 20.03.2026 | Bankier |
+| PolTREG emisja akcji | 20.03.2026 | Bankier |
+| Ropa Brent 110 USD | 19.03.2026 | Bankier |
+| UE pożyczka 90 mld EUR | 19.03.2026 | Bankier |
+
+---
+
+*Data przygotowania: 20 marca 2026, godz. 08:30 CET*
+*Źródła: Bankier.pl, Business Insider, Parkiet.com, StockWatch.pl*
