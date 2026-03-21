@@ -1,0 +1,161 @@
+---
+title: "Prasówka GPW – 21 marca 2026"
+description: "Poranne podsumowanie wydarzeń na GPW: komunikaty spółek, nastroje przed sesją, kluczowe informacje rynkowe"
+date: "2026-03-21"
+author: "DomenaRynku.pl"
+image: "/images/gpw-news.jpg"
+tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska", "cd projekt", "żabka", "benefit systems", "moody's"]
+layout: "post"
+nofollow: true
+---
+
+# Prasówka GPW – 21 marca 2026
+
+## 🔑 Najważniejsze wydarzenia
+
+### Trzecie najwyższe obroty w historii GPW
+
+Piątkowa sesja na warszawskim parkiecie upłynęła pod znakiem dominacji podaży. Inwestorzy są przestraszeni eskalacją konfliktu na Bliskim Wschodzie oraz jastrzębimi sygnałami z banków centralnych. W dniu wygasania marcowych serii instrumentów pochodnych (tzw. "trzy wiedźmy") obroty wyniosły ponad 5,78 mld zł na szerokim rynku, z czego 4,71 mld zł dotyczyło spółek z WIG20. Były to trzecie najwyższe obroty na sesji w historii GPW.
+
+Główne indeksy zakończyły dzień na wyraźnych minusach:
+- **WIG20** spadł o 0,87 proc. do ok. 3 248,12 pkt
+- **WIG** zniżkował o 1,07 proc. do 119 300,11 pkt
+- **mWIG40** poszedł w dół o 2,04 proc. do 8 247,07 pkt
+- **sWIG80** stracił 0,65 proc. do 29 641,24 pkt
+
+Słabe nastroje w Warszawie korespondowały z sytuacją na rynkach zewnętrznych. Niemiecki DAX (-1,7 proc.), francuski CAC40 (-1,5 proc.) oraz brytyjski FTSE100 (-1,2 proc.) znajdowały się pod presją sprzedających.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Trzy-wiedzmy-i-kociol-na-Bliskim-Wschodzie-Na-GPW-sypnelo-wynikami-9101770.html){rel="nofollow"}
+
+---
+
+###CD Projekt i Żabka zaskoczyły wynikami
+
+Mimo ogólnych spadków, w gronie blue chipów wyróżniły się dwie spółki, które pochwaliły się solidnymi wynikami finansowymi:
+
+**CD Projekt** zyskał 4,22 proc. Zysk netto za IV kwartał 2025 r. wyniósł 174,2 mln zł, znacząco bijąc konsensus (97,4 mln zł). Analitycy wskazują na realną szansę na nowy, płatny dodatek do "Wiedźmina 3" w 2026 r., aby zrealizować ambitny cel zarządu dotyczący zysku na poziomie ponad 527 mln zł w samym 2026 roku. Spółka ma ponad 1,3 mld zł gotówki netto.
+
+**Żabka** wzrosła o 4,71 proc. Grupa zanotowała w IV kw. 2025 roku 1,134 mld zł skorygowanej EBITDA wobec oczekiwań 1,085 mld zł. Zysk netto wyniósł 527 mln zł wobec oczekiwanych 416,4 mln zł. Spółka planuje otworzyć 1,3 tys. nowych sklepów w 2026 roku.
+
+W segmencie średnich spółek **Sanok Rubber** stał się gwiazdą poranka po publikacji wyników lepszych od oczekiwań i zapowiedziach dalszych akwizycji. Głównym akcjonariuszem spółki w ostatnich miesiącach został Michał Kiciński, współzałożyciel CD Projekt.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Trzy-wiedzmy-i-kociol-na-Bliskim-Wschodzie-Na-GPW-sypnelo-wynikami-9101770.html){rel="nofollow"}, [Bankier.pl](https://www.bankier.pl/wiadomosc/Grupa-Zabka-miala-w-IV-kw-1-134-mld-zl-skorygowanej-EBITDA-wobec-1-085-mld-zl-konsensusu-9101190.html){rel="nofollow"}, [Bankier.pl](https://www.bankier.pl/wiadomosc/Analitycy-celuja-w-pierwsza-premiere-od-CD-Projekt-Zarzad-potrzebuje-ponad-pol-miliarda-zysku-netto-9101486.html){rel="nofollow"}
+
+---
+
+### PGE i energetyka w centrum przeceny
+
+Wewnątrz indeksu WIG20 najsłabiej wypadł sektor energetyczny. Liderem spadków w WIG20 było **PGE (-8,06%)**, a sektorowy indeks WIG-Energia stracił aż 6,31 proc. Mocno pod kreską znalazły się również akcje **Budimex (-3,63%)** oraz windykatora **Kruk (-3,16%)**. Ponad 3 proc. oddał także kurs **Aliora (-3,01%)**.
+
+W segmencie średnich spółek (mWIG40) najmocniej ciążyły kursy **Tauronu (-6,77%)** oraz **Enei (-4,93%)**, co potwierdziło fatalny sentyment do sektora mocy.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Trzy-wiedzmy-i-kociol-na-Bliskim-Wschodzie-Na-GPW-sypnelo-wynikami-9101770.html){rel="nofollow"}
+
+---
+
+## 📢 Komunikaty spółek (ESPI)
+
+### Benefit Systems z polityką dywidendową na lata 2026-2028
+
+Zarząd spółki Benefit Systems podjął uchwałę w sprawie przyjęcia Polityki Dywidendowej na lata 2026-2028, według której zarząd będzie rekomendować Walnemu Zgromadzeniu wypłatę dywidendy w wysokości **co najmniej 60 proc.** skorygowanego skonsolidowanego zysku netto grupy kapitałowej spółki za poprzedni rok obrotowy.
+
+Wyniki za IV kw. 2025: zysk netto wyniósł 159,2 mln zł, wobec 114,6 mln zł przed rokiem, zgodnie z oczekiwaniami (konsensus: 158,3 mln zł).
+
+Zarząd przyjął również zaktualizowaną strategię grupy kapitałowej obowiązującą do końca 2027 roku, uwzględniającą wpływ przejęcia tureckiej Grupy MAC. Zakłada ona osiągnięcie skonsolidowanych przychodów na poziomie **od 6,4 mld zł do 7 mld zł** w 2027 roku.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Benefit-Systems-przyjal-Polityke-Dywidendowa-na-lata-2026-2028-9101861.html){rel="nofollow"}, [Bankier.pl](https://www.bankier.pl/wiadomosc/Zysk-netto-Benefit-Systems-w-IV-kw-wyniosl-159-2-mln-zl-zgodnie-z-oczekiwaniami-9101890.html){rel="nofollow"}
+
+---
+
+### Huuuge z wynikami powyżej oczekiwań
+
+Huuuge wypracował w IV kw. 25,2 mln USD skorygowanego zysku EBITDA, co oznacza wzrost o 1,5 proc. rdr. Konsensus PAP Biznes zakładał 23,9 mln USD skorygowanej EBITDA.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Huuuge-mial-w-IV-kw-25-2-mln-USD-skorygowanej-EBITDA-wobec-23-9-mln-USD-konsensusu-9101832.html){rel="nofollow"}
+
+---
+
+### Mennica Polska bije rekordy
+
+Mennica Polska w 2026 roku chce dalej prowadzić politykę ekspansji na rynki zagraniczne. EBITDA spółki na koniec 2025 roku wyniosła blisko **160 mln zł**, o 29 proc. więcej rdr, a EBIT wyniósł 125,5 mln zł, czyli więcej o 23 proc. rdr.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Mennica-Polska-w-26-chce-kontynuowac-polityke-ekspansji-na-rynki-zagraniczne-9101673.html){rel="nofollow"}
+
+---
+
+### Torpol z portfelem zamówień 3,98 mld zł
+
+Grupa Torpol posiada portfel zamówień o wartości ponad **3,98 mld zł** netto, bez udziału konsorcjantów – poinformowała spółka w raporcie kwartalnym.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Portfel-zamowien-grupy-Torpol-wynosi-ponad-3-98-mld-zl-netto-9101910.html){rel="nofollow"}
+
+---
+
+### Asseco Business Solutions: skup akcji po 70-80 zł
+
+Asseco Business Solutions zaprasza do składania ofert sprzedaży 91.119 akcji, które stanowią ok. 0,28 proc. kapitału zakładowego. Cena zakupu akcji będzie wynosić nie mniej niż 70 zł i nie więcej niż 80 zł.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Asseco-BS-zaprasza-do-skladania-ofert-sprzedazy-91-119-akcji-spolki-po-cenie-70-80-zl-szt-9101867.html){rel="nofollow"}
+
+---
+
+## 🌍 Makroekonomia i geopolityka
+
+### Moody's utrzymało rating Polski na poziomie A2
+
+Agencja Moody's dokonała okresowego przeglądu ratingu Polski, utrzymując ocenę kredytową kraju na poziomie **"A2"** z **negatywną perspektywą**. Negatywna perspektywa odzwierciedla znaczne pogorszenie perspektyw dotyczących finansów publicznych.
+
+Według agencji, jeśli rząd nie zdoła przeprowadzić bardziej znaczącej konsolidacji fiskalnej, oznaczałoby to słabszą kondycję finansów publicznych. Główne czynniki ryzyka wynikają z impasu między rządem a prezydentem oraz z prawdopodobieństwa wzrostu wydatków rządowych przed wyborami parlamentarnymi w 2027 r.
+
+Moody's podwyższyła prognozę dynamiki PKB Polski w 2026 roku do 3 proc. (z wcześniejszych 2,8 proc.), ale w 2027 r. spowolni do 3 proc.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Agencja-Moody-s-ocenia-Polske-Perspektywa-jest-negatywna-9101971.html){rel="nofollow"}
+
+---
+
+### Polscy żołnierze ewakuowani z Iraku
+
+Polscy żołnierze w komplecie zostali ewakuowani z Iraku – poinformował w piątek wicepremier, szef MON Władysław Kosiniak-Kamysz. Większość personelu Polskiego Kontyngentu Wojskowego z Iraku przebywa już w Polsce lub jest w drodze do kraju. Część żołnierzy przebywa w Jordanii.
+
+W Iraku stacjonowało do 350 żołnierzy Wojska Polskiego; działali w ramach Sił Globalnej Koalicji przeciwko Państwu Islamskiemu.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Polscy-zolnierze-zostali-w-komplecie-ewakuowani-z-Iraku-9101749.html){rel="nofollow"}
+
+---
+
+### Stopy procentowe zamrożone do lata
+
+Jakiekolwiek zmiany polityki pieniężnej Narodowego Banku Polskiego przed lipcem wydają się obecnie bardzo mało prawdopodobne – uważają analitycy Santander Bank Polska. Analitycy prognozują, że wzrost sprzedaży detalicznej za luty wyniesie 4 proc. rdr.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Stopy-procentowe-zamrozone-do-lata-Santander-Przed-lipcem-nie-bedzie-zmian-9101876.html){rel="nofollow"}
+
+---
+
+### GPW bezpieczną przystanią?
+
+Po niezwykle udanym roku warszawski parkiet nie zwalnia tempa. Michał Kobza, członek zarządu GPW, opowiada o rozszerzeniu oferty m.in. o ETF-y oparte na kryptoaktywach oraz planowanych debiutach. W obliczu globalnych zawirowań Polska staje się bezpieczną przystanią dla zagranicznego kapitału.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/GPW-bezpieczna-przystania-Michal-Kobza-o-naplywie-kapitalu-i-nowosciach-na-parkiecie-9101870.html){rel="nofollow"}
+
+---
+
+## 📊 Podsumowanie
+
+| Wydarzenie | Data | Źródła |
+|------------|------|--------|
+| WIG20 -0,87% | 20.03.2026 | Bankier |
+| PGE -8,06% | 20.03.2026 | Bankier |
+| CD Projekt +4,22% | 20.03.2026 | Bankier |
+| Żabka +4,71% | 20.03.2026 | Bankier |
+| Benefit Systems dywidenda 60% | 20.03.2026 | Bankier |
+| Huuuge EBITDA 25,2 mln USD | 20.03.2026 | Bankier |
+| Mennica Polska EBITDA +29% rdr | 20.03.2026 | Bankier |
+| Torpol portfel 3,98 mld zł | 20.03.2026 | Bankier |
+| Asseco BS buyback 70-80 zł | 20.03.2026 | Bankier |
+| Moody's rating A2 negatywny | 21.03.2026 | Bankier |
+| Polska ewakuacja żołnierzy z Iraku | 20.03.2026 | Bankier |
+
+---
+
+*Data przygotowania: 21 marca 2026, godz. 08:30 CET*
+*Źródła: Bankier.pl, PAP Biznes*
