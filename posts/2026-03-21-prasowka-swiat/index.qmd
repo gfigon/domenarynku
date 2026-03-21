@@ -1,0 +1,68 @@
+---
+title: "Prasówka Światowa - 21 marca 2026"
+description: "Codzienny przegląd najważniejszych wydarzeń świattowych z 21 marca 2026 roku. Geopolityka, makroekonomia, rynki."
+date: "2026-03-21"
+author: "Prasówka Światowa"
+tags: ["geopolityka", "makroekonomia", "Iran", "Izrael", "USA", "Europa", "rynki", "Bliski Wschód"]
+categories: ["Wiadomości Światowe"]
+slug: "prasowka-swiat-2026-03-21"
+image: "/images/world-news.jpg"
+robots: "index, follow"
+canonical: "https://domenarynku.pl/posts/2026-03-21-prasowka-swiat/"
+---
+
+# Prasówka Światowa - 21 marca 2026
+
+## Wojna Iran-Izrael: Trump rozważa "zakończenie" konfliktu
+
+**Prezydent Donald Trump powiedział w sobotę, że USA rozważają "zakończenie" wojny z Iranem, ale inne kraje muszą przejąć ochronę Cieśniny Hormuz.** Jednocześnie Iran przeprowadził kolejne ataki rakietowe, a amerykańskie media doniosły, że Iran wystrzelił dwie rakiety balistyczne w kierunku bazy Diego Garcia.
+
+**Kluczowe wydarzenia:**
+
+- **Trump: USA rozważają "winding down" wojny**: Prezydent Trump powiedział, że USA są blisko osiągnięcia swoich celów i mogą rozpocząć redukcję działań wojennych, twierdząc, że zdolności militarne Iranu zostały "poważnie osłabione". Jednocześnie krytykował sojuszników NATO, nazywając ich "tchórzami" za brak wsparcia [1](https://www.bbc.com/news/live/ce84073mr06t){rel="nofollow"} [2](https://www.aljazeera.com/news/2026/3/21/trump-considering-winding-down-iran-war).
+
+- **Iran wystrzelił rakiety w Diego Garcia**: Według doniesień amerykańskich mediów (Wall Street Journal, CNN), Iran wystrzelił dwie rakiety balistyczne średniego zasięgu w kierunku wspólnej bazy USA-UK na wyspie Diego Garcia w Oceanie Indyjskim. Żadna z rakiet nie trafiła w cel. BBC kontaktowało się z Pentagonem i brytyjskim Ministerstwem Obrony, które nie potwierdziły informacji [3](https://www.bbc.com/news/live/ce84073mr06t){rel="nofollow"}.
+
+- **USA znoszą sankcje na irańską ropę**: Sekretarz skarbu Scott Bessent ogłosił zezwolenie na sprzedaż irańskiej ropy aktualnie znajdującej się na morzu. Decyzja ma wprowadzić na rynek około 140 mln baryłek ropy. Eksperci krytykują decyzję, wskazując, że może to sfinansować wysiłek wojenny Iranu [4](https://www.bbc.com/news/articles/c9d415g55nno){rel="nofollow"}.
+
+- **Kolejny atak na Natanz**: Irańska Organizcja Energii Atomowej (AEOI) potwierdziła, że kompleks nuklearny Natanz w centralnym Iranie został ponownie zaatakowany. W komunikacie stwierdzono, że "nie stwierdzono wycieku materiałów radioaktywnych" [5](https://www.bbc.com/news/live/ce84073mr06t){rel="nofollow"}.
+
+- **Izrael atakuje Bejrut i Hezbollah**: Siły izraelskie przeprowadziły naloty na cele Hezbollahu w Bejrucie, a także starcia w południowym Libanie, zabijając cztery osoby. Hezbollah odpowiedział rakietami na izraelską bazę Filon [6](https://www.bbc.com/news/live/ce84073mr06t){rel="nofollow"} [7](https://www.aljazeera.com/news/2026/3/21/israel-hezbollah-lebanon).
+
+- **Korea Południowa dołącza do sojuszu ws. Cieśniny Hormuz**: Korea Południowa podpisała wspólne oświadczenie wyrażające "gotowość do przyczynienia się" do zabezpieczenia Cieśniny Hormuz. Oświadczenie pierwotnie podpisały: UK, Francja, Niemcy, Włochy, Holandia, Japonia, a później dołączyły Kanada, Australia, Nowa Zelandia, Dania, Łotwa, Słowenia, Estonia, Norwegia, Szwecja, Finlandia, Czechy, Rumunia, Bahrajn i Litwa [8](https://www.bbc.com/news/live/ce84073mr06t){rel="nofollow"}.
+
+- **USA wykorzystują brytyjskie bazy do ataków na Hormuz**: Oficjalnie potwierdzono, że Wielka Brytania zezwoliła USA na wykorzystanie swoich baz do ataków na cele w Cieśninie Hormuz [9](https://www.bbc.com/news/articles/c36rny6xgppo){rel="nofollow"}.
+
+- **Szkody na bazach USA: 800 mln USD**: Nowa analiza wskazuje, że irańskie ataki na bazy wykorzystywane przez USA spowodowały szkody o wartości 800 mln USD [10](https://www.bbc.com/news/articles/cddq7j48p35o){rel="nofollow"}.
+
+## Makroekonomia i Rynki
+
+**Sytuacja energetyczna:**
+
+- **Atak na South Pars zniszczył 17% zdolności eksportowych LNG Kataru**: Prezes QatarEnergy Saad al-Kaabi powiedział, że atak na złoże South Pars, które jest wspólnym projektem Iranu i Kataru, zniszczył "cold boxes" - główne urządzenia chłodzące do produkcji LNG. Odbudowa może potrwać 3-4 miesiące po zakończeniu walk, a pełne moce eksportowe mogą być ograniczone przez 5 lat [11](https://www.aljazeera.com/news/2026/3/20/qatarenergy-ceo-says-warned-us-industry-officials-against-attack-on-energy){rel="nofollow"}.
+
+- **Cena ropy nadal wysoka**: Ropa Brent utrzymuje się powyżej 110 USD za baryłkę, a WTI powyżej 95 USD. Cieśnina Hormuz pozostaje zablokowana dla większości przewozów.
+
+**Europa - polityka:**
+
+- **Węgry-Ukraina: spór o ropę zagraża pożyczce UE**: Konflikt między Węgrami i Słowacją a Unią Europejską w sprawie naprawy ropociągu Druzhba zagraża kluczowej pożyczce UE o wartości 90 mld EUR dla乌克兰. Rurociąg nie działa od ataku Rosji na stację pompywą Brody 27 stycznia [12](https://www.bbc.com/news/articles/cr71rkeg7xxo){rel="nofollow"}.
+
+- **Wybory we Francji**: W sobotę odbywają się kluczowe wybory merow w Paryżu i innych francuskich miastach. Socjaliści walczą o utrzymanie kontroli nad stolicą [13](https://www.bbc.com/news/articles/c87wgw27201o){rel="nofollow"}.
+
+## Ukraina
+
+**Atak rosyjskich dronów przed rozmowami w USA**: Dwie osoby zginęły, a dwie dzieci (11 i 15 lat) zostały ranne w rosyjskim ataku dronów na Zaporizhzhię. Atak nastąpił w przeddzień nowych rozmów między ukraińskimi i amerykańskimi negocjatorami w USA [14](https://www.bbc.com/news/articles/crl18nwjzzzo){rel="nofollow"}.
+
+Prezydent Zelensky chce, aby negocjatorzy omówili decyzję USA o złagodzeniu sankcji na rosyjską ropę. USA zezwoliły na zakup rosyjskiej ropy przez miesiąc, co wywołało krytykę ze strony乌克兰 i sojuszników.
+
+## Wydarzenia kulturalne
+
+**Chuck Norris nie żyje**: Słynny aktor i ikona sztuk walki Chuck Norris zmarł w wieku 86 lat w czwartek w Honolulu. Był znany z ról w "Walker, Texas Ranger" i filmach akcji takich jak "Code of Silence", "Missing in Action" i "The Delta Force". W 2005 roku stał się internetowym memem dzięki "Chuck Norris Facts" [15](https://www.bbc.com/news/articles/c0le8e5jg1xo){rel="nofollow"} [16](https://www.aljazeera.com/news/2026/3/20/walker-texas-ranger-star-and-martial-arts-icon-chuck-norris-dies-at-86){rel="nofollow"}.
+
+**Powrót BTS**: Około 260 000 fanów oczekuje na koncert BTS w Seulu w sobotę - pierwszy wspólny występ od 2022 roku. Zespół wydał swoją dziesiątą albumę [17](https://www.bbc.com/news/videos/c9wqklg2rexo){rel="nofollow"}.
+
+**Elon Musk przegrał proces z inwestorami Twittera**: Ławnicy w San Francisco uznali, że Musk wprowadzał inwestorów w błąd w 2022 roku. Sprawa dotyczyła tweeta Muska o przejęciu Twittera [18](https://www.bbc.com/news/articles/c62j3yl842eo){rel="nofollow"}.
+
+---
+
+*Źródła: BBC, Al Jazeera, Breaking The News. Wszystkie informacje z 18-21 marca 2026.*
