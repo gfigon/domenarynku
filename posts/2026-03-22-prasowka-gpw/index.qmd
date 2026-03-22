@@ -1,0 +1,79 @@
+---
+title: "Prasówka GPW – 22 marca 2026"
+description: "Poranne podsumowanie wydarzeń na GPW: komunikaty spółek, nastroje przed sesją, kluczowe informacje rynkowe"
+date: "2026-03-22"
+author: "DomenaRynku.pl"
+image: "/images/gpw-news.jpg"
+tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska", "jpmorgan", "wig20", "wigbanki"]
+layout: "post"
+nofollow: true
+---
+
+# Prasówka GPW – 22 marca 2026
+
+## 🔑 Najważniejsze wydarzenia
+
+### Niedziela handlowa - GPW zamknięta
+
+Dzisiaj, 22 marca 2026 roku, jest niedzielą niehandlową. Tydzień przyniósł zmienność na rynkach globalnych, a warszawski parkiet pozostaje dziś zamknięty.
+
+---
+
+### JPMorgan obniża prognozę S&P 500
+
+Strategowie JPMorgan Chase zrewidowali w dół oczekiwania wobec indeksu S&P 500, obniżając prognozowaną wartość na koniec roku z 7500 do **7200 punktów**. Decyzję uzasadniono wpływem konfliktu na Bliskim Wschodzie, który ogranicza potencjał wzrostu aktywów ryzykownych.
+
+Kluczowym czynnikiem jest szok podażowy związany z przerwaniem przepływu ropy przez cieśninę Ormuz. Analitycy wskazują, że cena ropy na poziomie około 110 dol. za baryłkę do końca roku może obniżyć zyski na akcję w indeksie S&P 500 o 2-5 proc.
+
+Od wybuchu konfliktu na Bliskim Wschodzie indeks S&P 500 stracił już 5,4 proc. na wartości. W piątek indeks spadł o 1,5 proc. do poziomu 6506,48 punktów, co jest najniższym wynikiem od sześciu miesięcy.
+
+Źródła: [Business Insider](https://businessinsider.com.pl/gielda/jpmorgan-chase-obniza-prognoze-sandp-500-ropa-i-bliski-wschod-psuja-nastroje/kjdp1sn){rel="nofollow"}
+
+---
+
+### Tylko WIG-Banki w dziennym trendzie wzrostowym
+
+Na krajowym rynku, według analiz z piątkowej sesji (21 marca), tylko indeks **WIG-Banki** utrzymuje się jeszcze w dziennym trendzie wzrostowym. Pozostałe główne indeksy WIG20, mWIG40 i sWIG80 znalazły się pod presją podaży.
+
+W piątek sesja na GPW upłynęła pod znakiem dominacji podaży. Obroty wyniosły ponad 5,78 mld zł na szerokim rynku, z czego 4,71 mld zł dotyczyło spółek z WIG20. Były to trzecie najwyższe obroty w historii GPW.
+
+Główne indeksy zakończyły piątek na minusach:
+- **WIG20** spadł o 0,87 proc. do ok. 3 248,12 pkt
+- **WIG** zniżkował o 1,07 proc. do 119 300,11 pkt
+- **mWIG40** poszedł w dół o 2,04 proc. do 8 247,07 pkt
+- **sWIG80** stracił 0,65 proc. do 29 641,24 pkt
+
+W segmencie blue chips wyróżniły się **CD Projekt** (+4,22 proc.) oraz **Żabka** (+4,71 proc.), które zaskoczyły wynikami.
+
+Najsłabiej wypadł sektor energetyczny - **PGE** (-8,06 proc.), a indeks WIG-Energia stracił 6,31 proc.
+
+Źródła: [Strefa Inwestorów](https://strefainwestorow.pl/blog/w-poszukiwaniu-sygnalow/w-poszukiwaniu-sygnalow-21-marca-2026-tylko-wigbanki-jeszcze-w){rel="nofollow"}, [Bankier.pl](https://www.bankier.pl/wiadomosc/Trzy-wiedzmy-i-kociol-na-Bliskim-Wschodzie-Na-GPW-sypnelo-wynikami-9101770.html){rel="nofollow"}
+
+---
+
+### GPW bezpieczną przystanią dla kapitału
+
+Michał Kobza, członek zarządu GPW, w wywiadzie dla Bankier.pl opowiedział o rozwoju warszawskiego parkietu. GPW planuje rozszerzenie oferty o ETF-y oparte na kryptoaktywach oraz nowe debiuty.
+
+Według Michała Kobzy, w obliczu globalnych zawirowań Polska staje się bezpieczną przystanią dla zagranicznego kapitału. GPW może również skorzystać na utworzeniu kont OKI (Konto Indywidualne Inwestora).
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/GPW-bezpieczna-przystania-Michal-Kobza-o-naplywie-kapitalu-i-nowosciach-na-parkiecie-9101870.html){rel="nofollow"}
+
+---
+
+## 📊 Podsumowanie
+
+| Wydarzenie | Data | Źródła |
+|------------|------|--------|
+| JPMorgan obniża S&P 500 do 7200 pkt | 21.03.2026 | Business Insider |
+| Tylko WIG-Banki w trendzie wzrostowym | 21.03.2026 | Strefa Inwestorów |
+| WIG20 -0,87% (piątek) | 21.03.2026 | Bankier |
+| PGE -8,06% (piątek) | 21.03.2026 | Bankier |
+| CD Projekt +4,22% | 21.03.2026 | Bankier |
+| Żabka +4,71% | 21.03.2026 | Bankier |
+| GPW: nowe ETF-y krypto | 21.03.2026 | Bankier |
+
+---
+
+*Data przygotowania: 22 marca 2026, godz. 08:30 CET*
+*Źródła: Bankier.pl, Business Insider, Strefa Inwestorów*
