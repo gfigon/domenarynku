@@ -1,0 +1,70 @@
+---
+title: "Prasówka GPW - 23 marca 2026"
+date: "2026-03-23"
+description: "Najważniejsze wiadomości finansowe z poranka przed sesją GPW. Ceny ropy, zwolnienia w IKEA, Słowacja z podwójnymi cenami paliw."
+tags: ["prasówka", "GPW", "giełda", "ropa", "IKEA", "Słowacja", "paliwa", "cyberbezpieczeństwo"]
+seo:
+  title: "Prasówka GPW 23.03.2026 - Ceny ropy, zwolnienia IKEA, ceny paliw na Słowacji"
+  description: "Poranne podsumowanie wiadomości finansowych przed sesją na GPW. Ceny ropy blisko najwyższych poziomów od 2022, Słowacja wprowadza ceny dla cudzoziemców, IKEA redukuje 800 etatów."
+---
+
+## Poranne podsumowanie finansowe (23 marca 2026)
+
+### Ceny ropy rosną przez konflikt USA-Iran
+
+Ceny ropy naftowej są blisko najwyższych poziomów od połowy 2022 roku. Inwestorzy oceniają ultimatum prezydenta USA Donalda Trumpa wobec Iranu — amerykański przywódca zagroził zniszczeniem irańskich elektrowni, jeśli cieśnina Ormuz nie zostanie w pełni otwarta w ciągu 48 godzin. Iran w odpowiedzi grozi całkowitym zamknięciem cieśniny.
+
+**Dane rynkowe:**
+- West Texas Intermediate (WTI): 100,03 USD za baryłkę (+1,83%)
+- Brent: 113,46 USD za baryłkę (+1,13%)
+- Od ataku USA i Izraela na Iran Brent zyskała ponad 50%
+
+Goldman Sachs ostrzega, że ceny ropy w kontraktach terminowych mogą przekroczyć 147,50 USD za baryłkę z 2008 roku, jeśli konflikt będzie się utrzymywać. Międzynarodowa Agencja Energetyczna określiła obecne zakłócenia w dostawach ropy jako największe w historii.
+
+Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/Ceny-ropy-rosna-Rynki-oceniaja-ultimatum-USA-wobec-Iranu-9102341.html){rel="nofollow"}
+
+---
+
+### Słowacja wprowadza podwójne ceny paliw dla cudzoziemców
+
+Od poniedziałku na stacjach benzynowych na Słowacji obowiązują wyższe ceny oleju napędowego dla cudzoziemców. Ministerstwo finansów ustaliło cenę na 1,826 euro za litr dla kierowców z zagranicy, podczas gdy ceny dla Słowaków w dalszym ciągu ustala rynek (ok. 1,5 euro w weekend).
+
+Powodem wprowadzenia podwójnych cen jest — zdaniem premiera Roberta Fico — "turystyka paliwowa" i wysuszanie słowackich stacji przez polskich kierowców. Obowiązuje również limit tankowania — można zapełnić bak samochodu oraz 10-litrowy kanister. Rozporządzenie ma obowiązywać przez 30 dni.
+
+Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/Slowacja-uderza-w-polskich-kierowcow-Nowe-ceny-paliw-od-poniedzialku-9102305.html){rel="nofollow"}
+
+---
+
+### IKEA redukuje zatrudnienie — do 800 osób do zwolnienia
+
+Grupa Ingka, zarządzająca większością sklepów IKEA na świecie, planuje zwolnić nawet 800 pracowników. Redukcje dotkną głównie pracowników biurowych w Europie. Powodem jest konieczność obniżenia kosztów i uproszczenia struktur organizacyjnych.
+
+To kolejna runda redukcji w IKEA — wcześniej w ubiegłym roku firma przeprowadzała podobne cięcia.
+
+Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/W-IKEA-prace-straci-nawet-800-pracownikow-9102337.html){rel="nofollow"}, [Gazeta.pl](https://next.gazeta.pl/next/7,151003,32674304,kolejne-redukcje-w-ikea-az-800-pracownikow-moze-stracic-prace.html){rel="nofollow"}
+
+---
+
+### Cyberataki na wodociągi — wzrost incydentów o 59%
+
+W 2025 roku Krajowy Zespół Reagowania na Incydenty Bezpieczeństwa Komputerowego obsłużył 94 incydenty cyberbezpieczeństwa w branży wodociągowej — to wzrost o 59% w porównaniu z 2024 rokiem (59 incydentów).
+
+Do najgroźniejszych zdarzeń należało przejęcie panelu sterowania w oczyszczalni ścieków Chodaczów przez prorosyjską grupę hakerską, która zmieniła parametry technologiczne instalacji. Odnotowano również fizyczne incydenty — dwóch cudzoziemców przeskoczyło ogrodzenie Zakładu Uzdatniania Wody Bielany w Krakowie.
+
+Rząd realizuje projekt "Cyberbezpieczne wodociągi" z KPO, zwiększając pulę do 625 mln zł na 688 projektów.
+
+Źródło: [Money.pl](https://www.money.pl/gospodarka/wodociagi-maja-problem-sa-nowym-celem-cyberatakow-7267295865624992a.html){rel="nofollow"}
+
+---
+
+### NBP podzielił Polaków — sondaż w sprawie Glapińskiego
+
+Według najnowszego sondażu, 44,3% ankietowanych uważa, że prezes NBP Adam Glapiński angażuje bank w politykę i wspiera PiS oraz prezydenta. Z kolei 43,5% badanych ocenia, że NBP pod kierownictwem Glapińskiego jest instytucją niezależną i apolityczną.
+
+Sondaż pokazuje niemal równy podział opinii publicznej w kwestii niezależności Narodowego Banku Polskiego.
+
+Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/NBP-podzielil-Polakow-Czy-Adam-Glapinski-gwarantuje-niezaleznosc-banku-9102338.html){rel="nofollow"}
+
+---
+
+*Podsumowanie przygotowane na podstawie wiadomości z poranka przed sesją GPW — 23 marca 2026, godz. 08:20*
