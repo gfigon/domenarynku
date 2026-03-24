@@ -1,0 +1,55 @@
+---
+title: "Prasówka GPW - 24 marca 2026"
+date: "2026-03-24"
+description: "Najważniejsze wiadomości finansowe z poranka przed sesją GPW. Serwis śmigłowców Apache w Polsce, umowa UE-Australia, ceny miedzi."
+tags: ["prasówka", "GPW", "giełda", "Apache", "Lockheed Martin", "Polska", "UE", "Australia", "miedź"]
+seo:
+  title: "Prasówka GPW 24.03.2026 - Serwis Apache w Polsce, umowa UE-Australia, ceny miedzi"
+  description: "Poranne podsumowanie wiadomości finansowych przed sesją na GPW. Umowa na serwis śmigłowców Apache w Polsce, UE i Australia z umową wolnego handlu, ceny miedzi spadają."
+---
+
+## Poranne podsumowanie finansowe (24 marca 2026)
+
+### UE i Australia zakończyły negocjacje umowy o wolnym handlu
+
+Unia Europejska i Australia sfinalizowały rozmowy, które trwały od 2018 roku, dotyczące umowy o wolnym handlu. Zgodnie z porozumieniem, zniesionych zostanie 99% ceł na eksport z UE do Australii, co przyniesie oszczędności na poziomie blisko 1 mld euro rocznie.
+
+Umowa ma także ułatwić UE dostęp do australijskich surowców krytycznych, których Wspólnota potrzebuje do transformacji energetycznej i cyfrowej. Australia jest producentem m.in. aluminium, litu i manganu.
+
+Źródło: [Money.pl](https://www.money.pl/gospodarka/unia-europejska-zakonczyla-z-kolejnym-krajem-negocjacje-umowy-o-wolnym-handlu-7267645010794560a.html){rel="nofollow"}
+
+---
+
+### Ceny miedzi wracają do spadków
+
+Notowania miedzi na giełdzie metali LME w Londynie powróciły do spadków po krótkotrwałym odbiciu podczas poniedziałkowej sesji. Miedź w dostawach 3-miesięcznych na LME jest wyceniana niżej o 1,1% - po 12 026,50 USD za tonę.
+
+Analitycy wskazują, że obawy o inflację i wzrost gospodarczy - spowodowane trwającą na Bliskim Wschodzie wojną - ciążą na sektorze metali bazowych. Od początku marca miedź w Londynie staniała o 10%.
+
+Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/Ceny-miedzi-w-Londynie-powracaja-do-spadkow-po-krotkim-odbiciu-9103051.html){rel="nofollow"}
+
+---
+
+### PKO BP wyłącza proces kurierski przy zakładaniu konta
+
+PKO BP planuje w kwietniu wyłączyć możliwość zdalnego otwierania konta osobistego z udziałem kuriera. Bank przekierowuje nowych klientów do procesu mobilnego, opartego na aplikacji mObywatel. Możliwość zakładania konta z dostawą dokumentów przez kuriera PKO BP oferowało od 2013 roku.
+
+Od kwietnia nowym klientom PKO BP pozostaną dwie ścieżki zdalnego otwarcia konta – przez mObywatela w aplikacji mobilnej IKO lub na selfie – a także tradycyjna wizyta w oddziale.
+
+Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/PKO-BP-rezygnuje-z-otwierania-konta-przez-kuriera-Stawia-na-mObywatela-9103010.html){rel="nofollow"}
+
+---
+
+### Qatar Airways zawiesza połączenie z Warszawą
+
+Qatar Airways podjął decyzję o bezterminowym wstrzymaniu rejsów na trasie Doha – Warszawa. Stolica Polski dołączyła do rosnącej listy miast wykreślonych z rozkładu lotów, co jest bezpośrednim efektem gwałtownego spadku popytu oraz paraliżu operacyjnego w regionie Zatoki Perskiej.
+
+Katarczycy zrewidowali swoją strategię globalną, wykreślając z mapy połączeń łącznie 12 kluczowych miast. Obok polskiej stolicy, zawieszono loty m.in. do Birmingham, Dublina, Kopenhagi, Monachium, Moskwy, Pragi, Zurychu, Ahmedabadu, Amritsaru, Seulu oraz Tokio.
+
+Qatar Airways realizują obecnie zaledwie 20% swojego "normalnego" rozkładu. Przed końcem lutego przewoźnik wykonywał średnio 570 lotów dziennie, obecnie ta liczba spadła do około 115.
+
+Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/Flagowy-przewoznik-Qatar-Airways-zawiesza-polaczenie-z-Warszawa-Siatka-lotow-w-glebokim-kryzysie-9102900.html){rel="nofollow"}, [Pasazer.com](https://www.pasazer.com/news/469686/warszawa,znika,z,rozkladu,qatar,airways,linie,przenosza,kolejne,samoloty,do,hiszpanii.html){rel="nofollow"}
+
+---
+
+*Podsumowanie przygotowane na podstawie wiadomości z poranka przed sesją GPW — 24 marca 2026, godz. 08:20*
