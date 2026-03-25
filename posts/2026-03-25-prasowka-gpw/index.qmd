@@ -1,0 +1,95 @@
+---
+title: "Prasówka GPW - 25 marca 2026"
+date: "2026-03-25"
+editor: 
+  markdown: 
+    wrap: 80
+---
+
+```{r setup, include=FALSE}
+#| echo: false
+#| warning: false
+
+library(glue)
+library(httr2)
+library(htmltools)
+
+date_str <- "25 marca 2026"
+```
+
+```{r header, include=FALSE}
+#| echo: false
+#| warning: false
+
+cat("\n")
+cat("---")
+cat("\n")
+cat(glue("date: '{date_str}'"))
+cat("\n")
+cat("---")
+cat("\n")
+cat("\n")
+cat("# 📈 Prasówka GPW")
+cat("\n")
+cat("\n")
+cat(glue("**{date_str}** | ~8:30"))
+cat("\n")
+cat("\n")
+cat("---")
+cat("\n")
+```
+
+## 📊 Nastroje przed sesją
+
+**Globalne rynki akcji:** Światowe giełdy próbują odreagować ubiegłotygodniową wyprzedaż. Wczorajsza sesja na Wall Street zakończyła się wzrostami, co daje nadzieję na lepsze otwarcie w Europie.
+
+**Reakcja na doniesienia z Iranu:** Notowania ropy naftowej mocno spadają w reakcji na doniesienia o działaniach dyplomatycznych USA zmierzających do zakończenia wojny z Iranem. Ropa Brent spadła poniżej 100 USD za baryłkę (z poziomów 110+ USD w połowie marca).
+
+**WIG20 wczoraj:** Indeks WIG20 zakończył wtorkową sesję na poziomie **3241,42 pkt** ze spadkiem o **0,82%**. Słabiej zachowywały się banki i średnie spółki.
+
+**Komentarz:** Inwestorzy czekają na rozwój sytuacji na Bliskim Wschodzie. Jeśli faktycznie dojdzie do porozumienia USA-Iran, może to odblokować rajd na rynkach akcji.
+
+---
+
+## 🏢 Wiadomości ze spółek
+
+### Echo Investment
+**Wyniki IV kw. 2025:** Zysk netto j.d. wyniósł **109,1 mln zł** wobec konsensusu 107,7 mln zł — wynik nieznacznie powyżej oczekiwań. Zysk operacyjny: 159,4 mln zł. [Bankier](https://www.bankier.pl/wiadomosc/Echo-Investment-mialo-w-IV-kw-109-1-mln-zl-zysku-netto-j-d-wobec-107-7-mln-zl-konsensusu-9103748.html){rel="nofollow"}
+
+### Wirtualna Polska Holding
+**Wyniki 2025:** Rekordowe przychody gotówkowe Grupy wzrosły o **42%** do **2,19 mld zł**. Skorygowana EBITDA zwiększyła się o 23%, do **574 mln zł**. Turystyka zagraniczna pozostaje głównym motorem wzrostu. [Money.pl](https://www.money.pl/gospodarka/wirtualna-polska-z-rekordowymi-przychodami-i-rosnaca-ebitda-w-2025-roku-turystyka-zagraniczna-napedza-wzrost-grupy-7267832684390496a.html){rel="nofollow"}
+
+### Ten Square Games
+**Dywidenda za 2025:** Zarząd rekomenduje wypłatę **10 zł dywidendy na akcję**. Zysk netto za 2025 rok: 83,6 mln zł. Gra „Wings of Heroes" osiągnęła rekordowe płatności 31,8 mln zł w 2025 r. [Parkiet](https://www.parkiet.com/technologie/art44023671-ciekawe-wiesci-z-ten-square-games-bedzie-solidna-dywidenda){rel="nofollow"}
+
+---
+
+## 🇵🇱 Polska gospodarka
+
+### Ceny paliw — decyzja w tym tygodniu
+Ministerstwo Aktywów Państwowych, Ministerstwo Finansów i Ministerstwo Energii pracują nad rozwiązaniem dotyczącym cen paliw. **Decyzja rządu powinna zostać podjęta do końca tygodnia** — poinformował rzecznik rządu Adam Szłapka w TVP Info. [Bankier](https://www.bankier.pl/wiadomosc/Decyzja-rzadu-dot-cen-paliw-powinna-zapasc-do-konca-tygodnia-rzecznik-9103799.html){rel="nofollow"}
+
+---
+
+## 🌎 Świat
+
+### Ropa i geopolityka
+- **Ceny ropy:** Mocno spadają — nadzieja na koniec wojny z Iranem zbija „premię za ryzyko". Ropa Brent poniżej 100 USD (z 110+ USD w połowie marca).
+- **Ceny metali:** Miedź na LME mocno rośnie w reakcji na doniesienia o dążeniu USA do zakończenia wojny z Iranem.
+
+### USA — projekt „Złotej Kopuły"
+Prezydent Donald Trump firmuje projekt tarczy antyrakietowej opartej na systemach kosmicznych „Złotej Kopuły" (Golden Dome). Szacowany koszt: ok. 185 mld USD. [Bankier](https://www.bankier.pl/wiadomosc/Nowy-projekt-Trumpa-USA-zbuduja-kosmiczna-tarcze-za-185-miliardow-dolarow-9103704.html){rel="nofollow"}
+
+### Korea Północna — wizyta Łukaszenki
+Alaksandr Łukaszenka przybył do Korei Północnej z pierwszą oficjalną wizytą na zaproszenie Kim Dzong Una. Przywódcy mają podpisać traktat o przyjaźni. [Bankier](https://www.bankier.pl/wiadomosc/Korea-Pln-Lukaszenka-przybyl-z-pierwsza-wizyta-z-Kimem-podpisze-traktat-o-przyjazni-9103784.html){rel="nofollow"}
+
+---
+
+## 📅 Kalendarium
+
+- **27 marca 2026** — GPW wprowadza nowe zasady (formularze raportów rocznych)
+- **14 kwietnia 2026** — Orzeł Biały (walne zgromadzenie)
+
+---
+
+*Źródła: Bankier, Money.pl, Parkiet, Strefa Inwestorów, XYZ | Dane z 25.03.2026 | Notowania z 24.03.2026*
