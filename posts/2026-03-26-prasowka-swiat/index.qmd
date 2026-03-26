@@ -1,0 +1,111 @@
+---
+title: "Prasówka Światowa – 26 marca 2026"
+date: "2026-03-26"
+description: "Najważniejsze wydarzenia ze świata: geopolityka, makroekonomia, rynki finansowe. Wszystko co musisz wiedzieć na start dnia."
+image: "/images/swiat.jpg"
+categories:
+  - "swiat"
+  - "geopolityka"
+  - "makroekonomia"
+  - "prasowka"
+keywords:
+  - "wiadomości światowe"
+  - "geopolityka"
+  - "Iran wojna"
+  - "Trump Chiny"
+  - "ropa naftowa"
+  - "rynek ropy"
+  - "UN reparacje"
+  - "Meta YouTube"
+  - "rynek akcji"
+  - "ropa $104"
+---
+
+## Poranne skróty
+
+**🌍 Iran:** Ceny ropy powyżej $104 za baryłkę po odrzuceniu przez Iran rozmów z USA. Trump potwierdza wizytę u Xi w maju.
+
+**🏛️ ONZ:** 123 krajów głosowało za uznaniem niewolnictwa Afrykanów za "najcięższe zbrodnie przeciwko ludzkości". USA, Izrael i Argentyna przeciw.
+
+**💻 Big Tech:** Wyrok w sprawie uzależnienia od mediów społecznościowych – Meta i Google muszą zapłacić $6 mln. To może być "moment wielkiego tytoniu" dla branży.
+
+---
+
+## 🌍 Wojna Iran – USA: Ceny ropy w górę, dyplomacja w rozsypce
+
+**Ceny ropy naftowej wzrosły powyżej 104 dolarów za baryłkę** po tym, jak Iran oficjalnie odrzucił doniesienia o prowadzeniu rozmów z administracją Trumpa. Wcześniej ceny spadły po informacjach o 15-punktowym planie pokojowym, ale Tehran szybko zdementował te doniesienia.
+
+**Szczegóły:**
+- Ropa Brent wzrosła niemal 2% w czwartek
+- Irański minister spraw zagranicznych Abbas Araghchi powiedział, że Iran "nie ma zamiaru negocjować w tym momencie"
+- Zamknięcie Cieśniny Hormuz praktycznie zablokowało transport – z 120 dziennych transytów do zaledwie 4 w tym tygodniu
+- Ceny ropy wzrosły o ponad 40% od czasu ataków USA i Izraela na Iran (28 lutego)
+
+**Weryfikacja:** Potwierdzone przez [Al Jazeera](https://www.aljazeera.com/economy/2026/3/26/oil-prices-rise-higher-as-iran-denies-us-talks-dimming-deescalation-hopes){rel="nofollow"} i [BBC](https://www.bbc.com/news/live/cre0vl84qy9t){rel="nofollow"} – oba źródła z datą 26 marca 2026.
+
+**Kontekst rynkowy:** Według [Bloomberg](https://www.bloomberg.com/news/articles/2026-03-26/blackrock-s-kapito-warns-investors-are-mispricing-iran-war-risks){rel="nofollow"}, BlackRock ostrzega inwestorów, że ryzyka wojny Iran są niedoszacowane na rynkach.
+
+---
+
+## 🇨🇳 Trump potwierdza wizytę w Chinach w maju
+
+**Prezydent Donald Trump poinformował, że spotka się z prezydentem Chin Xi Jinpingiem w dniach 14-15 maja w Chinach.** To będzie pierwsza wizyta amerykańskiego prezydenta w Chinach od prawie 10 lat.
+
+**Kluczowe fakty:**
+- Wcześniej planowana wizyta (31 marca) została opóźniona z powodu wojny Iran
+- Biały Dom: "Prezydent Xi zrozumiał, że bardzo ważne jest, aby prezydent był tutaj podczas operacji bojowych"
+- Trump planuje też później tego roku przyjąć Xi w Waszyngtonie
+- Ostatnia wizyta prezydenta USA w Chinach: listopad 2017 (pierwsza kadencja Trumpa)
+
+**Weryfikacja:** [BBC](https://www.bbc.com/news/articles/c05dpr1m71go){rel="nofollow"} (26 marca 2026) – potwierdzone.
+
+---
+
+## 🏛️ ONZ: Niewolnictwo Afrykanów uznane za "zbrodnię przeciwko ludzkości"
+
+**Zgromadzenie Ogólne ONZ przyjęło rezolucję uznającą niewolnictwo Afrykanów podczas transatlantyckiego handlu niewolnikami za "najcięższą zbrodnię przeciwko ludzkości".**
+
+**Wynik głosowania:**
+- **ZA:** 123 kraje
+- **PRZECIV:** USA, Izrael, Argentyna
+- **WSTRZYMUJĄCE SIĘ:** 52 kraje (w tym Wielka Brytania i kraje UE)
+
+Rezolucja wzywa kraje do rozważenia przeproszenia i wniesienia wkładu do funduszu reparacji. Ghana, która zaproponowała rezolucję, domaga się kompensacji dla ofiar, funduszy edukacyjnych i szkoleniowych.
+
+**Weryfikacja:** [BBC](https://www.bbc.com/news/articles/cvg06q36052o){rel="nofollow"} (26 marca 2026) – potwierdzone, data widnieje w artykule (14 godzin temu = 25-26 marca).
+
+---
+
+## 💻 Big Tech: historyczny wyrok – Meta i Google płacą
+
+**Ława przysięgłych w Los Angeles orzekła, że Meta i Google muszą zapłacić 6 milionów dolarów odszkodowania** młodej kobiecie, która twierdziła, że platformy społecznościowe doprowadziły do jej zaburzeń obrazu ciała, depresji i myśli samobójczych.
+
+**Co to oznacza:**
+- To może być "moment wielkiego tytoniu" dla branży tech
+- Obie firmy zapowiadają odwołanie
+- Wyrok otwiera drzwi do dalszych pozwów przeciwko platformom zaprojektowanym dla maksymalizacji zaangażowania kosztem zdrowia użytkowników
+- Australia w grudniu zablokowała dostęp do największych platform dla dzieci poniżej 16 lat
+
+**Weryfikacja:** [BBC](https://www.bbc.com/news/articles/c87wd0d84jqo){rel="nofollow"} (26 marca 2026) – artykuł z datą "25 minutes ago".
+
+---
+
+## 📈 Rynki: Azja w dół, Korea Południowa kupuje obligacje
+
+**Azjatyckie rynki akcji otworzyły się niżej** poinformowała [Al Jazeera](https://www.aljazeera.com/economy/2026/3/26/oil-prices-rise-higher-as-iran-denies-us-talks-dimming-deescalation-hopes){rel="nofollow"} – Nikkei 225, KOSPI i Hang Seng Index zanotowały spadki.
+
+**Korea Południowa:** [Bloomberg](https://www.bloomberg.com/news/articles/2026-03-26/korea-to-buy-back-5-trillion-won-of-bonds-to-address-volatility){rel="nofollow"} – planuje wykup obligacji o wartości 5 bilionów wonów (3,3 mld dolarów) aby ograniczyć zmienność.
+
+---
+
+## ⚡ Inne wydarzenia
+
+**🏥 Australia:** [Al Jazeera](https://www.aljazeera.com/news/2026/3/26/australia-bans-visitors-from-iran-amid-war-in-the-middle-east){rel="nofollow"} – Australia zakazała wjazdu turystom z Iranu na 6 miesięcy.
+
+**🏛️ Pierwsza kobieta arcybiskupem:** [BBC](https://www.bbc.com/news/videos/ce3dlpd54evo){rel="nofollow"} – Sarah Mullally została pierwszą kobietą na stanowisku arcybiskupa Canterbury.
+
+**📱 USA – centra danych:** [Al Jazeera](https://www.aljazeera.com/economy/2026/3/26/us-lawmakers-push-for-pause-in-data-centres-until-ai-safeguards-in-place){rel="nofollow"} – senator Bernie Sanders i kongresmenka Alexandria Ocasio-Cortez przedstawili projekt ustawy o wstrzymaniu AI do czasu wprowadzenia zabezpieczeń.
+
+---
+
+*Źródła: BBC, Al Jazeera, Bloomberg. Wszystkie informacje zweryfikowane pod kątem aktualności (nie starsze niż 3 dni).*
