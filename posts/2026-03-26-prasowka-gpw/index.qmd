@@ -1,0 +1,100 @@
+---
+title: "Prasówka GPW - 26 marca 2026"
+date: "2026-03-26"
+editor: 
+  markdown: 
+    wrap: 80
+---
+
+```{r setup, include=FALSE}
+#| echo: false
+#| warning: false
+
+library(glue)
+library(httr2)
+library(htmltools)
+
+date_str <- "26 marca 2026"
+```
+
+```{r header, include=FALSE}
+#| echo: false
+#| warning: false
+
+cat("\n")
+cat("---")
+cat("\n")
+cat(glue("date: '{date_str}'"))
+cat("\n")
+cat("---")
+cat("\n")
+cat("\n")
+cat("# 📈 Prasówka GPW")
+cat("\n")
+cat("\n")
+cat(glue("**{date_str}** | ~8:30"))
+cat("\n")
+cat("\n")
+cat("---")
+cat("\n")
+```
+
+## 📊 Nastroje przed sesją
+
+**Ropa naftowa mocno rośnie:** Ceny ropy naftowej zwyżkują w czwartek w reakcji na sprzeczne sygnały z USA i Iranu ws. zakończenia trwającego konfliktu na Bliskim Wschodzie. Inwestorzy pozostają ostrożni w oczekiwaniu na jasność co do wyniku negocjacji. [Bankier](https://www.bankier.pl/wiadomosc/Ceny-ropy-znow-mocno-rosna-USA-i-Iran-wysylaja-sprzeczne-sygnaly-9104456.html){rel="nofollow"}
+
+**Miedź na LME spada:** Notowania miedzi na giełdzie metali w Londynie obniżają się. Inwestorzy monitorują niepewne warunki związane z negocjacjami USA i Iranu. [Bankier](https://www.bankier.pl/wiadomosc/Ceny-miedzi-w-Londynie-spadaja-Wojna-nie-zacheca-graczy-do-ryzyka-9104464.html){rel="nofollow"}
+
+**Komentarz:** Rynki czekają na jasność ws. Iranu. Sprzeczne sygnały z USA i Iranu tworzą niepewność. Jeśli faktycznie dojdzie do porozumienia, możliwe jest odblokowanie rajdu na rynkach akcji. W przeciwnym razie — premia za ryzyko pozostanie.
+
+---
+
+## 🏢 Wiadomości ze spółek
+
+### Atal
+**Wyniki IV kw. 2025:** Zysk netto j.d. wyniósł **92 mln zł** wobec konsensusu 87,4 mln zł — wynik powyżej oczekiwań. Zysk operacyjny: 120 mln zł, przychody: 494,2 mln zł. [Bankier](https://www.bankier.pl/wiadomosc/Atal-mial-w-IV-kw-92-mln-zl-zysku-netto-j-d-konsensus-zakladal-87-4-mln-zl-9104470.html){rel="nofollow"}
+
+**Plan na 2026:** Spółka spodziewa się wzrostu wolumenu sprzedaży oraz liczby przekazań w przedziale **2.500-3.000 lokali** — poinformował prezes Zbigniew Juroszek. [Bankier](https://www.bankier.pl/wiadomosc/Atal-w-26-spodziewa-sie-wzrostu-wolumenu-sprzedazy-plan-przekazan-to-2-5-3-tys-lokali-9104467.html){rel="nofollow"}
+
+**Dywidenda:** Zarząd rekomenduje wypłatę **4,50 zł dywidendy na akcję** z zysku za 2025 rok, czyli łącznie 194,67 mln zł. [Bankier](https://www.bankier.pl/wiadomosc/Zarzad-Atalu-rekomenduje-4-50-zl-dywidendy-na-akcje-za-25-9104458.html){rel="nofollow"}
+
+---
+
+## 🇵🇱 Polska gospodarka
+
+### Wyrok w sprawie metrażu — przełom?
+W Sądzie Okręgowym dla Warszawy-Pragi zapadł przełomowy wyrok w sporze o doliczanie powierzchni pod ściankami działowymi. Sąd oddalił apelację kupującego i przyznał rację deweloperowi. To może być sygnał zmiany podejścia sądów do „wojny o metraż", która trwa od lat. [Bankier](https://www.bankier.pl/wiadomosc/Deweloperzy-strzelili-bramke-kontaktowa-Przelomowy-wyrok-w-wojnie-o-zly-metraz-9104466.html){rel="nofollow"}
+
+### Mercosur — Polska szuka drogi prawnej
+Resort rolnictwa krytycznie ocenił informację KE o tymczasowym stosowaniu od maja umowy między UE a krajami Mercosuru. Trwają analizy ws. zaskarżenia decyzji. [Bankier](https://www.bankier.pl/wiadomosc/Koniec-cel-na-towary-z-Mercosuru-Polska-szuka-drogi-prawnej-do-blokady-umowy-9104320.html){rel="nofollow"}
+
+### Prezydent Nawrocki w Dallas bez spotkania z Trumpem
+Prezydent USA Donald Trump nie weźmie udziału w konferencji CPAC w Teksasie. Oznacza to, że nie dojdzie do spotkania z prezydentem RP Karolem Nawrockim, który przebywa z wizytą w Dallas. [Bankier](https://www.bankier.pl/wiadomosc/Prezydent-Karol-Nawrocki-w-Dallas-bez-spotkania-z-Donaldem-Trumpem-9104319.html){rel="nofollow"} [Money.pl](https://www.money.pl/gospodarka/){rel="nofollow"}
+
+---
+
+## 🌎 Świat
+
+### Iran — negocjacje z USA
+- **USA i Iran wysyłają sprzeczne sygnały** ws. zakończenia wojny. Inwestorzy pozostają ostrożni. [Bankier](https://www.bankier.pl/wiadomosc/Ceny-ropy-znow-mocno-rosna-USA-i-Iran-wysylaja-sprzeczne-sygnaly-9104456.html){rel="nofollow"} [Money.pl](https://www.money.pl/gospodarka/){rel="nofollow"}
+- **Ukraina uderzyła w czuły punkt Rosji** — problem z eksportem ropy. [Money.pl](https://www.money.pl/gospodarka/){rel="nofollow"}
+
+### Łukaszenka i Kim podpisali traktat
+Przywódcy Korei Północnej i Białorusi, Kim Dzong Un i Alaksandr Łukaszenka, podpisali w Pjongjangu traktat o przyjaźni i współpracy, ogłaszając „fundamentalnie nowy etap" we wzajemnych relacjach w obliczu zachodnich sankcji. [Bankier](https://www.bankier.pl/wiadomosc/O-przyjazni-i-wspolpracy-Lukaszenka-i-Kim-Dzong-Un-podpisali-traktat-w-Pjongjangu-9104453.html){rel="nofollow"}
+
+### Rosja atakuje Lwów
+Rosyjskie drony niszczą historyczny Lwów — obiekt światowego dziedzictwa UNESCO. Polskie MSZ stanowczo potępiło „barbarzyński rosyjski atak". [Bankier](https://www.bankier.pl/wiadomosc/Rosyjskie-drony-niszcza-historyczny-Lwow-Kijow-uderza-w-UNESCO-Haniebna-reakcja-9104316.html){rel="nofollow"}
+
+### Start rakiety Spectrum przerwany
+Rakieta Spectrum niemieckiej firmy Isar Aerospace nie wystartowała w środę wieczorem z kosmodromu Andoeya Space w Norwegii. Odliczanie zostało przerwane na kilka sekund przed startem. [Bankier](https://www.bankier.pl/wiadomosc/Start-rakiety-Spectrum-przerwany-w-ostatnich-sekundach-9104345.html){rel="nofollow"}
+
+---
+
+## 📅 Kalendarium
+
+- **26 marca 2026** — decyzja w sprawie cen paliw (rząd)
+- **27 marca 2026** — GPW wprowadza nowe zasady raportowania rocznego
+
+---
+
+*Źródła: Bankier, Money.pl | Dane z 26.03.2026 | Notowania z 25.03.2026*
