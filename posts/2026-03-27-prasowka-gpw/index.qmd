@@ -1,0 +1,123 @@
+---
+title: "Prasówka GPW - 27 marca 2026"
+date: "2026-03-27"
+editor: 
+  markdown: 
+    wrap: 80
+---
+
+```{r setup, include=FALSE}
+#| echo: false
+#| warning: false
+
+library(glue)
+library(httr2)
+library(htmltools)
+
+date_str <- "27 marca 2026"
+```
+
+```{r header, include=FALSE}
+#| echo: false
+#| warning: false
+
+cat("\n")
+cat("---")
+cat("\n")
+cat(glue("date: '{date_str}'"))
+cat("\n")
+cat("---")
+cat("\n")
+cat("\n")
+cat("# 📈 Prasówka GPW")
+cat("\n")
+cat("\n")
+cat(glue("**{date_str}** | ~8:20"))
+cat("\n")
+cat("\n")
+cat("---")
+cat("\n")
+```
+
+## 📊 Nastroje przed sesją
+
+**Ropa stabilna po wzrostach:** Ceny ropy naftowej utrzymują się na podwyższonych poziomach. Inwestorzy obserwują rozwój sytuacji na Bliskim Wschodzie po tym, jak Iran zezwolił statkom z Chin, Indii, Pakistanu i Iraku na przepływ przez cieśninę Ormuz. [Bankier](https://www.bankier.pl/wiadomosci){rel="nofollow"} [Money.pl](https://www.money.pl/gospodarka/){rel="nofollow"}
+
+**Komentarz:** Sytuacja w Zatoce Perskiej pozostaje napięta, ale pojawiają się sygnały deeskalacji. Rynki czekają na dalsze informacje dotyczące negocjacji USA-Iran oraz ewentualnego porozumienia.
+
+---
+
+## 🇵🇱 Polska gospodarka
+
+### Polski Narodowy Program Hutnictwa
+
+Trwają analizy ws. utworzenia nowego programu polskiego hutnictwa na potrzeby przemysłu obronnego, który jednocześnie zabezpieczałby interesy ponad 30 tys. pracowników Jastrzębskiej Spółki Węglowej — powiedział PAP prezes ARP Bartłomiej Babuśka.
+
+**Kluczowe fakty:**
+- 9 marca ARP zawarła z JSW przedwstępną umowę sprzedaży Przedsiębiorstwa Budowy Szybów i Jastrzębskich Zakładów Remontowych za łączną cenę 1,066 mld zł
+- Prezes ARP zapowiedział analizy dotyczące utworzenia Polskiego Narodowego Programu Hutnictwa
+- Nowy podmiot mógłby zamówić stal od przemysłu zbrojeniowego „liczonych w miliardach złotych"
+- Huta Częstochowa ma być jednym z kluczowych dostawców stali dla przemysłu zbrojeniowego
+- Klientem nowego podmiotu byłaby Polska Grupa Zbrojeniowa [Bankier](https://www.bankier.pl/wiadomosc/Potrzebny-jest-program-hutnictwa-dla-obronnosci-JSW-moglaby-odegrac-kluczowa-role-prezes-ARP-9105233.html){rel="nofollow"}
+
+### Zmiany w ryczałcie — uwaga przedsiębiorcy
+
+Ministerstwo Finansów chce skończyć z optymalizacją podatkową. Przedsiębiorcy na niskiej stawce ryczałtu (8,5%) z wysokimi przychodami zapłacą wyższy podatek.
+
+**Propozycja MF:**
+- Przedsiębiorcy z przychodami powyżej 100 tys. zł rocznie płaciliby 15% zamiast 8,5%
+- Wyższego podatku unikną tylko ci, którzy zatrudniają przynajmniej jednego pracownika na pełny etat
+- Zmiany miałyby obowiązywać od 1 stycznia 2027 r.
+
+Na zmianach stracą m.in. szkoleniowcy, pośrednicy, przedstawiciele handlowi, kosmetyczki, trenerzy personalni i część informatyków. [Bankier](https://www.bankier.pl/wiadomosc/Na-ryczalcie-sie-pogorszy-MF-chce-skonczyc-z-optymalizacja-9105175.html){rel="nofollow"}
+
+### Zmiany w pomocy dla Ukraińców — NGO alarmują
+
+Przedstawiciele kilkudziesięciu organizacji pozarządowych skierowali list otwarty do trzech resortów (MSWiA, zdrowia, pracy), wskazując na problemy z wygaszaniem zapisów tzw. specustawy.
+
+**Problemy wskazane przez NGO:**
+- Pacjenci w trakcie leczenia onkologicznego tracą dostęp do leków i procedur medycznych
+- Rodzice małych dzieci tracą świadczenie 800+, które jest teraz powiązane z aktywnością zawodową
+- Dziadkowie opiekujący się wnukami tracą własne zasiłki i pomoc na dziecko
+- Osoby bez polskiego orzeczenia o niepełnosprawności nie mogą uzyskać pomocy
+
+— Zdarza się, że takie osoby znajdują się bez prawa do pomocy medycznej, ubezpieczenia, bez dachu nad głową i żadnej drogi poprawy swojej sytuacji — powiedziała PAP prezeska Polskiego Forum Migracyjnego Agnieszka Kosowicz. [Bankier](https://www.bankier.pl/wiadomosc/Polska-zmienia-zasady-pomocy-dla-Ukraincow-NGO-sy-alarmuja-Pacjenci-onkologiczni-i-matki-w-pulapce-9105201.html){rel="nofollow"}
+
+---
+
+## 🌎 Świat
+
+### Przełomowa reforma celna UE — koniec bezkarności Temu i Shein
+
+Państwa członkowskie w ramach Rady UE i Parlament Europejski osiągnęły w czwartek wieczorem w Brukseli porozumienie w sprawie przełomowej reformy unijnych przepisów celnych.
+
+**Główne założenia reformy:**
+- Utworzenie jednolitego unijnego hubu danych celnych (ruszy w 2028 r., pełne wdrożenie do 2034 r.)
+- Powołanie nowego unijnego organu celnego z siedzibą w Lille we Francji
+- Nowa opłata manipulacyjna dla małych przesyłek z e-commerce (od lipca 2026 r.)
+- Platformy sprzedażowe (nie konsumenci) będą odpowiadać za formalności celne
+- Wprowadzenie grzywien na platformy importujące niebezpieczne produkty (nawet 6% rocznej wartości importu)
+- Możliwość zawieszenia działalności platformy e-commerce za powtarzające się nieprzestrzeganie przepisów
+
+Jak podkreślił minister finansów Cypru Makis Keravnos, reforma jest największą zmianą od powstania unii celnej w 1968 r.
+
+W 2024 r. organy celne UE wykryły 64 tys. przypadków towarów stanowiących zagrożenie dla zdrowia konsumentów i zatrzymały 112 mln podrobionych towarów. [Bankier](https://www.bankier.pl/wiadomosc/Koniec-bezkarnosci-Temu-i-Shein-Przed-nami-historyczna-reforma-celna-9105143.html){rel="nofollow"} [Le Monde](https://www.lemonde.fr/economie/article/2026/03/26/shein-temu-l-ue-s-attaque-aux-petits-colis-des-sites-de-vente-en-ligne-chinois_6674440_3234.html){rel="nofollow"}
+
+### Indie tną akcyzę na paliwa
+
+Rząd Indii obniżył w piątek akcyzę na benzynę i olej napędowy o 10 rupii (0,11 USD) w odpowiedzi na kryzys wywołany wojną USA i Izraela z Iranem. Celem jest zahamowanie wzrostu cen paliw. [Bankier](https://www.bankier.pl/wiadomosc/Tania-ropa-z-Rosji-to-za-malo-Indie-tna-specjalna-dodatkowa-akcyze-9105182.html){rel="nofollow"}
+
+### Iran otworzył cieśninę Ormuz
+
+Minister spraw zagranicznych Iranu, Abbas Aragczi, oświadczył, że Iran zezwolił krajom takim jak Chiny, Rosja, Indie, Irak i Pakistan na przepływ przez strategiczną cieśninę Ormuz. W Zatoce Perskiej znajduje się obecnie 20 indyjskich statków, w tym pięć gazowców z LNG i cztery z ropą naftową. [Money.pl](https://www.money.pl/gospodarka/statki-z-kolejnych-krajow-moga-plywac-przez-ciesnine-ormuz-7268733515696224a.html){rel="nofollow"}
+
+---
+
+## 📅 Kalendarium
+
+- **27 marca 2026** — decyzja rządu w sprawie cen paliw (dzień wcześniej przełożona)
+- **do 31 marca 2026** — termin przekazania deklaracji podatkowych PIT
+
+---
+
+*Źródła: Bankier, Money.pl, Le Monde | Dane z 27.03.2026 | Notowania z 26.03.2026*
