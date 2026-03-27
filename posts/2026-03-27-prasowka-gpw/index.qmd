@@ -1,6 +1,8 @@
 ---
 title: "Prasówka GPW - 27 marca 2026"
 date: "2026-03-27"
+description: "Poranny przegląd rynkowy: Rekordowe LPP, przecena Orlenu po zapowiedziach rządu oraz wyniki KGHM i Neuca. Nastroje przed sesją 27 marca."
+keywords: [GPW, WIG20, LPP, Orlen, KGHM, Neuca, dywidendy, giełda, prasówka]
 editor: 
   markdown: 
     wrap: 80
@@ -17,107 +19,53 @@ library(htmltools)
 date_str <- "27 marca 2026"
 ```
 
-```{r header, include=FALSE}
-#| echo: false
-#| warning: false
+# 📈 Prasówka GPW
 
-cat("\n")
-cat("---")
-cat("\n")
-cat(glue("date: '{date_str}'"))
-cat("\n")
-cat("---")
-cat("\n")
-cat("\n")
-cat("# 📈 Prasówka GPW")
-cat("\n")
-cat("\n")
-cat(glue("**{date_str}** | ~8:20"))
-cat("\n")
-cat("\n")
-cat("---")
-cat("\n")
-```
+**27 marca 2026** | ~08:40
+
+---
 
 ## 📊 Nastroje przed sesją
 
-**Ropa stabilna po wzrostach:** Ceny ropy naftowej utrzymują się na podwyższonych poziomach. Inwestorzy obserwują rozwój sytuacji na Bliskim Wschodzie po tym, jak Iran zezwolił statkom z Chin, Indii, Pakistanu i Iraku na przepływ przez cieśninę Ormuz. [Bankier](https://www.bankier.pl/wiadomosci){rel="nofollow"} [Money.pl](https://www.money.pl/gospodarka/){rel="nofollow"}
-
-**Komentarz:** Sytuacja w Zatoce Perskiej pozostaje napięta, ale pojawiają się sygnały deeskalacji. Rynki czekają na dalsze informacje dotyczące negocjacji USA-Iran oraz ewentualnego porozumienia.
+**Niepewność geopolityczna i surowcowa:** Globalne rynki pozostają pod wpływem konfliktu w Zatoce Perskiej. Mimo sygnałów o deeskalacji (otwarcie cieśniny Ormuz dla wybranych krajów), ropa Brent utrzymuje się powyżej 100 USD za baryłkę. WIG20 zakończył czwartkową sesję lekkim spadkiem o 0,18% (3306,60 pkt), ale przy bardzo wysokich obrotach przekraczających 2 mld zł w samym segmencie blue chipów. [Bankier](https://www.bankier.pl/wiadomosc/Wrocil-CPN-i-przecenil-Orlen-Sesje-ratowaly-najdrozsze-akcje-na-GPW-ponad-22-tys-za-walor-9104899.html){rel="nofollow"} [XYZ](https://xyz.pl/rynek-poszukuje-kierunku-premier-zapowiada-obnizki-cen-paliw-notowania-gpw-26-marca-2026-r/){rel="nofollow"}
 
 ---
 
-## 🇵🇱 Polska gospodarka
+## 🏗️ Kluczowe informacje ze spółek
 
-### Polski Narodowy Program Hutnictwa
+### LPP — Historyczny rekord po wynikach
+Odzieżowy gigant stał się gwiazdą czwartkowej sesji. Akcje LPP wystrzeliły o blisko **13%**, osiągając historyczne maksimum na poziomie **22 460 zł**. Skokowy wzrost to reakcja na wyniki za IV kwartał 2025 r., które okazały się o 23% wyższe od konsensusu analityków. [Puls Biznesu](https://www.pb.pl/wyniki-lpp-w-iv-kwartale-powyzej-oczekiwan-zysk-netto-o-23-proc-powyzej-konsensusu-1258559){rel="nofollow"} [Bankier](https://www.bankier.pl/wiadomosc/Wrocil-CPN-i-przecenil-Orlen-Sesje-ratowaly-najdrozsze-akcje-na-GPW-ponad-22-tys-za-walor-9104899.html){rel="nofollow"}
 
-Trwają analizy ws. utworzenia nowego programu polskiego hutnictwa na potrzeby przemysłu obronnego, który jednocześnie zabezpieczałby interesy ponad 30 tys. pracowników Jastrzębskiej Spółki Węglowej — powiedział PAP prezes ARP Bartłomiej Babuśka.
+### Orlen — Presja regulacyjna („CPN wraca”)
+Kurs Orlenu zanurkował wczoraj o powad 3,5% po wystąpieniu premiera Donalda Tuska. Zapowiedziano wprowadzenie **podatku od zysków nadmiarowych** koncernów paliwowych oraz urzędowe ceny maksymalne na paliwa przed świętami. Obroty na akcjach spółki były gigantyczne (500 mln zł). [XYZ](https://xyz.pl/rynek-poszukuje-kierunku-premier-zapowiada-obnizki-cen-paliw-notowania-gpw-26-marca-2026-r/){rel="nofollow"} [Bankier](https://www.bankier.pl/wiadomosc/Wrocil-CPN-i-przecenil-Orlen-Sesje-ratowaly-najdrozsze-akcje-na-GPW-ponad-22-tys-za-walor-9104899.html){rel="nofollow"}
 
-**Kluczowe fakty:**
-- 9 marca ARP zawarła z JSW przedwstępną umowę sprzedaży Przedsiębiorstwa Budowy Szybów i Jastrzębskich Zakładów Remontowych za łączną cenę 1,066 mld zł
-- Prezes ARP zapowiedział analizy dotyczące utworzenia Polskiego Narodowego Programu Hutnictwa
-- Nowy podmiot mógłby zamówić stal od przemysłu zbrojeniowego „liczonych w miliardach złotych"
-- Huta Częstochowa ma być jednym z kluczowych dostawców stali dla przemysłu zbrojeniowego
-- Klientem nowego podmiotu byłaby Polska Grupa Zbrojeniowa [Bankier](https://www.bankier.pl/wiadomosc/Potrzebny-jest-program-hutnictwa-dla-obronnosci-JSW-moglaby-odegrac-kluczowa-role-prezes-ARP-9105233.html){rel="nofollow"}
-
-### Zmiany w ryczałcie — uwaga przedsiębiorcy
-
-Ministerstwo Finansów chce skończyć z optymalizacją podatkową. Przedsiębiorcy na niskiej stawce ryczałtu (8,5%) z wysokimi przychodami zapłacą wyższy podatek.
-
-**Propozycja MF:**
-- Przedsiębiorcy z przychodami powyżej 100 tys. zł rocznie płaciliby 15% zamiast 8,5%
-- Wyższego podatku unikną tylko ci, którzy zatrudniają przynajmniej jednego pracownika na pełny etat
-- Zmiany miałyby obowiązywać od 1 stycznia 2027 r.
-
-Na zmianach stracą m.in. szkoleniowcy, pośrednicy, przedstawiciele handlowi, kosmetyczki, trenerzy personalni i część informatyków. [Bankier](https://www.bankier.pl/wiadomosc/Na-ryczalcie-sie-pogorszy-MF-chce-skonczyc-z-optymalizacja-9105175.html){rel="nofollow"}
-
-### Zmiany w pomocy dla Ukraińców — NGO alarmują
-
-Przedstawiciele kilkudziesięciu organizacji pozarządowych skierowali list otwarty do trzech resortów (MSWiA, zdrowia, pracy), wskazując na problemy z wygaszaniem zapisów tzw. specustawy.
-
-**Problemy wskazane przez NGO:**
-- Pacjenci w trakcie leczenia onkologicznego tracą dostęp do leków i procedur medycznych
-- Rodzice małych dzieci tracą świadczenie 800+, które jest teraz powiązane z aktywnością zawodową
-- Dziadkowie opiekujący się wnukami tracą własne zasiłki i pomoc na dziecko
-- Osoby bez polskiego orzeczenia o niepełnosprawności nie mogą uzyskać pomocy
-
-— Zdarza się, że takie osoby znajdują się bez prawa do pomocy medycznej, ubezpieczenia, bez dachu nad głową i żadnej drogi poprawy swojej sytuacji — powiedziała PAP prezeska Polskiego Forum Migracyjnego Agnieszka Kosowicz. [Bankier](https://www.bankier.pl/wiadomosc/Polska-zmienia-zasady-pomocy-dla-Ukraincow-NGO-sy-alarmuja-Pacjenci-onkologiczni-i-matki-w-pulapce-9105201.html){rel="nofollow"}
+### KGHM — Wyniki powyżej konsensusu, ale bez entuzjazmu
+Skorygowana EBITDA grupy w IV kwartale wyniosła 3,073 mld zł (o 9% więcej niż zakładali analitycy). Mimo dobrych liczb, kurs tracił ze względu na obawy o rosnące koszty i dług. Zarząd widzi miejsce na dywidendę za 2025 r., ale decyzja zapadnie w ciągu dwóch miesięcy. [Puls Biznesu](https://www.pb.pl/skorygowana-ebitda-grupy-kghm-w-iv-kw-powyzej-konsensusu-1258551){rel="nofollow"} [StockWatch.pl](https://www.stockwatch.pl/wiadomosci/kghm-dywidenda-za-2025-rok,akcje,368993){rel="nofollow"}
 
 ---
 
-## 🌎 Świat
+## 💰 Dywidendy i mniejsze spółki
 
-### Przełomowa reforma celna UE — koniec bezkarności Temu i Shein
-
-Państwa członkowskie w ramach Rady UE i Parlament Europejski osiągnęły w czwartek wieczorem w Brukseli porozumienie w sprawie przełomowej reformy unijnych przepisów celnych.
-
-**Główne założenia reformy:**
-- Utworzenie jednolitego unijnego hubu danych celnych (ruszy w 2028 r., pełne wdrożenie do 2034 r.)
-- Powołanie nowego unijnego organu celnego z siedzibą w Lille we Francji
-- Nowa opłata manipulacyjna dla małych przesyłek z e-commerce (od lipca 2026 r.)
-- Platformy sprzedażowe (nie konsumenci) będą odpowiadać za formalności celne
-- Wprowadzenie grzywien na platformy importujące niebezpieczne produkty (nawet 6% rocznej wartości importu)
-- Możliwość zawieszenia działalności platformy e-commerce za powtarzające się nieprzestrzeganie przepisów
-
-Jak podkreślił minister finansów Cypru Makis Keravnos, reforma jest największą zmianą od powstania unii celnej w 1968 r.
-
-W 2024 r. organy celne UE wykryły 64 tys. przypadków towarów stanowiących zagrożenie dla zdrowia konsumentów i zatrzymały 112 mln podrobionych towarów. [Bankier](https://www.bankier.pl/wiadomosc/Koniec-bezkarnosci-Temu-i-Shein-Przed-nami-historyczna-reforma-celna-9105143.html){rel="nofollow"} [Le Monde](https://www.lemonde.fr/economie/article/2026/03/26/shein-temu-l-ue-s-attaque-aux-petits-colis-des-sites-de-vente-en-ligne-chinois_6674440_3234.html){rel="nofollow"}
-
-### Indie tną akcyzę na paliwa
-
-Rząd Indii obniżył w piątek akcyzę na benzynę i olej napędowy o 10 rupii (0,11 USD) w odpowiedzi na kryzys wywołany wojną USA i Izraela z Iranem. Celem jest zahamowanie wzrostu cen paliw. [Bankier](https://www.bankier.pl/wiadomosc/Tania-ropa-z-Rosji-to-za-malo-Indie-tna-specjalna-dodatkowa-akcyze-9105182.html){rel="nofollow"}
-
-### Iran otworzył cieśninę Ormuz
-
-Minister spraw zagranicznych Iranu, Abbas Aragczi, oświadczył, że Iran zezwolił krajom takim jak Chiny, Rosja, Indie, Irak i Pakistan na przepływ przez strategiczną cieśninę Ormuz. W Zatoce Perskiej znajduje się obecnie 20 indyjskich statków, w tym pięć gazowców z LNG i cztery z ropą naftową. [Money.pl](https://www.money.pl/gospodarka/statki-z-kolejnych-krajow-moga-plywac-przez-ciesnine-ormuz-7268733515696224a.html){rel="nofollow"}
+- **Neuca:** Spółka wypracowała 27,1 mln zł zysku w IV kwartale. Zarząd zadeklarował wypłatę dywidendy. [Puls Biznesu](https://www.pb.pl/neuca-miala-271-mln-zl-zysku-netto-w-iv-kwartale-zarzad-zadeklarowal-dywidende-1258562){rel="nofollow"}
+- **Atal:** Deweloper planuje przeznaczyć na dywidendę 194,7 mln zł (4,5 zł na akcję). [Puls Biznesu](https://www.pb.pl/dywidenda-z-atalu-znow-bedzie-nizsza-1258569){rel="nofollow"}
+- **Pepco:** Przychody w ciągu 25 tygodni (do 22 marca) wzrosły o 4,8%. Spółka podtrzymuje ambitne cele na 2026 r. [Puls Biznesu](https://www.pb.pl/przychody-pepco-poszly-w-gore-spolka-podtrzymala-cele-na-2026-r-1258563){rel="nofollow"}
+- **XTB:** Rekomendacja dywidendy w wysokości 4,07 zł na akcję (stopa ok. 4,4%). [StockWatch.pl](https://www.stockwatch.pl/wiadomosci/7-spolek-z-gpw-zaproponowalo-dywidendy-o-wartosci-38-mld-zl,akcje,368964){rel="nofollow"}
 
 ---
 
-## 📅 Kalendarium
+## 🇵🇱 Polska Gospodarka
 
-- **27 marca 2026** — decyzja rządu w sprawie cen paliw (dzień wcześniej przełożona)
-- **do 31 marca 2026** — termin przekazania deklaracji podatkowych PIT
+- **Zmiany w ryczałcie:** Ministerstwo Finansów planuje uszczelnienie systemu od 2027 r. Przedsiębiorcy z przychodami powyżej 100 tys. zł bez pracowników mieliby płacić 15% zamiast 8,5%. [Bankier](https://www.bankier.pl/wiadomosc/Na-ryczalcie-sie-pogorszy-MF-chce-skonczyc-z-optymalizacja-9105175.html){rel="nofollow"}
+- **Obrona Cywilna:** Polska buduje system od zera. Na Targach Obrony Cywilnej w Lubinie eksperci alarmują o braku specjalistów i powolnych procedurach. [Bankier](https://www.bankier.pl/wiadomosc/Polska-buduje-obrone-cywilna-od-zera-Brakuje-specjalistow-a-procedury-trwaja-tygodniami-9105199.html){rel="nofollow"}
 
 ---
 
-*Źródła: Bankier, Money.pl, Le Monde | Dane z 27.03.2026 | Notowania z 26.03.2026*
+## 📅 Dzisiaj w kalendarzu
+
+- **Budimex:** Publikacja raportu rocznego za 2025 rok.
+- **Neuca:** Czat inwestorski dotyczący wyników (godz. 11:00).
+- **Rząd:** Decyzje ws. pakietu „anty-drożyźnianego” i cen paliw.
+
+---
+
+*Źródła: PAP Biznes, Bankier.pl, Puls Biznesu, XYZ, StockWatch.pl | Dane zebrane 27.03.2026 rano.*
