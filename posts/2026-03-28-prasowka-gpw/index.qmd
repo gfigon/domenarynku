@@ -1,0 +1,85 @@
+---
+title: "Prasówka GPW - 28 marca 2026"
+date: "2026-03-28"
+description: "Poranny przegląd rynkowy: Krach Dino po wynikach, węgiel wraca do łask, prezydent podpisał ustawę o cenach paliw, S&P500 najniżej od września."
+keywords: [GPW, WIG20, Dino, węgiel, Orlen, LPP, ceny paliw, giełda, prasówka]
+editor: 
+  markdown: 
+    wrap: 80
+---
+
+```{r setup, include=FALSE}
+#| echo: false
+#| warning: false
+
+library(glue)
+library(httr2)
+library(htmltools)
+
+date_str <- "28 marca 2026"
+```
+
+# 📈 Prasówka GPW
+
+**28 marca 2026** | ~08:30
+
+---
+
+## 📊 Nastroje przed sesją
+
+**Czerwony początek tygodnia na GPW:** Piątkowa przecena na warszawskim parkiecie (WIG20 -1,15%, do 3268,55 pkt) zwiastuje trudny start nowego tygodnia. Głównym hamulcem pozostaje sytuacja geopolityczna — blokada cieśniny Ormuz utrzymuje ceny ropy powyżej 100 USD za baryłkę. Inwestorzy obawiają się stagflacji, co pcha w dół zachodnie rynki akcji. S&P500 w piątek zamknął się najniżej od września. [Bankier](https://www.bankier.pl/wiadomosc/S-P500-najnizej-od-wrzesnia-Drugi-dzien-mocnych-spadkow-na-Wall-Street-9105822.html){rel="nofollow"} [Bankier](https://www.bankier.pl/wiadomosc/Krach-na-kursie-Dino-Wegiel-wraca-do-lask-na-GPW-9105707.html){rel="nofollow"}
+
+---
+
+## 🏗️ Kluczowe informacje ze spółek
+
+### Dino — Krak po wynikach
+Największa gwiazda piątkowej sesji (niestety w negatywnym sensie). Kurs runął o **18,58%** — najniżej od października 2024 r. IV kwartał przyniósł zysk netto na poziomie 367,7 mln zł, czyli aż **o jedną piątą mniej od konsensusu** analityków. Marża EBITDA spadła do 6,9% (o 1,25 pkt proc. r/r). Zarząd tłumaczy wyniki deflacją, ostrożnością klientów i rosnącymi kosztami. Przecena uderzyła rykoszetem w Eurocash (-5,29%) i Żabkę (-2,09%). Analitycy uważają jednak, że rynek przereagował — perspektywy na 2026 r. są lepsze. [Puls Biznesu](https://www.pb.pl/wyniki-dino-dalekie-od-oczekiwan-klienci-uwazniej-robili-zakupy-1258656){rel="nofollow"} [Bankier](https://www.bankier.pl/wiadomosc/Krach-na-kursie-Dino-Wegiel-wraca-do-lask-na-GPW-9105707.html){rel="nofollow"}
+
+### Węgiel wraca do łask
+Mimo fatalnych nastrojów na szerokim rynku, sektor wydobywczy stał się „zieloną wyspą". Lubelski Węgiel Bogdanka zyskał **6,21%**, JSW **2,83%**, a Bumech **1,93%**. To efekt rosnących oczekiwań, że węgiel zastąpi drastycznie drożejący gaz w europejskiej energetyce. Konflikt na Bliskim Wschodzie przywrócił czarne złoto do łask. W tym miesiącu Bogdanka wzrosła o 45%, a JSW o 15%. [Bankier](https://www.bankier.pl/wiadomosc/Krach-na-kursie-Dino-Wegiel-wraca-do-lask-na-GPW-9105707.html){rel="nofollow"}
+
+### Orlen pod presją regulacyjną
+Kurs stracił **1,6%** w piątek, co zbiegło się z sejmową nowelizacją ustawy o zapasach ropy i wprowadzeniem cen maksymalnych na paliwa. Prezydent Karol Nawrocki w piątek wieczorem podpisał ustawy obniżające ceny paliw. Inwestorzy przyzwyczajają się do kolejnych interwencji rządów — nie tylko w Polsce. [Bankier](https://www.bankier.pl/wiadomosc/Podpis-z-odrzutowca-Prezydent-Karol-Nawrocki-zdecydowal-w-sprawie-cen-paliw-9105791.html){rel="nofollow"} [Bankier](https://www.bankier.pl/wiadomosc/Krach-na-kursie-Dino-Wegiel-wraca-do-lask-na-GPW-9105707.html){rel="nofollow"}
+
+### LPP — korekta po czwartkowym rekordzie
+Po czwartkowym +13% (do rekordowych 22 460 zł), w piątek nastąpiła korekta: **-2,72%**. Inwestorzy realizują zyski po świetnych wynikach za IV kwartał. [Bankier](https://www.bankier.pl/wiadomosc/Krach-na-kursie-Dino-Wegiel-wraca-do-lask-na-GPW-9105707.html){rel="nofollow"}
+
+---
+
+## 💰 Wiadomości ze spółek
+
+- **Amica:** Szacuje, że w 2025 r. zysk brutto grupy wzrósł do 41,9 mln zł z 28 mln zł w 2024 r. [Bankier](https://www.bankier.pl/wiadomosc/Amica-szacuje-ze-w-25-zysk-brutto-grupy-wzrosl-do-41-9-mln-zl-9105730.html){rel="nofollow"}
+- **Energa:** Zdecydowała o zmianie odpisów o łączną kwotę ok. 0,25 mld zł. [Bankier](https://www.bankier.pl/wiadomosc/Energa-zdecydowala-o-zmianie-wysokosci-odpisow-o-laczna-kwote-ok-0-25-mld-zl-9105717.html){rel="nofollow"}
+- **Energa Operator:** Pozyskała ok. 470 mln zł bezzwrotnej dotacji z KPO na rozwój inteligentnej infrastruktury elektroenergetycznej. [Bankier](https://www.bankier.pl/wiadomosc/Energa-Operator-pozyskala-ok-470-mln-zl-z-KPO-na-rozwoj-infrastruktury-elektroenergetycznej-9105523.html){rel="nofollow"}
+- **Neuca:** Oczekuje w 2026 r. poprawy rentowności segmentu badań klinicznych i finalizacji akwizycji. [Bankier](https://www.bankier.pl/wiadomosc/Neuca-oczekuje-w-26-poprawy-rentownosci-segmentu-badan-klinicznych-i-finalizacji-akwizycji-9105553.html){rel="nofollow"}
+- **Franklin Templeton:** Wchodzi do Polski — zarejestrował pierwsze 13 funduszy ETF. [Bankier](https://www.bankier.pl/wiadomosc/Franklin-Templeton-wchodzi-do-Polski-Zarejestrowal-pierwsze-13-funduszy-ETF-9105550.html){rel="nofollow"}
+- **Atal:** Obserwuje trend wzrostowy w sprzedaży mieszkań i zakłada 2,5-3 tys. sprzedanych lokali w 2026 r. [Bankier](https://www.bankier.pl/wiadomosc/Atal-obserwuje-trend-wzrostowy-w-sprzedazy-mieszkan-w-26-zaklada-2-5-3-tys-sprzedanych-lokali-9105440.html){rel="nofollow"}
+- **Mirbud:** Dwie oferty wybrane jako najkorzystniejsze — na tramwaj w Bydgoszczy (107,22 mln zł) i dla GDDKiA (571,35 mln zł). [Bankier](https://www.bankier.pl/wiadomosc/Oferta-konsorcjum-Mirbudu-najkorzystniejsza-na-budowe-dwutorowego-torowiska-w-Bydgoszczy-9105545.html){rel="nofollow"}
+
+---
+
+## 🇵🇱 Polska Gospodarka
+
+- **Ceny paliw — ustawa podpisana:** Prezydent Karol Nawrocki podpisał w piątek wieczorem ustawy umożliwiające ograniczenie wzrostu cen paliw. Sejm i Senat wcześniej przyjęli nowelizację ustawy o zapasach ropy oraz przepisy o cenach maksymalnych. [Bankier](https://www.bankier.pl/wiadomosc/Podpis-z-odrzutowca-Prezydent-Karol-Nawrocki-zdecydowal-w-sprawie-cen-paliw-9105791.html){rel="nofollow"} [Puls Biznesu](https://www.pb.pl/sejm-za-obnizeniem-cen-paliw-dwie-ustawy-przyjete-czas-na-senat-i-prezydenta-1258685){rel="nofollow"}
+- **Czechy vs Orlen:** Premier Andrej Babisz wezwał Orlen do obniżenia cen paliw. Rząd Czech zajmie się regulacją marż w poniedziałek. [Bankier](https://www.bankier.pl/wiadomosc/Czechy-zapowiadaja-walke-z-cenami-paliw-Babisz-wezwal-Orlen-do-obnizenie-cen-9105792.html){rel="nofollow"}
+- **Rekordy cen paliw w Polsce:** Historyczne rekordy cen paliw to jeden z kluczowych tematów mijającego tygodnia. [Bankier](https://www.bankier.pl/wiadomosc/Rekordy-na-paliwie-i-koniec-rynkowych-pewniakow-Tydzien-ktory-brutalnie-zweryfikowal-gospodarke-9105415.html){rel="nofollow"}
+
+---
+
+## 📅 Kalendarium na dziś
+
+Brak kluczowych raportów zaplanowanych na sobotę 28 marca.
+
+---
+
+## 🔎 Na horyzoncie
+
+- **Poniedziałek (30.03):** Publikacja marcowych odczytów PMI z Chin, USA i strefy euro
+- **Wtorek (31.03):** Odczyt inflacji CPI w Polsce za marzec
+- **Środa (01.04):** Raport z amerykańskiego rynku pracy (NFP)
+- **Czwartek (02.04):** Święto — GPW zamknięta
+
+---
+
+*Źródła: Bankier.pl, Puls Biznesu | Dane zebrane 28.03.2026 ok. 08:30.*
