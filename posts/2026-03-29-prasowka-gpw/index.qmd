@@ -1,0 +1,87 @@
+---
+title: "Prasówka GPW - 29 marca 2026"
+date: "2026-03-29"
+description: "Poranny przegląd rynkowy: WIG20 kończy tydzień spadkiem, Protektor emituje 1 mln akcji, tendryhus zwołuje NWZ, Grupa Azoty i Police z układami wierzycieli, Orlen podnosi ceny paliw."
+keywords: [GPW, WIG20, Protektor, TENDERHUT, Grupa Azoty, Orlen, Dino, Quercus TFI, giełda, prasówka]
+editor: 
+  markdown: 
+    wrap: 80
+---
+
+```{r setup, include=FALSE}
+#| echo: false
+#| warning: false
+
+library(glue)
+library(httr2)
+library(htmltools)
+
+date_str <- "29 marca 2026"
+```
+
+# 📈 Prasówka GPW
+
+**29 marca 2026** | ~08:30
+
+---
+
+## 📊 Nastroje przed sesją
+
+**GPW kończy tydzień pod kreską:** Piątkowa sesja (28.03) przyniosła przecenę na warszawskim parkiecie. WIG20 spadł o **1,15%**, do 3268,55 pkt, co było efektem utrzymującej się niepewności geopolitycznej związanej z blokadą cieśniny Ormuz i rosnącymi cenami ropy powyżej 100 USD/bbl. Zniżkowały banki, LPP i Dino. Na pozytywnym biegunie utrzymywał się sektor węglowy — Bogdanka zyskała 6,21%, JSW 2,83%. [Bankier](https://www.bankier.pl/wiadomosc/Krach-na-kursie-Dino-Wegiel-wraca-do-lask-na-GPW-9105707.html){rel="nofollow"}
+
+**Środa (25.03) przyniosła odreagowanie:** Po dwóch dniach wyprzedaży WIG20 zyskał **1,4%**, wspierany przez zwyżkujące Azję i Europę. Najmocniejsze były Kruk, KGHM i Budimex. Inwestorzy liczyli na dyplomatyczne rozwiązanie konfliktu na Bliskim Wschodzie, choć entuzjazm studził brak oficjalnego potwierdzenia rozmów ze strony Iranu. Rentowności obligacji skarbowych spadały, a złoto drożało do 4553 USD/un. [Parkiet](https://www.parkiet.com/gielda/art44033101-ostrozne-zakupy-w-polowie-tygodnia){rel="nofollow"}
+
+---
+
+## 💰 Wiadomości ze spółek
+
+### Protektor — emisja 1 mln akcji serii H
+Zarząd Protektora podjął uchwałę o podwyższeniu kapitału zakładowego w drodze emisji **1 mln nowych akcji zwykłych na okaziciela serii H** o wartości nominalnej 0,50 zł każda. Kapitał wzrósł z 15,47 mln zł do 15,97 mln zł. Po uzyskaniu zgody Rady Nadzorczej, zarząd pozbawił dotychczasowych akcjonariuszy w całości prawa poboru. Akcje trafią do Luma Holding Limited w trybie subskrypcji prywatnej — bez obowiązku sporządzania prospektu. Cena emisyjna: 0,50 zł/akcja. Akcje serii H będą uczestniczyć w dywidendzie począwszy od zysku za rok obrotowy 2026. Informację potwierdził PAP Biznes (raport ESPI 25/2026 z 27.03.2026). [Puls Biznesu](https://www.pb.pl/zarzad-protektora-podjal-uchwale-o-emisji-1-mln-akcji-1258648){rel="nofollow"} [PAP Biznes / esPI](https://espiebi.pap.pl/node/717924){rel="nofollow"}
+
+### TENDERHUT — wyniki NWZ 27 marca
+W czwartek 27 marca odbyło się Nadzwyczajne Walne Zgromadzenie TENDERHUT. Spośród akcjonariuszy posiadających powyżej 5% głosów — Venture Inc (52,39%), A. R. (13,15%) i Altus TFI (7,24%). NWZ podjęło uchwałę powołującą nowego Członka Rady Nadzorczej (raport ESPI 6/2026 z 27.03). Przed sesją spółka opublikowała wykaz znaczących akcjonariuszy. [PAP Biznes / esPI](https://espiebi.pap.pl/node/717911){rel="nofollow"} [PAP Biznes / esPI](https://espiebi.pap.pl/node/717909){rel="nofollow"}
+
+### QUERCUS TFI — zwołanie ZWZ z projektami uchwał
+Spółka poinformowała o zwołaniu Zwyczajnego Walnego Zgromadzenia wraz z projektami uchwał (raport ESPI 14/2026 z 27.03.2026). Szczegóły w komunikacie ESPI. [PAP Biznes / esPI](https://espiebi.pap.pl/node/717923){rel="nofollow"}
+
+### GRUPA AZOTY — układ wierzycieli spółki zależnej
+Zgromadzenie wierzycieli spółki zależnej Grupy Azoty przyjęło **układ częściowy** — potwierdza raport ESPI 24/2026 z 27.03. To kolejny krok w procesie restrukturyzacji grupy naftowo-chemicznej. [PAP Biznes / esPI](https://espiebi.pap.pl/node/717926){rel="nofollow"}
+
+### POLICE — układ wierzycieli stowarzyszonej spółki
+Analogiczna sytuacja w Grupie Azoty Police — zgromadzenie wierzycieli spółki stowarzyszonej przyjęło **układ częściowy** (raport ESPI 19/2026 z 27.03). [PAP Biznes / esPI](https://espiebi.pap.pl/node/717927){rel="nofollow"}
+
+### POLTREG — transakcje insiderów
+Dwa raporty z 27.03: powiadomienie od PAAN Capital o transakcji na akcjach Spółki (art. 19 MAR, raport 22/2026) oraz zawiadomienie o zmianie udziału w ogólnej liczbie głosów (raport 23/2026). [PAP Biznes / esPI](https://espiebi.pap.pl/node/717915){rel="nofollow"} [PAP Biznes / esPI](https://espiebi.pap.pl/node/717917){rel="nofollow"}
+
+### AC — raport roczny i podział zysku
+AC opublikowało skonsolidowany raport roczny (SRR) za 2025 oraz opinię Rady Nadzorczej dotyczącą rekomendacji Zarządu w sprawie podziału zysku za 2025 r. (raporty z 27.03). [PAP Biznes / esPI](https://espiebi.pap.pl/node/717918){rel="nofollow"} [PAP Biznes / esPI](https://espiebi.pap.pl/node/717916){rel="nofollow"}
+
+### IPOPEMA SECURITIES — skonsolidowany raport roczny
+Dom maklerski opublikował skonsolidowany raport roczny za 2025 r. (raport ESPI z 27.03). [PAP Biznes / esPI](https://espiebi.pap.pl/node/717912){rel="nofollow"}
+
+### AIRWAY MEDIX — dwa raporty roczne
+Spółka medtech opublikowała raport roczny (RR) oraz skonsolidowany raport roczny (SRR) za 2025 r. (raporty z 27.03). [PAP Biznes / esPI](https://espiebi.pap.pl/node/717921){rel="nofollow"}
+
+---
+
+## 🛢️ Orlen — podwyżka cen paliw
+Koncern Orlen podniósł ceny hurtowe paliw, co w piątek przełożyło się na spadek kursu akcji o 1,6%. Ruch ten zbiegł się z podpisaniem przez prezydenta Nawrockiego ustawy o cenach maksymalnych na paliwa — inwestorzy obawiają się dalszych interwencji regulacyjnych. [Bankier](https://www.bankier.pl/wiadomosc/Rzad-w-dol-Orlen-w-gore-Koncern-podniosl-hurtowe-ceny-paliw-9105927.html){rel="nofollow"}
+
+---
+
+## 📋 Podsumowanie sesji poprzedniej (piątek 28.03)
+
+| Indeks/Spółka | Zmiana |
+|---|---|
+| WIG20 | -1,15% |
+| Dino Polska | -18,58% |
+| Bogdanka | +6,21% |
+| JSW | +2,83% |
+| Orlen | -1,6% |
+| LPP | -2,72% |
+
+*Żródła: Bankier.pl, Parkiet.com, esPI/EBI PAP*
+
+---
+
+*Przygotowano: 29 marca 2026, ok. 08:25*
