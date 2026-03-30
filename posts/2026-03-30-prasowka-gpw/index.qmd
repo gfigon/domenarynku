@@ -1,0 +1,51 @@
+---
+title: "Prasówka GPW - 30 marca 2026"
+date: "2026-03-30"
+description: "Poranny przegląd rynkowy: Pakiet CPN w życiu, ropa Brent 115 USD/bbl, Huti w konflikcie, Selvita z umową NCBiR, Nawrocki liderem sondażu zaufania."
+keywords: [GPW, WIG20, CPN, paliwa, ropa, Huti, Selvita, Nawrocki, sondaż, giełda, prasówka]
+editor: 
+  markdown: 
+    wrap: 80
+---
+
+```{r setup, include=FALSE}
+#| echo: false
+#| warning: false
+
+library(glue)
+library(httr2)
+library(htmltools)
+
+date_str <- "30 marca 2026"
+```
+
+# 📈 Prasówka GPW
+
+**30 marca 2026** | ~08:20
+
+---
+
+## 📊 Nastroje przed sesją
+
+**Pakiet CPN wchodzi w życie.** W niedzielę 29 marca 2026 r. weszły w życie przepisy pakietu Ceny Paliwa Niżej, obniżające VAT na paliwa z 23% do 8% oraz akcyzę — o 29 gr na litr benzyny i 28 gr na olej napędowy. Rozporządzenie o maksymalnych cenach paliw ma zostać opublikowane w poniedziałek 30 marca, a ceny maksymalne zaczną obowiązywać od wtorku 31 marca. Prezydent Karol Nawrocki podpisał ustawę na pokładzie samolotu w drodze do USA. [Money.pl](https://www.money.pl/mobility/rzad-opublikowal-pakiet-cpn-w-dzienniku-ustaw-oto-kiedy-obnizka-cen-paliw-wejdzie-w-zycie-7269176430557312a.html){rel="nofollow"} [Forsal](https://forsal.pl/transport/aktualnosci/artykuly/11224731,obnizka-vat-akcyzy-i-maksymalna-cena-na-paliwa-rzad-przyjal-pakiet-cpn.html){rel="nofollow"} [Infor.pl](https://ksiegowosc.infor.pl/wiadomosci/7550789,obnizka-vat-i-akcyzy-na-benzyne-i-olej-napedowy-jeszcze-przed-wielkanoca-2026-komisja-europejska-prawo-ue-nie-pozwala-na-obnizke-stawek-vat-od-tych-paliw.html){rel="nofollow"}
+
+**Ropa naftowa wystrzeliwuje.** W poniedziałek ceny ropy kontynuują wzrosty — ropa Brent wzrosła o 2,16% do ok. **115 USD za baryłkę**, po weekendowym skoku o 4,2%. W tym miesiącu ceny wzrosły już o ok. 59%, co stanowi największy miesięczny wzrost od czasu wojny w Zatoce Perskiej w 1990 r. W weekend sojusznicy Iranu — jemeńscy rebelianci Huti — zaatakowali cele w Izraelu, do regionu przybywają też kolejne amerykańskie wojska. Eksperci ostrzegają, że eskalacja może wpędzić ceny powyżej 150 USD/bbl. [Business Insider](https://businessinsider.com.pl/gospodarka/ceny-ropy-wystrzelily-po-atakach-huti-pobily-rekord-sprzed-ponad-30-lat/k5f9skn){rel="nofollow"} [Puls Biznesu](https://www.pb.pl/ceny-ropy-zwyzkuja-huti-wlaczaja-sie-do-konfliktu-zapowiedz-dnia-30-03-2026-1258754){rel="nofollow"} [Energetyka24](https://energetyka24.com/surowce/ropa/iran-grozi-blokada-nastepnej-ciesniny-huti-dolaczaja-do-wojny){rel="nofollow"}
+
+**Selvita z umową NCBiR.** Spółka biotechnologiczna Selvita podpisała z Narodowym Centrum Badań i Rozwoju umowę o dofinansowanie projektu w ramach programu FENG (Fundusze Europejskie dla Nowoczesnej Gospodarki). Selvita jest jednym z beneficjentów programu STEP przygotowującego sektor biomedyczny do wyzwań przyszłości, obok Grupy Polpharma. [Bankier](https://www.bankier.pl/wiadomosc/Selvita-podpisala-z-NCBiR-umowe-o-dofinansowanie-w-ramach-programu-FENG-9106229.html){rel="nofollow"} [Biznes Interia](https://biznes.interia.pl/polska-agencja-prasowa/news-program-finansowy-step-ma-przygotowac-sektor-biomedyczny-do,nId,23319814){rel="nofollow"}
+
+**Nawrocki liderem zaufania.** W marcowym sondażu zaufania IBRiS dla Onetu prezydent Karol Nawrocki umocnił pozycję lidera, wyprzedzając szefa MSZ Radosława Sikorskiego i premiera Donalda Tuska. Wśród wyborców PiS i Konfederacji Nawrocki ma 57% zaufania, podczas gdy zwolennicy KO i Lewicy preferują Tuska. Wgrupie niezdecydowanych aż 38% nie ufa żadnemu z nich. [Onet](https://www.onet.pl/informacje/onetwiadomosci/karol-nawrocki-umacnia-sie-w-sondazu-zaufania-rzad-i-opozycja-w-klinczu/xr1zeg2,79cfc278){rel="nofollow"} [Wydarzenia Interia](https://wydarzenia.interia.pl/kraj/news-nawrocki-czy-tusk-nowy-sondaz-zaufania-niewielka-roznica-glo,nId,23320426){rel="nofollow"}
+
+**Wall Street na minimach półroczna.** Piątkowa sesja (28.03) na amerykańskich giełdach zakończyła się wyraźnymi spadkami — wszystkie trzy główne indeksy osiągnęły najniższe poziomy od ponad pół roku. Największym obciążeniem były spółki technologiczne, co odzwierciedla utrzymującą się niechęć inwestorów do podejmowania ryzyka w obliczu konfliktu na Bliskim Wschodzie. Poniedziałkowy handel w Azji przyniósł spadki indeksów do najniższych poziomów w tym roku. [Puls Biznesu](https://www.pb.pl/wall-street-pod-presja-wojny-indeksy-najnizej-od-pol-roku-1258735){rel="nofollow"}
+
+---
+
+## 🔑 Na dziś
+
+- 📅 **08:00** — Konferencja KSeF (Krajowy System e-Faktur) — start II etapu wdrażania
+- 🌍 **G7** — spotkanie ministrów finansów i energii w Paryżu
+- 🇪🇸 **Hiszpania** — bezterminowy strajk pracowników obsługi naziemnej na głównych lotniskach
+- 📊 **Dane makro** — wskaźniki PMI dla przemysłu, dane inflacyjne z USA
+
+---
+
+*Źródła: Bankier, Money.pl, Forsal, Infor.pl, Business Insider, Puls Biznesu, Energetyka24, Onet, Interia, Wirtualna Polska*
