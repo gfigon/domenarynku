@@ -1,8 +1,8 @@
 ---
 title: "Prasówka GPW - 30 marca 2026"
 date: "2026-03-30"
-description: "Poranny przegląd rynkowy: Pakiet CPN w życiu, ropa Brent 115 USD/bbl, Huti w konflikcie, Selvita z umową NCBiR, Nawrocki liderem sondażu zaufania."
-keywords: [GPW, WIG20, CPN, paliwa, ropa, Huti, Selvita, Nawrocki, sondaż, giełda, prasówka]
+description: "Poranny przegląd rynkowy: WIG20 pod presją Dino i ropy powyżej 100 USD, start programu 'Pakiet CPN', nowe umowy Selvita i Medicalgorithmics, raporty roczne Tauron i Selvita."
+keywords: [GPW, WIG20, Dino Polska, Selvita, Medicalgorithmics, Tauron, paliwa, akcyza, giełda, prasówka]
 editor: 
   markdown: 
     wrap: 80
@@ -21,31 +21,56 @@ date_str <- "30 marca 2026"
 
 # 📈 Prasówka GPW
 
-**30 marca 2026** | ~08:20
+**30 marca 2026** | ~08:30
 
 ---
 
 ## 📊 Nastroje przed sesją
 
-**Pakiet CPN wchodzi w życie.** W niedzielę 29 marca 2026 r. weszły w życie przepisy pakietu Ceny Paliwa Niżej, obniżające VAT na paliwa z 23% do 8% oraz akcyzę — o 29 gr na litr benzyny i 28 gr na olej napędowy. Rozporządzenie o maksymalnych cenach paliw ma zostać opublikowane w poniedziałek 30 marca, a ceny maksymalne zaczną obowiązywać od wtorku 31 marca. Prezydent Karol Nawrocki podpisał ustawę na pokładzie samolotu w drodze do USA. [Money.pl](https://www.money.pl/mobility/rzad-opublikowal-pakiet-cpn-w-dzienniku-ustaw-oto-kiedy-obnizka-cen-paliw-wejdzie-w-zycie-7269176430557312a.html){rel="nofollow"} [Forsal](https://forsal.pl/transport/aktualnosci/artykuly/11224731,obnizka-vat-akcyzy-i-maksymalna-cena-na-paliwa-rzad-przyjal-pakiet-cpn.html){rel="nofollow"} [Infor.pl](https://ksiegowosc.infor.pl/wiadomosci/7550789,obnizka-vat-i-akcyzy-na-benzyne-i-olej-napedowy-jeszcze-przed-wielkanoca-2026-komisja-europejska-prawo-ue-nie-pozwala-na-obnizke-stawek-vat-od-tych-paliw.html){rel="nofollow"}
+**Słaby koniec tygodnia na GPW:** Piątkowa sesja (27.03) zakończyła się wyraźnymi spadkami. WIG20 stracił **1,15%**, zamykając się na poziomie 3268,55 pkt. Głównym obciążeniem był kurs Dino Polska, który zanotował krach po publikacji wyników kwartalnych poniżej konsensusu. Inwestorzy pozostają w defensywie ze względu na napiętą sytuację na Bliskim Wschodzie i ceny ropy naftowej utrzymujące się powyżej 100 USD za baryłkę. [Bankier](https://www.bankier.pl/wiadomosc/Krach-na-kursie-Dino-Wegiel-wraca-do-lask-na-GPW-9105707.html){rel="nofollow"} [Interia Biznes](https://biznes.interia.pl/gieldy/aktualnosci/news-strach-przed-weekendem-rynki-nie-wiedza-co-zastana-w-poniedz,nId,23320050){rel="nofollow"}
 
-**Ropa naftowa wystrzeliwuje.** W poniedziałek ceny ropy kontynuują wzrosty — ropa Brent wzrosła o 2,16% do ok. **115 USD za baryłkę**, po weekendowym skoku o 4,2%. W tym miesiącu ceny wzrosły już o ok. 59%, co stanowi największy miesięczny wzrost od czasu wojny w Zatoce Perskiej w 1990 r. W weekend sojusznicy Iranu — jemeńscy rebelianci Huti — zaatakowali cele w Izraelu, do regionu przybywają też kolejne amerykańskie wojska. Eksperci ostrzegają, że eskalacja może wpędzić ceny powyżej 150 USD/bbl. [Business Insider](https://businessinsider.com.pl/gospodarka/ceny-ropy-wystrzelily-po-atakach-huti-pobily-rekord-sprzed-ponad-30-lat/k5f9skn){rel="nofollow"} [Puls Biznesu](https://www.pb.pl/ceny-ropy-zwyzkuja-huti-wlaczaja-sie-do-konfliktu-zapowiedz-dnia-30-03-2026-1258754){rel="nofollow"} [Energetyka24](https://energetyka24.com/surowce/ropa/iran-grozi-blokada-nastepnej-ciesniny-huti-dolaczaja-do-wojny){rel="nofollow"}
-
-**Selvita z umową NCBiR.** Spółka biotechnologiczna Selvita podpisała z Narodowym Centrum Badań i Rozwoju umowę o dofinansowanie projektu w ramach programu FENG (Fundusze Europejskie dla Nowoczesnej Gospodarki). Selvita jest jednym z beneficjentów programu STEP przygotowującego sektor biomedyczny do wyzwań przyszłości, obok Grupy Polpharma. [Bankier](https://www.bankier.pl/wiadomosc/Selvita-podpisala-z-NCBiR-umowe-o-dofinansowanie-w-ramach-programu-FENG-9106229.html){rel="nofollow"} [Biznes Interia](https://biznes.interia.pl/polska-agencja-prasowa/news-program-finansowy-step-ma-przygotowac-sektor-biomedyczny-do,nId,23319814){rel="nofollow"}
-
-**Nawrocki liderem zaufania.** W marcowym sondażu zaufania IBRiS dla Onetu prezydent Karol Nawrocki umocnił pozycję lidera, wyprzedzając szefa MSZ Radosława Sikorskiego i premiera Donalda Tuska. Wśród wyborców PiS i Konfederacji Nawrocki ma 57% zaufania, podczas gdy zwolennicy KO i Lewicy preferują Tuska. Wgrupie niezdecydowanych aż 38% nie ufa żadnemu z nich. [Onet](https://www.onet.pl/informacje/onetwiadomosci/karol-nawrocki-umacnia-sie-w-sondazu-zaufania-rzad-i-opozycja-w-klinczu/xr1zeg2,79cfc278){rel="nofollow"} [Wydarzenia Interia](https://wydarzenia.interia.pl/kraj/news-nawrocki-czy-tusk-nowy-sondaz-zaufania-niewielka-roznica-glo,nId,23320426){rel="nofollow"}
-
-**Wall Street na minimach półroczna.** Piątkowa sesja (28.03) na amerykańskich giełdach zakończyła się wyraźnymi spadkami — wszystkie trzy główne indeksy osiągnęły najniższe poziomy od ponad pół roku. Największym obciążeniem były spółki technologiczne, co odzwierciedla utrzymującą się niechęć inwestorów do podejmowania ryzyka w obliczu konfliktu na Bliskim Wschodzie. Poniedziałkowy handel w Azji przyniósł spadki indeksów do najniższych poziomów w tym roku. [Puls Biznesu](https://www.pb.pl/wall-street-pod-presja-wojny-indeksy-najnizej-od-pol-roku-1258735){rel="nofollow"}
+**Strach przed eskalacją:** Analitycy wskazują na wysoką awersję do ryzyka przed poniedziałkowym otwarciem. Rynek obawia się rozszerzenia konfliktu w Iranie, co może uderzyć w globalne łańcuchy dostaw. Złoty pozostaje osłabiony, z kursem dolara zbliżającym się do 3,72 zł, a euro w okolicach 4,28-4,29 zł. [Interia Biznes](https://biznes.interia.pl/gieldy/aktualnosci/news-strach-przed-weekendem-rynki-nie-wiedza-co-zastana-w-poniedz,nId,23320050){rel="nofollow"} [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260327/dzien-na-gpw-dino-ciagnie-w-dol-wig20-negatywnie-wplywa-tez-na-caly-rynek){rel="nofollow"}
 
 ---
 
-## 🔑 Na dziś
+## 💰 Wiadomości ze spółek
 
-- 📅 **08:00** — Konferencja KSeF (Krajowy System e-Faktur) — start II etapu wdrażania
-- 🌍 **G7** — spotkanie ministrów finansów i energii w Paryżu
-- 🇪🇸 **Hiszpania** — bezterminowy strajk pracowników obsługi naziemnej na głównych lotniskach
-- 📊 **Dane makro** — wskaźniki PMI dla przemysłu, dane inflacyjne z USA
+### Selvita — dofinansowanie z programu FENG
+Spółka poinformowała rano o podpisaniu umowy z NCBiR na dofinansowanie projektu w ramach programu FENG (Ścieżka SMART). Projekt dotyczy zwiększenia konkurencyjności w zakresie innowacyjnych terapii i leków przyszłości poprzez rozwój Centrum Badawczo-Rozwojowego. Informacja została opublikowana w poniedziałek rano. [Bankier / PAP](https://www.bankier.pl/wiadomosc/Selvita-podpisala-z-NCBiR-umowe-o-dofinansowanie-w-ramach-programu-FENG-9106229.html){rel="nofollow"} [BiznesRadar](https://www.biznesradar.pl/wiadomosci/){rel="nofollow"}
+
+### Medicalgorithmics — partnerstwo w Korei
+Medicalgorithmics nawiązał partnerstwo technologiczne z koreańską firmą Seers Technology. Współpraca zakłada integrację platformy DRP oraz algorytmów DRAI z urządzeniami hardware partnera, co ma ułatwić spółce ekspansję na rynku amerykańskim. Jest to trzecia istotna umowa zawarta przez spółkę w 2026 roku. [Bankier / PAP](https://www.bankier.pl/wiadomosc/Medicalgorithmics-nawiazal-partnerstwo-technologiczne-z-koreanska-firma-Seers-Technology-9106246.html){rel="nofollow"} [BiznesRadar](https://www.biznesradar.pl/wiadomosci/){rel="nofollow"}
+
+### Dino Polska — tąpnięcie po wynikach
+Akcje Dino Polska straciły w piątek ponad **18%** (w trakcie sesji spadki sięgały 15-17%) po publikacji wyników za IV kwartał 2025 r. Zysk netto wyniósł 367,7 mln zł wobec oczekiwanych przez rynek 456,4 mln zł. Słabsze od oczekiwań tempo wzrostu przychodów budzi obawy o nasycenie rynku i wpływ wojny cenowej w sektorze retail. [Interia Biznes](https://biznes.interia.pl/gieldy/aktualnosci/news-strach-przed-weekendem-rynki-nie-wiedza-co-zastana-w-poniedz,nId,23320050){rel="nofollow"} [Strefa Inwestorów](https://strefainwestorow.pl/spolki/dinopolska-konsensus-wyniki-plany-2025-2026){rel="nofollow"}
 
 ---
 
-*Źródła: Bankier, Money.pl, Forsal, Infor.pl, Business Insider, Puls Biznesu, Energetyka24, Onet, Interia, Wirtualna Polska*
+## 🛢️ Sektor paliwowy i "Pakiet CPN"
+
+W poniedziałek (30.03) weszło w życie rozporządzenie obniżające akcyzę na paliwa (benzyny do 1239 zł/1000l, ON do 880 zł/1000l). Od wtorku (31.03) zacznie obowiązywać obniżony do **8% podatek VAT** na paliwa oraz mechanizm ceny maksymalnej. Rząd zapowiada walkę z nadmiarowymi marżami koncernów (windfall tax), co wywiera presję na notowania Orlenu. [Bankier](https://www.bankier.pl/wiadomosc/Koniec-drogiego-tankowania-W-zycie-wszedl-projekt-CPN-9106190.html){rel="nofollow"} [PAP Biznes](https://pap-biznes.pl/){rel="nofollow"}
+
+---
+
+## 🗓️ Kalendarz na dziś (poniedziałek 30.03)
+
+*   **Tauron Polska Energia:** Publikacja raportu rocznego za 2025 r. (jedyna spółka z WIG20 publikująca dziś wyniki).
+*   **Selvita:** Publikacja raportu rocznego za 2025 r.
+*   **Develia / Grupa Pracuj:** Kalendarz wskazuje na publikacje raportów okresowych.
+
+---
+
+## 📋 Podsumowanie sesji poprzedniej (27.03)
+
+| Indeks/Spółka | Zmiana | Kurs zamknięcia |
+|---|---|---|
+| WIG20 | -1,15% | 3268,55 pkt |
+| Dino Polska | -18,58% | brak danych |
+| Orlen | -1,60% | brak danych |
+| Bogdanka | +6,21% | brak danych |
+
+*Źródła: Bankier.pl, Interia Biznes, Strefa Inwestorów, PAP Biznes.*
+
+---
+
+*Przygotowano: 30 marca 2026, ok. 08:35*
