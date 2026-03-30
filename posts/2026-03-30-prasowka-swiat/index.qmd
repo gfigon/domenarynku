@@ -1,0 +1,78 @@
+---
+title: "Prasówka Światowa – 30 marca 2026"
+date: "2026-03-30"
+description: "Najważniejsze wydarzenia dnia: wojna w Iranie, częściowy shutdown rządu USA, sytuacja na Bliskim Wschodzie i rynki finansowe."
+keywords: "Iran, USA, Trump, shutdown, Bliski Wschód, geopolityka, makroekonomia"
+author: "DomenaRynku.pl"
+image: "/posts/2026-03-30-prasowka-swiat/cover.jpg"
+---
+
+::: {.leading}
+**Wojna w Iranie wchodzi w piąty tydzień** – USA rozważają desant na wyspę Kharg, ataki na infrastrukturę energetyczną Iranu, Houthi z Jemenu dołączyli do konfliktu. W USA częściowy shutdown rządu trwa już 44 dni – to najdłuższy taki okres w historii Ameryki.
+:::
+
+## 🔴 Geopolityka
+
+### Wojna USA-Iran: eskalacja
+
+**Prezydent Donald Trump rozważa przejęcie irańskiej wyspy Kharg** – kluczowego punktu eksportu ropy naftowej. W wywiadzie dla Financial Times Trump powiedział: "Moglibyśmy zająć ją bardzo łatwo", dodając, że operacja "oznaczałaby, że musielibyśmy tam być przez jakiś czas". Wyspa Kharg to lokalizacja, przez którą przechodzi 90% eksportu irańskiej ropy naftowej.
+
+Pentagon przygotowuje szczegółowe plany wykorzystania sił lądowych w Iranie – donosi Washington Post. 3 500 żołnierzy amerykańskich z 82. Dywizji Powietrznodesantowej dotarło na Bliski Wschód na pokładzie okrętu USS Tripoli.
+
+Irański parlament ostrzegł, że siły IRGC "czekają na przybycie amerykańskich żołnierzy, by obsypać ich ogniem". Iran wzmocnił obronę wyspy Kharg, rozmieszczając dodatkowe systemy przeciwlotnicze i miny przeciwpożarowe w wodach otaczających wyspę.
+
+**Izrael kontynuuje intensywne bombardowania** – w niedzielę zrzucono ponad 120 pocisków na obiekty badawcze i produkcyjne w rejonie Tehranu. Irańskie Ministerstwo Zdrowia raportuje, że od początku wojny zginęło 2 076 osób, w tym 216 dzieci. Co najmniej 250 uczniów i nauczycieli zginęło w atakach na 600 placówek edukacyjnych.
+
+### Houthi dołączają do konfliktu
+
+**Jemeńskie siły Houthi wystrzeliły rakiety w stronę Izraela** w sobotę, dołączając do konfliktu po stronie Iranu. W odpowiedzi Arabia Saudyjska zestrzeliła 10 dronów, a Zjednoczone Emiraty Arabskie przechwyciły 16 rakiet balistycznych i 42 drony. Systemy alarmowe włączyły się w Kuwejcie i Bahrajnie.
+
+Eksperci obawiają się, że Houthi mogą zablokować Cieśninę Bab el-Mandeb – szlak morski o kluczowym znaczeniu dla światowego handlu.
+
+### USA: shutdown rządu trwa
+
+**Częściowy shutdown rządu USA stał się najdłuższym w historii kraju** – 44. dzień impasu. Problemem jest brak finansowania Departamentu Bezpieczeństwa Wewnętrznego (DHS), co doprowadziło do chaosu na lotniskach z powodu brakujących funkcjonariuszy TSA.
+
+W niedzielę prezydent Trump podpisał rozporządzenie wykonawcze mające uwolnić środki na wypłaty dla pracowników TSA. Około 500 funkcjonariuszy zrezygnowało z pracy, a w piątek ponad 3 560 wezwało chorobowe – 12,35% wszystkich pracowników agencji.
+
+Kongres jest na dwutygodniowej przerwie bez porozumienia. Republikanie w Izbie Reprezentantów odrzucili kompromisową ustawę Senatu.
+
+### Europa krytykuje Izrael
+
+**Francja, Niemcy, Włochy i Wielka Brytania skrytykowały izraelskie plany kary śmierci**, nazywając je "faktycznie dyskryminacyjnymi". Chodzi o izraelskie prawo zezwalające na karę śmierci dla terrorystów.
+
+---
+
+## 📈 Makroekonomia i rynki
+
+### Ropa naftowa powyżej 115 dol.
+
+**Ceny ropy naftowej wzrosły powyżej 115 dolarów za baryłkę**, a azjatyckie rynki akcji spadły w związku z eskalacją konfliktu na Bliskim Wschodzie. Wojna w Iranie wchodzi w piąty tydzień, a do konfliktu dołączyli Houthi z Jemenu.
+
+### Australia: zniżki na paliwo i darmowa komunikacja
+
+**Władze stanów Wiktoria i Tasmania wprowadziły zachęty do rezygnacji z jazdy samochodem** – obniżono podatek od paliwa o połowę i oferują darmową komunikację publiczną, by złagodzić rosnące ceny paliwa.
+
+### UE: sankcje nałożone
+
+**Unia Europejska nałożyła sankcje na kolejne podmioty związane z rosyjskim sektorem energetycznym** w odpowiedzi na wojnę w Ukraine.
+
+---
+
+## 🌍 Inne wydarzenia
+
+### Myanmar: junty zatwierdza prezydenta
+
+**Dowódca junty Min Aung Hlaing został nominowany na prezydenta Mjanmy** – militarysta, który był sankcjonowany przez kraje zachodnie, ma objąć stanowisko.
+
+### Włochy: kradzież obrazów
+
+**Złodzieje ukradli obrazy Renoira, Cézanne'a i Matisse'a w trzy minuty** z muzeum w Parmie. Czterech zamaskowanych mężczyzn dokonało włamania w nocy.
+
+### Jerozolima: dostęp patriarchy
+
+**Latynoski patriarch Jerozolimy uzyskał dostęp do świętego miejsca** po interwencji premiera Izraela. Wcześniej policja zablokowała wejście kardynała Pizzaballi.
+
+---
+
+*Źródła: BBC, Al Jazeera, Financial Times, Washington Post | Data: 30 marca 2026*
