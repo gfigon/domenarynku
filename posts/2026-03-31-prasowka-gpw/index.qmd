@@ -1,0 +1,55 @@
+---
+title: "Prasówka GPW: Maksymalne ceny paliw, Trump gotowy do negocjacji z Iranem"
+pagetitle: "Prasówka GPW 31.03.2026 | DomenaRynku.pl"
+date: "2026-03-31"
+date-modified: last-modified
+categories: [Prasówka, GPW, Ropa, Paliwa, USA, Iran]
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Przegląd wydarzeń z 31 marca 2026: maksymalne ceny paliw w Polsce (6,16/7,60 zł), Trump gotowy zakończyć wojnę z Iranem, Korneluk pozywa Ziobrę, start misji Artemis II.">
+      <meta name="keywords" content="GPW, WIG20, ceny paliw, Orlen, Trump Iran, Korneluk Ziobro, NASA Artemis">
+---
+
+Wtorkowy poranek przynosi istotne wydarzenia przed otwarciem sesji na GPW. Na rynku paliw wchodzą w życie regulacje maksymalnych cen, a na arenie międzynarodowej pojawiają się sygnały możliwego zakończenia konfliktu USA-Iran.
+
+### Rynku paliw: w życie wchodzą maksymalne ceny
+
+Od wtorku, 31 marca 2026 roku, w Polsce obowiązują maksymalne ceny paliw ustanowione przezministra energii Miłosza Motykę. Zgodnie z obwieszczeniem:
+
+- **Benzyna bezołowiowa 95**: maksymalnie **6,16 zł/l**
+- **Olej napędowy**: maksymalnie **7,60 zł/l**
+
+Jednocześnie weszły w życie kolejne elementy pakietu regulacyjnego: obniżona akcyza na paliwa (obowiązuje od 30 marca) oraz VAT obniżony do 8 proc. (od 31 marca).
+
+Pomimo regulacji cenowych, Orlen we wtorek podniósł ceny hurtowe — olej napędowy Ekodiesel zdrożał o 35 zł na metrze sześciennym, a benzyna Eurosuper 95 o 26 zł/m³.
+
+### geopolityka: Trump sygnalizuje gotowość do porozumienia z Iranem
+
+Na arenie międzynarodowej pojawiły się sygnały możliwego zakończenia konfliktu z Iranem. Prezydent USA Donald Trump zadeklarował gotowość do zakończenia kampanii zbrojnej, nawet jeśli Iran nadal będzie blokował kluczową cieśninę Ormuz. W wywiadach Trump stwierdził, że "do porozumienia dojdzie wkrótce", oferując Iranowi różne ustępstwa.
+
+Jednocześnie prezydent USA zagroził całkowitym zniszczeniem irańskich elektrowni iwiertni ropy naftowej, jeśli negocjacje się nie powiodą.
+
+Ceny ropy naftowej rosną w reakcji na te doniesienia — zarówno Brent, jak i WTI zyskują ponad 1 proc. w ciągu dnia.
+
+### Polityka krajowa: Prokurator Krajowy pozywa byłego ministra
+
+Prokurator Krajowy Dariusz Korneluk złożył do sądu prywatny akt oskarżenia przeciwko byłemu ministrowi sprawiedliwości Zbigniewowi Ziobrze. Sprawa dotyczy zniesławienia — Ziobro określił Korneluka jako "partyjnego działacza". Prokurator Krajowy domaga się roku więzienia w zawieszeniu oraz wpłaty 30 tys. zł na rzecz Wielkiej Orkiestry Świątecznej Pomocy.
+
+### Kosmos: Artemis II gotowa do startu
+
+Amerykańska agencja kosmiczna NASA rozpoczęła odliczanie do startu misji Artemis II — pierwszej załogowej wyprawy w okolice Księżyca od czasu Apollo 17 w 1972 roku. Start zaplanowano na 1 kwietnia 2026 roku z Kenndy Space Center na Florydzie. Załoga dotarła już na miejsce startu.
+
+---
+*Źródła:*
+- [Money.pl](https://www.money.pl/mobility/jest-decyzja-pierwsze-takie-obwieszczenie-ws-cen-paliw-7269812868622432a.html){rel="nofollow"}
+- [ForexClub.pl](https://forexclub.pl/maksymalne-ceny-paliw-w-polsce-od-31-marca-2026-ile-kosztuje-benzyna-i-diesel){rel="nofollow"}
+- [BiznesInfo.pl](https://www.biznesinfo.pl/wazny-ruch-orlenu-ws-cen-paliw-na-stacjach-ostatni-nie-spodobal-sie-kierowcom-mg-wem-300326){rel="nofollow"}
+- [Carpatia Biznes](https://www.carpatiabiznes.pl/maksymalne-ceny-paliw-w-polsce-od-31-marca-2026-ile-zaplacimy-za-benzyne-i-diesel/){rel="nofollow"}
+- [CNN](https://www.cnn.com/2026/03/30/world/live-news/iran-war-us-israel-trump){rel="nofollow"}
+- [Interia](https://wydarzenia.interia.pl/bliski-wschod/news-trump-gotowy-porzucic-ciesnine-ormuz-doniesienia-o-zwrocie-w,nId,23320992){rel="nofollow"}
+- [Onet](https://wiadomosci.onet.pl/swiat/donald-trump-o-wojnie-z-iranem-do-porozumienia-dojdzie-wkrotce/0py6l6l){rel="nofollow"}
+- [TVN24](https://tvn24.pl/polska/prokurator-krajowy-dariusz-korneluk-pozwal-zbigniewa-ziobre-zobaczymy-kto-ma-racje-st8974680){rel="nofollow"}
+- [RMF24](https://www.rmf24.pl/polityka/news-dariusz-korneluk-pozywa-zbigniewa-ziobre-byly-minister-ostro,nId,8074855){rel="nofollow"}
+- [Wikipedia](https://pl.wikipedia.org/wiki/Artemis_2){rel="nofollow"}
+- [Space24.pl](https://space24.pl/pojazdy-kosmiczne/statki-kosmiczne/napiecie-rosnie-zaloga-artemis-ii-dotarla-na-miejsce-startu){rel="nofollow"}
