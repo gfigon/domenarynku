@@ -1,42 +1,98 @@
 ---
 title: "Prasówka GPW – 1 kwietnia 2026"
+description: "Poranne podsumowanie wydarzeń na GPW: komunikaty spółek, nastroje przed sesją, kluczowe informacje rynkowe"
 date: "2026-04-01"
 author: "DomenaRynku.pl"
-description: "Najważniejsze tematy finansowe z poranka przed sesją GPW"
-tags: ["prasowka", "giełda", "gpw", "finanse", "2026"]
+image: "/images/gpw-news.jpg"
+tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska", "prassówka"]
+layout: "post"
+nofollow: true
 ---
 
 # Prasówka GPW – 1 kwietnia 2026
 
-## Podsumowanie poranka
+## 🔑 Najważniejsze wydarzenia
 
-### Giełdy azjatyckie rosną
+### Orlen przejmie Grupę Azoty Polyolefins. Inwestycja o wartości 1,35 mld zł
 
-Azjatyckie giełdy notują wzrosty po deklaracji Donalda Trumpa o zbliżającym się końcu konfliktu z Iranem. Prezydent USA zapowiedział, że "wkrótce stąd odejdziemy", co успокоиło rynki mimo nocnych ataków irańskich dronów na lotnisko w Kuwejcie.
+Orlen zawarł przedwstępną umowę sprzedaży z akcjonariuszami spółki Grupy Azoty Polyolefins (GAP), na mocy której nabędzie wszystkie pozostałe akcje GAP. Spółka dostarczy także finansowanie o łącznej wartości **1,35 mld zł** na dokończenie restrukturyzacji spółki.
 
-### Ropa drożeje mimo zapowiedzi pokoju
+Orlen posiada obecnie 17,3 proc. udziałów w GAP. Finalizacja transakcji planowana jest w III kwartale 2026 roku, po przeprowadzeniu postępowania o zawarcie częściowego układu oraz uzyskaniu wymaganych zgód administracyjnych.
 
-Ceny ropy naftowej zwyżkują, mimo komentarzy prezydenta USA Donalda Trumpa o zbliżającym się zakończeniu wojny z Iranem. W poniedziałek Brent crude sięgnął $115-117 za baryłkę. Inwestorzy wątpią w rychłe zakończenie konfliktu.
+W ramach transakcji zawierana jest ugoda pomiędzy GA Polyolefins a Hyundai Engineering Co. (HEC), dotycząca wzajemnych roszczeń związanych z Projektem Polimery Police. Kontrakt EPC zostanie uznany za definitywnie rozwiązany ze skutkiem od 1 września 2025 roku.
 
-### Rekordowa wycena OpenAI
+Warunki transakcji przewidują płatności w formule earn-out dla kluczowych wierzycieli uczestniczących w restrukturyzacji GAP, przysługujące po uprzednim odzyskaniu przez Orlen zaangażowanych środków, naliczanych w maksymalnym okresie do 12 lat.
 
-OpenAI zamknęło rekordową rundę finansowania o wartości $122 mld, osiągając wycenę post-money na poziomie $852 mld USD – poinformował CNBC. To największa runda w historii firmy technologicznej. Bloomberg i Forbes również potwierdzają doniesienia.
+26 marca zarząd i rada nadzorcza Orlenu wyraziły zgodę na realizację transakcji.
 
-### Płotka A4: 36 zł na odcinku Katowice-Kraków
-
-Od 1 kwietnia wchodzi podwyżka opłat za przejazd płatnym odcinkiem autostrady A4 Katowice-Kraków. Zarządca koncesyjny mówi o "technicznej korekcie", która nie odzwierciedla w pełni realnego wzrostu kosztów.
-
-### Orlen przejmie Azoty Polyolefins
-
-Orlen zawarł przedwstępną umowę nabycia wszystkich akcji Grupy Azoty Polyolefins. Finansowanie o wartości 1,35 mld zł ma rozwiązać wieloletni problem "Polimerów Police".
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Orlen-ma-przedwstepna-umowe-nabycia-wszystkich-akcji-Grupy-Azoty-Polyolefins-9107601.html){rel="nofollow"}, [Stooq.pl/PAP](https://stooq.pl/n/?f=1748861){rel="nofollow"}
 
 ---
 
-## Źródła
+### Asseco Poland z zyskiem powyżej konsensusu w Q4 2025
 
-- [Wojna USA z Iranem bliska końca? Trump: Wkrótce stąd odejdziemy](https://www.bankier.pl/wiadomosc/Wojna-USA-z-Iranem-bliska-konca-Trump-Wkrotce-stad-odejdziemy-9107629.html){rel="nofollow"}
-- [Ropa drożeje pomimo zapowiedzi USA o zbliżającym się końcu konfliktu w Iranie](https://www.bankier.pl/wiadomosc/Ropa-drozeje-pomimo-zapowiedzi-USA-o-zblizajacym-sie-koncu-konfliktu-w-Iranie-9107649.html){rel="nofollow"}
-- [Brent crude hits $116 a barrel as Trump threatens to 'blow up' Iran's oilwells](https://www.theguardian.com/business/2026/mar/30/price-of-oil-trump-iran-stock-markets-middle-east){rel="nofollow"}
-- [OpenAI Valued at $852 Billion After Completing $122 Billion Round](https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round){rel="nofollow"}
-- [36 zł za przejazd A4 Katowice-Kraków. "Techniczna korekta" cen](https://www.bankier.pl/wiadomosc/36-zl-za-przejazd-A4-Katowice-Krakow-Techniczna-korekta-cen-9107545.html){rel="nofollow"}
-- [Orlen ma przedwstępną umowę nabycia wszystkich akcji Grupy Azoty Polyolefins](https://www.bankier.pl/wiadomosc/Orlen-ma-przedwstepna-umowe-nabycia-wszystkich-akcji-Grupy-Azoty-Polyolefins-9107601.html){rel="nofollow"}
+Asseco Poland miało w czwartym kwartale 2025 roku **685,5 mln zł zysku netto** jednostki dominującej, przy konsensusie PAP Biznes na poziomie 675,9 mln zł. Zysk netto z działalności kontynuowanej w IV kw. wyniósł 183,1 mln zł (konsensus: 165,8 mln zł).
+
+Skonsolidowany portfel zamówień Grupy Asseco na 2026 rok wynosi **10,27 mld zł** wobec 9,086 mld zł w tym samym okresie 2025 roku, co oznacza wzrost o 13 proc. (w kursach stałych).
+
+Zarząd rekomenduje wypłatę dywidendy w wysokości **13,05 zł na akcję** z zysku za 2025 rok. Grupa sfinalizowała 13 akwizycji w 2025 roku i rozważa kolejne przejęcia.
+
+W 2025 roku Grupa Asseco wypracowała 16,8 mld zł przychodów ze sprzedaży, a rekordowy zysk netto przypisany akcjonariuszom jednostki dominującej wyniósł 1,1 mld zł (wzrost o 119 proc. r/r).
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Asseco-Poland-mialo-w-IV-kw-685-5-mln-zl-zysku-netto-konsensus-675-9-mln-zl-9107470.html){rel="nofollow"}, [PAP Biznes](https://biznes.pap.pl/wiadomosci/firmy/asseco-poland-mialo-w-iv-kw-6855-mln-zl-zysku-netto-konsensus-6759-mln-zl){rel="nofollow"}
+
+---
+
+## 📈 Nastroje przed sesją
+
+### WIG30 - sygnał zielonego światła, ale historia ostrzega
+
+Analitycy BM mBank wskazują, że indeks WIG30 generuje pozytywny sygnał techniczny, jednak historyczne dane sugerują ostrożność. W poprzednich przypadkach, gdy indeks znajdował się w podobnej konfiguracji, wzrosty bywały ograniczone.
+
+Inwestorzy powinni zachować czujność i nie podejmować pochopnych decyzji na podstawie pojedynczego sygnału technicznego.
+
+Źródła: [Stooq.pl/BM mBank](https://stooq.pl/n/?f=1748863){rel="nofollow"}
+
+---
+
+## 🏠 Rynek nieruchomości
+
+### Spadek cen mieszkań w III kwartale
+
+Średnia cena metra kwadratowego mieszkań w III kwartale spadła o **0,47 proc. mdm** – wynika z danych Tabelaofert.pl. Dane wskazują na kontynuację korekty na rynku nieruchomości mieszkaniowych.
+
+Źródła: [Stooq.pl/PAP](https://stooq.pl/n/?f=1748875){rel="nofollow"}
+
+---
+
+## 💼 Wyniki spółek
+
+### PGE z wynikami za 2025 rok
+
+Grupa PGE miała wstępnie **12,89 mld zł** powtarzalnego zysku EBITDA w 2025 roku – wynika z danych wstępnych opublikowanych przez spółkę. Jednocześnie szacowana strata netto wyniosła ok. 3,5 mld zł.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/PGE-POLSKA-GRUPA-ENERGETYCZNA-S-A-Szacunkowe-wybrane-dane-finansowe-i-operacyjne-za-rok-2025-9107479.html){rel="nofollow"}, [PAP MediaRoom](https://pap-mediaroom.pl/biznes-i-finanse/pge-sa-152026-szacunkowe-wybrane-dane-finansowe-i-operacyjne-za-rok-2025){rel="nofollow"}, [WNP.PL](https://www.wnp.pl/energia/pge-zanotowala-kilkumiliardowa-strate-za-2025-rok,1048170.html){rel="nofollow"}
+
+### Ferro z wynikami za 2025 rok
+
+Grupa Ferro osiągnęła w 2025 roku **68,73 mln zł zysku netto** oraz **103,36 mln zł zysku EBITDA**. W samym IV kwartale 2025 roku zysk netto wyniósł 18,9 mln zł.
+
+Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/FERRO-S-A-Wyniki-finansowe-SRR-2025-9107348.html){rel="nofollow"}, [Parkiet.com](https://www.parkiet.com/komunikaty-espi/art44078191-ferro-spolka-akcyjna-rr-2025-formularz-dla-raportow-rocznych){rel="nofollow"}
+
+---
+
+## 📊 Podsumowanie
+
+| Wydarzenie | Data | Źródła |
+|------------|------|--------|
+| Orlen przejmuje GAP | 01.04.2026 | Bankier, PAP |
+| Asseco Poland Q4 | 31.03.2026 | Bankier, PAP Biznes |
+| WIG30 sygnał techniczny | 01.04.2026 | BM mBank |
+| Ceny mieszkań -0,47% mdm | 01.04.2026 | PAP |
+| PGE wyniki 2025 | 01.04.2026 | Bankier, PAP, WNP.PL |
+| Ferro wyniki 2025 | 31.03.2026 | Bankier, Parkiet |
+
+---
+
+*Data przygotowania: 1 kwietnia 2026, godz. 08:30 CET*
+*Źródła: Bankier.pl, PAP Biznes, PAP MediaRoom, Parkiet.com, BM mBank, WNP.PL*
