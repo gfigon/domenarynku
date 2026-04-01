@@ -1,0 +1,42 @@
+---
+title: "Prasówka GPW – 1 kwietnia 2026"
+date: "2026-04-01"
+author: "DomenaRynku.pl"
+description: "Najważniejsze tematy finansowe z poranka przed sesją GPW"
+tags: ["prasowka", "giełda", "gpw", "finanse", "2026"]
+---
+
+# Prasówka GPW – 1 kwietnia 2026
+
+## Podsumowanie poranka
+
+### Giełdy azjatyckie rosną
+
+Azjatyckie giełdy notują wzrosty po deklaracji Donalda Trumpa o zbliżającym się końcu konfliktu z Iranem. Prezydent USA zapowiedział, że "wkrótce stąd odejdziemy", co успокоиło rynki mimo nocnych ataków irańskich dronów na lotnisko w Kuwejcie.
+
+### Ropa drożeje mimo zapowiedzi pokoju
+
+Ceny ropy naftowej zwyżkują, mimo komentarzy prezydenta USA Donalda Trumpa o zbliżającym się zakończeniu wojny z Iranem. W poniedziałek Brent crude sięgnął $115-117 za baryłkę. Inwestorzy wątpią w rychłe zakończenie konfliktu.
+
+### Rekordowa wycena OpenAI
+
+OpenAI zamknęło rekordową rundę finansowania o wartości $122 mld, osiągając wycenę post-money na poziomie $852 mld USD – poinformował CNBC. To największa runda w historii firmy technologicznej. Bloomberg i Forbes również potwierdzają doniesienia.
+
+### Płotka A4: 36 zł na odcinku Katowice-Kraków
+
+Od 1 kwietnia wchodzi podwyżka opłat za przejazd płatnym odcinkiem autostrady A4 Katowice-Kraków. Zarządca koncesyjny mówi o "technicznej korekcie", która nie odzwierciedla w pełni realnego wzrostu kosztów.
+
+### Orlen przejmie Azoty Polyolefins
+
+Orlen zawarł przedwstępną umowę nabycia wszystkich akcji Grupy Azoty Polyolefins. Finansowanie o wartości 1,35 mld zł ma rozwiązać wieloletni problem "Polimerów Police".
+
+---
+
+## Źródła
+
+- [Wojna USA z Iranem bliska końca? Trump: Wkrótce stąd odejdziemy](https://www.bankier.pl/wiadomosc/Wojna-USA-z-Iranem-bliska-konca-Trump-Wkrotce-stad-odejdziemy-9107629.html){rel="nofollow"}
+- [Ropa drożeje pomimo zapowiedzi USA o zbliżającym się końcu konfliktu w Iranie](https://www.bankier.pl/wiadomosc/Ropa-drozeje-pomimo-zapowiedzi-USA-o-zblizajacym-sie-koncu-konfliktu-w-Iranie-9107649.html){rel="nofollow"}
+- [Brent crude hits $116 a barrel as Trump threatens to 'blow up' Iran's oilwells](https://www.theguardian.com/business/2026/mar/30/price-of-oil-trump-iran-stock-markets-middle-east){rel="nofollow"}
+- [OpenAI Valued at $852 Billion After Completing $122 Billion Round](https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round){rel="nofollow"}
+- [36 zł za przejazd A4 Katowice-Kraków. "Techniczna korekta" cen](https://www.bankier.pl/wiadomosc/36-zl-za-przejazd-A4-Katowice-Krakow-Techniczna-korekta-cen-9107545.html){rel="nofollow"}
+- [Orlen ma przedwstępną umowę nabycia wszystkich akcji Grupy Azoty Polyolefins](https://www.bankier.pl/wiadomosc/Orlen-ma-przedwstepna-umowe-nabycia-wszystkich-akcji-Grupy-Azoty-Polyolefins-9107601.html){rel="nofollow"}
