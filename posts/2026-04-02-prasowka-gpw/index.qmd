@@ -1,65 +1,91 @@
 ---
 title: "Prasówka GPW - 2 kwietnia 2026"
-pagetitle: "Prasówka GPW 02.04.2026 | DomenaRynku.pl"
 date: "2026-04-02"
-date-modified: last-modified
-categories: [Prasówka, GPW, WIG20, Trump, ropa, Amazon, Globalstar, NATO, Polska]
-format:
-  html:
-    header-includes: |
-      <meta name="description" content="Przegląd najważniejszych wydarzeń finansowych z 2 kwietnia 2026 przed sesją GPW: ropa gwałtownie drożeje po orędziu Trumpa, Amazon chce przejąć Globalstar, Trump krytykuje NATO.">
-      <meta name="keywords" content="GPW, WIG20, Trump, ropa, ropa naftowa, Amazon, Globalstar, Starlink, NATO, inflacja, Polska, giełda">
+editor_options:
+  chunk_output_type: console
 ---
 
-Czwartek, 2 kwietnia 2026. Poranne podsumowanie najważniejszych wydarzeń finansowych przed otwarciem sesji na GPW.
+```{r setup, include=FALSE}
+Sys.setenv(TZ = "Europe/Warsaw")
+```
 
-## Kluczowe tematy poranka
+# 📈 Prasówka GPW — 2 kwietnia 2026 (8:30)
 
-### Ropa naftowa gwałtownie drożeje po orędziu Trumpa
-
-Ceny ropy naftowej wystrzeliły w górę po orędziu prezydenta USA Donalda Trumpa, który zapowiedział "bardzo mocne" ataki na Iran w ciągu najbliższych 2-3 tygodni.
-
-**Brent wzrósł o 4,5% do 105,77 USD za baryłkę**, a amerykańska WTI podrożała o 3,6%. Trump podkreślił, że wzrost cen benzyny wynika z ataków irańskiego reżimu na tankowce i kraje sąsiednie. Wcześniejsze nadzieje na szybki koniec konfliktu na Bliskim Wschodzie, które napędzały wzrosty na giełdach, teraz topnieją.
-
-[Money.pl - Trump straszy Iran. Ropa znów w górę](https://www.money.pl/gospodarka/trump-straszy-iran-ropa-znow-w-gore-7270819925584096a.html){rel="nofollow"}
-
-[Business Insider - Cofniemy ich do ery kamienia łupanego](https://businessinsider.com.pl/gospodarka/cena-ropy-rosnie-po-slowach-donalda-trumpa-uderzymy-niezwykle-mocno/64f1rl8){rel="nofollow"}
-
-### Amazon w rozmowach o przejęciu Globalstar za 9 mld USD
-
-Amazon prowadzi zaawansowane rozmowy w sprawie przejęcia operatora satelitarnego Globalstar – donosi "Financial Times". Transakcja mogłaby wzmocnić pozycję Amazon w globalnym wyścigu o internet satelitarny i stanowić konkurencję dla SpaceX Starlink.
-
-Globalstar to firma stojąca za funkcją SOS via Satellite w iPhone'ach i Apple Watch. Apple posiada 20% udział w spółce, co komplikuje negocjacje. Akcje Globalstar wzrosły o ponad 15% po informacji o potencjalnym przejęciu.
-
-[Reuters - Amazon eyes $9 billion Globalstar deal](https://www.reuters.com/business/media-telecom/amazon-talks-buy-9-billion-satellite-group-globalstar-ft-reports-2026-04-01/){rel="nofollow"}
-
-[CNBC - Globalstar stock surges on Amazon acquisition report](https://www.cnbc.com/2026/04/01/globalstar-stock-pops-15percent-on-report-amazon-is-weighing-an-acquisition.html){rel="nofollow"}
-
-### Trump znów krytykuje NATO: "papierowy tygrys"
-
-Prezydent USA Donald Trump ponownie nazwał Sojusz Północnoatlantycki "papierowym tygrysem" i oświadczył, że "poważnie rozważa" wyjście Stanów Zjednoczonych z NATO. W orędziu do narodu stwierdził, że USA nie potrzebują NATO, a niektórzy sojusznicy w Sojuszu są "bardzo źli".
-
-Trump wyjawił, że nigdy nie był przekonany do NATO, a Putin "też o tym wie". Krytyka padła w kontekście braku wsparcia europejskich sojuszników dla amerykańskiej operacji w Iranie.
-
-[Rzeczpospolita - Donald Trump mówi, że NATO to papierowy tygrys](https://www.rp.pl/polityka/art44087421-donald-trump-mowi-ze-nato-to-papierowy-tygrys-europejscy-sprzymierzency-usa-bronia-sojuszu){rel="nofollow"}
-
-[Euronews - Trump considers pulling US out of NATO](https://www.euronews.com/2026/04/01/trump-considers-pulling-us-out-of-paper-tiger-nato){rel="nofollow"}
-
-### Prawie połowa Polaków ogranicza zakupy przez wojnę w Zatoce Perskiej
-
-**46,5% badanych przez IBRiS** ogranicza zakupy po tym, jak wojna w Zatoce Perskiej podniosła ceny paliw i inflację – pisze "Rzeczpospolita". Blisko połowa Polaków zaciska pasa w odpowiedzi na wzrost cen wywołany napięciami na Bliskim Wschodzie.
-
-To bezpośredni efekt rosnących cen paliw, które przekładają się na wyższe koszty transportu i inflację konsumencką. Ekonomiści prognozują, że od marca inflacja wzrośnie do okolic 3%.
-
-[PropertyNews.pl - Polacy ograniczają wydatki po wzroście cen paliw](https://www.propertynews.pl/centra-handlowe/polacy-ograniczaja-wydatki-po-wzroscie-cen-paliw,197525.html){rel="nofollow"}
-
-## Co dalej na GPW?
-
-Sesja w czwartek rozpocznie się pod znakiem niepewności związanej z sytuacją na Bliskim Wschodzie. Gwałtowne wzrosty cen ropy mogą przełożyć się na zachowanie krajowych spółek paliwowych i energetycznych. Warto obserwować:
-
-- **PKN Orlen** i sektory paliwowy/energetyczny
-- **Walory zagrożone inflacją** (konsumpcyjne, detaliczne)
-- **Globalne napięcia geopolityczne** wpływające na sentyment inwestorów
+**Nastroje przed sesją:** Niepewność na rynkach globalnych po orędziu Trumpa. Azjatyckie giełdy na minusach. Ceny ropy w górę.
 
 ---
-*Źródła: Bankier.pl, Money.pl, Business Insider, Reuters, CNBC, Euronews, Rzeczpospolita, PropertyNews*
+
+## 🔥 Temat dnia: Wojna na Bliskim Wschodzie eskaluje
+
+### Trump zapowiada intensywne ataki na Iran
+Prezydent USA Donald Trump w orędziu do narodu zapowiedział **bardziej agresywne ataki na Iran w ciągu 2-3 tygodni**. Jak stwierdził: "Przywrócimy ich do epoki kamienia". Trump zasugerował również, że USA nie potrzebują cieśniny Ormuz i wezwał sojuszników do jej odblokowania.
+
+Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/Rynki-wrzucaja-wsteczny-bieg-po-oredziu-Trumpa-Ceny-ropy-ostro-w-gore-9108341.html){rel="nofollow"} (02.04.2026), [Money.pl](https://www.money.pl/gospodarka/trump-zapowiada-zblizajacy-sie-koniec-wojny-oto-co-sie-dzieje-z-cenami-ropy-7270494010509504a.html){rel="nofollow"} (01.04.2026)
+
+### Ceny ropy gwałtownie w górę
+Po orędziu Trumpa ceny ropy wystrzeliły:
+- **Brent**: ok. 107 dol. za baryłkę (+5,75%)
+- **WTI**: ok. 105 dol. za baryłkę (+~5%)
+
+Wcześniej Brent zbliżał się do 100 dol. za baryłkę.
+
+Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/Rynki-wrzucaja-wsteczny-bieg-po-oredziu-Trumpa-Ceny-ropy-ostro-w-gore-9108341.html){rel="nofollow"} (02.04.2026), [Money.pl](https://www.money.pl/gospodarka/trump-zapowiada-zblizajacy-sie-koniec-wojny-oto-co-sie-dzieje-z-cenami-ropy-7270494010509504a.html){rel="nofollow"} (01.04.2026)
+
+### Reakcja giełd
+- **Nikkei**: -2,40% (po +4% poprzedniej sesji)
+- **KOSPI** (Korea Pd.): -4,10%
+- **Tajwan**: -1,81%
+- **Hang Seng**: -1,3%
+- **Kontrakty S&P500**: -1,21%
+- **Kontrakty Nasdaq**: -1,54%
+
+---
+
+## 📊 Surowce i waluty
+
+### Metale szlachetne — korekta
+- **Złoto**: -2,4% do ok. 4650 dol. za uncję
+- **Srebro**: -5,9% do 71,59 dol. za uncję
+
+### Krytptowaluty — spadki
+- **Bitcoin**: spadek z 68 600 dol. do 66 400 dol.
+- **Ethereum**: ok. 2040 dol.
+
+---
+
+## 🏢 Informacje ze spółek
+
+### Amazon chce przejąć Globalstar
+Amazon prowadzi zaawansowane rozmowy w sprawie przejęcia operatora satelitarnego Globalstar — donosi "Financial Times". Celem wzmocnienie pozycji w globalnym wyścigu o internet satelitarny.
+
+Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/Amazon-chce-przejac-satelitarnego-operatora-Globalstar-Kurs-spolki-w-gore-9108299.html){rel="nofollow"} (02.04.2026)
+
+### Rekordowy przetarg IT dla szkół w zawieszeniu
+NASK i Ministerstwo Cyfryzacji zawiadomiły prokuraturę w sprawie oferenta (firma Galaxy) w największym przetargu polskiej administracji na sprzęt IT dla szkół. Spółka uważa zarzuty za bezpodstawne.
+
+Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/Rekordowy-przetarg-IT-dla-szkol-w-zawieszeniu-NASK-zawiadamia-prokurature-9108324.html){rel="nofollow"} (02.04.2026)
+
+---
+
+## 🇬🇧 Globalne
+
+### Artemis II wystartowała
+Z Centrum Kosmicznego im. Kennedy'ego na Florydzie wystartowała załogowa misja NASA Artemis II — pierwsza taka misja księżycowa z udziałem ludzi od 53 lat. Misja potrwa 10 dni.
+
+Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/Historyczny-start-misji-Artemis-II-Astronauci-wracaja-w-okolice-Ksiezyca-po-53-latach-9108278.html){rel="nofollow"} (02.04.2026)
+
+### USA znoszą sankcje wobec prezydentki Wenezueli
+Stany Zjednoczone uchyliły sankcje wobec prezydentki Wenezueli — donosi Money.pl.
+
+Źródło: [Money.pl](https://www.money.pl/finanse/jest-decyzja-usa-uchylono-sankcje-wobec-prezydentki-wenezueli-7270821621971136a.html){rel="nofollow"} (02.04.2026)
+
+---
+
+## 🔗 Źródła
+
+- [Bankier.pl](https://www.bankier.pl/wiadomosci){rel="nofollow"}
+- [Money.pl](https://www.money.pl/gospodarka/){rel="nofollow"}
+
+---
+
+*Przygotowano: 2 kwietnia 2026, 8:30*
