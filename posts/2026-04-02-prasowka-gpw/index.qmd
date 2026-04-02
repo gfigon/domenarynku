@@ -1,0 +1,65 @@
+---
+title: "Prasówka GPW - 2 kwietnia 2026"
+pagetitle: "Prasówka GPW 02.04.2026 | DomenaRynku.pl"
+date: "2026-04-02"
+date-modified: last-modified
+categories: [Prasówka, GPW, WIG20, Trump, ropa, Amazon, Globalstar, NATO, Polska]
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Przegląd najważniejszych wydarzeń finansowych z 2 kwietnia 2026 przed sesją GPW: ropa gwałtownie drożeje po orędziu Trumpa, Amazon chce przejąć Globalstar, Trump krytykuje NATO.">
+      <meta name="keywords" content="GPW, WIG20, Trump, ropa, ropa naftowa, Amazon, Globalstar, Starlink, NATO, inflacja, Polska, giełda">
+---
+
+Czwartek, 2 kwietnia 2026. Poranne podsumowanie najważniejszych wydarzeń finansowych przed otwarciem sesji na GPW.
+
+## Kluczowe tematy poranka
+
+### Ropa naftowa gwałtownie drożeje po orędziu Trumpa
+
+Ceny ropy naftowej wystrzeliły w górę po orędziu prezydenta USA Donalda Trumpa, który zapowiedział "bardzo mocne" ataki na Iran w ciągu najbliższych 2-3 tygodni.
+
+**Brent wzrósł o 4,5% do 105,77 USD za baryłkę**, a amerykańska WTI podrożała o 3,6%. Trump podkreślił, że wzrost cen benzyny wynika z ataków irańskiego reżimu na tankowce i kraje sąsiednie. Wcześniejsze nadzieje na szybki koniec konfliktu na Bliskim Wschodzie, które napędzały wzrosty na giełdach, teraz topnieją.
+
+[Money.pl - Trump straszy Iran. Ropa znów w górę](https://www.money.pl/gospodarka/trump-straszy-iran-ropa-znow-w-gore-7270819925584096a.html){rel="nofollow"}
+
+[Business Insider - Cofniemy ich do ery kamienia łupanego](https://businessinsider.com.pl/gospodarka/cena-ropy-rosnie-po-slowach-donalda-trumpa-uderzymy-niezwykle-mocno/64f1rl8){rel="nofollow"}
+
+### Amazon w rozmowach o przejęciu Globalstar za 9 mld USD
+
+Amazon prowadzi zaawansowane rozmowy w sprawie przejęcia operatora satelitarnego Globalstar – donosi "Financial Times". Transakcja mogłaby wzmocnić pozycję Amazon w globalnym wyścigu o internet satelitarny i stanowić konkurencję dla SpaceX Starlink.
+
+Globalstar to firma stojąca za funkcją SOS via Satellite w iPhone'ach i Apple Watch. Apple posiada 20% udział w spółce, co komplikuje negocjacje. Akcje Globalstar wzrosły o ponad 15% po informacji o potencjalnym przejęciu.
+
+[Reuters - Amazon eyes $9 billion Globalstar deal](https://www.reuters.com/business/media-telecom/amazon-talks-buy-9-billion-satellite-group-globalstar-ft-reports-2026-04-01/){rel="nofollow"}
+
+[CNBC - Globalstar stock surges on Amazon acquisition report](https://www.cnbc.com/2026/04/01/globalstar-stock-pops-15percent-on-report-amazon-is-weighing-an-acquisition.html){rel="nofollow"}
+
+### Trump znów krytykuje NATO: "papierowy tygrys"
+
+Prezydent USA Donald Trump ponownie nazwał Sojusz Północnoatlantycki "papierowym tygrysem" i oświadczył, że "poważnie rozważa" wyjście Stanów Zjednoczonych z NATO. W orędziu do narodu stwierdził, że USA nie potrzebują NATO, a niektórzy sojusznicy w Sojuszu są "bardzo źli".
+
+Trump wyjawił, że nigdy nie był przekonany do NATO, a Putin "też o tym wie". Krytyka padła w kontekście braku wsparcia europejskich sojuszników dla amerykańskiej operacji w Iranie.
+
+[Rzeczpospolita - Donald Trump mówi, że NATO to papierowy tygrys](https://www.rp.pl/polityka/art44087421-donald-trump-mowi-ze-nato-to-papierowy-tygrys-europejscy-sprzymierzency-usa-bronia-sojuszu){rel="nofollow"}
+
+[Euronews - Trump considers pulling US out of NATO](https://www.euronews.com/2026/04/01/trump-considers-pulling-us-out-of-paper-tiger-nato){rel="nofollow"}
+
+### Prawie połowa Polaków ogranicza zakupy przez wojnę w Zatoce Perskiej
+
+**46,5% badanych przez IBRiS** ogranicza zakupy po tym, jak wojna w Zatoce Perskiej podniosła ceny paliw i inflację – pisze "Rzeczpospolita". Blisko połowa Polaków zaciska pasa w odpowiedzi na wzrost cen wywołany napięciami na Bliskim Wschodzie.
+
+To bezpośredni efekt rosnących cen paliw, które przekładają się na wyższe koszty transportu i inflację konsumencką. Ekonomiści prognozują, że od marca inflacja wzrośnie do okolic 3%.
+
+[PropertyNews.pl - Polacy ograniczają wydatki po wzroście cen paliw](https://www.propertynews.pl/centra-handlowe/polacy-ograniczaja-wydatki-po-wzroscie-cen-paliw,197525.html){rel="nofollow"}
+
+## Co dalej na GPW?
+
+Sesja w czwartek rozpocznie się pod znakiem niepewności związanej z sytuacją na Bliskim Wschodzie. Gwałtowne wzrosty cen ropy mogą przełożyć się na zachowanie krajowych spółek paliwowych i energetycznych. Warto obserwować:
+
+- **PKN Orlen** i sektory paliwowy/energetyczny
+- **Walory zagrożone inflacją** (konsumpcyjne, detaliczne)
+- **Globalne napięcia geopolityczne** wpływające na sentyment inwestorów
+
+---
+*Źródła: Bankier.pl, Money.pl, Business Insider, Reuters, CNBC, Euronews, Rzeczpospolita, PropertyNews*
