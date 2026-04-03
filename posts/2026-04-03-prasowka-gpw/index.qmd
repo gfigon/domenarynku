@@ -1,0 +1,58 @@
+---
+title: "Prasówka GPW - 3 kwietnia 2026"
+date: "2026-04-03"
+description: "Najważniejsze wiadomości finansowe z poranka przed sesją GPW"
+keywords: "GPW, giełda, finanse, prasówka, 2026"
+image: "/images/prasowka-gpw.jpg"
+robots: "index, follow"
+---
+
+# Poranne wiadomości finansowe - 3 kwietnia 2026
+
+## Najważniejsze tematy z rynku polskiego
+
+### Ceny paliw - lekki spadek przed Wielkanocą
+
+W Wielki Piątek (3 kwietnia) kierowcy w Polsce zapłacą nieco mniej za paliwo niż w czwartek. Minister energii Miłosz Motyka ogłosił nowe maksymalne ceny detaliczne:
+
+- **Benzyna 95**: 6,19 zł/l (spadek z 6,23 zł)
+- **Benzyna 98**: 6,80 zł/l (spadek z 6,84 zł)  
+- **Olej napędowy**: 7,64 zł/l (spadek z 7,65 zł)
+
+Zmiany są kosmetyczne, ale kierowcy mogą liczyć na niższe ceny przed świątecznym weekendem. Ceny są ustalane codziennie przezministra energii na podstawie algorytmu uwzględniającego średnie ceny hurtowe z poprzedniego dnia roboczego, VAT, akcyzę, opłatę paliwową oraz stałą kwotę 0,30 zł na litr pokrywającą koszty operacyjne sprzedaży.
+
+*Źródła: [Gov.pl](https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-3-kwietnia){rel="nofollow"}, [RP.pl](https://energia.rp.pl/paliwa/art44095021-rzad-oglasza-stawki-paliw-na-3-kwietnia-lekkie-spadki-wszystkich-paliw){rel="nofollow"}*
+
+---
+
+### Orlen przejmuje Azoty Polyolefins za 1,183 mld zł
+
+PKN Orlen zawarł przedwstępną umowę nabycia wszystkich akcji Grupy Azoty Polyolefins (GAP), zwiększając swój udział z 17,3% do 100%. To kluczowy krok w strategii płockiego koncernu, który umacnia pozycję w segmencie petrochemicznym w Europie.
+
+Wartość transakcji wynosi 1,183 mld zł. Orlen dostarczy także finansowanie o łącznej wartości 1,35 mld zł. Spółka odpowiada za realizację projektu Polimery Police, a uruchomienie produkcji planowane jest na 2027 rok.
+
+Jednocześnie Grupa Energa przeprowadzi emisję akcji o wartości 5 mld zł, co może przybliżyć Orlen do pełnego przejęcia tej spółki energetycznej.
+
+*Źródła: [Inżynieria.com](https://inzynieria.com/przemysl/wiadomosci/100161,orlen-przejmuje-azoty-polyolefins-wzmocni-pozycje-w-europie){rel="nofollow"}, [Polski Portal Morski](https://polskamorska.pl/2026/04/02/orlen-ma-przedwstepna-umowe-nabycia-wszystkich-akcji-grupy-azoty-polyolefins/){rel="nofollow"}*
+
+---
+
+### Rynek energii elektrycznej
+
+**Nowe taryfy URE od 1 kwietnia**: Od czwartku obowiązują nowe taryfy zatwierdzone przez Prezesa Urzędu Regulacji Energetyki. Średnia cena energii wynosi 495 zł za MWh dla wszystkich odbiorców.
+
+**Ryczałt energetyczny**: Po marcowej waloryzacji stawka wynosi 336,16 zł miesięcznie. Nabór wniosków w programie "Mój Prąd 6.0" trwa do 24 kwietnia 2026 r. lub do wyczerpania środków, a dofinansowanie może wynieść nawet 28 tys. zł.
+
+---
+
+### Giełda w przededniu świąt
+
+Przed świątecznym weekendem GPW notuje stabilne nastroje. Inwestorzy obserwują rozwój sytuacji na Bliskim Wschodzie oraz amerykańską politykę celną wobec farmaceutyków (100% cła na niektóre leki, 20% dla firm produkujących w USA).
+
+**Kalendarz na dziś**: 
+- Brak istotnych danych makro z Polski
+- Święta wielkanocne w piątek i poniedziałek - GPW zamknięta
+
+---
+
+*Źródło wiadomości: Bankier.pl, Money.pl, Gov.pl, RP.pl*
