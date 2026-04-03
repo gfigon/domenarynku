@@ -1,0 +1,101 @@
+---
+title: "Prasówka Światowa - 3 kwietnia 2026"
+date: "2026-04-03"
+description: "Najważniejsze wydarzenia ze świata - geopolityka, makroekonomia, rynki"
+author: "DomenaRynku.pl"
+image: "/images/news-2026-04-03.jpg"
+tags: [prasówka, świat, geopolityka, Iran, USA,Ukraina, Chiny]
+categories: [News, Świat]
+robots: "index, follow"
+canonical: "https://domenarynku.pl/posts/2026-04-03-prasowka-swiat/"
+---
+
+::: {.grid-article}
+
+# Prasówka Światowa — 3 kwietnia 2026
+
+## Wojna Iran-Izrael eskaluje
+
+Światowe rynki naftowe reagują gwałtownie na kontynuację konfliktu na Bliskim Wschodzie. W piątek Iran przeprowadził nową salwę rakietową na Izrael, a izraelskie systemy obrony powietrznej zostały aktywowane do przechwytywania zagrożenia. To kolejna odsłona eskalacji, która trwa od ponad miesiąca.
+
+**Ataki na Kuwejt**: Irańskie drony trafiły w rafinerię naftową Mina al-Ahmadi w Kuwejcie — to już trzeci atak na ten obiekt w ciągu dwóch tygodni. Kuwait Petroleum Corporation potwierdziła pożar w kilku jednostkach operacyjnych, ale nie ma doniesień o poszkodowanych. Atak wywołał nowe obawy o stabilność dostaw ropy z Zatoki Perskiej.
+
+**Trump grozi Iranowi**: Prezydent USA zapowiedział, że USA "zniszczy" irańskie mosty i elektrownie, jeśli Iran nie zakończy ataków. W materiałach udostępnionych w mediach społecznościowych Trump pokazał nagranie zniszczenia irańskiego mostu, ostrzegając, że "to jeszcze nie koniec".
+
+**IRGC twierdzi zestrzelenie F-35**: Irańska Gwardia Rewolucyjna (IRGC) oświadczyła, że w piątek zestrzeliła kolejny amerykański myśliwiec F-35 nad centralnym Iranem. Jeśli informacja się potwierdzi, będzie to drugi zestrzelony F-35 w ciągu kilku dni.
+
+**Irańskie groźby odwetowe**: Rzecznik irańskiego dowództwa Khatam al-Anbiya ostrzegł, że Iran odpowie atakami na infrastrukturę energetyczną i technologiczną firm w regionie, jeśli USA zaatakują irańskie elektrownie.
+
+**Pożar w ZEA**: W piątek wybuchł pożar w zakładzie gazowym Habshan w Zjednoczonych Emiratach Arabskich, a operacje zostały wstrzymane.
+
+### Rynki naftowe
+
+Ceny ropy continue rosną:
+- **Brent**: $109.24 (+8.98%)
+- **WTI**: $112.34 (+13.62%)
+
+Indeksy giełdowe:
+- **DAX**: 22,973.86 (-1.08%)
+- **FTSE 100**: 10,422.06 (+0.45%)
+- **S&P 500**: 6,578.60 (+0.13%)
+- **Nasdaq**: 24,031.67 (+0.10%)
+
+---
+
+## USA: Zmiany w administracji
+
+Prezydent Trump przeprowadza kolejne roszady w administracji. W piątek usunął prokuratora generalną Pam Bondi, której kadencja była naznaczona kontrowersjami wokół dokumentów Epsteina. Tymczasowym prokuratorem generalnym został Todd Blanche, który wcześniej reprezentował Trumpa w sprawie o łapówkę.
+
+Sekretarz obrony Pete Hegseth poprosił o dymisję najwyższego rangą generała armii USA — generała Randy'ego George'a, nominowanego przez Bidena w 2023 roku.
+
+**Stawki celne na leki**: Trump ogłosił 100% cło na leki, aby zmusić firmy farmaceutyczne do obniżenia cen w USA. Efekty tej polityki pozostają niepewne.
+
+---
+
+## Ukraina: Rosja intensyfikuje ataki
+
+Rosja kontynuuje intensywne naloty na Ukraine. W czwartek wieczorem i w piątek rosyjskie siły wystrzeliły ponad 400 pocisków manewrowych i 10 rakiet balistycznych w ukraińską przestrzeń powietrzną.
+
+**Stanowisko Rosji wobec UE**: Wiceszef Rady Bezpieczeństwa Rosji Dmitrij Medvedev oświadczył, że Moskwa powinna porzucić "tolerancyjne" stanowisko wobec akcesji Ukrainej do Unii Europejskiej.
+
+---
+
+## Chiny vs USA w sporze o Kanał Panamski
+
+Chiny oskarżyły USA o ukrywanie własnych ambicji terytorialnych wobec Kanału Panamskiego. Rzeczniczka chińskiego MSZ Mao Ning odrzuciła amerykańskie oskarżenia dotyczące statków pod panamską banderą, nazywając je "całkowicie bezpodstawnymi". Spór wpisuje się w szerszą konfrontację handlową i geopolityczną między obiema supermocarstwami.
+
+---
+
+## Biznes i Tech
+
+**Microsoft inwestuje $10 mld w Japonii**: Microsoft planuje zainwestować $10 mld w infrastrukturę AI w Japonii w latach 2026-2029. Inwestycja obejmuje również szkolenie 1 mln programistów do 2030 roku.
+
+**SpaceX planuje IPO o wartości $2 bln**: Według doniesień medialnych SpaceX przygotowuje się do emisji giełdowej z wyceną sięgającą $2 bilionów.
+
+**Amazon wprowadza dopłatę paliwową**: Amazon doda 3.5% dopłatę paliwową dla sprzedawców, co wpłynie na koszty sprzedaży w platformie.
+
+---
+
+## Makroekonomia
+
+**Turcja**: Inflacja wyniosła 30.87% w marcu, spadając z 31.53% w lutym.
+
+**Francja**: Produkcja przemysłowa spadła o 0.7% w lutym.
+
+**UE**: Komisja Europejska ostrzegła, że ceny energii pozostaną wysokie przez "bardzo długi czas" z powodu zakłóceń związanych z wojną w Iranie i niestabilnością na Bliskim Wschodzie.
+
+---
+
+## Inne wydarzenia
+
+- **Artemis II**: Misja Artemis II pomyślnie wystartowała, wynosząc astronautów w pierwszą załogową misję poza orbitę ziemską od 1972 roku.
+- **Kuba**: Kuba zapowiedziała zwolnienie ponad 2000 więźniów pod presją USA, które nałożyły embargo naftowe na wyspę.
+- **Rosja wysyła ropę na Kubę**: Rosja wysyła drugi statek z ropą na Kubę, w odpowiedzi na amerykańską blokadę energetyczną.
+- **Bośnia i Hercegowina**: Reprezentacja Bośni i Hercegowiny wywalczyła historyczny awans na MŚ w Piłce Nożnej, pokonując Włochy.
+- **Myanmar**: Przywódca junty wojskowej Min Aung Hlaing został wybrany prezydentem przez nowo wybrany parlament.
+
+---
+
+*Źródła: BBC News[](https://www.bbc.com/news){rel="nofollow"}, Al Jazeera[](https://www.aljazeera.com/news){rel="nofollow"}, The New York Times[](https://www.nytimes.com){rel="nofollow"}, The Times of Israel[](https://www.timesofisrael.com){rel="nofollow"}, The Independent[](https://www.independent.co.uk){rel="nofollow"}, Breaking The News[](https://breakingthenews.net){rel="nofollow"}*
+
+:::
