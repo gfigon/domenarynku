@@ -1,58 +1,119 @@
 ---
-title: "Prasówka GPW - 3 kwietnia 2026"
+title: "Prasówka GPW – piątek, 3 kwietnia 2026"
 date: "2026-04-03"
-description: "Najważniejsze wiadomości finansowe z poranka przed sesją GPW"
-keywords: "GPW, giełda, finanse, prasówka, 2026"
-image: "/images/prasowka-gpw.jpg"
-robots: "index, follow"
+description: " Poranna prasówka giełdowa: komunikaty ESPI, nastroje przed sesją, kluczowe informacje ze spółek GPW"
+keywords: "GPW, giełda, WIG20, komunikaty ESPI, Develia, Energa, TGE, dywidendy"
+author: "OpenClaw"
 ---
 
-# Poranne wiadomości finansowe - 3 kwietnia 2026
-
-## Najważniejsze tematy z rynku polskiego
-
-### Ceny paliw - lekki spadek przed Wielkanocą
-
-W Wielki Piątek (3 kwietnia) kierowcy w Polsce zapłacą nieco mniej za paliwo niż w czwartek. Minister energii Miłosz Motyka ogłosił nowe maksymalne ceny detaliczne:
-
-- **Benzyna 95**: 6,19 zł/l (spadek z 6,23 zł)
-- **Benzyna 98**: 6,80 zł/l (spadek z 6,84 zł)  
-- **Olej napędowy**: 7,64 zł/l (spadek z 7,65 zł)
-
-Zmiany są kosmetyczne, ale kierowcy mogą liczyć na niższe ceny przed świątecznym weekendem. Ceny są ustalane codziennie przezministra energii na podstawie algorytmu uwzględniającego średnie ceny hurtowe z poprzedniego dnia roboczego, VAT, akcyzę, opłatę paliwową oraz stałą kwotę 0,30 zł na litr pokrywającą koszty operacyjne sprzedaży.
-
-*Źródła: [Gov.pl](https://www.gov.pl/web/energia/maksymalna-cena-detaliczna-paliw-obowiazujaca-3-kwietnia){rel="nofollow"}, [RP.pl](https://energia.rp.pl/paliwa/art44095021-rzad-oglasza-stawki-paliw-na-3-kwietnia-lekkie-spadki-wszystkich-paliw){rel="nofollow"}*
+**Data:** piątek, 3 kwietnia 2026  
+**Godzina:** 08:30  
+**Źródła:** Bankier, Parkiet, wnp.pl, stockwatch.pl
 
 ---
 
-### Orlen przejmuje Azoty Polyolefins za 1,183 mld zł
+## 📈 Nastroje przed sesją
 
-PKN Orlen zawarł przedwstępną umowę nabycia wszystkich akcji Grupy Azoty Polyolefins (GAP), zwiększając swój udział z 17,3% do 100%. To kluczowy krok w strategii płockiego koncernu, który umacnia pozycję w segmencie petrochemicznym w Europie.
+Na wczorajszej sesji (czwartek 2 kwietnia) indeks **WIG20** zakończył dzień wzrostem o **+1,86%** do poziomu 3.402,92 pkt. Mimo to, handel przebiegał w zmiennych nastrojach – rano indeks tracił nawet 1,1% pod wpływem negatywnego sentymentu na rynkach globalnych po przemówieniu Donalda Trumpa. Na ostatniej prostej pomogli inwestorzy z USA, którzy neutralnie rozpoczęli dzień. W efekcie warszawska giełda zachowała się lepiej niż większość rynków w Europie. **mWIG40** zwyżkował o 1,34%, a **sWIG80** o 0,99%.
 
-Wartość transakcji wynosi 1,183 mld zł. Orlen dostarczy także finansowanie o łącznej wartości 1,35 mld zł. Spółka odpowiada za realizację projektu Polimery Police, a uruchomienie produkcji planowane jest na 2027 rok.
+Dzisiaj (piątek 3 kwietnia) sesja może rozpocząć się od lekkich spadków, biorąc pod uwagę niepewność związaną z wielkanocną przerwą oraz kontynuację napięć na Bliskim Wschodzie.
 
-Jednocześnie Grupa Energa przeprowadzi emisję akcji o wartości 5 mld zł, co może przybliżyć Orlen do pełnego przejęcia tej spółki energetycznej.
-
-*Źródła: [Inżynieria.com](https://inzynieria.com/przemysl/wiadomosci/100161,orlen-przejmuje-azoty-polyolefins-wzmocni-pozycje-w-europie){rel="nofollow"}, [Polski Portal Morski](https://polskamorska.pl/2026/04/02/orlen-ma-przedwstepna-umowe-nabycia-wszystkich-akcji-grupy-azoty-polyolefins/){rel="nofollow"}*
+> **⚠️ Uwaga:** GPW będzie zamknięta w piątek 3 kwietnia (Wielki Piątek) oraz w poniedziałek 6 kwietnia (drugi dzień świąt wielkanocnych).
 
 ---
 
-### Rynek energii elektrycznej
+## 🔔 Komunikaty ESPI (ostatnie 48h)
 
-**Nowe taryfy URE od 1 kwietnia**: Od czwartku obowiązują nowe taryfy zatwierdzone przez Prezesa Urzędu Regulacji Energetyki. Średnia cena energii wynosi 495 zł za MWh dla wszystkich odbiorców.
+### Spółki z istotnymi wiadomościami
 
-**Ryczałt energetyczny**: Po marcowej waloryzacji stawka wynosi 336,16 zł miesięcznie. Nabór wniosków w programie "Mój Prąd 6.0" trwa do 24 kwietnia 2026 r. lub do wyczerpania środków, a dofinansowanie może wynieść nawet 28 tys. zł.
+**Energa (ENG)** – Nadzwyczajne Walne Zgromadzenie 2 kwietnia 2026 r. opublikowało treść podjętych i niepodjętych uchwał. [^1]
+
+**Grupa Azoty Police (PCC)** – Wykaz akcjonariuszy posiadających co najmniej 5% głosów na NWZ w dniu 2 kwietnia 2026 r. [^2]
+
+**Selvita (SLV)** – Otrzymanie istotnego zlecenia (raport z 2 kwietnia). [^3]
+
+**IPOPEMA Securities (IPM)** – Powołanie członka Rady Nadzorczej (2 kwietnia). [^4]
+
+**BNP Paribas Bank Polska (BNPPPL)** – Wydanie akcji serii N w ramach warunkowego podwyższenia kapitału zakładowego (2 kwietnia). [^5]
+
+**Biomaxima (BIO)** – Podpisanie znaczącej umowy przez spółkę zależną (2 kwietnia). [^6]
+
+**Sygnity (SGN)** – Nabycie akcji własnych (2 kwietnia). [^7]
+
+**NANOGROUP (NAN)** – Zawiadomienie w trybie art. 69 ustawy o ofercie publicznej (2 kwietnia). [^8]
+
+**Digitree Group (DIG)** – Zawarcie umów istotnych (2 kwietnia). [^9]
 
 ---
 
-### Giełda w przededniu świąt
+## 🏢 Wiadomości ze spółek
 
-Przed świątecznym weekendem GPW notuje stabilne nastroje. Inwestorzy obserwują rozwój sytuacji na Bliskim Wschodzie oraz amerykańską politykę celną wobec farmaceutyków (100% cła na niektóre leki, 20% dla firm produkujących w USA).
+### Develia (DEV) – Rekordowe wyniki w 2025 r.
 
-**Kalendarz na dziś**: 
-- Brak istotnych danych makro z Polski
-- Święta wielkanocne w piątek i poniedziałek - GPW zamknięta
+Zysk netto jednostki dominującej Develii w **IV kwartale 2025 r.** wyniósł **136,4 mln zł** – powyżej konsensusu PAP Biznes na poziomie 114,5 mln zł. Przychody w IV kw. sięgnęły 761,3 mln zł, a EBIT 175,1 mln zł (rynek oczekiwał odpowiednio 742,4 mln zł i 144,7 mln zł).
+
+W całym 2025 roku:
+- Przychody: **2.076,9 mln zł** (vs 1.789,5 mln zł w 2024)
+- Zysk netto: **442,6 mln zł** (vs 379,1 mln zł)
+- Skorygowany zysk netto (polityka dywidendowa): **447,5 mln zł** (vs 352,8 mln zł)
+
+Sprzedaż w 2025 r.: **3.345 lokali** (o 5% więcej niż 3.197 w 2024). Spółka kupiła grunty pod **4.000 lokali** dodatkowo – łączny potencjał to ok. 16 tys. mieszkań.
+
+Prezes Andrzej Oślizło: *„W minionym roku ponownie wypracowaliśmy rekordowe wyniki"*.
+
+[Develia](https://www.bankier.pl/wiadomosc/Zysk-netto-Develii-w-IV-kw-wyniosl-136-4-mln-zl-powyzej-konsensusu-9108984.html){rel="nofollow"}
 
 ---
 
-*Źródło wiadomości: Bankier.pl, Money.pl, Gov.pl, RP.pl*
+## ⚡ Rynek energii (TGE)
+
+**Średnia cena energii** (BASE, rynek dnia następnego) w marcu 2026 r. spadła do **464,70 zł/MWh** z 502,72 zł/MWh miesiąc wcześniej.
+
+**Średnia ważona cena kontraktu** na dostawy gazu BASE_Y-27 wzrosła w marcu o **39,97%** mdm do **191,94 zł/MWh**.
+
+[Wiądomość TGE](https://www.bankier.pl/wiadomosc/Srednia-cena-kontraktu-na-dostawy-energii-na-TGE-w-III-spadla-do-464-7-zl-MWh-9108988.html){rel="nofollow"}
+
+---
+
+## 🔐 Cyberbezpieczeństwo – nowe przepisy KSC
+
+W piątek 3 kwietnia weszła w życie **nowelizacja ustawy o krajowym systemie cyberbezpieczeństwa (KSC)**. Firmy mają czas od 7 maja do 3 października 2026 r. na ocenę, czy należą do KSC i ewentualną rejestrację w specjalnym wykazie.
+
+[Więcej KSC](https://www.bankier.pl/wiadomosc/Cyberbezpieczenstwo-w-firmach-Nowe-przepisy-juz-obowiazuja-Sprawdz-czy-musisz-sie-zarejestrowac-9108978.html){rel="nofollow"}
+
+---
+
+## 💱 Prognozy walutowe (PKO BP)
+
+| Waluta | Kurs na koniec II kw. 2026 |
+|-------|---------------------------|
+| EUR   | 4,28 zł                   |
+| USD   | 3,69 zł                   |
+
+Analitycy PKO BP spodziewają się w II kwartale **deeskalacji konfliktu na Bliskim Wschodzie**.
+
+[Prognozy PKO BP](https://www.bankier.pl/wiadomosc/Prognozy-walutowe-PKO-BP-Tyle-zaplacimy-za-euro-i-dolara-9108977.html){rel="nofollow"}
+
+---
+
+## 📅 Kalendarz dywidendowy
+
+Zbliżające się terminy dywidend na GPW sprawdź w serwisie [PPCG Stock](https://ppcg.com.pl/dywidendy/){rel="nofollow"}.
+
+---
+
+## 🔗 Źródła
+
+[^1]: [Parkiet – Energa NWZ](https://www.parkiet.com/komunikaty-espi/art44100411-energa-spolka-akcyjna-tresc-uchwal-podjetych-i-niepodjetych-przez-nadzwyczajne-walne-zgromadzenie-spolki-energa-sa-w-dniu-2-kwietnia-2026-roku){rel="nofollow"}
+[^2]: [Parkiet – Grupa Azoty Police](https://www.parkiet.com/komunikaty-espi/art44099641-grupa-azoty-zaklady-chemiczne-police-s-a-wykaz-akcjonariuszy-posiadajacych-co-najmniej-5-liczby-glosow-na-nadzwyczajnym-walnym-zgromadzeniu-spolki-grupa-azoty-zaklady-chemiczne-police-s-a-w-dniu-2-kwietnia-2026-roku){rel="nofollow"}
+[^3]: [Parkiet – Selvita](https://www.parkiet.com/komunikaty-espi/art44093521-selvita-spolka-akcyjna-otrzymanie-istotnego-zlecenia-receipt-of-a-significant-purchase-order){rel="nofollow"}
+[^4]: [Parkiet – IPOPEMA](https://www.parkiet.com/komunikaty-espi/art44095991-ipopema-securities-spolka-akcyjna-powolanie-czlonka-rady-nadzorczej){rel="nofollow"}
+[^5]: [Parkiet – BNP Paribas](https://www.parkiet.com/komunikaty-espi/art44098421-bnp-paribas-bank-polska-s-a-wydanie-akcji-serii-n-w-ramach-warunkowego-podwyzszenia-kapitalu-zakladowego-i-zmiana-wartosci-kapitalu-zakladowego-bnp-paribas-bank-polska-s-a){rel="nofollow"}
+[^6]: [Parkiet – Biomaxima](https://www.parkiet.com/komunikaty-espi/art44096631-biomaxima-spolka-akcyjna-podpisanie-znaczacej-umowy-przez-spolke-zalezna){rel="nofollow"}
+[^7]: [Parkiet – Sygnity](https://www.parkiet.com/komunikaty-espi/art44095091-sygnity-sa-nabycie-akcji-wlasnych){rel="nofollow"}
+[^8]: [Parkiet – NANOGROUP](https://www.parkiet.com/komunikaty-espi/art44093571-nanogroup-spolka-akcyjna-zawiadomienie-w-trybie-art-69-ustawy-o-ofercie-publicznej){rel="nofollow"}
+[^9]: [Parkiet – Digitree Group](https://www.parkiet.com/komunikaty-espi/art44095491-digitree-group-spolka-akcyjna-umowy-istotne){rel="nofollow"}
+
+---
+
+*Zestawienie przygotowane na podstawie dostępnych publicznie źródeł. Nie stanowi porady inwestycyjnej.*
