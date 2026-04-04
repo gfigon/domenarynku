@@ -1,0 +1,113 @@
+---
+title: "Prasówka Światowa - 4 kwietnia 2026"
+date: "2026-04-04"
+description: "Najważniejsze wydarzenia ze świata - geopolityka, makroekonomia, rynki"
+author: "DomenaRynku.pl"
+image: "/images/news-2026-04-04.jpg"
+tags: [prasówka, świat, geopolityka, Iran, USA, Ukraina, Rosja, Węgry]
+categories: [News, Świat]
+robots: "index, follow"
+canonical: "https://domenarynku.pl/posts/2026-04-04-prasowka-swiat/"
+---
+
+::: {.grid-article}
+
+# Prasówka Światowa — 4 kwietnia 2026
+
+## Rosja atakuje Ukraine w dzień Wielkanocy
+
+Rosja przeprowadziła masowy atak dronami na Ukraine w piątek, w dniu świąt wielkanocnych. Prezydent Volodymyr Zelensky oskarżył Rosję o "wielkanocną eskalację" zamiast zawieszenia broni.
+
+**Skala ataku**: Rosyjskie siły wystrzeliły ponad 700 dronów, w tym irańskie Shahedy, atakując zachodnie i centralne regiony Ukrainy w rzadkim ataku dziennym. Według Reuters, co najmniej dwie osoby zginęły — jedna w obwodzie żytomierskim, jedna w kijowskim.
+
+Zelensky powiedział na X: "Rosjanie tylko zintensyfikowali swoje uderzenia, zamieniając to, co powinno być ciszą w powietrzu, w wielkanocną eskalację." W niedzielę rosyjskie siły przeprowadziły kolejny atak 286 dronami.
+
+**Ofiary**: W obwodzie kijowskim dron uderzył w blok mieszkalny, powodując pożar. W Charkowie kobieta zginęła, a inne osoby zostały ciężko ranne.
+
+---
+
+## USA: Trump żąda rekordowego budżetu obronnego
+
+Prezydent Donald Trump oficjalnie zwrócił się do Kongresu o zatwierdzenie $1.5 biliona na obronę w roku fiskalnym 2027 — największy budżet obronny w historii USA.
+
+**Szczegóły budżetu**: Według New York Times, zapytanie obejmuje $1.15 biliona jako podstawowy budżet oraz dodatkowe $350 miliardów z procedury reconciliation. NPR podaje, że budżet zakłada 10% cięcia wydatków pozaprzemysłowych poprzez redukcję programów krajowych.
+
+Według Washington Post, to największe zapytanie budżetowe w historii Pentagonu. Politico zauważa, że Biały Dom może mieć trudności z przekonaniem GOP do takiego wydatku w czasie, gdy trwa wojna z Iranem.
+
+---
+
+## USA-Iran: Poszukiwania zaginionego członka załogi
+
+Amerykańskie służby poszukują zaginionego członka załogi amerykańskiego samolotu zestrzelonego nad Iranem. Irańscy oficjale oferują nagrodę za jego "żywe" pojmanie.
+
+BBC donosi, że ekipa ratunkowa w Iranie prowadzi "trudne i niebezpieczne" poszukiwania. Według Al Jazeera, ponad 20 ataków na irańskie placówki medyczne od 1 marca zgłosiła WHO.
+
+**Atak na infrastrukturę UAE**: Co najmniej jedna osoba zginęła w ataku dronów na największy zakład gazowy UAE w Habshan. Al Jazeera podaje, że obiekt poniósł "znaczące szkody" po przechwyceniu ataku przez obronę powietrzną.
+
+---
+
+## Wybory na Węgrzech za 9 dni
+
+Węgry pójdą do urn 12 kwietnia — to będą najważniejsze wybory w Europie w tym roku. Po 16 latach rządów Viktor Orban i jego partia Fidesz walczą o piątą z rzędu wygraną.
+
+Według The Guardian, wybory są jednym z najbardziej śledzonych głosowań w UE w tym roku, odzwierciedlając centralną rolę Węgier w sprawach europejskich. Gallup podaje, że wielu Węgrów uważa politykę za największy problem kraju.
+
+---
+
+## Artemis II: Astronauci w połowie drogi do Księżyca
+
+Załoga misji Artemis II jest w połowie drogi do Księżyca po wykonaniu "spektakularnego" zdjęcia Ziemi. Zdjęcie wykonano z pokładu kapsuły Orion przez dowódcę Reida Wisemana.
+
+Według BBC, astronauci nie wylądują na Księżycu w tej misji, ale NASA przygotowuje potencjalne lądowanie do 2028 roku. Al Jazeera opublikowała pierwsze oszałamiające zdjęcia Ziemi z misji z 3 kwietnia.
+
+---
+
+## USA: Pozwy ws. głosowania korespondencyjnego
+
+Dwadzieścia stanów kierowanych przez demokratów pozwało administrację Trumpa w sprawie ograniczeń głosowania korespondencyjnego — podaje Al Jazeera. Biały Dom nie może dyktować stanom, jak prowadzić wybory — argumentują demokraci.
+
+Według BBC, demokratyczne stany twierdzą, że Biały Dom nie ma prawa narzucać stanom zasady dotyczące głosowania korespondencyjnego.
+
+---
+
+## USA: Stopa bezrobocia spada
+
+Stopa bezrobocia w USA spadła mimo niepewności ekonomicznej i wojny z Iranem. Według Al Jazeera, Biały Dom nazwał raport o zatrudnieniu za marzec "przekraczającym oczekiwania" — wzrosty w sektorze budowlanym i opieki zdrowotnej.
+
+---
+
+## Europa: Debata o energetyce jądrowej
+
+Europa zmaga się z nowym kryzysem energetycznym. BBC donosi, że wobec rosnących cen gazu i paliw z powodu wojny, Europejczycy ponownie rozważają energetykę jądrową jako drogę do niezależności.
+
+---
+
+## Kuba: Zwolnienia więźniów
+
+Kuba rozpoczęła zwalnianie ponad 2000 więźniów pod presją USA. Według BBC, administracja Trumpa wyraźnie dąży do zmiany przywództwa Kuby i nałożyła na wyspę embargo naftowe.
+
+---
+
+## Włochy: Cyberatak na Uffizi
+
+Galeria Uffizi we Włoszech padła ofiarą cyberataku — podaje BBC. Hakerzy infiltrowali systemy IT, ale galeria zapewnia, że zbiory są bezpieczne.
+
+---
+
+## Rynki naftowe
+
+Ceny ropy (stan na piątek):
+- **Brent**: $109.24 (+8.98%)
+- **WTI**: $112.34 (+13.62%)
+
+Indeksy giełdowe:
+- **DAX**: 22,973.86 (-1.08%)
+- **FTSE 100**: 10,422.06 (+0.45%)
+- **S&P 500**: 6,578.60 (+0.13%)
+- **Nasdaq**: 24,031.67 (+0.10%)
+
+---
+
+*Źródła: BBC News[](https://www.bbc.com/news){rel="nofollow"}, Al Jazeera[](https://www.aljazeera.com/news){rel="nofollow"}, The New York Times[](https://www.nytimes.com){rel="nofollow"}, Reuters[](https://www.reuters.com){rel="nofollow"}, The Guardian[](https://www.theguardian.com){rel="nofollow"}, The Washington Post[](https://www.washingtonpost.com){rel="nofollow"}, NPR[](https://www.npr.org){rel="nofollow"}, Politico[](https://www.politico.com){rel="nofollow"}, The Independent[](https://www.independent.co.uk){rel="nofollow"}, Gallup[](https://news.gallup.com){rel="nofollow"}*
+
+:::
