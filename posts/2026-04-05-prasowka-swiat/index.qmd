@@ -1,0 +1,121 @@
+---
+title: "Prasówka Światowa - 5 kwietnia 2026"
+date: "2026-04-05"
+description: "Najważniejsze wydarzenia ze świata - geopolityka, makroekonomia, rynki"
+author: "DomenaRynku.pl"
+image: "/images/news-2026-04-05.jpg"
+tags: [prasówka, świat, geopolityka, Iran, USA, Ukraina, Rosja, Węgry, Izrael]
+categories: [News, Świat]
+robots: "index, follow"
+canonical: "https://domenarynku.pl/posts/2026-04-05-prasowka-swiat/"
+---
+
+::: {.grid-article}
+
+# Prasówka Światowa — 5 kwietnia 2026
+
+## USA-Iran: Drugi pilot uratowany w dramatycznej operacji
+
+Prezydent Donald Trump potwierdził w niedzielę uratowanie drugiego członka załugi amerykańskiego myśliwca F-15E zestrzelonego nad Iranem. "WE GOT HIM!" — napisał Trump na Truth Social, nazywając operację "niesamowitym sukcesem".
+
+Według BBC, uratowanym był Weapons Systems Officer (WSO) — drugi pilot, który przebywał na pokładzie myśliwca F-15E Strike Eagle. To pierwszy taki przypadek zestrzelenia F-15E w walce od ponad 20 lat. CBS News podaje, że operacja zaangażowała setki żołnierzy specjalnych, kilkadziesiąt samolotów bojowych i śmigłowców.
+
+**Szczegóły operacji**: Według CNN, CIA odegrała kluczową rolę — śledziła lokalizację pilota w górskiej szczelinie i przekazała dokładne współrzędne Pentagonowi. Rzucili również dezinformację, rozpowszechniając plotki, że pilota już znaleziono i wyciągnięto z Iranu. Prezydent Trump nakazał natychmiastową akcję ratunkową.
+
+**Stan pilota**: Pilot — pułkownik, doznał urazów podczas katapultowania, ale był w stanie chodzić i ukrywał się przez ponad dobę. Trump napisał, że "odzyskał zdrowie i będzie OK".
+
+**Inne straty**: W trakcie operacji ratunkowej A-10 Warthog został trafiony — pilot katapultował się nad Zatoką Perską i został uratowany. Załoga śmigłowca transportowego została ranna od ostrzału z broni palnej.
+
+---
+
+## Wojna w Zatoce: Ataki na UAE, Bahrain i Kuwejt
+
+Konflikt rozprzestrzenia się na kraje Zatoki Perskiej. Reuters donosi o kolejnych atakach:
+
+**UAE**: Abu Dhabi zmaga się z "wieloma pożarami" w kompleksie petrochemicznym Borouge spowodowanymi spadającymi szczątkami po przechwyconych atakach. Izrael uderzył w kompleks petrochemiczny w Mahshahr w południowo-zachodnim Iranie.
+
+**Bahrain**: Gulf Petrochemical Industries Company (GPIC) poinformowało o ataku dronów — pożar zbiornika w rafinerii Bapco Energies. Według agencji informacyjnej Bahrainu, atak spowodował pożar zbiornika.
+
+**Kuwejt**: Siedziba Kuwait Petroleum Corporation została trafiona i podpalona — podaje Bloomberg.
+
+Według Al Jazeera, Iran ostrzegł USA i Izrael, że "cały region stanie się piekłem" w przypadku eskalacji ataków.
+
+---
+
+## Izrael przygotowuje ataki na irańskie instalacje energetyczne
+
+Według Reuters, Izrael przygotowuje ataki na irańskie instalacje energetyczne, ale czeka na "zielone światło" od Stanów Zjednoczonych. Szef izraelskiego ministerstwa obrony powiedział, że takie ataki "prawdopodobnie nastąpią w ciągu najbliższego tygodnia".
+
+**Ultimatum Trumpa**: Trump dał Iranowi 48 godzin na osiągnięcie porozumienia. BBC podaje, że irańskie władze odrzuciły ultimatum.
+
+**Ataki na uniwersytety**: Według Al Jazeera, izraelskie i amerykańskie ataki coraz bardziej dotknęły irańską infrastrukturę — w tym uniwersytety. Raport WHO potwierdza ponad 20 ataków na placówki medyczne w Iranie od 1 marca.
+
+**Satelity wyłączone**: Firma Planet Labs — amerykański dostawca zdjęć satelitarnych — ogłosiła blackout na publikację zdjęć z wojny w Iranie. Reuters podaje, że firma będzie "bezterminowo wstrzymywać" obrazy z regionu.
+
+---
+
+## Rosja atakuje Ukraine: Pięć osób zginęło na rynku
+
+W sobotę rosyjski dron trafił w rynnek w frontowym mieście w południowej Ukraine — podaje BBC. Zginęło co najmniej pięć osób, a 21 zostało rannych.
+
+Reuters podaje, że ukraińska firma naftowa Lukoil zmaga się z pożarem w rafinerii Norsi po ataku dronów w niedzielę rano. Gubernator poinformował o pożarze w rafinerii po ataku ukraińskich dronów. Bloomberg potwierdza, że rosyjska rafineria Lukoil Norsi stanęła w ogniu po ukraińskim ataku.
+
+Bloomberg podaje również, że USA planuje wysłać do Kijowa wysokich rangą dyplomatów — Wittaoffa i Kushnera — jeszcze w tym miesiącu.
+
+---
+
+## Węgry: Wybory za tydzień
+
+Za tydzień, 12 kwietnia, odbędą się wybory na Węgrzech — najważniejsze głosowanie w Europie w tym roku. BBC donosi, że po 16 latach rządów Viktor Orban i jego partia Fidesz walczą o piątą z rzędu wygraną.
+
+Według Al Jazeera, filmy AI są wykorystywane przeciwko rywalowi Orbana, który może go obalić po 16 latach sprawowania władzy.
+
+---
+
+## USA: Inflacja w centrum uwagi
+
+Bloomberg podaje, że oczekuje się gwałtownego wzrostu amerykańskiej inflacji w pierwszych danych od początku wojny z Iranem. Nagły wzrost cen benzyny odczuwalny przez amerykańskich konsumentów będzie w pełni widoczny w kluczowych danych inflacyjnych, które zostaną opublikowane w tym tygodniu.
+
+**Stopy procentowe**: Bloomberg podaje, że EBC będzie dyskutować o podwyżce stóp lub utrzymaniu ich na obecnym poziomie. Członkowie ECB wskazują na ryzyka inflacyjne związane z wojną.
+
+**Kredyty hipoteczne**: Stopy kredytów hipotecznych w USA rosną piąty tydzień z rzędu — 30-letnie kredyty na poziomie 6.46%.
+
+---
+
+## Europa: Energia jądrowa
+
+BBC donosi, że Europa ponownie pyta, czy reaktywacja energetyki jądrowej jest odpowiedzią na nowy kryzys energetyczny. Wobec rosnących cen gazu i paliw z powodu wojny, Europejczycy ponownie rozważają atom jako drogę do niezależności energetycznej.
+
+Francja planuje przyznać projekty morskiej i pływającej energii wiatrowej do początku 2027 roku — podaje Bloomberg.
+
+---
+
+## USA: Aresztowania krewnych Soleimaniego
+
+BBC podaje, że USA aresztowały siostrzenicę i prawnuczkę zmarłego irańskiego generała Qasema Soleimaniego. Oficerowie ICE potwierdzili, że obie kobiety są w拘留.
+
+---
+
+## Sport: Lewandowski ratuje Barcelonę
+
+BBC donosi o zwycięstwie Roberta Lewandowskiego w ostatniej minucie meczu z Atletico Madryt. Polak strzelił w 87. minucie, zapewniając Barcelonie wygraną i siedem punktów przewagi w lidze.
+
+---
+
+## Rynki naftowe
+
+Cena ropy (stan na niedzielę):
+- **Brent**: $108.50 (+8.45%)
+- **WTI**: $111.70 (+12.90%)
+
+Indeksy giełdowe (piątek):
+- **DAX**: 22,973.86 (-1.08%)
+- **FTSE 100**: 10,422.06 (+0.45%)
+- **S&P 500**: 6,578.60 (+0.13%)
+- **Nasdaq**: 24,031.67 (+0.10%)
+
+---
+
+*Źródła: BBC News[](https://www.bbc.com/news){rel="nofollow"}, Al Jazeera[](https://www.aljazeera.com/news){rel="nofollow"}, Reuters[](https://www.reuters.com){rel="nofollow"}, Bloomberg[](https://www.bloomberg.com){rel="nofollow"}, CNN[](https://www.cnn.com){rel="nofollow"}, CBS News[](https://www.cbsnews.com){rel="nofollow"}*
+
+:::
