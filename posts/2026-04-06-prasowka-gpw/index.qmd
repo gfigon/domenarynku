@@ -30,7 +30,7 @@ Marzec przyniósł również ożywienie na rynku pierwotnym – odbyło się osi
 
 Na rynkach towarowych wolumen obrotu energią elektryczną wzrósł o 34,4% r/r do 15,8 TWh, a gazem ziemnym o 13% r/r do 16,4 TWh.
 
-*Źródła: [TVN24 Biznes](https://tvn24.pl/biznes/rynki/najlepszy-marzec-w-historii-gpw-z-nowym-rekordem-st8981014){rel="nofollow"}, [Biznes24](https://biznes24.pl/obroty-na-rynku-glownym-gpw-wzrosly-o-26-r-r-do-rekordowych-579-mld-zl-w-marcu/){rel="nofollow"}, [Investing.com](https://pl.investing.com/news/stock-market-news/obroty-na-rynku-glownym-gpw-wzrosly-o-26-rr-do-rekordowych-579-mld-zl-w-marcu-1348771){rel="nofollow"}, [Inwestycje.pl](https://inwestycje.pl/gielda/obroty-na-rynku-glownym-gpw-wzrosly-o-26-r-r-do-rekordowych-579-mld-zl-w-marcu/){rel="nofollow"}*
+*Źródła: [TVN24 Biznes](https://tvn24.pl/biznes/rynki/najlepszy-marzec-w-historii-gpw-z-nowym-rekordem-st8981014){rel="nofollow"}, [BiznesRadar](https://www.biznesradar.pl/){rel="nofollow"}, [Inwestycje.pl](https://inwestycje.pl/gielda/obroty-na-rynku-glownym-gpw-wzrosly-o-26-r-r-do-rekordowych-579-mld-zl-w-marcu/){rel="nofollow"}*
 
 ---
 
@@ -40,7 +40,37 @@ Prezydent USA Donald Trump postawił Iranowi ultimatum w sprawie cieśniny Ormuz
 
 Wcześniej Trump ostrzegł, że jeśli Iran nie ustąpi, czekają go „piekło" oraz zniszczenie infrastruktury krytycznej. Iran odpowiedział, że „jutro będzie za późno" i wezwał społeczność międzynarodową do stanowczych działań przeciwko polityce USA.
 
-*Źródła: [Gazeta.pl](https://wiadomosci.gazeta.pl/swiat/7,198075,32710099,iran-reaguje-na-grozby-trumpa-grozi-odwetem-straca-kazda.html){rel="nofollow"}, [WP Wiadomości](https://wiadomosci.wp.pl/jest-reakcja-iranu-na-szokujace-ultimatum-trumpa-jutro-bedzie-za-pozno-7272053987027168a){rel="nofollow"}, [Al Jazeera](https://www.aljazeera.com/news/2026/4/5/trump-threatens-hell-for-iran-over-hormuz-strait-as-deadline-approaches){rel="nofollow"}, [PolsatNews](https://www.polsatnews.pl/wiadomosc/2026-04-03/trump-zapowiada-dalsze-ataki-na-iran-nastepne-beda-mosty-i-elektrownie/){rel="nofollow"}*
+*Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Straca-kazda-elektrownie-Radykalne-ultimatum-Trumpa-dla-Iranu-9109623.html){rel="nofollow"}, [Gazeta.pl](https://wiadomosci.gazeta.pl/swiat/7,198075,32710099,iran-reaguje-na-grozby-trumpa-grozi-odwetem-straca-kazda.html){rel="nofollow"}, [WP Wiadomości](https://wiadomosci.wp.pl/jest-reakcja-iranu-na-szokujace-ultimatum-trumpa-jutro-bedzie-za-pozno-7272053987027168a){rel="nofollow"}*
+
+---
+
+## 📊 Notowania przedsesyjne (dane z 2 kwietnia)
+
+| Indeks | Kurs | Zmiana |
+|--------|------|--------|
+| WIG20 | 3 433,65 | +0,90% |
+| WIG | 125 603,00 | +0,83% |
+| mWIG40 | 8 652,40 | +0,84% |
+| sWIG80 | 29 881,32 | -0,09% |
+
+*Źródło: [BiznesRadar](https://www.biznesradar.pl/){rel="nofollow"}*
+
+---
+
+## 📊 Komunikaty ESPI (kwiecień 2026)
+
+- **KOMBINAT** — rezygnacja członka Rady Nadzorczej (EBI)
+- **11BIT** — częściowe rozwiązanie umowy z firmą audytorską (ESPI)
+- **UNIBEP** — zawarcie warunkowej umowy na realizację obiektu hotelowego (ESPI)
+- **FARM51** — złożenie wniosku o ogłoszenie upadłości o charakterze ostrożnościowym (ESPI)
+- **LOKUM** — wyniki Q1 2026 (ESPI)
+
+---
+
+## 🔄 Kalendarium
+
+- **7 kwietnia** — termin ultimatum Trumpa dla Iranu (wtorek, 20:00 czasu polskiego)
+- **17 kwietnia** — planowany debiut Creotech Quantum na GPW
 
 ---
 
@@ -54,4 +84,5 @@ Wcześniej Trump ostrzegł, że jeśli Iran nie ustąpi, czekają go „piekło"
 ---
 
 *Data przygotowania: 6 kwietnia 2026, godz. 08:20 CET*
-*Źródła: TVN24, Biznes24, Investing.com, Inwestycje.pl, Gazeta.pl, WP, Al Jazeera, PolsatNews*
+
+*Źródła: Bankier.pl, BiznesRadar, TVN24 Biznes, Inwestycje.pl, Gazeta.pl, WP Wiadomości*
