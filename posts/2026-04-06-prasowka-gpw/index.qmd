@@ -1,0 +1,57 @@
+---
+title: "Prasówka GPW – 6 kwietnia 2026"
+description: "Poranne podsumowanie wydarzeń na GPW: rekordowy marzec, obroty, nastroje przed sesją, kluczowe informacje rynkowe"
+date: "2026-04-06"
+author: "DomenaRynku.pl"
+image: "/images/gpw-news.jpg"
+tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska", "obroty", "rekord"]
+layout: "post"
+nofollow: true
+---
+
+# Prasówka GPW – 6 kwietnia 2026
+
+## 🔑 Najważniejsze wydarzenia
+
+### Rekordowy marzec na GPW. Obroty wzrosły do 57,9 mld zł
+
+Marzec okazał się rekordowym miesiącem w historii warszawskiej Giełdy Papierów Wartościowych. Łączna wartość obrotu akcjami na głównym rynku wyniosła **57,9 miliarda złotych**, co oznacza wzrost o **26% rok do roku**. To najlepszy wynik w historii GPW.
+
+Wzrosty były widoczne praktycznie we wszystkich segmentach:
+
+- **Średnia dzienna wartość obrotu akcjami** wzrosła o 21,8% r/r do 2,63 mld zł
+- **Indeks WIG** na koniec marca wyniósł 122 458,57 pkt (+27,6% r/r)
+- **Rynek NewConnect**: obroty wzrosły o 96,7% r/r do 302,5 mln zł
+- **ETF i ETC**: obroty wzrosły o 132,4% r/r do 626,2 mln zł
+- **Instrumenty pochodne**: wolumen obrotu wyniósł 2,4 mln kontraktów (+19,4% r/r)
+- **Rynek długu**: wartość emisji obligacji nieskarbowych na Catalyst sięgnęła 163,6 mld zł
+
+Marzec przyniósł również ożywienie na rynku pierwotnym – odbyło się osiem debiutów, w tym dwa na rynku głównym. Łączna kapitalizacja spółek krajowych na głównym parkiecie GPW wyniosła na koniec marca 1,1 bln zł.
+
+Na rynkach towarowych wolumen obrotu energią elektryczną wzrósł o 34,4% r/r do 15,8 TWh, a gazem ziemnym o 13% r/r do 16,4 TWh.
+
+*Źródła: [TVN24 Biznes](https://tvn24.pl/biznes/rynki/najlepszy-marzec-w-historii-gpw-z-nowym-rekordem-st8981014){rel="nofollow"}, [Biznes24](https://biznes24.pl/obroty-na-rynku-glownym-gpw-wzrosly-o-26-r-r-do-rekordowych-579-mld-zl-w-marcu/){rel="nofollow"}, [Investing.com](https://pl.investing.com/news/stock-market-news/obroty-na-rynku-glownym-gpw-wzrosly-o-26-rr-do-rekordowych-579-mld-zl-w-marcu-1348771){rel="nofollow"}, [Inwestycje.pl](https://inwestycje.pl/gielda/obroty-na-rynku-glownym-gpw-wzrosly-o-26-r-r-do-rekordowych-579-mld-zl-w-marcu/){rel="nofollow"}*
+
+---
+
+### Trump grozi Iranowi ultimatum w sprawie cieśniny Ormuz
+
+Prezydent USA Donald Trump postawił Iranowi ultimatum w sprawie cieśniny Ormuz. Jeśli Iran nie otworzy cieśniny do wtorku wieczorem (7 kwietnia), straci wszystkie elektrownie i mosty – zagroził Trump w rozmowie z „Wall Street Journal" oraz w mediach społecznościowych.
+
+Wcześniej Trump ostrzegł, że jeśli Iran nie ustąpi, czekają go „piekło" oraz zniszczenie infrastruktury krytycznej. Iran odpowiedział, że „jutro będzie za późno" i wezwał społeczność międzynarodową do stanowczych działań przeciwko polityce USA.
+
+*Źródła: [Gazeta.pl](https://wiadomosci.gazeta.pl/swiat/7,198075,32710099,iran-reaguje-na-grozby-trumpa-grozi-odwetem-straca-kazda.html){rel="nofollow"}, [WP Wiadomości](https://wiadomosci.wp.pl/jest-reakcja-iranu-na-szokujace-ultimatum-trumpa-jutro-bedzie-za-pozno-7272053987027168a){rel="nofollow"}, [Al Jazeera](https://www.aljazeera.com/news/2026/4/5/trump-threatens-hell-for-iran-over-hormuz-strait-as-deadline-approaches){rel="nofollow"}, [PolsatNews](https://www.polsatnews.pl/wiadomosc/2026-04-03/trump-zapowiada-dalsze-ataki-na-iran-nastepne-beda-mosty-i-elektrownie/){rel="nofollow"}*
+
+---
+
+## 📊 Podsumowanie
+
+| Wydarzenie | Data |
+|------------|------|
+| Rekordowy marzec na GPW – 57,9 mld zł obrotów | 3-4.04.2026 |
+| Trump ultimatum dla Iranu | 5-6.04.2026 |
+
+---
+
+*Data przygotowania: 6 kwietnia 2026, godz. 08:20 CET*
+*Źródła: TVN24, Biznes24, Investing.com, Inwestycje.pl, Gazeta.pl, WP, Al Jazeera, PolsatNews*
