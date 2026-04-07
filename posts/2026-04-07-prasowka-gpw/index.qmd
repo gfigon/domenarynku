@@ -1,47 +1,93 @@
 ---
-title: "Prasówka GPW — 7 kwietnia 2026"
-date: 2026-04-07
-description: "Poranne podsumowanie rynków finansowych przed sesją GPW"
-image: /og-image.png
-categories:
-  - gpw
-  - finanse
-  - prasowka
-freeze: true
+title: "Prasówka GPW – wtorek, 7 kwietnia 2026"
+date: "2026-04-07"
+description: "Poranna prasówka giełdowa: komunikaty ESPI, nastroje przed sesją, kluczowe informacje ze spółek GPW"
+keywords: "GPW, giełda, WIG20, WIG, komunikaty ESPI, ropa, geopolityka"
+author: "OpenClaw"
 ---
 
-[]{#top}
-
-**⚡ Poranne podsumowanie — 7 kwietnia 2026**
+**Data:** wtorek, 7 kwietnia 2026  
+**Godzina:** 08:30  
+**Źródła:** Bankier, BiznesRadar
 
 ---
 
-### RynkI
+## 📈 Nastroje przed sesją
 
-**Ropa trzecią sesję drożeje** — ceny ropy naftowej rosną trzeci dzień z rzędu w reakcji na zaostrzenie gróźb prezydenta USA Donalda Trumpa dotyczących możliwego zniszczenia irańskiej infrastruktury, jeśli nie zostaną spełnione warunki USA stawiane Iranowi przed upływem wtorkowego terminu. Kontrakty na ropę Brent wzrosły o 1,6 proc., do 110,74 dol. za baryłkę. Amerykańska ropa WTI zyskała 0,6 proc., osiągając poziom 112,25 dol. \[[Więcej →](https://www.wnp.pl/rynki/na-rynkach-ropy-trzeci-dzien-zwyzek-cen,1049784.html){rel="nofollow"}]
+We wtorek 7 kwietnia warszawska giełda wraca do handlu po dwóch dniach świątecznej przerwy (Wielki Piątek i Poniedziałek Wielkanocny). **Ostatnia sesja** (czwartek 3 kwietnia) zakończyła się wzrostem **WIG20** o **+0,90%** do poziomu **3.433,65 pkt**. WIG wzrósł o 0,83%, mWIG40 o 0,84%, podczas gdy sWIG80 nieznacznie spadł o 0,09%. [BiznesRadar](https://www.biznesradar.pl/){rel="nofollow"}
 
-**Arabia Saudyjska odparła atak** — Ministerstwo obrony Arabii Saudyjskiej poinformowało o przechwyceniu i zniszczeniu siedmiu pocisków balistycznych wystrzelonych w kierunku jej wschodniego regionu. Odłamki spadły w pobliżu obiektów energetycznych, ale atak został powstrzymany. \[[Więcej →](https://www.bankier.pl/wiadomosc/Tarcza-zadzialala-Atak-na-saudyjska-infrastrukture-powstrzymany-9109825.html){rel="nofollow"}]
+Na rynkach globalnych w centrum uwagi pozostaje **sytuacja na Bliskim Wschodzie** – ceny ropy rosną trzecią sesję z rzędu w reakcji na zaostrzenie gróźb przez prezydenta USA Donalda Trumpa dotyczących możliwego ataku na Iran. [Bankier](https://www.bankier.pl/wiadomosc/Na-rynkach-ropy-trzeci-dzien-zwyzek-cen-Trump-zniszczy-Iran-w-noc-9109863.html){rel="nofollow"}
 
-### Firmy
+**Kursy walut** (stan na rano 7 kwietnia):  
+- EUR/PLN: ok. 4,27 zł  
+- USD/PLN: ok. 3,70 zł  
+- CHF/PLN: ok. 4,63 zł
 
-**Zondacrypto na granicy wypłacalności?** — Największa polska giełda kryptowalut może mieć poważne problemy z płynnością. Analiza ujawniła spadek rezerw bitcoinów giełdy o 99 proc. Klienci skarżą się na zablokowane wypłaty. \[[Więcej →](https://www.bankier.pl/wiadomosc/Zondacrypto-na-krawedzi-niewyplacalnosci-Klienci-Zondacrypto-skarza-sie-na-zablokowane-wyplaty-9109789.html){rel="nofollow"}]
-
-**6% w Unicredit dla nowych klientów** — Na stronie internetowej Unicredit pojawiła się nowa oferta specjalna skierowana do osób, które dopiero założą konto osobiste. Nowi klienci mogą otworzyć dwumiesięczną lokatę na 6 proc. w skali roku. \[[Więcej →](https://www.bankier.pl/wiadomosc/6-na-nowej-lokacie-w-Unicredit-Z-oferty-skorzystaja-nowi-klienci-9109076.html){rel="nofollow"}]
-
-### Giełda
-
-**Rekordowy marzec na GPW** — Obroty na GPW w marcu 2026 roku wzrosły do 57,9 mld zł, co stanowi najwyższy wynik w historii. \[[Więcej →](https://www.biznesradar.pl/a/145471,rekordowy-marzec-na-gpw-obroty-wzrosly-do-57-9-mld-zl){rel="nofollow"}]
-
-**Dywidendy w 14. tygodniu 2026** — Podsumowanie wypłat dywidend spółek giełdowych za 14. tydzień roku. \[[Więcej →](https://www.biznesradar.pl/a/145498,dywidendowe-podsumowanie-14-tygodnia-2026-r){rel="nofollow"}]
-
-### Polityka I Gospodarka
-
-**Ukraina proponuje energetyczne zawieszenie broni** — Prezydent Ukrainy Wołodymyr Zełenski oświadczył, że Ukraina jest gotowa zaprzestać ataków na rosyjski sektor energetyczny, jeśli Rosja zgodzi się na podjęcie analogicznych działań. Waszyngton miałby pośredniczyć w negocjacjach. \[[Więcej →](https://www.bankier.pl/wiadomosc/Ukraina-proponuje-Rosji-energetyczne-zawieszenie-broni-Waszyngton-posrednikiem-9109811.html){rel="nofollow"}]
-
-**Pracownicy poznają zarobki kolegów** — Od czerwca pracownicy zyskają dostęp do informacji o wynagrodzeniach na podobnych stanowiskach. Eksperci ostrzegają, że może to początkowo doprowadzić do napięć i frustracji na rynku pracy. \[[Więcej →](https://www.bankier.pl/wiadomosc/Pracownicy-poznaja-zarobki-kolegow-Ekspert-ostrzega-to-bedzie-ostra-jazda-9109844.html){rel="nofollow"}]
+[Bankier](https://www.bankier.pl/waluty/kursy-walut/nbp){rel="nofollow"}
 
 ---
 
-**Źródła:** Bankier.pl, WNP.pl, TVN24.pl, Money.pl, BiznesRadar.pl, GazetaPrawna.pl
+## 🌍 Ceny ropy – trzeci dzień zwyżek
 
-*Podsumowanie przygotowane przed otwarciem sesji GPW — 7 kwietnia 2026, godz. 08:20*
+Ceny ropy naftowej rosną trzecią sesję z rzędu w reakcji na zaostrzenie gróźb przez prezydenta USA Donalda Trumpa dotyczących możliwego zniszczenia irańskiej infrastruktury, jeśli nie zostaną spełnione warunki USA stawiane Iranowi – przed upływem terminu ultimatum (noc z wtorku na środę). [Bankier](https://www.bankier.pl/wiadomosc/Na-rynkach-ropy-trzeci-dzien-zwyzek-cen-Trump-zniszczy-Iran-w-noc-9109863.html){rel="nofollow"}
+
+Prezydent Trump oświadczył, że USA mogą "wrócić Iran do epoki kamienia łupanego" i zapowiedział pobieranie opłat za żeglugę w cieśninie Ormuz. [Bankier](https://www.bankier.pl/wiadomosc/Trump-Iran-wroci-do-epoki-kamienia-lupanego-a-my-bedziemy-pobierac-oplaty-za-zegluge-w-ciesninie-Ormuz-9109793.html){rel="nofollow"}
+
+---
+
+## ⚡ Geopolityka i bezpieczeństwo
+
+### Atak na saudyjską infrastrukturę powstrzymany
+
+Ministerstwo obrony Arabii Saudyjskiej poinformowało we wtorek o przechwyceniu i zniszczeniu siedmiu pocisków balistycznych wystrzelonych w kierunku jej wschodniego regionu, których odłamki spadły w pobliżu obiektów energetycznych. [Bankier](https://www.bankier.pl/wiadomosc/Tarcza-zadzialala-Atak-na-saudyjska-infrastrukture-powstrzymany-9109825.html){rel="nofollow"}
+
+### Pożar w rosyjskiej petrochemii
+
+Ratownicy zakończyli akcję poszukiwawczą pięć dni po pożarze w zakładach petrochemicznych w Niżniekamsku w Tatarstanie (europejska część Rosji). Liczba ofiar śmiertelnych wzrosła do **12**, ponad **60 osób jest rannych**. [Bankier](https://www.bankier.pl/wiadomosc/Pieklo-w-rosyjskiej-petrochemii-12-ofiar-smiertelnych-i-dziesiatki-rannych-9109824.html){rel="nofollow"}
+
+### Ukraina proponuje Rosji "energetyczne" zawieszenie broni
+
+Prezydent Ukrainy Wołodymyr Zełenski oświadczył, że Ukraina jest gotowa zaprzestać ataków na rosyjski sektor energetyczny, jeśli Rosja zgodzi się na podjęcie analogicznych działań. Waszyngton ma pełnić rolę pośrednika. [Bankier](https://www.bankier.pl/wiadomosc/Ukraina-proponuje-Rosji-energetyczne-zawieszenie-broni-Waszyngton-posrednikiem-9109811.html){rel="nofollow"}
+
+---
+
+## 💱 Rynek kryptowalut – Zondacrypto
+
+**Zondacrypto** – największa polska giełda kryptowalut – może mieć poważne problemy z płynnością. Analiza money.pl i Wirtualnej Polski ujawnia spadek rezerw bitcoinów giełdy o **99%**. Klienci skarżą się na zablokowane wypłaty. [Bankier](https://www.bankier.pl/wiadomosc/Zondacrypto-na-krawedzi-niewyplacalnosci-Klienci-Zondacrypto-skarza-sie-na-zablokowane-wyplaty-9109789.html){rel="nofollow"}
+
+---
+
+## 🏦 Rynek bankowy – nowe oferty
+
+### Unicredit z nową lokatą 6%
+
+Na stronie internetowej Unicredit pojawiła się nowa oferta specjalna skierowana do osób, które dopiero założą konto osobiste. Jako nagrodę mogą oni otworzyć dwumiesięczną lokatę na **6%** w skali roku. [Bankier](https://www.bankier.pl/wiadomosc/6-na-nowej-lokacie-w-Unicredit-Z-oferty-skorzystaja-nowi-klienci-9109076.html){rel="nofollow"}
+
+---
+
+## 📊 Analiza rynkowa
+
+### Wielka rotacja na rynkach
+
+Przez poprzednie trzy lata na Wall Street królowały spółki technologiczne powiązane z boomem na AI. Ich czas powoli dobiega końca – inwestorzy przypomnieli sobie o "najbardziej znienawidzonym segmencie rynku", czyli sektorze defensywnym. [Bankier](https://www.bankier.pl/wiadomosc/Rozpoczela-sie-wielka-rotacja-Uderzenie-na-Iran-zapalnikiem-dla-gieldowego-trendu-9100283.html){rel="nofollow"}
+
+---
+
+## 📅 Kalendarz wydarzeń
+
+- **7 kwietnia** – Creotech Quantum planuje debiut na GPW (wcześniej podawano datę 17 kwietnia, sprawdź aktualizacje)
+- **17 kwietnia** – planowany debiut Creotech Quantum na GPW (zgodnie z wcześniejszymi zapowiedziami) [BiznesRadar](https://www.biznesradar.pl/a/145438,debiut-creotech-quantum-na-gpw-planowany-na-17-kwietnia){rel="nofollow"}
+
+---
+
+## 🔗 Źródła
+
+[^1]: [Bankier – Ceny ropy trzeci dzień zwyżek](https://www.bankier.pl/wiadomosc/Na-rynkach-ropy-trzeci-dzien-zwyzek-cen-Trump-zniszczy-Iran-w-noc-9109863.html){rel="nofollow"}
+[^2]: [Bankier – Atak na saudyjską infrastrukturę](https://www.bankier.pl/wiadomosc/Tarcza-zadzialala-Atak-na-saudyjska-infrastrukture-powstrzymany-9109825.html){rel="nofollow"}
+[^3]: [Bankier – Pożar w rosyjskiej petrochemii](https://www.bankier.pl/wiadomosc/Pieklo-w-rosyjskiej-petrochemii-12-ofiar-smiertelnych-i-dziesiatki-rannych-9109824.html){rel="nofollow"}
+[^4]: [Bankier – Zondacrypto problemy](https://www.bankier.pl/wiadomosc/Zondacrypto-na-krawedzi-niewyplacalnosci-Klienci-Zondacrypto-skarza-sie-na-zablokowane-wyplaty-9109789.html){rel="nofollow"}
+[^5]: [BiznesRadar – Notowania indeksów](https://www.biznesradar.pl/){rel="nofollow"}
+
+---
+
+*Zestawienie przygotowane na podstawie dostępnych publicznie źródeł. Nie stanowi porady inwestycyjnej. Dane giełdowe mogą być opóźnione.*
