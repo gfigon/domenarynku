@@ -1,37 +1,40 @@
 ---
-title: "Prasówka GPW – 8 kwietnia 2026"
+title: "Poranna prasówka GPW – 8 kwietnia 2026"
 date: "2026-04-08"
-description: "Najważniejsze wiadomości finansowe przed sesją GPW"
-tags: [GPW, giełda, debiut, IPO, nieruchomości, ropa, Iran]
-author: "DomenaRynku.pl"
+categories: [Giełda, Prasówka, GPW]
+description: "Najważniejsze informacje przed sesją: deeskalacja na Bliskim Wschodzie, IPO Rex Concepts (Burger King/Popeyes) oraz przetasowania w spółkach Skarbu Państwa."
+seo:
+  title: "Prasówka GPW 08.04.2026 – IPO Rex Concepts i Rozejm USA-Iran"
+  description: "Zbiór najważniejszych wiadomości giełdowych z 8 kwietnia 2026 r. Sprawdź, co wpłynie na dzisiejszą sesję na GPW."
 ---
 
-**Przed sesją na GPW** – poranne podsumowanie najważniejszych wydarzeń z 8 kwietnia 2026.
+# Poranna prasówka GPW – 08.04.2026
+
+Dzień przynosi wyraźną deeskalację napięć na arenie międzynarodowej, co przekłada się na entuzjazm na rynkach azjatyckich i znaczące spadki cen surowców energetycznych. Na rodzimym podwórku uwaga skupia się na zapowiedzi dużego debiutu oraz zmianach kadrowych w kluczowych spółkach.
+
+### Kluczowe informacje ze spółek
+
+*   **Rex Concepts (Burger King i Popeyes) zmierza na GPW**
+    Grupa Rex Concepts, operator marek Burger King i Popeyes w regionie CEE, ogłosiła zamiar przeprowadzenia pierwszej oferty publicznej (IPO). Spółka planuje pozyskać do 560 mln zł na dynamiczną ekspansję (cel to 850 lokali do 2032 r.).
+    *Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Wielki-powrot-burgerow-na-GPW-Burger-King-i-Popeyes-zmierzaja-na-parkiet-9110410.html){rel="nofollow"}, [BiznesRadar](https://www.biznesradar.pl/wiadomosci/){rel="nofollow"}*
+
+*   **Kadrowa „karuzela” w spółkach Skarbu Państwa**
+    Odnotowano nagłe dymisje w zarządach kluczowych podmiotów: **KGHM**, **Grupy Azoty** oraz **Poczty Polskiej**. W pierwszym kwartale 2026 roku zmiany prezesów objęły już co piątą dużą spółkę z udziałem państwa.
+    *Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Karuzela-w-spolkach-Skarbu-Panstwa-Nagle-dymisje-w-KGHM-Azotach-i-Poczcie-Polskiej-9110363.html){rel="nofollow"}, [PAP Biznes](https://pap-biznes.pl/){rel="nofollow"}*
+
+### Otoczenie rynkowe i nastroje
+
+*   **Rozejm USA-Iran: Ropa w dół, giełdy w górę**
+    Ogłoszenie dwutygodniowego zawieszenia broni i otwarcia cieśniny Ormuz wywołało gwałtowną reakcję. Ceny ropy WTI spadły o ok. 14% (do poziomu 96 USD), a kontrakty na europejskie i amerykańskie indeksy notują solidne wzrosty przed otwarciem sesji.
+    *Źródła: [Stooq](https://stooq.pl/n/?cat=1){rel="nofollow"}, [Bankier.pl](https://www.bankier.pl/wiadomosc/Rynki-swietuja-rozejm-USA-z-Iranem-Ceny-ropy-ostro-w-dol-wzrosty-na-gieldach-9110407.html){rel="nofollow"}*
+
+*   **Podatek od nadmiarowych zysków**
+    Minister Finansów Andrzej Domański zapowiedział, że projekt ustawy o nadmiarowych zyskach koncernów paliwowych będzie gotowy jeszcze w kwietniu. Informacja ta może rzutować na dzisiejsze notowania Orlenu.
+    *Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Projekt-ustawy-o-nadmiarowych-zyskach-koncernow-paliwowych-w-kwietniu-Domanski-MF-9110421.html){rel="nofollow"}, [BiznesRadar](https://www.biznesradar.pl/wiadomosci/){rel="nofollow"}*
+
+### Dane makro i towarowe
+*   **Miedź:** Ceny w Londynie osiągnęły 3-tygodniowe maksima w związku z deeskalacją na Bliskim Wschodzie.
+*   **Waluty:** Złoty umacnia się względem dolara po informacjach o rozejmie (USD/PLN w okolicach 3,64).
 
 ---
-
-## 🇺🇸 Rozejm USA–Iran: dwutygodniowe zawieszenie brzi
-
-Stany Zjednoczone i Iran zgodziły się na **dwutygodniowe zawieszenie broni**, które otworzy cieśninę Ormuz. Porozumienie doszło na krótko przed końcową datą ultimatum prezydenta Trumpa. W reakcji na doniesienia o deeskalacji **ceny ropy naftowej spadły do około 90 USD za baryłkę** – to najniższy poziom od wybuchu konfliktu. Azjatyckie rynky akcji zanotowały znaczące wzrosty.
-
-📎 Źródła: [NYT](https://www.nytimes.com/live/2026/04/07/world/iran-war-trump-news){rel="nofollow"}, [CBS News](https://www.cbsnews.com/live-updates/iran-war-trump-deadline-power-plants-human-chains-israel-train-strikes/){rel="nofollow"}, [Reuters](https://www.reuters.com/world/china/global-markets-global-markets-2026-04-07/){rel="nofollow"}, [CNN](https://edition.cnn.com/2026/04/07/markets/us-stocks-oil-trump-iran-ceasefire){rel="nofollow"}, [Axios](https://www.axios.com/2026/04/07/oil-prices-plunge-us-iran-war-ceasefire-trump){rel="nofollow"}
-
----
-
-## 🍔 Burger King i Popeyes wracają na GPW
-
-**Grupa Rex Concepts** – operator restauracji Burger King i Popeyes w Polsce, Czechach i Rumunii – ogłasza zamiar przeprowadzenia **pierwszej oferty publicznej na GPW**. Spółka oczekuje wpływów brutto z emisji do **560 mln zł**. Na koniec 2025 roku grupa zarządzała 159 lokalami (65 Popeyes + 94 Burger King).
-
-📎 Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Wielki-powrot-burgerow-na-GPW-Burger-King-i-Popeyes-zmierzaja-na-parkiet-9110410.html){rel="nofollow"}
-
----
-
-## 🏠 Ceny mieszkań znów w górę
-
-Po okresie stabilizacji **ceny mieszkań na rynku wtórnym znów rosną** – w marcu średnie stawki ofertowe były wyższe o **0,5% m/m** i **3,6% r/r** w największych polskich miastach. Największą dynamikę odnotowano w miastach regionalnych: Olsztyn, Bydgoszcz, Gdańsk i Poznań z wynikami 5-6% r/r. Warszawa z wynikiem zaledwie 0,7% r/r. Raport Grupy Morizon-Gratka.
-
-📎 Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Regiony-drozeja-szybciej-niz-Warszawa-Ceny-mieszkan-znow-ida-w-gore-9110380.html){rel="nofollow"}
-
----
-
-*Źródła: Bankier.pl, NYT, CBS, Reuters, CNN, Axios | Dane z 8 kwietnia 2026*
+*Prasówka przygotowana na podstawie publicznych komunikatów i serwisów informacyjnych. Dane aktualne na godzinę 08:30.*
