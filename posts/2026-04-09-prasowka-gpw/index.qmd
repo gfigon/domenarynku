@@ -1,0 +1,48 @@
+---
+title: "Prasówka GPW - 9 kwietnia 2026"
+pagetitle: "Prasówka GPW 9.04.2026 | DomenaRynku.pl"
+date: "2026-04-09"
+categories: [GPW, Giełda, Rynki]
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Poranne wiadomości finansowe przed sesją GPW - najważniejsze tematy z polskich i zagranicznych rynków. Ceny ropy, strajk Lufthansy, bon senioralny, kryzys w TK.">
+      <meta name="keywords" content="GPW, giełda, Prasówka, ceny ropy, Lufthansa, bon senioralny, Trybunał Konstytucyjny, 9 kwietnia 2026">
+---
+
+# Prasówka GPW - 9 kwietnia 2026
+
+## Rynki naftowe - ceny ropy znów rosną
+
+Ceny ropy naftowej mocno zwyżkowały w czwartek rano, odreagowując najsilniejszy spadek notowań od kwietnia 2020 roku. Baryłka West Texas Intermediate na NYMEX kosztuje 98,07 USD, co oznacza wzrost o 3,88%. Brent na ICE wyceniany jest na 97,50 USD za baryłkę (+2,90 USD). Wczoraj notowania spadły o 13% po ogłoszeniu przez prezydenta USA Donalda Trumpa pakistańskiej propozycji dwutygodniowego zawieszenia broni w konflikcie z Iranem.
+
+Niemniej jednak rozejm stoi pod znakiem zapytania. Iran zarzuca USA naruszenie trzech klauzul porozumienia, a Gwardia Rewolucyjna zablokowała żeglugę w cieśninie Ormuz. Według doniesień irańskich agencji prasowych, Gwardia mogła również rozstawić miny w cieśninie.
+
+## Linie lotnicze - strajk Lufthansy
+
+Personel pokładowy Lufthansy zapowiedział strajk na piątek 10 kwietnia. Związek zawodowy Ufo ogłosił, że protest obejmie wszystkie odloty z lotnisk we Frankfurcie nad Menem i Monachium, a także loty regionalnej linii Lufthansa CityLine z dziewięciu niemieckich lotnisk. Zakłócenia mogą dotyczyć także połączeń do i z Polski.
+
+To trzecia duża akcja protestacyjna w Lufthansie w tym roku. W lutym odwołano ponad 800 lotów.
+
+## Polska gospodarka - bon senioralny
+
+Pełnomocniczka rządu ds. polityki senioralnej Marzena Okła-Drewnowicz poinformowała, że ustawy o bonie senioralnym i opiece długoterminowej zostaną wprowadzone w ramach jednego aktu prawnego. Rząd liczy na przyjęcie ustawy jeszcze w tym roku. Bon senioralny przyjmie formę wieloletniego programu rządowego przyjmowanego na 3 lata.
+
+## Polityka - kryzys w Trybunale Konstytucyjnym
+
+Czworo sędziów Trybunału Konstytucyjnego złoży w czwartek ślubowanie w Sejmie. Prezydent Karol Nawrocki nie weźmie udziału w uroczystości. Szef Kancelarii Prezydenta Zbigniew Bogucki nazwał zaproszenie dla prezydenta "rzeczą absolutnie kuriozalną". Wicepremier Władysław Kosiniak-Kamysz ocenił, że prezydent "popełnia delikt" nie wypełniając postanowień ustawy.
+
+---
+
+::: {.callout-important}
+## Informacja prawna
+Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży instrumentów finansowych.
+:::
+
+---
+*Źródła:*
+- [Bankier.pl - Ropa](https://www.bankier.pl/wiadomosc/Ropa-znow-drozeje-po-najmocniejszym-spadku-notowan-od-IV-2020-r-9111133.html){rel="nofollow"}
+- [Money.pl - Gwardia Rewolucyjna](https://www.money.pl/gospodarka/gwardia-rewolucyjna-mogla-rozstawic-miny-w-ciesninie-ormuz-7273318761863360a.html){rel="nofollow"}
+- [Bankier.pl - Strajk Lufthansy](https://www.bankier.pl/wiadomosc/Wielki-strajk-Lufthansy-uderzy-w-glowne-lotniska-Ucierpia-tez-pasazerowie-w-Polsce-9111108.html){rel="nofollow"}
+- [Bankier.pl - Bon senioralny](https://www.bankier.pl/wiadomosc/Bon-senioralny-zamiast-gotowki-Sprawdz-komu-przysluguje-nowa-pomoc-9111044.html){rel="nofollow"}
+- [Bankier.pl - Kryzys w TK](https://www.bankier.pl/wiadomosc/Kryzys-w-Trybunale-Sedziowie-zloza-slubowanie-bez-prezydenta-Nawrockiego-9111113.html){rel="nofollow"}
