@@ -1,48 +1,59 @@
 ---
-title: "Prasówka GPW - 9 kwietnia 2026"
-pagetitle: "Prasówka GPW 9.04.2026 | DomenaRynku.pl"
+title: "Poranna prasówka GPW – 9 kwietnia 2026"
 date: "2026-04-09"
-categories: [GPW, Giełda, Rynki]
-format:
-  html:
-    header-includes: |
-      <meta name="description" content="Poranne wiadomości finansowe przed sesją GPW - najważniejsze tematy z polskich i zagranicznych rynków. Ceny ropy, strajk Lufthansy, bon senioralny, kryzys w TK.">
-      <meta name="keywords" content="GPW, giełda, Prasówka, ceny ropy, Lufthansa, bon senioralny, Trybunał Konstytucyjny, 9 kwietnia 2026">
+categories: [Giełda, Prasówka, GPW]
+description: "Najważniejsze informacje przed sesją: WIG20 na historycznym maksimum, KGHM z fenomenalnym wzrostem, wyniki spółek za I kwartał 2026."
+seo:
+  title: "Prasówka GPW 09.04.2026 – Rekord WIG20 i wzrost KGHM"
+  description: "Zbiór najważniejszych wiadomości giełdowych z 9 kwietnia 2026 r. Sprawdź, co wpłynie na dzisiejszą sesję na GPW."
 ---
 
-# Prasówka GPW - 9 kwietnia 2026
+# Poranna prasówka GPW – 09.04.2026
 
-## Rynki naftowe - ceny ropy znów rosną
+Środowa sesja przyniosła historyczne wydarzenie na warszawskim parkiecie. Indeks WIG20 osiągnął najwyższy poziom od 2008 roku, a indeks szerokiego rynku WIG zamknął się na rekordzie. Kierunek nadawała informacja o rozejmie USA-Iran i otwarciu cieśniny Ormuz.
 
-Ceny ropy naftowej mocno zwyżkowały w czwartek rano, odreagowując najsilniejszy spadek notowań od kwietnia 2020 roku. Baryłka West Texas Intermediate na NYMEX kosztuje 98,07 USD, co oznacza wzrost o 3,88%. Brent na ICE wyceniany jest na 97,50 USD za baryłkę (+2,90 USD). Wczoraj notowania spadły o 13% po ogłoszeniu przez prezydenta USA Donalda Trumpa pakistańskiej propozycji dwutygodniowego zawieszenia broni w konflikcie z Iranem.
+### Wyniki sesji (8 kwietnia)
 
-Niemniej jednak rozejm stoi pod znakiem zapytania. Iran zarzuca USA naruszenie trzech klauzul porozumienia, a Gwardia Rewolucyjna zablokowała żeglugę w cieśninie Ormuz. Według doniesień irańskich agencji prasowych, Gwardia mogła również rozstawić miny w cieśninie.
+*   **WIG20 wzrósł o 3,4%** – najwyższy poziom od 2008 roku
+*   **WIG na historycznym maksimum**
+*   **mWIG40 +2,9%, sWIG80 +1,4%**
 
-## Linie lotnicze - strajk Lufthansy
+*Źródła: [Business Insider](https://businessinsider.com.pl/gielda/wiadomosci/gielda-reaguje-na-zawieszenie-broni-tylko-orlen-i-tauron-na-minusie/xxe7gbx){rel="nofollow"}, [WNP.pl](https://www.wnp.pl/rynki/na-gpw-dzien-euforii-naznaczony-rekordami-pytanie-co-dalej,1050339.html){rel="nofollow"}, [Strefa Biznesu](https://strefabiznesu.pl/pozytywny-sentyment-na-gpw-mimo-spadkow-jednego-z-liderow/ar/c1p2-28890699){rel="nofollow"}*
 
-Personel pokładowy Lufthansy zapowiedział strajk na piątek 10 kwietnia. Związek zawodowy Ufo ogłosił, że protest obejmie wszystkie odloty z lotnisk we Frankfurcie nad Menem i Monachium, a także loty regionalnej linii Lufthansa CityLine z dziewięciu niemieckich lotnisk. Zakłócenia mogą dotyczyć także połączeń do i z Polski.
+### Kluczowe informacje ze spółek
 
-To trzecia duża akcja protestacyjna w Lufthansie w tym roku. W lutym odwołano ponad 800 lotów.
+*   **KGHM z fenomenalnym wzrostem**
+    Akcje KGHM wystrzeliły o **+9,9%** na fali wzrostu cen metali przemysłowych (miedź, srebro, pallad, platyna) oraz euforycznych nastrojów po rozejmie.
+    *Źródła: [WNP.pl](https://www.wnp.pl/rynki/na-gpw-dzien-euforii-naznaczony-rekordami-pytanie-co-dalej,1050339.html){rel="nofollow"}, [BiznesPAP](https://biznes.pap.pl/wiadomosci/firmy/dzien-na-gpw-wig20-i-wig-na-nowych-rekordach-mocne-kghm-i-spolki-budowlane-ale){rel="nofollow"}*
 
-## Polska gospodarka - bon senioralny
+*   **Orlen pod presją regulacyjną**
+    Kurs Orlenu spadł o **6,4%** do 126,4 zł. Presję wywierają obawy o nowy podatek od nadmiarowych zysków koncernów paliwowych, który Minister Finansów planuje przedstawić w kwietniu.
+    *Źródła: [Strefa Biznesu](https://strefabiznesu.pl/pozytywny-sentyment-na-gpw-mimo-spadkow-jednego-z-liderow/ar/c1p2-28890699){rel="nofollow"}, [Bankier.pl](https://www.bankier.pl/wiadomosc/Projekt-ustawy-o-nadmiarowych-zyskach-koncernow-paliwowych-w-kwietniu-Domanski-MF-9110421.html){rel="nofollow"}*
 
-Pełnomocniczka rządu ds. polityki senioralnej Marzena Okła-Drewnowicz poinformowała, że ustawy o bonie senioralnym i opiece długoterminowej zostaną wprowadzone w ramach jednego aktu prawnego. Rząd liczy na przyjęcie ustawy jeszcze w tym roku. Bon senioralny przyjmie formę wieloletniego programu rządowego przyjmowanego na 3 lata.
+*   **Medicalgorithmics: szacunki za I kwartał 2026**
+    Skonsolidowane przychody: **10,2 mln zł** (vs 6,8 mln zł rok wcześniej). EBITDA szacowana na **1 mln zł**.
+    *Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Medicalgorithmics-szacuje-przychody-w-I-kw-na-10-2-mln-zl-EBITDA-na-1-mln-zl-9111135.html){rel="nofollow"}, [StockWatch](https://www.stockwatch.pl/wiadomosci){rel="nofollow"}*
 
-## Polityka - kryzys w Trybunale Konstytucyjnym
+*   **Ipopema podnosi cenę docelową dla Asbisu**
+    Analitycy Ipopema Securities podwyższyli cenę docelową do **60,4 zł** z 36,73 zł, utrzymując rekomendację „kupuj".
+    *Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Ipopema-podnosi-cene-docelowa-dla-Asbisu-do-60-4-zl-9111139.html){rel="nofollow"}*
 
-Czworo sędziów Trybunału Konstytucyjnego złoży w czwartek ślubowanie w Sejmie. Prezydent Karol Nawrocki nie weźmie udziału w uroczystości. Szef Kancelarii Prezydenta Zbigniew Bogucki nazwał zaproszenie dla prezydenta "rzeczą absolutnie kuriozalną". Wicepremier Władysław Kosiniak-Kamysz ocenił, że prezydent "popełnia delikt" nie wypełniając postanowień ustawy.
+*   **Answear: przychody I kwartał 2026**
+    Skonsolidowana sprzedaż: **375,7 mln zł**, +6,6% r/r.
+    *Źródła: [StockWatch](https://www.stockwatch.pl/wiadomosci/answear-zwiekszyl-przychody-o-66-proc-r-r-do-3757-mln-zl-w-i-kw-2026-r,akcje,369700){rel="nofollow"}, [Parkiet](https://www.parkiet.com/komunikaty-espi/art44115121-answear-com-spolka-akcyjna-wstepne-wybrane-dane-dotyczace-sprzedazy-answear-com-sa-za-i-kwartal-2026-r){rel="nofollow"}*
+
+*   **Auto Partner: przychody w marcu 2026**
+    Wzrost o **19,5%** r/r.
+    *Źródła: [StockWatch](https://www.stockwatch.pl/wiadomosci/auto-partner-przychody-marzec-i-kwartal-2026,akcje,369751){rel="nofollow"}, [Parkiet](https://www.parkiet.com/komunikaty-espi/art44117541-auto-partner-spolka-akcyjna-informacja-poufna-raport-miesieczny-o-przychodach-ze-sprzedazy-za-marzec-2026-roku){rel="nofollow"}*
+
+*   **Wielki strajk Lufthansy**
+    Personel pokładowy zapowiedział strajk na piątek. Zakłócenia mogą dotyczyć także lotów do i z Polski.
+    *Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Wielki-strajk-Lufthansy-uderzy-w-glowne-lotniska-Ucierpia-tez-pasazerowie-w-Polsce-9111108.html){rel="nofollow"}*
+
+### Otoczenie rynkowe
+
+*   **Ropa WTI:** Po gwałtownym spadku o ok. 14% (do 96 USD) w reakcji na rozejm, ceny znów rosną
+*   **Waluty:** USD/PLN w okolicach 3,64
 
 ---
-
-::: {.callout-important}
-## Informacja prawna
-Materiały publikowane na tej stronie mają charakter wyłącznie informacyjny i edukacyjny. Nie stanowią porady inwestycyjnej, rekomendacji, ani oferty kupna lub sprzedaży instrumentów finansowych.
-:::
-
----
-*Źródła:*
-- [Bankier.pl - Ropa](https://www.bankier.pl/wiadomosc/Ropa-znow-drozeje-po-najmocniejszym-spadku-notowan-od-IV-2020-r-9111133.html){rel="nofollow"}
-- [Money.pl - Gwardia Rewolucyjna](https://www.money.pl/gospodarka/gwardia-rewolucyjna-mogla-rozstawic-miny-w-ciesninie-ormuz-7273318761863360a.html){rel="nofollow"}
-- [Bankier.pl - Strajk Lufthansy](https://www.bankier.pl/wiadomosc/Wielki-strajk-Lufthansy-uderzy-w-glowne-lotniska-Ucierpia-tez-pasazerowie-w-Polsce-9111108.html){rel="nofollow"}
-- [Bankier.pl - Bon senioralny](https://www.bankier.pl/wiadomosc/Bon-senioralny-zamiast-gotowki-Sprawdz-komu-przysluguje-nowa-pomoc-9111044.html){rel="nofollow"}
-- [Bankier.pl - Kryzys w TK](https://www.bankier.pl/wiadomosc/Kryzys-w-Trybunale-Sedziowie-zloza-slubowanie-bez-prezydenta-Nawrockiego-9111113.html){rel="nofollow"}
+*Prasówka przygotowana na podstawie publicznych komunikatów i serwisów informacyjnych. Dane aktualne na godzinę 08:30.*
