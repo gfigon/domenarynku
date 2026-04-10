@@ -1,46 +1,52 @@
 ---
-title: "Poranna prasówka GPW – 10 kwietnia 2026"
+title: "Prasówka GPW — 10 kwietnia 2026"
 date: "2026-04-10"
-categories: [Giełda, Prasówka, GPW]
-description: "Najważniejsze informacje przed sesją: Strajk Lufthansy, MFW ostrzega przed skutkami wojny w Iranie, ceny paliw w dół, InPost zakończył skup akcji."
-seo:
-  title: "Prasówka GPW 10.04.2026 – Strajk Lufthansy i ostrzeżenie MFW"
-  description: "Zbiór najważniejszych wiadomości giełdowych z 10 kwietnia 2026 r. Sprawdź, co wpłynie na dzisiejszą sesję na GPW."
+tags: [gpw, giełda, warszawa, biznes, finanse, notowania]
+description: "Poranna prasówka GPW — najważniejsze wydarzenia giełdowe z 10 kwietnia 2026"
+author: "OpenClaw"
 ---
 
-# Poranna prasówka GPW – 10.04.2026
+<meta name="description" content="Poranna prasówka GPW — najważniejsze wydarzenia giełdowe z 10 kwietnia 2026">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://domenarynku.pl/posts/2026-04-10-prasowka-gpw">
 
-Piątkowa sesja na GPW rozpoczyna się w cieniu strajku niemieckich linii lotniczych oraz globalnych obaw o wpływ konfliktu na Bliskim Wschodzie na światową gospodarkę.
+# Prasówka GPW — 10 kwietnia 2026
 
-### Kluczowe informacje z rynku
+## 📈 Sesja wczorajsza
 
-*   **MFW ostrzega przed trwałymi skutkami wojny z Iranem**
-    Dyrektor generalna MFW Kristalina Georgiewa poinformowała, że „trwałe skutki" dotychczasowej wojny spowodują w tym roku wolniejszy wzrost gospodarczy na świecie, niż pierwotnie przewidywano. Jesienią ubiegłego roku MFW prognozował wzrost na poziomie 3,1% w 2026 r. Georgiewa podkreśliła, że nawet w najlepszym przypadku nie będzie możliwy płynny powrót do status quo. Szczególnie ucierpią kraje będące importerami ropy, kraje uboższe oraz małe państwa wyspiarskie.
-    *Źródła: [Money.pl](https://www.money.pl/gospodarka/trwaly-slad-dyrektor-mfw-nie-ma-zludzen-ws-wojny-z-iranem-7273493271800064a.html){rel="nofollow"}, [Bankier.pl](https://www.bankier.pl/wiadomosc/Swiatowa-gospodarka-po-wojnie-Szefowa-MFW-ostrzega-pozostana-trwale-slady-9111684.html){rel="nofollow"}, [Biznes Interia](https://biznes.interia.pl/gospodarka/news-wojna-z-iranem-bedzie-miala-trwale-skutki-swiat-czekaja-dals,nId,23325959){rel="nofollow"}*
-
-*   **Strajk paraliżuje niemieckie niebo**
-    O północy z czwartku na piątek rozpoczął się strajk personelu pokładowego Lufthansy. Niemiecki przewoźnik odwołał już kilkaset lotów. Strajkiem objęte są wszystkie odloty Lufthansy z Frankfurtu i Monachium, a także loty Lufthansa CityLine z Hamburgu, Bremy, Stuttgartu, Kolonii, Düsseldorfu, Berlina i Hanoweru. Zakłócenia dotyczą także połączeń do i z Polski – odwołano przyloty z Frankfurtu i wyloty do tego miasta. Strajk potrwa do piątku, godziny 22.
-    *Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Paraliz-nieba-nad-Niemcami-Lufthansa-odwoluje-setki-lotow-ucierpia-tez-pasazerowie-z-Polski-9111776.html){rel="nofollow"}, [Radio ZET](https://wiadomosci.radiozet.pl/swiat/rozpoczal-sie-kolejny-strajk-personelu-lufthansy-utrudnienia-dla-pasazerow){rel="nofollow"}, [naTemat.pl](https://natemat.pl/648424,strajk-lufthansy-uderzy-w-polakow-jesli-masz-lot-w-piatek-mozesz-nie-doleciec){rel="nofollow"}, [ePoznan](https://epoznan.pl/news-news-174523-znowu_strajk_niemieckich_linii_lotniczych_i_problemy_dla_pasazerow_takze_w_poznaniu){rel="nofollow"}*
-
-*   **Ceny paliw spadają**
-    W piątek na stacjach benzynowych spadną ceny maksymalne wszystkich paliw. Benzyna 95 będzie kosztować maksymalnie 6,17 zł/l (spadek z 6,27 zł), benzyna 98 – 6,77 zł/l (z 6,88 zł), a olej napędowy – 7,66 zł/l (z 7,83 zł). To drugi dzień z rzędu z obniżkami cen maksymalnych.
-    *Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/W-piatek-na-stacjach-spadna-ceny-maksymalne-benzyn-i-diesla-9111312.html){rel="nofollow"}*
-
-### Informacje ze spółek
-
-*   **InPost zakończył program skupu akcji własnych**
-    Między 8 a 9 kwietnia 2026 roku spółka odkupić 625.000 akcji (0,1% kapitału zakładowego) po średniej cenie 15,16 EUR za akcję. Łącznie na skup przeznaczono 9,47 mln EUR. Program realizowany był w celu wypełnienia zobowiązań wynikających z programów motywacyjnych dla pracowników.
-    *Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/InPost-zakonczyl-program-odkupu-akcji-wlasnych-9111770.html){rel="nofollow"}, [Money.pl](https://www.money.pl/firma/inpost-konczy-skup-akcji-wlasnych-wydal-9-47-mln-euro-na-motywacje-pracownikow-7273236363650432a.html){rel="nofollow"}*
-
-*   **Orlen zmienia ceny hurtowe**
-    W środę 8 kwietnia w cenniku hurtowym Orlenu benzyna Eurosuper 95 kosztowała 5.505 zł/m³ (+55 zł vs poprzednia cena), a olej napędowy Ekodiesel 6.950 zł/m³ (-38 zł). To druga zmiana cen w tym tygodniu.
-    *Źródło: [Money.pl](https://www.money.pl/mobility/orlen-zmienia-hurtowe-ceny-paliw-7273004337744064a.html){rel="nofollow"}*
-
-### Otoczenie rynkowe
-
-*   **Ropa WTI:** Około 96 USD za baryłkę (po spadku o ~14% w reakcji na rozejm USA-Iran)
-*   **EUR/PLN:** Około 4,32
-*   **USD/PLN:** Około 3,64
+**WIG20** zamknął czwartek wzrostem o **0,52%**, a szeroki **WIG** zyskał **0,33%**. Na koniec sesji indeksy utrzymywały się tuż poniżej środowych rekordów — w środę WIG20 wzrósł o prawie 3,6%, a WIG ustanowił nowy historyczny rekord. Obroty wyniosły ok. 1,97 mld zł. [Bankier.pl](https://www.bankier.pl/wiadomosc/Mial-byc-pokoj-jest-nerwowo-Czerwien-na-gieldach-w-Europie-ale-WIG20-znow-zielony-9111631.html){rel="nofollow"}
 
 ---
-*Prasówka przygotowana na podstawie publicznych komunikatów i serwisów informacyjnych. Dane aktualne na godzinę 08:20.*
+
+## 📰 Wiodące newsy
+
+### Notowania spółek
+
+- **CD Projekt** — spółka szacuje przychody za Q1 2026 na **10,2 mln zł** wobec 6,8 mln zł rok wcześniej. EBITDA szacowana na **1 mln zł**, a przed rokiem strata EBITDA wyniosła 3,1 mln zł. [Portal Spożywczy](https://www.portalspozywczy.pl/technologie/wiadomosci/dzien-na-gpw-wig20-i-wig-lekko-ponizej-srodowych-rekordow-spada-m-in-cd-projekt,287406.html){rel="nofollow"}
+
+- **Allegro, Orlen, XTB** — wzrostami wyróżniały się na tle spadkowego rynku. [StockWatch](https://www.stockwatch.pl/wiadomosci/kruchy-rozejm-napedza-spadki-na-gieldach-w-grze-allegro-orlen-i-xtb,akcje,369827){rel="nofollow"}
+
+### Dane makro / nastroje
+
+- **OZE na wsi** — rolnicy coraz częściej korzystają z fotowoltaiki i biogazu. [Bankier.pl](https://www.bankier.pl/wiadomosc/OZE-podbija-polska-wies-Ratunkiem-fotowoltaika-i-biogaz-9111823.html){rel="nofollow"}
+
+- **Kredyty mieszkaniowe** — liczba wniosków w marcu wzrosła o **72%** — poziom z hossy 2008. Efekt strachu przed skutkami wojny. [Bankier.pl](https://www.bankier.pl/wiadomosc/Eksplozja-popytu-na-kredyty-mieszkaniowe-Liczba-wnioskow-wystrzelila-o-72-proc-9111785.html){rel="nofollow"}
+
+### Inne istotne
+
+- **InPost** zakończył program odkupu akcji własnych — realizacja zobowiązań z programów motywacyjnych. [Bankier.pl](https://www.bankier.pl/wiadomosc/InPost-zakonczyl-program-odkupu-akcji-wlasnych-9111770.html){rel="nofollow"}
+
+- **Stokrotka** (Maxima Grupe) — przychody +4,3% r/r, EBITDA +6%. [Bankier.pl](https://www.bankier.pl/wiadomosc/Mniej-ale-lepiej-Stokrotka-zamyka-slabe-placowki-i-robi-rekordowe-zyski-9111762.html){rel="nofollow"}
+
+- **KGHM** — przeceniony o 0,5% w czwartek. [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260409/dzien-na-gpw-glowne-indeksy-niemal-bez-zmian-spadaja-m-banki-i-spolki-odziezowe){rel="nofollow"}
+
+---
+
+## 🔎 Co przed sesją
+
+Więcej informacji poj美 się po otwarciu sesji.
+
+---
+
+*Żródła: Bankier.pl, Portal Spożywczy, StockWatch, Strefa Inwestorów, Rzeczpospolita*
+*Godzina publikacji: ~08:30*
