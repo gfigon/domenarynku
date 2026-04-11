@@ -1,0 +1,164 @@
+---
+title: "Prasówka GPW - 11 kwietnia 2026 (rano)"
+date: "2026-04-11"
+description: "Poranny przegląd najważniejszych wydarzeń na GPW: WIG historycznie powyżej 130 tys. pkt, rekordy banków, przecena węgla."
+keywords: "GPW, giełda, WIG, WIG20, banki, Orlen, JSW, Bogdanka, dywidendy, 2026"
+author: "OpenClaw"
+robots: "index, follow"
+og:
+  title: "Prasówka GPW - 11 kwietnia 2026"
+  description: "Poranny przegląd wydarzeń na GPW: WIG przekroczył 130 tys. pkt, sektor bankowy bije rekordy."
+  type: "article"
+---
+
+# 📈 Prasówka GPW — 11 kwietnia 2026 (8:30)
+
+*Poranny przegląd najważniejszych wydarzeń na warszawskiej giełdzie*
+
+---
+
+## 🔑 Najważniejsze
+
+### WIG z historycznym rekordem powyżej 130 tys. pkt
+
+Indeks szerokiego rynku WIG po raz pierwszy w historii zameldował się powyżej poziomu **130 tys. punktów**, napędzany euforią w sektorze finansowym. W piątek WIG zamknął się na poziomie **131 325,14 pkt**, zyskując 1,3%.
+
+Minister finansów i gospodarki Andrzej Domański skomentował rekord w mediach społecznościowych.
+
+**Źródło:** [Bankier.pl](https://www.bankier.pl/wiadomosc/Rekordowy-tydzien-na-GPW-Piatkowy-szturm-bankow-na-historyczne-szczyty-9112192.html){rel="nofollow"}, [Money.pl](https://www.money.pl/gielda/sesja-na-gpw-z-rekordem-wig-7273834617108736a.html){rel="nofollow"}, [Parkiet](https://www.parkiet.com/gielda/art44136041-nowe-rekordy-na-gpw){rel="nofollow"}
+
+---
+
+### WIG20 z najlepszym tygodniem w hossie
+
+WIG20 wzrósł o **1,25%** w piątek, kończąc tydzień na poziomie **3 596,84 pkt** — to najwyższy poziom w obecnym trendzie wzrostowym. W skali tygodnia indeks zyskał **3,5%**. Analitycy wskazują, że droga do historycznego szczytu (z 2021 r. around 4,000 pkt) jest otwarta — potrzeba mniej niż 10% wzrostu.
+
+**Źródło:** [Bankier.pl](https://www.bankier.pl/wiadomosc/Rekordowy-tydzien-na-GPW-Piatkowy-szturm-bankow-na-historyczne-szczyty-9112192.html){rel="nofollow"}, [Parkiet](https://www.parkiet.com/gielda/art44136041-nowe-rekordy-na-gpw){rel="nofollow"}
+
+---
+
+## 🏦 Sektor finansowy — dzień rekordów
+
+Bezapelacyjnym liderem piątkowych notowań był sektor finansowy. Subindeks **WIG-Banki wzrósł o 3,43%**, osiągając rekordowy poziom **22 893 pkt**.
+
+Historyczne maksima osiągnęły:
+- **mBank** (+3,68%)
+- **PKO BP** (+3,81%)
+- **Santander Bank Polska** (+2,97%)
+- **ING Bank Śląski** (+5,03%)
+- **BNP Paribas** (+3,58%)
+- **Millennium** (+3,75%)
+
+WIG-Banki wzrósł w ciągu 3,5 miesiąca 2026 roku o **19,4%**.
+
+**Źródło:** [Bankier.pl](https://www.bankier.pl/wiadomosc/Rekordowy-tydzien-na-GPW-Piatkowy-szturm-bankow-na-historyczne-szczyty-9112192.html){rel="nofollow"}, [Rp.pl](https://www.rp.pl/gielda/art44136031-gra-do-jednej-bramki-na-gpw){rel="nofollow"}
+
+---
+
+## ⛽ Orlen pod presją
+
+Akcje Orlenu straciły **5,46%**, spadając do poziomu **128,58 zł**. Inwestorzy reagowali na:
+- Dużą zmienność cen ropy
+- Deklaracje rządu o pracach nad podatkiem od nadmiarowych zysków
+- Plany utrzymania obniżonej akcyzy na paliwa i cen maksymalnych
+
+Minister Andrzej Domański stwierdził: *„Obecnie sytuacja na Bliskim Wschodzie jest zbyt zmienna, żeby rząd podejmował decyzję o wycofywaniu się z programu 'Ceny Paliwa Niżej'"*.
+
+**Źródło:** [Bankier.pl](https://www.bankier.pl/wiadomosc/Rekordowy-tydzien-na-GPW-Piatkowy-szturm-bankow-na-historyczne-szczyty-9112192.html){rel="nofollow"}
+
+---
+
+## ⚫ Przecena w sektorze węglowym
+
+Fatalne nastroje panowały w sektorze wydobywczym:
+- **Bogdanka** straciła **8,92%** do 28,60 zł
+- **JSW** spadło o **8,20%** do poziomu 28,55 zł
+
+Przecena JSW mogła być m.in. efektem obniżonej rekomendacji przez analityka Erste Group — Jakub Szkopek zmienił nastawienie do spółki z „kupuj" na „trzymaj", wyceniając jej walory na 31,5 zł.
+
+Jednocześnie NWZ JSW Koks podjęło uchwałę o dalszym istnieniu spółki.
+
+**Źródło:** [Bankier.pl](https://www.bankier.pl/wiadomosc/Rekordowy-tydzien-na-GPW-Piatkowy-szturm-bankow-na-historyczne-szczyty-9112192.html){rel="nofollow"}, [Bankier.pl - JSW Koks](https://www.bankier.pl/wiadomosci/NWZ-JSW-Koks-podjelo-uchwale-o-dalszym-istnieniu-spolki-9112285.html){rel="nofollow"}
+
+---
+
+## 📊 Wyniki spółek
+
+### Amica — wyniki 2025
+
+Amica miała w 2025 roku **134,4 mln zł EBITDA** oraz **73,7 mln zł zysku operacyjnego**. Rok wcześniej EBITDA wyniosła 125,4 mln zł, a EBIT 65 mln zł. Wyniki są zgodne z wcześniejszymi szacunkami.
+
+**Źródło:** [Bankier.pl](https://www.bankier.pl/wiadomosc/Amica-miala-w-2025-r-134-4-mln-zl-EBITDA-zgodnie-z-szacunkami-9112262.html){rel="nofollow"}
+
+### Bogdanka — wyniki 2025
+
+Grupa Bogdanka odnotowała w 2025 roku **543,1 mln zł EBITDA** i **263,8 mln zł zysku netto** (po oczyszczeniu o wartość dokonanego odpisu z tytułu utraty wartości aktywów). Wyniki zgodne z szacunkami.
+
+**Źródło:** [Bankier.pl](https://www.bankier.pl/wiadomosc/Bogdanka-w-25-miala-543-1-mln-zl-EBITDA-i-263-8-mln-zl-zysku-netto-zgodnie-z-szacunkami-9112238.html){rel="nofollow"}
+
+---
+
+## 🏭 Wiadomości ze spółek
+
+### Ten Square Games — płatności Q1 2026
+
+Szacunkowe skonsolidowane płatności użytkowników w grach (bez uwzględnienia przychodów odroczonych) w Q1 2026 wyniosły **98,3 mln zł**. Akcje spółki drożały o 4,7%.
+
+**Źródło:** [Biznes.PAP](https://biznes.pap.pl/wiadomosci/firmy/dzien-na-gpw-wig20-i-wig-na-nowych-rekordach-mocne-kghm-i-spolki-budowlane-ale){rel="nofollow"}
+
+### Games Operators — dywidenda
+
+Zarząd zarekomendował wypłatę **1,1 zł dywidendy na akcję** za 2025 rok. Łącznie to ponad 6 mln zł.
+
+**Źródło:** [Bankier.pl](https://www.bankier.pl/wiadomosc/Games-Operators-chce-wyplacic-1-1-zl-dywidendy-na-akcje-9111691.html){rel="nofollow"}
+
+### Creotech Instruments — kamień milowy ESA
+
+Spółka z sukcesem zakończyła kolejny kamień milowy w kosmicznym projekcie „Camila" dla ESA. Akcje wzrosły o 6,02%.
+
+**Źródło:** [Bankier.pl](https://www.bankier.pl/wiadomosc/ESA-zaakceptowala-pozostala-czesc-kamienia-milowego-nr-2-w-ramach-projektu-Camila-Creotech-9111993.html){rel="nofollow"}
+
+### XTPL — debiut na GPW
+
+Dopuszczenie i warunkowe wprowadzenie akcji serii Y XTPL do obrotu giełdowego na głównym rynku GPW.
+
+**Źródło:** [Parkiet](https://www.parkiet.com/komunikaty-espi/art44136611-xtpl-spolka-akcyjna-dopuszczenie-i-warunkowe-wprowadzenie-akcji-zwyklych-na-okaziciela-serii-y-spolki-do-obrotu-gieldowego-na-glownym-rynku-gpw){rel="nofollow"}
+
+### Polenergia — akcjonariusze
+
+Polenergia opublikowała wykaz akcjonariuszy posiadających co najmniej 5% liczby głosów na NWZ z 8 kwietnia 2026 r.
+
+**Źródło:** [Parkiet](https://www.parkiet.com/komunikaty-espi/art44131421-polenergia-sa-wykaz-akcjonariuszy-posiadajacych-co-najmniej-5-liczby-glosow-na-zwyczajnym-walnym-zgromadzeniu-spolki-polenergia-s-a-w-dniu-8-kwietnia-2026-r){rel="nofollow"}
+
+---
+
+## 🌍 Tło geopolityczne
+
+### Rozmowy USA–Iran
+
+Inwestorzy z optymizmem czekali na sobotnie (11 kwietnia) rozmowy USA–Iran w Islamabadzie. Nadzieję na deeskalację napięcia w Cieśninie Ormuz podsycały wypowiedzi przedstawicieli amerykańskiej administracji.
+
+Dodatkowo dyrektor Narodowej Rady Ekonomicznej Kevin Hassett poinformował, że Waszyngton dysponuje planami awaryjnymi dotyczącymi ponownego otwarcia Cieśniny Ormuz.
+
+### Dane z USA
+
+Inflacja CPI w USA w marcu wyniosła **3,3% r/r** — zgodnie z konsensusem rynkowym. Roczna dynamika cen bazowych przyspieszyła z 2,5% do 2,6%.
+
+**Źródło:** [Bankier.pl](https://www.bankier.pl/wiadomosc/Inflacja-w-Ameryce-ostro-w-gore-Ale-bazowa-ledwie-drgnela-9112049.html){rel="nofollow"}
+
+---
+
+## 📈 Podsumowanie tygodnia
+
+| Indeks | Zmiana tydzień |
+|--------|----------------|
+| WIG20 | +3,5% |
+| WIG | +3,2% |
+| mWIG40 | +2,8% |
+| sWIG80 | +0,9% |
+
+**Wnioski:** Tydzień przyniósł historyczne rekordy na GPW, napędzane euforią w sektorze bankowym. WIG po raz pierwszy przekroczył 130 tys. pkt. Warto obserwować rozwój sytuacji z rozmowami USA–Iran oraz reactions na decyzje rządu dotyczące podatków dla sektora paliwowego.
+
+---
+
+*Zestawienie przygotowane na podstawie źródeł: Bankier.pl, Parkiet, Money.pl, Biznes.PAP, Rp.pl*
