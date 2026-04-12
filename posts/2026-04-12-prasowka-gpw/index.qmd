@@ -1,0 +1,97 @@
+---
+title: "Prasówka GPW — 12 kwietnia 2026"
+date: "2026-04-12"
+categories: [GPW, giełda, dywidendy, ESPI]
+---
+
+```{r setup, include=FALSE}
+library(googlesheets4)
+```
+
+<!-- 
+Prasówka GPW - 12 kwietnia 2026
+Niedziela — dzień bez sesji (Wielkanoc)
+-->
+
+# 🇵🇱 Prasówka GPW — 12 kwietnia 2026
+
+*Zbiór kluczowych informacji z polskiego rynku kapitałowego*
+
+---
+
+## 📊 RYWNE RYKI
+
+**WIG bije rekordy!** W piątek 10 kwietnia indeks szerokiego rynku WIG ustanowił nowy rekord wszech czasów na poziomie **131 325 pkt**. Indeks WIG20 dotarł do 3 596,8 pkt — to najwyższy poziom od połowy grudnia 2007 roku. Warszawska giełda radzi sobie lepiej niż inne parkiety mimo globalnych zawirowań związanych z sytuacją na Bliskim Wschodzie.
+
+*Źródła: [Business Insider](https://businessinsider.com.pl/gielda/gpw-bije-rekordy-mimo-globalnych-zawirowan-czy-rynek-potrzebuje-odpoczynku/m207m18){rel="nofollow"}*
+
+---
+
+## 🌏 BLISKI WSCHÓD
+
+**32-godzinne zawieszenie broni.** W sobotę 11 kwietnia weszło w życie tymczasowe zawieszenie broni między Rosją a Ukraina, ogłoszone z okazji prawosławnej Wielkanocy. Prezydent Wołodymyr Zełenski ostrzegł, że armia ukraińska będzie odpowiadać "symetrycznie" na ewentualne prowokacje.
+
+*Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/32-godziny-zawieszenia-broni-Wielkanocny-rozejm-w-Ukrainie-wszedl-w-zycie-9112457.html){rel="nofollow"}*
+
+---
+
+## 📈 KOMUNIKATY ESPI
+
+### Dywidendy
+
+**Games Operators — 6 mln zł dla akcjonariuszy.** Zarząd wnioskuje o wypłatę dywidendy w łącznej kwocie **6 049 186 zł**, co odpowiada **1,10 zł na jedną akcję**. Na dywidendę złożą się całość zysku netto za 2025 rok oraz część kapitału zapasowego. To już szósta z rzędu regularna wypłata.
+
+*Źródła: [StockWatch.pl](https://www.stockwatch.pl/wiadomosci/games-operators-chce-wyplacic-6-mln-zl-dywidendy-to-110-zl-na-akcje,akcje,369924){rel="nofollow"}*
+
+**Atal — 4,50 zł na akcję.** Zarząd zarekomendował dywidendę w wysokości **4,50 zł na akcję**. Spółka wydała 500 lokali w I kwartale 2026 roku.
+
+*Źródła: [StockWatch.pl](https://www.stockwatch.pl/wiadomosci/atal-wydania-lokali-i-kwartal-2026-dywidenda,akcje,369899){rel="nofollow"}*
+
+**Kruk — 20 zł na akcję.** Zarząd złożył wniosek o wypłatę dywidendy w wysokości **20 zł na akcję** (z 8 kwietnia 2026). To kolejna rekordowa wypłata — spółka zwiększa dywidendę od dekady.
+
+*Źródła: [StrefaInwestorow.pl](https://strefainwestorow.pl/dywidendy/kruk-dywidenda-2026){rel="nofollow"}*
+
+### Kontrakty/Wyniki
+
+**Wielton — kontrakt o wartości ~255 mln zł.** Spółka otrzymała zamówienie na dostawę naczep różnych typów od znaczącego międzynarodowego klienta z sektora e-commerce. Realizacja ma zostać ukończona do końca 2026 roku. Kurs akcji w piątek rósł o ok. 6%.
+
+*Źródła: [StockWatch.pl](https://www.stockwatch.pl/wiadomosci/wielton-zamowienie-naczepy-e-commerce-2026,akcje,369906){rel="nofollow"}*
+
+**XTB — licencje w ZEA.** XTB uzyskał licencje kategorii 1 oraz 2 od Urzędu ds. Rynków Kapitałowych Zjednoczonych Emiratów Arabskich. To otwiera drogę do pełnego świadczenia usług maklerskich i oferowania zaawansowanych produktów inwestycyjnych w jednym z najszybciej rozwijających się rynków finansowych na świecie.
+
+*Źródła: [StockWatch.pl](https://www.stockwatch.pl/wiadomosci/xtb-licencje-zea-uslugi-maklerskie-mena,akcje,369917){rel="nofollow"}*
+
+**Creotech Instruments — kamień milowy ESA.** Europejska Agencja Kosmiczna zaakceptowała ukończenie kamienia milowego nr 2 w projekcie Camila. Spółce przysługuje wynagrodzenie w wysokości **834,4 tys. euro**, z czego ok. 97% trafi bezpośrednio do Creotech.
+
+*Źródła: [StockWatch.pl](https://www.stockwatch.pl/wiadomosci/creotech-instruments-camila-kamien-milowy-esa,akcje,369921){rel="nofollow"}*
+
+### Rynek Paliw
+
+**Kolejne obniżki możliwe od 13 kwietnia.** Analitycy Reflex prognozują dalsze spadki cen paliw na polskich stacjach — Pb95 może spaść do **6,05 zł/l**, a olej napędowy do **7,44 zł/l**. Warunkiem jest brak zerwania porozumienia podczas rozmów USA-Iran oraz utrzymanie dwutygodniowego rozejmu na Bliskim Wschodzie.
+
+*Źródła: [StockWatch.pl](https://www.stockwatch.pl/wiadomosci/ceny-paliw-prognoza-kwiecien-2026-reflex,surowce,369946){rel="nofollow"}*
+
+---
+
+## 🏛️ MAKRO/GOSPODARKA
+
+**GUS zacznie mierzyć local content.** Główny Urząd Statystyczny pracuje nad metodyką, która po raz pierwszy pozwoli rzetelnie zmierzyć, ile z wartości strategicznych inwestycji — w energetyce jądrowej, offshore i nie tylko — rzeczywiście zostaje w polskiej gospodarce. Pilotaż rusza w czerwcu 2026 roku.
+
+*Źródła: [StockWatch.pl](https://www.stockwatch.pl/wiadomosci/gus-pomiar-local-content-energetyka-pilotaz,gospodarka,369904){rel="nofollow"}*
+
+---
+
+## 📅 NADCHODZĄCY TYDZIEŃ
+
+- **Poniedziałek 13 kwietnia** — prawdopodobny powrót do handlu po wielkanocnej przerwie
+- **Wtorek 14 kwietnia** — dane o inflacji z USA (kluczowe dla nastrojów)
+- **21–22 kwietnia** — konferencja InvestCAMP w Warszawie (najważniejsze w Polsce wydarzenie poświęcone inwestowaniu pasywnemu)
+
+---
+
+## 🔗 Źródła
+
+- [Bankier.pl](https://www.bankier.pl/wiadomosci){rel="nofollow"}
+- [StockWatch.pl](https://www.stockwatch.pl/wiadomosci/najnowsze){rel="nofollow"}
+- [Business Insider](https://businessinsider.com.pl){rel="nofollow"}
+- [StrefaInwestorow.pl](https://strefainwestorow.pl){rel="nofollow"}
