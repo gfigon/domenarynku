@@ -1,0 +1,112 @@
+---
+title: "Prasówka Światowa — 12 kwietnia 2026"
+description: "Najważniejsze wydarzenia ze świata: Iran-USA, wybory w Węgrzech, geopolityka, makroekonomia"
+date: "2026-04-12"
+draft: false
+slug: "prasowka-swiatowa-12-kwietnia-2026"
+tags: ["świat", "geopolityka", "Iran", "USA", "Węgry", "wybory", "makroekonomia"]
+image: /images/swiat.jpg
+author: "DomenaRynku.pl"
+toc: true
+---
+
+```{r setup, include=FALSE}
+library(here)
+```
+
+## 🇮🇷 Iran – USA: Negocjacje zakończyły się fiaskiem
+
+Po 21 godzinach negocjacji w Islamabadzie (Pakistan), wiceprezydent USA **JD Vance** ogłosił, że Iran nie przyjął warunków amerykańskich. To "ostateczna oferta" USA — po stronie irańskiej minister spraw zagranicznych wezwał USA do powstrzymania się od "nadmiernych żądań".
+
+**Kontekst:** 
+- Trójstronna talks w Pakistanie z udziałem delegacji USA i Iranu
+- Kluczowy punkt sporny: status Cieśniny Ormuz
+- USA wysłały dwa okręty wojenne do Cieśniny Ormuz do rozminowania
+
+**Źródła:**
+- [BBC: Iran chose 'not to accept our terms', US VP Vance says](https://www.bbc.com/news/live/cn4v0xm9y0kt){rel="nofollow"}
+- [CNN: Vance says no agreement reached after marathon US-Iran talks](https://edition.cnn.com/2026/04/12/world/live-news/iran-us-war-talks-trump){rel="nofollow"}
+- [Al Jazeera: US says two naval ships 'transited' Strait of Hormuz](https://www.aljazeera.com/news/2026/4/11/us-says-two-naval-ships-transited-strait-of-hormuz-for-mine-clearing){rel="nofollow"}
+
+---
+
+## 🇭🇺 Węgry: Wybory pod znakiem zapytania
+
+**Węgrzy głosują dziś** w kluczowych wyborach, które mogą zakończyć rządy **Viktora Orbána**. Wszystko wskazuje na rekordową frekwencję — pierwsze dane pokazują ogromną mobilizację wyborców.
+
+**Kontekst:**
+- Najbliższy sojusznik Trumpa w Europie staje do najtrudniejszego testu
+- Péter Magyar (ugrupowanie ludowe) prowadzi w sondażach
+- Wynik może mieć daleko idące konsekwencje dla relacji USA-Rosja
+
+**Źródła:**
+- [BBC: Hungarians vote in big numbers on whether to end Orbán rule](https://www.bbc.com/news/articles/cdxdepjrv95o){rel="nofollow"}
+- [CNN: Trump's closest ally in Europe faces toughest test yet](https://edition.cnn.com/2026/04/12/europe/orban-hungary-election-explained-intl){rel="nofollow"}
+
+---
+
+## 🇺🇦 Ukraina: Wielkanocny rozejm, ale napięcie rośnie
+
+Wojna nie ustaje. W Charkowie święta Wielkanocne mają ponury charakter — Ukraińcy spodziewają się wznowienia walk po weekendowym rozejmie.
+
+**Kontekst:**
+- Krótki rozejm na Wielkanoc
+- Nastroje są posępne, ludzie nie wierzą w trwały pokój
+- Walki mogą wznowić się w każdej chwili
+
+**Źródła:**
+- [BBC: 'We need real peace': Easter truce fails to lift grim mood in war-torn Ukraine](https://www.bbc.com/news/articles/cj0vn30574no){rel="nofollow"}
+
+---
+
+## 🇱🇧 Lebanon: Izraelskie ataki
+
+**Izraelskie naloty zabiły co najmniej 18 osób** w południowym Libanie — podało libańskie Ministerstwo Zdrowia. Od 2 marca br. w izraelskich atakach zginęło ponad 2000 osób.
+
+Dodatkowo:
+- Izraelscy osadnicy zabili Palestyńczyka podczas rajdu na okupowany Zachodni Brzeg
+- Izrael oficjalnie zatwierdził 34 nowe nielegalne osiedla na Zachodnim Brzegu
+
+**Źródła:**
+- [Al Jazeera: Israeli strikes kill at least 18 people across southern Lebanon](https://www.aljazeera.com/news/2026/4/11/israeli-strikes-kill-at-least-18-people-across-southern-lebanon){rel="nofollow"}
+- [Al Jazeera: Israeli settlers kill Palestinian during raid on occupied West Bank](https://www.aljazeera.com/news/2026/4/11/israeli-settlers-kill-palestinian-during-raid-on-occupied-west-bank-village){rel="nofollow"}
+
+---
+
+## 🚀 Misja Artemis II: Astronauty wrócili na Ziemię
+
+Czterej astronauci misji Artemis II wylądowali w Houston po dziewięciodniowej wyprawie wokół Księżyca — najdalej od Ziemi w historii ludzkości.
+
+**Źródła:**
+- [BBC: 'It's a special thing to be on Planet Earth': Artemis crew welcomed home in Houston](https://www.bbc.com/news/articles/cd7jzj9rg1qo){rel="nofollow"}
+
+---
+
+## ⚽ Sport
+
+**Piłka nożna:**
+- Barcelona pokonała Espanyol 4-1 i umocniła się na pozycji lidera La Liga (9 pkt przewagi nad Realem Madryt)
+- Tyson Fury wygrał z Makhmudovem w walce powrotnej
+
+**Bundesliga historyczna:**
+- Marie-Louise Eta została mianowaną tymczasową trenerką Union Berlin — **pierwsza kobieta** menadżerem drużyny męskiej w jednej z top 5 lig Europy!
+
+**Źródła:**
+- [Al Jazeera: Yamal scores and sets up two as Barcelona cash in on Madrid loss](https://www.aljazeera.com/sports/2026/4/11/barcelona-move-9-clear-of-real-madrid-with-derby-win-as-la-liga-title-nears){rel="nofollow"}
+- [BBC: Union Berlin appoint first female head coach](https://www.bbc.com/news/articles/cq59yvy6v0eo){rel="nofollow"}
+
+---
+
+## 📌 Podsumowanie
+
+| Wydarzenie | Status | Data |
+|-----------|--------|------|
+| Iran-USA negocjacje | Fiasko | 12.04.2026 |
+| Wybory na Węgrzech | Trwają | 12.04.2026 |
+| Wielkanocny rojem w Uk | Zakończony | 11.04.2026 |
+| Izraelskie ataki na Liban | Trwają | 11.04.2026 |
+| Artemis II | Sukces | 11.04.2026 |
+
+---
+
+*Źródła: BBC, CNN, Al Jazeera, Bloomberg. Dane z 12.04.2026.*
