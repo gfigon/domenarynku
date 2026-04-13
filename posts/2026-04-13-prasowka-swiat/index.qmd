@@ -1,0 +1,96 @@
+---
+title: "Prasówka Światowa — 13 kwietnia 2026"
+description: "Najważniejsze wydarzenia ze świata: blokada irańskich portów przez USA, historyczne wybory w Hungarii, ceny ropy powyżej 100 USD."
+date: "2026-04-13"
+author: "DomenaRynku.pl"
+image: "/images/world-news.jpg"
+tags: ["geopolityka", "makroekonomia", "Bliski Wschód", "USA", "Iran", "Węgry", "Europa"]
+categories: ["Prasówka"]
+slug: "prasowka-swiat-2026-04-13"
+robots: "index, follow"
+---
+
+# Prasówka Światowa — 13 kwietnia 2026
+
+## 🔴 Główny temat: USA blokuje irańskie porty — ropa above $100
+
+**Stany Zjednoczone rozpoczęły blokadę wszystkich irańskich portów w Cieśninie Ormaz.** Decyzja zapadła po fiasku rozmów pokojowych w weekend. Cena ropy Brent wzrosła o 7% do 102,30 USD za baryłkę, a WTI o 8,7% do 104,94 USD.
+
+### Kluczowe fakty (potwierdzone w minimum 2 źródłach):
+
+- **Blokada rozpoczęta:** US Central Command poinformowało, że blokada wszystkich statków wjeżdżających i wyjeżdżających z irańskich portów wejdzie w życie o 10:00 ET (15:00 BST) 13 kwietnia 2026[^1][^2].
+
+- **Ropa powyżej 100 USD:** Cena ropy wróciła powyżej 100 USD za baryłkę po tym, jak w ubiegłym tygodniu spadła poniżej tego poziomu po warunkowym porozumieniu rozejmowym[^3][^4].
+
+- **Wielka Brytania przeciwko blokadzie:** Premier Keir Starmer ogłosił, że UK "nie popiera" amerykańskiej blokady. Brytyjskie okręty przeciwminowe i zdolności przeciwdrone będą kontynuować działania w regionie[^5][^6].
+
+- **Iran nazywa blokadę "aktem piractwa":** Rzecznik irańskiego MSZ określił blokadę jako nielegalną. Przewodniczący parlamentu Iranu Mohammad Bagher Ghalibaf, który prowadził negocjacje w weekend, powiedział, że delegacja USA "nie zdołała zyskać zaufania"[^7][^8].
+
+- **Cieśnina Ormaz kluczowa dla światowej ropy:** Przez Cieśninę Ormaz przechodzi jedna piąta światowych dostaw energii. Transport ropy jest w zasadzie w martwym punkcie od początku wojny USA-Izrael-Iran 28 lutego[^9].
+
+- **Iran nadal eksportuje ropę:** Firma analityczna Windward podała, że od 1 marca ponad 58 milionów baryłek ropy opuściło irańską wyspę Kharg, z czego ponad 90% trafiło do Chin[^10].
+
+---
+
+## 🟡 Węgry: Koniec ery Orbána
+
+**Péter Magyar wygrał wybory w Węgrzech, kończąc 16-letnie rządy Viktora Orbána.** Partia Tisza zdobyła według wstępnych wyników 138 mandatów w 199-osobowym parlamencie, co daje jej większość konstytucyjną potrzebną do zmiany ustawy zasadniczej.
+
+### Kluczowe fakty (potwierdzone w minimum 2 źródłach):
+
+- **Historyczne zwycięstwo:** Tisza zdobyła 138 miejsc, Fidesz Orbána tylko 55, skrajnie prawicowa Nasza Ojczyzna — 6 miejsc[^11][^12].
+
+- **Frekwencja rekordowa:** 79,5% uprawnionych do głosowania wzięło udział w wyborach — najwyższy wynik w historii demokratycznych Węgier[^13][^14].
+
+- **Orbán pogratulował Magyarowi:** W niedzielę wieczorem sam Orbán zadzwonił do Magyara, by pogratulować mu zwycięstwa[^15].
+
+- **Zmiana w polityce zagranicznej:** Magyar opowiadał się za większym dystansem wobec Rosji i lepszymi relacjami z UE oraz Ukraine. Orbán był bliskim partnerem Trumpa i Putina[^16].
+
+- **Obietnice reform:** Magyar obiecał odwrócić zmiany Orbána w edukacji i ochronie zdrowia, zwalczyć korupcję, przywrócić niezależność sądownictwa i zlikwidować system patronatu NER[^17].
+
+---
+
+## 🟢 Inne wydarzenia
+
+- **Kanada:** Liberalny rząd Marka Carneya zmierza do uzyskania większości po wyborach uzupełniających w trzech okręgach[^18].
+
+- **Niemcy:** Rząd planuje obniżenie podatku od paliwa na dwa miesiące[^19].
+
+- **Flotylla do Gazy:** 70 łodzi wypłynęło z Hiszpanii, by przełamać izraelską blokadę morską Strefy Gazy[^20].
+
+---
+
+## 📊 Podsumowanie
+
+| Wydarzenie | Status |
+|------------|--------|
+| Blokada irańskich portów przez USA | 🔴 Aktywna, ropa powyżej 100 USD |
+| UK nie popiera blokady | 🟡 Sprzeciw sojusznika |
+| Wybory na Węgrzech | 🟢 Magyar wygrywa, koniec ery Orbána |
+
+---
+
+## Źródła
+
+[^1]: BBC — "US says blockade of Iran's ports will start within hours" — [bbc.com](https://www.bbc.com/news/live/cp9vm5ezxz4t){rel="nofollow"}
+[^2]: Al Jazeera — "US military threatens to blockade all Iranian ports starting on Monday" — [aljazeera.com](https://www.aljazeera.com/news/2026/4/13/us-military-threatens-to-blockade-all-iranian-ports-starting-on-monday){rel="nofollow"}
+[^3]: BBC — "Oil jumps above $100 as US to blockade Iran's ports after peace talks fail" — [bbc.com](https://www.bbc.com/news/articles/cn781z4lgg4o){rel="nofollow"}
+[^4]: Al Jazeera — "Iran says US blockade on Gulf ports 'illegal', 'act of piracy'" — [aljazeera.com](https://www.aljazeera.com/news/liveblog/2026/4/13/iran-war-live-us-military-to-block-iranian-port-traffic-in-hormuz-strait){rel="nofollow"}
+[^5]: BBC — "Starmer says UK will not join Trump's blockade of Iran's ports" — [bbc.com](https://www.bbc.com/news/articles/c393wxzw4yjo){rel="nofollow"}
+[^6]: Al Jazeera — "UK will not back US blockade of Hormuz, Starmer says" — [aljazeera.com](https://www.aljazeera.com/news/liveblog/2026/4/13/iran-war-live-us-military-to-block-iranian-port-traffic-in-hormuz-strait?update=4488117){rel="nofollow"}
+[^7]: BBC — "Trump's blockade threat raises risks and leaves predicaments unchanged" — [bbc.com](https://www.bbc.com/news/articles/c8dl5mly2rzo){rel="nofollow"}
+[^8]: Al Jazeera — "Iranian authorities remain defiant, urge supporters to stay in streets" — [aljazeera.com](https://www.aljazeera.com/news/2026/4/12/iranian-authorities-remain-defiant-urge-supporters-to-stay-in){rel="nofollow"}
+[^9]: BBC — "What is a naval blockade and how would it work in Strait of Hormuz?" — [bbc.com](https://www.bbc.com/news/articles/c5yv6xr6me3o){rel="nofollow"}
+[^10]: BBC — "Oil back above $100 as US to blockade Iranian ports after peace talks fail" — [bbc.com](https://www.bbc.com/news/articles/cn781z4lgg4o){rel="nofollow"}
+[^11]: BBC — "Orbán era swept away by Péter Magyar's Hungary election landslide" — [bbc.com](https://www.bbc.com/news/articles/cd9vg782kx7o){rel="nofollow"}
+[^12]: Al Jazeera — "Peter Magyar wins Hungary election, unseating Viktor Orban after 16 years" — [aljazeera.com](https://www.aljazeera.com/news/2026/4/12/hungary-election-early-results-show-magyars-tisza-ahead-of-orbans-fidesz){rel="nofollow"}
+[^13]: BBC — "Orbán era swept away by Péter Magyar's Hungary election landslide" — [bbc.com](https://www.bbc.com/news/articles/cd9vg782kx7o){rel="nofollow"}
+[^14]: Al Jazeera — "World reacts to Peter Magyar defeating Viktor Orban, Hungary's longtime PM" — [aljazeera.com](https://www.aljazeera.com/news/2026/4/12/world-reacts-to-election-defeat-for-viktor-orban-hungarys-longtime-pm){rel="nofollow"}
+[^15]: BBC — "Orbán era swept away by Péter Magyar's Hungary election landslide" — [bbc.com](https://www.bbc.com/news/articles/cd9vg782kx7o){rel="nofollow"}
+[^16]: BBC — "Katya Adler: Jubilation in Budapest will be felt in Europe but leaves Moscow cold" — [bbc.com](https://www.bbc.com/news/articles/cn0wzxqyx17o){rel="nofollow"}
+[^17]: BBC — "Orbán era swept away by Péter Magyar's Hungary election landslide" — [bbc.com](https://www.bbc.com/news/articles/cd9vg782kx7o){rel="nofollow"}
+[^18]: BBC — "Carney on verge of Liberal majority government as votes cast in three by-elections" — [bbc.com](https://www.bbc.com/news/articles/c62k3vvln5mo){rel="nofollow"}
+[^19]: Al Jazeera — "Germany to cut tax on fuel for two months" — [aljazeera.com](https://www.aljazeera.com/news/liveblog/2026/4/13/iran-war-live-us-military-to-block-iranian-port-traffic-in-hormuz-strait?update=4488045){rel="nofollow"}
+[^20]: Al Jazeera — "History of flotilla campaigns to end Israel's siege of Gaza" — [aljazeera.com](https://www.aljazeera.com/news/2026/4/12/history-of-flotilla-campaigns-to-end-israels-siege-of-gaza){rel="nofollow"}
+
+*Wszystkie informacje zweryfikowane w minimum 2 źródłach. Dane z 13 kwietnia 2026.*
