@@ -1,0 +1,143 @@
+---
+title: "Prasówka Światowa – 14 kwietnia 2026"
+date: "2026-04-14"
+description: "Najważniejsze wydarzenia ze świata: blokada USA portów Iranu, konflikt Trump-Papież, zwycięstwo Péter Magyar na Węgrzech, atak na dom Sama Altmana."
+image: "/posts/2026-04-14-prasowka-swiat/cover.jpg"
+keywords: ["geopolityka", "USA", "Iran", "makroekonomia", "Bliski Wschód", "Europa", "2026"]
+author: "DomenaRynku.pl"
+toc: true
+categories: ["Świat", "Geopolityka", "Makroekonomia"]
+draft: false
+publish: true
+meta:
+  - name: keywords
+    content: "geopolityka, USA, Iran, makroekonomia, Bliski Wschód, Europa, 2026"
+  - name: description
+    content: "Najważniejsze wydarzenia ze świata: blokada USA portów Iranu, konflikt Trump-Papież, zwycięstwo Péter Magyar na Węgrzech, atak na dom Sama Altmana."
+---
+
+# Prasówka Światowa – 14 kwietnia 2026
+
+*Komentarz rynkowy: Dzień ważny dla geopolityki oraz rynków ropy naftowej.*
+
+## 🔴 Geopolityka
+
+### Blocus USA portów Iranu w Cieśninie Ormuz
+
+Stany Zjednoczone rozpoczęły blokadę wojskową portów Iranu w Cieśninie Hormuz — kluczowym szlaku dla transportu ropy naftowej. USA deklarują, że przepuszczą statki, które nie płyną do lub z irańskich portów. Dane śledzenia pokazały, że w poniedziałek przez cieśninę przeszły co najmniej dwie tankowce.
+
+Ceny ropy spadły poniżej 100 dolarów za baryłkę w nadziei na nowe rozmowy pokojowe USA-Iran.
+
+**Źródła:** [BBC News](https://www.bbc.com/news/live/cp9vm5ezxz4t){rel="nofollow"}, [Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/4/14/iran-war-live-trump-claims-tehran-wants-a-deal-amid-us-blockade-of-hormuz){rel="nofollow"}
+
+---
+
+### Konflikt Trump – Papież Leo XIV
+
+Prezydent Donald Trump opublikował wizerunek przedstawiający go w sposób nawiązujący do postaci Jezusa, co wywołało falę krytyki — również ze strony chrześcijańskich sojuszników prezydenta. Trump usunął post po fali oburzenia. Włoski premier skrytykował sojusznika Trumpa za "nieakceptowalną" krytykę Papieża.
+
+Sekretarz generalny ONZ zaapelował do "wszystkich stron" o poszanowanie wolności żeglugi w Cieśninie Hormuz.
+
+**Źródła:** [BBC News](https://www.bbc.com/news/articles/c17v8y0z9z2o){rel="nofollow"}, [BBC News](https://www.bbc.com/news/videos/cp3l2vv69peo){rel="nofollow"}
+
+---
+
+### Nowy premier Węgier: Péter Magyar
+
+Pro-UE lider partii Tisza odniósł zdecydowane zwycięstwo w wyborach, kończąc 16-letnie rządy Viktora Orbána. Nowy premier Magyar zapowiedział, że jeśli zadzwoni Putin, powie mu, by "zakończył wojnę w Ukrainie".
+
+**Źródła:** [BBC News](https://www.bbc.com/news/articles/cd6lzezp4zvo){rel="nofollow"}, [BBC News](https://www.bbc.com/news/videos/c8r418l4v8eo){rel="nofollow"}
+
+---
+
+### Pokój libański – trudne negocjacje
+
+Rząd libański wchodzi w rozmowy pokojowe z Izraelem, ale z ograniczonym wpływem na Hezbollah. Przywódca Hezbollahu Naim Qassem wezwał rząd Libanu do wycofania się z planowanych rozmów w Waszyngtonie, nazywając je "taktyką nacisku" na oddanie broni.
+
+W południowym Libanie w Sidonie zginęły trzy osoby.
+
+**Źródła:** [BBC News](https://www.bbc.com/news/articles/cr51l794mlyo){rel="nofollow"}, [Al Jazeera](https://www.aljazeera.com/news/2026/4/13/hezbollah-leader-urges-lebanon-government-to-pull-out-of-israel-talks){rel="nofollow"}
+
+---
+
+## 🟠 USA / Ameryka Północna
+
+### Atak na dom Sama Altmana
+
+20-letni Teksańczyk został oskarżony o usiłowanie morderstwa po rzucie koktajlem Mołotowa w dom Sam Altmana w San Francisco. Prokuratorzy domagają się kary dożywotniego więzienia.
+
+**Źródła:** [Al Jazeera](https://www.aljazeera.com/economy/2026/4/14/man-charged-with-attempted-murder-after-attack-on-openai-ceo-altmans-home){rel="nofollow"}, [Al Jazeera](https://www.aljazeera.com/news/2026/4/14/man-charged-with-attempted-murder-of-openai-ceo-sam-altman){rel="nofollow"}
+
+---
+
+### Wizyta książąt Sussex w Australii
+
+Harry i Meghan rozpoczęli wizytę w Australii, łącząc działalność charytatywną z biznesem. Podnoszone są pytania, czy podatnicy pokrywają koszty zabezpieczenia wizyty.
+
+**Źródła:** [BBC News](https://www.bbc.com/news/articles/cvgk3vpyzdqo){rel="nofollow"}, [BBC News](https://www.bbc.com/news/videos/crk18gnepmgo){rel="nofollow"}
+
+---
+
+### Antywojenni protesty w Nowym Jorku
+
+Policja w Nowym Jorku aresztowała około 100 antywojennych протестуюcych podczas siedzenia, które domagało się zakończenia sprzedaży broni Izraelowi.
+
+**Źródła:** [Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/4/14/anti-war-protesters-arrested-in-new-york-urging-end-to-israel-weapon-sales){rel="nofollow"}
+
+---
+
+## 🟢 Azja / Daleki Wschód
+
+### Założyciel Evergrande przyznał się do oszustwa
+
+Hui Ka Yan, założyciel chińskiego giganta nieruchomości Evergrande, przyznał się do oszustwa. Firma była niegdyś największą chińską firmą deweloperską, z wyceną giełdową przekraczającą 50 mld dolarów.
+
+**Źródła:** [BBC News](https://www.bbc.com/news/articles/cn788ymy5gno){rel="nofollow"}
+
+---
+
+### Super tajfun Sinlaku zmierza toward Mariany Północne i Guam
+
+Wolno przesuwający się tajfun Sinlaku osłabnie, ale nadal przyniesie niebezpieczne warunki do regionu.
+
+**Źródła:** [Al Jazeera](https://www.aljazeera.com/news/2026/4/14/super-typhoon-sinlaku-bears-down-on-northern-mariana-islands-guam){rel="nofollow"}
+
+---
+
+## 🟡 Europa
+
+### Hiszpania: żona premiera oskarżona o korupcję
+
+Żona premiera Pedro Sáncheza została oskarżona o korupcję po dwuletnim śledztwie.
+
+**Źródła:** [BBC News](https://www.bbc.com/news/articles/c8ejg3wk81no){rel="nofollow"}
+
+---
+
+### Nowy papież Leo XIV w Algerii
+
+Leo XIV jest pierwszym papieżem, który odwiedził Algierię na początku większej trasy afrykańskiej. Watykan chce zwrócić światową uwagę na kontynent kluczowy dla przyszłości Kościoła.
+
+**Źródła:** [BBC News](https://www.bbc.com/news/articles/cvg0jyx4qq7o){rel="nofollow"}
+
+---
+
+## 🔵 Afryka
+
+### Trzy dzieci rodzą się co minutę w wojnie w Sudanie
+
+Organizacja Save the Children ostrzega, że sudanskie dzieci rodzą się w warunkach, których "żadne dziecko nie powinno doświadczyć".
+
+**Źródła:** [Al Jazeera](https://www.aljazeera.com/news/2026/4/14/three-babies-born-into-sudan-war-every-minute-charity-warns){rel="nofollow"}
+
+---
+
+## 📊 Komentarz rynkowy
+
+- **Ropa naftowa:** Ceny spadły poniżej 100 USD za baryłkę na wieść o potencjalnych rozmowach USA-Iran
+- **Fracht morski:** Koszty wzrosły o ponad 10% w ciągu miesiąca z powodu wojny USA-Izrael-Iran
+- **Rynki europejskie:** Uważnie obserwują rozwój sytuacji na Węgrzech po zmianie władzy
+
+---
+
+*Źródła: BBC, Al Jazeera, Politico EU. Dane z 14 kwietnia 2026.*
