@@ -1,64 +1,70 @@
 ---
-title: "Prasówka GPW - 14 kwietnia 2026"
-date: "2026-04-14"
-description: "Najważniejsze wiadomości finansowe z poranka przed sesją GPW"
-keywords: "GPW, giełda, warszawski parkiet, wiadomości giełdowe, prasówka"
+title: "Prasówka GPW — 14 kwietnia 2026"
+date: "2026-04-14 08:30"
+categories: [GPW, giełda, biznes, finanse]
+slug: prasowka-gpw-2026-04-14
+description: Poranna prasówka GPW - najważniejsze informacje z warszawskiej giełdy
+twitter_card: summary_large_image
+og_image: 
 ---
 
-# Prasówka GPW — 14 kwietnia 2026
-
-Poranne podsumowanie najważniejszych wiadomości z polskiego i światowego rynku finansowego przed rozpoczęciem sesji na GPW.
-
----
-
-## 🇭🇺 Przełom na Węgrzech – TISZA wygrywa wybory
-
-Opozycyjna partia **Tisza** Petra Magyara zwyciężyła w niedzielnych wyborach parlamentarnych na Węgrzech, uzyskując **138 mandatów** w 199-osobowym parlamencie – wynika ze wstępnych danych Narodowego Biura Wyborczego po podliczeniu niemal 99% głosów. Koalicja Fidesz-KDNP premiera Viktora Orbana może liczyć jedynie na **55 mandatów**.
-
-Wynik Tiszy daje jej większość niezbędną do zmiany konstytucji oraz ustaw przyjętych przez rząd Orbana w ciągu ostatnich 16 lat.
-
-**Peter Magyar** zapowiedział już, że pierwszą wizytę zagraniczną jako premier złoży w Polsce, a następnie w Austrii i Belgii.
-
-*Źródła: [Bankier](https://www.bankier.pl/wiadomosci){rel="nofollow"}, [Money.pl](https://www.money.pl/gospodarka/polska-i-wegry-skorzystaja-na-zwyciestwie-magyara-oto-scenariusz-dla-gospodarki-7274849540356448a.html){rel="nofollow"}*
+**Prasówka GPW** — *Wtorek, 14 kwietnia 2026, godz. 08:30*
 
 ---
 
-## 🇵🇱 BGK tworzy spółkę Chrobry dla sektora obronnego
+## 📈 Sesja poprzednia (13.04)
 
-**Bank Gospodarstwa Krajowego (BGK)** planuje utworzenie spółki celowej **Chrobry**, której zadaniem będzie kapitałowe wspieranie polskich firm z sektora obronnego i odporności państwa. Środki na ten cel będą pochodzić z **Funduszu Bezpieczeństwa i Obronności (FBiO)** – do FBiO ma trafić blisko **23 mld zł z KPO**.
+Poniedziałkowa sesja na GPW zakończyła się niewielkim spadkiem WIG20 (-0,02 proc., do 2.341,41 pkt). WIG nieznacznie wzrósł (+0,01 proc.). Obroty wyniosły 2,97 mld zł, w tym 2,52 mld zł w blue chips. Nastroje na rynku były nieco lepsze niż w Europie — niemiecki DAX i francuski CAC40 traciły po ok. 0,5 proc.
 
-Spółka będzie powołana przy BGK, ale nie będzie wchodziła w skład grupy kapitałowej BGK. Według prezesa BGK Mirosława Czekaja, ok. 70% środków zostanie wykorzystane do finansowania pożyczek, a ok. 7 mld zł przeznaczone zostanie na inwestycje w kapitały firm perspektywicznych.
+## 🌍 Tło: Geopolityka
 
-*Źródła: [Bankier](https://www.bankier.pl/wiadomosc/Panstwowy-bank-powola-nowa-spolke-Chrobry-zainwestuje-w-obronnosc-9113380.html){rel="nofollow"}, [Money.pl](https://www.money.pl/gospodarka/panstwowy-bank-powola-nowa-spolke-oto-w-co-zainwestuje-chrobry-7275076836497760a.html){rel="nofollow"}*
-
----
-
-## 💰 Ministerstwo Finansów chce nowego podatku na e-papierosy
-
-Na wtorkowym posiedzeniu rząd zajmie się projektem wprowadzającym **akcyzę na e-papierosy** działające na zasadzie indukcji elektromagnetycznej. Obecne definicje nie uwzględniają specyfiki technologii indukcyjnej, co powoduje niższe opodatkowanie tych urządzeń.
-
-Projekt wprowadza akcyzę w wysokości **40 zł za sztukę** dla urządzeń z elementem ferromagnetycznym. Nowe przepisy mają wejść w życie po 6-miesięcznym okresie vacatio legis.
-
-*Źródła: [Bankier](https://www.bankier.pl/wiadomosc/Ministerstwo-Finansow-chce-nowego-podatku-ws-e-papierosow-oto-szczegoly-9113385.html){rel="nofollow"}, [Money.pl](https://www.money.pl/gospodarka/ministerstwo-finansow-chce-nowego-podatku-ws-e-papierosow-oto-szczegoly-7275068839475488a.html){rel="nofollow"}*
+- **Miedź w Londynie** — najdroższa od ponad miesiąca. Inwestorzy liczą na pokój USA-Iran.
+- **Ropa naftowa** — ceny spadają poniżej 100 USD/bbl. USA zablokowały Cieśninę Ormuz, ale signalizuje możliwość wznowienia rozmów pokojowych Iran-USA.
+- **Węgry** — BUX rósł po wyborach. Partia TISZA wygrała wybory parlamentarne.
 
 ---
 
-## 🏠 Murapol z solidnymi wynikami sprzedaży w I kwartale
+## 🏢 Spółki: Kluczowe komunikaty (ESPI)
 
-**Grupa Murapol** w I kw. 2026 roku sprzedała łącznie **953 lokale** do klientów detalicznych, czyli **o 8% więcej** w porównaniu z tym samym okresem roku poprzedniego. Spółka zawarła 735 umów deweloperskich i przedwstępnych, a na koniec marca w ofercie posiadała **3 807 lokali** w 16 miastach.
+### Dywidendy
 
-Prezes Murapolu Nikodem Iskra zapowiedział, że do końca roku spółka planuje przekazać klucze do ok. 3 tys. lokali.
+**Elektrotim** rekomenduje wypłatę 2 zł dywidendy na akcję za 2025 rok. Łączna kwota: 19,9 mln zł z zysku netto 28,8 mln zł (69 proc. — w przedziale 50-75 proc. polityki dywidendowej). Za 2024 rok spółka wypłaciła 2,5 zł na akcję.
 
-*Źródła: [Bankier](https://www.bankier.pl/wiadomosc/Grupa-Murapol-w-I-kw-sprzedala-lacznie-953-lokale-do-klientow-detalicznych-o-8-proc-wiecej-rdr-9113369.html){rel="nofollow"}, [Money.pl](https://www.money.pl/biznes/murapol-sprzedal-953-lokale-w-i-kwartale-9113369.html){rel="nofollow"} (z komunikatu)*
+*Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/Elektrotim-chce-wyplacic-2-zl-dywidendy-na-akcje-za-2025-rok-9113380.html){rel="nofollow"}*
+
+### Wyniki / Sprzedaż
+
+**Grupa Murapol** w I kw. 2026 sprzedała łącznie **953 lokale** do klientów detalicznych — **+8 proc. rdr**. Spółka posiadała 3.807 lokali w ofercie na koniec marca. W pierwszym kwartale przekazano 256 lokali. Portfel projektów w budowie: 7.321 lokali (92 budynki, 25 projektów).
+
+*Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/Grupa-Murapol-w-I-kw-sprzedala-lacznie-953-lokale-do-klientow-detalicznych-o-8-proc-wiecej-rdr-9113369.html){rel="nofollow"}*
+
+### Rekomendacje
+
+**Tauron** — Noble Securities podwyższył cenę docelową do **9,37 zł** z 7,17 zł, podnosząc rekomendację do **"redukuj"** z "sprzedaj" (raport z 9.04).
+
+*Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/Noble-Securities-podwyzszylo-cene-docelowa-akcji-Tauronu-do-9-37-zl-podnoszac-rekomendacje-do-redukuj-9113378.html){rel="nofollow"}*
+
+**Medicalgorithmics** — East Value Research obniżył cenę docelową do **44,7 zł** z 48,6 zł (raport z 14.04).
+
+*Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/East-Value-Research-obnizyl-cene-docelowa-akcji-Medicalgorithmics-do-44-7-zl-9113372.html){rel="nofollow"}*
 
 ---
 
-## 📊 Kalendarium
+## 🏛️ Giełda i gospodarka
 
-- **14.04** – Rząd zajmie się projektem akcyzy na e-papierosy
-- **14.04** – Publikacja raportu rocznego Grupy Murapol (harmonogram)
-- **Niedziela** – Wybory na Węgrzech (oficjalne wyniki)
+**BGK** powołuje spółkę celową **„Chrobry"** dla wsparcia polskich firm zwiększających zdolności obronne. Plan inwestycji obejmuje rozwijanie technologii obronnych.
+
+*Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/Miliardy-na-polska-obronnosc-BGK-powoluje-spolke-Chrobry-i-ujawnia-plan-inwestycji-9113330.html){rel="nofollow"}*
 
 ---
 
-*Źródła: Bankier.pl, Money.pl, PAP Biznes*
+## 📅 Kalendarium
+
+| Data | Wydarzenie |
+|------|------------|
+| 14.04 | NZH Globe Trade Centre |
+| 15.04 | Debiut Huuuge na NC |
+
+---
+
+*Źródła: Bankier.pl — 14.04.2026 (godz. 07:00-08:09).*
