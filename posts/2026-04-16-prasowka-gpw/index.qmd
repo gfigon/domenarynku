@@ -1,75 +1,99 @@
 ---
-title: "Prasówka GPW — 16 kwietnia 2026"
-date: "2026-04-16 08:20"
-categories: [GPW, giełda, biznes, finanse]
-slug: prasowka-gpw-2026-04-16
-description: Poranna prasówka GPW - najważniejsze informacje z warszawskiej giełdy
-twitter_card: summary_large_image
-og_image: 
+title: "Prasówka GPW - 16 kwietnia 2026"
+date: "2026-04-16"
+description: "Poranna prasówka z kluczowymi informacjami z GPW - debiut Syn2bio, wyniki sesji, komunikaty ESPI"
+author: "Automated GPW News"
+freeze: true
 ---
 
-**Prasówka GPW** — *Czwartek, 16 kwietnia 2026, godz. 08:20*
+```{r setup, include=FALSE}
+#| echo: false
+#| message: false
+#| warning: false
+ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
 
----
+::: {.callout-important}
+**Godzina publikacji:** 8:30 | **Data:** 16 kwietnia 2026 (czwartek)
+:::
 
-## 🌏 Azja: Chińska gospodarka rośnie o 5% w Q1
-
-Chińska gospodarka wzrosła w pierwszym kwartale 2026 roku o 5 proc. rok do roku — wynika z danych opublikowanych w czwartek przez tamtejszy urząd statystyczny. Wynik ten znacząco przekroczył oczekiwania analityków (prognozy wskazywały na ok. 4,8 proc.), łagodząc obawy przed skutkami toczącej się wojny handlowej oraz napięć na Bliskim Wschodzie. Dobre dane sprawiły, że pilna potrzeba wprowadzania dodatkowych bodźców finansowych znacząco spadła, a Pekin przyjął bardziej elastyczne podejście do celu wzrostu PKB ustalonego na poziomie od 4,5 do 5 proc.
-
-*Źródło: [Puls Biznesu](https://www.pb.pl/gospodarka-chin-przyspiesza-w-2026-r-wsparta-boomem-na-ai-i-odpornoscia-na-wstrzasy-naftowe-1259657){rel="nofollow"}*
-
-*Źródło: [Portal Samorządowy](https://www.portalsamorzadowy.pl/polityka-i-spoleczenstwo/chiny-wladze-wzrost-pkb-o-5-proc-w-pierwszym-kwartale-krajowy-popyt-nadal-slaby,657121.html){rel="nofollow"}*
-
----
-
-## 🇭🇺 Węgry: Koniec ery Orbána
-
-Wybory parlamentarne na Węgrzech, które odbyły się 12 kwietnia 2026 roku, zakończyły się historycznym zwycięstwem opozycyjnej partii TISZA pod przywództwem Pétera Magyara. Według wyników exit polls, TISZA zdobyła od 54 do 55,5 proc. głosów, podczas gdy dotychczas rządzący Fidesz uzyskał od 37 do 40 proc. To pierwsza zmiana władzy na Węgrzech od 2010 roku. Frekwencja była najwyższa od czasu transformacji demokratycznej w 1990 roku. Wojska węgierskie rozpoczęły wycofywanie się z ochrony infrastruktury krytycznej przed rzekomym atakiem z Ukrainy.
-
-*Źródło: [Wikipedia](https://pl.wikipedia.org/wiki/Wybory_parlamentarne_na_W%C4%99grzech_w_2026_roku){rel="nofollow"}*
-
-*Źródło: [OKO.press](https://oko.press/magyar-i-tisza-wygrywaja-wybory-na-wegrzech-oto-6-przyczyn-upadku-systemu-orbana){rel="nofollow"}*
+<!-- SEO Meta Tags -->
+<meta name="description" content="Prasówka GPW 16 kwietnia 2026 - debiut Syn2bio, Żabka na historycznym maksimum, komunikaty spółek, analiza sesji.">
+<meta name="keywords" content="GPW, giełda, warszawa, syn2bio, żabka, allegro, indeksy, espi">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://domenarynku.pl/posts/2026-04-16-prasowka-gpw/">
 
 ---
 
-## 🇵🇱 Orlen: Zwiększenie krajowego wydobycia gazu
+## 📈 Podsumowanie sesji (15 kwietnia)
 
-Orlen uruchomił produkcję gazu ziemnego z nowych odwiertów na złożach Jastrzębiec (woj. lubelskie) i Sierosław (Wielkopolska). Łącznie obie inwestycje dostarczą około 140 mln m³ gazu ziemnego w pierwszym roku i zapewnią stabilne wydobycie przez kolejnych kilkanaście lat. Projekty przyczynią się do wzmocnienia bezpieczeństwa dostaw surowca dla energetyki i przemysłu.
+Środowa sesja na GPW zakończyła się lekkimi wzrostami głównych indeksów. WIG20 wzrósł o 0,3% do ok. 3.649 pkt., WIG zyskał 0,3% do ok. 133.236 pkt., mWIG40 zwyżkował o 0,2% do ok. 9.160 pkt., a sWIG80 zyskał 0,3% do ok. 30.699 pkt. [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260415/dzien-na-gpw-sesja-z-lekkimi-wzrostami-glownych-indeksow-zabka-na-historycznym){rel="nofollow"}
 
-*Źródło: [Orlen.pl](https://www.orlen.pl/pl/o-firmie/media/komunikaty-prasowe/biezace/2026/kwieciec-2026/orlen-zwieksza-krajowe-wydobycie-gazu-ziemnego){rel="nofollow"}*
+### Najważniejsze wydarzenia
 
-*Źródło: [WNP.pl](https://www.wnp.pl/energia/orlen-zwieksza-krajowe-wydobycie-gazu-ziemnego,1052126.html){rel="nofollow"}*
+- **Allegro** – szósty dzień z rzędu zwyżkuje, kurs rośnie o 3,3% do 29,8 zł. Od 8 kwietnia akcje spółki zdrożały o ponad 9%. [Bankier](https://www.bankier.pl/wiadomosci){rel="nofollow"}
 
-*Źródło: [Money.pl](https://www.money.pl/gospodarka/orlen-oglasza-zwiekszamy-krajowe-wydobycie-gazu-7275122157820192a.html){rel="nofollow"}*
+- **Żabka** – kurs znajduje się na historycznym maksimum (25 zł). To trzeci dzień z rzędu wzrostów, po tym jak analitycy Kepler Cheuvreux wydali rekomendację "kupuj" z ceną docelową 27 zł. [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260415/dzien-na-gpw-sesja-z-lekkimi-wzrostami-glownych-indeksow-zabka-na-historycznym){rel="nofollow"}
 
----
+- **Banki** – jeden z najsłabszych sektorów. Alior Bank spada o 0,8%, lekko zniżkują PKO BP i Pekao. Indeks WIG Banki utrzymuje się w okolicy 23.000 pkt. [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260415/dzien-na-gpw-sesja-z-lekkimi-wzrostami-glownych-indeksow-zabka-na-historycznym){rel="nofollow"}
 
-## 💰 Polska: Inflacja przez geopolitykę
+- **CD Projekt** – zwyżkuje o 2,4%, kontynuując wtorkowy wzrost o 6,16%. [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260415/dzien-na-gpw-sesja-z-lekkimi-wzrostami-glownych-indeksow-zabka-na-historycznym){rel="nofollow"}
 
-Minister finansów Andrzej Domański ocenił, że wyższa inflacja w Polsce to "w całości efekt tego, co widzimy na Bliskim Wschodzie" — wyższe ceny ropy przekładają się na ceny paliw. Mimo wzrostu inflacji do 3 proc. w marcu (vs 2,1 proc. w lutym), resort podtrzymuje prognozę inflacji na poziomie 3 proc. na cały 2026 rok. Międzynarodowy Fundusz Walutowy w raporcie World Economic Outlook prognozuje średnioroczną inflację w Polsce na poziomie 3,3 proc. w 2026 i 2027 roku.
-
-*Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/Inflacja-w-Polsce-znow-w-gore-Domanski-To-efekt-Bliskiego-Wschodu-9114057.html){rel="nofollow"}*
-
-*Źródło: [Business Insider](https://businessinsider.com.pl/finanse/minister-finansow-andrzej-domanski-tlumaczy-powody-wyzszej-inflacji/6z4hp1t){rel="nofollow"}*
-
-*Źródło: [WNP.pl](https://www.wnp.pl/rynki/wyzsza-inflacja-w-polsce-domanski-wskazuje-glowny-powod,1052512.html){rel="nofollow"}*
+- **XTB** – 10. dzień z rzędu rośnie, od 31 marca do 14 kwietnia akcje zdrożały o 20%. [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260415/dzien-na-gpw-sesja-z-lekkimi-wzrostami-glownych-indeksow-zabka-na-historycznym){rel="nofollow"}
 
 ---
 
-## ⛽ USA: Sankcje na irańską ropę
+## 🏢 Debiut na GPW
 
-Amerykański minister finansów Scott Bessent zapowiedział w środę, że tymczasowe zwolnienia z sankcji na sprzedaż irańskiej i rosyjskiej ropy naftowej, transportowanej drogą morską, nie zostaną przedłużone. USA nałożyły również sankcje na kolejne podmioty związane z Iranem w ramach operacji "Gospodarcza Furia", obejmujące osoby fizyczne, prawne oraz tankowce.
-
-*Źródło: [Bankier.pl](https://www.bankier.pl/wiadomosc/Ekonomiczna-furia-USA-Scott-Bessent-uderza-w-dochody-Iranu-i-Rosji-i-grozi-Chinom-9114654.html){rel="nofollow"}*
+**Syn2bio** zadebiutował w środę na rynku głównym GPW. Spółka powstała z wydzielenia majątku związanego z pracami nad kardioznacznikiem spółki Synektik. Kurs akcji znajduje się w fazie równoważenia, a teoretyczny kurs otwarcia wynosi 46 zł (odniesienie 23,2 zł). Do obrotu wprowadzono 200 tys. akcji serii A oraz ponad 8,5 mln akcji serii B. [StockWatch](https://www.stockwatch.pl/wiadomosci/syn2bio-debiut-gpw-akcje-synektik,akcje,370167){rel="nofollow"}
 
 ---
 
-## 📅 Kalendarium
+## 📰 Komunikaty ESPI (ostatnie 24h)
 
-| Data | Wydarzenie |
-|------|------------|
-| 16.04 | 35. rocznica pierwszej sesji na GPW (1991) |
+### Dywidendy
+
+- **Śnieżka** – zarząd rekomenduje dywidendę 5,15 zł na akcję (łącznie 64,98 mln zł) z zysku za 2025 rok. [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260415/dzien-na-gpw-sesja-z-lekkimi-wzrostami-glownych-indeksow-zabka-na-historycznym){rel="nofollow"}
+
+- **cyber_folks** – zarząd rekomenduje dywidendę 2,5 zł na akcję (łącznie 38,16 mln zł) z zysku za 2025 rok. [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260415/dzien-na-gpw-sesja-z-lekkimi-wzrostami-glownych-indeksow-zabka-na-historycznym){rel="nofollow"}
+
+### Skup akcji
+
+- **Comp** – zamierza skupić do 555.556 akcji po cenie 63 zł za papier. Przyjmowanie ofert: 17-22 kwietnia 2026. [Bankier](https://www.bankier.pl/wiadomosc/Comp-chce-skupic-do-555-556-akcji-spolki-po-cenie-63-zl-za-papier-9114584.html){rel="nofollow"}
+
+###Zmiany w zarządzie
+
+- **PZU** – rada nadzorcza powołała Bogdana Benczaka do zarządu nowej kadencji jako prezesa. [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260415/dzien-na-gpw-sesja-z-lekkimi-wzrostami-glownych-indeksow-zabka-na-historycznym){rel="nofollow"}
+
+### Dane operacyjne
+
+- **Brand24** – opublikował wybrane dane operacyjne za I kwartał 2026 roku. [Bankier](https://www.bankier.pl/wiadomosc/BRAND24-S-A-Wybrane-dane-operacyjne-Grupy-Kapitalowej-Brand-24-za-I-kwartal-2026-r-9114570.html){rel="nofollow"}
 
 ---
 
-*Źródła: Bankier.pl, Business Insider, WNP.pl, Money.pl, Puls Biznesu, Portal Samorządowy, OKO.press, Wikipedia, Orlen.pl — 14-16.04.2026 (godz. 05:00-08:20).*
+## 📅 Kalendarium (16 kwietnia)
+
+Dziś raporty roczne opublikują:
+- **Boryszew** (sWIG80) – przetwórstwo metali nieżelaznych, komponenty motoryzacyjne
+- **BOŚ** (sWIG80) – Bank Ochrony Środowiska
+
+[Strefa Inwestorów](https://strefainwestorow.pl/wydarzenia/kalendarium-raportow-okresowych-ii-tydzien-kwiecien-2026){rel="nofollow"}
+
+---
+
+## 📊 Makro (15 kwietnia)
+
+- **Inflacja w Polsce (marzec 2026):** ceny wzrosły o 3,0% r/r i 1,1% m/m – zgodnie z szybkim szacunkiem GUS. [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260415/dzien-na-gpw-sesja-z-lekkimi-wzrostami-glownych-indeksow-zabka-na-historycznym){rel="nofollow"}
+
+---
+
+## 🔗 Źródła
+
+- [Bankier.pl](https://www.bankier.pl/wiadomosci){rel="nofollow"}
+- [Strefa Inwestorów](https://strefainwestorow.pl/){rel="nofollow"}
+- [StockWatch.pl](https://www.stockwatch.pl/){rel="nofollow"}
+- [GPW.pl](https://www.gpw.pl/aktualnosc){rel="nofollow"}
+
+---
+
+*Informacje zebrane o 8:25, 16 kwietnia 2026. Wszystkie dane pochodzą z publicznie dostępnych źródeł i podlegają weryfikacji.*
