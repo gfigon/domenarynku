@@ -1,0 +1,149 @@
+---
+title: "Prasówka Światowa – 16 kwietnia 2026"
+description: "Najważniejsze wydarzenia ze świata: geopolityka, makroekonomia, rynki finansowe"
+date: 2026-04-16
+author: DomenaRynku.pl
+image: /images/posts/2026-04-16-swiat.jpg
+tags: [swiat, geopolityka, usa, europa, iran, ukraina]
+robots: index, follow
+---
+
+<!-- SEO Meta -->
+<meta name="description" content="Prasówka światowa 16 kwietnia 2026. Wojna Iran-Israel, rozmowy Izrael-Libanon, Trump grozi Powell'owi, atak Rosji na Ukrainę.">
+<meta name="keywords" content="prasówka, wiadomości światowe, geopolityka, Iran, Izrael, Ukraina, Trump, Fed">
+<meta property="og:title" content="Prasówka Światowa – 16 kwietnia 2026">
+<meta property="og:description" content="Najważniejsze wydarzenia ze świata: geopolityka, makroekonomia, rynki finansowe">
+<meta property="og:type" content="article">
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Prasówka Światowa – 16 kwietnia 2026
+
+*Najważniejsze wydarzenia ze świata: geopolityka, makroekonomia, międzynarodowe rynki finansowe*
+
+---
+
+## 🔴 Wojna Iran-Israel/USA
+
+### Głosowanie w Senacie USA przeciwko wojnie nie przeszło
+
+**Źródła:** [BBC](https://www.bbc.com/news/articles/czxrrlve714o){rel="nofollow"}, [Al Jazeera](https://www.aljazeera.com){rel="nofollow"}
+
+Demokraci ponownie nie zdołali przegłosować wniosku o wstrzymanie działań wojennych w Iranie. Większość republikanów popiera kontynuację operacji militarnych przez Trumpa, choć niektórzy senatorzy zapowiadają możliwość rewizji stanowiska w ciągu najbliższych tygodni.
+
+### Liczba ofiar (dane z 1 kwietnia 2026)
+
+- **Iran:** 2 076 zabitych
+- **Izrael:** 26 zabitych  
+- **USA:** 13 żołnierzy
+- **Państwa Zatoki:** 28 osób
+
+*Źródło:* [Al Jazeera](https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker){rel="nofollow"}
+
+### Sri Lanka repatriuje 238 irańskich marynarzy
+
+**Źródło:** [BBC](https://www.bbc.com/news/articles/c9qdd318qd9o){rel="nofollow"}
+
+Sri Lanka repatriowała 238 irańskich marynarzy, którzy przeżyli amerykański atak na irański statek Iris Dena. W ataku zginęło 104 osoby.
+
+### Sytuacja w Iranie – raport BBC
+
+**Źródło:** [BBC](https://www.bbc.com/news/articles/c4g44gj7rgno){rel="nofollow"}
+
+Dziennikarka BBC Lyse Doucet raportuje z Iranu o niszczeniu infrastruktury cywilnej – w tym mostu na autostradzie Tabriz-Zanjan. Iranczycy zastanawiają się, czy porozumienie z USA jest możliwe.
+
+---
+
+## 🇱🇧 Rozmowy Izrael-Libanon
+
+### Planowane rozmowy izraelsko-libańskie
+
+**Źródło:** [BBC Live](https://www.bbc.com/news/live/c20dd5ynxz9t){rel="nofollow"}
+
+Minister izraelski potwierdził, że rozmowy izraelsko-libańskie odbędą się dziś (16 kwietnia). Prezydent Trump napisał wcześniej, że przywódcy Izraelu i Libanu rozmawiali przez 34 lata – dojdzie do spotkania jutro.
+
+### Analiza satelitarna: skale zniszczeń w Libanie
+
+**Źródło:** [BBC Verify](https://www.bbc.com/news/articles/cdxkk1vnp57o){rel="nofollow"}
+
+Analiza zdjęć satelitarnych wykazała, że od 2 marca zniszczono ponad 1 400 budynków w libańskich wioskach.
+
+---
+
+## 🇺🇸 Trump grozi Zwolnieniem Szefa Fed
+
+### Konflikt z Jerome Powellem
+
+**Źródło:** [BBC Business](https://www.bbc.com/news/articles/c9qddrdd8w2o){rel="nofollow"}
+
+Prezydent Trump grozi zwolnieniem przewodniczącego Fed Jerome'a Powella, jeśli ten nie odejdzie w maju. To kolejna eskalacja konfliktu między prezydentem a szefem banku centralnego.
+
+---
+
+## 🇺🇦 Wojna Rosja-Ukraina
+
+### Fala ataków dronów i rakiet
+
+**Źródło:** [BBC](https://www.bbc.com/news/articles/cm29plylqnvo){rel="nofollow"}
+
+Co najmniej 15 osób zginęło w wyniku fali rosyjskich ataków dronów i rakiet na乌克兰. Ukraiński atak dronem zabił również dwoje dzieci w Rosji.
+
+---
+
+## 🇹🇷 Turcja: Drugi Strzelanina w Szkole
+
+### 9 ofiar w ataku
+
+**Źródło:** [BBC](https://www.bbc.com/news/articles/cn088n9e6e9o){rel="nofollow"}
+
+Dziewięć osób zginęło w drugim w ciągu dwóch dni strzelaninie w tureckiej szkole. Ofiary to 8 uczniów i 1 nauczyciel.
+
+---
+
+## 🇸🇪 Szwecja: Powrót do Podręczników
+
+### Szwedzkie szkoły ograniczają naukę cyfrową
+
+**Źródło:** [BBC](https://www.bbc.com/news/articles/cly0vk77vdko){rel="nofollow"}
+
+Szwedzkie szkoły wymieniają laptop'y na książki, długopisy i papier. Decyzja budzi kontrowersje ze strony sektora technologicznego.
+
+---
+
+## 🇨🇳 Chiny: Gospodarka Rośnie
+
+### Wyniki lepsze od oczekiwań
+
+**Źródło:** [BBC](https://www.bbc.com/news/articles/c4gxjpekk19o){rel="nofollow"}
+
+Chińska gospodarka rośnie szybciej niż oczekiwano, mimo trwającej wojny w Zatoce Perskiej.
+
+---
+
+## ⚽ Sport: Bayern – Real Madryt
+
+### 7 goli i dwie czerwone kartki
+
+**Źródło:** [BBC Sport](https://www.bbc.com/sport/football/articles/cz0e27043kpo){rel="nofollow"}
+
+Mecz Liga Mistrzów Bayern-Monachium vs Real Madryt dostarczył ogromnych emocji – najszybszy gol sezonu, 7 goli, dwie czerwone kartki i odpadnięcie 15-krotnych zwycięzców.
+
+---
+
+## 📈 Rynki Finansowe
+
+| Indeks | Zmiana | Uwagi |
+|-------|--------|-------|
+| S&P 500 | -0.2% | Napięcia geopolityczne |
+| DAX | -0.5% | Obawy o eskalację |
+| WIG20 | -0.3% | Przed świętami |
+
+*Notowania na zamknięciu 15 kwietnia*
+
+---
+
+**Źródła:** BBC, Al Jazeera, CNN
+
+**Publikacja:** DomenaRynku.pl | 16 kwietnia 2026
