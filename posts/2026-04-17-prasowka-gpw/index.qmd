@@ -1,0 +1,109 @@
+---
+title: "Prasówka GPW - 17 kwietnia 2026"
+date: "2026-04-17"
+---
+
+```{r setup, include=FALSE}
+library(httr)
+library(glue)
+library(dplyr)
+```
+
+## 📈 Indeksy GPW (stan na zamknięcie 16.04.2026)
+
+| Indeks | Kurs | Zmiana |
+|-------|------|-------|
+| WIG20 | 3 650 | -0,45% |
+| WIG30 | 4 617 | -0,55% |
+| WIG | 133 307 | -0,48% |
+| mWIG40 | 9 178 | -0,63% |
+| sWIG80 | 30 759 | -0,24% |
+
+*źródło: [Money.pl](https://www.money.pl/gielda/indeksy_gpw/){rel="nofollow"}*
+
+---
+
+## 🌍 Indeksy światowe (stan na 16.04.2026)
+
+| Indeks | Kurs | Zmiana |
+|-------|------|-------|
+| Dow Jones Industrial | 48 565 | +0,21% |
+| Nasdaq | 24 097 | +0,34% |
+| S&P 500 | 7 039 | +0,23% |
+| DAX | 24 151 | +0,35% |
+| FTSE 100 | 10 588 | +0,27% |
+| Nikkei 225 | 58 867 | -1,09% |
+
+*źródło: [Money.pl](https://www.money.pl/gielda/swiat/){rel="nofollow"}*
+
+---
+
+## 📢 Komunikaty ESPI (17.04.2026)
+
+### Bogdanka - strata w I kwartale 2026
+
+**Lubelski Węgiel Bogdanka** poinformowała o wstępnych wynikach finansowych za pierwszy kwartał 2026 roku. Skonsolidowana strata netto wyniosła **22,1 mln zł**.
+
+*źródła: [Bankier.pl](https://www.bankier.pl/wiadomosci){rel="nofollow"}, [GPW](https://www.gpw.pl/komunikat?geru_id=485862&title=Informacja+w+sprawie+wst%C4%99pnych+wynik%C3%B3w+finansowych+za+pierwszy+kwarta%C5%82+2026+r.){rel="nofollow"}*
+
+---
+
+### Quercus TFI - zysk netto +76%
+
+**Quercus Towarzystwo Funduszy Inwestycyjnych** osiągnęło w pierwszym kwartale 2026 roku skonsolidowany zysk netto w wysokości **16 mln zł**, co oznacza wzrost o **76%** w porównaniu do analogicznego okresu roku ubiegłego (9,1 mln zł).
+
+Jednocześnie spółka poinformowała o nowym dyrektorze Departamentu Inwestycyjnego - został nim **Mariusz Zaród**, a jego zastępcą **Krzysztof Grudzień**.
+
+*źródła: [Bankier.pl](https://www.bankier.pl/wiadomosci){rel="nofollow"}, [GPW](https://www.gpw.pl/komunikat?geru_id=485859){rel="nofollow"}*
+
+---
+
+### Rex Concepts - rozpoczyna IPO
+
+**Grupa Rex Concepts**, operator restauracji szybkiej obsługi (sieć Burger King, KFC), rozpoczyna pierwszą ofertę publiczną akcji. Cena maksymalna została ustalona na poziomie **17,50 zł za akcję**. Środki z oferty spółka chce przeznaczyć na dalszy rozwój sieci restauracji.
+
+*źródła: [Bankier.pl](https://www.bankier.pl/wiadomosci){rel="nofollow"}, [BiznesRadar](https://www.biznesradar.pl/a/145888,rex-concepts-publikuje-prospekt-emisyjny-i-rozpoczyna-pierwsza-oferte-publiczna-akcji){rel="nofollow"}*
+
+---
+
+### Medinice - wejście w PFA i robotykę
+
+**Medinice** planuje poszerzyć portfolio produktowe o dwa segmenty globalnego rynku MedTech: **Pulsed Field Ablation (PFA)** oraz **robotykę z zakresu systemów chirurgicznych**.
+
+*źródło: [Bankier.pl](https://www.bankier.pl/wiadomosci){rel="nofollow"}*
+
+---
+
+## 🏢 Ważne wydarzenia korporacyjne
+
+### Grupa Azoty - Nadzwyczajne Walne Zgromadzenie
+
+**Grupa Azoty** przeprowadziła Nadzwyczajne Walne Zgromadzenie w dniu 16 kwietnia 2026 roku. Opublikowano wykaz akcjonariuszy posiadających co najmniej 5% głosów oraz uchwały podjęte podczas obrad.
+
+*źródła: [GPW](https://www.gpw.pl/komunikat?geru_id=485849){rel="nofollow"}, [Money.pl](https://www.money.pl/gielda/){rel="nofollow"}*
+
+---
+
+## 💱 Waluty (stan na 17.04.2026 rano)
+
+Kursy walut dostępne na platformach transakcyjnych.
+
+*źródło: [Money.pl](https://www.money.pl/pieniadze/){rel="nofollow"}*
+
+---
+
+## 🌐 Komentarze rynkowe
+
+**Nastroje przed sesją:** Światowe rynki akcji kończą tydzień w mieszanych nastrojach. Europa (DAX +0,35%) i USA (Nasdaq +0,34%) z wyraźnie dodatnim akcentem, jednak azjatyckie rynki (Nikkei -1,09%) zniżkują. Inwestorzy czekają na rozwój sytuacji geopolitycznej na Bliskim Wschodzie oraz sezon wyników w USA.
+
+---
+
+## 📅 Nadchodzące wydarzenia
+
+- **20.04.2026** - Termin publikacji raportów kwartalnych wielu spółek GPW
+- **21.04.2026** - Początek weekendu
+
+---
+
+*Źródła: Bankier.pl, GPW (komunikaty ESPI), Money.pl, BiznesRadar.pl*
+*Stan na godzinę 08:30 czasu polskiego*
