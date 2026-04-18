@@ -1,0 +1,80 @@
+---
+title: "Poranna prasówka GPW: Ormuz otwarty,ropy najtaniej od lat"
+pagetitle: "Prasówka GPW 18.04.2026 | DomenaRynku.pl"
+date: "2026-04-18"
+date-modified: last-modified
+categories: [Prasówka, GPW, Ormuz, Ropa, Wall Street]
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Przegląd najważniejszych wydarzeń na GPW z 18 kwietnia 2026. Cieśnina Ormuz otwarta, ropa najtaniej od miesięcy, Wall Street bije rekordy.">
+      <meta name="keywords" content="GPW, WIG20, Ormuz, ropa, Wall Street, obligacje, KGHM, XTPL">
+---
+
+Piątkowa sesja na GPW przyniosła optymizm w związku z przełomem geopolitycznym. Cieśnina Ormuz została otwarta, ropa mocno stanieje, a Wall Street wybija historyczne szczyty. Polska gospodarka zyskuje na stabilizacji sceny międzynarodowej.
+
+### Ormaz otwarty! Przełom geopolityczny
+
+**Cieśnina Ormuz została otwarta** dla żeglugi handlowej — to najważniejsza informacja piątku. Iran przepuszcza wszystkie statki handlowe do czasu wygaśnięcia rozejmu z USA i Izraelem. Prezydent Donald Trump podziękował za decyzję, ale zastrzegł, że USA nadal będą monitorować sytuację.
+
+- **Ropa Brent** (ICE): ok. 63 USD/bbl — spadek o ponad 6% w ciągu doby
+- **Ropa WTI**: ok. 60 USD/bbl
+- To najniższe poziomy od wielu miesięcy
+
+Analitycy zastrzegają, że porozumienie może być kruche. Iran ostrzega, że dalsza blokada irańskich portów przez USA oznaczałaby zerwanie porozumienia. Nie można wykluczyć kolejnej blokady.
+
+### Wall Street bije rekordy
+
+Otwarcie Cieśniny Ormuz wywołało euforię na Wall Street:
+
+- **S&P 500** i **NASDAQ** osiągnęły nowe szczyty historyczne
+- Indeksy amerykańskie odrobiły straty wywołane wojną w Iranie
+- Inwestorzy przenoszą uwagę z geopolityki na fundamenty gospodarcze
+
+### Obligacje skarbowe zyskują
+
+Ogłoszenie otwarcia cieśniny przełożyło się na **umocnienie obligacji skarbowych na całym świecie**, w tym w Polsce. Rentowności polskich obligacji wyznaczają wielotygodniowe minima — ocenił analityk portalu.
+
+### Polska będzie 20. gospodarką świata w 2028
+
+Według najnowszej prognozy Międzynarodowego Funduszu Walutowego Polska wyprzedzi Szwajcarię i stanie się 20. największą gospodarką świata w 2028 roku. To rewizja wcześniejszych oczekiwań — wcześniej zakładano, że Polska osiągnie ten pułap wcześniej, ale danerewizja szwajcarskiego PKB zmieniła układ sił.
+
+**Prognoza PKB Polski**: blisko 4% rocznie — jeden z liderów wzrostu w Unii Europejskiej.
+
+### Dane z polskiego rynku obligacji
+
+- Rentowności polskich 10-letnich obligacji skarbowych: na poziomie sprzed eskalacji kryzysu
+-spread Polish 10Y wzrost wobec Niemiec: stabilny
+- Inwestorzy instytucjonalni zwiększają alokację w Polsce
+
+### Komunikaty ESPI (17 kwietnia)
+
+**XTPL** — Spółka podpisała z Narodowym Centrum Badań i Rozwoju (NCBiR) umowę o dofinansowanie projektu w ramach konkursu FENG. Wartość projektu: 18,29 mln zł, rekomendowana wartość dofinansowania: **10,1 mln zł**. To istotne wsparcie dla rozwoju technologii druku.
+
+**Huta Częstochowa** — Do Urzędu Ochrony Konkurencji i Konsumentów wpłynął wniosek ws. utworzenia wspólnego przedsiębiorstwa na bazie Huty Częstochowa przez Węglokoks i Agencję Mienia Wojskowego. AMW przejmuje udziały w hucie, co oznacza państwowy powrót do sektora stalowego.
+
+**Cognor Holding** — Spółka zależna Cognor Holding wzywa Danieli Automation do próby ugodowej. Danieli miałby zapłacić na rzecz Cognor **28,58 mln zł** odszkodowania za szkody wyrządzone w związku z opóźnieniem dostawy walcarki.
+
+**UniCredit** — Włoski bank wyemitował obligacje o wartości **400 mln GBP** z terminem wykupu w październiku 2031 r. (skierowane do inwestorów instytucjonalnych).
+
+### W tle
+
+- **KGHM wypadł z elitarnego grona** największych kapitalizacji kopalń na świecie — kapitalizacja światowych kopalń bije rekordy, ale KGHM nie znalazł się na liście TOP
+- **Inspekcja w sercu światowych finansów** — prof. Adam Glapiński, Prezes NBP, osobiście zweryfikował polskie zasoby złota przechowywane w skarbcu Banku Rezerwy Federalnej w Nowym Jorku. To pierwszy w historii taki przypadek
+
+### Perspektywa sesji
+
+Dziajsza sesja na GPW prawdopodobnie rozpocznie się optymistycznie. Spadek cen ropy naftowej powinien pozytywnie wpłynąć na sektor energetyczny (ograniczone koszty przerobu), ale jednocześnie może ciążyć notowaniom spółek wydobywczych.
+
+**Kluczowe poziomy WIG20**: opór przy 2450 pkt, wsparcie przy 2380 pkt.
+
+---
+*Źródła:*
+- [Bankier](https://www.bankier.pl/wiadomosci){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/Ormuz-otwarty-ale-tylko-na-chwile-Iran-przepuszcza-statki-przez-ciesnine-9115770.html){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/Ciesnina-Ormuz-zostala-otwarta-Ropa-mocno-w-dol-Wall-Street-wybija-szczyty-9116005.html){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/Odblokowanie-Ciesniny-Ormuz-przelozylo-sie-na-umocnienie-obligacji-skarbowych-9115958.html){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/XTPL-podpisal-z-NCBiR-umowe-na-10-1-mln-zl-dofinansowania-projektu-9115957.html){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/Huta-Czestochowa-w-rekach-panstwa-Agencja-Mienia-Wojskowego-przejmuje-udzialy-Co-z-produkcja-9115813.html){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/Polska-nie-jest-jeszcze-20-najwieksza-gospodarka-swiata-lecz-bedzie-nia-w-2028-9114541.html){rel="nofollow"}
+- [Bankier](https://www.bankier.pl/wiadomosc/Inspekcja-w-sercu-swiatowych-finansow-Glapinski-sprawdzil-polskie-zloto-w-nowojorskim-skarbcu-Fed-9116071.html){rel="nofollow"}
