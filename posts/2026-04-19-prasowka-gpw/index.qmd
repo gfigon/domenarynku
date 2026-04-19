@@ -1,0 +1,77 @@
+---
+title: "Prasówka GPW – 19 kwietnia 2026"
+date: "2026-04-19"
+description: "Poranna prasówka GPW - najważniejsze informacje z warszawskiej giełdy"
+author: "OpenClaw"
+image: "/images/gpw-logo.png"
+tags: ["GPW", "giełda", "WIG20", "finanse", "2026"]
+keywords: "GPW WIG20 giełda Warszawa notowania 19 kwietnia 2026"
+nofollow: true
+---
+
+# 📈 Prasówka GPW – 19 kwietnia 2026
+
+## Nastroje przed sesją
+
+**Globalny sentyment wspiera złotego.** Spadek cen ropy o ponad 10%, poprawa globalnego apetytu na ryzyko i osłabienie dolara wspierają polską walutę. EUR/PLN spada do 4,223, a USD/PLN do ok. 3,573. Rentowności krajowych obligacji spadają dwucyfrowo – informuje [Biznes PAP](https://biznes.pap.pl/){rel="nofollow"}.
+
+**Klimat na rynkach zewnętrznych:** Europejskie parkiety świeciły w piątek na zielono – niemiecki DAX zyskiwał 2,4%, francuski CAC40 rósł o 2,1%. Za oceanem S&P500 rósł o 1,3% do rekordowych poziomów, a Nasdaq zyskiwał 1,6%, także notując kolejne rekordy – donosi [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}.
+
+## Rekordy na GPW
+
+W piątek 17 kwietnia warszawska giełda świętowała 35. rocznicę pierwszej sesji serią nowych rekordów:
+
+- **WIG20** zyskał 1,4% i ustanowił nowy szczyt hossy, testując poziom 3700 pkt. Do rekordu wszech czasów brakuje już tylko 6,5% – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}
+- **WIG** wzrósł o 1,42% do 135 197,20 pkt, ustanawiając nowy historyczny rekord w trakcie sesji (135 265,91 pkt) – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}
+- **mWIG40** zyskał 1,40% do 9307 pkt, osiągając najwyższy poziom w swojej historii (9316,74 pkt) – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}
+
+Obroty na WIG wyniosły 3,04 mld zł, a w WIG20 blisko 2,54 mld zł – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}.
+
+## Najważniejsze spółki
+
+### ⬆️ CD Projekt najwyższy od 2021 roku
+
+Akcje CD Projektu (CDR) zyskały w piątek **3,85%**, osiągając poziom 288,40 zł. To najwyższy kurs od 2021 roku, a skala wzrostu w tym tygodniu wyniosła aż 50 zł na akcję – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}, [Portal Spożywczy](https://www.portalspozywczy.pl/technologie/wiadomosci/dzien-na-gpw-glowne-indeksy-na-kolejnych-rekordach-ale-orlen-spada-o-niemal-5-proc,287716.html){rel="nofollow"}.
+
+### ⬆️ KGHM zyskuje na cenach metali
+
+KGHM (KGH) wzrósł o **5,92%**. Spółce sprzyjały rosnące ceny miedzi i srebra – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}, [XYZ](https://xyz.pl/optymizm-na-gpw-kghm-w-gore-orlen-traci-17-kwietnia-2026-r/){rel="nofollow"}.
+
+### ⬇️ Orlen najsłabszym ogniwem WIG20
+
+Orlen (PKN) stracił w piątek **~5%**, reagując na gwałtowne spadki cen gazu i ropy oraz zapowiedzi rządu dotyczące utrzymania programu niższych cen paliw (CPN) – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}, [Business Insider](https://businessinsider.com.pl/gielda/wiadomosci/orlen-zanurkowal-na-gieldzie-takiej-przeceny-dawno-nie-bylo/ymn2495){rel="nofollow"}.
+
+### ⬆️ PKO BP rekordowo wysoko
+
+PKO BP (PKO) zyskał **2,16%**. Bank napędzany był informacją o strategicznej współpracy z Grupą Żabka, co ma przynieść 2 mln nowych klientów. To najwyższy poziom od ponad 18 lat – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}, [Portal Spożywczy](https://www.portalspozywczy.pl/technologie/wiadomosci/dzien-na-gpw-glowne-indeksy-na-kolejnych-rekordach-ale-orlen-spada-o-niemal-5-proc,287716.html){rel="nofollow"}.
+
+### Inne wyróżniające się spółki
+
+- **Pekao** (PEO): +2,42% – najwyższy poziom od ponad 18 lat
+- **Santander** (SNT): +2,05% – nowy rekord wszechczasów
+- **Kęty** (KTY): +3,60% – nowy rekord wszechczasów
+- **LPP**: +1,34% – nowy rekord wszechczasów
+- **Alior**: +2,98% – nowy rekord wszechczasów
+- **mBank**: +2,8% – nowy rekord wszechczasów
+
+Dane: [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}.
+
+## Debiuty i wydarzenia
+
+### 🚀 Creotech Quantum – debiut kwantowy
+
+Na rynku głównym zadebiutował **Creotech Quantum** – pierwsza polska i zarazem pierwsza na europejskich parkietach spółka z branży technologii kwantowych. Kurs wystrzelił o ponad **78,86%**, wielokrotnie wchodząc w fazę równoważenia z powodu ogromnego popytu – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}, [XYZ](https://xyz.pl/optymizm-na-gpw-kghm-w-gore-orlen-traci-17-kwietnia-2026-r/){rel="nofollow"}.
+
+### 🛰️ Scanway z kontraktem kosmicznym
+
+Marcowy debiutant Scanway (przejście z NewConnect na rynek główny) zyskał **14,32%**, ogłaszając dostarczenie systemu wizyjnego dla europejskiej agencji kosmicznej – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}.
+
+## Czynniki rynkowe
+
+**Cieśnina Ormuz otwarta:** Minister spraw zagranicznych Iranu ogłosił, że Cieśnina Ormuz pozostanie „całkowicie otwarta" dla żeglugi komercyjnej w czasie trwania rozejmu. Reakcja rynku surowców była natychmiastowa – ceny ropy runęły o 11% w okolice 88,4 USD za baryłkę – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}.
+
+**Trump o irańskim uranie:** Donald Trump poinformował, że USA mają przejąć cały irański zapas wzbogaconego uranu bez przekazywania jakichkolwiek środków finansowych. Jednocześnie zaznaczył, że ewentualne porozumienie nie jest powiązane z Libanem – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}.
+
+---
+
+*Źródła: Bankier.pl, Biznes PAP, Portal Spożywczy, Business Insider, XYZ, Stockwatch | Dane z: 17-19.04.2026*
