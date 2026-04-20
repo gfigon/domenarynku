@@ -1,76 +1,93 @@
 ---
-title: "Prasówka GPW – 20 kwietnia 2026 [Przed sesją]"
+title: "Prasówka GPW – 20 kwietnia 2026"
 date: "2026-04-20"
-author: "DomenaRynku.pl"
-tags: [finanse, GPW, giełda, inwestycje, prasówka]
-description: "Najważniejsze wiadomości finansowe z przedsesji GPW – 20 kwietnia 2026"
-categories: [finanse, giełda]
-image: /img/placeholder.jpg
-robots: "index, follow"
-og:
-  title: "Prasówka GPW – 20 kwietnia"
-  description: "Kluczowe tematy finansowe przed sesją GPW"
-  type: "article"
-sitemap:
-  priority: 0.8
-  changefreq: "daily"
+description: "Poranna prasówka GPW - najważniejsze informacje z warszawskiej giełdy"
+author: "OpenClaw"
+image: "/images/gpw-logo.png"
+tags: ["GPW", "giełda", "WIG20", "finanse", "2026"]
+keywords: "GPW WIG20 giełda Warszawa notowania 20 kwietnia 2026"
+nofollow: true
 ---
 
-## Poranne kluczowe tematy finansowe – 20 kwietnia 2026
+# 📈 Prasówka GPW – 20 kwietnia 2026
 
-### Ropa naftowa w górę o 6%
+## Nastroje przed sesją
 
-Ceny ropy naftowej rosną w związku z eskalacją napięć w Zatoce Perskiej. Amerykańska Marynarka Wojenna zatrzymała irański statek towarowy, który usiłował przełamać blokadę irańskich portów — donosi [Bankier.pl](https://www.bankier.pl/wiadomosc/Trump-dziurawi-statki-ropa-drozeje-o-6-proc-Czy-Islamabad-uratuje-swiat-przed-paliwowym-szokiem-9116377.html){rel="nofollow"}.
+**Eskalacja napięć na Bliskim Wschodzie napędza wzrosty cen ropy.** Ropa gwałtownie drożeje poinformacji o zatrzymaniu przez USA irańskiego statku towarowego, który usiłował przełamać blokadę irańskich portów. Amerykański okręt miał uszkodzić statek. Ceny ropy WTI rosną o ponad 8 proc. – [Bankier](https://www.bankier.pl/wiadomosc/Ceny-ropy-wystrzelily-w-Azji-Widmo-odwetu-Iranu-paralizuje-rynki-paliw-9116323.html){rel="nofollow"}, [Bankier](https://www.bankier.pl/wiadomosc/Trump-dziurawi-statki-ropa-drozeje-o-6-proc-Czy-Islamabad-uratuje-swiat-przed-paliwowym-szokiem-9116377.html){rel="nofollow"}.
 
-Równocześnie trwają rozmowy USA z Iranem w sprawie programu nuklearnego. Analitycy ING szacują, że zamknięcie cieśniny Ormuz zakłóciło przepływ ropy na poziomie około 13 mln baryłek dziennie — informuje [Money.pl](https://www.money.pl/gospodarka/ceny-ropy-pod-presja-rozmow-usa-z-iranem-7276174144899424a.html){rel="nofollow"}.
+**Ceny paliw w Polsce – niższe stawki maksymalne.** Zgodnie z obwieszczeniem Ministra Energii od soboty do poniedziałku włącznie litr benzyny 95 kosztuje nie więcej niż 6,03 zł, benzyny 98 – 6,57 zł, a oleju napędowego – 7,07 zł. Oznacza to spadek cen maksymalnych w porównaniu z poprzednim weekendem – [Bankier](https://www.bankier.pl/wiadomosc/Nowe-nizsze-ceny-maksymalne-benzyny-i-diesla-Weekendowe-stawki-obowiazuja-tez-w-poniedzialek-9116333.html){rel="nofollow"}.
 
-> **Kontekst:** Jeśli nie dojdzie do porozumienia, ryzyko dalszego wzrostu cen energii pozostaje wysokie.
+**Miedź pod presją.** Notowania miedzi na giełdzie metali LME w Londynie zniżkują i opuszczają najwyższe poziomy od początku lutego. Na rynkach panuje niepewność co do przebiegu rozmów pokojowych między Waszyngtonem a Teheranem – [Bankier](https://www.bankier.pl/wiadomosc/Miedz-czuje-dym-Rozmowy-w-Islamabadzie-i-blokada-Ormuz-mroza-ceny-metali-9116379.html){rel="nofollow"}.
+
+## Rekordy na GPW
+
+W piątek 17 kwietnia indeksy GPW ustanowiły nowe historyczne rekordy:
+
+- **WIG20** zyskał 1,4% i testował poziom 3700 pkt. Do rekordu wszech czasów brakuje już tylko 6,5% – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}
+- **WIG** wzrósł o 1,42% do 135 197,20 pkt, ustanawiając nowy rekord w trakcie sesji (135 265,91 pkt) – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}
+- **mWIG40** zyskał 1,40% do 9307 pkt, osiągając najwyższy poziom w historii (9316,74 pkt) – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}
+
+## Najważniejsze spółki
+
+### 🚀 Creotech Quantum – udany debiut kwantowy
+
+W piątek 17 kwietnia na rynku głównym zadebiutował **Creotech Quantum** – pierwsza polska i europejska spółka z branży technologii kwantowych. Kurs wystrzelił o ponad **85%**, wielokrotnie wchodząc w fazę równoważenia z powodu ogromnego popytu. PTE Allianz Polska ujawniło pakiet **5,4 proc.** akcji tej spółki – [StockWatch](https://www.stockwatch.pl/wiadomosci/creotech-quantum-zadebiutowal-na-gpw-tko-wskazuje-na-wzrost-o-85-proc,akcje,370398){rel="nofollow"}, [Puls Biznesu](https://www.pb.pl/to-warto-wiedziec-przed-sesja-na-gpw-20-iv-2026-1259863){rel="nofollow"}.
+
+### ⬆️ Digital Network z rekordowymi przychodami
+
+Digital Network szacuje, że w pierwszym kwartale 2026 roku osiągnął **42,9 mln zł** skonsolidowanych przychodów, co oznacza wzrost o **179 proc.** rok do roku – [Bankier](https://www.bankier.pl/wiadomosc/Digital-Network-szacuje-w-I-kw-42-9-mln-zl-skons-przychodow-o-179-proc-wiecej-rdr-9116369.html){rel="nofollow"}, [Puls Biznesu](https://www.pb.pl/to-warto-wiedziec-przed-sesja-na-gpw-20-iv-2026-1259863){rel="nofollow"}.
+
+### 📉 Scope Fluidics – Ipopema obniża wycenę
+
+Analitycy Ipopemy, w raporcie z 20 kwietnia, obniżyli wartość godziwą akcji Scope Fluidics do **198,2 zł** z 210,8 zł wcześniej, podtrzymując rekomendację **"kupuj"**. Raport przygotowano przy kursie 140 zł – [Bankier](https://www.bankier.pl/wiadomosc/Ipopema-obnizyla-wycene-akcji-Scope-Fluidics-do-198-2-zl-podtrzymala-kupuj-9116375.html){rel="nofollow"}.
+
+### ⬆️ Newag z solidnymi wynikami za 2025
+
+Newag zanotował **2,39 mld zł** przychodów w 2025 roku (+50,1 proc. r/r), a zysk netto wyniósł **356,5 mln zł** (+190 proc. r/r) – [Puls Biznesu](https://www.pb.pl/to-warto-wiedziec-przed-sesja-na-gpw-20-iv-2026-1259863){rel="nofollow"}.
+
+### ⚠️ Mostostal Warszawa – potrzeby kapitałowe
+
+Zarząd Mostostalu Warszawa szacuje potrzeby kapitałowe na **425-570 mln zł**. Podejmuje działania, by pozyskać finansowanie dłużne, ale rozważa też inne opcje, jak podwyższenie kapitału zakładowego – [Puls Biznesu](https://www.pb.pl/to-warto-wiedziec-przed-sesja-na-gpw-20-iv-2026-1259863){rel="nofollow"}.
+
+### ⬇️ Orlen pod presją
+
+Orlen (PKN) stracił w piątek **niemal 5%**, reagując na gwałtowne spadki cen gazu i ropy oraz zapowiedzi rządu dotyczące utrzymania programu niższych cen paliw (CPN) – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}.
+
+### ⬆️ CD Projekt najwyższy od 2021 roku
+
+Akcje CD Projektu (CDR) zyskały w piątek **3,85%**, osiągając poziom 288,40 zł. To najwyższy kurs od 2021 roku – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}.
+
+### ⬆️ KGHM zyskuje na cenach metali
+
+KGHM (KGH) wzrósł o **5,92%**. Spółce sprzyjały rosnące ceny miedzi i srebra – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}.
+
+### ⬆️ PKO BP rekordowo wysoko
+
+PKO BP (PKO) zyskał **2,16%**, osiągając najwyższy poziom od ponad 18 lat – [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}.
+
+### 📊 Inne wyróżniające się spółki (z piątku 17.04)
+
+- **Pekao** (PEO): +2,42% – najwyższy poziom od ponad 18 lat
+- **Santander** (SNT): +2,05% – nowy rekord wszechczasów
+- **Kęty** (KTY): +3,60% – nowy rekord wszechczasów
+- **LPP**: +1,34% – nowy rekord wszechczasów
+- **Alior**: +2,98% – nowy rekord wszechczasów
+- **mBank**: +2,8% – nowy rekord wszechczasów
+
+Dane: [Bankier](https://www.bankier.pl/wiadomosc/Wysyp-rekordow-w-WIG20-Do-tego-najwazniejszego-coraz-blizej-9115901.html){rel="nofollow"}.
+
+## Rynek kryptowalut w Polsce
+
+**2 mln Polaków zainwestowało 40 mld zł** w cyfrowe waluty, co stanowi równowartość niespełna 1,1 proc. wszystkich oszczędności – wynika z danych cytowanych przez „Dziennik Gazeta Prawna". Profil przeciętnego polskiego „kryptowaluciarza": młody, odważny, z portfelem do 5 tysięcy złotych – [Bankier](https://www.bankier.pl/wiadomosc/Portret-polskiego-kryptowaluciarza-Mlody-odwazny-i-z-portfelem-do-5-tysiecy-zlotych-9116326.html){rel="nofollow"}.
+
+## Czynniki rynkowe
+
+**Napięcia na Bliskim Wschodzie:** USA zatrzymało irański statek towarowy próbujący przełamać blokadę irańskich portów. Amerykański okręt uszkodził statek. Iran ostrzega przed konsekwencjami, co paraliżuje rynki paliw – [Bankier](https://www.bankier.pl/wiadomosc/Trump-dziurawi-statki-ropa-drozeje-o-6-proc-Czy-Islamabad-uratuje-swiat-przed-paliwowym-szokiem-9116377.html){rel="nofollow"}.
+
+**Notowania Trumpa najniższe w drugiej kadencji:** Według najnowszego sondażu NBC News Decision Desk, notowania prezydenta Donalda Trumpa spadły do najniższego poziomu w jego drugiej kadencji. Amerykanie coraz krytyczniej oceniają sytuację gospodarczą oraz prowadzenie wojny z Iranem – [Bankier](https://www.bankier.pl/wiadomosc/Koniec-miodowego-miesiaca-Notowania-Trumpa-najnizsze-w-drugiej-kadencji-9116330.html){rel="nofollow"}.
+
+**Kanada buduje „gospodarczą twierdzę":** Premier Kanady Mark Carney zapowiedział przebudowę gospodarki kraju po to, by zmniejszyć zależność od USA. Wiele silnych stron Kanady wynikających z bliskich związków gospodarczych z USA stało się słabościami – [Bankier](https://www.bankier.pl/wiadomosc/Koniec-grzecznej-Kanady-Mark-Carney-buduje-gospodarcza-twierdze-przeciwko-Trumpowi-9116317.html){rel="nofollow"}.
 
 ---
 
-### Kanada: Mark Carney buduje "gospodarczą twierdzę"
-
-Premier Kanady Mark Carney ogłosił nową strategię gospodarczą mającą uniezależnić gospodarkę od USA. W niedzielnym wystąpieniu podkreślił, że "więzi z USA stały się słabością" i zapowiedział plan dywersyfikacji rynków.
-
-— Obiecuję, że nigdy nie będę osładzać naszych wyzwań. Zamiast tego będę zwracać się do was bezpośrednio — oświadczył Carney, powołując się na doświadczenia z kryzysu finansowego 2008-09.
-
-Szczyt Inwestycyjny w Toronto zaplanowano na połowę września — podaje [Money.pl](https://www.money.pl/gospodarka/wiezi-z-usa-staly-sie-slaboscia-carney-odcina-sie-od-trumpa-7277207853394208a.html){rel="nofollow"}. Więcej szczegółów na [Bankier.pl](https://www.bankier.pl/wiadomosc/Koniec-grzecznej-Kanady-Mark-Carney-buduje-gospodarcza-twierdze-przeciwko-Trumpowi-9116317.html){rel="nofollow"}.
-
----
-
-### Ceny paliw w Polsce poniżej weekendowych maksimów
-
-W poniedziałek 20 kwietnia obowiżują niższe ceny maksymalne paliw ustanowione przez Ministra Energii:
-
-- Benzyna 95: **6,03 zł**/l
-- Benzyna 98: **6,57 zł**/l  
-- Olej napędowy: **7,07 zł**/l
-
-To spadek w porównaniu z wcześniejszymi stawkami — podaje [Bankier.pl](https://www.bankier.pl/wiadomosc/Nowe-nizsze-ceny-maksymalne-benzyny-i-diesla-Weekendowe-stawki-obowiazuja-tez-w-poniedzialek-9116333.html){rel="nofollow"}.
-
----
-
-### Refinansowy boom w Polsce — 6 mld zł przepłynęło do innych banków
-
-Poziom refinansowania kredytów mieszkaniowych w I kwartale 2026 osiągnął **28,7%** sprzedaży kredytów. Polacy przenieśli już prawie 6 mld zł długów do innych banków — ocenia Tomasz Pawlonka, dyrektor zespołu badań i analiz ZBP.
-
-Dane za [Bankier.pl](https://www.bankier.pl/wiadomosc/Refinansowy-boom-2026-Polacy-przeniesli-juz-prawie-6-mld-zl-dlugow-do-innych-bankow-9116373.html){rel="nofollow"}.
-
----
-
-### UOKiK bada Zondacrypto
-
-Prezes UOKiK Tomasz Chróstny w rozmowie z money.pl potwierdził, że urząd prowadzi intensywne działania wobec największej polskiej giełdy kryptowalut. — W przypadku kryptowalut mówimy o sytuacji, która naprawdę jest zbliżona do hazardu — stwierdził.
-
-Sprawa trafiła do prokuratury. Więcej w [Money.pl](https://www.money.pl/finanse/tropi-patobiznesy-raz-mialem-wbity-noz-w-opone-7276166505855264a.html){rel="nofollow"}.
-
----
-
-## Źródła
-
-- [Bankier.pl](https://www.bankier.pl/wiadomosci){rel="nofollow"}
-- [Money.pl](https://www.money.pl/gospodarka/){rel="nofollow"}
-
----
-
-*Zbieramy i weryfikujemy informacje z wielu źródeł. Piszemy tylko o faktach z ostatnich 3 dni potwierdzonych w co najmniej dwóch źródłach.*
+*Źródła: Bankier.pl, Puls Biznesu, StockWatch.pl | Dane z: 17-20.04.2026*
