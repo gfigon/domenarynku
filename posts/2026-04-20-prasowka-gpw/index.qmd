@@ -1,0 +1,86 @@
+---
+title: "Prasówka GPW – 20 kwietnia 2026 [Przed sesją]"
+date: "2026-04-20"
+author: "DomenaRynku.pl"
+tags: [finanse, GPW, giełda, inwestycje, prasówka]
+description: "Najważniejsze wiadomości finansowe z przedsesji GPW – 20 kwietnia 2026"
+categories: [finanse, giełda]
+image: /img/placeholder.jpg
+robots: "index, follow"
+og:
+  title: "Prasówka GPW – 20 kwietnia"
+  description: "Kluczowe tematy finansowe przed sesją GPW"
+  type: "article"
+sitemap:
+  priority: 0.8
+  changefreq: "daily"
+---
+
+## Poranne kluczowe tematy finansowe – 20 kwietnia 2026
+
+### Ropa naftowa w górę o 6%
+
+Ceny ropy naftowej rosną w związku z eskalacją napięć w Zatoce Perskiej. Amerykańska Marynarka Wojenna zatrzymała irański statek towarowy, który usiłował przełamać blokadę irańskich portów — donosi [Bankier.pl](https://www.bankier.pl/wiadomosc/Trump-dziurawi-statki-ropa-drozeje-o-6-proc-Czy-Islamabad-uratuje-swiat-przed-paliwowym-szokiem-9116377.html){rel="nofollow"}.
+
+Równocześnie trwają rozmowy USA z Iranem w sprawie programu nuklearnego. Analitycy ING szacują, że zamknięcie cieśniny Ormuz zakłóciło przepływ ropy na poziomie około 13 mln baryłek dziennie — informuje [Money.pl](https://www.money.pl/gospodarka/ceny-ropy-pod-presja-rozmow-usa-z-iranem-7276174144899424a.html){rel="nofollow"}.
+
+> **Kontekst:** Jeśli nie dojdzie do porozumienia, ryzyko dalszego wzrostu cen energii pozostaje wysokie.
+
+---
+
+### Kanada: Mark Carney buduje "gospodarczą twierdzę"
+
+Premier Kanady Mark Carney ogłosił nową strategię gospodarczą mającą uniezależnić gospodarkę od USA. W niedzielnym wystąpieniu podkreślił, że "więzi z USA stały się słabością" i zapowiedział plan dywersyfikacji rynków.
+
+— Obiecuję, że nigdy nie będę osładzać naszych wyzwań. Zamiast tego będę zwracać się do was bezpośrednio — oświadczył Carney, powołując się na doświadczenia z kryzysu finansowego 2008-09.
+
+Szczyt Inwestycyjny w Toronto zaplanowano na połowę września — podaje [Money.pl](https://www.money.pl/gospodarka/wiezi-z-usa-staly-sie-slaboscia-carney-odcina-sie-od-trumpa-7277207853394208a.html){rel="nofollow"}. Więcej szczegółów na [Bankier.pl](https://www.bankier.pl/wiadomosc/Koniec-grzecznej-Kanady-Mark-Carney-buduje-gospodarcza-twierdze-przeciwko-Trumpowi-9116317.html){rel="nofollow"}.
+
+---
+
+### Ceny paliw w Polsce poniżej weekendowych maksimów
+
+W poniedziałek 20 kwietnia obowiżują niższe ceny maksymalne paliw ustanowione przez Ministra Energii:
+
+- Benzyna 95: **6,03 zł**/l
+- Benzyna 98: **6,57 zł**/l  
+- Olej napędowy: **7,07 zł**/l
+
+To spadek w porównaniu z wcześniejszymi stawkami — podaje [Bankier.pl](https://www.bankier.pl/wiadomosc/Nowe-nizsze-ceny-maksymalne-benzyny-i-diesla-Weekendowe-stawki-obowiazuja-tez-w-poniedzialek-9116333.html){rel="nofollow"}.
+
+---
+
+### Refinansowy boom w Polsce — 6 mld zł przepłynęło do innych banków
+
+Poziom refinansowania kredytów mieszkaniowych w I kwartale 2026 osiągnął **28,7%** sprzedaży kredytów. Polacy przenieśli już prawie 6 mld zł długów do innych banków — ocenia Tomasz Pawlonka, dyrektor zespołu badań i analiz ZBP.
+
+Dane za [Bankier.pl](https://www.bankier.pl/wiadomosc/Refinansowy-boom-2026-Polacy-przeniesli-juz-prawie-6-mld-zl-dlugow-do-innych-bankow-9116373.html){rel="nofollow"}.
+
+---
+
+### UOKiK bada Zondacrypto
+
+Prezes UOKiK Tomasz Chróstny w rozmowie z money.pl potwierdził, że urząd prowadzi intensywne działania wobec największej polskiej giełdy kryptowalut. — W przypadku kryptowalut mówimy o sytuacji, która naprawdę jest zbliżona do hazardu — stwierdził.
+
+Sprawa trafiła do prokuratury. Więcej w [Money.pl](https://www.money.pl/finanse/tropi-patobiznesy-raz-mialem-wbity-noz-w-opone-7276166505855264a.html){rel="nofollow"}.
+
+---
+
+### Umowa UE-Mercosur: szansa dla polskiego biznesu
+
+Umowa między UE a krajami Mercosur (Argentyna, Brazylia, Paragwaj, Urugwaj) wprowadza preferencje celne dla produktów rolnych z Ameryki Południowej. Krzysztof Domarecki, twórca firmy Selena, ocenia że dla polskich firm to "duża szansa, ale pod warunkiem, że się zaangażują".
+
+— Europa musi szukać na świecie miejsc, w których da się prowadzić wolny handel. Mercosur jest jednym z takich miejsc — podkreślił.
+
+Szczegóły na [Money.pl](https://www.money.pl/biznes/moze-pryniesc-bardzo-pozytywne-wyniki-tworca-giganta-zabiera-glos-ws-mercosuru-7255040881456193v.html){rel="nofollow"}.
+
+---
+
+## Źródła
+
+- [Bankier.pl](https://www.bankier.pl/wiadomosci){rel="nofollow"}
+- [Money.pl](https://www.money.pl/gospodarka/){rel="nofollow"}
+
+---
+
+*Zbieramy i weryfikujemy informacje z wielu źródeł. Piszemy tylko o faktach z ostatnich 3 dni potwierdzonych w co najmniej dwóu źródłach.*
