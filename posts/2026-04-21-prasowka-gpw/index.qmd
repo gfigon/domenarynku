@@ -1,54 +1,91 @@
 ---
 title: "Prasówka GPW – 21 kwietnia 2026"
 date: "2026-04-21"
-description: "Najważniejsze tematy finansowe z poranka przed sesją GPW"
-tags: ["GPW", "giełda", "finanse", "prasówka", "2026"]
-keywords: ["GPW", "giełda", "NewConnect", "akcje", "giełda warszawska", "papiery wartościowe"]
-author: "DomenaRynku.pl"
+description: "Poranna prasówka GPW - najważniejsze informacje z warszawskiej giełdy"
+author: "OpenClaw"
+image: "/images/gpw-logo.png"
+tags: ["GPW", "giełda", "WIG20", "finanse", "2026"]
+keywords: "GPW WIG20 giełda Warszawa notowania 21 kwietnia 2026"
+nofollow: true
 ---
 
-# Prasówka GPW – 21 kwietnia 2026 🟢
+# 📈 Prasówka GPW – 21 kwietnia 2026
 
-Poranne podsumowanie najważniejszych tematów finansowych przed dniem na GPW.
+## Nastroje przed sesją
+
+**Spadki na GPW po poniedziałkowej sesji.** Główne indeksy warszawskiej giełdy zakończyły dzień na minusie, a WIG20 zniżkował o **0,84%** do poziomu **3669 pkt**. Presję na rynek wywiera niepewność związana z sytuacją na Bliskim Wschodzie – inwestorzy obawiają się eskalacji konfliktu USA-Iran po zakończeniu 2-tygodniowego zawieszenia broni – [XYZ](https://xyz.pl/dzien-na-gpw-podsumowanie-notowan-20-kwietnia-2026-r/){rel="nofollow"}, [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260420/dzien-na-gpw-glowne-indeksy-utrzymuja-spadki-wig20-znizkuje-07-proc){rel="nofollow"}.
+
+**Ropa naftowa w dół – sygnały dotyczące Iranu.** Ceny ropy naftowej spadają po tym, jak pojawiły się sygnały, że Iran weźmie udział w negocjacjach ze Stanami Zjednoczonymi w Islamabadzie, zanim zakończy się zawieszenie broni – [Bankier](https://www.bankier.pl/wiadomosc/Ceny-ropy-naftowej-w-dol-Sa-sygnaly-dotyczace-Iranu-9120031.html){rel="nofollow"}.
+
+**Testy rurociągu Przyjaźń we wtorek.** Dziś odbędą się testy techniczne rurociągu Przyjaźń, uszkodzonego w styczniu wskutek rosyjskiego ataku. Władze liczą, że tego samego dnia uda się wznowić przesył ropy – [Bankier](https://www.bankier.pl/wiadomosc/Dzis-test-y-rurociagu-Przyjazn-Ropa-moze-poplynac-tego-samego-dnia-9120019.html){rel="nofollow"}.
+
+**Ceny paliw w Polsce – niższe limity od wtorku.** We wtorek 21 kwietnia wchodzą w życie nowe, niższe ceny maksymalne paliw. Litr benzyny 95 nie może przekroczyć 6,03 zł (spadek z 6,19 zł), benzyny 98 – 6,57 zł (z 6,74 zł), a oleju napędowego – 7,07 zł (z 7,21 zł) – [BiznesInfo](https://www.biznesinfo.pl/za-tyle-zatankujesz-we-wtorek-21-kwietnia-rzad-podal-nowe-limity-jc-wem-200426){rel="nofollow"}.
+
+## Sektory i indeksy
+
+**WIG20** (ok. 16:00): **-0,84%** do **3669 pkt** – [XYZ](https://xyz.pl/dzien-na-gpw-podsumowanie-notowan-20-kwietnia-2026-r/){rel="nofollow"}
+
+**WIG-Budownictwo:** ok. **-2%** (najsłabszy sektor) – [XYZ](https://xyz.pl/dzien-na-gpw-podsumowanie-notowan-20-kwietnia-2026-r/){rel="nofollow"}
+
+**WIG-Paliwa:** ponad **+2%** (najsilniejszy sektor) – [XYZ](https://xyz.pl/dzien-na-gpw-podsumowanie-notowan-20-kwietnia-2026-r/){rel="nofollow"}
+
+## Najważniejsze spółki
+
+### ⬆️ Orlen z silnym wzrostem
+
+Akcje Orlenu (PKN) zyskały w poniedziałek **2,19%**, będąc jednym z liderów wzrostów w WIG20. Spółce sprzyjały wyższe ceny ropy naftowej – [XYZ](https://xyz.pl/dzien-na-gpw-podsumowanie-notowan-20-kwietnia-2026-r/){rel="nofollow"}.
+
+### ⬇️ Budimex najsłabszy w WIG20
+
+Akcje Budimeksu (BDX) spadły o **2,8%** – najgorszy wynik wśród blue chipów – [XYZ](https://xyz.pl/dzien-na-gpw-podsumowanie-notowan-20-kwietnia-2026-r/){rel="nofollow"}, [Strefa Inwestorów](https://strefainwestorow.pl/wiadomosci/20260420/dzien-na-gpw-glowne-indeksy-utrzymuja-spadki-wig20-znizkuje-07-proc){rel="nofollow"}.
+
+### ⬇️ mBank, Grupa Kęty i CD Projekt pod presją
+
+- **mBank** (MBK): -2,37%
+- **Grupa Kęty** (KTY): -1,74%
+- **CD Projekt** (CDR): -1,56%
+
+Dane: [XYZ](https://xyz.pl/dzien-na-gpw-podsumowanie-notowan-20-kwietnia-2026-r/){rel="nofollow"}.
+
+### 🚀 Newag – rekordowe wyniki 2025
+
+Newag wypracował w 2025 roku:
+- Przychody: **2.386,4 mln zł** (+50,1% r/r)
+- Zysk netto: **356,5 mln zł** (+190,5% r/r)
+- EBITDA: **521,3 mln zł** (+147,3% r/r)
+
+To ponad dwukrotny wzrost zysku netto w porównaniu z 2024 rokiem. We wtorek akcje Newagu rosły o prawie **7%** – [XYZ](https://xyz.pl/dzien-na-gpw-podsumowanie-notowan-20-kwietnia-2026-r/){rel="nofollow"}, [Puls Biznesu](https://www.pb.pl/to-warto-wiedziec-przed-sesja-na-gpw-20-iv-2026-1259863){rel="nofollow"}.
+
+### ⬇️ Diagnostyka liderem spadków w mWIG40
+
+Akcje Diagnostyki (DG) zniżkowały o ok. **4,2%**, będąc najsłabszą spółką w indeksie średnich selektywnych – [XYZ](https://xyz.pl/dzien-na-gpw-podsumowanie-notowan-20-kwietnia-2026-r/){rel="nofollow"}.
+
+### ⬇️ Mirbud z szacunkami za 2025
+
+Mirbud szacuje, że w 2025 r. miał **112 mln zł** skonsolidowanego zysku netto przy przychodach **2,95 mld zł**. Skonsolidowany zysk brutto ze sprzedaży wyniósł 227 mln zł. W ujęciu jednostkowym zysk netto to 138 mln zł, przy przychodach 1,93 mld zł – [XYZ](https://xyz.pl/dzien-na-gpw-podsumowanie-notowan-20-kwietnia-2026-r/){rel="nofollow"}.
+
+### 📉 PCF Group ze stratą w 2025
+
+PCF Group (producent gier) miała w 2025 roku **123,4 mln zł** straty netto jednostki dominującej wobec 174,4 mln zł straty rok wcześniej. Przychody wyniosły 199,6 mln zł wobec 190,4 mln zł przed rokiem – [Bankier](https://www.bankier.pl/wiadomosc/PCF-Group-miala-w-2025-r-123-4-mln-zl-straty-netto-j-d-9120006.html){rel="nofollow"}.
+
+### ⚠️ Mostostal Warszawa – potrzeby kapitałowe
+
+Zarząd Mostostalu Warszawa szacuje potrzeby kapitałowe na **425-570 mln zł**. Podejmuje działania, by pozyskać finansowanie dłużne, ale rozważa też inne opcje, w tym podwyższenie kapitału zakładowego – [Puls Biznesu](https://www.pb.pl/to-warto-wiedziec-przed-sesja-na-gpw-20-iv-2026-1259863){rel="nofollow"}.
+
+### ⬆️ Digital Network – rekordowy kwartał
+
+Digital Network szacuje, że w pierwszym kwartale 2026 roku osiągnął **42,9 mln zł** skonsolidowanych przychodów, co oznacza wzrost o **179%** rok do roku – [StockWatch](https://www.stockwatch.pl/wiadomosci/digital-network-z-429-mln-zl-przychodow-w-i-kwartale-2026-roku-wzrost-o-179-proc-r-r,akcje,370486){rel="nofollow"}, [Puls Biznesu](https://www.pb.pl/to-warto-wiedziec-przed-sesja-na-gpw-20-iv-2026-1259863){rel="nofollow"}.
+
+### 🏦 Creotech Quantum – PTE Allianz z pakietem 5,4%
+
+PTE Allianz Polska ujawniło się z pakietem **5,4 proc.** akcji Creotechu Quantum, spółki, która zadebiutowała na GPW w piątek 17 kwietnia (wydzielonej z Creotech Instruments, akcjonariusze otrzymali akcje w stosunku 1 do 1) – [Puls Biznesu](https://www.pb.pl/to-warto-wiedziec-przed-sesja-na-gpw-20-iv-2026-1259863){rel="nofollow"}, [StockWatch](https://www.stockwatch.pl/komunikaty-spolek/wszystkie.aspx){rel="nofollow"}.
+
+## Wydarzenia i konteksty
+
+**Europejski Kongres Gospodarczy EEC 2026 – ostatni dzień rejestracji.** Już w środę, 22 kwietnia w Katowicach rozpoczyna się Europejski Kongres Gospodarczy. Termin rejestracji mija we wtorek o godz. 15:00 – [WNP](https://www.wnp.pl/rynki/ostatnie-godziny-aby-wziac-udzial-w-europejskim-kongresie-gospodarczym,1054074.html){rel="nofollow"}.
+
+**Przełom w PiS?** Europoseł Adam Bielan poinformował, że jest porozumienie i wspólny kierunek po nocnym spotkaniu b. premiera Mateusza Morawieckiego z prezesem PiS Jarosławem Kaczyńskim – [Bankier](https://www.bankier.pl/wiadomosc/Przelom-na-szczytach-PiS-Nocne-spotkanie-Kaczynskiego-z-Morawieckim-9120018.html){rel="nofollow"}.
 
 ---
 
-## 🔑 Kluczowe tematy
-
-### Rurociąg Przyjaźń – testy we wtorek
-
-Testy techniczne rurociągu Przyjaźń, uszkodzonego wskutek rosyjskiego ataku w styczniu, odbędą się we wtorek. Władze Ukraina liczą, że tego samego dnia uda się wznowić przesył ropy. Prezydent Wołodymyr Zełenski oświadczył w Berlinie, że rurociąg zostanie naprawiony do końca kwietnia.
-
-**Kontekst:** Rosyjska ropa przestała płynąć przezUkrainę do Słowacji i Węgr pod koniec stycznia.
-
-### OZE wyprzedziły węgiel – pierwszy raz w historii
-
-Odnawialne źródła energii w 2025 r. osiągnęły 34 proc. globalnej produkcji energii elektrycznej, przewyższając 33-procentowy udział węgla – to pierwszy taki przypadek w historii. Według raportu Ember, globalna produkcja energii słonecznej wzrosła o 636 TWh (30 proc. r/r). Liderem wzrostu pozostają Chiny.
-
-### Trump powołuje się na Ustawę o Produkcji Obronnej
-
-Prezydent USA Donald Trump podpisał memoranda powołując się na Ustawę o Produkcji Obronnej (DPA) z czasów zimnej wojny, aby zwiększyć krajowe dostawy i produkcję energii. Celem jest zbicie cen energii w USA wobec rosnących kosztów paliw związanych z konfliktem USA-Iran.
-
-### PCF Group ze stratą 123,4 mln zł w 2025 r.
-
-Producent gier PCF Group miał w 2025 roku 123,4 mln zł straty netto jednostki dominującej wobec 174,4 mln zł straty rok wcześniej. Przychody wyniosły 199,6 mln zł wobec 190,4 mln zł przed rokiem. Prezes zapowiedział, że 2026 r. musi być rokiem wyjścia z "trybu przetrwania".
-
-### Przełom na szczytach PiS?
-
-Europoseł Adam Bielan poinformował o porozumieniu i wspólnym kierunku po nocnym spotkaniu b. premiera Mateusza Morawieckiego z prezesem PiS Jarosławem Kaczyńskim.
-
----
-
-## Źródła
-
-- [Bankier.pl – Rurociąg Przyjaźń](https://www.bankier.pl/wiadomosc/Dzis-testy-rurociagu-Przyjazn-Ropa-moze-poplynac-tego-samego-dnia-9120019.html){rel="nofollow"}
-- [Money.pl – Peter Magyar o rurociągu](https://www.money.pl/gospodarka/zwrot-ws-rurociagu-przyjazn-peter-magyar-zabiera-glos-7276228954327392a.html){rel="nofollow"}
-- [Bankier.pl – OZE górą](https://www.bankier.pl/wiadomosc/OZE-gora-po-raz-pierwszy-w-historii-Swiat-polubil-energie-sloneczna-9119965.html){rel="nofollow"}
-- [Reuters – Trump DPA](https://www.reuters.com/business/energy/trump-cites-defense-production-act-call-expansion-domestic-petroleum-production-2026-04-20/){rel="nofollow"}
-- [Bloomberg – Trump DPA](https://www.bloomberg.com/news/articles/2026-04-20/trump-invokes-wartime-powers-to-fund-new-energy-projects){rel="nofollow"}
-- [Bankier.pl – PCF Group](https://www.bankier.pl/wiadomosc/PCF-Group-miala-w-2025-r-123-4-mln-zl-straty-netto-j-d-9120006.html){rel="nofollow"}
-- [Bankier.pl – PiS porozumienie](https://www.bankier.pl/wiadomosc/Przelom-na-szczytach-PiS-Nocne-spotkanie-Kaczynskiego-z-Morawieckim-9120018.html){rel="nofollow"}
-
----
-
-*Źródło: DomenaRynku.pl – Codzienna prasówka finansowa*
+*Źródła: Bankier.pl, Puls Biznesu, XYZ, Strefa Inwestorów, StockWatch.pl, WNP.pl | Dane z: 20-21.04.2026*
