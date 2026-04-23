@@ -1,0 +1,57 @@
+---
+title: "Prasówka GPW - 23 kwietnia 2026"
+date: "2026-04-23"
+description: "Najważniejsze wydarzenia ze świata finansów i gospodarki przed sesją GPW"
+tags: [prasowka, GPW, giełda, biznes, Polska]
+author: "DomenaRynku.pl"
+image: "/images/prasowka-gpw.jpg"
+---
+
+# Prasówka GPW — 23 kwietnia 2026
+
+## 🔥 Top wydarzenia
+
+### PGE z stratą 3,5 mld zł w 2025 roku
+Prezes PGE Wojciech Lubera ostrzega przed ryzykiem blackoutu i brakiem planu zastępczego dla aktywów węglowych po upadku projektu NABE. Strata netto wyniosła 3,5 mld zł mimo stabilnej EBITDA. Prezes podkreśla, że węgiel wciąż odgrywa kluczową rolę w stabilizacji polskiego systemu energetycznego, a koszt blackoutu dla gospodarki może sięgać 40 mld zł dziennie.
+
+### Luka VAT spadła o połowę
+Według wiceminister finansów Hanny Majszczyk, luka podatkowa VAT zmniejszyła się o połowę. Udział VAT w PKB wzrósł z ok. 7% w 2023 roku do ponad 8% obecnie.
+
+### Senat zatwierdził pożyczki z ARP dla JSW
+Senacka komisja gospodarki narodowej i innowacyjności przyjęła bez poprawek nowelizację ustawy o systemie instytucji rozwoju, umożliwiającą ARP udzielenie pożyczek Jastrzębskiej Spółce Węglowej i Grupie Azoty.
+
+---
+
+## 📈 Wyniki spółek
+
+### Mo-Bruk: 27,6 mln zł zysku netto w IV kw. 2025
+Spółka działa w branży przetwarzania odpadów. Wynik zgodny z oczekiwaniami (konsensus: 28,2 mln zł). Przychody: 109,7 mln zł (+16,1% vs konsensus). Rekordowy portfel zamówień na "bomby ekologiczne" wynosi 127 mln zł na 2026 rok.
+
+### Selena: 115,5 mln zł zysku netto w 2025 (+34%)
+Grupa Selena, producent chemii budowlanej, zwiększyła zysk netto o 34% rok do roku. EBITDA wzrosła do 234,4 mln zł z 189,7 mln zł. Przychody: 1,8 mld zł (flat rdr). Rentowność brutto sprzedaży wzrosła do 35,3% dzięki produktom innowacyjnym.
+
+### Grupa Boryszew: 251,9 mln zł EBITDA w 2025 (-25%)
+Zysk netto spadł o niemal 80% do 23,6 mln zł. Wyniki poniżej oczekiwań.
+
+---
+
+## 🌍 Giełda światowa
+
+### Tesla z wynikami powyżej oczekiwań
+Akcje Tesli rosną w handlu pozasesyjnym po publikacji lepszych od prognoz wyników za I kw.
+
+---
+
+## Źródła
+
+- [Bankier.pl - Mo-Bruk wyniki](https://www.bankier.pl/wiadomosc/Mo-Bruk-mial-27-6-mln-zl-zysku-netto-w-IV-kw-zgodnie-z-oczekiwaniami-9121468.html){rel="nofollow"}
+- [Bankier.pl - Selena wyniki](https://www.bankier.pl/wiadomosc/Zysk-netto-Seleny-wzrosl-w-25-do-115-5-mln-zl-a-EBITDA-do-234-4-mln-zl-9121459.html){rel="nofollow"}
+- [Bankier.pl - Boryszew wyniki](https://www.bankier.pl/wiadomosc/Grupa-Boryszew-miala-w-2025-roku-251-9-mln-zl-EBITDA-9121450.html){rel="nofollow"}
+- [Money.pl - Polska nie ma planu A](https://www.money.pl/gospodarka/polska-nie-ma-planu-a-te-slowa-ws-pradu-niepokoja-7277996320749984a.html){rel="nofollow"}
+- [WNP.pl - PGE strata](https://www.wnp.pl/energia/prezes-pge-dla-wnp-nie-mamy-planu-a-bez-wegla-blackout-to-realne-ryzyko,1054500.html){rel="nofollow"}
+- [Portal Samorzadowy - Senat ARP](https://www.portalsamorzadowy.pl/polityka-i-spoleczenstwo/senat-komisja-bez-poprawek-do-noweli-pozwalajacej-na-pozyczki-z-arp-dla-jsw-i-azotow,657847.html){rel="nofollow"}
+- [Bankier.pl - VAT](https://www.bankier.pl/wiadomosc/VAT-napedza-polski-budzet-Wiceminister-Finansow-Luka-podatkowa-spadla-o-polowe-9121457.html){rel="nofollow"}
+
+---
+
+*Data opracowania: 23 kwietnia 2026, 08:20*
