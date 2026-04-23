@@ -1,57 +1,108 @@
 ---
-title: "Prasówka GPW - 23 kwietnia 2026"
+title: "Prasówka GPW – 23 kwietnia 2026 (rano)"
 date: "2026-04-23"
-description: "Najważniejsze wydarzenia ze świata finansów i gospodarki przed sesją GPW"
-tags: [prasowka, GPW, giełda, biznes, Polska]
-author: "DomenaRynku.pl"
-image: "/images/prasowka-gpw.jpg"
+categories:
+- Prasówka
+- GPW
+tags:
+- giełda
+- WIG20
+- GPW
+- rynek akcji
+- dywidendy
+- Grupa Kęty
+- CD Projekt
+- LPP
 ---
 
-# Prasówka GPW — 23 kwietnia 2026
+<!-- meta_tags -->
+<meta name="description" content="Poranna prasówka GPW - najważniejsze wydarzenia z warszawskiej giełdy w czwartek 23 kwietnia 2026 r." />
+<meta name="robots" content="index, follow" />
 
-## 🔥 Top wydarzenia
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Prasówka GPW – 23 kwietnia 2026 (rano)",
+  "datePublished": "2026-04-23T08:30:00+02:00",
+  "dateModified": "2026-04-23T08:30:00+02:00",
+  "description": "Poranna prasówka GPW - najważniejsze wydarzenia z warszawskiej giełdy.",
+  "articleSection": "Finanse",
+  "keywords": "GPW, WIG20, giełda, dywidendy, Grupa Kęty, CD Projekt, LPP"
+}
+</script>
 
-### PGE z stratą 3,5 mld zł w 2025 roku
-Prezes PGE Wojciech Lubera ostrzega przed ryzykiem blackoutu i brakiem planu zastępczego dla aktywów węglowych po upadku projektu NABE. Strata netto wyniosła 3,5 mld zł mimo stabilnej EBITDA. Prezes podkreśla, że węgiel wciąż odgrywa kluczową rolę w stabilizacji polskiego systemu energetycznego, a koszt blackoutu dla gospodarki może sięgać 40 mld zł dziennie.
+## Rynek akcji
 
-### Luka VAT spadła o połowę
-Według wiceminister finansów Hanny Majszczyk, luka podatkowa VAT zmniejszyła się o połowę. Udział VAT w PKB wzrósł z ok. 7% w 2023 roku do ponad 8% obecnie.
+**Czwartek na GPW to kontynuacja korekty po rekordowych poziomach z ubiegłego tygodnia.** WIG20 po ustanowieniu w piątek szczytu hossy powyżej 3700 punktów zalicza trzecią sesję spadkową. Wczoraj indeks stracił 0,67%, zamknięcie na poziomie 3615,77 pkt. Oznacza to oddalenie od piątkowego szczytu o ponad 2,3%.
 
-### Senat zatwierdził pożyczki z ARP dla JSW
-Senacka komisja gospodarki narodowej i innowacyjności przyjęła bez poprawek nowelizację ustawy o systemie instytucji rozwoju, umożliwiającą ARP udzielenie pożyczek Jastrzębskiej Spółce Węglowej i Grupie Azoty.
+Szeroki WIG stracił w środę 0,34% do 132 735 pkt., mWIG40 zwyżkował o 0,07%, a sWIG80 spadł o 0,01%. Obroty na rynku wyniosły nieco ponad 2 mld zł, z czego 1,63 mld zł dotyczyło WIG20 — wyraźnie poniżej średniej z tego roku.
+
+Kluczowym czynnikiem pozostaje sytuacja na Bliskim Wschodzie. Prezydent USA Donald Trump przedłużył bezterminowo rozejm z Iranem, jednak Iran tego nie potwierdził. Dodatkowo irańska agencja Tasnim poinformowała o przejęciu przez Korpus Strażników Rewolucji Islamskiej dwóch statków w cieśninie Ormuz, co schłodziło optymizm rynkowy.
+
+> "Inwestorzy jakby nie widzieli żadnych zagrożeń i bardzo optymistycznie podchodzą do przyszłości. Dominuje pogląd, że sytuacja geopolityczna jest przejściowa i w interesie wszystkich jest dojście do porozumienia" – powiedział PAP Biznes Mariusz Adamiak z departamentu doradztwa inwestycyjnego w Ipopema Private Investments.
+
+WIG20 w czwartek rano otwiera się poniżej 3616 pkt. Technicznie mamy do czynienia ze zwykłą korektą po mocnych wzrostach z pierwszej połowy kwietnia. Analitycy BM Alior Banku określili środowe nastroje jako neutralne.
+
+## Wyniki Grupy Kęty za Q1 2026
+
+**Grupa Kęty (KTY) opublikowała raport za pierwszy kwartał 2026 roku — jedyna spółka WIG20 publikująca dane w tym tygodniu.**
+
+Wyniki okazały się powyżej konsensusu:
+
+- **Zysk netto**: 145 mln zł (vs. szacunek 132 mln zł, +20% rdr)
+- **EBITDA**: 257 mln zł (vs. szacunek 242 mln zł)
+- **Przychody**: 1 374 mln zł (vs. 1 354 mln zł Q1 2025)
+- **Przepływy operacyjne**: 233 mln zł (+17% rdr)
+
+Zarząd rekomenduje dywidendę **49,05 zł na akcję** za 2025 rok — łącznie 482,8 mln zł, czyli 87% zysku netto. Dzień dywidendy: 19 sierpnia 2026 r. (akcje na rachunku 17 sierpnia). Spółka nieprzerwanie dzieli się zyskiem od ponad 20 lat.
+
+## CD Projekt najsilniejszy w WIG20
+
+Akcje CD Projektu zwyżkowały w środę o 3,86% do 293,10 zł. To najlepszy wynik wśród blue chipów. Inwestorzy grają pod potencjalne zapowiedzi nowych dodatków do „Wiedźmina 3", a kurs zbliża się do psychologicznej bariery 300 zł.
+
+## LPP — odcięcie dywidendy
+
+W środę od kursu LPP odcięto dywidendę w wysokości **400 zł na akcję**. Za jedną akcję LPP płacono ok. 23 680 zł. Spółka poinformowała też o karze 15 mln zł nałożonej przez KNF za nieprawidłowości w raportach rocznych za lata 2021–2023.
+
+## Sektor bankowy pod presją
+
+Subindeks WIG Banki spadł w środę o 1,4%, korygując silne wzrosty z ostatnich trzech tygodni (ok. 16%). Wszystkie banki w WIG20 były pod presją. Najsłabiej wypadły PKO BP (-1,69%) i Pekao (-1,65%).
+
+## Wyniki spółek z szerokiego rynku
+
+- **Asbis** (+8,9% do 64,80 zł): Szacowane przychody za marzec 2026 — ok. 462 mln USD, +68% rdr
+- **CDRL** (+16,9% do 9 zł): Zysk operacyjny 2025 r. wzrósł do 6,16 mln zł z 0,75 mln zł straty rok wcześniej
+- **Cyfrowy Polsat** (+5,1%): Na sześć ostatnich sesji spółka zyskała łącznie 12%
+- **Medinice** (+6,7%): Rozpoczęto badanie due diligence wyrobu medycznego CoolCryo
+- **Oponeo.pl** (-3,8%): Słabe wyniki IV kw. 2025 r. — zysk netto spadł do 52,1 mln zł z 84,73 mln zł
+- **Unimot**: Zarząd rekomenduje 6 zł dywidendy na akcję za 2025 r.
+
+## ESPI — najważniejsze komunikaty (22–23.04)
+
+Na podstawie komunikatów Stockwatch:
+
+- **Mabion** — zmiana terminu publikacji raportu rocznego za 2025 r. (23.04)
+- **Mercator** — szacunkowe wyniki Q4 2025 r. (23.04)
+- **Mennica** — powołanie członków zarządu na nową kadencję (22.04)
+- **Boryszew** — rekomendacja przeznaczenia zysku za 2025 r. na kapitał zapasowy (22.04)
+- **GPW** — zmiana terminu publikacji skonsolidowanego raportu Q1 2026 r. (22.04)
+- **Foothills** — podpisanie listu intencyjnego rozpoczynającego proces negocjacji (22.04)
+- **Cosma** — pozytywna decyzja w zakresie pozwolenia na obrót surowca farmaceutycznego (22.04)
+
+## Kalendarium
+
+- **23 kwietnia** — czat inwestorski z Pawłem Lisickim (NewConnect)
+- **23–24 kwietnia** — wyniki kwartalne Tesli, IBM, AT&T, Boeing, ServiceNow (USA)
+- **23–30 kwietnia** — ewentualne ogłoszenie szczegółów podatku windfall tax dla Orlenu
 
 ---
 
-## 📈 Wyniki spółek
-
-### Mo-Bruk: 27,6 mln zł zysku netto w IV kw. 2025
-Spółka działa w branży przetwarzania odpadów. Wynik zgodny z oczekiwaniami (konsensus: 28,2 mln zł). Przychody: 109,7 mln zł (+16,1% vs konsensus). Rekordowy portfel zamówień na "bomby ekologiczne" wynosi 127 mln zł na 2026 rok.
-
-### Selena: 115,5 mln zł zysku netto w 2025 (+34%)
-Grupa Selena, producent chemii budowlanej, zwiększyła zysk netto o 34% rok do roku. EBITDA wzrosła do 234,4 mln zł z 189,7 mln zł. Przychody: 1,8 mld zł (flat rdr). Rentowność brutto sprzedaży wzrosła do 35,3% dzięki produktom innowacyjnym.
-
-### Grupa Boryszew: 251,9 mln zł EBITDA w 2025 (-25%)
-Zysk netto spadł o niemal 80% do 23,6 mln zł. Wyniki poniżej oczekiwań.
-
----
-
-## 🌍 Giełda światowa
-
-### Tesla z wynikami powyżej oczekiwań
-Akcje Tesli rosną w handlu pozasesyjnym po publikacji lepszych od prognoz wyników za I kw.
-
----
-
-## Źródła
-
-- [Bankier.pl - Mo-Bruk wyniki](https://www.bankier.pl/wiadomosc/Mo-Bruk-mial-27-6-mln-zl-zysku-netto-w-IV-kw-zgodnie-z-oczekiwaniami-9121468.html){rel="nofollow"}
-- [Bankier.pl - Selena wyniki](https://www.bankier.pl/wiadomosc/Zysk-netto-Seleny-wzrosl-w-25-do-115-5-mln-zl-a-EBITDA-do-234-4-mln-zl-9121459.html){rel="nofollow"}
-- [Bankier.pl - Boryszew wyniki](https://www.bankier.pl/wiadomosc/Grupa-Boryszew-miala-w-2025-roku-251-9-mln-zl-EBITDA-9121450.html){rel="nofollow"}
-- [Money.pl - Polska nie ma planu A](https://www.money.pl/gospodarka/polska-nie-ma-planu-a-te-slowa-ws-pradu-niepokoja-7277996320749984a.html){rel="nofollow"}
-- [WNP.pl - PGE strata](https://www.wnp.pl/energia/prezes-pge-dla-wnp-nie-mamy-planu-a-bez-wegla-blackout-to-realne-ryzyko,1054500.html){rel="nofollow"}
-- [Portal Samorzadowy - Senat ARP](https://www.portalsamorzadowy.pl/polityka-i-spoleczenstwo/senat-komisja-bez-poprawek-do-noweli-pozwalajacej-na-pozyczki-z-arp-dla-jsw-i-azotow,657847.html){rel="nofollow"}
-- [Bankier.pl - VAT](https://www.bankier.pl/wiadomosc/VAT-napedza-polski-budzet-Wiceminister-Finansow-Luka-podatkowa-spadla-o-polowe-9121457.html){rel="nofollow"}
-
----
-
-*Data opracowania: 23 kwietnia 2026, 08:20*
+<p>Sources: 
+<a href="https://www.bankier.pl/wiadomosc/KGHM-odbil-po-kilku-slabszych-sesjach-Banki-ciezarem-dla-WIG20-9121184.html" rel="nofollow" target="_blank">Bankier.pl</a>, 
+<a href="https://www.stockwatch.pl/komunikaty-spolek/wszystkie.aspx" rel="nofollow" target="_blank">Stockwatch.pl</a>,
+<a href="https://www.parkiet.com/firmy/art44210551-grupa-kety-miala-145-mln-zl-zysku-netto-257-mln-zl-zysku-ebitda-w-i-kw-2026-r" rel="nofollow" target="_blank">Parkiet</a>,
+<a href="https://strefainwestorow.pl/wiadomosci/20260422/dzien-na-gpw-na-gieldzie-trzecia-spadkowa-sesja-rosnie-energetyka-traca-banki" rel="nofollow" target="_blank">Strefa Inwestorów</a>,
+<a href="https://www.stockwatch.pl/wiadomosci/gpw-korekta-wyniki-cdrl-asbis-lpp-dywidenda,akcje,370737" rel="nofollow" target="_blank">Stockwatch.pl</a>,
+<a href="https://biznes.pap.pl/wiadomosci/firmy/dzien-na-gpw-na-gieldzie-trzecia-spadkowa-sesja-rosnie-energetyka-traca-banki" rel="nofollow" target="_blank">PAP Biznes</a>
+</p>
