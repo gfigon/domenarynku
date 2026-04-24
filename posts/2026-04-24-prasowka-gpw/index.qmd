@@ -1,40 +1,92 @@
 ---
-title: "Prasówka GPW – 24 kwietnia 2026"
-date: "2026-04-24"
-excerpt: "Najważniejsze tematy finansowe z poranka przed sesją GPW"
-tags: ["gpw", "giełda", "giełda papierów wartościowych", "finanse", "prasse", "newsy"]
-categories: ["Finanse"]
+title: Prasówka GPW - 24 kwietnia 2026
+date: 2026-04-24
+author: domenarynku
+image: /images/gpw-header.jpg
+description: Poranny przegląd wiadomości z warszawskiej giełdy - 24 kwietnia 2026
+tags: [gpw, giełda, warszawa, biznes]
+status: draft
 ---
 
-**Najważniejsze tematy finansowe z poranka przed sesją GPW (24 kwietnia 2026)**
+## 📈 Rynki przed sesją
 
-## ⛔ Cieśnina Ormuz – napięcie rośnie
+**Kalendarz makro (24 kwietnia):**
 
-Iran rozmieścił kolejne miny w cieśninie Ormuz – donosi [Axios](https://www.money.pl/gospodarka/media-iran-rozmiescil-kolejne-miny-w-ciesninie-ormuz-7278604392913280a.html){rel="nofollow"}, powołując się na amerykańskie źródła. Wojsko USA śledzi operację minowania i używa podwodnych dronów do rozminowywania. Prezydent Donald Trump nakazał niszczenie każdej łodzi umieszczającej miny oraz „potrojenie" tempa rozminowywania. Pentagon zdementował doniesienia „Washington Post", według których pełne rozminowanie mogłoby zająć pół roku.
-
-## 🏥 Enel-Med – kolejki wydłużą się do 2 lat
-
-Po wejściu w życie nowych zasad rozliczania nadwykonań badań, [Enel-Med szacuje](https://www.bankier.pl/wiadomosc/Enel-Med-szacuje-wydluzenie-oczekiwania-na-badania-na-NFZ-na-od-kilku-miesiecy-do-ok-dwoch-lat-9122199.html){rel="nofollow"}, że czas oczekiwania na badania na NFZ wydłuży się z kilku miesięcy do blisko dwóch lat. Gastroskopia: +7-9 miesięcy, kolonoskopia: +rok, rezonans magnetyczny: z 2-4 tygodni do 1,5-3 miesięcy. Spółka krytykuje ograniczenie finansowania profilaktyki i wczesnej diagnostyki.
-
-## 🇮🇹 Włochy – nowy lider zadłużenia w strefie euro
-
-[Włochy wyprzedzą Grecję](https://www.money.pl/gospodarka/juz-nie-grecja-ten-kraj-bedzie-najbardziej-zadluzonym-w-strefie-euro-7278612533430656a.html){rel="nofollow"} jako najbardziej zadłużony kraj strefy euro pod koniec 2026 roku. Dług Włoch sięgnie 138,6% PKB, wobec 137% PKB Grencji. Od 2020 roku zadłużenie Aten spadło o ponad 45 pkt proc., podczas gdy Rzym zmalał tylko o 17 pkt proc. Grecki Urząd Statystyczny podał, że w 2025 roku Grecja odnotowała nadwyżkę budżetową w wysokości 12 mld euro (4,9% PKB).
-
-## 🛢️ Rurociąg Przyjaźń wznowił dostawy
-
-[Słowacja zaczęła odbierać ropę rurociągiem „Przyjaźń"](https://www.bankier.pl/wiadomosc/Rurociag-Przyjazn-ruszyl-Rosja-wykorzystuje-kryzys-by-uderzyc-w-Europe-9122159.html){rel="nofollow"} – poinformowała słowacka minister gospodarki Denisa Sakova. Ukraiński operator napełnił arterię przesyłową rosyjskim surowcem. Jednocześnie UE jednomyślnie wydała zgodę na 90 mld euro pożyczki dla Ukrainy oraz 20. pakiet sankcji wobec Rosji.
-
-## 🔄 Biznes – rebranding, dywidendy, IPO
-
-**Santander zmieni nazwę na Erste Bank Polska** – [rebranding potrwa od 24 do 26 kwietnia](https://www.bankier.pl/wiadomosc/Czerwony-ustepuje-niebieskiemu-Rusza-wielki-rebranding-na-Erste-Bank-Polska-9122174.html){rel="nofollow"}. Dla klientów niewiele się zmieni; usługi będą działać jak dotąd.
-
-**Seco/Warwick wypłaci dywidendę 1,20 zł na akcję** – [spółka przeznaczy 8,72 mln zł](https://www.bankier.pl/wiadomosc/Seco-Warwick-chce-wyplacic-1-20-zl-dywidendy-na-akcje-9122193.html){rel="nofollow"} z zysku netto za 2025 rok.
-
-**Rex Concepts – cena IPO 14 zł za akcję** – [35 555 555 akcji do sprzedaży](https://www.bankier.pl/wiadomosc/IPO-Rex-Concepts-na-ostatniej-prostej-Akcje-wycenione-na-14-zl-9122185.html){rel="nofollow"}.
-
-**Polska eksportuje wiedzę za 58,3 mld dol.** – [rekordowe wpływy z usług biznesowych](https://www.bankier.pl/wiadomosc/Polska-eksportuje-wiedze-za-miliardy-Rekordowe-wplywy-z-uslug-biznesowych-9122132.html){rel="nofollow"}, wzrost o 11% r/r.
+- 14:00 Polska: Sprzedaż detaliczna (mar)
+- 14:00 USA: Indeks Michigan (kwie)
+- 14:30 USA: Nowe zezwolenia na budowę (mar)
 
 ---
 
-*Źródła: Bankier.pl, Money.pl, Reuters, Axios, PAP*  
-*Data: 24 kwietnia 2026, 08:20*
+## 🏢 Wiadomości ze spółek
+
+### Dywidendy
+
+**Seco/Warwick** planuje wypłacić **1,20 zł dywidendy na akcję** z zysku netto za 2025 rok (kwota 8,72 mln zł). [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+
+**PKO Bank Polski** — zarząd zarekomendował wypłatę rekordowej dywidendy z zysku za 2025 rok w wysokości **26,71 zł na akcję**. [
+StrefaInwestorow.pl](https://strefainwestorow.pl){rel="nofollow"}
+
+### IPO
+
+**Rex Concepts** — ostateczna cena akcji w IPO ustalona na **14 zł**, liczba oferowanych akcji: 35 555 555 szt. [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+
+### Raporty finansowe
+
+**Grupa Azoty** (Q4 2025 szacunkowe):
+
+- Przychody ze sprzedaży: **3 103 mln zł**
+- EBITDA: **11 mln zł** (marża 0,4%)
+
+[
+Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+
+**Boryszew** — złożył formularz dla skonsolidowanych raportów rocznych sporządzonych wg MSR (23.04.2026). [
+StockWatch.pl](https://www.stockwatch.pl){rel="nofollow"}
+
+### Transakcje / Zmiany
+
+**Santander Bank Polska** przechodzi rebranding na **Erste Bank Polska** w dniach 24-26 kwietnia. Zmiana obejmie logo, adres strony i nazwę — usługi będą działać bez zmian. [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+
+---
+
+## 🌍 Makro i geopolityka
+
+**Ropa naftowa** — ceny rosną już piątą sesję z rzędu, najwyżej od stycznia 2026. Impas w rozmowach USA-Iran zwiększa niepewność, zamknięcie cieśniny Ormuz grozi opóźnieniami w dostawach. [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+
+**Włochy** wyprzedzą Grecję jako najbardziej zadłużony kraj strefy euro — dług sięgnie 138,6% PKB pod koniec 2026 r. [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+
+**Polska eksport usług biznesowych** — rekordowe wpływy 58,3 mld dol. w 2025 r. (+11% r/r). [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+
+---
+
+## 📊 Sesja na GPW (23 kwietnia)
+
+Wtorkowa sesja zakończyła się spadkami:
+
+- **WIG20**: -1,2% do ~3 573 pkt
+- **WIG**: -1,2% do ~131 199 pkt
+- **mWIG40**: -1,3% do ~9 019 pkt
+- **sWIG80**: -0,4% do ~31 166 pkt
+
+GPW była wśród najsłabszych giełd w Europie. W dół ciągnęły głównie banki po wyroku TSUE ws. kredytów frankowych. [
+BiznesPAP](https://biznes.pap.pl){rel="nofollow"}
+
+---
+
+## 🔗 Źródła
+
+- [Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+- [BiznesPAP.pl](https://biznes.pap.pl){rel="nofollow"}
+- [StrefaInwestorow.pl](https://strefainwestorow.pl){rel="nofollow"}
+- [StockWatch.pl](https://www.stockwatch.pl){rel="nofollow"}
+
+---
+
+*Przygotowano: 2026-04-24 08:30*
