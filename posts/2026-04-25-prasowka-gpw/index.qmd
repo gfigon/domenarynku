@@ -1,0 +1,104 @@
+---
+title: Prasówka GPW - 25 kwietnia 2026
+date: 2026-04-25
+author: domenarynku
+image: /images/gpw-header.jpg
+description: Poranny przegląd wiadomości z warszawskiej giełdy - 25 kwietnia 2026
+tags: [gpw, giełda, warszawa, biznes]
+status: draft
+---
+
+## 📈 Rynki przed sesją
+
+Dziś sesja na GPW odbywa się w skróconych godzinach — wigilia Wielkanocy wczoraj (piątek 24 IV) oraz dzień wolny dziś (sobota 25 IV). Przedłużony weekend oznacza, że inwestorzy przenoszą uwagę na poniedziałek 27 kwietnia, kiedy to:
+
+- **ING Bank Śląski** — dzień wypłaty dywidendy (26,71 zł/akcja)
+- **PCC Rokita** — dzień dywidendy (2,65 zł/akcja)
+- **Rex Concepts** — trwa IPO (przyjmowanie zapisów od inwestorów instytucjonalnych)
+
+Wtorkowa sesja (23 IV) zakończyła się spadkami: WIG20 stracił 1,2%, WIG 1,2%, mWIG40 1,3%, sWIG80 0,4%. GPW była wśród najsłabszych giełd w Europie — w dół ciągnęły głównie banki po wyroku TSUE ws. kredytów frankowych. [
+BiznesPAP](https://biznes.pap.pl){rel="nofollow"}
+
+---
+
+## 🏢 Wiadomości ze spółek
+
+### Dywidendy w nadchodzących dniach
+
+| Spółka | Dywidenda | Data wypłaty |
+|--------|-----------|-------------|
+| ING Bank Śląski | 26,71 zł/akcja | 27 IV |
+| PCC Rokita | 2,65 zł/akcja | 30 IV |
+| LPP | 400 zł/akcja (zaliczka) | 30 IV |
+
+Źródło: [
+StrefaInwestorow.pl](https://strefainwestorow.pl){rel="nofollow"} /
+[
+BiznesPAP](https://biznes.pap.pl){rel="nofollow"}
+
+### IPO — Rex Concepts
+
+Ostateczna cena akcji w IPO ustalona na **14 zł**, liczba oferowanych akcji: 35 555 555 szt. Zapisy dla inwestorów instytucjonalnych trwają do niedzieli 26 IV; przydział dla inwestorów indywidualnych nastąpi 30 IV. [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+
+### Raporty i komunikaty ESPI
+
+**GPW** przesunęła termin publikacji skonsolidowanego raportu za I kwartał 2026 r. z 27 maja na **25 maja 2026 r.** (raport bieżący ESPI nr 3/2026 z 22.04.2026). [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+
+**Drago Entertainment** dokona odpisów aktualizujących w łącznej kwocie **1,65 mln zł** w sprawozdaniu za 2025 r. Odpis dotyczy gier Winter Survival (1,42 mln zł) oraz Gas Station Simulator VR (228 tys. zł). Odpisy zostaną ujęte w pozycji „Pozostałe koszty operacyjne". [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"} (PAP Biznes)
+
+---
+
+## 📊 Raporty kwartalne — co nadchodzi
+
+Ostatni tydzień kwietnia przyniesie wysyp raportów za 2025 r. i I kwartał 2026 r. Kluczowe pozycje:
+
+- **Żabka**, **Millennium**, **JSW**, **Kruk**, **Orlen**, **mBank**, **Pekao**, **Santander** — raporty sektora bankowego zapowiadają się najtrudniej: analitycy szacują ok. 30% spadek zysków kwartalnych (WIBOR w dół, wyrok TSUE ws. frankowych, wysoka składka na BFG). [
+StockWatch.pl](https://www.stockwatch.pl){rel="nofollow"}
+- **XTB** — raport 28 IV po sesji; historycznie Q1 z wysoką zmiennością i konfliktami geopolitycznymi sprzyja brokerom. [
+StockWatch.pl](https://www.stockwatch.pl){rel="nofollow"}
+
+---
+
+## 🌐 Makro i geopolityka
+
+**Cieśnina Ormuz** — świat stoi w obliczu największego w historii zagrożenia dla bezpieczeństwa energetycznego. Z rynku wyparowało ok. 13 mln baryłek ropy dziennie (~13% globalnego zużycia). Prezes Dow Inc. szacuje, że nawet po otwarciu cieśniny rozładowanie zatorów logistycznych zajmie ~275 dni. [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"} (CNBC/MAE)
+
+**Ropa naftowa** — ceny rosły już piątą sesję z rzędu, najwyżej od stycznia 2026. Rozmowy USA-Iran utknęły w impasie; Jared Kushner i Steve Witkoff jadą w sobotę do Pakistanu na rozmowy z delegacją Iranu. [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+
+**Deficyt budżetowy Polski** — 7,3% PKB w 2025 r. (drugi najwyższy w historii po 2020). Dług publiczny bliski 60% PKB, limit konstytucyjny może zostać przekroczony w I kwartale 2026. [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+
+**Gospodarka — dane tygodniowe:**
+
+- Produkcja przemysłowa w marcu: +9% r/r (najwyższy wynik od 2022 r.)
+- Sprzedaż detaliczna w marcu: powyżej oczekiwań
+- Strefa euro: wstępny PMI ponownie w kontrakcji — 15. miesiąc mizernego ożywienia
+- NBP: rezerwy złota przekroczyły 580 ton (kontynuacja zakupów w marcu)
+
+[
+Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+
+---
+
+## 🎯 Na tapsie
+
+**GPW w hossie** — WIG20 w tym miesiącu sięgnął 3.700 pkt (najwyżej od ~20 lat), WIG przebił barierę 135 tys. pkt. Analitycy: hossa ma solidne fundamenty, forward P/E WIG20-mWIG40 wciąż atrakcyjny. [
+StockWatch.pl](https://www.stockwatch.pl){rel="nofollow"}
+
+---
+
+## 🔗 Źródła
+
+- [Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+- [BiznesPAP.pl](https://biznes.pap.pl){rel="nofollow"}
+- [StockWatch.pl](https://www.stockwatch.pl){rel="nofollow"}
+- [StrefaInwestorow.pl](https://strefainwestorow.pl){rel="nofollow"}
+
+---
+
+*Przygotowano: 2026-04-25 08:30*
