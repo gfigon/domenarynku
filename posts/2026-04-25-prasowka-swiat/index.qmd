@@ -1,0 +1,84 @@
+---
+title: "Prasówka Światowa – 25 kwietnia 2026"
+pagetitle: "Prasówka Światowa 25.04.2026 | DomenaRynku.pl"
+date: "2026-04-25"
+date-modified: last-modified
+categories: [Prasówka, Świat, Geopolityka]
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Najważniejsze wydarzenia geopolityczne i makroekonomiczne z 25 kwietnia 2026: kryzys NATO, eskalacja w Gaza, rozmowy Iran-Pakistan, wizyta króla Karola w USA.">
+      <meta name="keywords" content="NATO, Trump, Iran, Gaza, Izrael, Wielka Brytania, Hiszpania, Falklandy, King Charles, geopolityka">
+image: "/obrazy/posts/swiat-global.jpg"
+author: "DomenaRynku.pl"
+canonical: "https://domenarynku.pl/posts/2026-04-25-prasowka-swiat/"
+publish: true
+noindex: false
+
+---
+
+*Najważniejsze wydarzenia międzynarodowe ostatnich 24 godzin.*
+
+---
+
+## 🔴 NATO: USA rozważają karne sankcje dla Hiszpanii i Wielkiej Brytanii
+
+Według przeciekającego wewnętrznego memorandumu Pentagonu, Stany Zjednoczone rozważają **zawieszenie Hiszpanii w NATO** oraz wycofanie wsparcia dla brytyjskiej suwerenności nad Wyspami Falklandzkimi. Powodem ma być sprzeciw europejskich sojuszników wobec amerykańskich działań wojennych w Iranie oraz odmowa patrolowania Cieśniny Ormuz. [[Źródło](https://www.aljazeera.com/news/2026/4/24/us-weighs-retaliation-against-nato-allies-over-iran-war-divisions-reuters){rel="nofollow"}]
+
+Sekretarz obrony Pete Hegseth miał stwierdzić: *„Ameryka i wolny świat zasługują na sojuszników, którzy rozumieją, że bycie sojusznikiem to nie jednokierunkowa ulica – to dwukierunkowa ulica."* [[Źródło](https://www.euronews.com/my-europe/2026/04/24/pentagon-considers-suspending-spain-from-nato){rel="nofollow"}]
+
+Wielka Brytania i Hiszpania odrzuciły te doniesienia. Premier Kemi Badenoch podkreśliła, że brytyjska suwerenność nad Falklandami „nie zmieni się niezależnie od tego, co powie Donald Trump". [[Źródło](https://thehill.com/policy/international/5847721-trump-nato-uk-falklands/){rel="nofollow"}]
+
+**Kontekst:** Kryzys w relacjach transatlantyckich pogłębia się, a wizyta króla Karola III w USA (najbliższy tydzień) będzie „najtrudniejszym testem jego panowania".
+
+---
+
+## 🇮🇷 Iran: Rozmowy w Islamabadzie, USA wysyłają emisariuszy
+
+Irański minister spraw zagranicznych **Abbas Araghchi** przybył do Islamabadu na rozmowy z pakistańskimi urzędnikami. USA zamierzają wysłać do Pakistanu własnych emisariuszy, aby zwiększyć szanse na bezpośrednie rozmowy z Iranem. [[Źródło](https://www.aljazeera.com/news/2026/4/24/us-envoys-head-to-pakistan-raising-hopes-of-peace-talks-with-irans-araghchi){rel="nofollow"}]
+
+Według strony irańskiej – **żadne spotkanie Iran-USA nie jest planowane**. Trump powiedział jednak, że „Tehran składa propozycję i musimy to zobaczyć". [[Źródło](https://www.bbc.com/news/live/cd7j1g94d1lt){rel="nofollow"}]
+
+Prezydent Kolumbii Gustavo Petro został **pierwszym przywódcą, który odwiedził Wenezuelę** od czasu porwania Nicolása Maduro – spotkał się z tymczasową prezydent Delcy Rodriguez. [[Źródło](https://www.aljazeera.com/news/2026/4/24/petro-becomes-first-president-to-visit-venezuela-since-maduro-abduction){rel="nofollow"}]
+
+---
+
+## 🇵🇸 Gaza: Izrael zabija cywilów mimo rozejmu
+
+Pomimo obowiązującego rozejmu, izraelskie siły zabiły **co najmniej 12 Palestynińczyków** w atakach na Strefę Gazy. Wśród ofiar są dzieci. [[Źródło](https://www.aljazeera.com/news/2026/4/24/israel-kills-at-least-12-palestinians-in-gaza-amid-ceasefire){rel="nofollow"}]
+
+Hamas oskarża społeczność międzynarodową o nieudolność w egzekwowaniu rozejmu. Izrael kontynuował też ataki w Libanie – w rejonie Bint Jbeil zginęło sześciu bojowników Hezbollahu. [[Źródło](https://www.aljazeera.com/news/2026/4/24/israel-continues-attacks-on-lebanon-amid-extension-of-ceasefire){rel="nofollow"}]
+
+---
+
+## 🇺🇸 USA: Wymiana metod egzekucji, sąd odrzuca zakaz azylu
+
+**Departament Sprawiedliwości USA** ogłosił rozszerzenie metod egzekucji federalnych – od teraz dozwolone są: rozstrzał, gaz i elektrocja. [[Źródło](https://www.bbc.com/news/articles/cg73l2d079ko){rel="nofollow"}]
+
+Sąd Apelacyjny odrzucił zakaz Trumpa wobec osób wnioskujących o azyl, wskazując, że nakaz „odrzuca federalne prawa przyznające prawo do ubiegania się o azyl". [[Źródło](https://www.aljazeera.com/news/2026/4/24/us-appeals-court-rejects-trumps-ban-on-asylum-seekers-teeing-up-appeal){rel="nofollow"}]
+
+---
+
+## 🇬🇧 Wizyta króla Karola w USA: ryzykowne przedsięwzięcie
+
+**King Charles III** wraz z królową Camillą wyrusza do USA w przyszłym tygodniu – to pierwsza wizyta monarchy w Izbie Reprezentantów od 1991 r.
+
+Eksperci określają wizytę jako „wysokie ryzyko, wysokie stawki i wysoka okazja". Kryzys w relacjach angielsko-amerykańskich określany jest jako „największy od stu lat". [[Źródło](https://www.bbc.com/news/articles/ce35xkgjqd5o){rel="nofollow"}]
+
+Król będzie przemawiać przed Kongresem, broniąc wartości demokracji i wolności – jednocześnie starając się przekonać Trumpa do wsparcia NATO i Ukrainy.
+
+---
+
+## 📊 Podsumowanie
+
+| Wydarzenie | Status | Data |
+|-----------|--------|------|
+| NATO/Spain | Eskalacja | 24.04.2026 |
+| Falklands | Kryzys | 24.04.2026 |
+| Iran rozmowy | Niepewność | 24.04.2026 |
+| Gaza ataki | Naruszenie rozejmu | 24.04.2026 |
+| King Charles wizyta | Przygotowania | 25.04.2026 |
+
+**Źródła:** Al Jazeera, BBC, The Guardian, The New York Times, Euronews, ABC News, Politico
+
+*Opracowano na podstawie wiadomości z 25 kwietnia 2026, godz. 11:00 CEST.*
