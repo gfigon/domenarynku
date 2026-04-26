@@ -1,0 +1,92 @@
+---
+title: Prasówka GPW - 26 kwietnia 2026
+date: 2026-04-26
+author: domenarynku
+image: /images/gpw-header.jpg
+description: Poranny przegląd wiadomości z warszawskiej giełdy - 26 kwietnia 2026
+tags: [gpw, giełda, warszawa, biznes]
+status: draft
+---
+
+## 📈 Rynki przed sesją
+
+Dziś niedziela — GPW zamknięta. Inwestorzy przenoszą uwagę na poniedziałek 27 kwietnia, kiedy na rynek wrócą pełne notowania i kilka kluczowych wydarzeń:
+
+- **ING Bank Śląski** — dzień wypłaty dywidendy (26,71 zł/akcja)
+- **PCC Rokita** — dzień dywidendy (2,65 zł/akcja)
+- **Rex Concepts** — trwa IPO (zapisy inwestorów instytucjonalnych do 26.04)
+
+Piątkowa sesja (24.04) zakończyła się spadkami. Nie dysponuję wiarygodnymi danymi o konkretnych poziomach zamknięcia indeksów z ostatnich dwóch sesji — GPW nie publikuje flash raportów w dni wolne. Pełny obraz poznamy w poniedziałek rano. Analitycy StockWatch.pl wskazują, że WIG20 pozostaje blisko 3.700 pkt, najwyżej od ~20 lat, z atrakcyjnym forward P/E dla WIG20-mWIG40. [
+StockWatch.pl](https://www.stockwatch.pl){rel="nofollow"}
+
+---
+
+## 🏢 Wiadomości ze spółek
+
+### IPO — Rex Concepts
+
+Ostateczna cena akcji w IPO ustalona na **14 zł**, liczba oferowanych akcji: 35 555 555 szt. Zapisy dla inwestorów instytucjonalnych trwają do dziś (niedziela 26.04); przydział dla inwestorów indywidualnych nastąpi 30.04. Debiut na GPW planowany jest na **7 maja 2026 r.** Spółka jest operatorem restauracji szybkiej obsługi (QSR), głównym franczyzobiorcą marek Burger King i Popeyes w Polsce, Czechach i Rumunii — sieć 171 lokali na koniec marca 2026 r. [
+StrefaInwestorow.pl](https://strefainwestorow.pl){rel="nofollow"} /
+[
+Parkiet.com](https://www.parkiet.com){rel="nofollow"}
+
+### Dywidendy w nadchodzących dniach
+
+| Spółka | Dywidenda | Data |
+|--------|-----------|------|
+| ING Bank Śląski | 26,71 zł/akcja | wypłata 27.04 |
+| PCC Rokita | 2,65 zł/akcja | dzień 27.04 / wypłata 30.04 |
+| LPP | 400 zł/akcja (zaliczka) | wypłata 30.04 |
+
+Źródło: [
+StrefaInwestorow.pl](https://strefainwestorow.pl){rel="nofollow"} /
+[
+Parkiet.com](https://www.parkiet.com){rel="nofollow"}
+
+### Raporty kwartalne — kluczowe terminy
+
+| Spółka | Data publikacji | Rodzaj raportu |
+|---------|-----------|-------------|
+| Alior Bank | 28.04.2026 | I kwartał 2026 |
+| Bank Millennium | 28.04.2026 | I kwartał 2026 |
+| Orlen | 29.04.2026 | Raport roczny (skonsolidowany) |
+
+Źródło: [
+StrefaInwestorow.pl](https://strefainwestorow.pl){rel="nofollow"} /
+[
+StockWatch.pl](https://www.stockwatch.pl){rel="nofollow"}
+
+Poniedziałek i wtorek przyniosą wysyp raportów sektora bankowego. Analitycy szacują ok. 30% spadek zysków kwartalnych wobec Q1 2025 r. (WIBOR w dół, wysoka składka na BFG, wyrok TSUE ws. frankowych). [
+StockWatch.pl](https://www.stockwatch.pl){rel="nofollow"}
+
+---
+
+## 🇺🇸 USA — atak na prezydenta Trumpa
+
+W sobotę wieczorem czasu waszyngtońskiego (25.04.2026, ok. 22:30 EDT) doszło do strzelaniny podczas dorocznej kolacji Stowarzyszenia Korespondentów Białego Domu w hotelu **Washington Hilton**. Prezydent **Donald Trump** został ewakuowany ze sceny przez Secret Service. Prezydent, Pierwsza Dama Melania Trump, wiceprezydent J.D. Vance oraz członkowie gabinetu są bezpieczni.
+
+Sprawca — **31-letni Cole Tomas Allen** z Torrance w Kalifornii — miał przy sobie strzelbę, pistolet i wiele noży. Według policji DC działał w pojedynkę, próbował przedrzeć się przez punkt kontrolny Secret Service w lobby hotelowym i oddał strzał w stronę agenta. Agent Secret Service został postrzelony, ale przeżył dzięki kamizelce kuloodpornej. Trump na konferencji prasowej w Białym Domu nazwał napastnika „szaleńcem" i stwierdził, że „chyba" był celem ataku. [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"} /
+[
+POLITICO](https://www.politico.com){rel="nofollow"} /
+[
+The New York Times](https://www.nytimes.com){rel="nofollow"} /
+[CNBC](https://www.cnbc.com){rel="nofollow"} /
+[CNN](https://www.cnn.com){rel="nofollow"}
+
+**Implicacje rynkowe:** inwestorzy obserwują reakcję rynków finansowych — w poniedziałek rano poznamy pierwsze otwarcie Wall Street po tym zdarzeniu.
+
+---
+
+## 🔗 Źródła
+
+- [Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+- [StrefaInwestorow.pl](https://strefainwestorow.pl){rel="nofollow"}
+- [StockWatch.pl](https://www.stockwatch.pl){rel="nofollow"}
+- [Parkiet.com](https://www.parkiet.com){rel="nofollow"}
+- [POLITICO](https://www.politico.com){rel="nofollow"}
+- [The New York Times](https://www.nytimes.com){rel="nofollow"}
+
+---
+
+*Przygotowano: 2026-04-26 08:25*
