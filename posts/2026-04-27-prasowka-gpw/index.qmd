@@ -1,122 +1,107 @@
 ---
-title: Prasówka GPW - 27 kwietnia 2026
-date: 2026-04-27
-author: domenarynku
-image: /images/gpw-header.jpg
-description: Poranny przegląd najważniejszych wiadomości finansowych z 27 kwietnia 2026 roku - przed otwarciem sesji GPW.
-tags: [gpw, giełda, biznes, finanse, polska]
-status: draft
+title: "Poranna prasówka GPW: Poniedziałek 27 kwietnia — przed sesją"
+pagetitle: "Prasówka GPW 27.04.2026 | DomenaRynku.pl"
+date: "2026-04-27"
+date-modified: last-modified
+categories: [Prasówka, GPW, WIG20, Alior Bank, Agora, SIPRI, obronność]
+format:
+  html:
+    header-includes: |
+      <meta name="description" content="Przegląd najważniejszych wydarzeń na GPW z 27 kwietnia 2026. Alior Bank z zyskiem 403 mln zł, Agora pozywa Skarb Państwa, SIPRI: rekordowe wydatki na zbrojenia.">
+      <meta name="keywords" content="GPW, WIG20, WIG, Alior Bank, Agora, SIPRI, czołgi K2, Medicalgorithmics, PCF Group, OT Logistics">
 ---
 
-## 📈 Rynki przed sesją
+Minął weekend, warszawska giełda szykuje się do poniedziałkowej sesji. Przed otwarciem handlu warto przyjrzeć się najważniejszym wydarzeniom, które mogą wpłynąć na nastroje inwestorów — od wyników banków, przez komunikaty ESPI, po globalne czynniki makro.
 
-Poniedziałek 27 kwietnia to pierwsza pełna sesja po weekendzie. Inwestorzy wracają na rynek z kilkoma istotnymi wydarzeniami w kalendarzu:
+### Zamknięcie piątku: korekta przed weekendem
 
-**Dzisiaj:**
-- **ING Bank Śląski** — dzień wypłaty dywidendy (26,71 zł/akcja)
-- **PCC Rokita** — dzień dywidendy (2,65 zł/akcja)
+W piątek 24 kwietnia główne indeksy GPW zakończyły dzień na minusie:
 
-**Wtorek 28.04:**
-- **Alior Bank** — publikacja raportu za I kwartał 2026 r.
-- **Bank Millennium** — publikacja raportu za I kwartał 2026 r.
+- **WIG20:** 3 556,91 pkt. (−0,61 proc.)
+- **WIG:** 130 656,09 pkt. (−0,58 proc.)
+- **mWIG40:** 8 991,98 pkt. (−0,46 proc.)
+- **sWIG80:** 31 083,68 pkt. (−0,44 proc.)
 
-**Środa 29.04:**
-- **Orlen** — raport roczny (skonsolidowany)
+Ekspert cytowany przez [Bankier](https://www.bankier.pl/gielda/notowania/indeksy-gpw){rel="nofollow"} wskazał, że w scenariuszu optymistycznym nowy szczyt WIG20 może pojawić się za tydzień lub dwa. Na razie blue chipy „biorą rozpęd", ale nastroje studzą oczekiwania dotyczące dyplomacji USA–Iran.
 
----
+Jak podsumował portal [XYZ](https://xyz.pl/dzien-na-gpw-podsumowanie-notowan-20-kwietnia-2026-r/){rel="nofollow"} — najsłabszym akcją w gronie największych spółek był Budimex, tracący 2,8 proc.
 
-## 🏢 Wiadomości ze spółek
+### Alior Bank: zysk powyżej oczekiwań
 
-### Alior Bank — wyniki I kwartału 2026
+**Alior Bank** opublikował wyniki za I kwartał 2026 roku. Zysk netto wyniósł **403,2 mln zł** — o 5,5 proc. więcej, niż prognozowali analitycy (382 mln zł). Wynik jest jednak niższy niż przed rokiem, gdy zysk netto sięgał 476,3 mln zł.
 
-Alior Bank opublikował wyniki za pierwszy kwartał 2026 roku. **Zysk netto wyniósł 403,2 mln zł** wobec 476,3 mln zł rok wcześniej (spadek o ok. 15% r/r). Wynik okazał się jednak **5,5% wyższy od oczekiwań analityków**, którzy prognozowali 382 mln zł. Przychody sięgnęły 1,5 mld zł, a wartość aktywów wzrosła o 8% r/r, do 104,7 mld zł. Szczególnie wyróżnia się sprzedaż kredytów hipotecznych — wzrost o **84% r/r**. [
-Alior Bank](https://www.aliorbank.pl/aktualnosci/2026-04-24-wyniki-alior-banku-za-1Q2026.html){rel="nofollow"} /
-[Puls Biznesu](https://www.pb.pl/zysk-alior-banku-za-i-kw-2026-r-spadl-ale-jest-wyzszy-od-prognoz-1260193){rel="nofollow"} /
-[bank.pl](https://bank.pl/pierwszy-kwartal-26-alior-bank-zakonczyl-84-wzrostem-r-r-sprzedazy-kredytow-hipotecznych/){rel="nofollow"}
+Kluczowe dane:
+- Zysk netto: 403,2 mln zł (spadek r/r z 476,3 mln zł)
+- Przychody: 1,5 mld zł (+2 proc. r/r)
+- Wzrost sprzedaży kredytów hipotecznych: **+84 proc. r/r**
+- Aktywa: 104,7 mld zł (+8 proc. r/r)
 
-### Trigon DM podnosi wycenę Polimeksu Mostostalu
+Informację potwierdzają: [PAP Biznes](https://biznes.pap.pl/wiadomosci/firmy/alior-bank-nets-pln-4032-mln-q1-2026-against-pln-382-mln-consensus){rel="nofollow"}, [Puls Biznesu](https://www.pb.pl/zysk-alior-banku-za-i-kw-2026-r-spadl-ale-jest-wyzszy-od-prognoz-1260193){rel="nofollow"}, [Alior Bank](https://www.aliorbank.pl/aktualnosci/2026-04-24-wyniki-alior-banku-za-1Q2026.html){rel="nofollow"}.
 
-Analitycy Trigon DM podnieśli wycenę akcji **Polimeksu Mostostalu do 11,5 zł** z 8,50 zł wcześniej i podtrzymali rekomendację **„kupuj"**. W raporcie z 16 kwietnia stwierdzili, że spółka może być największym beneficjentem programów zbrojeniowych. Poprzednia wycena (8,5 zł) pochodziła z grudnia 2025 roku. [
-Puls Biznesu](https://www.pb.pl/trigon-dm-podniosl-wycene-akcji-polimeksu-mostostalu-do-115-zl-1260215){rel="nofollow"} /
-[Bankier.pl](https://www.bankier.pl/wiadomosc/Trigon-DM-podniosl-wycene-akcji-Polimeksu-Mostostalu-do-11-5-zl-9123272.html){rel="nofollow"}
+### Agora pozywa Skarb Państwa o 134,7 mln zł
 
-### Medicalgorithmics — aneks do umowy z BioFund
+Spółki zależne **Agory** złożyły pozew przeciwko Skarbowi Państwa, domagając się **134,76 mln zł** odszkodowania. Roszczenie dotyczy szkody wynikającej z opóźnionej implementacji unijnej dyrektywy o prawie autorskim na rynku cyfrowym. Odsetki naliczane są od 27 marca 2026 roku.
 
-Medicalgorithmics zawarł z BioFund Capital Management aneks do umowy pożyczki, zakładający **konwersję pożyczki na akcje** spółki w kwocie ok. **16,5 mln zł**. Strony uzgodniły cenę emisyjną na poziomie 33 zł za akcję. [
-Bankier.pl](https://www.bankier.pl/wiadomosc/Medicalgorithmics-zawarl-z-BioFund-aneks-do-umowy-pozyczki-zakladajacy-konwersje-pozyczki-na-akcje-9123282.html){rel="nofollow"} /
-[Medicalgorithmics.pl](https://www.medicalgorithmics.pl/wpisy_inwestorskie/6-2026-otrzymanie-przez-spolke-oferty-od-biofund-capital-management-llc-okreslajacej-cene-emisyjna-za-jedna-akcje-spolki-w-kwocie-33-zlote-w-ramach-konwersji-zobowiazania-z-tytulu-pozyczki-na-akcje/){rel="nofollow"}
-
----
-
-## 🇵🇱 Polska — finanse publiczne
-
-### Rekordowy deficyt fiskalny Polski
-
-Według danych GUS za 2025 rok, **deficyt sektora instytucji rządowych i samorządowych sięgnął 7,3% PKB** (283 969 mln zł) — to drugi najwyższy wynik od 1990 roku, gorszy tylko od pandemijnego 2020 (7,9%). **Dług publiczny wyniósł 59,7% PKB** (2 335 153 mln zł), a w pierwszych miesiącach 2026 roku przekroczył już 60% PKB i najprawdopodobniej przekroczył konstytucyjny limit zadłużenia.
-
-Minister finansów Andrzej Domański poinformował, że Polska ma plan stopniowej redukcji deficytu, który „nie może odbyć się kosztem gospodarki ani nakładów na obronę". [
-Bankier.pl](https://www.bankier.pl/wiadomosc/Deficyt-fiskalny-Polski-drugi-najwyzszy-w-historii-Gorzej-bylo-tylko-w-2020-9121012.html){rel="nofollow"} /
-[Parkiet.com](https://www.parkiet.com/gospodarka-krajowa/art44213641-deficyt-i-dlug-publiczny-w-2025-r-na-rekordowych-poziomach){rel="nofollow"} /
-[Money.pl](https://www.money.pl/gospodarka/polska-ma-problem-drugi-najwyzszy-deficyt-w-ue-7279689298926016a.html){rel="nofollow"}
-
-### Zatrudnienie cudzoziemców spadło o 8%
-
-Zatrudnienie cudzoziemców w Polsce w 2025 roku **spadło o 8%** — poinformowało MRPiPS w swoim opracowaniu. [
-Bankier.pl](https://www.bankier.pl/wiadomosc/Zatrudnienie-cudzoziemcow-w-Polsce-mocno-spadlo-Zaskakujacy-raport-MRPiPS-9123285.html){rel="nofollow"}
-
-### Turystyka — zadłużenie hoteli spada
-
-O **20% r/r zmalał dług sektora zakwaterowania** — wynika z raportu BIG InfoMonitor. Jednocześnie 37% Polaków zmieniło letnie plany z powodu sytuacji na Bliskim Wschodzie, a 12% deklaruje rezygnację z wyjazdu za granicę. [
-Bankier.pl](https://www.bankier.pl/wiadomosc/Polska-turystyka-lapie-wiatr-w-zagle-Zadluzenie-hoteli-spada-az-o-20-proc-9123260.html){rel="nofollow"}
-
----
-
-## 🌍 geopolityka i gospodarka światowa
+Informację potwierdzają: [Bankier](https://www.bankier.pl/wiadomosc/Spolki-zalezne-Agory-zlozyly-pozew-o-zaplate-134-7-mln-zl-przeciwko-Skarbowi-Panstwa-9122734.html){rel="nofollow"}, [Wirtualnemedia](https://www.wirtualnemedia.pl/agora-pozwala-skarb-panstwa-domaga-sie-135-mln-zl-odszkodowania,7278805764474880a){rel="nofollow"}, [Puls Biznesu](https://www.pb.pl/spolki-agory-zawalcza-o-odszkodowanie-od-panstwa-chodzi-o-blisko-135-mln-zl-1260190){rel="nofollow"}.
 
 ### Rekordowe wydatki na zbrojenia — raport SIPRI
 
-Światowe wydatki na zbrojenia wzrosły w 2025 roku o **2,9% do poziomu 2,89 bln dolarów** — to najwyższy poziom od 2009 roku pod względem udziału w globalnym PKB (2,5%). Był to **jedenasty rok z rzędu wzrostu** nakładów militarnych. Głównym czynnikiem był 14-procentowy wzrost wydatków w Europie (do 864 mld dolarów), co przełożyło się na najszybszy roczny wzrost zbrojeń w Europie Zachodniej i Środkowej od zakończenia zimnej wojny w 1991 roku. USA, Chiny i Rosja łącznie wydały 1,48 bln dolarów (51% światowych wydatków). [
-Bankier.pl](https://www.bankier.pl/wiadomosc/Europejski-wyscig-zbrojen-Swiat-wydaje-na-armie-niemal-3-biliony-dolarow-9123246.html){rel="nofollow"} /
-[Money.pl](https://www.money.pl/gospodarka/czegos-takiego-nie-bylo-od-17-lat-tak-rosna-wydatki-na-zbrojenia-7279668393437632a.html){rel="nofollow"}
+Świat wydał w 2025 roku na cele militarne **2,89 bln dolarów** — to najwyższy poziom od 2009 roku, wynika z raportu Sztokholmskiego Międzynarodowego Instytutu Badań nad Pokojem (SIPRI). Wzrost r/r wyniósł 2,9 proc., a udział wydatków w światowym PKB sięgnął 2,5 proc.
 
-### Iran przedstawił USA nową propozycję
+Kluczowe liczby:
+- **Europa:** +14 proc. wydatków, do 864 mld dolarów — najszybszy wzrost od zimnej wojny
+- **USA:** 954 mld dolarów (spadek r/r, ale Kongres zatwierdził ponad 1 bln USD na 2026 r.)
+- **Trzy największe wydatki (USA, Chiny, Rosja):** 1,48 bln USD, czyli 51 proc. światowych wydatków
 
-Iran przedstawił Stanom Zjednoczonym nową propozycję ponownego otwarcia cieśniny Ormuz i zakończenia wojny przy jednoczesnym przełożeniu negocjacji nuklearnych na późniejszy termin — poinformował portal Axios, powołując się na źródła dyplomatyczne. [
-Bankier.pl](https://www.bankier.pl/wiadomosc/Iran-przedstawil-USA-nowa-propozycje-zakonczenia-wojny-9123288.html){rel="nofollow"}
+Informację potwierdzają: [Bankier](https://www.bankier.pl/wiadomosc/Europejski-wyscig-zbrojen-Swiat-wydaje-na-armie-niemal-3-biliony-dolarow-9123246.html){rel="nofollow"} (PAP).
 
-### Rosja i Korea Północna — 5-letni plan współpracy
+### Polska: setki czołgów K2PL powstaną w Bumarze-Łabędy
 
-Przywódca Korei Północnej Kim Dzong Un zapowiedział dalsze wsparcie dla polityki Rosji — poinformowały rządowe media Korei Płn., relacjonując uroczystość odsłonięcia muzeum północnokoreańskich żołnierzy poległych w rosyjskim obwodzie kurskim. [
-Bankier.pl](https://www.bankier.pl/wiadomosc/Niebezpieczny-sojusz-rosnie-w-sile-Rosja-i-Korea-Polnocna-szykuja-5-letni-plan-wspolpracy-9123247.html){rel="nofollow"}
+**Hyundai Rotem** i **ZM Bumar-Łabędy** podpisały umowę wykonawczą umożliwiającą produkcję czołgów K2PL w Polsce. W ramach drugiej umowy (podpisanej 1 sierpnia 2025 r.) Polska zakupiła kolejne 180 czołgów i 81 pojazdów wsparcia — 61 z nich powstanie w wersji K2PL na terenie Polski. Pierwsze czołgi w wariancie K2PL mają trafić do służby w IV kwartale 2028 roku.
 
-### Izrael i Hezbollah — napięcia mimo zawieszenia broni
+Czołg K2PL zostanie wyposażony w dwuwarstwowy system przeciwdziałania dronom (soft-kill + hard-kill) oraz wzmocnione opancerzenie. Plan zakłada dostarczenie łącznie **1000 czołgów K2**, z czego ponad 500 w wariancie K2PL.
 
-Mimo uzgodnionego zawieszenia broni, w wyniku izraelskich ataków na południowy Liban zginęło 14 osób, a 37 zostało rannych — poinformowała agencja Reutera, powołując się na libańskie ministerstwo zdrowia. [
-Bankier.pl](https://www.bankier.pl/wiadomosc/Smierc-mimo-zawieszenia-broni-Izrael-i-Hezbollah-wymieniaja-potezne-ciosy-9123241.html){rel="nofollow"}
+Informację potwierdzają: [Bankier/PAP](https://www.bankier.pl/wiadomosc/Setki-czolgow-K2PL-powstana-w-Bumarze-Labedy-Koreanski-gigant-zbrojeniowy-szykuje-transfer-technologii-9123279.html){rel="nofollow"}.
 
-### Wizyta Karola III w USA
+### Komunikaty ESPI z poniedziałku (27.04)
 
-Król Karol III rozpoczął w poniedziałek wizytę państwową w USA. Brytyjska dyplomacja liczy na złagodzenie napięć na linii Londyn-Waszyngton. [
-Bankier.pl](https://www.bankier.pl/wiadomosc/Wizyta-panstwowa-Karola-III-w-USA-Brytyjska-dyplomacja-liczy-na-przelamanie-lodow-9123273.html){rel="nofollow"}
+**Medicalgorithmics** — spółka zawarła z BioFund aneks do umowy pożyczki zakładający konwersję pożyczki na akcje o wartości ok. 16,5 mln zł. Komunikat ESPI z godz. 7:10.
+
+**Polimex-Mostostal** — opublikował raport roczny za 2025 rok (RR i SRR).
+
+**JWW Invest** — opublikował raport roczny za 2025 rok (RR i SRR).
+
+**PCF Group** — zawarła umowę inwestycyjną z **Cooldown Games**, rozpoczynając proces budowania księgi popytu na nowe akcje serii I. Jednocześnie ujawniono opóźnioną informację poufną o rozpoczęciu negocjacji w sprawie cesji praw z umów wydawniczych oraz objęcia akcji w podwyższonym kapitale zakładowym.
+
+**OT Logistics** — zamknięto transakcję sprzedaży 49,99 proc. akcji oraz zawarto umowę opcji. Doszło też do rezygnacji członków Rady Nadzorczej.
+
+Wszystkie komunikaty dostępne w systemie [ESPI/EBI (PAP)](https://espiebi.pap.pl/){rel="nofollow"}.
+
+### Rynek ropy i miedzi
+
+**Ropa naftowa** — ceny rosną, mimo sygnałów z Iranu dotyczących ponownego otwarcia Cieśniny Ormuz. Iran przedstawił USA nową propozycję zakończenia wojny i otwarcia cieśniny, przełóż negocjacje nuklearne na późniejszy termin. Ropa zwyżkuje w reakcji na niepewność geopolityczną.
+
+**Miedź** — na giełdzie metali LME w Londynie notowania lekko zwyżkują.
+
+### Zatrudnienie cudzoziemców w Polsce spadło o 8 proc.
+
+Według raportu **MRPiPS**, zatrudnienie cudzoziemców w Polsce w 2025 roku spadło o 8 proc. Dane cytowane przez [Bankier](https://www.bankier.pl/wiadomosc/Zatrudnienie-cudzoziemcow-w-Polsce-mocno-spadlo-Zaskakujacy-raport-MRPiPS-9123285.html){rel="nofollow"}.
+
+### Presja płacowa słabnie
+
+53,4 proc. badanych przez GI Group Polaków spodziewa się podwyżek płac w najbliższych miesiącach — to spadek w porównaniu z wcześniejszymi pomiarami, co może sygnalizować normalizację oczekiwań płacowych na rynku pracy.
+
+### Przed sesją: na co zwracać uwagę
+
+- **Nastroje na Wall Street** — piątkowa korekta, ale tygodniowy bilans może być pozytywny
+- **Dyplomacja USA–Iran** — ewentualne porozumienie mogłoby obniżyć ceny ropy i poprawić nastroje globalnie
+- **Kontynuacja sezonu raportów** — wyniki spółek będą kluczowe dla poszczególnych walorów
+- **Wyniki Alior Banku** — dobry prognostyk dla sektora bankowego
 
 ---
-
-## 🗓️ Przypomnienie: termin zeznania podatkowego
-
-**30 kwietnia 2026 roku** upływa termin złożenia zeznania podatkowego za 2025 rok. Można to zrobić elektronicznie przez usługę Twój e-PIT, przesłać pocztą lub złożyć osobiście w urzędzie skarbowym. [
-Bankier.pl](https://www.bankier.pl/wiadomosc/Zeznanie-podatkowe-za-2025-rok-Termin-mija-juz-30-kwietnia-9123275.html){rel="nofollow"}
-
----
-
-## 🔗 Źródła
-
-- [Bankier.pl](https://www.bankier.pl){rel="nofollow"}
-- [Money.pl](https://www.money.pl){rel="nofollow"}
-- [Puls Biznesu](https://www.pb.pl){rel="nofollow"}
-- [Alior Bank](https://www.aliorbank.pl){rel="nofollow"}
-- [Parkiet.com](https://www.parkiet.com){rel="nofollow"}
-- [StockWatch.pl](https://www.stockwatch.pl){rel="nofollow"}
-
----
-
-*Przygotowano: 2026-04-27 08:20*
+*Źródła:*
+- [Bankier — Wiadomości](https://www.bankier.pl/wiadomosci){rel="nofollow"}
+- [ESPI/EBI PAP](https://espiebi.pap.pl/){rel="nofollow"}
+- [BiznesRadar](https://www.biznesradar.pl/){rel="nofollow"}
+- [PAP Biznes](https://biznes.pap.pl/serwis){rel="nofollow"}
+- [Puls Biznesu](https://www.pb.pl/){rel="nofollow"}
