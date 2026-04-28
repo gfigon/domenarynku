@@ -1,0 +1,66 @@
+---
+title: "Prasówka GPW – 28 kwietnia 2026"
+date: "2026-04-28"
+description: "Najważniejsze wydarzenia z rynku finansowego przed sesją na GPW. Sprawdzone informacje z ostatnich 3 dni."
+keywords: "GPW, giełda,Warszaw, kredyty mieszkaniowe, Bank Millennium, Alior Bank, KGHM, dywidenda, paliwo"
+category: " prasowka-gpw"
+og:
+  image: "/images/prasowka-gpw-2026-04-28.jpg"
+publish: true
+---
+
+**28 kwietnia 2026** – Przedsesyjne podsumowanie z rynku finansowego.
+
+---
+
+## 🔑 Kluczowe wydarzenia
+
+### Kredyty mieszkaniowe biją rekord
+
+W marcu 2026 roku wartość udzielonych kredytów mieszkaniowych w Polsce wyniosła rekordowe **13,343 mld zł** – to wzrost o 72,2% rok do roku i więcej o 2,45 mld zł od dotychczasowego rekordu z października 2025. Liczba udzielonych kredytów wzrosła o 59% r/r do 28,7 tys. Średnia kwota kredytu osiągnęła 464,45 tys. zł – also历史yczny rekord. Głównym powodem jest rosnąca zdolność kredytowa dzięki obniżkom stóp procentowych do 3,75% (najniższy poziom od czterech lat) oraz wzrostowi wynagrodzeń o 6,6% r/r. Wzmożone zainteresowanie dotyczy też refinansowania wcześniejszych kredytów – stanowi około 30% nowej akcji kredytowej, gdyż gospodarstwa starają się zamienić droższe zobowiązania na tańsze.
+
+*Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Szturm-na-banki-W-marcu-Polacy-pozyczyli-na-mieszkania-rekordowe-13-3-mld-zl-9123919.html){rel="nofollow"}, [BIK/inowire](https://infowire.pl/generic/release/868830/bik-dane-o-rynku-kredytowym-w-marcu-2026-r){rel="nofollow"}*
+
+---
+
+### Bank Millennium z wynikami powyżej oczekiwań
+
+Zysk netto grupy Banku Millennium w I kwartale 2026 roku wzrósł do **300,8 mln zł** z 179,3 mln zł rok wcześniej – to wzrost o 68% r/r. Wynik okazał się 11,4% powyżej konsensusu analityków, którzy prognozowali 270,1 mln zł. Wynik odsetkowy wyniósł 1.390,5 mln zł (zgodnie z oczekiwaniami), a wynik z prowizji 200 mln zł (+11,8% r/r). Portfel kredytowy wzrósł o 5% r/r, napędzany przez segment korporacyjny (+40% r/r w kredytach korporacyjnych). Jakość portfela poprawiła się – wskaźnik NPL obniżył się do 3,7%. Prezes Joao Bras Jorge ocenił pierwszy kwartał jako „mocne otwarcie roku" z wyraźnym przyspieszeniem wolumenów we wszystkich segmentach biznesowych.
+
+*Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Zysk-netto-B-Millennium-w-I-kw-26-wyniosl-300-8-mln-zl-powyzej-oczekiwan-9123939.html){rel="nofollow"}, [XYZ](https://xyz.pl/dzieje-sie/millennium-pokazal-wyniki-za-i-kw-2026-r-zysk-netto-powyzej-konsensusu-1872){rel="nofollow"}*
+
+---
+
+### Alior Bank z zyskiem 403 mln zł w I kwartale
+
+Alior Bank odnotował **403,19 mln zł** skonsolidowanego zysku netto w I kwartale 2026 roku wobec 476,31 mln zł rok wcześniej. Wynik jest wyraźnie wyższy od oczekiwań rynkowych, mimo że od początku 2026 roku dla banków obowiązuje wyższa stawka podatku CIT – 30% wobec 19% wcześniej. Bank rekomenduje dywidendę w wysokości 1,116 mld zł. S&P podniósł rating banku do BBB-. ROE wyniosło 12,5%, a aktywa przekroczyły 104 mld zł.
+
+*Źródła: [ Rzeczpospolita](https://www.rp.pl/banki/art44243191-zysk-aliora-powyzej-oczekiwan-ale-nizszy-niz-rok-wczesniej){rel="nofollow"}, [StockWatch.pl](https://www.stockwatch.pl/wiadomosci/alior-bank-zarobil-403-mln-zl-w-i-kw-2026-r-aktywa-przekroczyly-104-mld-zl,akcje,371003){rel="nofollow"}*
+
+---
+
+### KGHM wraca do dywidendy
+
+Zarząd KGHM Polska Miedź rekomenduje wypłatę dywidendy w wysokości **1,50 zł na akcję** za rok 2025, co oznacza łączną kwotę wypłaty 300 mln zł. Jest to powrót do wypłaty dywidendy po rocznej przerwie (za 2024 rok spółka nie wypłaciła dywidendy). Dzień dywidendy wyznaczono na 25 czerwca 2026 roku. Pozostała część zysku za 2025 rok ma zostać przeznaczona na kapitał zapasowy. Przy obecnym kursie akcji stopa dywidendy wynosi zaledwie 0,5%.
+
+*Źródła: [StockWatch.pl](https://www.stockwatch.pl/wiadomosci/kghm-dywidenda-2025,akcje,371076){rel="nofollow"}, [Puls Biznesu](https://www.pb.pl/zarzad-kghm-rekomenduje-powrot-do-wyplaty-dywidendy-po-roku-przerwy-1260248){rel="nofollow"}*
+
+---
+
+### Ulga na paliwa przedłużona do 15 maja
+
+Rząd przedłużył termin obowiązywania obniżonych stawek VAT oraz akcyzy na benzynę i olej napędowy z 30 kwietnia do **15 maja 2026 roku**. Stawka VAT na paliwa została obniżona z 23% do 8%, a akcyza do najniższego poziomu dopuszczanego przez UE – 29 groszy na litrze benzyny i 28 groszy na litrze oleju napędowego. To realizacja rządowego programu CPN („Ceny Paliwa Niżej"). Równocześnie obowiązują maksymalne ceny paliw, których nieprzestrzeganie jest zagrożone karą do 1 mln zł.
+
+*Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Wazna-decyzja-rzadu-Tanie-paliwo-przedluzone-znamy-nowa-date-9123868.html){rel="nofollow"}, [Money.pl](https://www.money.pl/gospodarka/nizsze-stawki-vat-u-i-akcyzy-na-paliwa-na-dluzej-znamy-nowy-termin-7280016542754816a.html){rel="nofollow"}, [TVN24](https://tvn24.pl/biznes/z-kraju/nizsze-stawki-vat-u-i-akcyzy-na-niektore-paliwa-beda-obowiazywac-do-15-maja-2026-roku-st9019973){rel="nofollow"}*
+
+---
+
+## 📊 Do śledzenia
+
+- **Sesja GPW** – powyższe dane mogą wpłynąć na kursy banków (Millennium, Alior) oraz KGHM
+- **Kolejne decyzje RPP** – stopy procentowe na poziomie 3,75% wspierają rynek kredytowy
+- **Program CPN** – możliwe dalsze przedłużenia ulgi paliwowej w zależności od sytuacji na Bliskim Wschodzie
+
+---
+
+*Źródła: Bankier.pl, BIK, Money.pl, TVN24, Rzeczpospolita, Puls Biznesu, StockWatch, XYZ, Inwestycje.pl (26-28.04.2026)*
