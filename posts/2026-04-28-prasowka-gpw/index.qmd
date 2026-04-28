@@ -1,66 +1,83 @@
 ---
-title: "Prasówka GPW – 28 kwietnia 2026"
-date: "2026-04-28"
-description: "Najważniejsze wydarzenia z rynku finansowego przed sesją na GPW. Sprawdzone informacje z ostatnich 3 dni."
-keywords: "GPW, giełda,Warszaw, kredyty mieszkaniowe, Bank Millennium, Alior Bank, KGHM, dywidenda, paliwo"
-category: " prasowka-gpw"
-og:
-  image: "/images/prasowka-gpw-2026-04-28.jpg"
-publish: true
+title: Prasówka GPW - 28 kwietnia 2026
+date: 2026-04-28
+author: domenarynku
+image: /images/gpw-header.jpg
+description: Poranny przegląd wiadomości z warszawskiej giełdy - 28 kwietnia 2026
+tags: [gpw, giełda, warszawa, biznes]
+status: draft
 ---
 
-**28 kwietnia 2026** – Przedsesyjne podsumowanie z rynku finansowego.
+## 📈 Rynki przed sesją
 
----
+Wtorkowy poranek przynosi kontynuację korekty na GPW. WIG20 zaliczył **szóstą z rzędu spadkową sesję** w poniedziałek (27.04), tracąc 0,79 proc. — to najdłuższa seria spadków od ponad dwóch lat (przełom 2023/2024). indeks blue chipów wycofał się z okolic 3.700 pkt, gdzie był najwyżej od ~20 lat.
 
-## 🔑 Kluczowe wydarzenia
+**Poniedziałkowe zamknięcia:**
+- WIG20: -0,79 proc.
+- WIG: -0,66 proc.
+- mWIG40: -0,40 proc.
+- sWIG80: -0,04 proc.
 
-### Kredyty mieszkaniowe biją rekord
+Obroty: 1,75 mld zł (WIG), 1,42 mld zł (WIG20) — przeciętne. [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"}
 
-W marcu 2026 roku wartość udzielonych kredytów mieszkaniowych w Polsce wyniosła rekordowe **13,343 mld zł** – to wzrost o 72,2% rok do roku i więcej o 2,45 mld zł od dotychczasowego rekordu z października 2025. Liczba udzielonych kredytów wzrosła o 59% r/r do 28,7 tys. Średnia kwota kredytu osiągnęła 464,45 tys. zł – also历史yczny rekord. Głównym powodem jest rosnąca zdolność kredytowa dzięki obniżkom stóp procentowych do 3,75% (najniższy poziom od czterech lat) oraz wzrostowi wynagrodzeń o 6,6% r/r. Wzmożone zainteresowanie dotyczy też refinansowania wcześniejszych kredytów – stanowi około 30% nowej akcji kredytowej, gdyż gospodarstwa starają się zamienić droższe zobowiązania na tańsze.
-
-*Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Szturm-na-banki-W-marcu-Polacy-pozyczyli-na-mieszkania-rekordowe-13-3-mld-zl-9123919.html){rel="nofollow"}, [BIK/inowire](https://infowire.pl/generic/release/868830/bik-dane-o-rynku-kredytowym-w-marcu-2026-r){rel="nofollow"}*
-
----
-
-### Bank Millennium z wynikami powyżej oczekiwań
-
-Zysk netto grupy Banku Millennium w I kwartale 2026 roku wzrósł do **300,8 mln zł** z 179,3 mln zł rok wcześniej – to wzrost o 68% r/r. Wynik okazał się 11,4% powyżej konsensusu analityków, którzy prognozowali 270,1 mln zł. Wynik odsetkowy wyniósł 1.390,5 mln zł (zgodnie z oczekiwaniami), a wynik z prowizji 200 mln zł (+11,8% r/r). Portfel kredytowy wzrósł o 5% r/r, napędzany przez segment korporacyjny (+40% r/r w kredytach korporacyjnych). Jakość portfela poprawiła się – wskaźnik NPL obniżył się do 3,7%. Prezes Joao Bras Jorge ocenił pierwszy kwartał jako „mocne otwarcie roku" z wyraźnym przyspieszeniem wolumenów we wszystkich segmentach biznesowych.
-
-*Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Zysk-netto-B-Millennium-w-I-kw-26-wyniosl-300-8-mln-zl-powyzej-oczekiwan-9123939.html){rel="nofollow"}, [XYZ](https://xyz.pl/dzieje-sie/millennium-pokazal-wyniki-za-i-kw-2026-r-zysk-netto-powyzej-konsensusu-1872){rel="nofollow"}*
+**Czynniki ryzyka:**
+- Ropa Brent blisko 102 USD/bkl (+3% w poniedziałek) — napięcia wokół cieśniny Ormuz
+- Impas w rozmowach USA-Iran: brak przełomu mimo mediacji Pakistanu
+- Ten tydzień kluczowy dla wyników Big Tech w USA (Microsoft, Meta, Alphabet)
 
 ---
 
-### Alior Bank z zyskiem 403 mln zł w I kwartale
+## 🏢 Wiadomości ze spółek
 
-Alior Bank odnotował **403,19 mln zł** skonsolidowanego zysku netto w I kwartale 2026 roku wobec 476,31 mln zł rok wcześniej. Wynik jest wyraźnie wyższy od oczekiwań rynkowych, mimo że od początku 2026 roku dla banków obowiązuje wyższa stawka podatku CIT – 30% wobec 19% wcześniej. Bank rekomenduje dywidendę w wysokości 1,116 mld zł. S&P podniósł rating banku do BBB-. ROE wyniosło 12,5%, a aktywa przekroczyły 104 mld zł.
+### Raporty kwartalne: banki biją prognozy
 
-*Źródła: [ Rzeczpospolita](https://www.rp.pl/banki/art44243191-zysk-aliora-powyzej-oczekiwan-ale-nizszy-niz-rok-wczesniej){rel="nofollow"}, [StockWatch.pl](https://www.stockwatch.pl/wiadomosci/alior-bank-zarobil-403-mln-zl-w-i-kw-2026-r-aktywa-przekroczyly-104-mld-zl,akcje,371003){rel="nofollow"}*
+**Bank Millennium** — zysk netto w Q1 2026: **300,8 mln zł** (+68% r/r), 11,4 proc. powyżej konsensusu (270,1 mln zł). Wynik odsetkowy: 1.390,5 mln zł, wynik z prowizji: 200 mln zł. Portfel kredytowy wzrósł 5% r/r, jakość historocznie najlepsza — NPL spadł do 3,7 proc. Koszt ryzyka: 45 pb. [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+
+**Alior Bank** — zysk netto Q1 2026: **403,19 mln zł** (-15,3% r/r do 476,31 mln zł w Q1 2025), ale 5,5 proc. powyżej oczekiwań analityków. Przychody: 1,5 mld zł (+2% r/r). Aktywa: 104,7 mld zł (+8% r/r). Sprzedaż kredytów hipotecznych: +84% r/r. [
+StockWatch.pl](https://www.stockwatch.pl){rel="nofollow"} /
+[Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+
+### GPW dywidenda
+
+Zarząd GPW wystąpił do Rady Giełdy o zaopiniowanie podziału zysku za 2025 rok: **dywidenda 142,7 mln zł, co daje 3,40 zł na akcję** (wzrost z 3,15 zł za 2024). Dzień dywidendy: 23 lipca, wypłata: 6 sierpnia 2026. Wskaźnik wypłaty: 72,2 proc. skonsolidowanego zysku netto. Stopa dywidendy: 4,36 proc. [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"} /
+[Parkiet.com](https://www.parkiet.com){rel="nofollow"}
+
+### Wezwanie na Wirtualna Polska
+
+Wezwanie do zapisywania się na sprzedaż 100 proc. akcji Wirtualna Polska Holding ogłoszone 28 kwietnia przez grupę większościowych akcjonariuszy (Wirtualna Polska, Orfe, 10X, Albemuth, Jacek Świderski, Michał Brański, Krzysztof Sierota). Cel: przejęcie 100 proc. głosów. Wezwanie na podstawie art. 72a ust. 1 Ustawy o Ofercie Publicznej. [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+
+###blue chipy: podsumowanie poniedziałku
+
+**Na plus:** Pepco (+2,76 proc., kontynuacja odbicia od marcowego dołka), Alior (+0,96 proc.), Allegro (+0,55 proc.)
+
+**Na minus:** Modivo (-6,16 proc.), Budimex (-2,36 proc., KIO odrzuciła oferty w przetargach PSE warte 340 mln zł), KGHM (-1,92 proc., presja na metale) [
+Bankier.pl](https://www.bankier.pl){rel="nofollow"}
 
 ---
 
-### KGHM wraca do dywidendy
+## 📅 Kalendarium
 
-Zarząd KGHM Polska Miedź rekomenduje wypłatę dywidendy w wysokości **1,50 zł na akcję** za rok 2025, co oznacza łączną kwotę wypłaty 300 mln zł. Jest to powrót do wypłaty dywidendy po rocznej przerwie (za 2024 rok spółka nie wypłaciła dywidendy). Dzień dywidendy wyznaczono na 25 czerwca 2026 roku. Pozostała część zysku za 2025 rok ma zostać przeznaczona na kapitał zapasowy. Przy obecnym kursie akcji stopa dywidendy wynosi zaledwie 0,5%.
+| Data | Spółka | Wydarzenie |
+|----------|------------|----------|
+| 28.04 | Alior Bank | Q1 2026 (opublikowano) |
+| 28.04 | Bank Millennium | Q1 2026 (opublikowano) |
+| 29.04 | Orlen | Raport roczny (skonsolidowany) |
+| 30.04 | LPP | Wypłata dywidendy (400 zł/akcja) |
 
-*Źródła: [StockWatch.pl](https://www.stockwatch.pl/wiadomosci/kghm-dywidenda-2025,akcje,371076){rel="nofollow"}, [Puls Biznesu](https://www.pb.pl/zarzad-kghm-rekomenduje-powrot-do-wyplaty-dywidendy-po-roku-przerwy-1260248){rel="nofollow"}*
-
----
-
-### Ulga na paliwa przedłużona do 15 maja
-
-Rząd przedłużył termin obowiązywania obniżonych stawek VAT oraz akcyzy na benzynę i olej napędowy z 30 kwietnia do **15 maja 2026 roku**. Stawka VAT na paliwa została obniżona z 23% do 8%, a akcyza do najniższego poziomu dopuszczanego przez UE – 29 groszy na litrze benzyny i 28 groszy na litrze oleju napędowego. To realizacja rządowego programu CPN („Ceny Paliwa Niżej"). Równocześnie obowiązują maksymalne ceny paliw, których nieprzestrzeganie jest zagrożone karą do 1 mln zł.
-
-*Źródła: [Bankier.pl](https://www.bankier.pl/wiadomosc/Wazna-decyzja-rzadu-Tanie-paliwo-przedluzone-znamy-nowa-date-9123868.html){rel="nofollow"}, [Money.pl](https://www.money.pl/gospodarka/nizsze-stawki-vat-u-i-akcyzy-na-paliwa-na-dluzej-znamy-nowy-termin-7280016542754816a.html){rel="nofollow"}, [TVN24](https://tvn24.pl/biznes/z-kraju/nizsze-stawki-vat-u-i-akcyzy-na-niektore-paliwa-beda-obowiazywac-do-15-maja-2026-roku-st9019973){rel="nofollow"}*
+źródło: [StockWatch.pl](https://www.stockwatch.pl){rel="nofollow"}
 
 ---
 
-## 📊 Do śledzenia
+## 🔗 Źródła
 
-- **Sesja GPW** – powyższe dane mogą wpłynąć na kursy banków (Millennium, Alior) oraz KGHM
-- **Kolejne decyzje RPP** – stopy procentowe na poziomie 3,75% wspierają rynek kredytowy
-- **Program CPN** – możliwe dalsze przedłużenia ulgi paliwowej w zależności od sytuacji na Bliskim Wschodzie
+- [Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+- [StockWatch.pl](https://www.stockwatch.pl){rel="nofollow"}
+- [Parkiet.com](https://www.parkiet.com){rel="nofollow"}
 
 ---
 
-*Źródła: Bankier.pl, BIK, Money.pl, TVN24, Rzeczpospolita, Puls Biznesu, StockWatch, XYZ, Inwestycje.pl (26-28.04.2026)*
+*Przygotowano: 2026-04-28 08:30*
