@@ -1,60 +1,62 @@
 ---
 title: "Prasówka GPW: 29 kwietnia 2026"
 date: "2026-04-29"
-description: "Najważniejsze tematy finansowe z poranka przed sesją GPW"
-tags: ["finanse", "GPW", "giełda", "prasówka"]
+description: "Poranna prasówka finansowa GPW - wyniki spółek, polityka gospodarcza i informacje z rynków"
+tags: ["GPW", "giełda", "finanse", "akcje", "prasówka", "energia"]
 ---
 
 # Prasówka GPW – 29 kwietnia 2026
 
-Poranne podsumowanie najważniejszych tematów finansowych przed rozpoczęciem sesji na GPW.
+Poranne podsumowanie najważniejszych wiadomości finansowych przed rozpoczęciem sesji na GPW. Wszystkie informacje zweryfikowane w co najmniej dwóch źródłach z dnia 29.04.2026.
 
-## Kluczowe tematy
+## Wyniki spółek
 
-### Wyniki spółek
+**Energa z rekordowym zyskiem 1,24 mld zł w 2025 roku**
 
-**Energa z zyskiem 1,24 mld zł w 2025 roku**
+Grupa Energa osiągnęła w 2025 roku 1,24 mld zł zysku netto przypadającego na akcjonariuszy jednostki dominującej, wobec 376 mln zł rok wcześniej – wzrost o ponad 200%. EBITDA grupy wyniosła 3,6 mld zł, co oznacza wzrost o 5% rok do roku. Spółka stawia na inwestycje – nakłady inwestycyjne wyniosły 5,6 mld zł (wzrost o 11% rdr), z czego 57% trafiło do segmentu dystrybucji. Moc zainstalowana w OZE przekroczyła 1 GW.
 
-Grupa Energa osiągnęła w 2025 roku 1,24 mld zł zysku netto przypadającego na akcjonariuszy jednostki dominującej, wobec 376 mln zł rok wcześniej – wzrost o ponad 200%. EBITDA grupy wyniosła 3,6 mld zł, co oznacza wzrost o 5% rok do roku. Spółka stawia na inwestycje w infrastrukturę dystrybucyjną.
+**PKP Cargo wraca do zysków**
 
-**ZE PAK ze stratą 164,5 mln zł**
+Grupa PKP Cargo miała w 2025 roku 39,4 mln zł zysku netto wobec 2,4 mld zł straty rok wcześniej. EBITDA wzrosła do 409,7 mln zł z 299,7 mln zł przed rokiem. To znacząca poprawa wyników przewoźnika kolejowego.
 
-ZE PAK zanotował w 2025 roku 164,5 mln zł straty netto jednostki dominującej. Prezes Piotr Żak zapowiedział prace nad aktualizacją strategii spółki. To pierwszy krok w kierunku restrukturyzacji energetycznego giganta.
+**ZE PAK ze stratą, czas na strategię**
+
+ZE PAK zanotował w 2025 roku 164,5 mln zł straty netto jednostki dominującej. Prezes Piotr Żak zapowiedział prace nad aktualizacją strategii spółki. To kolejny krok w kierunku transformacji energetycznego giganta.
 
 **Cyfrowy Polsat szykuje zmiany**
 
-Cyfrowy Polsat ogłosił, że jesienią 2026 roku przedstawi nową strategię. Prezes Piotr Żak poinformował, że prace nad strategią już trwają, a szczegóły zostaną ujawnione w III-IV kwartale.
+Przewodniczący rady nadzorczej Cyfrowego Polsatu Daniel Kaczorowski zauważa poprawę wyników operacyjnych i finansowych w I kwartale 2026 roku. Prezes Piotr Żak poinformował, że nowa strategia zostanie ogłoszona jesienią 2026 roku.
 
-### Polityka gospodarcza
+**Stalprodukt z zyskiem i skupem akcji**
 
-**Sejmowa komisja odrzuciła wotum nieufności dla ministerki klimatu**
+Zarząd Stalproduktu rekomenduje przeznaczenie całego zysku za 2025 rok w wysokości 77,8 mln zł na kapitał rezerwowy. Spółka planuje też skup akcji w celu umorzenia – projekty uchwał na najbliższym walnym zgromadzeniu przewidują możliwość odkupu od 5 do 10% kapitału zakładowego.
 
-Sejmowa komisja zdrowia opowiedziała się przeciwko wotum nieufności wobec minister klimatu Pauliny Hennig-Kloski. Decyzja komisji oznacza, że wniosek nie trafi do dalszego procedowania na sali plenarnej. Głosowanie w Sejmie zaplanowane na jutro.
+## Polityka i gospodarka
 
-**Koalicja rządowa bez przełomu**
+**Orlen i Azoty w delegacji Sikorskiego do Algierii**
 
-Według „Rzeczpospolitej" koalicyjny rząd kontynuuje prace, jednak wciąż nie widać wyraźnego „efektu Czarnka" w sondażach. Politycy opozycji podkreślają brak widocznych efektów reformy edukacji w oczach wyborców.
+Minister spraw zagranicznych Radosław Sikorski rozpoczął wizytę w Algierii z silnym komponentem gospodarczym. W delegacji uczestniczą przedstawiciele Orlenu i Grupy Azoty. Algierscy partnerzy są otwarci na współpracę w kwestiach energetyki i rolnictwa.
 
-### Międzynarodowe
+**GE Vernova stawia na Polskę**
 
-**Bośnia i Hercegowina uniezależni się od Gazpromu**
-
-Władze Chorwacji i Bośni i Hercegowiny podpisały umowę o budowie nowego gazociągu z Chorwacji do Bośni. Inwestycja ma zmniejszyć zależność energetyczną BiH od rosyjskiego Gazpromu i zdywersyfikować źródła dostaw gazu w regionie Bałkanów Zachodnich.
-
-**Blisko umowy UE-Mercosur**
-
-Polskie firmy oceniają, że negocjacje w sprawie umowy handlowej UE-Mercosur są bliskie finalizacji. Umowa otworzyłaby nowe rynki dla polskiego eksportu rolno-spożywczego, choć budzi też kontrowersje wśród producentów wołowiny.
-
-**Niemiecki Volkswagen szykuje kolejne zwolnienia**
-
-Według wewnętrznego dokumentu Volkswagen planuje dalsze redukcje zatrudnienia. Niemiecki gigant nie osiąga wystarczających zysków ze sprzedaży pojazdów, co zmusza firmę do kolejnych cięć kosztów. Zysk netto Volkswagena spadł o 44% w 2025 roku, do 6,9 mld euro.
+Amerykański gigant GE Vernova planuje rozwijać moce produkcyjne w Polsce, co wiąże się ze wzrostem zatrudnienia. Prezes GE Vernova w Polsce Sławomir Żygowski podkreślił, że Polska jest jednym z najpoważniejszych odbiorców dla koncernu.
 
 **USA uderzają w irański shadow banking**
 
-Amerykańskie ministerstwo finansów nałożyło sankcje na 35 podmiotów związanych z irańskim systemem omijania sankcji. Sekretarz skarbu Scott Bessent ostrzegał kolejne firmy przed współpracą z irańskim sektorem finansowym.
+Amerykańskie Ministerstwo Finansów nałożyło sankcje na 35 podmiotów i osób związanych z irańskim równoległym systemem bankowym. Sekretarz skarbu Scott Bessent ostrzegał inne firmy przed współpracą z irańskim sektorem finansowym.
+
+## Międzynarodowe
+
+**Bośnia i Hercegowina odcina się od Gazpromu**
+
+Władze Chorwacji i Bośni i Hercegowiny podpisały umowę o budowie gazociągu, który ma zmniejszyć zależność energetyczną BiH od Rosji. To kolejny krok w kierunku dywersyfikacji źródeł dostaw gazu w regionie Bałkanów Zachodnich.
+
+**Cena miedzi odbija od dna**
+
+Notowania miedzi na LME rosną w środę po 4 poprzednich sesjach ze spadkami. Rynek spekuluje na temat zapasów w Chinach oraz potencjalnych ceł Donalda Trumpa.
 
 ---
 
-**Źródła:** [Bankier.pl](https://www.bankier.pl/wiadomosci){rel="nofollow"}, [Money.pl](https://www.money.pl/gospodarka/){rel="nofollow"}, [Onet Wiadomości](https://wiadomosci.onet.pl/){rel="nofollow"}, [Biznes PAP](https://biznes.pap.pl/){rel="nofollow"}
+**Źródła:** [Bankier.pl](https://www.bankier.pl/wiadomosci){rel="nofollow"}
 
-*Opublikowano: 29 kwietnia 2026, 08:20*
+*Opublikowano: 29 kwietnia 2026, 08:30*
