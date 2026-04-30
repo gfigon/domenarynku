@@ -1,0 +1,44 @@
+---
+title: "Prasówka GPW – 30 kwietnia 2026"
+date: "2026-04-30"
+description: "Najważniejsze wiadomości finansowe z poranka przed sesją GPW"
+author: "DomenaRynku.pl"
+image: "/images/prasowka-gpw.jpg"
+tags: ["GPW", "giełda", "banki", "wyniki", "prasówka"]
+seo:
+  title: "Prasówka GPW 30.04.2026 – Najważniejsze wiadomości finansowe"
+  description: "Przegląd najważniejszych wiadomości finansowych z 30 kwietnia 2026 roku przed sesją na GPW."
+  keywords: ["GPW", "giełda", "mBank", "Pekao", "JSW", "banki", "wyniki kwartalne"]
+  og_title: "Prasówka GPW – 30 kwietnia 2026"
+  og_description: "Kluczowe wiadomości finansowe z poranka przed sesją GPW."
+  og_type: "article"
+  section: "Finanse"
+  published_time: "2026-04-30T08:20:00+02:00"
+  modified_time: "2026-04-30T08:20:00+02:00"
+  nofollow: false
+---
+
+## Poranne wiadomości finansowe – 30 kwietnia 2026
+
+### Wyniki banków za I kwartał 2026
+
+**mBank** osiągnął zysk netto w wysokości 953 mln zł w I kwartale 2026 roku, co oznacza wzrost o 35% w porównaniu z rokiem ubiegłym i wynik o 8% wyższy od konsensusu analityków (882 mln zł). Bank oczekuje, że w całym 2026 roku przychody będą na poziomie zbliżonym do 2025 roku, mimo otoczenia niższych stóp procentowych. [Czytaj więcej w Bankier.pl](https://www.bankier.pl/wiadomosc/Zysk-netto-mBanku-w-I-kw-26-wyniosl-953-mln-zl-wyzszy-od-konsensusu-9125501.html){rel="nofollow"}
+
+**Bank Pekao** zamknął I kwartał 2026 roku zyskiem netto wynoszącym 1232 mln zł, co jest wynikiem 5,1% powyżej oczekiwań rynku (1 172,3 mln zł). Jednocześnie jest to spadek w porównaniu z 1 685 mln zł rok wcześniej – na wyniki wpłynęły niższe stopy procentowe oraz rosnące koszty. [Czytaj więcej w Bankier.pl](https://www.bankier.pl/wiadomosc/Zysk-netto-Banku-Pekao-w-I-kw-26-wyniosl-1232-mln-zl-powyzej-oczekiwan-9125492.html){rel="nofollow"}
+
+**Bank Millennium** wypracował w I kwartale 2026 roku zysk netto w wysokości 301 mln zł, co oznacza wzrost o 68% r/r. Wynik okazał się 11,4% wyższy od konsensusu. [Czytaj więcej w Bankier.pl](https://www.bankier.pl/wiadomosc/Zysk-netto-B-Millennium-w-I-kw-26-wyniosl-300-8-mln-zl-powyzej-oczekiwan-9123939.html){rel="nofollow"}
+
+### JSW z miliardową stratą
+
+**Jastrzębska Spółka Węglowa** szacuje, że zamknęła 2025 rok stratą netto w wysokości 6,255 mld zł oraz stratą EBITDA na poziomie 4,99 mld zł. W 2024 roku strata netto wyniosła 7,28 mld zł. Zarząd rekomenduje pokrycie 5,059 mld zł straty z kapitału zapasowego. [Czytaj więcej w Bankier.pl](https://www.bankier.pl/wiadomosc/JSW-mialo-w-25-r-6-25-mld-zl-straty-netto-i-4-99-mld-zl-straty-EBITDA-zgodnie-z-szacunkami-9125551.html){rel="nofollow"}
+
+### Biedronka innowuje w systemie kaucyjnym
+
+**Sieć sklepów Biedronka** (wraz z partnerem Mondi) wdrożyła innowacyjne rozwiązanie – Recyklobox, czyli kartonowy pojemnik do zbiórki opakowań objętych systemem kaucyjnym. Do końca marca sieć zebrała w ten sposób ponad 29 milionów butelek zwrotnych, nie używając tradycyjnych automatów. [Czytaj więcej w INNPoland.pl](https://innpoland.pl/224650,biedronka-upraszcza-system-kaucyjny-drogie-butelkomaty-ida-w-kat){rel="nofollow"}
+
+### Uber wchodzi w hotelarstwo
+
+**Uber** rozszerza swoją aplikację o rezerwację pokoi hotelowych. Usługa jest już dostępna w Stanach Zjednoczonych, a użytkownicy subskrypcji Uber One mogą liczyć na zniżki do 20%. To bezpośrednia konkurencja dla Booking.com. [Czytaj więcej w The New York Times](https://www.nytimes.com/2026/04/29/travel/uber-hotel-booking-expedia.html){rel="nofollow"}
+
+---
+*Źródła: Bankier.pl, Puls Biznesu, INNPoland, The New York Times | Dane z 27-30 kwietnia 2026*
