@@ -1,0 +1,77 @@
+---
+title: "Prasówka GPW: 1 maja 2026"
+date: "2026-05-01"
+description: "Najważniejsze tematy finansowe z poranka przed sesją GPW - zweryfikowane fakty z ostatnich 3 dni"
+categories: [ prasówka, gpw, finanse, polska ]
+image: /placeholder.jpg
+seo:
+  title: "Prasówka GPW 1 maja 2026 - najważniejsze tematy finansowe"
+  description: "Przegląd najważniejszych informacji finansowych z 1 maja 2026 przed sesją GPW."
+  keywords: [prasówka, gpw, finanse, polska, giełda, 2026]
+---
+
+# Prasówka GPW — 1 maja 2026
+
+Poranne podsumowanie najważniejszych tematów finansowych przed rozpoczęciem sesji na GPW.
+
+---
+
+## 🔴 KLUCZOWE TEMATY
+
+### 1. Dług publiczny Polski przekroczy próg ostrożnościowy UE
+
+Ministerstwo Finansów prognozuje, że **[relacja długu publicznego do PKB wyniesie 65,1% w 2026 roku](https://www.prawo.pl/podatki/mf-dlug-publiczny-przekroczy-65-proc-pkb-w-2026-roku,1543768.html){rel="nofollow"}**, przekraczając unijny próg ostrożnościowy 60%. W 2025 roku dług wynosił 60%.
+
+Rząd przyjął 28 kwietnia dokumenty określające założenia polityki fiskalnej na lata 2026–2030. Minister finansów Andrzej Domański przekonuje jednak, że gospodarka radzi sobie dobrze — producția przemysłowa w marcu wzrosła o 9%, sprzedaż detaliczna o prawie 9%.
+
+W 2025 roku Polska miała **drugi najwyższy deficyt w UE — 7,3% PKB** (gorzej wypadła tylko Rumunia z 7,9%).
+
+---
+
+### 2. ONZ ostrzega przed globalną recesją przez kryzys w Cieśninie Ormuz
+
+Sekretarz generalzny ONZ António Guterres przedstawił trzy scenariusze rozwoju sytuacji po blokadzie Cieśniny Ormuz:
+
+- **Wariant optymistyczny**: wzrost gospodarczy spadnie z 3,4% do 3,1%, inflacja wzrośnie do 4,4%
+- **Wariant połowowy** (zakłócenia do połowy roku): 32 mln osób zepchniętych w ubóstwo, 45 mln — w skrajny głód
+- **Wariant pesymistyczny** (zakłócenia do końca roku): globalna recesja
+
+Ceny ropy Brent sięgają **około 118–126 USD za baryłkę** — najwyższy poziom od czterech lat. [Paul Krugman ocenił](https://energia.rp.pl/ropa/art44285851-globalny-alarm-na-rynku-ropy-126-dolarow-i-widmo-recesji){rel="nofollow"}, że „pełnoskalowa globalna recesja jest bardziej prawdopodobna niż jej brak, jeśli cieśnina pozostanie zamknięta przez kolejne trzy miesiące".
+
+---
+
+### 3. Możliwy strajk w ZUS
+
+Pracownicy Zakładu Ubezpieczeń Społecznych grożą strajkiem po odrzuceniu przez zarząd postulatów płacowych. Związkowcy oczekiwali podwyżki o 1200 zł brutto, zarząd zaproponował 200 zł.
+
+Jeden z kluczowych związków zawodowych zapowiada rozpoczęcie procedury referendum strajkowego. [28 kwietnia odbyły się kolejne rozmowy płacowe](https://www.pulshr.pl/zwiazki-zawodowe/zwiazkowcy-z-zus-odrzucaja-oferte-pracodawca-podbija-nagrode,118729.html){rel="nofollow"}.
+
+---
+
+### 4. Zmiany w Grupie Azoty
+
+**[Mirosław Ptasiński zrezygnował ze stanowiska wiceprezesa Grupy Azoty](https://www.rmf24.pl/ekonomia/news-najwiekszy-polski-koncern-chemiczny-oglasza-zmiany-wicepreze,nId,8080005){rel="nofollow"}** — ze skutkiem na koniec dnia 30 kwietnia 2026 roku. Zrezygnował również z członkostwa w radzie nadzorczej spółki.
+
+---
+
+### 5. Polska hubem LNG?
+
+**USA wyraziły poparcie** dla aspiracji Polski, aby stać się regionalnym hubem LNG — poinformowało MSZ po czwartkowej rundzie Dialogu Strategicznego między Polską a USA.
+
+[Premier Donald Tusk komentuje plany rozbudowy infrastruktury LNG](https://www.money.pl/gospodarka/wielka-umowa-safe-po-majowce-jest-glos-z-rzadu-7280768528381984a.html){rel="nofollow"}: „To jest absolutna strategia bezpieczeństwa energetycznego, która w tym momencie nabiera kluczowego znaczenia".
+
+---
+
+## 📊 KALENDARIUM
+
+- **2 maja** — dzień Wolnej Ameryki (US Markets Closed)
+- **5 maja** — poniedziałek, sesja normalna
+
+---
+
+## Źródła
+
+- [Money.pl — Kryzys w cieśninie Ormuz](https://www.money.pl/gospodarka/kryzys-w-ciesninie-ormuz-onz-ostrzega-przed-globalna-recesja-7281098070755392a.html){rel="nofollow"}
+- [Prawo.pl — Dług publiczny przekroczy 65 proc.](https://www.prawo.pl/podatki/mf-dlug-publiczny-przekroczy-65-proc-pkb-w-2026-roku,1543768.html){rel="nofollow"}
+- [Business Insider — Konflikt w ZUS](https://businessinsider.com.pl/gospodarka/konflikt-w-zus-pracownicy-groza-strajkiem/4qzm4tb){rel="nofollow"}
+- [RMF24 — Zmiany w Grupie Azoty](https://www.rmf24.pl/ekonomia/news-najwiekszy-polski-koncern-chemiczny-oglasza-zmiany-wicepreze,nId,8080005){rel="nofollow"}
