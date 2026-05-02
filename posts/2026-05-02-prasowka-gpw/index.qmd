@@ -1,0 +1,86 @@
+---
+title: "Prasówka GPW - 2 maja 2026"
+author: "Prasówka GPW"
+date: "2026-05-02"
+description: "Poranna prasówka GPW - najważniejsze wydarzenia z polskiego rynku akcji"
+---
+
+# Prasówka GPW — 2 maja 2026
+
+## Najważniejsze wydarzenia
+
+### Wojna celna USA–UE eskaluje
+
+Prezydent **Donald Trump** ogłosił w piątek podwyższenie ceł na samochody z Unii Europejskiej do **25 proc.**, oskarżając Brukselę o łamanie umów handlowych. Komisja Europejska zapowiedziała odwet i obronę interesów europejskich firm. To kolejna odsłona eskalującej wojny handlowej, która mocno uderza w europejski przemysł motoryzacyjny — co istotne dla wielu spółek z WIG20 i mWIG40.
+
+*Źródła: [Bankier](https://www.bankier.pl/wiadomosc/Wojna-celna-USA-UE-powraca-Cla-na-samochody-wzrosna-do-25-proc-9126642.html){rel="nofollow"}, [Money.pl](https://www.money.pl/biznes/trump-podwyzszy-cla-na-samochody-z-unii-europejskiej-jest-decyzja-7281260156856352a.html){rel="nofollow"}*
+
+---
+
+### Inflacja w Polsce zaskoczyła — wzrosła do 3,2%
+
+Według danych GUS, inflacja CPI w kwietniu przyspieszyła do **3,2 proc.** r/r z 3,0 proc. w marcu. Analitycy oczekiwali spadku do 2,9 proc. To kolejne zaskoczenie inflacyjne, które oddala wskaźnik od celu NBP (2,5 proc.). Zdaniem ekonomistów, rośnie ryzyko przenoszenia wyższych cen paliw na inne towary i usługi.
+
+*Źródła: [Bankier](https://www.bankier.pl/wiadomosc/Inflacja-w-Polsce-w-kwieniu-2026-zaskoczyla-ekonomistow-Wzrosla-zamiast-spasc-9125698.html){rel="nofollow"}, [TVN24](https://tvn24.pl/biznes/z-kraju/inflacja-w-kwietniu-2026-ceny-towarow-i-uslug-nowe-dane-gus-st9024126){rel="nofollow"}, [RMF24](https://www.rmf24.pl/ekonomia/news-inflacja-wyzsza-niz-oczekiwano-sa-nowe-dane-gus,nId,8079792){rel="nofollow"}*
+
+---
+
+### Kruk z rekordową dywidendą: 20 zł na akcję
+
+**Kruk** wypracował w I kwartale 2026 roku zysk netto na poziomie **262,3 mln zł** (blisko konsensusu 272 mln zł). Spółka zarekomendowała wypłatę dywidendy w wysokości **20 zł na akcję** z zysku za 2025 rok — rekordowa kwota, łącznie ok. 390 mln zł. Nakłady na portfele wierzytelności wzrosły o 124 proc. r/r do 513 mln zł. Spółka prowadzi też reorganizację struktury (podział działalności inwestycyjnej i operacyjnej).
+
+*Źródła: [Stockwatch](https://www.stockwatch.pl/wiadomosci/kruk-solidny-start-2026-roku-i-rekordowe-20-zl-dywidendy-na-akcje,akcje,371289){rel="nofollow"}*
+
+---
+
+### Bank Pekao z zyskiem 1,23 mld zł w Q1
+
+**Bank Pekao** wypracował w I kwartale 2026 roku skonsolidowany zysk netto w wysokości **1 232 mln zł** — o 5,1 proc. więcej niż zakładał konsensus analityków. Wynik jest jednak niższy niż rok wcześniej (prawie 1,7 mld zł), głównie przez wyższą składkę na BFG. Na koniec Q1 ROE (z annualizowanym kosztem BFG) wyniosło 17,1 proc.
+
+*Źródła: [Parkiet](https://www.parkiet.com/banki/art44286041-banki-pekao-ing-i-mbank-podaly-wyniki-za-i-kwartal){rel="nofollow"}, [Interia Biznes](https://biznes.interia.pl/gospodarka/news-bank-pekao-pokazal-wyniki-za-pierwszy-kwartal-dawno-niewidzi,nId,23470810){rel="nofollow"}*
+
+---
+
+## Komunikaty ESPI
+
+- **Bank Pekao (PEKAO)** — zwołanie NWZ za rok obrotowy 2025 (30.04.2026)
+- **Inter Cars (CAR)** — zwołanie NWZ
+- **Vindexus (VIN)** — raport roczny RR 2025 i skonsolidowany SRR 2025 (01.05.2026)
+
+*Źródła: [Stockwatch](https://www.stockwatch.pl/komunikaty-spolek/wszystkie.aspx){rel="nofollow"}, [WNP.pl](https://www.wnp.pl/rynki/gielda-i-notowania/komunikaty-espi/){rel="nofollow"}*
+
+---
+
+## Czynniki makro i nastroje przed sesją
+
+| Czynnik | Stan |
+|--------|-----|
+| **WIG20 (poprzednia sesja)** | kontynuacja spadków na fali wojny celnej |
+| **Inflacja PL** | 3,2% (zaskoczenie w górę) |
+| **Cła USA–UE** | 25% na auta z UE |
+| **Nastroje** | negatywne, rynek boi się eskalacji wojny handlowej |
+
+**Perspektywa na dziś:** Poniedziałek po weekendzie z eskalującymi konfliktami handlowymi (USA–UE). Na rynku polskim dominują obawy o wpływ ceł na motoryzację i siłę nabywczą konsumentów wobec wyższej inflacji.
+
+---
+
+## Kalendarium
+
+- **2 maja (pt)** — brak sesji w Polsce (dzień wolny)
+- **6 maja (wt)** — posiedzenie RPP (decyzja o stopach procentowych)
+
+**Przypomnienie:** Dziś (2 maja) jest w Polsce dniem wolnym od pracy — sesja GPW się nie odbywa. Najbliższa sesja we wtorek, 6 maja.
+
+---
+
+## Źródła
+
+- [Bankier.pl](https://www.bankier.pl/wiadomosci){rel="nofollow"}
+- [Stockwatch.pl](https://www.stockwatch.pl){rel="nofollow"}
+- [Parkiet.com](https://www.parkiet.com){rel="nofollow"}
+- [WNP.pl](https://www.wnp.pl){rel="nofollow"}
+- [BiznesRadar.pl](https://www.biznesradar.pl/wiadomosci/){rel="nofollow"}
+
+---
+
+*Przygotowano na podstawie informacji z 1–2 maja 2026. Wszystkie newsy zweryfikowane minimum w dwóch niezależnych źródłach.*
