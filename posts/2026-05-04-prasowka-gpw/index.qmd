@@ -1,0 +1,46 @@
+---
+title: "Prasówka GPW — 4 maja 2026"
+date: "2026-05-04"
+description: "Najważniejsze wydarzenia finansowe z ostatnich 3 dni przed sesją GPW"
+author: "DomenaRynku.pl"
+image: "/og/prasowka-gpw-2026-05-04.jpg"
+tags: ["GPW", "giełda", "ropa", "OPEC", "biometan", "Polska"]
+robots: "index, follow"
+ogTitle: "Prasówka GPW — 4 maja 2026"
+ogDescription: "Najważniejsze wydarzenia finansowe z ostatnich 3 dni przed sesją GPW"
+---
+
+## Podsumowanie poranka
+
+**Poniedziałek, 4 maja 2026** — Przed sesją GPW przygotowaliśmy przegląd najważniejszych wydarzeń z ostatnich 72 godzin.
+
+---
+
+### Rynki ropy naftowej
+
+**Ceny ropy spadają, napięcie wokół cieśniny Ormuz rośnie.** Na poniedziałkowych azjatyckich giełdach ropy notowania surowca lekko spadają. W centrum uwagi pozostaje sytuacja w Cieśninie Ormuz — Iran blokuje tranzyt, USA zablokowało porty irańskie, co sparaliżowało handel ropą z krajów Zatoki Perskiej.
+
+**OPEC+ zwiększa limity wydobycia.** Arabia Saudyjska, Rosja i pięć innych państw OPEC+ uzgodniły zwiększenie dziennego limitu wydobycia ropy na czerwiec o 188 tys. baryłek. Eksperci wskazują, że to zmiana jedynie na papierze — faktyczne dostawy pozostają ograniczone przez blokadę cieśniny.
+
+**ZEA opuściły OPEC.** Zjednoczone Emiraty Arabskie oficjalnie opuściły kartel. Decyzja ma symbolicznym charakter — oficjalnie nie wpłynie na rynek w najbliższym czasie.
+
+**Ceny paliw w Polsce:** benzyna PB95 ok. 7,02 zł/l, diesel ok. 7,95 zł/l (stan na 3 maja).
+
+---
+
+### Polska gospodarka
+
+**Polska Spółka Gazownictwa (PSG)** z grupy Orlen planuje w tym roku przyłączyć do sieci 3 lub 4 biometanownie. W przyszłym roku — kilkanaście. Spółka inwestuje w rozbudowę infrastruktury biometanu, finansując inwestycje głównie z środków grupy Orlen oraz funduszy unijnych (FEniKS, KPO).
+
+---
+
+### Źródła
+
+- [Ceny ropy. Spadki na giełdach — Bankier.pl](https://www.bankier.pl/wiadomosc/Na-gieldach-ropy-spadki-cen-Wiele-sie-dzieje-wokol-ciesniny-Ormuz-9127101.html){rel="nofollow"}
+- [OPEC+ zwiększa wydobycie — TVN24 Biznes](https://tvn24.pl/biznes/ze-swiata/ropa-naftowa-opec-zwiekszy-wydobycie-ropy-w-czerwcu-st9028758){rel="nofollow"}
+- [ZEA opuściły OPEC — Money.pl](https://www.money.pl/gospodarka/zea-opuscily-opec-jest-decyzja-kartelu-ws-wydobycia-ropy-7281914235549760a.html){rel="nofollow"}
+- [PSG przyłączy biometanownie — Portal Spożywczy](https://www.portalspozywczy.pl/technologie/wiadomosci/psg-przylaczy-w-tym-roku-do-sieci-3-lub-4-biometanownie,288364.html){rel="nofollow"}
+
+---
+
+*Źródło: Bankier.pl, Money.pl, TVN24 Biznes, Portal Spożywczy. Dane z 2–4 maja 2026.*
