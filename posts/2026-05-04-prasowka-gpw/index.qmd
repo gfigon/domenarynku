@@ -1,46 +1,64 @@
 ---
-title: "Prasówka GPW — 4 maja 2026"
+title: "Prasówka GPW - 4 maja 2026"
 date: "2026-05-04"
-description: "Najważniejsze wydarzenia finansowe z ostatnich 3 dni przed sesją GPW"
-author: "DomenaRynku.pl"
-image: "/og/prasowka-gpw-2026-05-04.jpg"
-tags: ["GPW", "giełda", "ropa", "OPEC", "biometan", "Polska"]
-robots: "index, follow"
-ogTitle: "Prasówka GPW — 4 maja 2026"
-ogDescription: "Najważniejsze wydarzenia finansowe z ostatnich 3 dni przed sesją GPW"
+author: "Prasówka GPW"
+description: "Poranna prasówka GPW - najważniejsze wydarzenia z polskiego rynku akcji"
 ---
 
-## Podsumowanie poranka
+# Prasówka GPW — 4 maja 2026
 
-**Poniedziałek, 4 maja 2026** — Przed sesją GPW przygotowaliśmy przegląd najważniejszych wydarzeń z ostatnich 72 godzin.
+## Najważniejsze wydarzenia
 
----
+### Erste Bank Polska — koniec Santandera
 
-### Rynki ropy naftowej
+Santander Bank Polska przeszedł rebranding i od 25 kwietnia 2026 roku działa jako **Erste Bank Polska**. To efekt przejęcia przez austryjacką grupę Erste, która w styczniu 2026 roku nabyła pakiet kontrolny 49 proc. akcji. Polska jest liderem innowacji finansowych w UE z największą liczbą transakcji mobilnych i internetowych.
 
-**Ceny ropy spadają, napięcie wokół cieśniny Ormuz rośnie.** Na poniedziałkowych azjatyckich giełdach ropy notowania surowca lekko spadają. W centrum uwagi pozostaje sytuacja w Cieśninie Ormuz — Iran blokuje tranzyt, USA zablokowało porty irańskie, co sparaliżowało handel ropą z krajów Zatoki Perskiej.
-
-**OPEC+ zwiększa limity wydobycia.** Arabia Saudyjska, Rosja i pięć innych państw OPEC+ uzgodniły zwiększenie dziennego limitu wydobycia ropy na czerwiec o 188 tys. baryłek. Eksperci wskazują, że to zmiana jedynie na papierze — faktyczne dostawy pozostają ograniczone przez blokadę cieśniny.
-
-**ZEA opuściły OPEC.** Zjednoczone Emiraty Arabskie oficjalnie opuściły kartel. Decyzja ma symbolicznym charakter — oficjalnie nie wpłynie na rynek w najbliższym czasie.
-
-**Ceny paliw w Polsce:** benzyna PB95 ok. 7,02 zł/l, diesel ok. 7,95 zł/l (stan na 3 maja).
+*Źródła: [Bankier](https://www.bankier.pl/wiadomosc/Polski-rynek-finansowy-atrakcyjny-dla-miedzynarodowych-graczy-Nowy-bank-zapowiada-zmiany-w-ofercie-i-wsparcie-ekspansji-firm-9127075.html){rel="nofollow"}, [Erste.pl](https://www.erste.pl/przedtem-santander-bank-polska){rel="nofollow"}*
 
 ---
 
-### Polska gospodarka
+### NBP — strata 35,7 mld zł za 2025 rok
 
-**Polska Spółka Gazownictwa (PSG)** z grupy Orlen planuje w tym roku przyłączyć do sieci 3 lub 4 biometanownie. W przyszłym roku — kilkanaście. Spółka inwestuje w rozbudowę infrastruktury biometanu, finansując inwestycje głównie z środków grupy Orlen oraz funduszy unijnych (FEniKS, KPO).
+Narodowy Bank Polski zanotował stratę w wysokości **35,740 mld zł** wobec 13,347 mld zł w 2024 roku. To znaczące pogorszenie wyniku.
 
----
-
-### Źródła
-
-- [Ceny ropy. Spadki na giełdach — Bankier.pl](https://www.bankier.pl/wiadomosc/Na-gieldach-ropy-spadki-cen-Wiele-sie-dzieje-wokol-ciesniny-Ormuz-9127101.html){rel="nofollow"}
-- [OPEC+ zwiększa wydobycie — TVN24 Biznes](https://tvn24.pl/biznes/ze-swiata/ropa-naftowa-opec-zwiekszy-wydobycie-ropy-w-czerwcu-st9028758){rel="nofollow"}
-- [ZEA opuściły OPEC — Money.pl](https://www.money.pl/gospodarka/zea-opuscily-opec-jest-decyzja-kartelu-ws-wydobycia-ropy-7281914235549760a.html){rel="nofollow"}
-- [PSG przyłączy biometanownie — Portal Spożywczy](https://www.portalspozywczy.pl/technologie/wiadomosci/psg-przylaczy-w-tym-roku-do-sieci-3-lub-4-biometanownie,288364.html){rel="nofollow"}
+*Źródła: [Bankier](https://www.bankier.pl/wiadomosc/Miliardowa-strata-NBP-za-2025-rok-Wynik-gorszy-niz-rok-wczesniej-9127094.html){rel="nofollow"}*
 
 ---
 
-*Źródło: Bankier.pl, Money.pl, TVN24 Biznes, Portal Spożywczy. Dane z 2–4 maja 2026.*
+### PZU przejmuje MetLife Ukraina
+
+PZU zawarło warunkową umowę nabycia **100 proc. akcji MetLife Ukraina**, lidera tamtejszego rynku ubezpieczeń na życie (ok. 49 proc. udziału w rynku). Spółka obsługuje ok. 900 tys. klientów. W 2025 roku MetLife Ukraina miał 38 mln euro przychodów i 21 mln euro zysku netto. ROE ok. 20 proc. Transakcja wzmocni pozycję PZU w regionie Europy Środkowo-Wschodniej.
+
+*Źródła: [Bankier](https://www.bankier.pl/wiadomosc/PZU-kupi-100-proc-MetLife-Ukraina-chce-wzmocnic-pozycje-w-regionie-CEE-9127092.html){rel="nofollow"}*
+
+---
+
+### Orlen — rekordowa dywidenda
+
+Zarząd Orlenu zarekomendował wypłatę **8,00 zł na akcję** z zysku za 2025 rok. Łączna kwota to **9,3 mld zł**, co przekłada się na stopę dywidendy ok. 6,1 proc. To najwyższa wypłata w historii spółki. Dzień dywidendy: 18 czerwca 2026, wypłata: 25 czerwca 2026.
+
+*Źródła: [Strefa Inwestorów](https://strefainwestorow.pl/dywidendy/orlen-dywidenda-2026){rel="nofollow"}*
+
+---
+
+### Atal kupuje Grupę Budner
+
+Grupa Atal podpisała umowę przedwstępną na nabycie udziałów i nieruchomości w Trójmieście od Grupy Budner za **133,5 mln zł**. Transakcja obejmuje ok. 70 tys. m² PUM. Warunek: zgoda Prezesa UOKiK.
+
+*Źródła: [Bankier](https://www.bankier.pl/wiadomosc/Atal-chce-kupic-w-Trojmiescie-udzialy-w-spolkach-Budner-i-nieruchomosci-za-133-5-mln-zl-9127089.html){rel="nofollow"}*
+
+---
+
+### PSG — plany przyłączenia biometanowni
+
+Polska Spółka Gazownictwa planuje w 2026 roku przyłączyć do sieci **3-4 biometanownie**. W 2027 roku — kilkanaście.
+
+*Źródła: [Bankier](https://www.bankier.pl/wiadomosc/PSG-przylaczy-w-tym-roku-do-sieci-3-lub-4-biometanownie-9127091.html){rel="nofollow"}*
+
+---
+
+### Rynki — ropa i miedź
+
+**Ropa naftowa** — ceny spadają na globalnych rynkach w poniedziałek rano. Napięcia wokół cieśniny Ormuz wpływają na nastroje. **Miedź** — lekko spada w Nowym Jorku, wolne w Londynie i Szanghaju.
+
+*Źródła: [Bankier](https://www.bankier.pl/wiadomosc/Na-gieldach-ropy-spadki-cen-Wiele-sie-dzieje-wokol-ciesniny-Ormuz-9127101.html){rel="nofollow"}, [Bankier](https://www.bankier.pl/wiadomosc/Ceny-miedzi-w-Nowym-Jorku-lekko-spadaja-W-Londynie-i-Szanghaju-wolne-9127106.html){rel="nofollow"}*
