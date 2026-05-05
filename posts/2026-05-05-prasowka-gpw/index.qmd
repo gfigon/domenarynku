@@ -1,95 +1,100 @@
 ---
-title: "Prasówka GPW: 5 maja 2026 - Kluczowe tematy przed sesją"
+title: "Prasówka GPW - 5 maja 2026"
 date: "2026-05-05"
-description: "Najważniejsze wydarzenia finansowe z Polski i świata przed dzisiejszą sesją na GPW. RPP, SAFE, ropa i rating."
-keywords: "GPW, giełda, RPP, stopy procentowe, SAFE, ropa, rating, Polska"
-og-image: "/projekty/domenarynku/images/placeholder-gpw.jpg"
-author: "DomenaRynku.pl"
-toc: true
+author: "OpenClaw"
+description: "Poranna prasówka GPW - najważniejsze wiadomości z rynku akcji"
+image: /og-image.png
 ---
 
-## Poranne podsumowanie finansowe – 5 maja 2026
+# 📈 Prasówka GPW — 5 maja 2026
 
-Sesja GPW rozpocznie się dziś o godzinie 09:00. Przed tobą najważniejsze tematy z ostatnich 3 dni, które mogą wpłynąć na zachowanie rynków.
+## 🔑 Najważniejsze wydarzenia
 
----
+### RPP: stopy bez zmian, ale retoryka będzie bardziej jastrzębia
 
-### Rada Polityki Pieniężnej: stopy bez zmian, ale...
+**Rada Polityki Pieniężnej na majowym posiedzeniu (6-7 maja) nie zmieni stóp procentowych, ale zaostrzy retorykę i większy nacisk położy na zagrożenia dla wzrostu inflacji** — powiedział PAP ekonomista ING Banku Śląskiego Adam Antoniak. Ekonomiści spodziewają się, że komunikat będzie bardziej jastrzębi, a rynek obstawia, że kolejna zmiana stóp to podwyżka.
 
-Wtorek, 6 maja, przyniesie decyzję RPP w sprawie stóp procentowych. Według przekonań rynku i większości analityków, **stopy pozostaną na niezmienionym poziomie** – żadna z agencji nie przewiduje obniżki. Analitycy ING, ManagerPLUS i TVN24 wskazują jednak, że Rada może zaostrzyć retorykę i mocniej zaakcentować zagrożenia dla wzrostu inflacji.
-
-Decyzja poznamy w środę, 7 maja. W czwartek odbędzie się konferencja prezesa NBP Adama Glapińskiego.
-
-📎 *[Bankier.pl - Rada stop raczej nie zmieni](https://www.bankier.pl/wiadomosc/Rada-stop-raczej-nie-zmieni-Ale-rynek-obstawia-ze-nadchodza-podwyzki-9127256.html){rel="nofollow"}*  
-📎 *[Forsal.pl - Stopy procentowe w maju](https://forsal.pl/gospodarka/aktualnosci/artykuly/11242619,ekonomisci-uwazaja-ze-na-tansze-kredyty-bedziemy-musieli-poczekac-st.html){rel="nofollow"}*  
-📎 *[TVN24 Biznes - Tydzień w gospodarce](https://tvn24.pl/biznes/z-kraju/stopy-procentowe-dane-z-przemyslu-i-rating-polski-taki-bedzie-tydzien-w-gospodarce-st9029192){rel="nofollow"}*
+*Źródła: [Bankier](https://www.bankier.pl/wiadomosc/Antoniak-RPP-nie-zmieni-stop-procentowych-ale-zaostrzy-retoryke-9127636.html){rel="nofollow"}, [TVN24](https://tvn24.pl/biznes/z-kraju/stopy-procentowe-dane-z-przemyslu-i-rating-polski-taki-bedzie-tydzien-w-gospodarce-st9029192){rel="nofollow"}*
 
 ---
 
-### SAFE: Polska podpisze umowę w piątek
+### Inflacja w górę
 
-Premier Donald Tusk potwierdził, że rząd jest "gotowy z podpisaniem" umowy SAFE w piątek, 9 maja. Program unijny przewiduje **150 mld euro wsparcia** na zakupy sprzętu wojskowego. Polsce przyznano **43,7 mld euro** (ok. 185 mld zł).
+**Wskaźnik CPI w kwietniu 2026 r. wzrósł do ok. 5% rdr** — wynika ze wstępnych danych GUS. Wskaźnik ponownie oddalił się od celu inflacyjnego NBP (2,5%). Analitycy spodziewają się, że w kolejnych miesiącach inflacja przekroczy 3,5% rdr.
 
-Termin jest istotny – zgodnie z unijnym rozporządzeniem, do końca maja państwa będą mogły samodzielnie zamawiać sprzęt w ramach SAFE. Później konieczne będzie szukanie krajów partnerskich.
-
-📎 *[Bankier.pl - Koniec sporów o SAFE](https://www.bankier.pl/wiadomosc/Koniec-sporow-o-SAFE-Tusk-oglasza-podpisanie-umowy-9127295.html){rel="nofollow"}*  
-📎 *[Forsal.pl - Polska gotowa na SAFE](https://forsal.pl/kraj/bezpieczenstwo/artykuly/11242563,polska-prawie-gotowa-na-podpisanie-umowy-safe-donald-tusk-podal-termi.html){rel="nofollow"}*  
-📎 *[PolsatNews.pl](https://www.polsatnews.pl/wiadomosc/2026-05-04/umowa-safe-blisko-podpisania-tusk-podal-mozliwy-termin/){rel="nofollow"}*
+*Źródła: [Strefa Inwestorów](https://strefainwestorow.pl/gospodarka/szacunkowy-odczyt-inflacja-kwiecien-2026){rel="nofollow"}, [Zero.pl](https://zero.pl/news/presja-cenowa-w-gospodarce-rosnie-co-zdecyduje-rpp-w-maju-w-sprawie-stop-procentowych){rel="nofollow"}*
 
 ---
 
-### Ropa naftowa: napięcia wokół Cieśniny Ormuz
+### Wall Street w dół przez Bliski Wschód
 
-Sytuacja na Bliskim Wschodzie pozostaje źródłem niepokoju na rynkach. Cieśnina Ormuz, kluczowy szlak transportu ropy, jest niemal całkowicie blokowana przez Iran od początku ataku USA i Izraela pod koniec lutego.
+**Poniedziałkowa sesja na Wall Street zakończyła się spadkami głównych indeksów** — na rynek powróciły obawy o eskalację konfliktu na Bliskim Wschodzie. Ropa naftowa mocno drożeje. Inwestorzy nie spodziewają się szybkiego zakończenia wojny.
 
-W poniedziałek tankowiec został trafiony "nieznanymi pociskami" w Cieśniny Ormuz – poinformowało brytyjskie biuro operacji handlu morskiego (UKMTO). Reakcją rynku był wzrost cen ropy naftowej.
-
-Notowania:
-- **Brent**: ~83 USD/barylka (wzrost)
-- **WTI**: ~80 USD/barylka (wzrost)
-
-📎 *[Business Insider - Cena ropy reaguje](https://businessinsider.com.pl/gielda/surowce/cena-ropy-naftowej-reaguje-krytyczne-zagrozenie-bezpieczenstwa-w-ciesninie-ormuz/9ydv20f){rel="nofollow"}*  
-📎 *[Parkiet - Ropa naftowa](https://www.parkiet.com/gospodarka-swiatowa/art44305721-rynek-ropy-sceptyczny-wobec-zapowiedzi-zbrojnego-odblokowania-ciesniny-ormuz){rel="nofollow"}*  
-📎 *[Forsal.pl - Napięcia вокół Ormuz](https://forsal.pl/finanse/surowce/artykuly/11242440,ciesnina-ormuz-znow-miesza-na-rynku-ropy-globalne-rynki-reaguja.html){rel="nofollow"}*
+*Źródło: [Bankier](https://www.bankier.pl/wiadomosc/Gieldy-w-dol-Nie-spodziewamy-sie-szybkiego-zakonczenia-wojny-9127607.html){rel="nofollow"}*
 
 ---
 
-### Rating Polski: ważny piątek
+### NBP z rekordową stratą
 
-W piątek, 9 maja, agencje **S&P Global Ratings** oraz **DBRS** przeprowadzą przegląd oceny kredytowej Polski. Będą to pierwsze przeglądy po wybuchu wojny na Bliskim Wschodzie oraz po przedstawieniu przez rząd najnowszych prognoz fiskalnych.
+**Narodowy Bank Polski zanotował stratę 35,7 mld zł za 2025 rok** — to największa strata w XXI wieku. Wynik jest gorszy niż rok wcześniej. Zmiana wiązała się m.in. z niższym wynikiem z odsetek na rynkach zagranicznych i aprecjacją złotego.
 
-Kluczowy wskaźnik: deficyt sektora instytucji rządowych i samorządowych w 2026 roku ma być wyraźnie wyższy niż wcześniej planowano.
-
-📎 *[TVN24 Biznes - Rating i stopy](https://tvn24.pl/biznes/z-kraju/stopy-procentowe-dane-z-przemyslu-i-rating-polski-taki-bedzie-tydzien-w-gospodarce-st9029192){rel="nofollow"}*
+*Źródła: [RP.pl](https://www.rp.pl/banki/art44307771-narodowy-bank-polski-ze-strata-35-7-mld-zl-w-2025-r){rel="nofollow"}, [Bankier](https://www.bankier.pl/wiadomosc/Miliardowa-strata-NBP-za-2025-rok-Wynik-gorszy-niz-rok-wczesniej-9127094.html){rel="nofollow"}*
 
 ---
 
-### Scam: uwaga na oszustwa
+## 📊 Komunikaty ESPI
 
-Uwadze inwestorów: PKfinansowe ostrzega przed nowymi kampaniami oszustów wykorzystującymi aferę Zondacrypto. Cyberprzestępcy oferują "pomoc w odzyskaniu pieniędzy", a także prowadzą phishing na "zwrot podatku" oraz telefoniczne oszustwa "na ZUS". Zachowaj czujność.
+### MONNARI Trade — wyniki I kw. 2026
 
-📎 *[Bankier.pl - Oszustwa](https://www.bankier.pl/wiadomosc/Oszukuja-poszkodowanych-przez-Zondacrypto-i-kusza-wyzsza-emerytura-Nowe-scamy-9127127.html){rel="nofollow"}*
+**Grupa MONNARI TRADE osiągnęła w I kwartale 2026 roku przychody na poziomie ok. 83,9 mln zł, co oznacza wzrost o 7,5% rdr** (vs 78,0 mln zł w I kw. 2025). Marża na sprzedaży wyniosła 61,3%, tj. o 5,1 pkt proc. więcej niż przed rokiem (56,2%).
 
----
-
-### Lokaty: 7% wciąż dostępne
-
-Dla osób szukających bezpiecznych lokat: najwyższa stawka na lokacie miesięcznej wynosi **7%** w skali roku, ale jest dostępna tylko dla nowych klientów jednego banku.
-
-📎 *[Bankier.pl - Ranking lokat](https://www.bankier.pl/wiadomosc/Ranking-lokat-miesiecznych-w-maju-7-to-najlepsza-stawka-ale-nie-wszyscy-z-niej-skorzystaja-9127332.html){rel="nofollow"}*
+*Źródła: [Parkiet](https://www.parkiet.com/komunikaty-espi/art44312031-monnari-trade-spolka-akcyjna-wstepne-dane-za-i-kwartal-2026-r){rel="nofollow"}, [Bankier](https://www.bankier.pl/wiadomosc/Grupa-Monnari-szacuje-ze-jej-przychody-w-I-kw-wzrosly-o-7-5-proc-rdr-do-83-9-mln-zl-9127575.html){rel="nofollow"}*
 
 ---
 
-## Podsumowanie
+### Wirtualna Polska Holding — wstępne wyniki I kw. 2026
 
-| Temat | Status | Data |
-|-------|--------|------|
-| RPP – stopy bez zmian | Oczekiwane | 6-7 maja |
-| SAFE – podpisanie | Planowane | 9 maja (piątek) |
-| Ropa – napięcia | Niepewność | Bieżąca |
-| Rating S&P/DBRS | Wdrożony | 9 maja (piątek) |
+**Grupa Wirtualna Polska opublikowała wstępne szacunkowe wyniki za I kwartał 2026 roku** (okres 3 miesięcy zakończony 31 marca 2026).
 
-**Otwarcie GPW**: oczekiwany umiarkowany optymizm, choć napięcia na Bliskim Wschodzie i termin ratingu mogą wpłynąć na ostrożność inwestorów.
+*Źródło: [Bankier](https://www.bankier.pl/wiadomosc/WIRTUALNA-POLSKA-HOLDING-S-A-Wstepne-szacunkowe-nieaudytowane-wybrane-wyniki-Grupy-Kapitalowej-Wirtualna-Polska-Holding-za-okres-za-okres-3-miesiecy-zakonczony-31-marca-2026-roku-9127485.html){rel="nofollow"}*
 
 ---
-*Źródła: Bankier.pl, Forsal.pl, TVN24 Biznes, Business Insider, Parkiet, Polsat News. Dane z 5 maja 2026, godz. 08:20.*
+
+### IZOBLOK — zmiana daty raportu
+
+**IZOBLOK zmienił datę publikacji raportu okresowego za pierwszy kwartał 2026** — nowa data zostanie podana później.
+
+*Źródło: [Parkiet](https://www.parkiet.com/komunikaty-espi/art44309631-izoblok-spolka-akcyjna-zmiana-daty-publikacji-raportu-okresowego-za-pierwszy-kwartal-2026){rel="nofollow"}*
+
+---
+
+### KGL — szacunki za I kw. 2026
+
+**KGL opublikował szacunkowe przychody ze sprzedaży za pierwszy kwartał 2026 roku.**
+
+*Źródło: [Parkiet](https://www.parkiet.com/komunikaty-espi/art44307611-kgl-spolka-akcyjna-szacunkowe-przychody-ze-sprzedazy-kgl-s-a-za-pierwszy-kwartal-2026-r){rel="nofollow"}*
+
+---
+
+## 📊 Kalendarium
+
+| Data | Wydarzenie |
+|------|------------|
+| 6-7 maja 2026 | Posiedzenie RPP — decyzja ws. stóp procentowych |
+| 7 maja 2026 | Publikacja raportu kwartalnego CD Projekt |
+| 8 maja 2026 | Rating Polski od S&P |
+
+---
+
+## 🔗 Źródła
+
+- [Bankier.pl](https://www.bankier.pl){rel="nofollow"}
+- [Parkiet.com](https://www.parkiet.com){rel="nofollow"}
+- [StrefaInwestorow.pl](https://strefainwestorow.pl){rel="nofollow"}
+- [TVN24.pl](https://tvn24.pl){rel="nofollow"}
+- [RP.pl](https://www.rp.pl){rel="nofollow"}
+- [Zero.pl](https://zero.pl){rel="nofollow"}
+
+---
+
+*Przygotowano: 5 maja 2026, 08:30*
