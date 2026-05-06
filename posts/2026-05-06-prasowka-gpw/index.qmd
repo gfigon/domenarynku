@@ -1,38 +1,67 @@
 ---
-title: "Prasówka GPW - 6 maja 2026"
-date: 2026-05-06
-description: "Poranne podsumowanie najważniejszych wydarzeń finansowych z wtorkowej sesji na GPW oraz kluczowych informacji z ostatnich 3 dni."
-author: "DomenaRynku.pl"
-image: /images/prasowka-gpw.jpg
-tags: [GPW, giełda, Orlen, Energa, WIG20, dywidenda]
+title: "Prasówka GPW – 6 maja 2026"
+date: "2026-05-06"
+description: "Poranna prasówka z wiadomościami GPW i rynków finansowych"
+author: "domenarynku"
+image: "/images/gpw-header.jpg"
+tags: ["GPW", "giełda", "akcje", "prasówka", "Energa", "PHN", "Votum", "2026"]
+nofollow: true
 ---
 
-# Prasówka GPW — 6 maja 2026
-
-Poranne podsumowanie najważniejszych wydarzeń finansowych przed otwarciem sesji na GPW.
-
-## Ważne wydarzenia z ostatnich 3 dni
-
-### 📈 Orlen bije rekordy na GPW
-
-We wtorek (5 maja) akcje Orlenu osiągnęły historyczny poziom **ponad 140 zł**, wzrastając o ponad 3% w trakcie sesji. To piąty z rzędu dzień wzrostów spółki, a na czterech poprzednich sesjach łącznie zyskała 8,6%. Wartość rynkowa polskiego giganta przekroczyła kapitalizację rosyjskiego Gazpromu i jest na dobrej drodze do przegonienia innych molochów Putina — Novateku i Łukoila. WIG20 wrócił powyżej 3500 pkt, a szeroki WIG powyżej 130 000 pkt.
-
-**Źródła:** [Bankier.pl](https://www.bankier.pl/wiadomosc/Rekordowy-Orlen-na-GPW-Czas-pokonac-rosyjskich-gigantow-9127762.html){rel="nofollow"}, [Money.pl](https://www.money.pl/gospodarka/notowania-orlenu-przebily-kolejna-granice-7282580974934048a.html){rel="nofollow"}, [Business Insider](https://businessinsider.com.pl/gielda/wiadomosci/orlen-bije-rekordy-na-gieldzie-gazprom-zostaje-coraz-bardziej-w-tyle/m5m8cq0){rel="nofollow"}
-
-### ⚡ Energa bez dywidendy za 2025
-
-Zarząd Energi zarekomenduje przeznaczenie zysku netto spółki za 2025 rok w wysokości **289,3 mln zł** na podwyższenie kapitału zapasowego. Oznacza to brak wypłaty dywidendy dla akcjonariuszy. Decyzja podyktowana jest ambitnymi planami inwestycyjnymi i rozwojem sieci.
-
-**Źródła:** [Puls Biznesu](https://www.pb.pl/energa-przeznaczy-caly-ubiegloroczny-zysk-na-inwestycje-i-rozwoj-sieci-1260708){rel="nofollow"}, [Portal Spożywczy](https://www.portalspozywczy.pl/technologie/wiadomosci/energa-planuje-zysk-za-2025-r-przeznaczyc-na-kapital-zapasowy,288464.html){rel="nofollow"}
+**Prasówka GPW – środa, 6 maja 2026**
 
 ---
 
-## Kalendarium na dziś
+## 📈 Rynki globalne
 
-- **09:00** — Proc. zatrudniony w Polsce (dane GUS)
-- **09:30** — Sprzedaż detaliczna w Polsce (dane GUS)
-- **10:00** — Inflacja konsumencka w strefie euro (dane Eurostat)
+**Wall Street z nowymi rekordami** — Wtorkowa sesja na amerykańskiej giełdzie zakończyła się wzrostami indeksów. S&P 500 i Nasdaq zanotowały nowe rekordy intraday, inwestorzy pozytywnie przyjęli serię lepszych od oczekiwań wyników spółek. [Bankier](https://www.bankier.pl){rel="nofollow"}
 
 ---
 
-*Źródła: Bankier.pl, Money.pl, Puls Biznesu, Business Insider. Dane z 6 maja 2026, godz. 08:20.*
+## ⚡ ESPI // Komunikaty spółek
+
+**Energa bez dywidendy za 2025** — Zarząd spółki zarekomenduje przeznaczenie zysku netto za 2025 rok (289,3 mln zł) na podwyższenie kapitału zapasowego. To oznacza brak wypłaty dywidendy. Źródła: [Bankier](https://www.bankier.pl){rel="nofollow"}, [Puls Biznesu](https://www.pb.pl){rel="nofollow"}
+
+**PHN z programem obligacji do 1 mld zł** — Polski Holding Nieruchomości ustanowił program emisji obligacji o łącznej wartości do 1 mld zł. Spółka rozważa emisję w II kwartale 2026 roku. Źródła: [Bankier](https://www.bankier.pl){rel="nofollow"}, [Inwestycje.pl](https://inwestycje.pl){rel="nofollow"}
+
+**DM BOŚ podnosi wycenę Votum do 58,1 zł** — Analitycy DM BOŚ podwyższyli 12-miesięczną cenę docelową akcji Votum z 50,2 zł do 58,1 zł, zmieniając rekomendację na „kupuj". Źródło: [Bankier](https://www.bankier.pl){rel="nofollow"}
+
+**VR Factory Games z 1,97 mln zł odpisów** — Spółka dokonała odpisów aktualizujących wartości niematerialne i prawne w wysokości 1,97 mln zł, co obniży wynik finansowy za 2025 rok. [Bankier](https://www.bankier.pl){rel="nofollow"}
+
+---
+
+## 🏭 Wiadomości ze spółek
+
+**Grupa WP: 543,3 mln zł przychodów w I kwartale** — Wirtualna Polska Holding osiągnęła przychody gotówkowe w wysokości 543,3 mln zł w I kwartale 2026 roku (vs 368,2 mln zł rok wcześniej). Skorygowana EBITDA: 97,8 mln zł. [Inwestycje.pl](https://inwestycje.pl){rel="nofollow"}
+
+**Inter Cars widzi przestrzeń do wzrostu w 2026** — Prezes Maciej Tokarz zapowiedział możliwość wzrostu w konkretnych segmentach rynku oraz ujęciu geograficznym w tym roku. [Inwestycje.pl](https://inwestycje.pl){rel="nofollow"}
+
+**Monnari Trade: 83,9 mln zł przychodów w I kwartale** — Skonsolidowane przychody wzrosły o 7,5% r/r. [Inwestycje.pl](https://inwestycje.pl){rel="nofollow"}
+
+**Enter Air ostrożnie optymistyczny na 2026** — Szacunkowy backlog zwiększył się o 18% r/r. [Inwestycje.pl](https://inwestycje.pl){rel="nofollow"}
+
+**Jacek Podgórski wiceprezesem Grupy Azoty** — Rada nadzorcza powołała Jacka Podgórskiego w skład zarządu, powierzając mu funkcję wiceprezesa XIII kadencji. [Inwestycje.pl](https://inwestycje.pl){rel="nofollow"}
+
+**Quercus TFI: 9,21 mld zł aktywów na koniec kwietnia** — Wartość aktywów netto pod zarządzaniem wzrosła m/m do 9 205,5 mln zł. [Inwestycje.pl](https://inwestycje.pl){rel="nofollow"}
+
+---
+
+## 🔬 Biomed // Pharma
+
+**Celon Pharma z 4 projektami do ABM** — Cztery wnioski Celon Pharmy o dofinansowanie projektów w konkursie TRANSMED I Agencji Badań Medycznych zostały zarekomendowane do dofinansowania. [Bankier](https://www.bankier.pl){rel="nofollow"}
+
+**Projekt DAISY z PolTREG do dofinansowania** — Projekt, w którym PolTREG uczestniczy jako konsorcjant z UMED Łódź, został rekomendowany do dofinansowania przez ABM. [Bankier](https://www.bankier.pl){rel="nofollow"}
+
+---
+
+## 🌍 Makro // Polska i świat
+
+**Surowsze normy jakości powietrza w Polsce** — Resort klimatu przygotowuje projekt ustawy zakładający nowe standardy jakości powietrza oraz sieć stacji pomiarowych. [Bankier](https://www.bankier.pl){rel="nofollow"}
+
+**Kryzys paliwowy tnie siatki lotów** — Dwa miliony miejsc wyleciały z międzynarodowej siatki lotów w maju. [Bankier](https://www.bankier.pl){rel="nofollow"}
+
+**CFD na GPW** — *Do pobrania w serwisie*
+
+---
+
+*Źródła: Bankier, PAP, Inwestycje.pl, Puls Biznesu | Dane z: 6.05.2026, godz. 08:30*
