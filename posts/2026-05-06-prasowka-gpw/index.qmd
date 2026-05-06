@@ -1,0 +1,38 @@
+---
+title: "Prasówka GPW - 6 maja 2026"
+date: 2026-05-06
+description: "Poranne podsumowanie najważniejszych wydarzeń finansowych z wtorkowej sesji na GPW oraz kluczowych informacji z ostatnich 3 dni."
+author: "DomenaRynku.pl"
+image: /images/prasowka-gpw.jpg
+tags: [GPW, giełda, Orlen, Energa, WIG20, dywidenda]
+---
+
+# Prasówka GPW — 6 maja 2026
+
+Poranne podsumowanie najważniejszych wydarzeń finansowych przed otwarciem sesji na GPW.
+
+## Ważne wydarzenia z ostatnich 3 dni
+
+### 📈 Orlen bije rekordy na GPW
+
+We wtorek (5 maja) akcje Orlenu osiągnęły historyczny poziom **ponad 140 zł**, wzrastając o ponad 3% w trakcie sesji. To piąty z rzędu dzień wzrostów spółki, a na czterech poprzednich sesjach łącznie zyskała 8,6%. Wartość rynkowa polskiego giganta przekroczyła kapitalizację rosyjskiego Gazpromu i jest na dobrej drodze do przegonienia innych molochów Putina — Novateku i Łukoila. WIG20 wrócił powyżej 3500 pkt, a szeroki WIG powyżej 130 000 pkt.
+
+**Źródła:** [Bankier.pl](https://www.bankier.pl/wiadomosc/Rekordowy-Orlen-na-GPW-Czas-pokonac-rosyjskich-gigantow-9127762.html){rel="nofollow"}, [Money.pl](https://www.money.pl/gospodarka/notowania-orlenu-przebily-kolejna-granice-7282580974934048a.html){rel="nofollow"}, [Business Insider](https://businessinsider.com.pl/gielda/wiadomosci/orlen-bije-rekordy-na-gieldzie-gazprom-zostaje-coraz-bardziej-w-tyle/m5m8cq0){rel="nofollow"}
+
+### ⚡ Energa bez dywidendy za 2025
+
+Zarząd Energi zarekomenduje przeznaczenie zysku netto spółki za 2025 rok w wysokości **289,3 mln zł** na podwyższenie kapitału zapasowego. Oznacza to brak wypłaty dywidendy dla akcjonariuszy. Decyzja podyktowana jest ambitnymi planami inwestycyjnymi i rozwojem sieci.
+
+**Źródła:** [Puls Biznesu](https://www.pb.pl/energa-przeznaczy-caly-ubiegloroczny-zysk-na-inwestycje-i-rozwoj-sieci-1260708){rel="nofollow"}, [Portal Spożywczy](https://www.portalspozywczy.pl/technologie/wiadomosci/energa-planuje-zysk-za-2025-r-przeznaczyc-na-kapital-zapasowy,288464.html){rel="nofollow"}
+
+---
+
+## Kalendarium na dziś
+
+- **09:00** — Proc. zatrudniony w Polsce (dane GUS)
+- **09:30** — Sprzedaż detaliczna w Polsce (dane GUS)
+- **10:00** — Inflacja konsumencka w strefie euro (dane Eurostat)
+
+---
+
+*Źródła: Bankier.pl, Money.pl, Puls Biznesu, Business Insider. Dane z 6 maja 2026, godz. 08:20.*
