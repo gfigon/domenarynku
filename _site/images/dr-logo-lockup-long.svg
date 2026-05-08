@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 64" fill="none">
+  
+  <polygon points="32,4 59,18 59,46 32,60 5,46 5,18" fill="#0a0a0a"></polygon>
+  <polygon points="32,9 54,21 54,43 32,55 10,43 10,21" fill="none" stroke="#c9a961" stroke-width="0.8" stroke-dasharray="1.5 2"></polygon>
+  <text x="32" y="40" font-family="&#39;JetBrains Mono&#39;, ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="700" font-size="20" fill="#f5efe4" text-anchor="middle" letter-spacing="1.4">DR</text>
+  <circle cx="51" cy="16" r="2" fill="#c9a961"></circle>
+  
+  <text x="76" y="32" font-family="&#39;Instrument Serif&#39;, &#39;Times New Roman&#39;, serif" font-weight="400" font-size="28" fill="#0a0a0a" letter-spacing="-0.5">DomenaRynku</text>
+  <text x="252" y="32" font-family="&#39;JetBrains Mono&#39;, ui-monospace, monospace" font-weight="500" font-size="16" fill="#9a7d3e" letter-spacing="0">.pl</text>
+  
+  <line x1="76" y1="42" x2="92" y2="42" stroke="#c9a961" stroke-width="1"></line>
+  <text x="76" y="54" font-family="&#39;JetBrains Mono&#39;, ui-monospace, monospace" font-weight="500" font-size="9" fill="#6b6b66" letter-spacing="0.18em">PORTAL ŚWIADOMEGO INWESTORA</text>
+</svg>

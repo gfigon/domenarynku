@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none">
+  
+  <polygon points="48,4 87,26 87,70 48,92 9,70 9,26" fill="#0a0a0a" stroke="#0a0a0a" stroke-width="2" stroke-linejoin="round"></polygon>
+  <polygon points="48,12 80,30 80,66 48,84 16,66 16,30" fill="none" stroke="#c9a961" stroke-width="1" stroke-dasharray="2 3"></polygon>
+  <text x="48" y="58" font-family="&#39;JetBrains Mono&#39;, ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="700" font-size="32" fill="#f5efe4" text-anchor="middle" letter-spacing="2">DR</text>
+  <circle cx="76" cy="22" r="3" fill="#c9a961"></circle>
+</svg>

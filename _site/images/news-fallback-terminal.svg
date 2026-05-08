@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <rect width="400" height="240" fill="#f5efe4"></rect>
+  <text x="200" y="130" text-anchor="middle" font-family="Instrument Serif, Georgia, serif" font-weight="400" font-size="60" fill="#0a0a0a" font-style="italic">terminal</text>
+  <line x1="80" y1="150" x2="320" y2="150" stroke="#c9a961" stroke-width="1"></line>
+  <text x="200" y="180" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="500" font-size="10" fill="#6b6b66" letter-spacing="0.2em">DOMENARYNKU · ANALITYKA</text>
+</svg>
