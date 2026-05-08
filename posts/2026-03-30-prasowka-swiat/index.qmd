@@ -4,7 +4,7 @@ date: "2026-03-30"
 description: "Najważniejsze wydarzenia dnia: wojna w Iranie, częściowy shutdown rządu USA, sytuacja na Bliskim Wschodzie i rynki finansowe."
 keywords: "Iran, USA, Trump, shutdown, Bliski Wschód, geopolityka, makroekonomia"
 author: "DomenaRynku.pl"
-image: "/posts/2026-03-30-prasowka-swiat/cover.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 ---
 
 ::: {.leading}

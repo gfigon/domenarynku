@@ -3,7 +3,7 @@ title: "Prasówka Światowa – 7 marca 2026"
 description: "Najważniejsze wydarzenia ze świata: wojna Iran-USA-Izrael, atak na Charków, napięcia USA-Kuba, makroekonomia"
 date: "2026-03-07"
 author: "DomenaRynku.pl"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["świat", "geopolityka", "USA", "Europa", "gospodarka", "Iran", "Izrael", "Ukraina", "Kuba", "Rosja"]
 layout: "post"
 nofollow: true

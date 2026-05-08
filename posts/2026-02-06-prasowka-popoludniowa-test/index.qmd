@@ -2,6 +2,7 @@
 title: "Popołudniowy przegląd rynków: Stalexport zyskuje, RPP o inflacji"
 pagetitle: "Prasówka GPW 6.02.2026 | DomenaRynku.pl"
 date: "2026-02-06"
+image: ../../images/posts/prasowka-gpw.svg
 date-modified: last-modified
 categories: [Prasówka, GPW, Sentyment]
 format:

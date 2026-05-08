@@ -4,7 +4,7 @@ date: "2026-03-31"
 description: "Pakistan mediatorem w sprawie Iranu, ataki na rosyjskie rafinerie, ceny ropy powyżej 115 dol., protesty No Kings w USA."
 keywords: "Iran, Pakistan, mediator, Rosja, ropa naftowa, geopolityka, makroekonomia"
 author: "DomenaRynku.pl"
-image: "/posts/2026-03-31-prasowka-swiat/cover.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 ---
 
 ::: {.leading}

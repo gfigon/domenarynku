@@ -2,6 +2,7 @@
 title: "Poranna prasówka GPW: Cła Trumpa rosną, tydzień pod znakiem niepewności"
 pagetitle: "Prasówka GPW 22.02.2026 | DomenaRynku.pl"
 date: "2026-02-22"
+image: ../../images/posts/prasowka-gpw.svg
 date-modified: last-modified
 categories: [Prasówka, GPW, WIG20, Trump, cła, KGHM, Azoty]
 format:

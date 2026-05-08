@@ -3,7 +3,7 @@ title: "Prasówka Światowa - 22 marca 2026"
 description: "Codzienny przegląd najważniejszych wydarzeń ze świata: geopolityka, makroekonomia, kluczowe wydarzenia międzynarodowe"
 date: "2026-03-22"
 author: "DomenaRynku.pl"
-image: /images/world-news.jpg
+image: ../../images/posts/prasowka-swiat.svg
 tags: [świat, geopolityka, USA, Europa, Iran, Bliski Wschód]
 robots: "index, follow"
 ---

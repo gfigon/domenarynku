@@ -3,7 +3,7 @@ title: "Prasówka Światowa – 11 marca 2026"
 description: "Najważniejsze wydarzenia ze świata: eskalacja wojny USA-Izrael z Iranem, napięcia w Cieśninie Ormaz, wpływ na rynki naftowe i europejskie banki centralne"
 date: "2026-03-11"
 author: "DomenaRynku.pl"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["świat", "geopolityka", "USA", "Europa", "gospodarka", "Iran", "Izrael", "Bliski Wschód", "ropa naftowa"]
 layout: "post"
 nofollow: true

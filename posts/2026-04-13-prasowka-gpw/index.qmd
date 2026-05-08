@@ -3,7 +3,7 @@ title: "Prasówka GPW - 13 kwietnia 2026"
 date: "2026-04-13"
 description: "Najważniejsze wydarzenia finansowe przed sesją na GPW - ropa, strajk Lufthansy, wybory na Węgrzech"
 author: "DomenaRynku.pl"
-image: "/images/prasowka-gpw.jpg"
+image: ../../images/posts/prasowka-gpw.svg
 tags: [prasówka, giełda, gpw, finanse, "2026"]
 robots: "index, follow"
 ---

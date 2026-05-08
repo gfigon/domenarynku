@@ -3,9 +3,9 @@ title: "Prasówka Światowa - 4 marca 2026"
 description: "Escalacja konfliktu Iran-USA-Izrael, pierwsi amerykańscy żołnierze zabici, Trump grozi Hiszpanii, rynki w szoku."
 date: 2026-03-04
 author: "DomenaRynku.pl"
-categories: ["geopolityka", "makroekonomia", "świat"]
+categories: [Geopolityka, Makroekonomia, Świat]
 tags: ["Iran", "USA", "Izrael", "wojna", "Bliski Wschód", "Trump", "Hiszpania", "ropa", "giełda"]
-image: /images/world-news.jpg
+image: ../../images/posts/prasowka-swiat.svg
 robots: index, follow
 canonical: https://domenarynku.pl/posts/2026-03-04-prasowka-swiat/
 ---

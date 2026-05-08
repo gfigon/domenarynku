@@ -1,6 +1,7 @@
 ---
 title: "Prasówka Światowa – 18 kwietnia 2026"
 date: "2026-04-18"
+image: ../../images/posts/prasowka-swiat.svg
 categories: [Świat, Prasówka, Geopolityka, Makroekonomia]
 description: "Najważniejsze wydarzenia ze świata: cieśnina Ormuz znów otwarta, koniec ery Orbána w Węgrzech, kryzys Mandelsona w UK, oraz fala głodu w Sudanie Południowym."
 seo:
@@ -27,7 +28,6 @@ Jednak Iran ostrzega, że w przypadku kontynuacji amerykańskiej blokady portów
 **Trump: Iran zawiesi program nuklearny**
 
 Prezydent Donald Trump ogłosił 17 kwietnia, że Iran zgodził się **zawiesić swój program nuklearny bezterminowo**. To pokłosie otwarcia cieśniny i sygnalizuje optymizm co do możliwości zakończenia konfliktu. Sekretarz stanu Marco Rubio wezwał tego samego dnia (18.04) europejskie kraje do szybkiej decyzji o ponownym nałożeniu sankcji na Iran.
-
 
 *Źródła: [Bloomberg](https://www.bloomberg.com/news/articles/2026-04-17/trump-says-iran-to-suspend-nuclear-program-won-t-get-funds){rel="nofollow"}, [Wikipedia/Reuters](https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations){rel="nofollow"}*
 

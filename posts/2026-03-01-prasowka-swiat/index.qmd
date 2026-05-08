@@ -3,9 +3,9 @@ title: "Prasówka Światowa - 1 marca 2026"
 description: "Najważniejsze wydarzenia ze świata: zabicie przywódcy Iranu, eskalacja konfliktu na Bliskim Wschodzie, zakłócenia lotnicze w Zatoce Perskiej"
 date: "2026-03-01"
 author: "DomenaRynku.pl"
-image: "/images/world-news-march-2026.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["geopolityka", "Iran", "USA", "Izrael", "Bliski Wschód", "makroekonomia"]
-categories: ["Świat"]
+categories: [Świat]
 robots: "index, follow"
 ---
 

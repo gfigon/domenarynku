@@ -2,8 +2,9 @@
 title: "Prasówka Światowa – 16 kwietnia 2026"
 description: "Najważniejsze wydarzenia ze świata: geopolityka, makroekonomia, rynki finansowe"
 date: 2026-04-16
+image: ../../images/posts/prasowka-swiat.svg
 author: DomenaRynku.pl
-image: /images/posts/2026-04-16-swiat.jpg
+
 tags: [swiat, geopolityka, usa, europa, iran, ukraina]
 robots: index, follow
 ---

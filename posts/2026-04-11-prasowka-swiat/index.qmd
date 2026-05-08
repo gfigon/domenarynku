@@ -3,8 +3,8 @@ title: "Prasówka Światowa – 11 kwietnia 2026"
 date: "2026-04-11"
 description: "Codzienny przegląd najważniejszych wydarzeń ze świata: geopolityka, makroekonomia, wydarzenia międzynarodowe."
 tags: [prasówka, świat, geopolityka, USA, Iran, Węgry, Irlandia]
-categories: [ Prasówka, Świat ]
-image: /img/world-news.jpg
+categories: [Prasówka, Świat]
+image: ../../images/posts/prasowka-swiat.svg
 author: ""
 authorUrl: ""
 canonicalUrl: ""

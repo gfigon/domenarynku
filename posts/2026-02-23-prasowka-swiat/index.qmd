@@ -3,9 +3,9 @@ title: "Prasówka Światowa – 23 lutego 2026"
 description: "Najważniejsze wydarzenia ze świata: cła Trumpa 15%, konflikt USA-Kanada, Mexico: zabicie El Mencho, rozmowy nuklearne Iran-USA, Wyspy Zielonego Przylądka odmawia"
 date: "2026-02-23"
 author: "DomenaRynku.pl"
-image: /images/world-news-2026.jpg
+image: ../../images/posts/prasowka-swiat.svg
 tags: [prasówka, świat, geopolityka, USA, Meksyk, Iran, Greenland]
-categories: [Wiadomości Światowe]
+categories: [Świat]
 slug: prasowka-swiat-23-lutego-2026
 
 seo:

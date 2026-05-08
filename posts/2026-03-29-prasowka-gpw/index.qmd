@@ -1,6 +1,7 @@
 ---
 title: "Prasówka GPW - 29 marca 2026"
 date: "2026-03-29"
+image: ../../images/posts/prasowka-gpw.svg
 description: "Poranny przegląd rynkowy: WIG20 kończy tydzień spadkiem, Protektor emituje 1 mln akcji, tendryhus zwołuje NWZ, Grupa Azoty i Police z układami wierzycieli, Orlen podnosi ceny paliw."
 keywords: [GPW, WIG20, Protektor, TENDERHUT, Grupa Azoty, Orlen, Dino, Quercus TFI, giełda, prasówka]
 editor: 

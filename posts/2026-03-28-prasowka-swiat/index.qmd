@@ -3,7 +3,7 @@ title: "Prasówka Światowa – 28 marca 2026"
 description: "Najważniejsze wydarzenia ze świata: geopolityka, makroekonomia USA i Europa, wydarzenia międzynarodowe"
 date: "2026-03-28"
 author: "DomenaRynku.pl"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["świat", "geopolityka", "USA", "Europa", "gospodarka", "Iran", "Izrael", "Bliski Wschód"]
 layout: "post"
 nofollow: true

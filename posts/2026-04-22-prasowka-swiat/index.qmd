@@ -3,9 +3,9 @@ title: "Prasówka Światowa — 22 kwietnia 2026"
 description: "Trump przedłuża rozejm w Iranie, ataki na statki w Cieśninie Hormuz,Inflacja w UK rośnie do 3.3%, prezydent Tajwanu odwołuje podróż"
 date: "2026-04-22"
 author: "Prasówka Światowa"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["geopolityka", "makroekonomia", "USA", "Europa", "Iran", "Tajwan", "Wielka Brytania", "Ukraina"]
-categories: ["Świat"]
+categories: [Świat]
 robots: "index, follow"
 ---
 

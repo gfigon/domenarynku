@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <rect width="400" height="240" fill="#0a0a0a"/>
+
+  <!-- meridian / latitude grid (subtle brass on terminal) -->
+  <g stroke="#c9a961" stroke-opacity="0.18" stroke-width="0.5">
+    <!-- latitudes -->
+    <ellipse cx="200" cy="120" rx="160" ry="20"/>
+    <ellipse cx="200" cy="120" rx="160" ry="50"/>
+    <ellipse cx="200" cy="120" rx="160" ry="80"/>
+    <!-- meridians -->
+    <line x1="200" y1="40" x2="200" y2="200"/>
+    <line x1="60" y1="120" x2="340" y2="120"/>
+    <ellipse cx="200" cy="120" rx="120" ry="80"/>
+    <ellipse cx="200" cy="120" rx="80"  ry="80"/>
+    <ellipse cx="200" cy="120" rx="40"  ry="80"/>
+  </g>
+
+  <!-- outer ring -->
+  <circle cx="200" cy="120" r="80" fill="none" stroke="#c9a961" stroke-opacity="0.55" stroke-width="0.8"/>
+
+  <!-- financial-center nodes -->
+  <g fill="#f5efe4">
+    <circle cx="148" cy="92"  r="2"/>
+    <circle cx="172" cy="100" r="2"/>
+    <circle cx="232" cy="110" r="2"/>
+    <circle cx="252" cy="124" r="2"/>
+    <circle cx="200" cy="158" r="2"/>
+    <circle cx="118" cy="138" r="2"/>
+  </g>
+
+  <!-- one node highlighted in brass -->
+  <circle cx="186" cy="106" r="3" fill="#c9a961"/>
+  <circle cx="186" cy="106" r="6" fill="none" stroke="#c9a961" stroke-width="0.6" stroke-opacity="0.6"/>
+
+  <!-- top eyebrow -->
+  <text x="20" y="28" font-family="JetBrains Mono, ui-monospace, monospace" font-weight="500" font-size="10" fill="#c9a961" letter-spacing="0.18em">PRASÓWKA · ŚWIAT</text>
+
+  <!-- right-side mono index ticker -->
+  <g font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" font-weight="500" letter-spacing="0.06em" fill="#8e8d85">
+    <text x="380" y="46"  text-anchor="end">S&amp;P 500   5 412</text>
+    <text x="380" y="60"  text-anchor="end">DAX       19 884</text>
+    <text x="380" y="74"  text-anchor="end">NIKKEI    38 211</text>
+    <text x="380" y="88"  text-anchor="end">FTSE       8 074</text>
+  </g>
+
+  <!-- bottom title -->
+  <line x1="120" y1="194" x2="280" y2="194" stroke="#c9a961" stroke-width="1"/>
+  <text x="200" y="216" text-anchor="middle" font-family="Instrument Serif, Georgia, serif" font-weight="400" font-style="italic" font-size="22" fill="#f5efe4">rynki światowe</text>
+  <text x="200" y="232" text-anchor="middle" font-family="JetBrains Mono, ui-monospace, monospace" font-weight="500" font-size="9" fill="#8e8d85" letter-spacing="0.2em">DOMENARYNKU.PL</text>
+</svg>

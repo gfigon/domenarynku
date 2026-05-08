@@ -5,7 +5,7 @@ date: "2026-04-12"
 draft: false
 slug: "prasowka-swiatowa-12-kwietnia-2026"
 tags: ["świat", "geopolityka", "Iran", "USA", "Węgry", "wybory", "makroekonomia"]
-image: /images/swiat.jpg
+image: ../../images/posts/prasowka-swiat.svg
 author: "DomenaRynku.pl"
 toc: true
 ---

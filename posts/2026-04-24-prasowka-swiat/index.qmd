@@ -3,9 +3,9 @@ title: "Prasówka Światowa — 24 kwietnia 2026"
 description: "Rozejm Izrael-Libia przedłużony o 3 tygodnie, USA przejmują statek z irańską ropą, Iran grozi w Cieśninie Hormuz, konferencja klimatyczna w Kolumbii, Korea aresztuje za AI zdjęcie"
 date: "2026-04-24"
 author: "Prasówka Światowa"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["geopolityka", "makroekonomia", "USA", "Europa", "Iran", " Izrael", "Liban", "klimat", "Korea", "Rosja"]
-categories: ["Świat"]
+categories: [Świat]
 robots: "index, follow"
 ---
 

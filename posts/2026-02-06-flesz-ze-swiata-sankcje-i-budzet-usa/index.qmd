@@ -2,8 +2,9 @@
 title: "Flesz ze świata: 20. pakiet sankcji UE i ryzyko shutdownu w USA"
 pagetitle: "Prasówka Światowa 6.02.2026 | DomenaRynku.pl"
 date: "2026-02-06"
+image: ../../images/posts/prasowka-swiat.svg
 date-modified: last-modified
-categories: [Świat, Makro, Geopolityka]
+categories: [Świat, Makroekonomia, Geopolityka]
 format:
   html:
     header-includes: |

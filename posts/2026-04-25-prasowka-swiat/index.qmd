@@ -9,7 +9,7 @@ format:
     header-includes: |
       <meta name="description" content="Najważniejsze wydarzenia geopolityczne i makroekonomiczne z 25 kwietnia 2026: kryzys NATO, eskalacja w Gaza, rozmowy Iran-Pakistan, wizyta króla Karola w USA.">
       <meta name="keywords" content="NATO, Trump, Iran, Gaza, Izrael, Wielka Brytania, Hiszpania, Falklandy, King Charles, geopolityka">
-image: "/obrazy/posts/swiat-global.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 author: "DomenaRynku.pl"
 canonical: "https://domenarynku.pl/posts/2026-04-25-prasowka-swiat/"
 publish: true

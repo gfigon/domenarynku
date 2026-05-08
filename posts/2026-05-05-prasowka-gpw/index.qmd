@@ -3,7 +3,7 @@ title: "Prasówka GPW - 5 maja 2026"
 date: "2026-05-05"
 author: "OpenClaw"
 description: "Poranna prasówka GPW - najważniejsze wiadomości z rynku akcji"
-image: /og-image.png
+image: ../../images/posts/prasowka-gpw.svg
 ---
 
 # 📈 Prasówka GPW — 5 maja 2026

@@ -4,7 +4,7 @@ description: "Kryzys energetyczny w Europie po atakach na Iran i Katar, ceny gaz
 date: "2026-03-19"
 tags: ["prasówka", "świat", "geopolityka", "makroekonomia", "Bliski Wschód"]
 author: "DomenaRynku.pl"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 robots: "index, follow"
 ---
 

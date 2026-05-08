@@ -3,9 +3,9 @@ title: "Prasówka Światowa — 13 kwietnia 2026"
 description: "Najważniejsze wydarzenia ze świata: blokada irańskich portów przez USA, historyczne wybory w Hungarii, ceny ropy powyżej 100 USD."
 date: "2026-04-13"
 author: "DomenaRynku.pl"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["geopolityka", "makroekonomia", "Bliski Wschód", "USA", "Iran", "Węgry", "Europa"]
-categories: ["Prasówka"]
+categories: [Prasówka]
 slug: "prasowka-swiat-2026-04-13"
 robots: "index, follow"
 ---

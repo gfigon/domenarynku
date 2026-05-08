@@ -1,6 +1,7 @@
 ---
 title: "Prasówka GPW - 4 maja 2026"
 date: "2026-05-04"
+image: ../../images/posts/prasowka-gpw.svg
 author: "Prasówka GPW"
 description: "Poranna prasówka GPW - najważniejsze wydarzenia z polskiego rynku akcji"
 ---

@@ -29,21 +29,25 @@ get_stock_data <- function(ticker) {
 }
 
 stock_data <- get_stock_data("PZU")
-last_row <- tail(stock_data, 1)
-last_price <- last_row$price
-last_date <- last_row$date
-prev_price <- tail(stock_data$price, 2)[1]
-change_pct <- round((last_price - prev_price) / prev_price * 100, 2)
-y_ago_idx <- nrow(stock_data) - 252
-if(y_ago_idx > 0) {
-  y_ago_price <- stock_data$price[y_ago_idx]
-  change_yy <- round((last_price - y_ago_price) / y_ago_price * 100, 2)
-} else {
-  change_yy <- "N/A"
+# stock_data guard v1
+last_price <- NA_real_; last_date <- Sys.Date()
+change_pct <- NA_real_; change_yy <- "N/A"
+color_dd <- "secondary"; color_yy <- "secondary"; val_yy <- "N/A"
+if (!is.null(stock_data) && nrow(stock_data) >= 2) {
+  last_row <- tail(stock_data, 1)
+  last_price <- last_row$price
+  last_date <- last_row$date
+  prev_price <- tail(stock_data$price, 2)[1]
+  change_pct <- round((last_price - prev_price) / prev_price * 100, 2)
+  y_ago_idx <- nrow(stock_data) - 252
+  if (y_ago_idx > 0) {
+    y_ago_price <- stock_data$price[y_ago_idx]
+    change_yy <- round((last_price - y_ago_price) / y_ago_price * 100, 2)
+  }
+  color_dd <- if (change_pct >= 0) "success" else "danger"
+  color_yy <- if (is.numeric(change_yy) && change_yy >= 0) "success" else if (is.numeric(change_yy)) "danger" else "secondary"
+  val_yy   <- if (is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 }
-color_dd <- if(change_pct >= 0) "success" else "danger"
-color_yy <- if(is.numeric(change_yy) && change_yy >= 0) "success" else if(is.numeric(change_yy)) "danger" else "secondary"
-val_yy <- if(is.numeric(change_yy)) paste0(change_yy, "%") else change_yy
 ```
 
 ::: {.company-header}
@@ -76,11 +80,15 @@ cat(html_str)
 
 ```{r}
 #| echo: false
-stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
-sma200 <- SMA(stock_xts, n = 200)
-plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena PZU") |>
-  add_lines(x = index(stock_xts), y = as.numeric(sma200), name = "SMA 200", line = list(color = "orange")) |>
-  layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = "h", x = 0.1, y = 1.1), margin = list(t = 50))
+if (is.null(stock_data) || nrow(stock_data) < 2) {
+  cat("\n*Brak aktualnych notowań dla tej spółki.*\n")
+} else {
+  stock_xts <- xts(stock_data$price, order.by = as.Date(stock_data$date))
+  sma200 <- SMA(stock_xts, n = 200)
+  plot_ly(x = index(stock_xts), y = as.numeric(stock_xts), type = "scatter", mode = "lines", name = "Cena PZU") |>
+    add_lines(x = index(stock_xts), y = as.numeric(sma200), name = "SMA 200", line = list(color = "orange")) |>
+    layout(xaxis = list(title = "", rangeslider = list(visible = TRUE)), yaxis = list(title = "Cena (PLN)"), legend = list(orientation = "h", x = 0.1, y = 1.1), margin = list(t = 50))
+}
 ```
 
 ## O spółce

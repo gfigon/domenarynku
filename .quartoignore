@@ -4,3 +4,8 @@ CLAUDE.md
 PROJECT_LOG.md
 DOKUMENTACJA_PROJEKTU_DOMENARYNKU.md
 README_STRUKTURA.md
+
+# Exclude tooling — Quarto 1.4+ treats .py as renderable Jupyter input,
+# but scripts/ holds migration tooling, not site content.
+scripts/
+R/

@@ -3,7 +3,7 @@ title: "Prasówka Światowa – 9 marca 2026"
 description: "Najważniejsze wydarzenia ze świata: dzień 10. wojny Iran-USA-Izrael, ceny ropy powyżej 100 dol., G7 wzywa do uwolnienia rezerw strategicznych, nowy przywódca Iranu"
 date: "2026-03-09"
 author: "DomenaRynku.pl"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["świat", "geopolityka", "Iran", "Izrael", "USA", "Bliski Wschód", "ropa naftowa", "G7", "Europa", "makroekonomia"]
 layout: "post"
 nofollow: true

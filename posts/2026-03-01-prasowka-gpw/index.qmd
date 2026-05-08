@@ -3,7 +3,7 @@ title: "Prasówka GPW – 1 marca 2026"
 description: "Poranne podsumowanie wydarzeń na GPW: komunikaty spółek, nastroje przed sesją, kluczowe informacje rynkowe"
 date: "2026-03-01"
 author: "DomenaRynku.pl"
-image: "/images/gpw-news.jpg"
+image: ../../images/posts/prasowka-gpw.svg
 tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska"]
 layout: "post"
 nofollow: true

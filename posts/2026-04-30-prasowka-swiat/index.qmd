@@ -3,9 +3,9 @@ title: "Prasówka Światowa - 30 kwietnia 2026"
 description: "Codzienny przegląd najważniejszych wydarzeń świata: geopolityka, makroekonomia USA/Europa, kluczowe wydarzenia międzynarodowe"
 date: "2026-04-30"
 author: "DomenaRynku.pl"
-image: "/images/posts/2026-04-30-global-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["prasówka", "świat", "geopolityka", "USA", "Iran", "ropa", "NATO", "Niemcy"]
-categories: ["Wiadomości Światowe"]
+categories: [Świat]
 robots: "index, follow"
 ---
 

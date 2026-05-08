@@ -3,7 +3,7 @@ title: "Prasówka Światowa – 10 marca 2026"
 description: "Wojna Iran-USA-Izrael: ceny ropy spadają po szczycie $120, Trump grozi Iranowi, G7 wspiera dostawy energii, wybory w Nepalu, Chiny z rekordowym eksportem"
 date: "2026-03-10"
 author: "DomenaRynku.pl"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["świat", "geopolityka", "Iran", "Izrael", "USA", "Bliski Wschód", "ropa naftowa", "G7", "Europa", "makroekonomia", "Nepal", "Chiny", "Korea Północna"]
 layout: "post"
 nofollow: true

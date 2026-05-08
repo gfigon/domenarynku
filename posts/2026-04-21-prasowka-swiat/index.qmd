@@ -3,9 +3,9 @@ title: "Prasówka Światowa — 21 kwietnia 2026"
 description: "Korea Północna testuje broń, japoński przełom w eksporcie broni, zmiana warty w Apple, kolejne odejście z administracji Trumpa"
 date: "2026-04-21"
 author: "Prasówka Światowa"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["geopolityka", "makroekonomia", "USA", "Europa", "Iran", "Korea Północna", "Japonia", "Apple"]
-categories: ["Świat"]
+categories: [Świat]
 robots: "index, follow"
 ---
 

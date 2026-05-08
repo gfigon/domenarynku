@@ -3,9 +3,9 @@ title: "Prasówka Światowa — 6 marca 2026"
 description: "Najważniejsze wydarzenia ze świata: szósta dzień wojny Iran-USA-Izrael, Trump zwalnia minister Noem, USA i Wenezuela współpracują po ujęciu Maduro."
 date: "2026-03-06"
 author: "DomenaRynku.pl"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["geopolityka", "makroekonomia", "Bliski Wschód", "USA", "Iran", "Izrael", "Wenezuela", "Chiny"]
-categories: ["Prasówka"]
+categories: [Prasówka]
 slug: "prasowka-swiat-2026-03-06"
 robots: "index, follow"
 ---

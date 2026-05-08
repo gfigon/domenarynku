@@ -18,7 +18,7 @@ keywords:
   - konflikt
   - wojna
 author: "Prasówka Światowa"
-image: "/images/2026-04-06-world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 ---
 
 # Prasówka Światowa – 6 kwietnia 2026

@@ -2,10 +2,10 @@
 title: "Prasówka Światowa — 27 marca 2026"
 author: "DomenaRynku.pl"
 date: "2026-03-27"
-categories: [geopolityka, makroekonomia, swiat]
+categories: [Geopolityka, Makroekonomia, Świat]
 tags: [iran, usa, chiny, ukraina, bliski wschod, europa]
 description: "Najważniejsze wydarzenia ze świata: Trump przedłużył deadline dla Iranu do 7 kwietnia, Ukraina podpisała umowę obronną z Arabią Saudyjską, Chiny rozmieszczają drony w pobliżu Cieśniny Tajwańskiej."
-image: /images/world-news.jpg
+image: ../../images/posts/prasowka-swiat.svg
 seo:
   title: "Prasówka Światowa 27 marca 2026 - Geopolityka, Gospodarka, Wydarzenia"
   description: "Najważniejsze wiadomości międzynarodowe z 27 marca 2026: Iran, Ukraina, Chiny, Europa."

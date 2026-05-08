@@ -2,6 +2,7 @@
 title: "Prasówka GPW - 2 maja 2026"
 author: "Prasówka GPW"
 date: "2026-05-02"
+image: ../../images/posts/prasowka-gpw.svg
 description: "Poranna prasówka GPW - najważniejsze wydarzenia z polskiego rynku akcji"
 ---
 

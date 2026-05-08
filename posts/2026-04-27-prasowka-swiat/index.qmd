@@ -3,7 +3,7 @@ title: "Prasówka Światowa – 27 kwietnia 2026"
 date: "2026-04-27"
 description: "Najważniejsze wydarzenia ze świata: strzelanina na kolacji dziennikarzy w Waszyngtonie, ceny ropy rosną przez impas w rozmowach USA-Iran, wizyta króla Karola III w USA."
 keywords: "prasówka światowa, geopolityka, makroekonomia, USA, Iran, ropa, King Charles"
-image: /og-image.jpg
+image: ../../images/posts/prasowka-swiat.svg
 author: "DomenaRynku.pl"
 toc: true
 ---

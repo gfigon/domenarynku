@@ -2,11 +2,11 @@
 title: "Prasówka Światowa – 14 kwietnia 2026"
 date: "2026-04-14"
 description: "Najważniejsze wydarzenia ze świata: blokada USA portów Iranu, konflikt Trump-Papież, zwycięstwo Péter Magyar na Węgrzech, atak na dom Sama Altmana."
-image: "/posts/2026-04-14-prasowka-swiat/cover.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 keywords: ["geopolityka", "USA", "Iran", "makroekonomia", "Bliski Wschód", "Europa", "2026"]
 author: "DomenaRynku.pl"
 toc: true
-categories: ["Świat", "Geopolityka", "Makroekonomia"]
+categories: [Świat, Geopolityka, Makroekonomia]
 draft: false
 publish: true
 meta:

@@ -2,8 +2,8 @@
 title: "Prasówka GPW: 1 maja 2026"
 date: "2026-05-01"
 description: "Najważniejsze tematy finansowe z poranka przed sesją GPW - zweryfikowane fakty z ostatnich 3 dni"
-categories: [ prasówka, gpw, finanse, polska ]
-image: /placeholder.jpg
+categories: [Prasówka, GPW, finanse, polska]
+image: ../../images/posts/prasowka-gpw.svg
 seo:
   title: "Prasówka GPW 1 maja 2026 - najważniejsze tematy finansowe"
   description: "Przegląd najważniejszych informacji finansowych z 1 maja 2026 przed sesją GPW."

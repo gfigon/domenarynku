@@ -3,7 +3,7 @@ title: "Prasówka Światowa – 19 kwietnia 2026"
 description: "Najważniejsze wydarzenia ze świata: geopolityka, makroekonomia USA i Europa, wydarzenia międzynarodowe"
 date: "2026-04-19"
 author: "DomenaRynku.pl"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["świat", "geopolityka", "USA", "Europa", "gospodarka", "Iran", "Bliski Wschód", "Węgry", "Ukraina"]
 layout: "post"
 nofollow: true

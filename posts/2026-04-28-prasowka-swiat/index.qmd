@@ -4,7 +4,7 @@ date: "2026-04-28"
 author: "DomenaRynku.pl"
 description: "Najważniejsze wydarzenia ze świata: wizyta króla Karola w USA, eskalacja konfliktu Iran-USA, próba zamachu na Trumpa, katastrofa kolejowa w Indonezji."
 keywords: "prasówka światowa, wiadomości, King Charles, Iran, USA, Trump, ropa naftowa"
-image: /images/news-world.jpg
+image: ../../images/posts/prasowka-swiat.svg
 ---
 
 **28 kwietnia 2026** | *Najważniejsze wydarzenia z ostatnich 24 godzin*

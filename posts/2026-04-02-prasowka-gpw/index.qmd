@@ -1,6 +1,7 @@
 ---
 title: "Prasówka GPW - 2 kwietnia 2026"
 date: "2026-04-02"
+image: ../../images/posts/prasowka-gpw.svg
 editor_options:
   chunk_output_type: console
 ---

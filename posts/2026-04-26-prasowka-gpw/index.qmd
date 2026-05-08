@@ -2,7 +2,7 @@
 title: Prasówka GPW - 26 kwietnia 2026
 date: 2026-04-26
 author: domenarynku
-image: /images/gpw-header.jpg
+image: ../../images/posts/prasowka-gpw.svg
 description: Poranny przegląd wiadomości z warszawskiej giełdy - 26 kwietnia 2026
 tags: [gpw, giełda, warszawa, biznes]
 status: draft

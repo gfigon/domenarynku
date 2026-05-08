@@ -12,7 +12,7 @@ categories:
   - Bliski Wschód
 author: "DomenaRynku.pl"
 slug: "prasowka-swiat-2026-04-26"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 robots: "index, follow"
 ---
 

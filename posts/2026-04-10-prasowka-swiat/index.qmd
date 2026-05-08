@@ -1,6 +1,7 @@
 ---
 title: "Prasówka Światowa – 10 kwietnia 2026"
 date: "2026-04-10"
+image: ../../images/posts/prasowka-swiat.svg
 categories:
 - "Geopolityka"
 - "Makroekonomia"

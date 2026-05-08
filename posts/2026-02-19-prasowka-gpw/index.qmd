@@ -2,6 +2,7 @@
 title: "Poranna prasówka GPW: WIG20 w górę, Orlen i Pekao z wynikami powyżej oczekiwań"
 pagetitle: "Prasówka GPW 19.02.2026 | DomenaRynku.pl"
 date: "2026-02-19"
+image: ../../images/posts/prasowka-gpw.svg
 date-modified: last-modified
 categories: [Prasówka, GPW, Sentyment, Wyniki finansowe]
 format:
@@ -26,7 +27,6 @@ Notowania USD/PLN zbliżyły się do poziomu 3,60, co ograniczyło atrakcyjnoś�
 **Orlen**: Skorygowana EBITDA LIFO w IV kwartale 2025 roku wyniosła 12,2 mld zł, co okazało się wynikiem powyżej oczekiwań analityków (szacunki: 11,3 mld zł). Zarząd ocenia, że rok 2025 był doskonały dla spółki.
 
 **Pekao**: Bank w IV kwartale 2025 roku zwiększył zysk netto o 13,2 proc. r/r do 1,82 mld zł. Wynik był o 9 proc. wyższy od oczekiwań rynku.
-
 
 ---
 *Źródła:*

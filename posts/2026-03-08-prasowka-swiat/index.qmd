@@ -3,7 +3,7 @@ title: "Prasówka Światowa – 8 marca 2026"
 description: "Najważniejsze wydarzenia ze świata: dzień 9. wojny Iran-USA-Izrael, eksplozja przy ambasadzie USA w Oslo, brytyjski lotniskowiec w gotowości, roboty bojowe na Ukrainie"
 date: "2026-03-08"
 author: "DomenaRynku.pl"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["świat", "geopolityka", "Iran", "Izrael", "USA", "Wielka Brytania", "Norwegia", "Ukraina", "Bliski Wschód", "Cypr"]
 layout: "post"
 nofollow: true

@@ -2,6 +2,7 @@
 title: "Poranna prasówka GPW: WIG20 utrzymuje się, ropy najdroższa od pół roku"
 pagetitle: "Prasówka GPW 20.02.2026 | DomenaRynku.pl"
 date: "2026-02-20"
+image: ../../images/posts/prasowka-gpw.svg
 date-modified: last-modified
 categories: [Prasówka, GPW, Sentyment, Dane makro, Ropa]
 format:

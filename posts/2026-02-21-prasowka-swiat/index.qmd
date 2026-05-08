@@ -2,9 +2,9 @@
 title: "Prasówka Światowa – 21 lutego 2026"
 description: "Najważniejsze wydarzenia ze świata: geopolityka, makroekonomia, wydarzenia międzynarodowe"
 date: "2026-02-21"
-categories: ["świat", "geopolityka", "makroekonomia", "USA", "Europa"]
+categories: [Świat, Geopolityka, Makroekonomia, USA, Europa]
 author: "Prasówka Światowa"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 draft: false
 ---
 

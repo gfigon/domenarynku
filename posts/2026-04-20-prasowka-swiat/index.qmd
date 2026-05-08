@@ -3,9 +3,9 @@ title: "Prasówka Światowa — 20 kwietnia 2026"
 description: "Najważniejsze wydarzenia ze świata: USA przejmują irański statek, wybory w Bułgarii, trzęsienie ziemi w Japonii"
 date: "2026-04-20"
 author: "Prasówka Światowa"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["geopolityka", "makroekonomia", "USA", "Europa", "Iran", "Bułgaria", "Japonia"]
-categories: ["Świat"]
+categories: [Świat]
 robots: "index, follow"
 ---
 

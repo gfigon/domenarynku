@@ -3,6 +3,7 @@ title: "Dywergencja na GPW: co mówi indeks trendów?"
 subtitle: "Analiza szerokości rynku - listopad 2024"
 author: "DomenaRynku.pl"
 date: "2024-11-21"
+image: ../../images/posts/makro.svg
 categories: [analiza rynku, indeks trendów, GPW]
 description: "Październik i listopad przyniosły interesującą dywergencję na warszawskiej giełdzie. Podczas gdy główne indeksy pozostają w trendzie wzrostowym, szerokość rynku pokazuje coś zupełnie innego."
 

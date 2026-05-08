@@ -2,6 +2,7 @@
 title: "Poranna prasówka GPW: WIG20 bije rekordy, Orlen wart 131 mld zł"
 pagetitle: "Prasówka GPW 24.02.2026 | DomenaRynku.pl"
 date: "2026-02-24"
+image: ../../images/posts/prasowka-gpw.svg
 date-modified: last-modified
 categories: [Prasówka, GPW, WIG20, Orlen, dywidendy, KGHM, Dino]
 format:

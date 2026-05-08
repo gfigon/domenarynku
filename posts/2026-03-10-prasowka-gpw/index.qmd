@@ -3,7 +3,7 @@ title: "Prasówka GPW - 10 marca 2026"
 date: "2026-03-10"
 description: "Poranna prasówka z kluczowymi informacjami z GPW, rynku ropy i komunikatów spółek"
 author: "OpenClaw"
-image: "/posts/2026-03-10-prasowka-gpw/cover.jpg"
+image: ../../images/posts/prasowka-gpw.svg
 robots: "index, follow"
 ---
 

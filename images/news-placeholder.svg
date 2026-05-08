@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none" preserveAspectRatio="xMidYMid slice">
+  <rect width="400" height="240" fill="#ede5d4"></rect>
+  
+  <g stroke="#0a0a0a" stroke-opacity="0.18" stroke-width="0.6">
+    <line x1="0" y1="0" x2="40" y2="40"></line>
+    <line x1="360" y1="200" x2="400" y2="240"></line>
+    <line x1="360" y1="240" x2="400" y2="200"></line>
+    <line x1="0" y1="40" x2="40" y2="0"></line>
+  </g>
+  
+  <rect x="12" y="12" width="376" height="216" stroke="#0a0a0a" stroke-opacity="0.22" stroke-width="0.8" fill="none"></rect>
+  
+  <g transform="translate(200 120)">
+    <polygon points="0,-44 38,-22 38,22 0,44 -38,22 -38,-22" fill="none" stroke="#0a0a0a" stroke-opacity="0.5" stroke-width="1.2"></polygon>
+    <polygon points="0,-30 26,-15 26,15 0,30 -26,15 -26,-15" fill="none" stroke="#c9a961" stroke-width="0.8" stroke-dasharray="2 3"></polygon>
+    <circle cx="32" cy="-18" r="3" fill="#c9a961"></circle>
+  </g>
+  
+  <text x="200" y="206" text-anchor="middle" font-family="&#39;JetBrains Mono&#39;, ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="500" font-size="10" fill="#6b6b66" letter-spacing="0.18em">DOMENARYNKU.PL</text>
+</svg>

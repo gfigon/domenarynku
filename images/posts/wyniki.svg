@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <rect width="400" height="240" fill="#f5efe4"/>
+
+  <!-- top eyebrow -->
+  <text x="20" y="28" font-family="JetBrains Mono, ui-monospace, monospace" font-weight="500" font-size="10" fill="#6b6b66" letter-spacing="0.18em">WYNIKI KWARTALNE · ESPI</text>
+
+  <!-- 2x2 outlined panel of KPIs -->
+  <g stroke="#0a0a0a" stroke-width="1" fill="none">
+    <rect x="24"  y="48" width="170" height="76"/>
+    <rect x="206" y="48" width="170" height="76"/>
+    <rect x="24"  y="132" width="170" height="76"/>
+    <rect x="206" y="132" width="170" height="76"/>
+  </g>
+
+  <!-- labels -->
+  <g font-family="JetBrains Mono, ui-monospace, monospace" font-size="9" font-weight="600" letter-spacing="0.18em" fill="#6b6b66">
+    <text x="36" y="68">PRZYCHODY</text>
+    <text x="218" y="68">EBITDA</text>
+    <text x="36" y="152">ZYSK NETTO</text>
+    <text x="218" y="152">MARŻA</text>
+  </g>
+
+  <!-- big mono numbers -->
+  <g font-family="JetBrains Mono, ui-monospace, monospace" font-weight="700">
+    <text x="36"  y="106" font-size="28" fill="#0a0a0a" letter-spacing="-0.02em">289,3</text>
+    <text x="135" y="106" font-size="11" fill="#6b6b66" letter-spacing="0.06em">mln zł</text>
+
+    <text x="218" y="106" font-size="28" fill="#0a0a0a" letter-spacing="-0.02em">62,4</text>
+    <text x="293" y="106" font-size="11" fill="#6b6b66" letter-spacing="0.06em">mln zł</text>
+
+    <text x="36"  y="190" font-size="28" fill="#0a0a0a" letter-spacing="-0.02em">41,8</text>
+    <text x="111" y="190" font-size="11" fill="#6b6b66" letter-spacing="0.06em">mln zł</text>
+
+    <text x="218" y="190" font-size="28" fill="#2f6647" letter-spacing="-0.02em">14,5%</text>
+  </g>
+
+  <!-- delta deltas (rdr) -->
+  <g font-family="JetBrains Mono, ui-monospace, monospace" font-size="10" font-weight="500" letter-spacing="0.06em">
+    <text x="180" y="118" text-anchor="end" fill="#2f6647">+8,6%</text>
+    <text x="362" y="118" text-anchor="end" fill="#2f6647">+12,1%</text>
+    <text x="180" y="202" text-anchor="end" fill="#8a2e25">−4,2%</text>
+    <text x="362" y="202" text-anchor="end" fill="#6b6b66">+0,4 pp</text>
+  </g>
+
+  <!-- brass accent stroke -->
+  <line x1="24" y1="222" x2="48" y2="222" stroke="#c9a961" stroke-width="1"/>
+  <text x="56" y="226" font-family="JetBrains Mono, ui-monospace, monospace" font-weight="500" font-size="10" fill="#6b6b66" letter-spacing="0.18em">DOMENARYNKU.PL · WYNIKI</text>
+</svg>

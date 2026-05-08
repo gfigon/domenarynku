@@ -3,7 +3,7 @@ title: "Prasówka GPW – 30 kwietnia 2026"
 date: "2026-04-30"
 description: "Najważniejsze wiadomości finansowe z poranka przed sesją GPW"
 author: "DomenaRynku.pl"
-image: "/images/prasowka-gpw.jpg"
+image: ../../images/posts/prasowka-gpw.svg
 tags: ["GPW", "giełda", "banki", "wyniki", "prasówka"]
 seo:
   title: "Prasówka GPW 30.04.2026 – Najważniejsze wiadomości finansowe"

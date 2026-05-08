@@ -2,6 +2,7 @@
 title: "Poranna prasówka GPW: Ormuz otwarty,ropy najtaniej od lat"
 pagetitle: "Prasówka GPW 18.04.2026 | DomenaRynku.pl"
 date: "2026-04-18"
+image: ../../images/posts/prasowka-gpw.svg
 date-modified: last-modified
 categories: [Prasówka, GPW, Ormuz, Ropa, Wall Street]
 format:

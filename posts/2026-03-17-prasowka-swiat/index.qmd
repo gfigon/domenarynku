@@ -3,7 +3,7 @@ title: "Prasówka Światowa – 17 marca 2026"
 description: "Najważniejsze wydarzenia ze świata: wojna Iran-Israel-USA, polityka NATO, sytuacja na Bliskim Wschodzie, geopolityka i makroekonomia"
 date: "2026-03-17"
 author: "DomenaRynku.pl"
-image: "/images/swiat-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["świat", "geopolityka", "iran", "nato", "usa", "izrael", "bliski wschód", "europa", "makroekonomia"]
 layout: "post"
 nofollow: true

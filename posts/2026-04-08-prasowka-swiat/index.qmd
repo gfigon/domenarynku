@@ -3,7 +3,7 @@ title: "Prasówka Światowa – 8 kwietnia 2026"
 description: "Najważniejsze wydarzenia ze świata: geopolityka, makroekonomia USA/Europa, kluczowe wydarzenia międzynarodowe."
 date: "2026-04-08"
 tags: ["prasówka", "świat", "geopolityka", "USA", "Iran", "Europa"]
-image: "/images/prasowka-swiat.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 ---
 
 # Prasówka Światowa – 8 kwietnia 2026

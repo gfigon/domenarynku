@@ -1,6 +1,7 @@
 ---
 title: "Prasówka GPW - 27 marca 2026"
 date: "2026-03-27"
+image: ../../images/posts/prasowka-gpw.svg
 description: "Poranny przegląd rynkowy: Rekordowe LPP, przecena Orlenu po zapowiedziach rządu oraz wyniki KGHM i Neuca. Nastroje przed sesją 27 marca."
 keywords: [GPW, WIG20, LPP, Orlen, KGHM, Neuca, dywidendy, giełda, prasówka]
 editor: 

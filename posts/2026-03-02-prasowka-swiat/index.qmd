@@ -3,9 +3,9 @@ title: "Prasówka Światowa - 2 marca 2026"
 description: "Najważniejsze wydarzenia ze świata: eskalacja konfliktu USA-Izrael-Iran, wzrost cen ropy, nowe porozumienie Indie-Kanada."
 date: "2026-03-02"
 author: "DomenaRynku.pl"
-image: "/images/world-news-march-2026.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["geopolityka", "Iran", "USA", "Izrael", "ropa naftowa", "makroekonomia"]
-categories: ["Świat"]
+categories: [Świat]
 slug: "prasowka-swiat-2026-03-02"
 ---
 

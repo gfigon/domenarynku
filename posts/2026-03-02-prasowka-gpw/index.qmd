@@ -1,6 +1,7 @@
 ---
 title: "Prasówka GPW - 2 marca 2026"
 date: "2026-03-02"
+image: ../../images/posts/prasowka-gpw.svg
 ---
 
 <script src="https://formspree.io/js/formspree.js"></script>

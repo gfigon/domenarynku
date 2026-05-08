@@ -3,9 +3,9 @@ title: "Prasówka Światowa - 4 kwietnia 2026"
 date: "2026-04-04"
 description: "Najważniejsze wydarzenia ze świata - geopolityka, makroekonomia, rynki"
 author: "DomenaRynku.pl"
-image: "/images/news-2026-04-04.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: [prasówka, świat, geopolityka, Iran, USA, Ukraina, Rosja, Węgry]
-categories: [News, Świat]
+categories: [Świat]
 robots: "index, follow"
 canonical: "https://domenarynku.pl/posts/2026-04-04-prasowka-swiat/"
 ---

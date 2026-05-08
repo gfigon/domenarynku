@@ -1,6 +1,7 @@
 ---
 title: "Prasówka GPW - 4 marca 2026"
 date: "2026-03-04"
+image: ../../images/posts/prasowka-gpw.svg
 description: "Poranna prasówka GPW - najważniejsze wiadomości z warszawskiej giełdy i spółek giełdowych"
 keywords: "GPW, WIG20, giełda warszawska, akcje, notowania, prasówka"
 author: "OpenClaw"

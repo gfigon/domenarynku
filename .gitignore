@@ -1,79 +1,73 @@
 # ============================================
-# WRAŻLIWE - Skrypty i dane (NIE wrzucaj)
+# DATA — never commit (regenerable, large, may contain pre-computed snapshots)
 # ============================================
-# Skrypty scrapujące i przetwarzające
-R/
-scripts/
-mod/
-# Dane (pliki .RDS, CSV, itp.)
 data/
 *.RDS
 *.rds
-# ============================================
-# QUARTO - Pliki generowane
-# ============================================
-# Wygenerowana strona (będzie commitowana osobno)
-# Odkomentuj poniższą linię jeśli NIE chcesz commitować _site/
-# _site/
 
-# Pliki które NIE powinny być publikowane
+# ============================================
+# TOOLING — track .R / .sh source, ignore noise
+# ============================================
+# (R/ and scripts/ used to be ignored entirely; selectively re-enabled
+# 2026-05-08 so the data pipeline + migration scripts are version-controlled.)
+R/testy.Rmd
+R/testy.nb.html
+R/.Rhistory
+scripts/update.log
+
+# ============================================
+# QUARTO — build artifacts
+# ============================================
+# _site/ IS committed (Netlify publishes from git). Do not ignore it.
+_freeze/
+.quarto/
+**/*.quarto_ipynb
+
+# Pages we don't want published
 AGENTS.html
 CLAUDE.html
 PROJECT_LOG.html
 README_STRUKTURA.md
 README_STRUKTURA.html
 dash_test.html
-R/
-# Cache i pliki tymczasowe Quarto
-_freeze/
-.quarto/
 
-# Pliki dokumentacyjne (lokalne, nie deploy)
-AGENTS.md
-CLAUDE.md
-PROJECT_LOG.md
-DOKUMENTACJA_PROJEKTU_DOMENARYNKU.md
-README_STRUKTURA.md
 # ============================================
-# R - Pliki systemowe i tymczasowe
+# DOCS — local-only project notes
+# ============================================
+# (CLAUDE.md is now tracked — Claude Code project context.)
+AGENTS.md
+PROJECT_LOG.md
+.PROJECT_LOG.md
+DOKUMENTACJA_PROJEKTU_DOMENARYNKU.md
+
+# ============================================
+# R — system / temp files
 # ============================================
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 .Rapp.history
+
 # ============================================
-# SYSTEM - Pliki OS
+# OS
 # ============================================
-# Mac
 .DS_Store
 .AppleDouble
 .LSOverride
-# Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-# Linux
 *~
-# Claude AI
+
+# ============================================
+# Tools / IDE
+# ============================================
 .claude/
-# Freeze (Quarto cache)
-_freeze/
-# Screenshots
 screens/
-# ============================================
-# IDE - Pliki edytorów
-# ============================================
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
-# ============================================
-# GIT
-# ============================================
 *.orig
-/.quarto/
-**/*.quarto_ipynb
 c.csv
-.PROJECT_LOG.md

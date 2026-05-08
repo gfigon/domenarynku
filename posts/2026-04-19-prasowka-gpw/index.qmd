@@ -3,7 +3,7 @@ title: "Prasówka GPW – 19 kwietnia 2026"
 date: "2026-04-19"
 description: "Poranna prasówka GPW - najważniejsze informacje z warszawskiej giełdy"
 author: "OpenClaw"
-image: "/images/gpw-logo.png"
+image: ../../images/posts/prasowka-gpw.svg
 tags: ["GPW", "giełda", "WIG20", "finanse", "2026"]
 keywords: "GPW WIG20 giełda Warszawa notowania 19 kwietnia 2026"
 nofollow: true

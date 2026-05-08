@@ -3,7 +3,7 @@ title: "Prasówka Światowa – 3 maja 2026"
 description: "Najważniejsze wydarzenia ze świata: geopolityka, makroekonomia USA/Europa, wydarzenia międzynarodowe"
 date: "2026-05-03"
 author: "DomenaRynku.pl"
-image: "/obrazy/posts/2026-05-03-prasowka-swiat.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["świat", "geopolityka", "USA", "Niemcy", "NATO", "Bliski Wschód", "Iran", "Ukraina"]
 robots: "index, follow"
 ---

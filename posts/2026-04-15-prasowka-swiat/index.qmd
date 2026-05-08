@@ -3,7 +3,7 @@ title: "Prasówka Światowa – 15 kwietnia 2026"
 description: "Najważniejsze wydarzenia ze świata: blokada portów Iranu, rozmowy Izrael-Libania, geopolityka, makroekonomia"
 date: "2026-04-15"
 author: "DomenaRynku.pl"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["świat", "geopolityka", "USA", "Iran", "Bliski Wschód", "Izrael", "Liban", "Ukraina", "Węgry"]
 layout: "post"
 nofollow: true

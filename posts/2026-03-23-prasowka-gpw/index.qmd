@@ -1,6 +1,7 @@
 ---
 title: "Prasówka GPW - 23 marca 2026"
 date: "2026-03-23"
+image: ../../images/posts/prasowka-gpw.svg
 description: "Najważniejsze wiadomości finansowe z poranka przed sesją GPW. Ceny ropy, zwolnienia w IKEA, Słowacja z podwójnymi cenami paliw."
 tags: ["prasówka", "GPW", "giełda", "ropa", "IKEA", "Słowacja", "paliwa", "Quercus TFI", "miedź"]
 seo:

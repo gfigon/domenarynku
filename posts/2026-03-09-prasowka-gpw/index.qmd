@@ -3,7 +3,7 @@ title: "Prasówka GPW – 9 marca 2026"
 description: "Poranne podsumowanie wydarzeń na GPW: szok naftowy, ceny ropy powyżej 100 USD, wpływ na rynek paliw w Polsce"
 date: "2026-03-09"
 author: "DomenaRynku.pl"
-image: "/images/gpw-news.jpg"
+image: ../../images/posts/prasowka-gpw.svg
 tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska", "wig20", "ropa", "paliwa", "bliski wschód"]
 layout: "post"
 nofollow: true

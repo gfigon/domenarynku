@@ -2,7 +2,7 @@
 title: Prasówka GPW - 24 kwietnia 2026
 date: 2026-04-24
 author: domenarynku
-image: /images/gpw-header.jpg
+image: ../../images/posts/prasowka-gpw.svg
 description: Poranny przegląd wiadomości z warszawskiej giełdy - 24 kwietnia 2026
 tags: [gpw, giełda, warszawa, biznes]
 status: draft

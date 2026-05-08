@@ -2,7 +2,7 @@
 title: "Prasówka Światowa – 26 marca 2026"
 date: "2026-03-26"
 description: "Najważniejsze wydarzenia ze świata: geopolityka, makroekonomia, rynki finansowe. Wszystko co musisz wiedzieć na start dnia."
-image: "/images/swiat.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 categories:
   - "swiat"
   - "geopolityka"

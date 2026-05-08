@@ -4,7 +4,7 @@ description: "Najważniejsze wydarzenia ze świata: wojna Iran-Izrael, decyzja F
 date: "2026-03-18"
 tags: ["prasówka", "świat", "geopolityka", "makroekonomia"]
 author: "DomenaRynku.pl"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 robots: "index, follow"
 ---
 

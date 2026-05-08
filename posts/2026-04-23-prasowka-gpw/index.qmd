@@ -1,6 +1,7 @@
 ---
 title: "Prasówka GPW – 23 kwietnia 2026 (rano)"
 date: "2026-04-23"
+image: ../../images/posts/prasowka-gpw.svg
 categories:
 - Prasówka
 - GPW

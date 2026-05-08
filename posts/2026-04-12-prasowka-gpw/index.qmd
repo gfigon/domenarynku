@@ -1,7 +1,8 @@
 ---
 title: "Prasówka GPW — 12 kwietnia 2026"
 date: "2026-04-12"
-categories: [GPW, giełda, dywidendy, ESPI]
+image: ../../images/posts/prasowka-gpw.svg
+categories: [GPW, Giełda, dywidendy, ESPI]
 ---
 
 ```{r setup, include=FALSE}

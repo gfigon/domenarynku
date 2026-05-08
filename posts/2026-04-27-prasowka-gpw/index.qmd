@@ -2,6 +2,7 @@
 title: "Poranna prasówka GPW: Poniedziałek 27 kwietnia — przed sesją"
 pagetitle: "Prasówka GPW 27.04.2026 | DomenaRynku.pl"
 date: "2026-04-27"
+image: ../../images/posts/prasowka-gpw.svg
 date-modified: last-modified
 categories: [Prasówka, GPW, WIG20, Alior Bank, Agora, SIPRI, obronność]
 format:

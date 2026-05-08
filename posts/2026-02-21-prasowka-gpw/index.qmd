@@ -2,6 +2,7 @@
 title: "Poranna prasówka GPW: KGHM błyszczy, tydzień pod znakiem niepewności"
 pagetitle: "Prasówka GPW 21.02.2026 | DomenaRynku.pl"
 date: "2026-02-21"
+image: ../../images/posts/prasowka-gpw.svg
 date-modified: last-modified
 categories: [Prasówka, GPW, KGHM, Orlen, PGE, Wall Street]
 format:

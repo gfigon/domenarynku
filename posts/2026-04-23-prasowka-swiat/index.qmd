@@ -3,9 +3,9 @@ title: "Prasówka Światowa — 23 kwietnia 2026"
 description: "UE approveje 90 mld euro pożyczki dla Ukrainy, blokada Cieśniny Hormuz trwa, czołowe zderzenie pociągów w Danii, nowa umowa UK-Francia ws. migracji"
 date: "2026-04-23"
 author: "Prasówka Światowa"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["geopolityka", "makroekonomia", "USA", "Europa", "Iran", "Ukraina", "Dania", "Wielka Brytania", "Chiny"]
-categories: ["Świat"]
+categories: [Świat]
 robots: "index, follow"
 ---
 

@@ -3,7 +3,7 @@ title: "Prasówka Światowa – 4 maja 2026"
 description: "Codzienny przegląd najważniejszych wydarzeń ze świata: geopolityka, makroekonomia, kluczowe informacje międzynarodowe."
 date: "2026-05-04"
 author: "DomenaRynku.pl"
-image: "/images/posts/2026-05-04-swiat.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: [geopolityka, media, świat, iran, usa, europa, ukraina]
 slug: prasowka-swiat-2026-05-04
 canonical_url: https://domenarynku.pl/posts/prasowka-swiat-2026-05-04

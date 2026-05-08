@@ -2,8 +2,9 @@
 title: "Poranna prasówka GPW: Cła, ropa i nastroje przed sesją"
 pagetitle: "Prasówka GPW 23.02.2026 | DomenaRynku.pl"
 date: "2026-02-23"
+image: ../../images/posts/prasowka-gpw.svg
 date-modified: last-modified
-categories: [Prasówka, GPW, WIG20, ropa, miedź, Trump, cła]
+categories: [Prasówka, GPW, WIG20, Ropa, miedź, Trump, cła]
 format:
   html:
     header-includes: |

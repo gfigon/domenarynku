@@ -1,11 +1,12 @@
 ---
 title: "Prasówka GPW — 14 kwietnia 2026"
 date: "2026-04-14 08:30"
-categories: [GPW, giełda, biznes, finanse]
+image: ../../images/posts/prasowka-gpw.svg
+categories: [GPW, Giełda, biznes, finanse]
 slug: prasowka-gpw-2026-04-14
 description: Poranna prasówka GPW - najważniejsze informacje z warszawskiej giełdy
 twitter_card: summary_large_image
-og_image: 
+
 ---
 
 **Prasówka GPW** — *Wtorek, 14 kwietnia 2026, godz. 08:30*

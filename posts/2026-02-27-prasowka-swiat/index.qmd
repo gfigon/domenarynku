@@ -3,7 +3,7 @@ title: "Prasówka Światowa – 27 lutego 2026"
 description: "Najważniejsze wydarzenia ze świata: geopolityka, makroekonomia, wydarzenia międzynarodowe"
 date: "2026-02-27"
 author: "DomenaRynku.pl"
-image: "/images/world-news.jpg"
+image: ../../images/posts/prasowka-swiat.svg
 tags: ["świat", "geopolityka", "USA", "Europa", "gospodarka"]
 layout: "post"
 nofollow: true

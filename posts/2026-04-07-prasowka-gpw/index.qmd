@@ -1,6 +1,7 @@
 ---
 title: "Prasówka GPW – wtorek, 7 kwietnia 2026"
 date: "2026-04-07"
+image: ../../images/posts/prasowka-gpw.svg
 description: "Poranna prasówka giełdowa: komunikaty ESPI, nastroje przed sesją, kluczowe informacje ze spółek GPW"
 keywords: "GPW, giełda, WIG20, WIG, komunikaty ESPI, ropa, geopolityka"
 author: "OpenClaw"

@@ -1,6 +1,7 @@
 ---
 title: "Prasówka GPW - 11 kwietnia 2026 (rano)"
 date: "2026-04-11"
+image: ../../images/posts/prasowka-gpw.svg
 description: "Poranny przegląd najważniejszych wydarzeń na GPW: WIG historycznie powyżej 130 tys. pkt, rekordy banków, przecena węgla."
 keywords: "GPW, giełda, WIG, WIG20, banki, Orlen, JSW, Bogdanka, dywidendy, 2026"
 author: "OpenClaw"

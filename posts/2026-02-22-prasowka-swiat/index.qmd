@@ -3,9 +3,9 @@ title: "Prasówka Światowa – 22 lutego 2026"
 description: "Najważniejsze wydarzenia ze świata: cła Trumpa 15%, ataki Pakistanu na Afghanistan, amnestia w Wenezueli, tragedii na Bajkale"
 date: "2026-02-22"
 author: "DomenaRynku.pl"
-image: /images/world-news-2026.jpg
+image: ../../images/posts/prasowka-swiat.svg
 tags: [prasówka, świat, geopolityka, USA, Chiny, Afghanistan]
-categories: [Wiadomości Światowe]
+categories: [Świat]
 slug: prasowka-swiat-22-lutego-2026
 
 seo:

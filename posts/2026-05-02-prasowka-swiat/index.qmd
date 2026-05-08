@@ -2,6 +2,7 @@
 title: "Prasówka Światowa – 2 maja 2026"
 description: "Najważniejsze wydarzenia ze świata: napięcia USA-Iran, wycofanie wojsk z Niemiec, sytuacja w Libanie"
 date: "2026-05-02"
+image: ../../images/posts/prasowka-swiat.svg
 author: "DomenaRynku.pl"
 tags: ["geopolityka", "USA", "Iran", "Niemcy", "Bliski Wschód", "makroekonomia"]
 layout: "post"

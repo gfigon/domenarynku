@@ -2,6 +2,7 @@
 title: "Prasówka Światowa: Książę Andrzej aresztowany, USA dają Iranowi 10 dni na porozumienie"
 pagetitle: "Prasówka Światowa 19.02.2026 | DomenaRynku.pl"
 date: "2026-02-19"
+image: ../../images/posts/prasowka-swiat.svg
 date-modified: last-modified
 categories: [Prasówka, Świat, Geopolityka, Makroekonomia]
 format:

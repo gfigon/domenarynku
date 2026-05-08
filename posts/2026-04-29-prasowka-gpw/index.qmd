@@ -1,6 +1,7 @@
 ---
 title: "Prasówka GPW: 29 kwietnia 2026"
 date: "2026-04-29"
+image: ../../images/posts/prasowka-gpw.svg
 description: "Poranna prasówka finansowa GPW - wyniki spółek, polityka gospodarcza i informacje z rynków"
 tags: ["GPW", "giełda", "finanse", "akcje", "prasówka", "energia"]
 ---

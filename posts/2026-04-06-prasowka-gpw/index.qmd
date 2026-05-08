@@ -3,7 +3,7 @@ title: "Prasówka GPW – 6 kwietnia 2026"
 description: "Poranne podsumowanie wydarzeń na GPW: rekordowy marzec, obroty, nastroje przed sesją, kluczowe informacje rynkowe"
 date: "2026-04-06"
 author: "DomenaRynku.pl"
-image: "/images/gpw-news.jpg"
+image: ../../images/posts/prasowka-gpw.svg
 tags: ["gpw", "giełda", "warszawa", "akcje", "biznes", "polska", "obroty", "rekord"]
 layout: "post"
 nofollow: true

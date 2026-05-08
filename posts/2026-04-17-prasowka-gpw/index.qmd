@@ -1,6 +1,7 @@
 ---
 title: "Prasówka GPW - 17 kwietnia 2026"
 date: "2026-04-17"
+image: ../../images/posts/prasowka-gpw.svg
 ---
 
 ```{r setup, include=FALSE}

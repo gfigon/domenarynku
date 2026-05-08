@@ -1,6 +1,7 @@
 ---
 title: "Prasówka GPW — 5 kwietnia 2026"
 date: "2026-04-05"
+image: ../../images/posts/prasowka-gpw.svg
 description: "Poranna prasówka z kluczowymi wiadomościami z GPW i rynków finansowych"
 editor: source
 ---

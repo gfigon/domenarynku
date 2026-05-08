@@ -1,6 +1,7 @@
 ---
 title: "Prasówka GPW - 19 marca 2026"
 date: "2026-03-19"
+image: ../../images/posts/prasowka-gpw.svg
 description: "Najważniejsze wiadomości finansowe z polskiego rynku kapitałowego przedsesyjnego - sesja GPW, dywidenda Santander, rekomendacja Text, debiuty IPO."
 keywords: "GPW, giełda, sesja, dywidenda, Santander, Text, Scanway, ETF, PZU, 2026"
 og_description: "Przegląd najważniejszych wydarzeń na GPW przed sesją 19 marca 2026."

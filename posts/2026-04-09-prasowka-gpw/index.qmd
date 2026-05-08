@@ -1,6 +1,7 @@
 ---
 title: "Poranna prasówka GPW – 9 kwietnia 2026"
 date: "2026-04-09"
+image: ../../images/posts/prasowka-gpw.svg
 categories: [Giełda, Prasówka, GPW]
 description: "Najważniejsze informacje przed sesją: WIG20 na historycznym maksimum, KGHM z fenomenalnym wzrostem, wyniki spółek za I kwartał 2026."
 seo:

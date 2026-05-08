@@ -3,7 +3,7 @@ title: "Prasówka GPW – 6 maja 2026"
 date: "2026-05-06"
 description: "Poranna prasówka z wiadomościami GPW i rynków finansowych"
 author: "domenarynku"
-image: "/images/gpw-header.jpg"
+image: ../../images/posts/prasowka-gpw.svg
 tags: ["GPW", "giełda", "akcje", "prasówka", "Energa", "PHN", "Votum", "2026"]
 nofollow: true
 ---
