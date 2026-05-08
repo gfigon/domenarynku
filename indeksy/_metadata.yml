@@ -1,0 +1,4 @@
+# Indeksy zależą od data/index_*.RDS, które jest regenerowane codziennie.
+# freeze: false wymusza re-egzekucję R-chunków przy każdym renderze, więc
+# wykres pokazuje świeże dane bez triku z `touch indeksy/*.qmd`.
+freeze: false

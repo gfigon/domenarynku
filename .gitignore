@@ -71,3 +71,5 @@ screens/
 *.swo
 *.orig
 c.csv
+
+/.quarto/

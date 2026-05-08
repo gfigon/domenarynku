@@ -2,6 +2,10 @@
 title: "Spółki GPW"
 subtitle: "Interaktywna tabela notowań spółek giełdowych"
 pagetitle: "Spółki GPW | Tabela notowań"
+# Tabela czyta data/prices100.RDS — codziennie odświeżane. freeze: false
+# wymusza re-egzekucję R-chunków przy każdym renderze, żeby ceny
+# w tabeli były aktualne (analogicznie do indeksy/_metadata.yml).
+freeze: false
 format:
   html:
     header-includes: |

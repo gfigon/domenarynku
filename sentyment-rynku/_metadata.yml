@@ -1,0 +1,3 @@
+# Sentyment zależy od data/sentiment*.RDS i my_sent_xts*.RDS, które są
+# regenerowane codziennie. freeze: false wymusza re-egzekucję R-chunków.
+freeze: false
